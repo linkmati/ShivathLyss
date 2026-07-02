@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "f6946ddf656d22f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f5d689bfbda74cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "915b2de519ca30c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Misiones/Unmasking Cassien.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unmasking Cassien"
+            }
+          },
+          {
+            "id": "1e781b8699e8cc42",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.9.12"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44cb4c4ec40e92f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e86189d0b5124522",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72fa553b51178e82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "c738cccddc4ef474",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "b1bbd1e28b78f585",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8001c437927dde2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfae817c6b9dc001",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "927b39d42735013f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "40ac59b0040fef44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "5326d28a3ada4ec8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "cbbf7c7c011c84d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Crear nueva base": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "1e781b8699e8cc42",
+  "lastOpenFiles": [
+    "4 - Misiones/Unmasking Cassien.md",
+    "4 - Misiones/El Objeto Bendito de Morierelth.md",
+    "4 - Misiones/The Lost Book of Nicolás Furioso.md",
+    "3 - Personajes/NPC/Kami/Tsukiryuu.md",
+    "3 - Personajes/NPC/Dioses/Auryn.md",
+    "3 - Personajes/NPC/Dioses/Morierelth.md",
+    "1 - Mundo/Organizaciones/Solipsis Archive.md",
+    "3 - Personajes/Jugadores/Ary - Noah.md",
+    "3 - Personajes/NPC/Dioses/Eldarionne.md",
+    "1 - Mundo/Mazdas/Zatchen.md",
+    "5 - Otros/Huoshi.md",
+    "3 - Personajes/NPC/Kami/Yanglong.md",
+    "3 - Personajes/NPC/Dioses/Zoryan.md",
+    "3 - Personajes/NPC/Dioses/Thalarkhan.md",
+    "3 - Personajes/NPC/Dioses/Shefir.md",
+    "3 - Personajes/NPC/Dioses/Nu'Varak.md",
+    "3 - Personajes/NPC/Dioses/Nairek.md",
+    "3 - Personajes/NPC/Dioses/Nameka.md",
+    "3 - Personajes/NPC/Dioses/Calyra.md",
+    "5 - Otros/Teorías y preguntas.md",
+    "1 - Mundo/Shivath.md",
+    "1 - Mundo/Mazdas/Mazdas.md",
+    "1 - Mundo/Angramanio/Angramanio.md",
+    "1 - Mundo/Mundo.md",
+    "3 - Personajes/Jugadores/Mac - Dani.md",
+    "4 - Misiones/The Alchemist Trail.md",
+    "Por ordenar",
+    "2 - Historia/Pasado",
+    "2 - Historia/Futuro",
+    "2 - Historia/Presente",
+    "3 - Personajes/NPC/Kami",
+    "Sin título.canvas",
+    "1 - Mundo/Panteones",
+    "1 - Mundo/Organizaciones",
+    "3 - Personajes/NPC/Otros",
+    "4 - Misiones",
+    "Obsidian/Tags"
+  ]
+}

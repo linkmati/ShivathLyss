@@ -1,0 +1,2 @@
+
+Los dioses se pueden matar. Es algo difícil, pero tienen un cuerpo físico que se puede eliminar. Tienden a aparecerse de formas mágicas para evitar el peligro que trae presentarse con un cuerpo. Parece que muchos de ellos, los más importantes y antiguos por lo menos, residen en las lunas. 

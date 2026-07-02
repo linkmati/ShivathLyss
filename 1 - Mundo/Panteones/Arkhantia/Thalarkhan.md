@@ -1,0 +1,12 @@
+#Deity 
+[[Arkhantia]] 
+
+Thalarkhan, el Dios Dragón de la Justicia en la Guerra, representa la idea de que la verdadera fuerza radica en el equilibrio, la disciplina y la comprensión. Su esencia no se trata de la gloria de la guerra ni del triunfo de la conquista, sino del honor y el crecimiento que surgen a través del combate cuando se lucha con respeto y un propósito más profundo. Para Thalarkhan, una batalla es un reflejo de la vida misma, llena de desafíos, decisiones y la constante prueba de la integridad de uno.
+
+Su influencia se extiende mucho más allá del campo de batalla, alcanzando las luchas cotidianas de la vida. Aquellos que honran a Thalarkhan aprenden a enfrentar todos los aspectos de la vida con la mentalidad de un guerrero: serenos, calculados y justos. Las enseñanzas de Thalarkhan aportan claridad a quienes las buscan, ayudando a sus seguidores a reconocer que el camino hacia el verdadero dominio pasa por el equilibrio. Él defiende la idea de que un adversario, ya sea en combate o en la vida diaria, debe ser tratado con el mismo respeto que uno tiene por sí mismo.
+
+Los templos y academias marciales dedicados a Thalarkhan sirven como santuarios tanto para guerreros experimentados como para aquellos que buscan sabiduría en el arte del combate. En estos lugares, los guerreros entrenan no solo para manejar sus armas, sino también para la introspección y para buscar el significado más profundo detrás de sus acciones. Se dice que cuando uno lucha bajo la mirada de Thalarkhan, lo hace no solo por ganancia personal o gloria, sino por el crecimiento de su espíritu y el entendimiento de su oponente.
+
+Las Escalas de Thalarkhan, sus sacerdotes de confianza, sirven como maestros y árbitros de la justicia. Les recuerdan al mundo que el poder no debe ser abusado, que la guerra nunca debe librarse sin razón y que la mayor fuerza radica en saber cuándo luchar—y cuándo encontrar otra manera.
+
+La presencia de Thalarkhan es silenciosa pero siempre está presente, en la tensión antes de un duelo, en el respeto mutuo entre dos guerreros y en los momentos de realización en los que se comprende que dominar el combate es dominarse a uno mismo. Y al final, se dice que aquellos que siguen el camino de Thalarkhan, independientemente del resultado de la pelea, siempre son los verdaderos vencedores.
