@@ -50,11 +50,11 @@ Aunque el orden de conexión de las salas cambia en cada incursión, el estado d
 
 El verdadero avance no es subir de nivel, sino entender la lógica de Minos:
 
-| Tipo de Conocimiento | Mecánica en Juego | Ejemplo |
-| :--- | :--- | :--- |
-| **Dialecto de Minos** | Glifos traducidos en salas profundas. | Entender la inscripción *"El Toro mira hacia el sol al alba"* para abrir la puerta sellada de la primera sala. |
-| **Secuencias de Puzle** | Contraseñas/Combinaciones. | Encontrar la clave de 4 símbolos en la Sala K y usarla en el panel de la Sala B en otra run. |
-| **Variables de Entorno** | Modificadores de estado global. | Inundar el nivel inferior en el Depósito para que en la siguiente *run* las salas inferiores tengan rutas flotantes. |
+| Tipo de Conocimiento     | Mecánica en Juego                     | Ejemplo                                                                                                              |
+| :----------------------- | :------------------------------------ | :------------------------------------------------------------------------------------------------------------------- |
+| **Dialecto de Minos**    | Glifos traducidos en salas profundas. | Entender la inscripción *"El Toro mira hacia el sol al alba"* para abrir la puerta sellada de la primera sala.       |
+| **Secuencias de Puzle**  | Contraseñas/Combinaciones.            | Encontrar la clave de 4 símbolos en la Sala K y usarla en el panel de la Sala B en otra run.                         |
+| **Variables de Entorno** | Modificadores de estado global.       | Inundar el nivel inferior en el Depósito para que en la siguiente *run* las salas inferiores tengan rutas flotantes. |
 
 ---
 
