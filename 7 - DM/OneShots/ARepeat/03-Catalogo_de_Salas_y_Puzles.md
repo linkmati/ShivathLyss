@@ -1,7 +1,7 @@
-# Catálogo Maestro de Salas, Puzles y Encuentros (Inspiración Isaac & 3D Zelda)
+# Compendio Maestro de 27 Puzles, Salas y Encuentros (Isaac & 3D Zelda)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md`  
-> **Filosofía de Diseño**: Puzles espaciales, interacción de entorno, salas temáticas estilo *The Binding of Isaac* (Arcadas, Sacrificio, Mercado, Desafío, Salas Secretas) y puzles mecánicos profundos de *3D Zelda* (OoT, MM, WW, TP, SS, BotW/TotK).
+> **Filosofía**: Catálogo exhaustivo de puzles espaciales, mecánicos y eventos no combativos inspirados en *The Binding of Isaac* y *3D Zelda Games* (OoT, MM, WW, TP, SS, BotW, TotK) listos para usar en la rejilla 7x7.
 
 ---
 
@@ -22,95 +22,124 @@ flowchart TD
 
 ## 2. Catálogo de Salas Especiales Estilo The Binding of Isaac
 
-### A. 🗝️ La Sala Secreta de Minos (Isaac Secret Room Pura)
-* **Regla de Posicionamiento Isaac**: Generada obligatoriamente en una celda de la rejilla 7x7 que conecta con **2, 3 o 4 salas activas**.
-* **Pistas Externas**: **NINGUNA**. No hay grietas ni marcas visuales en los muros exteriores. Los jugadores deducen su existencia en el cuaderno físico buscando huecos vacíos rodeados por salas.
-* **Mecanismo de Apertura**: Impacto de Bomba o uso de sintonía **EARTH Shatter** en el muro ciego.
-* **Contenido y Botín**: Pedestal de piedra arcana con un **Cofre de Reliquias Raras de Minos**, 2d6 elixires elementales o un **Fragmento de la Rueda de Criptografía**.
+### 01. 🗝️ La Sala Secreta Pura de Minos (Isaac Secret Room)
+* **Generación Isaac**: Ubicada en una celda adyacente a **2, 3 o 4 salas activas**.
+* **Sin Pistas Exteriores**: NINGUNA grieta o marca en paredes exteriores. Deducción 100% por geometría en el cuaderno físico del grupo.
+* **Apertura**: Bomba o impacto contundente de sintonía **EARTH Shatter**.
+* **Botín**: Pedestal de piedra arcana con **Cofre de Reliquias Raras de Minos** (o 2d6 elixires elementales).
 
-### B. 🩸 La Cámara del Altar de Sacrificio (Sacrifice Room)
-* **Inspiración**: *Isaac Sacrifice Rooms*.
-* **Diseño**: Una losa de basalto erizada de picos arcanos en el centro de un estanque de líquido resplandeciente.
-* **Mecánica**: Un aventurero puede voluntariamente derramar su sangre sobre los picos (perdiendo HP o **1 Carga Arcana**).
-* **Efecto de la Plegaria a Minos**:
-  * *Tirada 1d6*:
-    * **1-3**: Otorga un elíxir elemental bendito o bufo temporal (+2 a tiradas de salvación).
-    * **4-5**: Revela el mapa de 3 salas no exploradas de la rejilla.
-    * **6**: Otorga una reliquia arcana rara o desvela la posición de la Subdungeon.
+### 02. 🗝️🗝️ La Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)
+* **Generación Isaac**: Ubicada en una celda que conecta con **SOLO 1 SALA ACTIVA** (al final de una rama muerta).
+* **Apertura**: Muro de piedra muy denso que requiere 2 Cargas o una Bomba rúnica pesada.
+* **Botín**: Altar de sintonía pura que concede sintonía gratuita instantánea durante la run actual a 1 jugador.
 
-### C. ⚖️ La Sala de Desafío Rúnico (Challenge Room)
-* **Inspiración**: *Isaac Challenge & Boss Challenge Rooms*.
-* **Diseño**: Un gran salón de armas arcanas con un interruptor de piedra con el ideograma `[▶ PHAS-FWD] + [⚙ GEAR]`.
-* **Mecánica**: Accionar el interruptor **sella instantáneamente las puertas** y activa un sistema de trampas defensivas (estatuas Beamos que rotan o constructos de basalto).
-* **Recompensa**: Tras sobrevivir 3 rondas de trampa o desactivar los 3 pedestales de control, las puertas se reabren y descienden **2 Cofres Dorados de Downtime**.
+### 03. 🩸 La Cámara del Altar de Sacrificio (Sacrifice Room)
+* **Mecánica**: Un estanque de sangre rúnica con un pedestal erizado de picos de basalto.
+* **Ofrenda**: Un jugador derrama voluntariamente sangre (pierde 1d10 HP o **1 Carga Arcana**).
+* **Favores de Minos (1d6)**:
+  1. *1-2*: Elixir de resistencia elemental para el grupo.
+  2. *3-4*: Revelación instantánea de 3 salas en la Web App.
+  3. *5-6*: **Fragmento de la Rueda de Criptografía de Minos** o Reliquia Estelar.
 
-### D. 📜 El Mercado del Mercader Espectral (Arcane Shop / Merchant)
-* **Inspiración**: *Isaac Shops / Zelda Merchants*.
-* **Diseño**: Una estatua parlante de Minos rodeada de tres pedestales flotantes de cuarzo.
-* **Mecánica**: El espectro ofrece elixires de sintonía, pergaminos de atajo o bombas a cambio de gemas de downtime o elixires colectados. Permitir intercambios éticos sin violencia.
+### 04. ⚖️ La Sala de Desafío Rúnico (Challenge Room)
+* **Mecánica**: Pulsar el pedestal central sella las puertas e invoca 3 rondas de trampas Beamos o constructos de basalto.
+* **Recompensa**: Al sobrevivir 3 rondas, se abren las puertas y descienden **2 Cofres Dorados de Downtime**.
+
+### 05. 📜 El Mercado Espectral de Minos (Arcane Shop / Merchant)
+* **Mecánica**: Estatua parlante de Minos rodeada de pedestales flotantes. Permite comerciar consumibles de dungeon, pergaminos de atajo o bombas por gemas o elixires colectados.
+
+### 06. 🎲 La Sala del Dado de Basalto de 6 Caras (Arcade / Dice Room)
+* **Mecánica**: Un pedestal de dado gigante. Gastar 1 Carga Arcana o 1 gema permite tirar el dado:
+  * **1**: Trampa de descarga eléctrica.
+  * **2-3**: Regenera 1d4 HP a todos los exploradores.
+  * **4-5**: Cambia el estado de todas las puertas cerradas de la sala a Abiertas.
+  * **6**: Recombina la disposición de cofres de la run, mejorándolos a dorados.
+
+### 07. 🩸 La Sala de la Maldición de la Sombra (Curse Room)
+* **Mecánica**: El pasadizo de entrada está erizado de espinas oscuras. Atravesarlo inflige **1d6 daño psíquico** al entrar y **1d6** al salir.
+* **Recompensa**: Contiene un cofre de reliquias arcanas prohibidas o un pergamino de atajo directo a la Subdungeon.
 
 ---
 
-## 3. Catálogo Extenso de Salas y Puzles Inspirados en 3D Zelda
+## 3. Catálogo Extenso de Puzles Espaciales (3D Zelda)
 
 ### A. Ocarina of Time / Majora's Mask
 
-#### Sala 01: El Pozo de las Balanzas de Agua (Water Temple Weight Puzzle)
-* **Diseño**: Cámara cilíndrica de 40 pies sumergida. Un botón de presión de basalto gigante yace en el lecho marino.
-* **Mecánica**: Los nadadores convencionales flotan por la densidad del agua. Requiere armadura pesada o sintonía **EARTH** (que incrementa la densidad corporal) para hundirse y presionar el interruptor, drenando la cisterna.
+#### 08. El Enigma de las Tres Cisternas en Cascada (OoT Water Temple)
+* **Mecánica**: Tres válvulas en espiral regulan el agua de 3 salas vecinas en la rejilla 7x7. Ajustar la Válvula A drena la Sala B, pero inunda la Sala C, exigiendo coordinar el flujo para alcanzar el pedestal sumergido.
 
-#### Sala 02: El Salón de la Lente Prismática (Lens of Truth Room)
-* **Diseño**: Un foso de lava hirviendo sin puentes visibles.
-* **Mecánica**: Usar el *Escudo Prismático (LIGHT)* refleja la luz del techo sobre la niebla, revelando baldosas flotantes de cristal que no existen en el espectro visible normal.
+#### 09. El Pozo de las Sombras y Plataformas Fantasma (OoT Lens of Truth)
+* **Mecánica**: Foso sin suelo visible. El *Escudo Prismático (LIGHT)* o proyectar luz encendida sobre los muros muestra las sombras proyectadas de baldosas flotantes invisibles.
 
-#### Sala 03: Las Cuatro Antorchas de la Prueba Solar (Torch Speed Run)
-* **Diseño**: Cuatro braseros de bronce apagados rodeando la puerta del sanctum.
-* **Mecánica**: Encender la primera antorcha inicia una mecha arcana que se apaga en **6 segundos (1 ronda)**. Requiere encender las 4 en un solo turno usando sintonía **FIRE** (área) o el *Guantelete de Llama*.
+#### 10. La Galería de las Cuatro Antorchas de Viento (MM Snowhead Temple)
+* **Mecánica**: Cuatro antorchas deben encenderse en < 6 segundos mientras soplos helados apagan las antorchas desprotegidas. Exige cubrir las corrientes con muros de basalto (`EARTH`) antes de encenderlas con **FIRE**.
+
+#### 11. El Laberinto de los Bloques de Tiempo Sincronizados (OoT Song of Time)
+* **Mecánica**: Bloques grabados con ideogramas que se materializan o desvanecen en intervalos de 1 ronda. Los aventureros deben cronometrar sus saltos para no caer al foso.
+
+#### 12. La Pista de Baldosas Caedizas de Cuarzo (OoT Crumbling Tiles)
+* **Mecánica**: Baldosas agrietadas sobre lava que se desmoronan 1 segundo después de pisarlas. Planificar la carrerilla continua sin detenerse.
 
 ---
 
 ### B. Wind Waker / Twilight Princess
 
-#### Sala 04: La Rueda de Espejos del Templo Solar (Spirit Light Alignment)
-* **Diseño**: Galería circular con 3 estatuas equipadas con espejos orientables sobre peanas de bronce.
-* **Mecánica**: Reorientar los espejos en secuencia circular para redirigir un haz de luz solar directo desde el tragaluz central hasta el Sello de Sol de la compuerta.
+#### 13. La Galería de los Espejos en Cadena (Spirit / Earth Temple)
+* **Mecánica**: Cuatro estatuas equipadas con espejos orientables. Girar cada espejo para conducir un haz solar en cadena desde la entrada hasta la compuerta del sello del sol.
 
-#### Sala 05: El Pozo del Viento Ascendente (Updraft Shaft)
-* **Diseño**: Torre vertical de 50 pies con rejillas ruidosas en el piso.
-* **Mecánica**: Activar la consola `[🟄 AIR] + [▲ KAEL-UP]` desata una potente corriente de viento. Los exploradores con la *Capa del Vértice* o sintonía **AIR** flotan plácidamente hacia la cornisa superior.
+#### 14. El Pozo del Viento Ascendente (WW Wind Temple)
+* **Mecánica**: Torre vertical de 50 pies con rejillas ruidosas. Activar `[🟄 AIR] + [▲ KAEL-UP]` genera una ráfaga ascendente que permite volar con la *Capa del Vértice* hasta la cima.
 
-#### Sala 06: Las Estatuas Gemelas Espejadas (Dominion Rod Statue Sync)
-* **Diseño**: Sala dividida a la mitad por una muralla de cristal insonorizado. En cada lado hay una estatua pesada y un pedestal de presión.
-* **Mecánica**: Al empujar la Estatua A, la Estatua B se mueve de forma **reflejada** en la otra mitad. El grupo debe maniobrar para que ambas estatuas pisen sus interruptores **simultáneamente**.
+#### 15. Las Estatuas Gemelas Espejadas (TP Dominion Rod Sync)
+* **Mecánica**: Sala dividida por un muro transparente. Mover la Estatua A desplaza la Estatua B de forma espejada en el otro lado para que ambas pisen pedestales a la vez.
+
+#### 16. El Cañón de las Bolas de Basalto (TP Bomb Bowling)
+* **Mecánica**: Rodar esferas de piedra pesadas por canaletas curvas inclinadas para impactar y destruir barreras distantes de la sala.
+
+#### 17. El Obelisco de la Vela Solar Giratoria (WW Wind Sail)
+* **Mecánica**: Reorientar una vela giratoria con ráfagas de la *Capa del Vértice (AIR)* para desplazar una pasarela móvil de bronce sobre un abismo.
 
 ---
 
 ### C. Skyward Sword / Breath of the Wild / Tears of the Kingdom
 
-#### Sala 07: El Engranaje de Tiempo Invertido (Recall Time Gear)
-* **Diseño**: Una rueda de molino de basalto gigante girando continuamente en sentido horario, arrojando bloques de piedra al abismo.
-* **Mecánica**: Usar sintonía de tiempo o ideogramas `[🔄 ROT-CYCLE]` invierte el giro de la rueda (sentido antihorario). Los jugadores se suben a los álabes del molino para ascender montados hasta la salida del techo.
+#### 18. El Engranaje de Tiempo Invertido (TotK Recall)
+* **Mecánica**: Una rueda de molino gigante girando en sentido horario arrojando rocas. Usar `[🔄 ROT-CYCLE]` invierte su giro, permitiendo subir montado en sus palas.
 
-#### Sala 08: El Balancín y Catapulta de Basalto (Seesaw Launch)
-* **Diseño**: Una viga pesada pivotando sobre un bloque central. La salida está en una repisa a 30 pies.
-* **Mecánica**: Un aventurero se ubica en el extremo inferior. Otro aventurero se arroja desde una cornisa o deja caer un bloque pesado (**EARTH**) sobre el otro extremo, catapultando al aventurero al balcón.
+#### 19. La Balanza de Peso y Catapulta de Piedra (BotW Seesaw Launch)
+* **Mecánica**: Dejar caer un bloque de basalto pesado (**EARTH**) en un extremo de una viga balanceada catapultando al aventurero del otro extremo al balcón superior.
 
-#### Sala 09: La Red de Conductividad Eléctrica (Electric Circuit Puzzle)
-* **Diseño**: Un estanque de agua salada entre un generador rúnico activo y la puerta receptora.
-* **Mecánica**: Colocar cadenas de hierro, armas metálicas o usar a un PJ sintonizado con agua/electricidad para crear una red conductora que transmita la corriente y active el cerrojo.
+#### 20. La Red de Conductividad Salina (BotW Electric Circuit)
+* **Mecánica**: Estanque de agua salada entre un generador y la puerta. Alinear barriles metálicos o armas de hierro para formar la red que transmita la corriente continua.
+
+#### 21. El Carril de los Maderos Flotantes a Presión (BotW Buoyancy)
+* **Mecánica**: Cortar las cuerdas de retenidas de balsas sumergidas para catapultarlas verticalmente a la superficie y presionar botones del techo.
+
+#### 22. La Torre de Gravedad Invertida (Majora's Mask / TotK)
+* **Mecánica**: Invertir la gravedad de la sala con la consola rúnica, caminando boca abajo sobre el techo para cruzar fosos de picos.
 
 ---
 
 ## 4. Catálogo de Encuentros No Combativos (Narrativos y Espaciales)
 
-### Encuentro 01: El Oráculo de Basalto Mudo
-* **Concepto**: Un gólem ancestral que custodia un atajo permanente. No ataca.
-* **Dinámica**: Se comunica únicamente encendiendo secuencias de ideogramas en su pecho. Los jugadores deben responder encendiendo la secuencia opuesta o armónica en la consola del pedestal para ganar su bendición.
+### 23. El Oráculo de Basalto Mudo
+* **Concepto**: Gólem ancestral sentado en loto. Se comunica encendiendo triadas de ideogramas en su pecho (`[🌱 LIFE] + [▶ PHAS-FWD]`).
+* **Resolución**: Replicar la secuencia armónica en la consola del pedestal abre un atajo de retorno rápido al Atrio.
 
-### Encuentro 02: El Dilema del Gran Puente de Cristal
-* **Concepto**: Un puente de cuarzo que cruza un cañón subterráneo.
-* **Dinámica**: El cristal del puente cambia según el **Alineamiento de Minos del Día**. Si el día es **FIRE**, el cristal quema al pisarlo sin protección de agua; si es **AIR**, ráfagas laterales amenazan con derribar a los viajeros. Requiere coordinar sintonías del grupo para cruzar a salvo.
+### 24. El Dilema del Gran Puente de Cristal
+* **Concepto**: Puente de cuarzo sobre un cañón subterráneo que reacciona según la Palabra de Poder del día:
+  * **FIRE**: Arde e inflige daño sin protección de agua.
+  * **AIR**: Ráfagas laterales amenazan con despeñar a los cruzantes.
+  * **WATER**: Se inunda de corriente rápida.
+* **Resolución**: Coordinar sintonías de protección del grupo para cruzar a salvo.
 
-### Encuentro 03: El Archivo de las Memorias de Minos
-* **Concepto**: Una biblioteca de losas de basalto flotantes.
-* **Dinámica**: Leer las losas revela trozos de historia de Shivath y el Angramanio, otorgando pistas directas para descifrar la **Gran Rueda de Criptografía de Minos** sin gastar Carga Arcana.
+### 25. El Archivo de las Memorias de Minos
+* **Concepto**: Biblioteca de losas flotantes. Leer las losas desvela historia de Shivath y otorga pistas directas para armar la **Rueda de Criptografía de Minos**.
+
+### 26. El Invernadero de Esporas Durmientes (LIFE Encounter)
+* **Concepto**: Sala repleta de flora carnívora que despierta con vibraciones o ruidos.
+* **Resolución**: Tiradas de Sigilo o uso de **LIFE/AIR** para disipar las esporas y cruzar sin desatar la trampa botánica.
+
+### 27. El Pasaje de los Ecos Resonantes (Cuarzo Sonoro)
+* **Concepto**: Estalactitas de cuarzo que emiten tonos armónicos al recibir impactos.
+* **Resolución**: Repetir la melodía rúnica (golpeando estalactitas en el orden correcto) despierta el mecanismo de la compuerta.
