@@ -21,14 +21,14 @@ Ejemplo: `[AQUA] + [SHIFT_DOWN] + [FORGE]` = *"Drenar todo el líquido de la For
 
 ### A. Glifos Elementales (Símbolos Primarios)
 
-| Glifo | Nombre Alrestiano | Significado Físico / Mapeo |
-| :---: | :--- | :--- |
-| `🟁` | **Ignis / Pyros** | Fuego, Calor, Digestión Térmica, Activación de Forja. |
-| `🟂` | **Aura / Hydro** | Agua, Líquidos, Presión Hidráulica, Enfriamiento. |
-| `🟃` | **Fulmen / Fulgur** | Rayo, Energía, Corriente Continua, Reducción de Barrera. |
-| `🟄` | **Vapor / Zephyr** | Viento, Gas, Presión de Vaciado, Vuelo / Plataforma Elevadora. |
-| `🟅` | **Terra / Geo** | Piedra, Muro, Ancla Espacial, Peso, Masa Físicamente Inamovible. |
-| `🟆` | **Nox / Umbra** | Vacío, Fase Astral, Resonancia Oculta, Registro de Memoria. |
+| Glifo | Nombre Alrestiano   | Significado Físico / Mapeo                                       |
+| :---: | :------------------ | :--------------------------------------------------------------- |
+| `🟁`  | **Ignis / Pyros**   | Fuego, Calor, Digestión Térmica, Activación de Forja.            |
+| `🟂`  | **Aura / Hydro**    | Agua, Líquidos, Presión Hidráulica, Enfriamiento.                |
+| `🟃`  | **Fulmen / Fulgur** | Rayo, Energía, Corriente Continua, Reducción de Barrera.         |
+| `🟄`  | **Vapor / Zephyr**  | Viento, Gas, Presión de Vaciado, Vuelo / Plataforma Elevadora.   |
+| `🟅`  | **Terra / Geo**     | Piedra, Muro, Ancla Espacial, Peso, Masa Físicamente Inamovible. |
+| `🟆`  | **Nox / Umbra**     | Vacío, Fase Astral, Resonancia Oculta, Registro de Memoria.      |
 
 ### B. Glifos de Acción y Orientación (Modificadores Directivos)
 
