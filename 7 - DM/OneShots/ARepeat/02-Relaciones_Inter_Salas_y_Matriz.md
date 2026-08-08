@@ -2,6 +2,7 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md`  
 > **Concepto**: Ninguna sala funciona aislada. Accionar un mecanismo en la Sala X modifica el estado físico, la temperatura o la accesibilidad de la Sala Y.  
+> **Estructura de Rejilla**: **Matriz 5x5 con Huecos Libres** (Estilo *Zelda 2D* / *The Binding of Isaac*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -51,25 +52,32 @@ graph TD
 
 ---
 
-## 3. Matriz de Reconfiguración Procedural (Tirada de Alineamiento 1d6)
+## 3. Matriz de Reconfiguración Procedural 5x5 (Zelda 2D / Isaac Style)
 
-Al inicio de cada incursión, el DM tira **1d6** para determinar cómo encajan las salas en la cuadrícula 3x3 del laberinto:
+Al inicio de cada incursión, el laberinto se expande en una **rejilla 5x5 con huecos libres (vacíos)**. De las 25 casillas posibles, entre 12 y 15 casillas son salas navegables y el resto son abismos o muros inamovibles.
 
 ```
-    [Posición A] --- [Posición B] --- [Posición C]
-         |                |                |
-    [Posición D] --- [Posición E] --- [Posición F]
-         |                |                |
-    [Posición G] --- [Posición H] --- [Posición I]
+    Col 1        Col 2        Col 3        Col 4        Col 5
+A [  A1  ] --- [  A2  ] --- [  A3  ] --- [  A4  ] --- [  A5  ]
+     |            |            |            |            |
+B [  B1  ] --- [  B2  ] --- [  B3  ] --- [  B4  ] --- [  B5  ]
+     |            |            |            |            |
+C [  C1  ] --- [  C2  ] --- [  C3  ] --- [  C4  ] --- [  C5  ]
+   (ATRIO)
+     |            |            |            |            |
+D [  D1  ] --- [  D2  ] --- [  D3  ] --- [  D4  ] --- [  D5  ]
+                                       (SUBDUNGEON)
+     |            |            |            |            |
+E [  E1  ] --- [  E2  ] --- [  E3  ] --- [  E4  ] --- [  E5  ]
 ```
 
-### Tabla de Alineamientos de Minos
+### Tabla de Alineamientos de Minos (Efecto Ambiental 1d6)
 
-| 1d6 | Alineamiento | Disposición de Nodos | Regla Ambiental Global |
-| :---: | :--- | :--- | :--- |
-| **1** | **Alineamiento Solar (FIRE)** | En línea recta (A -> E -> I). | Forjas al 100% de calor. Subdungeon de Fire accesible. |
-| **2** | **Alineamiento Lunar (LIGHT)** | Anillo periférico (A -> B -> C -> F -> I -> H -> G -> D). | Iluminación nula. Subdungeon de Light accesible. |
-| **3** | **Alineamiento de Vida (LIFE)** | Concentrado en cruz alrededor del Hub (B, D, E, F, H). | Plantas crecen rápido. Subdungeon de Life accesible. |
-| **4** | **Alineamiento Gravitacional (AIR)** | Matriz en espiral (A -> B -> C -> F -> E -> D -> G). | Gravedad reducida. Subdungeon de Air accesible. |
-| **5** | **Alineamiento Inundado (WATER)** | Conexiones verticales empujadas hacia abajo. | Salas inferiores inundadas. Subdungeon de Water accesible. |
-| **6** | **Alineamiento Armónico (EARTH)** | **Los jugadores eligen la posición inicial de 2 salas** mediante sus Anclas acumuladas. | Subdungeon de Earth accesible. |
+| 1d6 | Alineamiento | Efecto Ambiental Global |
+| :---: | :--- | :--- |
+| **1** | **Alineamiento Solar (FIRE)** | Forjas al 100% de calor. Subdungeon de Fire accesible. |
+| **2** | **Alineamiento Lunar (LIGHT)** | Iluminación nula. Subdungeon de Light accesible. |
+| **3** | **Alineamiento de Vida (LIFE)** | Plantas crecen rápido. Subdungeon de Life accesible. |
+| **4** | **Alineamiento Gravitacional (AIR)** | Gravedad reducida. Subdungeon de Air accesible. |
+| **5** | **Alineamiento Inundado (WATER)** | Salas inferiores inundadas. Subdungeon de Water accesible. |
+| **6** | **Alineamiento Armónico (EARTH)** | **Los jugadores eligen la posición inicial de 2 salas** mediante sus Anclas acumuladas. |

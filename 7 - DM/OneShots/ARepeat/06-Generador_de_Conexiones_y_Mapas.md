@@ -1,66 +1,46 @@
-# Generador de Conexiones y Topología de Mapas (Minos Generator)
+# Generador de Conexiones y Topología de Mapas (5x5 Rejilla Isaac / Zelda)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md`  
-> **Propósito**: Herramienta rápida para generar la topología de salas, alineamiento y estado de las puertas en 5 segundos.  
+> **Propósito**: Herramienta rápida para generar la topología de salas en una matriz 5x5 con huecos libres (abismos/muros inamovibles).  
+> **Estilo**: *Zelda 2D* / *The Binding of Isaac* (Habitaciones orgánicas con nodos vacíos y ramificaciones).  
 > **Nota**: *Tú diseñas el mapa visual. Este sistema te da la disposición lógica y las conexiones.*
 
 ---
 
 ## 1. Opción Automática: Script de Python (`generador_laberinto.py`)
 
-Se incluye un script ejecutable directamente desde terminal o consola en la misma carpeta:
+El script crea una mazmorra 5x5 ramificada orgánicamente con ~12-14 salas activas y celdas vacías:
 
 ```bash
-# Incursión aleatoria automática
+# Incursión aleatoria 5x5
 python3 generador_laberinto.py
 
-# Incursión forzando un Día Astral específico (ej: FIRE, WATER, AIR, EARTH, LIFE, LIGHT)
+# Incursión forzando un Día Astral (FIRE, WATER, AIR, EARTH, LIFE, LIGHT)
 python3 generador_laberinto.py --dia FIRE
 
-# Reproducir un mapa usando una semilla específica
-python3 generador_laberinto.py --seed 12345
+# Reproducir un mapa específico usando semilla
+python3 generador_laberinto.py --seed 42
 ```
 
-### Ejemplo de Salida del Script:
+### Ejercicio Visual de la Matriz 5x5 Generada:
 ```
-======================================================================
-          MAPA Y CONEXIONES DEL LABERINTO DE MINOS (RUN LOG)
-======================================================================
-DÍA ASTRAL DE SHIVATH: [ FIRE ]
-SUBDUNGEON ABIERTA:   La Caldera Volcánica (Acceso desde Sala 05: La Forja)
-GUARDIÁN DE ÁREA:     El Señor del Crisol
-ALINEAMIENTO 1d6:     [5] Alineamiento Inundado (WATER)
-----------------------------------------------------------------------
-MATRIZ PROCEDURAL 3x3 (TOPOLOGÍA DE SALAS):
+       1              2              3              4              5
+A [A1: --- VACÍO --- ] [A2: --- VACÍO --- ] [A3: --- VACÍO --- ] [A4: --- VACÍO --- ] [A5: --- VACÍO --- ] 
 
-  [Pos A: Sala 01: Atrio ] <---> [Pos B: Sala 02: Depósit] <---> [Pos C: Sala 03: Invernad]
-           ^                                  ^                                  ^
-           v                                  v                                  v
-  [Pos D: Sala 05: La For] <---> [Pos E: Sala 04: Engran] <---> [Pos F: Sala 10: Pilar d]
-           ^                                  ^                                  ^
-           v                                  v                                  v
-  [Pos G: Sala 07: Cripta] <---> [Pos H: Sala 11: Galerí] <---> [Pos I: Sala 05: Subdung]
+B [B1:Sala 07: Cr] [B2:Sala 10: Pi] [B3:Sala 08: Ac] [B4: --- VACÍO --- ] [B5: --- VACÍO --- ] 
 
-----------------------------------------------------------------------
-DETALLE DE CONEXIONES Y ESTADO DE PUERTAS:
+C [C1:Sala 01: At] [C2:Sala 02: De] [C3: --- VACÍO --- ] [C4: --- VACÍO --- ] [C5: --- VACÍO --- ] 
 
-* [A] Sala 01: Atrio de Entrada
-  └─ (Este) -> [B] Sala 02: Depósito de Agua | ESTADO: Puerta Abierta
-  └─ (Sur)  -> [D] Sala 05: La Gran Forja    | ESTADO: Puerta Abierta
+D [D1:Sala 03: In] [D2:Sala 06: Sa] [D3:Sala 11: Ga] [D4:[SUBDUNGEON] [D5: --- VACÍO --- ] 
 
-* [B] Sala 02: Depósito de Agua
-  └─ (Este) -> [C] Sala 03: Invernadero      | ESTADO: Tupida por Vides [LIFE o Fuego]
-  └─ (Sur)  -> [E] Sala 04: Engranaje        | ESTADO: Puerta Abierta
-
-* [D] Sala 05: La Gran Forja
-  └─ (Sur)  -> [G] Sala 07: Cripta           | ESTADO: Muro de Piedra [EARTH Shatter]
+E [E1:Sala 04: En] [E2: --- VACÍO --- ] [E3:Sala 14: Cá] [E4: --- VACÍO --- ] [E5: --- VACÍO --- ] 
 ```
 
 ---
 
 ## 2. Opción Manual: Tablas con Dados (Zero-Tech DM Tables)
 
-Si prefieres generar el mapa en mesa sin ordenador, usa estos 3 pasos:
+Si generas el mapa manualmente en mesa:
 
 ### PASO 1: Tirada del Día Astral de Shivath (1d6)
 | 1d6 | Día Astral | Subdungeon Accesible | Guardián |
@@ -74,12 +54,7 @@ Si prefieres generar el mapa en mesa sin ordenador, usa estos 3 pasos:
 
 ---
 
-### PASO 2: Tirada de Alineamiento Procedural de Minos (1d6)
-Tira 1d6 para el **Efecto Ambiental Global** (`02-Relaciones_Inter_Salas_y_Matriz.md`).
-
----
-
-### PASO 3: Estado de las Conexiones entre Salas (Tirada 1d8 por Puerta)
+### PASO 2: Tirada de Estado de Conexión de Puertas (1d8 por Pasadizo)
 
 Tira 1d8 para cada pasadizo entre salas adyacentes:
 
@@ -87,26 +62,28 @@ Tira 1d8 para cada pasadizo entre salas adyacentes:
 | :---: | :--- | :--- |
 | **1-3** | **Puerta Abierta de Par en Par** | Tránsito libre. |
 | **4** | **Compuerta de Glifos Alrestianos** | Ingresar la Triada de 3 Gemas (`01-Sistema_de_Escritura_Alrestiano.md`). |
-| **5** | **Bloqueada por Hielo Mágico** | Usar **FIRE** o derrite con el calor de La Forja. |
-| **6** | **Muro de Piedra Frágil** | Usar **EARTH** *Shatter* o prueba de Fuerza DC 16. |
-| **7** | **Conducto de Agua Hirviendo** | Usar **WATER** para desviar agua o abrir la Válvula de Sala 02. |
+| **5** | **Bloqueada por Hielo Mágico** | Usar **FIRE** o calor de La Forja. |
+| **6** | **Muro de Piedra Frágil / Secreta** | Usar **EARTH** *Shatter* o prueba de Fuerza DC 16. |
+| **7** | **Conducto de Agua Hirviendo** | Usar **WATER** para desviar agua o abrir Válvula de Sala 02. |
 | **8** | **Tupida por Vides Arcanas / Gas** | Usar **LIFE** o quemar las raíces con antorcha. |
 
 ---
 
-## 3. Plantilla de Dibujo Rápido para el DM
+## 3. Plantilla de Dibujo en Rejilla 5x5 (Zelda 2D Layout)
 
-Organiza tus baldosas/mapas en esta rejilla lógica simple:
+Dibuja o dispone tus losetas en las coordenadas activas, dejando las celdas vacías como abismos sin suelo o muros macizos:
 
 ```
-+----------------+----------------+----------------+
-|  [POSICIÓN A]  |  [POSICIÓN B]  |  [POSICIÓN C]  |
-| (ENTRADA ATRIO)|                |                |
-+----------------+----------------+----------------+
-|  [POSICIÓN D]  |  [POSICIÓN E]  |  [POSICIÓN F]  |
-|                | (ENG. MAESTRO) |                |
-+----------------+----------------+----------------+
-|  [POSICIÓN G]  |  [POSICIÓN H]  |  [POSICIÓN I]  |
-|                |                |  (SUBDUNGEON)  |
-+----------------+----------------+----------------+
+    Col 1        Col 2        Col 3        Col 4        Col 5
+A [  A1  ] --- [  A2  ] --- [  A3  ] --- [  A4  ] --- [  A5  ]
+     |            |            |            |            |
+B [  B1  ] --- [  B2  ] --- [  B3  ] --- [  B4  ] --- [  B5  ]
+     |            |            |            |            |
+C [  C1  ] --- [  C2  ] --- [  C3  ] --- [  C4  ] --- [  C5  ]
+   (ATRIO)
+     |            |            |            |            |
+D [  D1  ] --- [  D2  ] --- [  D3  ] --- [  D4  ] --- [  D5  ]
+                                       (SUBDUNGEON)
+     |            |            |            |            |
+E [  E1  ] --- [  E2  ] --- [  E3  ] --- [  E4  ] --- [  E5  ]
 ```
