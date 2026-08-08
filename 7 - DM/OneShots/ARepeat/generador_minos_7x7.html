@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Laberinto de Minos - Generador 7x7 (Shivath TTRPG)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0f0e17;
+      --card-bg: #1a1926;
+      --card-border: #2e2c40;
+      --gold-accent: #d4af37;
+      --gold-glow: rgba(212, 175, 55, 0.4);
+      --purple-accent: #8b5cf6;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      
+      /* Elemental Colors */
+      --elem-fire: #ef4444;
+      --elem-water: #3b82f6;
+      --elem-air: #06b6d4;
+      --elem-earth: #d97706;
+      --elem-life: #10b981;
+      --elem-light: #f59e0b;
+      --elem-void: #4b5563;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    header {
+      background: linear-gradient(180deg, rgba(26,25,38,0.9) 0%, rgba(15,14,23,0.95) 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px 30px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+
+    .title-area h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.8rem;
+      color: var(--gold-accent);
+      letter-spacing: 1px;
+      text-shadow: 0 0 12px var(--gold-glow);
+    }
+
+    .title-area p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .power-words-bar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .power-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .badge-fire { background: rgba(239, 68, 68, 0.2); color: #fca5a5; border-color: var(--elem-fire); }
+    .badge-water { background: rgba(59, 130, 246, 0.2); color: #93c5fd; border-color: var(--elem-water); }
+    .badge-air { background: rgba(6, 182, 212, 0.2); color: #a5f3fc; border-color: var(--elem-air); }
+    .badge-earth { background: rgba(217, 119, 6, 0.2); color: #fde68a; border-color: var(--elem-earth); }
+    .badge-life { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; border-color: var(--elem-life); }
+    .badge-light { background: rgba(245, 158, 11, 0.2); color: #fef08a; border-color: var(--elem-light); }
+
+    .main-controls {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .btn {
+      background: #252336;
+      color: var(--text-main);
+      border: 1px solid var(--card-border);
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn:hover {
+      background: #322e47;
+      border-color: var(--gold-accent);
+      transform: translateY(-1px);
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #d4af37 0%, #b38f24 100%);
+      color: #0f0e17;
+      border: none;
+      font-weight: 700;
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    }
+
+    .btn-gold:hover {
+      background: linear-gradient(135deg, #e5c14d 0%, #c49f30 100%);
+      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+    }
+
+    select.btn-select {
+      background: #252336;
+      color: var(--gold-accent);
+      border: 1px solid var(--card-border);
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+    }
+
+    .app-layout {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 20px;
+      flex: 1;
+    }
+
+    @media (max-width: 1100px) {
+      .app-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Grid Display */
+    .grid-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+
+    .info-bar {
+      width: 100%;
+      background: rgba(15,14,23,0.6);
+      border-radius: 8px;
+      padding: 12px 18px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+    }
+
+    .grid-7x7 {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+      gap: 8px;
+      width: 100%;
+      max-width: 720px;
+      aspect-ratio: 1;
+    }
+
+    .cell {
+      background: rgba(15,14,23,0.8);
+      border: 1px dashed rgba(255,255,255,0.1);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+      user-select: none;
+    }
+
+    .cell:hover {
+      border-color: var(--purple-accent);
+      background: rgba(139, 92, 246, 0.1);
+    }
+
+    .cell.active {
+      background: #232136;
+      border: 1px solid var(--purple-accent);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .cell.active.atrio {
+      border-color: var(--elem-water);
+      background: rgba(59, 130, 246, 0.15);
+    }
+
+    .cell.active.subdungeon {
+      border-color: var(--elem-fire);
+      background: rgba(239, 68, 68, 0.2);
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+    }
+
+    .cell.selected {
+      outline: 2px solid var(--gold-accent);
+      outline-offset: 2px;
+    }
+
+    .cell-coord {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .cell-icon {
+      font-size: 1.4rem;
+      text-align: center;
+      margin: 4px 0;
+    }
+
+    .cell-name {
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: var(--text-main);
+    }
+
+    .cell.empty .cell-name {
+      color: #4b5563;
+      font-style: italic;
+    }
+
+    /* Inspector Panel */
+    .inspector-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+
+    .inspector-header {
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 12px;
+    }
+
+    .inspector-header h2 {
+      font-family: 'Cinzel', serif;
+      color: var(--gold-accent);
+      font-size: 1.2rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .form-control {
+      background: #12111c;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-family: inherit;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--purple-accent);
+    }
+
+    .doors-editor {
+      background: rgba(15,14,23,0.5);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .door-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .door-label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      width: 60px;
+
+    }
+
+    /* Output & Modal Section */
+    .output-section {
+      margin-top: 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .output-section h3 {
+      font-family: 'Cinzel', serif;
+      color: var(--gold-accent);
+      margin-bottom: 10px;
+    }
+
+    textarea.output-log {
+      width: 100%;
+      height: 180px;
+      background: #0d0c14;
+      color: #a7f3d0;
+      font-family: monospace;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      font-size: 0.8rem;
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title-area">
+      <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7)</h1>
+      <p>Generador de Topología, Conexiones de Puertas e Inspector de Mazmorras de Downtime</p>
+    </div>
+    <div class="power-words-bar">
+      <span class="power-badge badge-fire">🟁 Fire</span>
+      <span class="power-badge badge-water">🟂 Water</span>
+      <span class="power-badge badge-air">🟄 Air</span>
+      <span class="power-badge badge-earth">🟅 Earth</span>
+      <span class="power-badge badge-life">🌱 Life</span>
+      <span class="power-badge badge-light">☀️ Light</span>
+    </div>
+  </header>
+
+  <div class="main-controls">
+    <button class="btn btn-gold" id="btn-generate">⚡ Generar Mazmorra 7x7</button>
+    <select class="btn-select" id="select-subdungeon">
+      <option value="RANDOM">🎲 Subdungeon 1d8 Aleatorio</option>
+      <option value="1">1: FIRE (La Caldera Volcánica)</option>
+      <option value="2">2: WATER (La Cisterna Sumergida)</option>
+      <option value="3">3: AIR (La Torre de los Vientos)</option>
+      <option value="4">4: EARTH (El Dominio Telúrico)</option>
+      <option value="5">5: LIFE (El Invernadero Ancestral)</option>
+      <option value="6">6: LIGHT (El Santuario Prismático)</option>
+      <option value="7">7: BOSS FINAL (Sanctum de Minos)</option>
+      <option value="8">8: NADA (Exploración Estándar)</option>
+    </select>
+    <button class="btn" id="btn-clear">🧹 Vaciar Rejilla</button>
+    <button class="btn" id="btn-copy">📋 Copiar Resumen DM</button>
+    <button class="btn" id="btn-export">💾 Exportar JSON</button>
+    <button class="btn" id="btn-import">📂 Cargar JSON</button>
+    <input type="file" id="file-input" style="display:none" accept=".json">
+  </div>
+
+  <div class="app-layout" style="margin-top: 20px;">
+    
+    <!-- GRID CONTAINER -->
+    <div class="grid-container">
+      <div class="info-bar">
+        <span id="info-dia">Día Astral: <strong>FIRE</strong></span>
+        <span id="info-sub">Subdungeon: <strong>La Caldera Volcánica</strong></span>
+        <span id="info-align">Alineamiento: <strong>[1] Solar</strong></span>
+      </div>
+
+      <div class="grid-7x7" id="grid-7x7">
+        <!-- Cells generated dynamically -->
+      </div>
+    </div>
+
+    <!-- INSPECTOR PANEL -->
+    <div class="inspector-panel" id="inspector">
+      <div class="inspector-header">
+        <h2 id="inspect-title">Selecciona una celda</h2>
+        <p style="font-size: 0.8rem; color: var(--text-muted);">Edita la celda y sus conexiones cardinales</p>
+      </div>
+
+      <div class="form-group">
+        <label>Estado de la Celda</label>
+        <select class="form-control" id="inspect-active">
+          <option value="true">🟢 Sala Activa</option>
+          <option value="false">⚪ Hueco Libre / Vacío</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Nombre de la Sala (Plantillas Zelda)</label>
+        <select class="form-control" id="inspect-preset">
+          <option value="Sala 01: Atrio de Entrada">🏛️ Sala 01: Atrio de Entrada</option>
+          <option value="Sala 02: Depósito de Agua">🌊 Sala 02: Depósito de Agua</option>
+          <option value="Sala 03: Invernadero Botánico">🌱 Sala 03: Invernadero Botánico</option>
+          <option value="Sala 04: Engranaje Maestro">⚙️ Sala 04: Engranaje Maestro</option>
+          <option value="Sala 05: La Gran Forja">🟁 Sala 05: La Gran Forja</option>
+          <option value="Sala 06: Salón Invertido">🙃 Sala 06: Salón Invertido</option>
+          <option value="Sala 07: Cripta del Hielo">❄️ Sala 07: Cripta del Hielo</option>
+          <option value="Sala 08: Acuífero Subterráneo">🌊 Sala 08: Acuífero Subterráneo</option>
+          <option value="Sala 09: Galería de Espejos">☀️ Sala 09: Galería de Espejos</option>
+          <option value="Sala 10: Pilar de Anclas">⚓ Sala 10: Pilar de Anclas</option>
+          <option value="Sala 11: Galería del Juicio">⚖️ Sala 11: Galería del Juicio</option>
+          <option value="Sala 12: Sanctum de Minos">👑 Sala 12: Sanctum de Minos</option>
+          <option value="Sala de la Rejilla y el Abismo">🔗 Sala de la Rejilla (Atajo Gaseosa)</option>
+          <option value="Sala del Interruptor de Cristal">🔷 Sala del Interruptor de Cristal</option>
+          <option value="Sala de las Cuatro Antorchas">🔥 Sala de las Cuatro Antorchas</option>
+          <option value="Sala de la Cisterna de 3 Niveles">🚰 Sala Cisterna 3 Niveles</option>
+          <option value="Sala del Tobogán Unidireccional">🛷 Sala Tobogán Unidireccional</option>
+          <option value="Sala del Pozo de Viento">🌬️ Sala Pozo de Viento</option>
+          <option value="Sala de las Estatuas Espejo">🗿 Sala Estatuas Espejo Sync</option>
+          <option value="CUSTOM">✏️ Nombre Personalizado...</option>
+        </select>
+      </div>
+
+      <div class="form-group" id="group-custom-name" style="display:none;">
+        <label>Nombre Personalizado</label>
+        <input type="text" class="form-control" id="inspect-custom-name" placeholder="Ej: Sala del Cofre Secreto">
+      </div>
+
+      <div class="form-group">
+        <label>Rol Especial</label>
+        <select class="form-control" id="inspect-role">
+          <option value="NORMAL">Estándar</option>
+          <option value="ATRIO">🏛️ Entrada Atrio</option>
+          <option value="SUBDUNGEON">👑 Subdungeon Boss</option>
+          <option value="SECRET">🗝️ Sala Secreta</option>
+        </select>
+      </div>
+
+      <div class="doors-editor">
+        <label style="font-size:0.75rem; font-weight:700; color:var(--gold-accent);">🚪 ESTADO DE CONEXIONES DE PUERTAS</label>
+
+        <div class="door-row">
+          <span class="door-label">⬆️ Norte</span>
+          <select class="form-control" id="door-N"></select>
+        </div>
+        <div class="door-row">
+          <span class="door-label">⬇️ Sur</span>
+          <select class="form-control" id="door-S"></select>
+        </div>
+        <div class="door-row">
+          <span class="door-label">⬅️ Oeste</span>
+          <select class="form-control" id="door-W"></select>
+        </div>
+        <div class="door-row">
+          <span class="door-label">➡️ Este</span>
+          <select class="form-control" id="door-E"></select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Notas de la Sala / Botín</label>
+        <input type="text" class="form-control" id="inspect-notes" placeholder="Ej: Cofre maestro con Guantelete de Llama">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="output-section">
+    <h3>📋 RESUMEN DE LA RUN PARA EL DM</h3>
+    <textarea class="output-log" id="output-log" readonly></textarea>
+  </div>
+
+  <script>
+    const ROWS = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
+    const COLS = [1, 2, 3, 4, 5, 6, 7];
+
+    const DOOR_TYPES = [
+      "Puerta Abierta de Par en Par",
+      "Compuerta de Glifos [3 Gemas]",
+      "Bloqueada por Hielo Mágico [FIRE]",
+      "Muro de Piedra Frágil [EARTH]",
+      "Conducto de Agua Hirviendo [WATER]",
+      "Pozo de Viento Ascendente [AIR]",
+      "Tupida por Vides Arcanas [LIFE]",
+      "Pasaje Invisible Espejado [LIGHT]",
+      "Rejilla de Hierro [Atajo Forma Gaseosa]",
+      "Sin Pasadizo (Muro Macizo)"
+    ];
+
+    const SUBDUNGEONS = {
+      1: { code: "FIRE", name: "La Caldera Volcánica", boss: "El Señor del Crisol", room: "Sala 05: La Gran Forja" },
+      2: { code: "WATER", name: "La Cisterna Sumergida", boss: "La Quimera Hidráulica", room: "Sala 02: Depósito de Agua" },
+      3: { code: "AIR", name: "La Torre de los Vientos", boss: "El Coloso del Vértice", room: "Sala 04: Engranaje Maestro" },
+      4: { code: "EARTH", name: "El Dominio Telúrico", boss: "El Titán de Basalto", room: "Sala 10: Pilar de Anclas" },
+      5: { code: "LIFE", name: "El Invernadero Ancestral", boss: "El Botánico de Sombras", room: "Sala 03: Invernadero Botánico" },
+      6: { code: "LIGHT", name: "El Santuario Prismático", boss: "El Espejismo de Cristal", room: "Sala 09: Galería de Espejos" },
+      7: { code: "BOSS", name: "Sanctum de Minos", boss: "El Juicio de Minos", room: "Sala 12: Sanctum de Minos" },
+      8: { code: "NONE", name: "Ninguna Subdungeon Hoy", boss: "Sin Guardián de Área", room: "Exploración Estándar" }
+    };
+
+    const ALIGNMENTS = [
+      "Alineamiento Solar (FIRE) - Forjas encendidas",
+      "Alineamiento Lunar (LIGHT) - Inscripciones visibles",
+      "Alineamiento de Vida (LIFE) - Vides y flora activas",
+      "Alineamiento Gravitacional (AIR) - Gravedad reducida",
+      "Alineamiento Inundado (WATER) - Nivel inferior con agua",
+      "Alineamiento Armónico (EARTH) - Modificación libre de anclas"
+    ];
+
+    // State
+    let gridData = {}; // key: "A1" -> { active: bool, name: str, role: str, notes: str }
+    let doorData = {}; // key: "A1-N" or tuple key -> door_type
+    let currentSelectedKey = "D1";
+    let currentSubRoll = 1;
+    let currentAlign = 1;
+
+    function initGridData() {
+      gridData = {};
+      doorData = {};
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          gridData[k] = {
+            active: false,
+            name: `Sala ${k}`,
+            role: "NORMAL",
+            notes: ""
+          };
+        });
+      });
+    }
+
+    function renderGrid() {
+      const container = document.getElementById('grid-7x7');
+      container.innerHTML = '';
+
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          const cell = gridData[k];
+          
+          const div = document.createElement('div');
+          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()}`;
+          if (k === currentSelectedKey) div.classList.add('selected');
+          div.onclick = () => selectCell(k);
+
+          let icon = cell.active ? "🚪" : "⚪";
+          if (cell.role === "ATRIO") icon = "🏛️";
+          if (cell.role === "SUBDUNGEON") icon = "👑";
+          if (cell.role === "SECRET") icon = "🗝️";
+
+          div.innerHTML = `
+            <span class="cell-coord">${k}</span>
+            <div class="cell-icon">${icon}</div>
+            <div class="cell-name">${cell.active ? cell.name : '--- VACÍO ---'}</div>
+          `;
+          container.appendChild(div);
+        });
+      });
+    }
+
+    function populateDoorDropdowns() {
+      ['N', 'S', 'W', 'E'].forEach(dir => {
+        const sel = document.getElementById(`door-${dir}`);
+        sel.innerHTML = '';
+        DOOR_TYPES.forEach(dt => {
+          const opt = document.createElement('option');
+          opt.value = dt;
+          opt.textContent = dt;
+          sel.appendChild(opt);
+        });
+        sel.onchange = (e) => saveDoorState(dir, e.target.value);
+      });
+    }
+
+    function selectCell(key) {
+      currentSelectedKey = key;
+      renderGrid();
+
+      const cell = gridData[key];
+      document.getElementById('inspect-title').textContent = `Celda [ ${key} ]`;
+      document.getElementById('inspect-active').value = cell.active ? "true" : "false";
+      document.getElementById('inspect-role').value = cell.role;
+      document.getElementById('inspect-notes').value = cell.notes || "";
+
+      // Preset dropdown
+      const presetSel = document.getElementById('inspect-preset');
+      let found = false;
+      for (let i = 0; i < presetSel.options.length; i++) {
+        if (presetSel.options[i].value === cell.name) {
+          presetSel.selectedIndex = i;
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        presetSel.value = "CUSTOM";
+        document.getElementById('group-custom-name').style.display = "flex";
+        document.getElementById('inspect-custom-name').value = cell.name;
+      } else {
+        document.getElementById('group-custom-name').style.display = "none";
+      }
+
+      // Load doors
+      ['N', 'S', 'W', 'E'].forEach(dir => {
+        const sel = document.getElementById(`door-${dir}`);
+        const doorVal = getDoorState(key, dir);
+        sel.value = doorVal;
+      });
+    }
+
+    function getNeighborKey(key, dir) {
+      const r = key[0];
+      const c = parseInt(key[1]);
+      const rIdx = ROWS.indexOf(r);
+
+      if (dir === 'N' && rIdx > 0) return `${ROWS[rIdx - 1]}${c}`;
+      if (dir === 'S' && rIdx < 6) return `${ROWS[rIdx + 1]}${c}`;
+      if (dir === 'W' && c > 1) return `${r}${c - 1}`;
+      if (dir === 'E' && c < 7) return `${r}${c + 1}`;
+      return null;
+    }
+
+    function getDoorPairKey(k1, k2) {
+      return [k1, k2].sort().join('-Door-');
+    }
+
+    function getDoorState(key, dir) {
+      const nKey = getNeighborKey(key, dir);
+      if (!nKey) return "Sin Pasadizo (Muro Macizo)";
+      const pairKey = getDoorPairKey(key, nKey);
+      return doorData[pairKey] || "Puerta Abierta de Par en Par";
+    }
+
+    function saveDoorState(dir, val) {
+      const nKey = getNeighborKey(currentSelectedKey, dir);
+      if (!nKey) return;
+      const pairKey = getDoorPairKey(currentSelectedKey, nKey);
+      doorData[pairKey] = val;
+      updateOutputLog();
+    }
+
+    // Generator 7x7 Algorithm
+    function generateDungeon() {
+      initGridData();
+      
+      const subSel = document.getElementById('select-subdungeon').value;
+      if (subSel === "RANDOM") {
+        currentSubRoll = Math.floor(Math.random() * 8) + 1;
+      } else {
+        currentSubRoll = parseInt(subSel);
+      }
+      currentAlign = Math.floor(Math.random() * 6) + 1;
+
+      // Random Walk expansion
+      const startCoord = { r: 3, c: 1 }; // D1
+      const startKey = "D1";
+      
+      gridData[startKey] = {
+        active: true,
+        name: "Sala 01: Atrio de Entrada",
+        role: "ATRIO",
+        notes: "Entrada inamovible y Altar de Sintonía"
+      };
+
+      const targetRooms = Math.floor(Math.random() * 6) + 14; // 14-19 rooms
+      let activeKeys = [startKey];
+      let placedKeys = new Set([startKey]);
+
+      const presets = [
+        "Sala 02: Depósito de Agua", "Sala 03: Invernadero Botánico", "Sala 04: Engranaje Maestro",
+        "Sala 05: La Gran Forja", "Sala 06: Salón Invertido", "Sala 07: Cripta del Hielo",
+        "Sala 08: Acuífero Subterráneo", "Sala 09: Galería de Espejos", "Sala 10: Pilar de Anclas",
+        "Sala 11: Galería del Juicio", "Sala de la Rejilla y el Abismo", "Sala del Interruptor de Cristal",
+        "Sala de las Cuatro Antorchas", "Sala de la Cisterna de 3 Niveles", "Sala del Tobogán Unidireccional",
+        "Sala del Pozo de Viento", "Sala de las Estatuas Espejo"
+      ];
+      let pool = [...presets];
+      pool.sort(() => Math.random() - 0.5);
+
+      while (placedKeys.size < targetRooms && activeKeys.length > 0) {
+        const currKey = activeKeys[Math.floor(Math.random() * activeKeys.length)];
+        const r = currKey[0];
+        const c = parseInt(currKey[1]);
+        const rIdx = ROWS.indexOf(r);
+
+        const neighbors = [];
+        if (rIdx > 0) neighbors.push(`${ROWS[rIdx - 1]}${c}`);
+        if (rIdx < 6) neighbors.push(`${ROWS[rIdx + 1]}${c}`);
+        if (c > 1) neighbors.push(`${r}${c - 1}`);
+        if (c < 7) neighbors.push(`${r}${c + 1}`);
+
+        const unvisited = neighbors.filter(nk => !placedKeys.has(nk));
+
+        if (unvisited.length > 0) {
+          const nextKey = unvisited[Math.floor(Math.random() * unvisited.length)];
+          placedKeys.add(nextKey);
+          activeKeys.push(nextKey);
+
+          gridData[nextKey] = {
+            active: true,
+            name: pool.length > 0 ? pool.pop() : `Sala Cámara (${nextKey})`,
+            role: "NORMAL",
+            notes: ""
+          };
+
+          // Door state
+          const pairKey = getDoorPairKey(currKey, nextKey);
+          doorData[pairKey] = Math.random() < 0.6 ? "Puerta Abierta de Par en Par" : DOOR_TYPES[Math.floor(Math.random() * (DOOR_TYPES.length - 1))];
+        } else {
+          activeKeys = activeKeys.filter(k => k !== currKey);
+        }
+      }
+
+      // Place Subdungeon at furthest node
+      if (currentSubRoll !== 8) {
+        let maxDist = -1;
+        let furthestKey = startKey;
+        placedKeys.forEach(k => {
+          const dist = Math.abs(ROWS.indexOf(k[0]) - startCoord.r) + Math.abs(parseInt(k[1]) - startCoord.c);
+          if (dist > maxDist) {
+            maxDist = dist;
+            furthestKey = k;
+          }
+        });
+
+        const subInfo = SUBDUNGEONS[currentSubRoll];
+        if (furthestKey !== startKey) {
+          gridData[furthestKey] = {
+            active: true,
+            name: subInfo.room,
+            role: "SUBDUNGEON",
+            notes: `Subdungeon: ${subInfo.name} - Boss: ${subInfo.boss}`
+          };
+        }
+      }
+
+      // Update UI
+      const subObj = SUBDUNGEONS[currentSubRoll];
+      document.getElementById('info-dia').innerHTML = `Palabra: <strong>${subObj.code}</strong>`;
+      document.getElementById('info-sub').innerHTML = `Subdungeon: <strong>${subObj.name}</strong>`;
+      document.getElementById('info-align').innerHTML = `Alineamiento: <strong>[${currentAlign}]</strong>`;
+
+      selectCell(startKey);
+      updateOutputLog();
+    }
+
+    function updateOutputLog() {
+      const subObj = SUBDUNGEONS[currentSubRoll];
+      let log = `======================================================================\n`;
+      log += `       MAPA Y CONEXIONES DEL LABERINTO DE MINOS (REJILLA 7x7)\n`;
+      log += `======================================================================\n`;
+      log += `SUBDUNGEON 1d8: [${currentSubRoll}] -> ${subObj.code} (${subObj.name})\n`;
+      log += `GUARDIÁN DE ÁREA: ${subObj.boss}\n`;
+      log += `ALINEAMIENTO: [${currentAlign}] ${ALIGNMENTS[currentAlign - 1]}\n`;
+      log += `----------------------------------------------------------------------\n`;
+      log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;
+
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          const cell = gridData[k];
+          if (cell.active) {
+            log += `* [${k}] ${cell.name} (${cell.role})\n`;
+            ['N', 'S', 'W', 'E'].forEach(dir => {
+              const nKey = getNeighborKey(k, dir);
+              if (nKey && gridData[nKey].active) {
+                const doorVal = getDoorState(k, dir);
+                log += `  └─ (${dir}) -> [${nKey}] ${gridData[nKey].name} | ESTADO: ${doorVal}\n`;
+              }
+            });
+            if (cell.notes) log += `     NOTAS: ${cell.notes}\n`;
+            log += `\n`;
+          }
+        });
+      });
+
+      document.getElementById('output-log').value = log;
+    }
+
+    // Setup Inspector Listeners
+    document.getElementById('inspect-active').onchange = (e) => {
+      gridData[currentSelectedKey].active = e.target.value === "true";
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('inspect-role').onchange = (e) => {
+      gridData[currentSelectedKey].role = e.target.value;
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('inspect-preset').onchange = (e) => {
+      const val = e.target.value;
+      if (val === "CUSTOM") {
+        document.getElementById('group-custom-name').style.display = "flex";
+      } else {
+        document.getElementById('group-custom-name').style.display = "none";
+        gridData[currentSelectedKey].name = val;
+        renderGrid();
+        updateOutputLog();
+      }
+    };
+
+    document.getElementById('inspect-custom-name').oninput = (e) => {
+      gridData[currentSelectedKey].name = e.target.value;
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('inspect-notes').oninput = (e) => {
+      gridData[currentSelectedKey].notes = e.target.value;
+      updateOutputLog();
+    };
+
+    // Button Actions
+    document.getElementById('btn-generate').onclick = generateDungeon;
+
+    document.getElementById('btn-clear').onclick = () => {
+      initGridData();
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('btn-copy').onclick = () => {
+      const log = document.getElementById('output-log');
+      log.select();
+      document.execCommand('copy');
+      alert('¡Resumen de la run copiado al portapapeles!');
+    };
+
+    document.getElementById('btn-export').onclick = () => {
+      const payload = {
+        gridData,
+        doorData,
+        currentSubRoll,
+        currentAlign
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `minos_dungeon_7x7.json`;
+      a.click();
+    };
+
+    document.getElementById('btn-import').onclick = () => {
+      document.getElementById('file-input').click();
+    };
+
+    document.getElementById('file-input').onchange = (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (evt) => {
+        try {
+          const payload = JSON.parse(evt.target.result);
+          gridData = payload.gridData;
+          doorData = payload.doorData;
+          currentSubRoll = payload.currentSubRoll || 1;
+          currentAlign = payload.currentAlign || 1;
+          renderGrid();
+          selectCell(currentSelectedKey);
+          updateOutputLog();
+          alert('¡Configuración del Laberinto cargada con éxito!');
+        } catch (err) {
+          alert('Error al leer el archivo JSON.');
+        }
+      };
+      reader.readAsText(file);
+    };
+
+    // Initialize
+    populateDoorDropdowns();
+    initGridData();
+    generateDungeon();
+  </script>
+</body>
+</html>

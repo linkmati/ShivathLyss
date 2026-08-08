@@ -3,7 +3,8 @@
 > **Ubicación**: `7 - DM/OneShots/ARepeat/El Laberinto de Minos.md`  
 > **Ubicación en Shivath**: **Treftiel**, cerca del **Angramanio** (Bóveda de Estabilización).  
 > **Formato**: Compendio Ejecutivo para Actividad de Downtime / Repetible / Drop-in.  
-> **Inspiraciones Core**: *Outer Wilds* (Progreso por Conocimiento) + *Blue Prince* (Lógica Inter-Salas) + *Xenoblade* (Escritura Alrestiana).  
+> **Herramienta Web App 7x7**: [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) (Fichero de un clic).  
+> **Inspiraciones Core**: *Zelda 2D/3D* + *Outer Wilds* + *Blue Prince* + *Xenoblade*.  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -12,30 +13,24 @@
 
 Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Minos como una aventura recurrente en tu campaña:
 
-1. [`00-Indice_y_Sistemas_Core.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md)
-   * Lore de Treftiel y el Angramanio (Bóveda de Estabilización).
-   * Reglas de la Carga Arcana (10 pts por *run*).
-   * Recompensas de Downtime (Ligero dinero, consumibles elementales y objetos mágicos).
-   * **Sistema de Sintonía Elemental** (Fire, Water, Air, Earth, Life, Light).
-   * **El Gran Meta-Puzle de la Rueda de Criptografía de Minos** (6 Fragmentos de Tablilla).
-2. [`01-Sistema_de_Escritura_Alrestiano.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/01-Sistema_de_Escritura_Alrestiano.md)
-   * Jeroglíficos simbólicos de Shivath.
-   * Reglas de Consolas Rúnicas e ingreso de código ejecutable de 3 gemas.
-   * Diccionario visual de sustancias, vectores y objetos.
-3. [`02-Relaciones_Inter_Salas_y_Matriz.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md)
-   * Redes de Causalidad (Hidráulica, Térmica, de Luz/Refracción, Gravitacional).
-   * Matriz 5x5 con Huecos Libres (Estilo *Zelda 2D / Binding of Isaac*).
-   * Tabla del Calendario Astral (1d6) y Alineamiento Procedural de Minos (1d6).
-4. [`03-Catalogo_de_Salas_y_Puzles.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md)
-   * Catálogo de Salas Temáticas Artesanales con interacciones elementales de PJs y efectos permanentes en el terreno.
-5. [`04-Encuentros_y_Guardianes.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md)
-   * 6 Guardianes de Área de Subdungeon (Prueba del 7/10 de Carga).
-   * **Boss Final: El Juicio de Minos (El Héroe del Sello)** con **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).
-6. [`05-Ficha_Control_DM_y_Tablero_Rumores.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md)
-   * Grafo de Rumores (*Curiosity Board* estilo Outer Wilds con los 6 Fragmentos Rúnicos).
-   * Checklist interactiva para el DM para rastrear el avance entre sesiones.
-7. [`06-Generador_de_Conexiones_y_Mapas.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md) y [`generador_laberinto.py`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_laberinto.py)
-   * Herramientas de generación automática (Script de Python 5x5) y Tablas Manuales para obtener la topología y puertas de la dungeon al instante.
+1. [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) **(WEB APP INTERACTIVA DE 1 CLIC)**
+   * Matriz visual 7x7 editable, generador automático, inspector de celdas y modificador manual de conexiones de puertas.
+2. [`00-Indice_y_Sistemas_Core.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md)
+   * Lore de Treftiel y el Angramanio.
+   * Carga Arcana, Diario del Gremio y Sintonías Elementales.
+   * Subdungeons 1d8, persistencia total y bonus de excelencia 7/10.
+3. [`01-Sistema_de_Escritura_Alrestiano.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/01-Sistema_de_Escritura_Alrestiano.md)
+   * Jeroglíficos simbólicos de Shivath (Triadas de 3 gemas).
+4. [`02-Relaciones_Inter_Salas_y_Matriz.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md)
+   * Redes causales inter-salas (Hidráulica, Térmica, Luz, Gravitacional).
+5. [`03-Catalogo_de_Salas_y_Puzles.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md)
+   * Catálogo masivo de 23+ salas inspiradas directamente en Zelda (2D, 3D, BotW/TotK).
+6. [`04-Encuentros_y_Guardianes.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md)
+   * 6 Guardianes de Área y Boss Final con **Elemental Orbs & Full Burst** (Xenoblade 2).
+7. [`05-Ficha_Control_DM_y_Tablero_Rumores.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md)
+   * Grafo de Rumores (*Curiosity Board*) y la Rueda de Criptografía de Minos.
+8. [`06-Generador_de_Conexiones_y_Mapas.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md) y [`generador_laberinto.py`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_laberinto.py)
+   * Manuales de uso de las herramientas de topología 7x7.
 
 ---
 
@@ -45,19 +40,18 @@ Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Min
 sequenceDiagram
     autonumber
     actor Jugadores
-    participant DM as DM (Script / Tablas)
+    participant DM as DM (Web App 7x7 / Script)
     participant Atrio as Sala 01 (Atrio)
-    participant Laberinto as Matriz 5x5 de Minos
+    participant Laberinto as Matriz 7x7 de Minos
     participant Boss as El Juicio de Minos
     participant Base as Diario de la Mina
 
-    DM->>DM: Corre generador_laberinto.py (Topología 5x5)
-    Jugadores->>Atrio: Entran y leen Diario de la Mina (Día Astral de Shivath)
-    Jugadores->>Atrio: Seleccionan Sintonía Elemental Desbloqueada
+    DM->>DM: Abre generador_minos_7x7.html y genera mazmorra
+    Jugadores->>Atrio: Entran y leen Diario de la Mina (Día Astral)
+    Jugadores->>Atrio: Seleccionan Sintonía Elemental
     Jugadores->>Laberinto: Exploran consumiendo Carga Arcana (10 pts)
-    Laberinto-->>Jugadores: Puzles Simbólicos + Botín de Downtime (Oro/Consumibles)
-    Jugadores->>Laberinto: Desafían Guardián de Subdungeon (Prueba 7/10 -> Fragmento Rúnico)
-    Jugadores->>Base: Asamblan los 6 Fragmentos en la Gran Rueda de Criptografía
+    Laberinto-->>Jugadores: Puzles Zelda + Botín de Downtime
+    Jugadores->>Laberinto: Desafían Guardián con Dungeon Item
     Jugadores->>Boss: Combate con Orbes Elementales y FULL BURST
-    Laberinto-->>Jugadores: Colapso por Carga 0 -> Expulsión al Campamento
+    Laberinto-->>Jugadores: Colapso -> Expulsión al Campamento
 ```
