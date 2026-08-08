@@ -439,7 +439,7 @@
   <header>
     <div class="title-area">
       <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7 DISPERSA)</h1>
-      <p>Generación Isaac Pura con Sala Secreta 🗝️ y Topología Modular Agnóstica</p>
+      <p>Generación Isaac Pura (Sala Secreta Alejada de Subdungeons) & Topología Modular</p>
     </div>
     <div class="power-words-bar">
       <span class="power-badge badge-fire">🟁 Fire</span>
@@ -768,6 +768,7 @@
       updateOutputLog();
     }
 
+    // EXACT ISAAC GENERATION ALGORITHM (NO SECRET ROOM ADJACENT TO SUBDUNGEONS)
     function generateDungeon() {
       initGridData();
       
@@ -853,6 +854,7 @@
       const startR = ROWS.indexOf(startKey[0]);
       const startC = parseInt(startKey[1]);
 
+      let subKey = null;
       if (currentSubRoll !== 8) {
         const candidates = Array.from(placedKeys).filter(k => {
           if (k === startKey) return false;
@@ -864,6 +866,7 @@
         
         const subInfo = SUBDUNGEONS[currentSubRoll];
         if (targetKey !== startKey) {
+          subKey = targetKey;
           gridData[targetKey] = {
             active: true,
             name: subInfo.room,
@@ -873,7 +876,8 @@
         }
       }
 
-      // ISAAC SECRET ROOM
+      // ISAAC SECRET ROOM GENERATION:
+      // Must NOT be adjacent to the Subdungeon room (subKey)!
       let secretCandidates = [];
       ROWS.forEach(r => {
         COLS.forEach(c => {
@@ -881,31 +885,44 @@
           if (!gridData[k].active) {
             const rIdx = ROWS.indexOf(r);
             const activeNb = [];
-            if (rIdx > 0 && gridData[`${ROWS[rIdx-1]}${c}`].active) activeNb.push(`${ROWS[rIdx-1]}${c}`);
-            if (rIdx < 6 && gridData[`${ROWS[rIdx+1]}${c}`].active) activeNb.push(`${ROWS[rIdx+1]}${c}`);
-            if (c > 1 && gridData[`${r}${c-1}`].active) activeNb.push(`${r}${c-1}`);
-            if (c < 7 && gridData[`${r}${c+1}`].active) activeNb.push(`${r}${c+1}`);
+            let touchesSubdungeon = false;
 
-            if (activeNb.length >= 2) {
+            ['N', 'S', 'W', 'E'].forEach(dir => {
+              const nbKey = getNeighborKey(k, dir);
+              if (nbKey && gridData[nbKey].active) {
+                activeNb.push(nbKey);
+                if (gridData[nbKey].role === "SUBDUNGEON") {
+                  touchesSubdungeon = true;
+                }
+              }
+            });
+
+            // RULE: Secret room CANNOT be adjacent to the Subdungeon!
+            if (!touchesSubdungeon && activeNb.length >= 2) {
               secretCandidates.push({ key: k, count: activeNb.length, nbs: activeNb });
             }
           }
         });
       });
 
+      // Fallback if no 2+ neighbor spot without Subdungeon exists
       if (secretCandidates.length === 0) {
         ROWS.forEach(r => {
           COLS.forEach(c => {
             const k = `${r}${c}`;
             if (!gridData[k].active) {
-              const rIdx = ROWS.indexOf(r);
               const activeNb = [];
-              if (rIdx > 0 && gridData[`${ROWS[rIdx-1]}${c}`].active) activeNb.push(`${ROWS[rIdx-1]}${c}`);
-              if (rIdx < 6 && gridData[`${ROWS[rIdx+1]}${c}`].active) activeNb.push(`${ROWS[rIdx+1]}${c}`);
-              if (c > 1 && gridData[`${r}${c-1}`].active) activeNb.push(`${r}${c-1}`);
-              if (c < 7 && gridData[`${r}${c+1}`].active) activeNb.push(`${r}${c+1}`);
-
-              if (activeNb.length >= 1) secretCandidates.push({ key: k, count: activeNb.length, nbs: activeNb });
+              let touchesSubdungeon = false;
+              ['N', 'S', 'W', 'E'].forEach(dir => {
+                const nbKey = getNeighborKey(k, dir);
+                if (nbKey && gridData[nbKey].active) {
+                  activeNb.push(nbKey);
+                  if (gridData[nbKey].role === "SUBDUNGEON") touchesSubdungeon = true;
+                }
+              });
+              if (!touchesSubdungeon && activeNb.length >= 1) {
+                secretCandidates.push({ key: k, count: activeNb.length, nbs: activeNb });
+              }
             }
           });
         });
@@ -920,7 +937,7 @@
           active: true,
           name: "🗝️ Sala Secreta de Minos",
           role: "SECRET",
-          notes: "Regla Isaac Pura: SIN PISTAS EXTERNAS. Deducción por mapa -> Bomba / EARTH Shatter."
+          notes: "Regla Isaac Pura: NUNCA colindante a Subdungeon. Sin pistas externas en paredes -> Bomba / EARTH Shatter."
         };
 
         sTarget.nbs.forEach(nKey => {
@@ -946,7 +963,7 @@
       log += `SUBDUNGEON 1d8: [${currentSubRoll}] -> ${subObj.code} (${subObj.name})\n`;
       log += `GUARDIÁN DE ÁREA: ${subObj.boss}\n`;
       log += `ALINEAMIENTO: [${currentAlign}] ${ALIGNMENTS[currentAlign - 1]}\n`;
-      log += `SALA SECRETA ISAAC PURA: Sin pistas externas en paredes. Deducción por mapa.\n`;
+      log += `SALA SECRETA ISAAC PURA: NUNCA colindante a la Subdungeon. Sin pistas en paredes.\n`;
       log += `PERSISTENCIA: Mixta (Atajos de rejilla/muro bomba se guardan; cerrojos resetean)\n`;
       log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;

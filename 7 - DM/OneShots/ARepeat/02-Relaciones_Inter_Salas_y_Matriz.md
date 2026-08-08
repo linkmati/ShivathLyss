@@ -1,7 +1,7 @@
 # Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md`  
-> **Sistema**: Redes Causales de Área + Persistencia Mixta + Sala Secreta Isaac Pura.  
+> **Sistema**: Redes Causales de Área + Persistencia Mixta + Sala Secreta Isaac Pura (Sin Adyacencia a Subdungeon).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -34,14 +34,18 @@
 
 ```
 ======================================================================
-           🗝️ SALA SECRETA DE ISAAC (REGLA PURA) 🗝️
+     🗝️ SALA SECRETA DE ISAAC (REGLA DE NO ADYACENCIA A SUBDUNGEON) 🗝️
 ======================================================================
-1. GENERACIÓN EXACTA DE ISAAC:
+1. UBICACIÓN MULTI-SALA:
    - Se genera SIEMPRE 1 Sala Secreta por incursión.
-   - Se ubica en un hueco de la rejilla 7x7 que conecta directamente
-     con DOS O MÁS (2, 3 o 4) SALAS ACTIVAS vecinas.
+   - Se ubica en un hueco de la rejilla 7x7 que conecta con DOS O MÁS (2, 3 o 4)
+     SALAS ACTIVAS vecinas.
 
-2. SIN PISTAS EXTERNAS (DEDUCCIÓN POR MAPA):
+2. PROHIBIDA LA ADYACENCIA A LA SUBDUNGEON:
+   - NUNCA se genera en celdas colindantes a la Subdungeon Boss (Regla Isaac).
+     La Sala Secreta debe estar en una rama distinta del laberinto.
+
+3. SIN PISTAS EXTERNAS (DEDUCCIÓN POR MAPA):
    - NO hay grietas, marcas ni pistas visuales en las paredes exteriores.
    - Los jugadores deben DEDUCIR su ubicación observando la geometría del
      mapa en su cuaderno físico (buscando huecos vacíos rodeados por salas).
@@ -60,10 +64,10 @@ graph TD
     A["Sala 02 / 07 (Cisterna)"] -->|"Rueda de Agua Drenada"| B["Drena Agua en 3 Salas Adyacentes"]
     C["Sala 04 (Engranaje)"] -->|"Inversión de Giro"| D["Cambia la Dirección del Viento en la Torre"]
     E["Sala del Interruptor de Cristal"] -->|"Golpe al Cristal Azul/Rojo"| F["Baja Bloques Azules / Sube Bloques Rojos"]
-    G["Deducción Geométrica del Mapa"] -->|"Uso de Bomba / EARTH en Muro ciego"| H["🗝️ Revela la Sala Secreta de Isaac"]
+    G["Deducción Geométrica del Mapa"] -->|"Uso de Bomba / EARTH en Muro ciego (Alejado de Subdungeon)"| H["🗝️ Revela la Sala Secreta de Isaac"]
 ```
 
 ### Redes Inter-Salas Detalladas
 1. **Red Hidráulica (WATER)**: Accionar la manivela de la Cisterna (Sala 02) drena la piscina central de las 3 salas vecinas en la rejilla.
 2. **Red de Cristales Peg (LIGHT/AIR)**: Golpear el Cristal Rúnico conmuta el estado global de los bloques de cuarzo Azul y Rojo en las salas del cuadrante.
-3. **Sala Secreta de Isaac (🗝️)**: Deducción geométrica pura en mapa. Un impacto de Bomba o **EARTH Shatter** en la pared ciega de una sala colindante derrumba el muro de piedra agrietada.
+3. **Sala Secreta de Isaac (🗝️)**: Deducción geométrica pura en mapa. Un impacto de Bomba o **EARTH Shatter** en la pared ciega de una sala colindante (no Subdungeon) derrumba el muro de piedra agrietada.
