@@ -16,7 +16,7 @@ flowchart LR
     A["Obtención del Objeto Elemental Temporal en Cofre Maestro"] --> B["Cámara del Guardián de Área"]
     B --> C["Usar Objeto Elemental para Romper Inmunidad del Guardián"]
     C --> D["Derrota del Guardián"]
-    D --> E["🔓 SINTONÍA PERMANENTE DESBLOQUEADA EN EL ALTAR PARA FUTURAS RUNS"]
+    D --> E["🔓 SUBDUNGEON COMPLETADA PERMANENTEMENTE & FRAGMENTO OBTENIDO"]
 ```
 
 ---
@@ -24,44 +24,44 @@ flowchart LR
 ### Catálogo de Guardianes y Objetos Elementales
 
 ### A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica)
-* **Objeto Elemental Requerido**: *Guantelete de Llama de Minos* (Obtenido en el Cofre Maestro de la Caldera).
+* **Objeto Elemental Requerido**: *Guantelete de Llama* (Obtenido en el Cofre Maestro de la Caldera).
 * **Mecánica Zelda**: El boss se protege tras un escudo de escoria de magma congelado. Disparar el *Guantelete de Llama* a los 3 braseros superiores funde el escudo y lo aturde 1 ronda.
-* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **FIRE** en el Altar de Sintonía.
+* **Recompensa**: 🔓 Desbloqueo permanente del paso por la Caldera y Fragmento de Tablilla #1.
 
 ---
 
 ### B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida)
-* **Objeto Elemental Requerido**: *Flauta del Mar de Minos*.
+* **Objeto Elemental Requerido**: *Flauta del Mar*.
 * **Mecánica Zelda**: La Quimera flota fuera del alcance sobre un chorro de agua. Tocar la *Flauta del Mar* drena la columna de agua, haciendo caer al boss al suelo.
-* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **WATER** en el Altar de Sintonía.
+* **Recompensa**: 🔓 Desbloqueo permanente del paso por la Cisterna y Fragmento de Tablilla #2.
 
 ---
 
 ### C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos)
-* **Objeto Elemental Requerido**: *Capa del Vértice de Minos*.
+* **Objeto Elemental Requerido**: *Capa del Vértice*.
 * **Mecánica Zelda**: El Coloso genera tornados que empujan a los exploradores al vacío. Usar la *Capa del Vértice* permite remontar el tornado y aterrizar sobre el núcleo débil del boss.
-* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **AIR** en el Altar de Sintonía.
+* **Recompensa**: 🔓 Desbloqueo permanente del paso por la Torre y Fragmento de Tablilla #3.
 
 ---
 
 ### D. El Titán de Basalto (Guardián de EARTH - El Dominio Telúrico)
-* **Objeto Elemental Requerido**: *Martillo de Basalto de Minos*.
+* **Objeto Elemental Requerido**: *Martillo de Basalto*.
 * **Mecánica Zelda**: El Titán posee armadura de piedra impenetrable. Asestar un golpe de impacto con el *Martillo de Basalto* agrieta su coraza para permitir daño convencional.
-* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **EARTH** en el Altar de Sintonía.
+* **Recompensa**: 🔓 Desbloqueo permanente del paso por el Dominio y Fragmento de Tablilla #4.
 
 ---
 
 ### E. El Botánico de Sombras (Guardián de LIFE - El Invernadero Ancestral)
-* **Objeto Elemental Requerido**: *Semilla Botánica de Minos*.
+* **Objeto Elemental Requerido**: *Semilla Botánica*.
 * **Mecánica Zelda**: El Botánico se esconde en bulbos carnívoros. Plantar la *Semilla Botánica* germina vides que aprisionan los bulbos y exponen la flor central.
-* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **LIFE** en el Altar de Sintonía.
+* **Recompensa**: 🔓 Desbloqueo permanente del paso por el Invernadero y Fragmento de Tablilla #5.
 
 ---
 
 ### F. El Espejismo de Cristal (Guardián de LIGHT - El Santuario Prismático)
-* **Objeto Elemental Requerido**: *Escudo Prismático de Minos*.
+* **Objeto Elemental Requerido**: *Escudo Prismático*.
 * **Mecánica Zelda**: El boss genera 3 copias de luz ilusorias. Usar el *Escudo Prismático* para reflejar la luz del tragaluz revela inmediatamente al verdadero boss.
-* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **LIGHT** en el Altar de Sintonía.
+* **Recompensa**: 🔓 Desbloqueo permanente del paso por el Santuario y Fragmento de Tablilla #6.
 
 ---
 
@@ -73,9 +73,9 @@ flowchart LR
 ======================================================================
 - NIVEL FIJO RECOMENDADO: Nivel 7 - 8.
 - BALANCE DE GRUPO: Diseñado exactamente para un grupo de CINCO (5)
-  personajes equipados con al menos 5 de las 6 Palabras de Poder.
-- DESAFÍO: Exige coordinación de sintonías elementales para apilar y
-  romper los Orbes Elementales y desatar el FULL BURST.
+  personajes equipados con al menos 5 de las 6 Palabras de Poder / Elementos.
+- DESAFÍO: Exige coordinación de elementos para apilar y romper los Orbes
+  Elementales y desatar el FULL BURST.
 ======================================================================
 ```
 

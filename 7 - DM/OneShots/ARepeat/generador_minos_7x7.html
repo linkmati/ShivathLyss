@@ -439,7 +439,7 @@
   <header>
     <div class="title-area">
       <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7 DISPERSA)</h1>
-      <p>Generación Isaac Pura con Sala Secreta 🗝️ Adyacente Multi-Sala y Sin Pistas Visuales</p>
+      <p>Generación Isaac Pura con Sala Secreta 🗝️ y Topología Modular Agnóstica</p>
     </div>
     <div class="power-words-bar">
       <span class="power-badge badge-fire">🟁 Fire</span>
@@ -768,7 +768,6 @@
       updateOutputLog();
     }
 
-    // EXACT ISAAC GENERATION ALGORITHM (DISPERSED WITH MULTI-NEIGHBOR SECRET ROOM AND ZERO OUTSIDE CLUES)
     function generateDungeon() {
       initGridData();
       
@@ -787,7 +786,7 @@
         active: true,
         name: "Sala 01: Atrio de Entrada",
         role: "ATRIO",
-        notes: "Entrada principal y Altar de Sintonía"
+        notes: "Entrada principal del laberinto"
       };
 
       const targetRooms = Math.floor(Math.random() * 5) + 14;
@@ -874,8 +873,7 @@
         }
       }
 
-      // EXACT ISAAC SECRET ROOM GENERATION:
-      // Priority given to grid cells touching 2, 3, or 4 active rooms. ZERO OUTSIDE CLUES.
+      // ISAAC SECRET ROOM
       let secretCandidates = [];
       ROWS.forEach(r => {
         COLS.forEach(c => {
@@ -895,7 +893,6 @@
         });
       });
 
-      // Fallback to 1 neighbor if no 2+ neighbor spots exist
       if (secretCandidates.length === 0) {
         ROWS.forEach(r => {
           COLS.forEach(c => {
@@ -923,7 +920,7 @@
           active: true,
           name: "🗝️ Sala Secreta de Minos",
           role: "SECRET",
-          notes: "Regla Isaac Pura: SIN PISTAS EXTERNAS. Deducción por geometría del mapa -> Bomba / EARTH Shatter."
+          notes: "Regla Isaac Pura: SIN PISTAS EXTERNAS. Deducción por mapa -> Bomba / EARTH Shatter."
         };
 
         sTarget.nbs.forEach(nKey => {
