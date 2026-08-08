@@ -1,87 +1,89 @@
-# El Laberinto de Minos: Sistemas Core y Sintonía Elemental
+# El Laberinto de Minos: Sistemas Core, Días Elementales y Sintonía
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md`  
 > **Formato**: Misión Secundaria Repetible / Downtime / West Marches  
-> **Inspiración**: *Outer Wilds* + *Blue Prince* + *Xenoblade (Escritura Alrestiana)*  
+> **Inspiración**: *Outer Wilds* + *Blue Prince* + *Xenoblade*  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
 ## 1. El Propósito de Minos y la Estructura de la Dungeon
 
-El Laberinto de Minos es un motor arcano-astronómico vivo creado voluntariamente por el gran arquitecto Minos. Su función es actuar como una prueba continua donde la fuerza bruta fracasa y solo la **acumulación de conocimiento**, la **manipulación de sistemas interconectados** y la **sintonía elemental coordinada con las Palabras de Poder de Shivath** permiten avanzar hacia el núcleo.
+El Laberinto de Minos es un motor arcano-astronómico vivo creado voluntariamente por el gran arquitecto Minos. Su función es actuar como una prueba continua donde la fuerza bruta fracasa y solo la **acumulación de conocimiento**, la **manipulación de sistemas interconectados** y la **sintonía elemental progresiva** permiten avanzar hacia el núcleo.
 
 ### Resumen del Bucle (The Expedition Loop)
 
 ```mermaid
 flowchart TD
-    A["Entrada a la Mina / Campamento"] --> B["Altar de Sintonía Elemental"]
-    B --> C["Asignación de Bufos Exclusivos de Incursión"]
-    C --> D["Exploración: Consumo de Carga Arcana (10 pts)"]
-    D --> E{"Eventos en la Incursión"}
-    E -->|"Resolver Puzles / Alterar Entorno"| F["Cambios Persistentes en Salas"]
-    E -->|"Descifrar Glifos Alrestianos"| G["Actualizar Diario del Gremio"]
-    E -->|"Derrotar Guardianes"| H["Desactivación Permanente de Trampas"]
-    D --> I["Agotamiento de Carga Arcana / Salida Voluntaria"]
-    I --> J["El Colapso / Shift Espacial"]
-    J --> K["Retorno al Campamento: Pérdida de Bufos Elementales"]
-    K --> A
+    A["Entrada a la Mina / Campamento"] --> B["Consulta del Calendario Astral de Minos"]
+    B --> C{"¿Subdungeon Elemental Abierta Hoy?"}
+    C -->|"Sí (Día Específico)"| D["Incursión a la Subdungeon del Guardián"]
+    C -->|"No (Día Estándar)"| E["Exploración General / Colección de Glifos"]
+    D --> F{"¿Completado conservando >= 7/10 Carga Arcana?"}
+    F -->|"Sí (Ejecución Perfecta)"| G["🔓 Desbloqueo Permanente del Bufo en Altar"]
+    F -->|"No (< 7 Cargas)"| H["Colapso: Recompensa Menor, Sin Sintonía"]
+    E & G & H --> I["Expulsión al Campamento / Registro en Diario"]
 ```
 
 ---
 
-## 2. Sistema de Carga Arcana (Contador de Sesión)
+## 2. Días Elementales y Subdungeons (Rotación Astral)
 
-Para garantizar que las expediciones sean ideales como **actividades secundarias o de relleno (1.5 a 3 horas)**:
+El laberinto no muestra todas sus salas al mismo tiempo. Existen **6 Subdungeons Elementales** dedicadas a las Palabras de Poder de Shivath. Cada Subdungeon solo abre su compuerta principal en **Días Particulares** del ciclo lunar/astral de Shivath:
 
-* **Reserva Inicial**: El grupo comienza con **10 Puntos de Carga Arcana**.
-* **Consumo por Sala**:
-  * Entrar o explorar una sala nueva: **-1 Carga Arcana**.
-  * Re-cruzar una sala ya visitada en la misma incursión: **0 Carga Arcana** (si la sala está limpia).
-  * Error grave en un panel de Minos o fallo catastrófico en puzle: **-1 Carga Arcana adicional**.
-* **El Colapso (The Shift)**:
-  * Al llegar a **0 Carga Arcana**, la masa del laberinto vibra y expulsa a los exploradores hacia la superficie mediante un pliegue dimensional seguro.
-  * El orden y conexiones de las salas se reconfiguran para la siguiente expedición, pero las **alteraciones del terreno y el conocimiento registrado permanecen**.
+| Día Astral | Subdungeon Abierta | Guardián de Área | Requisito de Acceso |
+| :---: | :--- | :--- | :--- |
+| **Día de la Llama (FIRE)** | *La Caldera Volcánica* | El Señor del Crisol | Red Térmica encendida en la run anterior. |
+| **Día de la Marea (WATER)** | *La Cisterna Sumergida* | La Quimera Hidráulica | Válvula del Depósito desbloqueada. |
+| **Día del Viento (AIR)** | *La Torre de los Vientos* | El Coloso del Vértice | Conexión de aire activa en el Engranaje. |
+| **Día del Pico (EARTH)** | *El Dominio Telúrico* | El Guardián de Basalto | Ancla Arcana previa en la Sala 10. |
+| **Día del Brote (LIFE)** | *El Invernadero Ancestral* | El Botánico de Sombras | Semilla ancestral sembrada en la Sala 03. |
+| **Día del Sol (LIGHT)** | *El Santuario Prismático* | El Espejismo de Cristal | Espejo rúnico alineado en la Sala 09. |
 
 ---
 
-## 3. Sistema de Sintonía Elemental (Las 6 Palabras de Poder de Shivath)
+## 3. Desbloqueo de Sintonía Elemental (Regla del 7/10 de Carga Arcana)
 
-Al cruzar el **Altar de Sintonía** en la entrada del laberinto, cada jugador debe elegir o sintonizarse con una de las **6 Palabras de Poder de Shivath**:
+Al inicio de la campaña, **los jugadores no tienen acceso a todos los elementos en el Altar de Sintonía**.
 
-> [!IMPORTANT]
-> **Regla de Duración**: Estos bufos y facultades solo existen **dentro** del laberinto. Al ser expulsados o salir a la superficie, la sintonía se disipa por completo.
+Para **desbloquear permanentemente** una Palabra de Poder y poder elegirla en el Altar al inicio de cualquier incursión futura, el grupo debe cumplir la **Prueba de Ejecución Perfecta**:
 
-```mermaid
-graph TD
-    subgraph Palabras de Poder de Shivath
-        FIRE["Fire (Fuego / Calor)"]
-        WATER["Water (Agua / Fluidez)"]
-        AIR["Air (Aire / Viento)"]
-        EARTH["Earth (Tierra / Estructura)"]
-        LIFE["Life (Vida / Naturaleza)"]
-        LIGHT["Light (Luz / Revelación)"]
-    end
+```
+======================================================================
+         👑 REGLA DE EJECUCIÓN PERFECTA (PRUEBA DEL GUARDIÁN) 👑
+======================================================================
+1. Entrada en Día Específico: Entrar a la Subdungeon en su día astral.
+2. Derrotar al Guardián de Área y resolver el Puzle Maestro.
+3. EFICIENCIA DE CARGA: El grupo debe completar la Subdungeon conservando
+   SETE O MÁS (>= 7/10) PUNTOS DE CARGA ARCANA intactos al final.
+   (Máximo 3 Puntos de Carga gastados en toda la incursión).
+   
+RESULTADO:
+- Con 7-10 Cargas restantes: 🔓 SINTONÍA DESBLOQUEADA PARA SIEMPRE.
+- Con < 7 Cargas restantes: Se obtiene botín menor, pero el canal arcano
+  se desestabiliza y la Sintonía NO se desbloquea.
+======================================================================
 ```
 
-### Tabla de Sintonías Elementales de Shivath
+---
 
-| Palabra de Poder | Pasiva de Combate / Supervivencia | Facultad de Interacción en Puzles | Rol en Boss Final |
+## 4. Tabla de Sintonías Elementales Desbloqueables
+
+Una vez desbloqueada una Palabra de Poder mediante la regla del 7/10, cualquier jugador puede sintonizarse con ella al inicio de las siguientes incursiones:
+
+| Palabra de Poder | Pasiva de Combate | Facultad de Puzles | Rol en Boss Final |
 | :--- | :--- | :--- | :--- |
-| **Fire (Fuego)** | Inmunidad a daño de fuego y frío extremo. +1d6 daño de fuego a tus ataques. | **Ignite/Melt**: Enciende forjas antiguas, derrite barreras de hielo y activa generadores térmicos. | Rompe el *Escudo Frío de Minos* e incinera las esporas del núcleo. |
-| **Water (Agua)** | Inmunidad a ahogamiento. Caminar sobre agua y resistir alta presión hidráulica. | **Drain/Conduct**: Sintoniza con conductos de agua, purifica líquidos y canaliza corrientes. | Rompe el *Escudo Flamígero de Minos* y enfría la coraza volcánica. |
-| **Air (Aire)** | Caída pluma constante. +10 ft velocidad y ventaja en salvaciones para esquivar trampas. | **Vent/Float**: Desplaza gases venenosos, impulsa plataformas de viento y activa pozos de presión. | Rompe el *Escudo Gravitacional de Minos* y estabiliza el suelo. |
-| **Earth (Tierra)** | +2 a AC y resistencia a daño físico no mágico. | **Shatter/Anchor**: Repara o rompe muros de piedra frágiles; activa anclas telúricas. | Rompe el *Escudo Cinético de Minos* y fija sus pies a la matriz. |
-| **Life (Vida)** | Regeneración de 1d4 HP por turno al estar herido (<50% HP). Inmunidad a veneno. | **Overgrowth/Purify**: Hace brotar raíces para escalar abismos y purifica toxinas o esporas arcanas. | Rompe el *Escudo de Necrosis de Minos* y restaura los conductos vitales. |
-| **Light (Luz)** | Emite luz mágica de 30 ft. Inmunidad a ceguera y visión a través de ilusiones/oscuridad. | **Refract/Reveal**: Refleja rayos solares en espejos rúnicos y revela glifos e itinerarios invisibles. | Rompe el *Escudo Astral/Espejismo de Minos* y expone el Núcleo de Cristal. |
+| **FIRE (Fuego)** | Inmunidad a fuego/frío. +1d6 daño fuego. | **Ignite/Melt**: Enciende forjas y derrite hielo. | Rompe el *FIRE Orb* del Boss con WATER. |
+| **WATER (Agua)** | Inmunidad a ahogamiento. Caminar sobre agua. | **Drain/Conduct**: Drena depósitos y canaliza agua. | Rompe el *WATER Orb* del Boss con FIRE. |
+| **AIR (Aire)** | Caída pluma. +10 ft movimiento. | **Vent/Float**: Dispersa gases y vuela en corrientes. | Rompe el *AIR Orb* del Boss con EARTH. |
+| **EARTH (Tierra)** | +2 AC y resistencia a daño físico. | **Shatter/Anchor**: Repara muros y ancla salas. | Rompe el *EARTH Orb* del Boss con AIR. |
+| **LIFE (Vida)** | Regeneración 1d4 HP/turno (<50% HP). | **Overgrowth/Purify**: Brota vides y purifica toxinas. | Rompe el *LIFE Orb* del Boss con LIGHT. |
+| **LIGHT (Luz)** | Emite luz 30 ft. Visión en oscuridad. | **Refract/Reveal**: Proyecta espejos y revela glifos. | Rompe el *LIGHT Orb* del Boss con LIFE. |
 
 ---
 
-## 4. El Diario del Gremio (Persistencia Asíncrona)
+## 5. El Diario del Gremio y Calendario de la Mina
 
-En el Campamento Base reside el **Diario de la Expedición de Minos**.
-* Cada grupo que sale anota:
-  * Glifos traducidos y combinaciones descubiertas.
-  * Estado de las válvulas, generadores y tanques de fluidos.
-  * Guardianes eliminados.
-* Cuando un nuevo grupo (o jugadores distintos) juega en la siguiente sesión, **hereda todo el diario**, permitiéndoles usar el conocimiento previo inmediatamente sin repetir el trabajo de descubrimiento.
+En el Campamento Base reside el **Calendario Astral y Diario de la Mina**:
+* Los jugadores consultan qué **Día Astral** es hoy antes de elegir ruta.
+* Registran qué Palabras de Poder ya han sido **Desbloqueadas con 7/10 Cargas** y cuáles siguen selladas.

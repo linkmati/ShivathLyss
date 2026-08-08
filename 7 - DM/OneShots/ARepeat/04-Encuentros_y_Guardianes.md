@@ -2,26 +2,75 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md`  
 > **Diseñado bajo el Marco Metodológico**: `boss-ability-design`  
-> **Sistema Especial de Combate**: **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade Chronicles 2*).  
+> **Sistema de Combate**: **6 Guardianes de Área (Desbloqueo 7/10 Cargas)** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
-## 1. Minibosses de Sala (Guardianes Persistentes)
+## 1. Guardianes de Área (Prueba del 7/10 de Carga)
 
-Los Minibosses custodian nodos clave. **Al ser derrotados, no reaparecen en futuras incursiones** y su eliminación altera permanentemente la dungeon.
+Cada Subdungeon Elemental está custodiada por un **Guardián de Área**. 
 
-### A. El Botánico de Sombras (Miniboss de la Sala 03 - LIFE)
-* **Función en la Dungeon**: Controla la plaga de esporas venenosas en la Red Botánica.
-* **Efecto de Derrota**: La plaga de toxinas se extingue, haciendo seguro el tránsito por las salas verdes.
+```
+======================================================================
+         👑 REGLA DE EJECUCIÓN PERFECTA (PRUEBA DEL GUARDIÁN) 👑
+======================================================================
+Para desbloquear la Palabra de Poder del Guardián en el Altar de Sintonía:
+1. Derrotar al Guardián de Área en su Día Astral específico.
+2. Mantener OCHO O MÁS (>= 7/10) PUNTOS DE CARGA ARCANA al finalizar.
+   (Máximo 3 Puntos de Carga gastados en toda la incursión).
+======================================================================
+```
+
+---
+
+### Catálogo de los 6 Guardianes de Área
+
+### A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica)
+* **Día Astral**: Día de la Llama.
+* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **FIRE** en el Altar de Sintonía.
 * **Habilidad Destacada**:
-  * `Esporas de Asfixia (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de veneno** a un objetivo. Si impacta al PJ con sintonía **Life**, este absorbe las esporas y sana **1d8 HP** a un aliado adyacente.
+  * `Incineración Cauterizante (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de fuego** en cono de 20 ft. Si los jugadores la evitan con movimiento perfecto (*Save AGI DC 14*), no se consume Carga Arcana extra.
 
-### B. El Quimérico Volcánico (Miniboss de la Sala 05 - FIRE/EARTH)
-* **Función en la Dungeon**: Mantiene la Forja en calor incontrolable.
-* **Efecto de Derrota**: La Forja pasa a un estado de calor regulado.
+---
+
+### B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida)
+* **Día Astral**: Día de la Marea.
+* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **WATER** en el Altar de Sintonía.
 * **Habilidad Destacada**:
-  * `Piel de Magma Denso (Pasiva).` Otorga **+4 AC** mientras esté en contacto con lava. El PJ **Water** puede congelar las baldosas para remover esta pasiva durante 2 rondas.
+  * `Chorro de Alta Presión (Acción Activa).` Inflige **3d6 daño contundente** y empuja 20 ft. Permite sumergirse en la cisterna sin ahogarse si se bloquea con el escudo.
+
+---
+
+### C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos)
+* **Día Astral**: Día del Viento.
+* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **AIR** en el Altar de Sintonía.
+* **Habilidad Destacada**:
+  * `Torbellino Repulsivo (Acción Activa).` Eleva a los jugadores 30 ft en el aire. Exige reacción de caída pluma o *Save AGI DC 15*.
+
+---
+
+### D. El Titán de Basalto (Guardián de EARTH - El Dominio Telúrico)
+* **Día Astral**: Día del Pico.
+* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **EARTH** en el Altar de Sintonía.
+* **Habilidad Destacada**:
+  * `Muro Telúrico (Pasiva).` +4 AC hasta que los jugadores usen el ideograma `[🟅 EARTH] + [⊗ PURGE]` para agrietar su armadura.
+
+---
+
+### E. El Botánico de Sombras (Guardián de LIFE - El Invernadero Ancestral)
+* **Día Astral**: Día del Brote.
+* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **LIFE** en el Altar de Sintonía.
+* **Habilidad Destacada**:
+  * `Esporas de Asfixia (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de veneno**. Al ser derrotado con >= 7 Cargas, purifica la toxina del invernadero para siempre.
+
+---
+
+### F. El Espejismo de Cristal (Guardián de LIGHT - El Santuario Prismático)
+* **Día Astral**: Día del Sol.
+* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **LIGHT** en el Altar de Sintonía.
+* **Habilidad Destacada**:
+  * `Reflejos Ilusorios (Pasiva).` Crea 3 copias de luz. Usar espejos rúnicos disipa las copias sin gastar turnos ni Carga.
 
 ---
 
@@ -68,8 +117,6 @@ Cada Orbe tiene **3 Puntos de Durabilidad de Orbe**. Los jugadores pueden rediri
 | **LIFE Orb (Vida)** | **LIGHT (Luz)** | **2 Puntos** (Crítico) | Purificación luminosa; sana 2d8 HP al grupo aliado. |
 | **LIGHT Orb (Luz)** | **LIFE (Vida)** | **2 Puntos** (Crítico) | Absorción vegetal; ciega temporalmente al boss. |
 
-*Nota: Atacar a un Orbe con cualquier elemento no opuesto solo inflige 1 Punto de Daño al Orbe.*
-
 ---
 
 ### C. Sobretensión de Cadena: FULL BURST (Ruptura Total)
@@ -90,23 +137,7 @@ Cuando los exploradores logran **destruir 3 o más Orbes Elementales** durante l
 
 ---
 
-## 4. Estructura de Fases del Boss
-
-### FASE 1: La Carga Elemental (100% - 60% HP)
-* **Acción de Inicio**: El boss genera automáticamente 2 Orbes aleatorios al iniciar el combate (`Fire Orb` + `Earth Orb`).
-* **Habilidad**: `Sobretensión de Orbes (Acción Activa).` El boss canaliza la energía de sus orbes activos infligiendo **2d8 daño elemental** por cada orbe flotante a un objetivo.
-
-### FASE 2: La Barrera Hexagonal de Orbes (60% - 20% HP)
-* **Acción de Inicio**: El boss entra en defensiva y manifiesta **los 6 Orbes Elementales a la vez** (`Fire`, `Water`, `Air`, `Earth`, `Life`, `Light`).
-* **Objetivo de los Jugadores**: Identificar las parejas opuestas (Water vs Fire, Light vs Life, Air vs Earth) para ejecutar la ruptura de 3 orbes y activar el **FULL BURST**.
-
-### FASE 3: Colapso del Núcleo (20% - 0% HP)
-* **Desencadenado tras el FULL BURST**: El núcleo de cristal queda completamente expuesto. La **AC cae a 11**.
-* **Acción de Remate**: `Juicio Final de Minos (Acción de Hito Temporal).` Rayo prismático continuo que exige que todos los jugadores ejecuten sus facultades de sintonía en combo para asestar el golpe final.
-
----
-
-## 5. Recompensas de Victoria del Boss
+## 4. Recompensas de Victoria del Boss
 
 Al derrotar a **El Juicio de Minos**:
 1. **Acceso al Sanctum Interior**: Revelación del lore secreto de Minos en Shivath.

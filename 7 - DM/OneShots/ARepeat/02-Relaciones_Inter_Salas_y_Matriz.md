@@ -6,7 +6,23 @@
 
 ---
 
-## 1. Redes de Causalidad Inter-Salas
+## 1. El Calendario Astral de Minos (Días Elementales)
+
+Las **Subdungeons Elementales** no están abiertas siempre. Al inicio de cada sesión de downtime, el DM determina el **Día Astral** de Shivath (tirando 1d6 o avanzando el calendario de la campaña):
+
+```mermaid
+graph TD
+    D1["1d6 = 1: Día de la Llama (FIRE)"] -->|"Abre Subdungeon"| S1["La Caldera Volcánica (Sala 05)"]
+    D2["1d6 = 2: Día de la Marea (WATER)"] -->|"Abre Subdungeon"| S2["La Cisterna Sumergida (Sala 02)"]
+    D3["1d6 = 3: Día del Viento (AIR)"] -->|"Abre Subdungeon"| S3["La Torre de los Vientos (Sala 04)"]
+    D4["1d6 = 4: Día del Pico (EARTH)"] -->|"Abre Subdungeon"| S4["El Dominio Telúrico (Sala 10)"]
+    D5["1d6 = 5: Día del Brote (LIFE)"] -->|"Abre Subdungeon"| S5["El Invernadero Ancestral (Sala 03)"]
+    D6["1d6 = 6: Día del Sol (LIGHT)"] -->|"Abre Subdungeon"| S6["El Santuario Prismático (Sala 09)"]
+```
+
+---
+
+## 2. Redes de Causalidad Inter-Salas
 
 El Laberinto de Minos opera mediante **4 Redes de Transferencia Fieles**:
 
@@ -22,7 +38,7 @@ graph TD
         S07 -->|"Hielo Derretido"| S07B["S07: Paso del Altar Abierto"]
     end
 
-    subgraph Red de Luz y Refracción LIGHT
+    subgraph Red de Luz y Refracción LIGHT & LIFE
         S03["Sala 03: El Invernadero Solar"] -->|"Reflejo de Espejos"| S09["Sala 09: Galería de Luz"]
         S09 -->|"Rayo Enfocado"| S11["Sala 11: Campo de Fuerza del Núcleo"]
     end
@@ -32,34 +48,6 @@ graph TD
         S06 -->|"Puerta Alineada"| S10["Sala 10: Sanctum del Guardián"]
     end
 ```
-
----
-
-## 2. Detalle de los 4 Sistemas de Influencia Cruzada
-
-### A. Red Hidráulica (WATER)
-* **Depósito Principal (Sala 02)**: Contiene miles de litros de agua alcalina.
-* **Efecto Cruzado**:
-  * Si la Válvula `▼ Kael-Down` en Sala 02 se abre, la **Sala 05 (La Forja)** se inunda, apagando el fuego y creando un puente flotante de madera para cruzar el abismo.
-  * Si el agua se drena hacia la **Sala 08 (Acuífero)**, se revela un pasadizo secreto sumergido que conduce directamente al atajo de la **Sala 10**.
-
-### B. Red Térmica (FIRE)
-* **La Forja Central (Sala 05)**: Emite un calor volcánico extremo cuando sus incineradores están encendidos.
-* **Efecto Cruzado**:
-  * Cuando la Forja está encendida, los túneles térmicos calientan la **Sala 07 (Cripta Congelada)**.
-  * El hielo milenario de la Sala 07 se derrite tras **1 turno de Carga Arcana**, liberando cofres sumergidos y abriendo la puerta norte.
-
-### C. Red de Refracción (LIGHT & LIFE)
-* **Invernadero Solar (Sala 03)**: Canaliza haces de luz solar directa a través de prismas de cristal y vides botánicas.
-* **Efecto Cruzado**:
-  * Al alinear los espejos de la **Sala 09 (Galería de Luz)**, el haz se proyecta hacia la **Sala 11**, desactivando la barrera reflectante del núcleo.
-  * El jugador con sintonía **Light** puede actuar como prisma vivo para corregir una desviación de espejo rota.
-
-### D. Red de Rotación y Gravitación (EARTH & AIR)
-* **El Engranaje Maestro (Sala 04)**: Consola de rotación espacial.
-* **Efecto Cruzado**:
-  * Girar la rueda en la Sala 04 hace rotar físicamente la **Sala 06 (Salón Invertido)**.
-  * Al girar 90°, lo que era una pared inalcanzable se convierte en el nuevo suelo, permitiendo a los jugadores caminar hasta la puerta que antes estaba en el techo.
 
 ---
 
@@ -79,9 +67,9 @@ Al inicio de cada incursión, el DM tira **1d6** para determinar cómo encajan l
 
 | 1d6 | Alineamiento | Disposición de Nodos | Regla Ambiental Global |
 | :---: | :--- | :--- | :--- |
-| **1** | **Alineamiento Solar (FIRE)** | En línea recta (A -> E -> I). | Forjas al 100% de calor. Las salas de hielo son agua hirviendo. |
-| **2** | **Alineamiento Lunar (LIGHT)** | Anillo periférico (A -> B -> C -> F -> I -> H -> G -> D). | Iluminación nula. Revela inscripciones brillantes en las paredes. |
-| **3** | **Alineamiento de Vida (LIFE)** | Concentrado en cruz alrededor del Hub (B, D, E, F, H). | Plantas y vides arcanas crecen rápido; plataformas de flora activas. |
-| **4** | **Alineamiento Gravitacional (AIR)** | Matriz en espiral (A -> B -> C -> F -> E -> D -> G). | Gravedad reducida a la mitad. Saltos dobles automáticos. |
-| **5** | **Alineamiento Inundado (WATER)** | Conexiones verticales empujadas hacia abajo. | Salas inferiores llenas de agua hasta el pecho. |
-| **6** | **Alineamiento Armónico (EARTH)** | **Los jugadores eligen la posición inicial de 2 salas** mediante sus Anclas de Glifo acumuladas. |
+| **1** | **Alineamiento Solar (FIRE)** | En línea recta (A -> E -> I). | Forjas al 100% de calor. Subdungeon de Fire accesible. |
+| **2** | **Alineamiento Lunar (LIGHT)** | Anillo periférico (A -> B -> C -> F -> I -> H -> G -> D). | Iluminación nula. Subdungeon de Light accesible. |
+| **3** | **Alineamiento de Vida (LIFE)** | Concentrado en cruz alrededor del Hub (B, D, E, F, H). | Plantas crecen rápido. Subdungeon de Life accesible. |
+| **4** | **Alineamiento Gravitacional (AIR)** | Matriz en espiral (A -> B -> C -> F -> E -> D -> G). | Gravedad reducida. Subdungeon de Air accesible. |
+| **5** | **Alineamiento Inundado (WATER)** | Conexiones verticales empujadas hacia abajo. | Salas inferiores inundadas. Subdungeon de Water accesible. |
+| **6** | **Alineamiento Armónico (EARTH)** | **Los jugadores eligen la posición inicial de 2 salas** mediante sus Anclas acumuladas. | Subdungeon de Earth accesible. |
