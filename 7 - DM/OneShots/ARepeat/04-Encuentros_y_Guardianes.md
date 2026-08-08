@@ -2,7 +2,8 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md`  
 > **Diseñado bajo el Marco Metodológico**: `boss-ability-design`  
-> **Sinergia Especial**: Combate interactivo donde las **6 Palabras de Poder de Shivath** (**Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**) son indispensables para romper escudos y fases.
+> **Sistema Especial de Combate**: **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade Chronicles 2*).  
+> **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
@@ -27,76 +28,85 @@ Los Minibosses custodian nodos clave. **Al ser derrotados, no reaparecen en futu
 ## 2. BOSS FINAL: El Juicio de Minos (El Héroe del Sello)
 
 * **Concepto**: Un coloso arcano compuesto de basalto y un núcleo de cristal hexagonal. Es la encarnación del test de Minos.
-* **Mecánica Core**: Posee una barrera de **Escudo Prismático Elemental** adaptado a las 6 Palabras de Poder de Shivath. Cada fase del escudo **solo puede ser destruida por el jugador que posea la sintonía correspondiente**.
+* **Mecánica Core**: **Mecánica de Orbes Elementales (Xenoblade Chronicles 2 Adaptation)**.
 
 ```mermaid
-graph LR
-    F1["Fase 1: Escudo de Hielo"] -->|"FIRE destruye escudo"| F2["Fase 2: Escudo Volcánico"]
-    F2 -->|"WATER destruye escudo"| F3["Fase 3: Escudo Telúrico"]
-    F3 -->|"EARTH / AIR destruyen escudo"| F4["Fase 4: Escudo de Toxinas"]
-    F4 -->|"LIFE destruye escudo"| F5["Fase 5: Escudo de Espejismo"]
-    F5 -->|"LIGHT destruye escudo"| F6["Fase Final: El Núcleo Desnudo"]
+graph TD
+    A["Ataque / Remate Elemental"] -->|"Genera Orbe"| B["Orbe Elemental Orbitando (Max 6)"]
+    B -->|"Otorga al Boss"| C["+1 AC por Orbe & Resistencia Elemental"]
+    D["Ataque con Elemento Opuesto"] -->|"Inflige 2 Pts de Daño al Orbe"| E["Orbe Rompe / Shatter"]
+    E -->|"Ruptura de 3+ Orbes"| F["🔥 FULL BURST (Stun + Daño x2 Automático) 🔥"]
 ```
 
 ---
 
-### Taxonomía y Habilidades de "El Juicio de Minos"
+## 3. Mecánica Detallada de los Orbes Elementales (Xenoblade 2 System)
 
-#### Categorías de Rasgos Aplicadas:
-* **Mitigación y Defensa**: *Barrera Elemental Cambiante* (Inmunidad total a daño excepto del elemento vulnerado en la fase actual).
-* **Adaptabilidad y Progresión**: Gana +1 a la precisión de ataque por cada escudo roto.
-* **Control y Denegación**: *Onda de Distorsión Gravitacional* (Empuja a los exploradores a los bordes de la arena).
+### A. Generación de Orbes (Orb Stacking)
+Cada vez que el Boss ejecuta un ataque finalizador de fase o un jugador asesta un golpe con una de las **6 Palabras de Poder**, se manifiesta un **Orbe Elemental** flotando en órbita alrededor de *El Juicio de Minos*:
 
----
-
-### FASES DEL COMBATE
-
-### FASE 1: Armadura de Escarcha (Vulnerable a FIRE)
-* **Modificador Pasivo**: Aura de frío de 10 ft (**1d6 daño de frío** por turno).
-* **Inmunidad**: Inmune a todo excepto **FIRE**.
-* **Transición**: El PJ **Fire** debe canalizar *Ignite* o infligir 20+ daño de fuego para derretir la coraza.
+* **Tipos de Orbes**: `Fire Orb`, `Water Orb`, `Air Orb`, `Earth Orb`, `Life Orb`, `Light Orb`.
+* **Beneficios Pasivos del Boss por Orbe Activo**:
+  1. **Armadura Prismática**: +1 AC por cada Orbe activo (Ej: 4 orbes = +4 AC).
+  2. **Inmunidad al Elemento**: El boss se vuelve completamente inmune al tipo de daño del Orbe que tenga activo.
+  3. **Aura de Reversión**: Quien ataque al boss a distancia melé recibe **1d6 daño elemental** del tipo de cada orbe activo.
 
 ---
 
-### FASE 2: Coraza Volcánica (Vulnerable a WATER)
-* **Modificador Pasivo**: Magma fluido en sus ataques (**1d6 daño de fuego continuo**).
-* **Inmunidad**: Inmune a todo excepto **WATER**.
-* **Transición**: El PJ **Water** debe usar *Drain/Conduct* con el estanque para provocar un choque térmico (*Stun de 1 ronda*).
+### B. Rompimiento de Orbes (Elemental Countering)
+
+Cada Orbe tiene **3 Puntos de Durabilidad de Orbe**. Los jugadores pueden redirigir sus ataques elementales o facultades de incursión directamente hacia un Orbe flotante específico:
+
+#### Tabla de Elementos Opuestos (Vulnerabilidad Crítica)
+
+| Orbe Activo en el Boss | Elemento Opuesto (Destructor Crítico) | Daño al Orbe por Impacto | Efecto de Destrucción de Orbe |
+| :--- | :--- | :---: | :--- |
+| **FIRE Orb (Fuego)** | **WATER (Agua)** | **2 Puntos** (Crítico) | Explotar en vapor; remueve inmunidad a Fuego. |
+| **WATER Orb (Agua)** | **FIRE (Fuego)** | **2 Puntos** (Crítico) | Evaporación instantánea; stunea al boss 1 turno. |
+| **AIR Orb (Aire)** | **EARTH (Tierra)** | **2 Puntos** (Crítico) | Aplastamiento de presión; derriba al boss **Prone**. |
+| **EARTH Orb (Tierra)** | **AIR (Aire)** | **2 Puntos** (Crítico) | Pulverización de viento; rompe la armadura de roca. |
+| **LIFE Orb (Vida)** | **LIGHT (Luz)** | **2 Puntos** (Crítico) | Purificación luminosa; sana 2d8 HP al grupo aliado. |
+| **LIGHT Orb (Luz)** | **LIFE (Vida)** | **2 Puntos** (Crítico) | Absorción vegetal; ciega temporalmente al boss. |
+
+*Nota: Atacar a un Orbe con cualquier elemento no opuesto solo inflige 1 Punto de Daño al Orbe.*
 
 ---
 
-### FASE 3: Bastión Telúrico (Vulnerable a EARTH & AIR)
-* **Modificador Pasivo**: Placas de roca gravitantes (**AC 20**).
-* **Inmunidad**: Inmune a proyectiles y ataques a distancia.
-* **Transición**: **Air** contrarresta la inversión gravitacional del boss y **Earth** ejecuta *Shatter* en la placa central.
+### C. Sobretensión de Cadena: FULL BURST (Ruptura Total)
+
+Cuando los exploradores logran **destruir 3 o más Orbes Elementales** durante la batalla:
+
+```
+======================================================================
+               ⚡ FULL BURST: SOBRETENSIÓN DE MINOS ⚡
+======================================================================
+1. ¡ROMPIMIENTO TOTAL!: Todos los Orbes restantes explotan a la vez.
+2. STUN COMPLETO: El Juicio de Minos queda ATURDIDO durante 1 RONDA.
+3. INMUNIDADES CANCELADAS: Se eliminan todas las AC extra y resistencias.
+4. DAÑO CRÍTICO MULTIPLICADO: Todos los ataques de los jugadores durante 
+   esta ronda asestan DAÑO CRÍTICO AUTOMÁTICO MULTIPLICADO (x2).
+======================================================================
+```
 
 ---
 
-### FASE 4: Velo de Esporas (Vulnerable a LIFE)
-* **Modificador Pasivo**: Nube de toxinas que reduce la curación recibida a la mitad.
-* **Inmunidad**: Inmune a ataques físicos directos.
-* **Transición**: El PJ **Life** debe canalizar *Overgrowth* para absorber la plaga bioluminiscente del escudo.
+## 4. Estructura de Fases del Boss
+
+### FASE 1: La Carga Elemental (100% - 60% HP)
+* **Acción de Inicio**: El boss genera automáticamente 2 Orbes aleatorios al iniciar el combate (`Fire Orb` + `Earth Orb`).
+* **Habilidad**: `Sobretensión de Orbes (Acción Activa).` El boss canaliza la energía de sus orbes activos infligiendo **2d8 daño elemental** por cada orbe flotante a un objetivo.
+
+### FASE 2: La Barrera Hexagonal de Orbes (60% - 20% HP)
+* **Acción de Inicio**: El boss entra en defensiva y manifiesta **los 6 Orbes Elementales a la vez** (`Fire`, `Water`, `Air`, `Earth`, `Life`, `Light`).
+* **Objetivo de los Jugadores**: Identificar las parejas opuestas (Water vs Fire, Light vs Life, Air vs Earth) para ejecutar la ruptura de 3 orbes y activar el **FULL BURST**.
+
+### FASE 3: Colapso del Núcleo (20% - 0% HP)
+* **Desencadenado tras el FULL BURST**: El núcleo de cristal queda completamente expuesto. La **AC cae a 11**.
+* **Acción de Remate**: `Juicio Final de Minos (Acción de Hito Temporal).` Rayo prismático continuo que exige que todos los jugadores ejecuten sus facultades de sintonía en combo para asestar el golpe final.
 
 ---
 
-### FASE 5: Espejismo Astral (Vulnerable a LIGHT)
-* **Modificador Pasivo**: El boss crea 3 duplicados de luz (*Ceguera e Ilusión*).
-* **Inmunidad**: Ataques normales impactan duplicados falsos.
-* **Transición**: El PJ **Light** debe usar *Refract/Reveal* para disipar los reflejos falsos y exponer al verdadero boss.
-
----
-
-### FASE FINAL: El Núcleo Desnudo de Minos (25% - 0% HP)
-* **Modificador Pasivo**: Escudos disipados. **AC cae a 13**, pero entra en frenesí de sobretensión.
-* **Frenesí de Remate**: **Todas las 6 Palabras de Poder de los jugadores infligen el doble de daño**.
-
-#### Acciones de Fase Final:
-* `Juicio Final de Minos (Acción de Hito Temporal).` Rayo prismático que inflige **4d8 daño radiante/arcano** repartido en el grupo.
-* `Remate Armónico (Acción Reactiva).` Cuando todos los jugadores atacan en la misma ronda usando sus Palabras de Poder, el boss queda **Aturdido** hasta el final del combate.
-
----
-
-## 3. Recompensas de Victoria del Boss
+## 5. Recompensas de Victoria del Boss
 
 Al derrotar a **El Juicio de Minos**:
 1. **Acceso al Sanctum Interior**: Revelación del lore secreto de Minos en Shivath.
