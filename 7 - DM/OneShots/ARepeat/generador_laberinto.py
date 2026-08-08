@@ -1,27 +1,27 @@
 #!/usr/bin/env python3
 """
-Generador de Conexiones del Laberinto de Minos (Zelda 2D / Binding of Isaac 5x5 Grid)
+Generador de Conexiones del Laberinto de Minos (Rejilla 5x5 - Sistema 1d8 Subdungeon)
 -------------------------------------------------------------------------------------
-Genera la topología de salas en una matriz 5x5 con huecos libres (vacíos),
-estilo mazmorra roguelike / zelda 2d, definiendo conexiones y estados de puertas.
+Genera la topología 5x5 con huecos libres (Zelda 2D / Binding of Isaac), tirada 1d8
+para Subdungeons, persistencia y estado de puertas.
 
 Uso:
-    python3 generador_laberinto.py [--dia FIRE|WATER|AIR|EARTH|LIFE|LIGHT] [--seed INT]
+    python3 generador_laberinto.py [--subdungeon 1..8 | FIRE|WATER|AIR|EARTH|LIFE|LIGHT|BOSS|NONE] [--seed INT]
 """
 
 import sys
 import random
 import argparse
 
-PALABRAS_PODER = ["FIRE", "WATER", "AIR", "EARTH", "LIFE", "LIGHT"]
-
-SUBDUNGEONS = {
-    "FIRE": ("La Caldera Volcánica", "El Señor del Crisol", "Sala 05: La Forja"),
-    "WATER": ("La Cisterna Sumergida", "La Quimera Hidráulica", "Sala 02: El Depósito"),
-    "AIR": ("La Torre de los Vientos", "El Coloso del Vértice", "Sala 04: Engranaje"),
-    "EARTH": ("El Dominio Telúrico", "El Titán de Basalto", "Sala 10: Anclas"),
-    "LIFE": ("El Invernadero Ancestral", "El Botánico de Sombras", "Sala 03: Invernadero"),
-    "LIGHT": ("El Santuario Prismático", "El Espejismo de Cristal", "Sala 09: Espejos")
+SUBDUNGEONS_1D8 = {
+    1: ("FIRE", "La Caldera Volcánica", "El Señor del Crisol", "Sala 05: La Forja"),
+    2: ("WATER", "La Cisterna Sumergida", "La Quimera Hidráulica", "Sala 02: El Depósito"),
+    3: ("AIR", "La Torre de los Vientos", "El Coloso del Vértice", "Sala 04: Engranaje"),
+    4: ("EARTH", "El Dominio Telúrico", "El Titán de Basalto", "Sala 10: Anclas"),
+    5: ("LIFE", "El Invernadero Ancestral", "El Botánico de Sombras", "Sala 03: Invernadero"),
+    6: ("LIGHT", "El Santuario Prismático", "El Espejismo de Cristal", "Sala 09: Espejos"),
+    7: ("BOSS", "Sanctum de Minos (Boss Final)", "El Juicio de Minos", "Sala 12: Sanctum de Minos"),
+    8: ("NONE", "Ninguna Subdungeon Especial Abierta", "Sin Guardián de Área Hoy", "Exploración Estándar del Laberinto")
 }
 
 ALINEAMIENTOS = {
@@ -46,7 +46,7 @@ SALAS_DISPONIBLES = [
     "Sala 11: Galería del Juicio",
     "Sala 12: Sanctum de Minos",
     "Sala 13: Pasadizo de las Estatuas",
-    "Sala 14: Cámara de la Resonancia",
+    "Sala 14: Cámara de Resonancia",
     "Sala 15: Armería del Arquitecto"
 ]
 
@@ -65,42 +65,45 @@ ROW_NAMES = ["A", "B", "C", "D", "E"]
 COLS = [1, 2, 3, 4, 5]
 
 def get_neighbors(row_idx, col_val):
-    """Devuelve las posiciones adyacentes válidas en la rejilla 5x5."""
     neighbors = []
-    # Norte
     if row_idx > 0:
         neighbors.append(("Norte", ROW_NAMES[row_idx - 1], col_val))
-    # Sur
     if row_idx < 4:
         neighbors.append(("Sur", ROW_NAMES[row_idx + 1], col_val))
-    # Oeste
     if col_val > 1:
         neighbors.append(("Oeste", ROW_NAMES[row_idx], col_val - 1))
-    # Este
     if col_val < 5:
         neighbors.append(("Este", ROW_NAMES[row_idx], col_val + 1))
     return neighbors
 
-def generar_incursion_5x5(dia_astral=None, seed=None):
+def generar_incursion_5x5(subdungeon_param=None, seed=None):
     if seed is not None:
         random.seed(seed)
 
-    if not dia_astral or dia_astral.upper() not in PALABRAS_PODER:
-        dia_astral = random.choice(PALABRAS_PODER)
-    else:
-        dia_astral = dia_astral.upper()
+    # Determinar Subdungeon 1d8
+    sub_roll = None
+    if subdungeon_param:
+        param_str = str(subdungeon_param).upper()
+        if param_str.isdigit() and 1 <= int(param_str) <= 8:
+            sub_roll = int(param_str)
+        else:
+            for k, v in SUBDUNGEONS_1D8.items():
+                if v[0] == param_str or param_str in v[1].upper():
+                    sub_roll = k
+                    break
 
-    sub_nombre, guardian, sala_sub = SUBDUNGEONS[dia_astral]
+    if not sub_roll:
+        sub_roll = random.randint(1, 8)
+
+    elem_code, sub_nombre, guardian, sala_sub = SUBDUNGEONS_1D8[sub_roll]
     alineamiento_id = random.randint(1, 6)
     alineamiento_nombre, regla_global = ALINEAMIENTOS[alineamiento_id]
 
-    # Generar layout estilo Isaac (Random Walk / Expansion)
-    # Empezar en C1 (Fila C, Columna 1) o A1
+    # Rejilla 5x5 con huecos libres (Estilo Zelda / Isaac)
     start_pos = ("C", 1)
-    grid = {} # pos_key -> room_name
+    grid = {}
     grid[f"{start_pos[0]}{start_pos[1]}"] = "Sala 01: Atrio de Entrada"
 
-    # Carve rooms
     rooms_to_place = random.randint(11, 14)
     active_coords = [start_pos]
 
@@ -126,17 +129,17 @@ def generar_incursion_5x5(dia_astral=None, seed=None):
         else:
             active_coords.remove(current)
 
-    # Asignar la Subdungeon al nodo activo más alejado de la entrada
-    def distance(coord):
-        r_idx = ROW_NAMES.index(coord[0])
-        c_val = coord[1]
-        start_r = ROW_NAMES.index(start_pos[0])
-        start_c = start_pos[1]
-        return abs(r_idx - start_r) + abs(c_val - start_c)
+    # Si hay Subdungeon activa (1-7), colocarla en el nodo activo más lejano
+    furthest_key = None
+    if sub_roll != 8:
+        def distance(coord):
+            r_idx = ROW_NAMES.index(coord[0])
+            c_val = coord[1]
+            return abs(r_idx - ROW_NAMES.index(start_pos[0])) + abs(c_val - start_pos[1])
 
-    furthest_key = max(grid.keys(), key=lambda k: distance((k[0], int(k[1]))))
-    if furthest_key != "C1":
-        grid[furthest_key] = f"[SUBDUNGEON] {sala_sub}"
+        furthest_key = max(grid.keys(), key=lambda k: distance((k[0], int(k[1]))))
+        if furthest_key != "C1":
+            grid[furthest_key] = f"[{elem_code}] {sala_sub}"
 
     # Calcular Conexiones Físicas
     conexiones = []
@@ -158,19 +161,19 @@ def generar_incursion_5x5(dia_astral=None, seed=None):
     # Formatear Salida
     out = []
     out.append("======================================================================")
-    out.append("       MAPA Y CONEXIONES DEL LABERINTO DE MINOS (REJILLA 5x5 ISAAC/ZELDA)")
+    out.append("       MAPA Y CONEXIONES DEL LABERINTO DE MINOS (REJILLA 5x5 1d8)")
     out.append("======================================================================")
-    out.append(f"DÍA ASTRAL DE SHIVATH: [ {dia_astral} ]")
-    out.append(f"SUBDUNGEON ABIERTA:   {sub_nombre} (Ubicada en {furthest_key}: {sala_sub})")
-    out.append(f"GUARDIÁN DE ÁREA:     {guardian}")
-    out.append(f"REGLA DE SINTONÍA:    Completar conservando >= 7/10 Cargas Arcanas intactas.")
-    out.append(f"ALINEAMIENTO 1d6:     [{alineamiento_id}] {alineamiento_nombre}")
-    out.append(f"EFECTO AMBIENTAL:     {regla_global}")
+    out.append(f"TIRADA DE SUBDUNGEON (1d8): [{sub_roll}] -> {elem_code}")
+    out.append(f"SUBDUNGEON ABIERTA:       {sub_nombre}" + (f" (en {furthest_key})" if furthest_key else ""))
+    out.append(f"GUARDIÁN DE ÁREA:         {guardian}")
+    out.append(f"REGLA DE EXCELENCIA 7/10: Conservar >= 7/10 Cargas otorga Bonus de Excelencia.")
+    out.append(f"PERSISTENCIA TOTAL:       Todo avance y daño en la Subdungeon SE GUARDA entre runs.")
+    out.append(f"ALINEAMIENTO (1d6):       [{alineamiento_id}] {alineamiento_nombre}")
+    out.append(f"EFECTO AMBIENTAL:         {regla_global}")
     out.append("----------------------------------------------------------------------")
     out.append("MATRIZ PROCEDURAL 5x5 CON HUECOS LIBRES (ZELDA / BINDING OF ISAAC STYLE):")
     out.append("")
 
-    # Dibujar rejilla 5x5
     out.append("       1              2              3              4              5")
     for r_name in ROW_NAMES:
         row_str = f"{r_name} "
@@ -195,19 +198,15 @@ def generar_incursion_5x5(dia_astral=None, seed=None):
         out.append("")
 
     out.append("======================================================================")
-    out.append("RECUERDA: La representación gráfica la dibuja el DM.")
-    out.append("Los nodos '-- VACÍO --' corresponden a abismos o muros inamovibles.")
-    out.append("======================================================================")
-
     return "\n".join(out)
 
 def main():
-    parser = argparse.ArgumentParser(description="Generador de Conexiones 5x5 del Laberinto de Minos")
-    parser.add_argument("--dia", type=str, choices=PALABRAS_PODER, help="Día Astral de Shivath")
+    parser = argparse.ArgumentParser(description="Generador 1d8 de Subdungeons y Conexiones 5x5 de Minos")
+    parser.add_argument("--subdungeon", type=str, help="Seleccionar opción 1..8 o código (FIRE, WATER, AIR, EARTH, LIFE, LIGHT, BOSS, NONE)")
     parser.add_argument("--seed", type=int, help="Semilla aleatoria")
 
     args = parser.parse_args()
-    print(generar_incursion_5x5(dia_astral=args.dia, seed=args.seed))
+    print(generar_incursion_5x5(subdungeon_param=args.subdungeon, seed=args.seed))
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,4 @@
-# El Laberinto de Minos: Sistemas Core, Lore y Sintonía
+# El Laberinto de Minos: Sistemas Core, Lore y Subdungeons
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md`  
 > **Ubicación en Shivath**: **Treftiel**, en el borde del **Angramanio** (La Herida del Mundo).  
@@ -17,58 +17,56 @@ El Laberinto de Minos se ubica en las regiones de **Treftiel**, erigido en las f
 
 ---
 
-## 2. El Bucle de Juego y la Carga Arcana
+## 2. El Bucle de Juego y Tirada 1d8 de Subdungeon
 
-```mermaid
-flowchart TD
-    A["Campamento Base en Treftiel"] --> B["Consulta del Calendario Astral de Minos"]
-    B --> C{"¿Subdungeon Elemental Abierta hoy?"}
-    C -->|"Sí (Día Astral)"| D["Incursión a la Subdungeon + Búsqueda de Fragmento de Puzle"]
-    C -->|"No (Día Estándar)"| E["Exploración General / Colección de Glifos y Recompensas"]
-    D --> F{"¿Completado conservando >= 7/10 Cargas?"}
-    F -->|"Sí (Ejecución Perfecta)"| G["🔓 Desbloqueo de Bufo + Fragmento de la Gran Rueda"]
-    F -->|"No (< 7 Cargas)"| H["Colapso: Botín Menor, Sin Sintonía"]
-    E & G & H --> I["Expulsión al Campamento / Registro en el Diario del Gremio"]
+Al inicio de cada incursión, el DM determina si hoy hay una **Subdungeon Abierta** tirando **1d8**:
+
+| 1d8 | Subdungeon Accesible | Guardián de Área | Tipo de Incursión |
+| :---: | :--- | :--- | :--- |
+| **1** | **FIRE (La Caldera Volcánica)** | El Señor del Crisol | Subdungeon Elemental. |
+| **2** | **WATER (La Cisterna Sumergida)** | La Quimera Hidráulica | Subdungeon Elemental. |
+| **3** | **AIR (La Torre de los Vientos)** | El Coloso del Vértice | Subdungeon Elemental. |
+| **4** | **EARTH (El Dominio Telúrico)** | El Titán de Basalto | Subdungeon Elemental. |
+| **5** | **LIFE (El Invernadero Ancestral)** | El Botánico de Sombras | Subdungeon Elemental. |
+| **6** | **LIGHT (El Santuario Prismático)** | El Espejismo de Cristal | Subdungeon Elemental. |
+| **7** | **BOSS FINAL (Sanctum de Minos)** | El Juicio de Minos | Acceso directo al Boss Final si la Rueda está lista. |
+| **8** | **NADA** | Sin Guardián hoy | Exploración estándar del laberinto principal. |
+
+---
+
+## 3. Persistencia Total de Subdungeons y Regla 7/10 de Excelencia
+
+```
+======================================================================
+         👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
+======================================================================
+1. PERSISTENCIA DE SUBDUNGEONS: Todo el avance dentro de una Subdungeon
+   (palancas activadas, agua desviada, puertas abiertas o daño al Guardián)
+   SE GUARDA PERMANENTEMENTE entre incursiones.
+
+2. BONUS DE EXCELENCIA 7/10:
+   - Si el grupo completa la Subdungeon manteniendo SIETE O MÁS (>= 7/10)
+     Puntos de Carga Arcana al finalizar (máximo 3 cargas gastadas),
+     obtiene el BONUS DE EXCELENCIA: Desbloqueo instantáneo del bufo
+     de sintonía permanente + Reliquia Estelar de Minos.
+   - Si gastan más de 3 cargas (< 7 Cargas al final), IGUAL AVANZAN y
+     guardan su progreso, pero no obtienen la bonificación de excelencia.
+======================================================================
 ```
 
 ---
 
-## 3. Recompensas de Incursión (Downtime Loot)
+## 4. Recompensas de Incursión (Downtime Loot)
 
-Al finalizar cada expedición (sea por colapso o extracción voluntaria), los jugadores traen al campamento:
-
-1. **Ligero Dinero / Reliquias Arcaicas**: Monedas y gemas de las ruinas de Treftiel para comerciar con facciones o eruditos.
+1. **Ligero Dinero / Reliquias Arcaicas**: Monedas y gemas de las ruinas de Treftiel para comerciar.
 2. **Consumibles de Minos**: Elixires de sintonía, elixires de resistencia y bombas rúnicas elementales.
 3. **Objetos Mágicos Menores/Medianos**: Ocasionalmente hallados en cofres de salas secretas (5x5) o tras vencer a Guardianes de Área.
 
 ---
 
-## 4. El Gran Meta-Puzle de Minos (Acceso al Boss Final)
+## 5. El Gran Meta-Puzle de Minos (Acceso al Boss Final)
 
 Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El Juicio de Minos*, los jugadores deben resolver un **Meta-Puzle de Múltiples Piezas**:
 
-```
-======================================================================
-           🧭 LA GRAN RUEDA DE CRIPTOGRAFÍA DE MINOS 🧭
-======================================================================
-1. CADA SUBDUNGEON CONTIENE 1 FRAGMENTO DE TABLILLA (6 Piezas en Total).
-2. Al conquistar una Subdungeon con >= 7/10 Cargas Arcanas, los jugadores
-   obtienen la Pieza Rúnica de ese elemento.
-3. ENSAMBLAJE EN EL DIARIO: En el Campamento, los jugadores superponen
-   los 6 Fragmentos en la Rueda de Criptografía de Minos para descifrar 
-   la SECUENCIA MAESTRA DE 12 SÍMBOLOS que desbloquea la Sala 12.
-======================================================================
-```
-
----
-
-## 5. Tabla de Sintonías Elementales Desbloqueables
-
-| Palabra de Poder | Pasiva de Combate | Facultad de Puzles | Rol en Boss Final |
-| :--- | :--- | :--- | :--- |
-| **FIRE (Fuego)** | Inmunidad a fuego/frío. +1d6 daño fuego. | **Ignite/Melt**: Enciende forjas y derrite hielo. | Rompe el *FIRE Orb* del Boss con WATER. |
-| **WATER (Agua)** | Inmunidad a ahogamiento. Caminar sobre agua. | **Drain/Conduct**: Drena depósitos y canaliza agua. | Rompe el *WATER Orb* del Boss con FIRE. |
-| **AIR (Aire)** | Caída pluma. +10 ft movimiento. | **Vent/Float**: Dispersa gases y vuela en corrientes. | Rompe el *AIR Orb* del Boss con EARTH. |
-| **EARTH (Tierra)** | +2 AC y resistencia a daño físico. | **Shatter/Anchor**: Repara muros y ancla salas. | Rompe el *EARTH Orb* del Boss con AIR. |
-| **LIFE (Vida)** | Regeneración 1d4 HP/turno (<50% HP). | **Overgrowth/Purify**: Brota vides y purifica toxinas. | Rompe el *LIFE Orb* del Boss con LIGHT. |
-| **LIGHT (Luz)** | Emite luz 30 ft. Visión en oscuridad. | **Refract/Reveal**: Proyecta espejos y revela glifos. | Rompe el *LIGHT Orb* del Boss con LIFE. |
+* Cada Subdungeon contiene **1 Fragmento de Tablilla (6 Piezas en Total)**.
+* Los jugadores reúnen las 6 piezas y las ensamblan en la **Rueda de Criptografía de Minos** en el Diario del Gremio para descifrar la secuencia maestra que abre la Sala 12.

@@ -1,39 +1,25 @@
 # Generador de Conexiones y Topología de Mapas (5x5 Rejilla Isaac / Zelda)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md`  
-> **Propósito**: Herramienta rápida para generar la topología de salas en una matriz 5x5 con huecos libres (abismos/muros inamovibles).  
-> **Estilo**: *Zelda 2D* / *The Binding of Isaac* (Habitaciones orgánicas con nodos vacíos y ramificaciones).  
-> **Nota**: *Tú diseñas el mapa visual. Este sistema te da la disposición lógica y las conexiones.*
+> **Propósito**: Herramienta rápida para generar la topología de salas en una matriz 5x5 con huecos libres y tirada 1d8 de Subdungeon.  
+> **Estilo**: *Zelda 2D* / *The Binding of Isaac* (Habitaciones orgánicas con nodos vacíos y ramificaciones).
 
 ---
 
 ## 1. Opción Automática: Script de Python (`generador_laberinto.py`)
 
-El script crea una mazmorra 5x5 ramificada orgánicamente con ~12-14 salas activas y celdas vacías:
+El script crea una mazmorra 5x5 ramificada orgánicamente con ~12-14 salas activas y celdas vacías, integrando la tirada 1d8:
 
 ```bash
-# Incursión aleatoria 5x5
+# Incursión aleatoria 5x5 (Tirada 1d8 automática)
 python3 generador_laberinto.py
 
-# Incursión forzando un Día Astral (FIRE, WATER, AIR, EARTH, LIFE, LIGHT)
-python3 generador_laberinto.py --dia FIRE
+# Seleccionar opción 1..8 explícitamente (ej: 1=FIRE, 7=BOSS, 8=NADA)
+python3 generador_laberinto.py --subdungeon 1
+python3 generador_laberinto.py --subdungeon 8
 
 # Reproducir un mapa específico usando semilla
 python3 generador_laberinto.py --seed 42
-```
-
-### Ejercicio Visual de la Matriz 5x5 Generada:
-```
-       1              2              3              4              5
-A [A1: --- VACÍO --- ] [A2: --- VACÍO --- ] [A3: --- VACÍO --- ] [A4: --- VACÍO --- ] [A5: --- VACÍO --- ] 
-
-B [B1:Sala 07: Cr] [B2:Sala 10: Pi] [B3:Sala 08: Ac] [B4: --- VACÍO --- ] [B5: --- VACÍO --- ] 
-
-C [C1:Sala 01: At] [C2:Sala 02: De] [C3: --- VACÍO --- ] [C4: --- VACÍO --- ] [C5: --- VACÍO --- ] 
-
-D [D1:Sala 03: In] [D2:Sala 06: Sa] [D3:Sala 11: Ga] [D4:[SUBDUNGEON] [D5: --- VACÍO --- ] 
-
-E [E1:Sala 04: En] [E2: --- VACÍO --- ] [E3:Sala 14: Cá] [E4: --- VACÍO --- ] [E5: --- VACÍO --- ] 
 ```
 
 ---
@@ -42,21 +28,21 @@ E [E1:Sala 04: En] [E2: --- VACÍO --- ] [E3:Sala 14: Cá] [E4: --- VACÍO --- ]
 
 Si generas el mapa manualmente en mesa:
 
-### PASO 1: Tirada del Día Astral de Shivath (1d6)
-| 1d6 | Día Astral | Subdungeon Accesible | Guardián |
+### PASO 1: Tirada 1d8 de Subdungeon Abierta Hoy
+| 1d8 | Subdungeon Accesible | Guardián de Área | Ubicación Sugerida |
 | :---: | :--- | :--- | :--- |
-| **1** | **FIRE (Día de la Llama)** | *La Caldera Volcánica* | El Señor del Crisol |
-| **2** | **WATER (Día de la Marea)** | *La Cisterna Sumergida* | La Quimera Hidráulica |
-| **3** | **AIR (Día del Viento)** | *La Torre de los Vientos* | El Coloso del Vértice |
-| **4** | **EARTH (Día del Pico)** | *El Dominio Telúrico* | El Titán de Basalto |
-| **5** | **LIFE (Día del Brote)** | *El Invernadero Ancestral* | El Botánico de Sombras |
-| **6** | **LIGHT (Día del Sol)** | *El Santuario Prismático* | El Espejismo de Cristal |
+| **1** | **FIRE (La Caldera Volcánica)** | El Señor del Crisol | Nodo más lejano (Subdungeon). |
+| **2** | **WATER (La Cisterna Sumergida)** | La Quimera Hidráulica | Nodo más lejano (Subdungeon). |
+| **3** | **AIR (La Torre de los Vientos)** | El Coloso del Vértice | Nodo más lejano (Subdungeon). |
+| **4** | **EARTH (El Dominio Telúrico)** | El Titán de Basalto | Nodo más lejano (Subdungeon). |
+| **5** | **LIFE (El Invernadero Ancestral)** | El Botánico de Sombras | Nodo más lejano (Subdungeon). |
+| **6** | **LIGHT (El Santuario Prismático)** | El Espejismo de Cristal | Nodo más lejano (Subdungeon). |
+| **7** | **BOSS FINAL (Sanctum de Minos)** | El Juicio de Minos | Nodo más lejano (Sanctum). |
+| **8** | **NADA** | Sin Guardián hoy | Exploración estándar del laberinto principal. |
 
 ---
 
 ### PASO 2: Tirada de Estado de Conexión de Puertas (1d8 por Pasadizo)
-
-Tira 1d8 para cada pasadizo entre salas adyacentes:
 
 | 1d8 | Estado de la Puerta / Pasadizo | Requisito para Desbloquear |
 | :---: | :--- | :--- |
@@ -70,8 +56,6 @@ Tira 1d8 para cada pasadizo entre salas adyacentes:
 ---
 
 ## 3. Plantilla de Dibujo en Rejilla 5x5 (Zelda 2D Layout)
-
-Dibuja o dispone tus losetas en las coordenadas activas, dejando las celdas vacías como abismos sin suelo o muros macizos:
 
 ```
     Col 1        Col 2        Col 3        Col 4        Col 5

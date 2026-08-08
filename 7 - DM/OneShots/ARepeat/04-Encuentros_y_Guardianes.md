@@ -2,23 +2,29 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md`  
 > **Diseñado bajo el Marco Metodológico**: `boss-ability-design`  
-> **Sistema de Combate**: **6 Guardianes de Área (Desbloqueo 7/10 Cargas)** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
+> **Sistema de Combate**: **6 Guardianes de Área (Persistencia Total & Bonus de Excelencia 7/10)** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
-## 1. Guardianes de Área (Prueba del 7/10 de Carga)
-
-Cada Subdungeon Elemental está custodiada por un **Guardián de Área**. 
+## 1. Guardianes de Área y Regla de Persistencia
 
 ```
 ======================================================================
-         👑 REGLA DE EJECUCIÓN PERFECTA (PRUEBA DEL GUARDIÁN) 👑
+         👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
 ======================================================================
-Para desbloquear la Palabra de Poder del Guardián en el Altar de Sintonía:
-1. Derrotar al Guardián de Área en su Día Astral específico.
-2. Mantener OCHO O MÁS (>= 7/10) PUNTOS DE CARGA ARCANA al finalizar.
-   (Máximo 3 Puntos de Carga gastados en toda la incursión).
+1. PERSISTENCIA DE SUBDUNGEON: Todo el avance dentro de la Subdungeon
+   (palancas activadas, agua desviada, puertas abiertas o daño al Guardián)
+   SE GUARDA PERMANENTEMENTE entre incursiones. Los jugadores pueden volver
+   en otro momento y retomar la Subdungeon donde la dejaron.
+
+2. BONUS DE EXCELENCIA (REGLA 7/10):
+   - Si el grupo derrota al Guardián y completa la Subdungeon conservando
+     SIETE O MÁS (>= 7/10) PUNTOS DE CARGA ARCANA intactos al final:
+     ¡Ganan el BONUS DE EXCELENCIA! (Desbloqueo instantáneo del bufo
+     de sintonía permanente en el Altar + Reliquia Estelar de Minos).
+   - Si gastan más cargas (< 7 Cargas al final), IGUAL AVANZAN y guardan 
+     su progreso, pudiendo desbloquear la sintonía estándar sin el bonus.
 ======================================================================
 ```
 
@@ -27,56 +33,56 @@ Para desbloquear la Palabra de Poder del Guardián en el Altar de Sintonía:
 ### Catálogo de los 6 Guardianes de Área
 
 ### A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica)
-* **Día Astral**: Día de la Llama.
-* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **FIRE** en el Altar de Sintonía.
+* **Tirada 1d8**: Opción 1.
+* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Reliquia Volcánica.
 * **Habilidad Destacada**:
-  * `Incineración Cauterizante (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de fuego** en cono de 20 ft. Si los jugadores la evitan con movimiento perfecto (*Save AGI DC 14*), no se consume Carga Arcana extra.
+  * `Incineración Cauterizante (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de fuego** en cono de 20 ft. Evitar la lava previene la pérdida de Carga Arcana.
 
 ---
 
 ### B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida)
-* **Día Astral**: Día de la Marea.
-* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **WATER** en el Altar de Sintonía.
+* **Tirada 1d8**: Opción 2.
+* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Perla Astral.
 * **Habilidad Destacada**:
-  * `Chorro de Alta Presión (Acción Activa).` Inflige **3d6 daño contundente** y empuja 20 ft. Permite sumergirse en la cisterna sin ahogarse si se bloquea con el escudo.
+  * `Chorro de Alta Presión (Acción Activa).` Inflige **3d6 daño contundente** y empuja 20 ft.
 
 ---
 
 ### C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos)
-* **Día Astral**: Día del Viento.
-* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **AIR** en el Altar de Sintonía.
+* **Tirada 1d8**: Opción 3.
+* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Pluma Astral.
 * **Habilidad Destacada**:
-  * `Torbellino Repulsivo (Acción Activa).` Eleva a los jugadores 30 ft en el aire. Exige reacción de caída pluma o *Save AGI DC 15*.
+  * `Torbellino Repulsivo (Acción Activa).` Eleva a los jugadores 30 ft en el aire. Exige reacción de caída pluma.
 
 ---
 
 ### D. El Titán de Basalto (Guardián de EARTH - El Dominio Telúrico)
-* **Día Astral**: Día del Pico.
-* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **EARTH** en el Altar de Sintonía.
+* **Tirada 1d8**: Opción 4.
+* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Escudo de Piedra Viva.
 * **Habilidad Destacada**:
-  * `Muro Telúrico (Pasiva).` +4 AC hasta que los jugadores usen el ideograma `[🟅 EARTH] + [⊗ PURGE]` para agrietar su armadura.
+  * `Muro Telúrico (Pasiva).` +4 AC hasta usar el ideograma `[🟅 EARTH] + [⊗ PURGE]`.
 
 ---
 
 ### E. El Botánico de Sombras (Guardián de LIFE - El Invernadero Ancestral)
-* **Día Astral**: Día del Brote.
-* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **LIFE** en el Altar de Sintonía.
+* **Tirada 1d8**: Opción 5.
+* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Semilla de Vitalidad.
 * **Habilidad Destacada**:
-  * `Esporas de Asfixia (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de veneno**. Al ser derrotado con >= 7 Cargas, purifica la toxina del invernadero para siempre.
+  * `Esporas de Asfixia (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de veneno**.
 
 ---
 
 ### F. El Espejismo de Cristal (Guardián de LIGHT - El Santuario Prismático)
-* **Día Astral**: Día del Sol.
-* **Efecto de Derrota con >= 7 Cargas**: 🔓 Desbloquea la Palabra de Poder **LIGHT** en el Altar de Sintonía.
+* **Tirada 1d8**: Opción 6.
+* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Prisma del Sol.
 * **Habilidad Destacada**:
-  * `Reflejos Ilusorios (Pasiva).` Crea 3 copias de luz. Usar espejos rúnicos disipa las copias sin gastar turnos ni Carga.
+  * `Reflejos Ilusorios (Pasiva).` Crea 3 copias de luz.
 
 ---
 
 ## 2. BOSS FINAL: El Juicio de Minos (El Héroe del Sello)
 
-* **Concepto**: Un coloso arcano compuesto de basalto y un núcleo de cristal hexagonal. Es la encarnación del test de Minos.
+* **Tirada 1d8**: Opción 7 (o Puerta Hexagonal abierta tras reunir los 6 Fragmentos).
 * **Mecánica Core**: **Mecánica de Orbes Elementales (Xenoblade Chronicles 2 Adaptation)**.
 
 ```mermaid
@@ -96,15 +102,13 @@ Cada vez que el Boss ejecuta un ataque finalizador de fase o un jugador asesta u
 
 * **Tipos de Orbes**: `Fire Orb`, `Water Orb`, `Air Orb`, `Earth Orb`, `Life Orb`, `Light Orb`.
 * **Beneficios Pasivos del Boss por Orbe Activo**:
-  1. **Armadura Prismática**: +1 AC por cada Orbe activo (Ej: 4 orbes = +4 AC).
-  2. **Inmunidad al Elemento**: El boss se vuelve completamente inmune al tipo de daño del Orbe que tenga activo.
-  3. **Aura de Reversión**: Quien ataque al boss a distancia melé recibe **1d6 daño elemental** del tipo de cada orbe activo.
+  1. **Armadura Prismática**: +1 AC por cada Orbe activo.
+  2. **Inmunidad al Elemento**: Inmune al tipo de daño del Orbe activo.
+  3. **Aura de Reversión**: Daño melé genera **1d6 daño elemental** de contraataque.
 
 ---
 
 ### B. Rompimiento de Orbes (Elemental Countering)
-
-Cada Orbe tiene **3 Puntos de Durabilidad de Orbe**. Los jugadores pueden redirigir sus ataques elementales o facultades de incursión directamente hacia un Orbe flotante específico:
 
 #### Tabla de Elementos Opuestos (Vulnerabilidad Crítica)
 
@@ -121,8 +125,6 @@ Cada Orbe tiene **3 Puntos de Durabilidad de Orbe**. Los jugadores pueden rediri
 
 ### C. Sobretensión de Cadena: FULL BURST (Ruptura Total)
 
-Cuando los exploradores logran **destruir 3 o más Orbes Elementales** durante la batalla:
-
 ```
 ======================================================================
                ⚡ FULL BURST: SOBRETENSIÓN DE MINOS ⚡
@@ -134,12 +136,3 @@ Cuando los exploradores logran **destruir 3 o más Orbes Elementales** durante l
    esta ronda asestan DAÑO CRÍTICO AUTOMÁTICO MULTIPLICADO (x2).
 ======================================================================
 ```
-
----
-
-## 4. Recompensas de Victoria del Boss
-
-Al derrotar a **El Juicio de Minos**:
-1. **Acceso al Sanctum Interior**: Revelación del lore secreto de Minos en Shivath.
-2. **Artefacto Consumible**: **Piedra de Anclaje de Minos** (permite teletransportarse al campamento desde cualquier punto en aventuras futuras).
-3. **Modo Calibración**: El grupo puede elegir el alineamiento de salas en cualquier incursión posterior.
