@@ -156,7 +156,7 @@
       }
     }
 
-    /* Grid Display with FIXED RIGID CELLS */
+    /* Grid Display with RIGID CELLS & DOOR BORDER INDICATORS */
     .grid-container {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -181,11 +181,11 @@
       font-size: 0.85rem;
     }
 
-    /* RIGID FIXED GRID 7x7 (Cells will NEVER change size) */
+    /* RIGID FIXED GRID 7x7 */
     .grid-7x7 {
       display: grid;
-      grid-template-columns: repeat(7, 82px);
-      grid-template-rows: repeat(7, 82px);
+      grid-template-columns: repeat(7, 84px);
+      grid-template-rows: repeat(7, 84px);
       gap: 6px;
       background: #12111c;
       padding: 10px;
@@ -193,14 +193,14 @@
       border: 1px solid var(--card-border);
     }
 
-    /* RIGID CELL: Fixed 82px x 82px, overflow hidden, no size shifts */
+    /* RIGID CELL: Fixed 84px x 84px */
     .cell {
-      width: 82px;
-      height: 82px;
-      min-width: 82px;
-      max-width: 82px;
-      min-height: 82px;
-      max-height: 82px;
+      width: 84px;
+      height: 84px;
+      min-width: 84px;
+      max-width: 84px;
+      min-height: 84px;
+      max-height: 84px;
       background: rgba(15,14,23,0.8);
       border: 1px dashed rgba(255,255,255,0.08);
       border-radius: 6px;
@@ -223,7 +223,6 @@
     .cell.active {
       background: #232136;
       border: 1px solid var(--purple-accent);
-      box-shadow: inset 0 0 8px rgba(139, 92, 246, 0.2);
     }
 
     .cell.active.atrio {
@@ -232,10 +231,47 @@
       box-shadow: inset 0 0 10px rgba(59, 130, 246, 0.4);
     }
 
-    .cell.active.subdungeon {
-      border-color: var(--elem-fire);
-      background: rgba(239, 68, 68, 0.25);
-      box-shadow: inset 0 0 12px rgba(239, 68, 68, 0.5);
+    /* SUBDUNGEON ELEMENTAL COLOR ACCENTS */
+    .cell.active.subdungeon-fire {
+      border-color: var(--elem-fire) !important;
+      background: rgba(239, 68, 68, 0.3) !important;
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.5) !important;
+    }
+
+    .cell.active.subdungeon-water {
+      border-color: var(--elem-water) !important;
+      background: rgba(59, 130, 246, 0.3) !important;
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.5) !important;
+    }
+
+    .cell.active.subdungeon-air {
+      border-color: var(--elem-air) !important;
+      background: rgba(6, 182, 212, 0.3) !important;
+      box-shadow: 0 0 15px rgba(6, 182, 212, 0.5) !important;
+    }
+
+    .cell.active.subdungeon-earth {
+      border-color: var(--elem-earth) !important;
+      background: rgba(217, 119, 6, 0.3) !important;
+      box-shadow: 0 0 15px rgba(217, 119, 6, 0.5) !important;
+    }
+
+    .cell.active.subdungeon-life {
+      border-color: var(--elem-life) !important;
+      background: rgba(16, 185, 129, 0.3) !important;
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.5) !important;
+    }
+
+    .cell.active.subdungeon-light {
+      border-color: var(--elem-light) !important;
+      background: rgba(245, 158, 11, 0.3) !important;
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.5) !important;
+    }
+
+    .cell.active.subdungeon-boss {
+      border-color: var(--purple-accent) !important;
+      background: rgba(139, 92, 246, 0.35) !important;
+      box-shadow: 0 0 18px rgba(139, 92, 246, 0.6) !important;
     }
 
     .cell.selected {
@@ -272,6 +308,21 @@
       color: #374151;
       font-style: italic;
     }
+
+    /* VISUAL DOOR BORDER INDICATORS */
+    .door-indicator {
+      position: absolute;
+      border-radius: 2px;
+      z-index: 5;
+    }
+    .door-indicator.N { top: 0; left: 26px; width: 32px; height: 3px; }
+    .door-indicator.S { bottom: 0; left: 26px; width: 32px; height: 3px; }
+    .door-indicator.W { top: 26px; left: 0; width: 3px; height: 32px; }
+    .door-indicator.E { top: 26px; right: 0; width: 3px; height: 32px; }
+
+    .door-open { background-color: #10b981; }
+    .door-locked { background-color: #f59e0b; }
+    .door-wall { background-color: transparent; }
 
     /* Inspector Panel */
     .inspector-panel {
@@ -382,7 +433,7 @@
   <header>
     <div class="title-area">
       <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7)</h1>
-      <p>Generador Ramificado Estilo Zelda 2D / Binding of Isaac con Atrio Móvil</p>
+      <p>Generador Ramificado Estilo Zelda 2D / Binding of Isaac con Atrio Móvil & Subdungeons <= 3 Pasos</p>
     </div>
     <div class="power-words-bar">
       <span class="power-badge badge-fire">🟁 Fire</span>
@@ -540,14 +591,14 @@
     ];
 
     const SUBDUNGEONS = {
-      1: { code: "FIRE", name: "La Caldera Volcánica", boss: "El Señor del Crisol", room: "Sala 05: La Gran Forja" },
-      2: { code: "WATER", name: "La Cisterna Sumergida", boss: "La Quimera Hidráulica", room: "Sala 02: Depósito de Agua" },
-      3: { code: "AIR", name: "La Torre de los Vientos", boss: "El Coloso del Vértice", room: "Sala 04: Engranaje Maestro" },
-      4: { code: "EARTH", name: "El Dominio Telúrico", boss: "El Titán de Basalto", room: "Sala 10: Pilar de Anclas" },
-      5: { code: "LIFE", name: "El Invernadero Ancestral", boss: "El Botánico de Sombras", room: "Sala 03: Invernadero Botánico" },
-      6: { code: "LIGHT", name: "El Santuario Prismático", boss: "El Espejismo de Cristal", room: "Sala 09: Galería de Espejos" },
-      7: { code: "BOSS", name: "Sanctum de Minos", boss: "El Juicio de Minos", room: "Sala 12: Sanctum de Minos" },
-      8: { code: "NONE", name: "Ninguna Subdungeon Hoy", boss: "Sin Guardián de Área", room: "Exploración Estándar" }
+      1: { code: "FIRE", name: "La Caldera Volcánica", boss: "El Señor del Crisol", room: "Sala 05: La Gran Forja", class: "subdungeon-fire" },
+      2: { code: "WATER", name: "La Cisterna Sumergida", boss: "La Quimera Hidráulica", room: "Sala 02: Depósito de Agua", class: "subdungeon-water" },
+      3: { code: "AIR", name: "La Torre de los Vientos", boss: "El Coloso del Vértice", room: "Sala 04: Engranaje Maestro", class: "subdungeon-air" },
+      4: { code: "EARTH", name: "El Dominio Telúrico", boss: "El Titán de Basalto", room: "Sala 10: Pilar de Anclas", class: "subdungeon-earth" },
+      5: { code: "LIFE", name: "El Invernadero Ancestral", boss: "El Botánico de Sombras", room: "Sala 03: Invernadero Botánico", class: "subdungeon-life" },
+      6: { code: "LIGHT", name: "El Santuario Prismático", boss: "El Espejismo de Cristal", room: "Sala 09: Galería de Espejos", class: "subdungeon-light" },
+      7: { code: "BOSS", name: "Sanctum de Minos", boss: "El Juicio de Minos", room: "Sala 12: Sanctum de Minos", class: "subdungeon-boss" },
+      8: { code: "NONE", name: "Ninguna Subdungeon Hoy", boss: "Sin Guardián de Área", room: "Exploración Estándar", class: "" }
     };
 
     const ALIGNMENTS = [
@@ -586,13 +637,20 @@
       const container = document.getElementById('grid-7x7');
       container.innerHTML = '';
 
+      const subObj = SUBDUNGEONS[currentSubRoll];
+
       ROWS.forEach(r => {
         COLS.forEach(c => {
           const k = `${r}${c}`;
           const cell = gridData[k];
           
           const div = document.createElement('div');
-          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()}`;
+          let subClass = "";
+          if (cell.role === "SUBDUNGEON" && subObj.class) {
+            subClass = subObj.class;
+          }
+
+          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()} ${subClass}`;
           if (k === currentSelectedKey) div.classList.add('selected');
           div.onclick = () => selectCell(k);
 
@@ -606,6 +664,19 @@
             <div class="cell-icon">${icon}</div>
             <div class="cell-name">${cell.active ? cell.name : 'VACÍO'}</div>
           `;
+
+          // Add visual door border indicators if active
+          if (cell.active) {
+            ['N', 'S', 'W', 'E'].forEach(dir => {
+              const doorState = getDoorState(k, dir);
+              if (doorState !== "Sin Pasadizo (Muro Macizo)") {
+                const doorInd = document.createElement('div');
+                doorInd.className = `door-indicator ${dir} ${doorState === 'Puerta Abierta de Par en Par' ? 'door-open' : 'door-locked'}`;
+                div.appendChild(doorInd);
+              }
+            });
+          }
+
           container.appendChild(div);
         });
       });
@@ -689,10 +760,11 @@
       if (!nKey) return;
       const pairKey = getDoorPairKey(currentSelectedKey, nKey);
       doorData[pairKey] = val;
+      renderGrid();
       updateOutputLog();
     }
 
-    // ORGANIC BRANCHING GENERATOR ALGORITHM (Zelda / Isaac with Gaps)
+    // ORGANIC BRANCHING GENERATOR WITH SUBDUNGEON DISTANCE CONSTRAINT (<= 3 STEPS)
     function generateDungeon() {
       initGridData();
       
@@ -704,8 +776,8 @@
       }
       currentAlign = Math.floor(Math.random() * 6) + 1;
 
-      // Pick a random Entry Atrio position (Periphery or Center)
-      const possibleStarts = ["C1", "D1", "D4", "A4", "G4", "D7"];
+      // Pick random Entry Atrio position
+      const possibleStarts = ["C3", "D3", "D4", "C4", "E4"];
       const startKey = possibleStarts[Math.floor(Math.random() * possibleStarts.length)];
       
       gridData[startKey] = {
@@ -729,11 +801,11 @@
       let pool = [...presets];
       pool.sort(() => Math.random() - 0.5);
 
-      // Create 3-4 distinct branches from start Key to leave GAPs between rooms
+      // Create 4 distinct branches from startKey to leave GAPs
       const numBranches = 4;
       for (let b = 0; b < numBranches; b++) {
         let currKey = startKey;
-        const branchLength = Math.floor(Math.random() * 3) + 3; // 3-5 steps
+        const branchLength = Math.floor(Math.random() * 3) + 2; // 2-4 steps
 
         for (let step = 0; step < branchLength; step++) {
           if (placedKeys.size >= targetRooms) break;
@@ -748,7 +820,6 @@
           if (c > 1) neighbors.push(`${r}${c - 1}`);
           if (c < 7) neighbors.push(`${r}${c + 1}`);
 
-          // Pick next neighbor with gap skipping chance
           const unvisited = neighbors.filter(nk => !placedKeys.has(nk));
           if (unvisited.length > 0) {
             const nextKey = unvisited[Math.floor(Math.random() * unvisited.length)];
@@ -770,28 +841,27 @@
         }
       }
 
-      // Place Subdungeon at furthest node from startKey
+      // SUBDUNGEON DISTANCE CONSTRAINT: At most 3 steps away (Manhattan distance <= 3)
       const startR = ROWS.indexOf(startKey[0]);
       const startC = parseInt(startKey[1]);
 
       if (currentSubRoll !== 8) {
-        let maxDist = -1;
-        let furthestKey = startKey;
-        placedKeys.forEach(k => {
+        // Candidates with distance 1, 2 or 3
+        const candidates = Array.from(placedKeys).filter(k => {
+          if (k === startKey) return false;
           const dist = Math.abs(ROWS.indexOf(k[0]) - startR) + Math.abs(parseInt(k[1]) - startC);
-          if (dist > maxDist) {
-            maxDist = dist;
-            furthestKey = k;
-          }
+          return dist >= 1 && dist <= 3;
         });
 
+        let targetKey = candidates.length > 0 ? candidates[Math.floor(Math.random() * candidates.length)] : startKey;
+        
         const subInfo = SUBDUNGEONS[currentSubRoll];
-        if (furthestKey !== startKey) {
-          gridData[furthestKey] = {
+        if (targetKey !== startKey) {
+          gridData[targetKey] = {
             active: true,
             name: subInfo.room,
             role: "SUBDUNGEON",
-            notes: `Subdungeon: ${subInfo.name} - Boss: ${subInfo.boss}`
+            notes: `Subdungeon: ${subInfo.name} - Boss: ${subInfo.boss} (Distancia: <= 3 pasajes)`
           };
         }
       }
@@ -879,7 +949,6 @@
     document.getElementById('btn-generate').onclick = generateDungeon;
 
     document.getElementById('btn-set-atrio').onclick = () => {
-      // Clear previous ATRIO
       Object.keys(gridData).forEach(k => {
         if (gridData[k].role === "ATRIO") gridData[k].role = "NORMAL";
       });
