@@ -25,7 +25,6 @@
       --elem-earth: #d97706;
       --elem-life: #10b981;
       --elem-light: #f59e0b;
-      --elem-void: #4b5563;
     }
 
     * {
@@ -48,7 +47,7 @@
       background: linear-gradient(180deg, rgba(26,25,38,0.9) 0%, rgba(15,14,23,0.95) 100%);
       border: 1px solid var(--card-border);
       border-radius: 12px;
-      padding: 20px 30px;
+      padding: 16px 24px;
       margin-bottom: 20px;
       display: flex;
       flex-wrap: wrap;
@@ -59,28 +58,28 @@
 
     .title-area h1 {
       font-family: 'Cinzel', serif;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       color: var(--gold-accent);
       letter-spacing: 1px;
       text-shadow: 0 0 12px var(--gold-glow);
     }
 
     .title-area p {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: var(--text-muted);
-      margin-top: 4px;
+      margin-top: 2px;
     }
 
     .power-words-bar {
       display: flex;
-      gap: 8px;
+      gap: 6px;
       flex-wrap: wrap;
     }
 
     .power-badge {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       font-weight: 700;
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: 20px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -96,24 +95,23 @@
 
     .main-controls {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       flex-wrap: wrap;
-      margin-top: 10px;
     }
 
     .btn {
       background: #252336;
       color: var(--text-main);
       border: 1px solid var(--card-border);
-      padding: 10px 16px;
+      padding: 8px 14px;
       border-radius: 8px;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       cursor: pointer;
       transition: all 0.2s ease;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
 
     .btn:hover {
@@ -139,9 +137,10 @@
       background: #252336;
       color: var(--gold-accent);
       border: 1px solid var(--card-border);
-      padding: 10px 14px;
+      padding: 8px 12px;
       border-radius: 8px;
       font-weight: 700;
+      font-size: 0.85rem;
     }
 
     .app-layout {
@@ -157,7 +156,7 @@
       }
     }
 
-    /* Grid Display */
+    /* Grid Display with FIXED RIGID CELLS */
     .grid-container {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -167,13 +166,14 @@
       flex-direction: column;
       align-items: center;
       box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      overflow-x: auto;
     }
 
     .info-bar {
       width: 100%;
       background: rgba(15,14,23,0.6);
       border-radius: 8px;
-      padding: 12px 18px;
+      padding: 10px 16px;
       margin-bottom: 15px;
       display: flex;
       justify-content: space-between;
@@ -181,81 +181,95 @@
       font-size: 0.85rem;
     }
 
+    /* RIGID FIXED GRID 7x7 (Cells will NEVER change size) */
     .grid-7x7 {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: repeat(7, 1fr);
-      gap: 8px;
-      width: 100%;
-      max-width: 720px;
-      aspect-ratio: 1;
+      grid-template-columns: repeat(7, 82px);
+      grid-template-rows: repeat(7, 82px);
+      gap: 6px;
+      background: #12111c;
+      padding: 10px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
     }
 
+    /* RIGID CELL: Fixed 82px x 82px, overflow hidden, no size shifts */
     .cell {
+      width: 82px;
+      height: 82px;
+      min-width: 82px;
+      max-width: 82px;
+      min-height: 82px;
+      max-height: 82px;
       background: rgba(15,14,23,0.8);
-      border: 1px dashed rgba(255,255,255,0.1);
-      border-radius: 8px;
+      border: 1px dashed rgba(255,255,255,0.08);
+      border-radius: 6px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 8px;
+      padding: 4px 6px;
       cursor: pointer;
-      transition: all 0.2s ease;
+      transition: background 0.15s ease, border-color 0.15s ease;
       position: relative;
       user-select: none;
+      overflow: hidden;
     }
 
     .cell:hover {
       border-color: var(--purple-accent);
-      background: rgba(139, 92, 246, 0.1);
+      background: rgba(139, 92, 246, 0.15);
     }
 
     .cell.active {
       background: #232136;
       border: 1px solid var(--purple-accent);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      box-shadow: inset 0 0 8px rgba(139, 92, 246, 0.2);
     }
 
     .cell.active.atrio {
       border-color: var(--elem-water);
-      background: rgba(59, 130, 246, 0.15);
+      background: rgba(59, 130, 246, 0.2);
+      box-shadow: inset 0 0 10px rgba(59, 130, 246, 0.4);
     }
 
     .cell.active.subdungeon {
       border-color: var(--elem-fire);
-      background: rgba(239, 68, 68, 0.2);
-      box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+      background: rgba(239, 68, 68, 0.25);
+      box-shadow: inset 0 0 12px rgba(239, 68, 68, 0.5);
     }
 
     .cell.selected {
       outline: 2px solid var(--gold-accent);
-      outline-offset: 2px;
+      outline-offset: -2px;
     }
 
     .cell-coord {
-      font-size: 0.7rem;
+      font-size: 0.65rem;
       font-weight: 700;
       color: var(--text-muted);
+      line-height: 1;
     }
 
     .cell-icon {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       text-align: center;
-      margin: 4px 0;
+      line-height: 1;
+      margin: 2px 0;
     }
 
     .cell-name {
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       font-weight: 600;
       text-align: center;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       color: var(--text-main);
+      line-height: 1.1;
     }
 
     .cell.empty .cell-name {
-      color: #4b5563;
+      color: #374151;
       font-style: italic;
     }
 
@@ -264,32 +278,32 @@
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
-      padding: 20px;
+      padding: 18px;
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 14px;
       box-shadow: 0 8px 32px rgba(0,0,0,0.4);
     }
 
     .inspector-header {
       border-bottom: 1px solid var(--card-border);
-      padding-bottom: 12px;
+      padding-bottom: 10px;
     }
 
     .inspector-header h2 {
       font-family: 'Cinzel', serif;
       color: var(--gold-accent);
-      font-size: 1.2rem;
+      font-size: 1.15rem;
     }
 
     .form-group {
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 4px;
     }
 
     .form-group label {
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: 600;
       color: var(--text-muted);
       text-transform: uppercase;
@@ -299,9 +313,9 @@
       background: #12111c;
       border: 1px solid var(--card-border);
       color: var(--text-main);
-      padding: 10px;
+      padding: 8px 10px;
       border-radius: 6px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-family: inherit;
     }
 
@@ -314,51 +328,51 @@
       background: rgba(15,14,23,0.5);
       border: 1px solid var(--card-border);
       border-radius: 8px;
-      padding: 12px;
+      padding: 10px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .door-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+      gap: 8px;
     }
 
     .door-label {
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: 700;
-      width: 60px;
-
+      width: 55px;
     }
 
-    /* Output & Modal Section */
+    /* Output Section */
     .output-section {
       margin-top: 20px;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
-      padding: 20px;
+      padding: 18px;
     }
 
     .output-section h3 {
       font-family: 'Cinzel', serif;
       color: var(--gold-accent);
-      margin-bottom: 10px;
+      margin-bottom: 8px;
+      font-size: 1rem;
     }
 
     textarea.output-log {
       width: 100%;
-      height: 180px;
+      height: 160px;
       background: #0d0c14;
       color: #a7f3d0;
       font-family: monospace;
-      padding: 12px;
+      padding: 10px;
       border-radius: 8px;
       border: 1px solid var(--card-border);
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       resize: vertical;
     }
   </style>
@@ -368,7 +382,7 @@
   <header>
     <div class="title-area">
       <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7)</h1>
-      <p>Generador de Topología, Conexiones de Puertas e Inspector de Mazmorras de Downtime</p>
+      <p>Generador Ramificado Estilo Zelda 2D / Binding of Isaac con Atrio Móvil</p>
     </div>
     <div class="power-words-bar">
       <span class="power-badge badge-fire">🟁 Fire</span>
@@ -393,6 +407,7 @@
       <option value="7">7: BOSS FINAL (Sanctum de Minos)</option>
       <option value="8">8: NADA (Exploración Estándar)</option>
     </select>
+    <button class="btn" id="btn-set-atrio">📍 Hacer Entrada (Atrio)</button>
     <button class="btn" id="btn-clear">🧹 Vaciar Rejilla</button>
     <button class="btn" id="btn-copy">📋 Copiar Resumen DM</button>
     <button class="btn" id="btn-export">💾 Exportar JSON</button>
@@ -400,18 +415,19 @@
     <input type="file" id="file-input" style="display:none" accept=".json">
   </div>
 
-  <div class="app-layout" style="margin-top: 20px;">
+  <div class="app-layout" style="margin-top: 15px;">
     
     <!-- GRID CONTAINER -->
     <div class="grid-container">
       <div class="info-bar">
-        <span id="info-dia">Día Astral: <strong>FIRE</strong></span>
+        <span id="info-dia">Palabra: <strong>FIRE</strong></span>
         <span id="info-sub">Subdungeon: <strong>La Caldera Volcánica</strong></span>
         <span id="info-align">Alineamiento: <strong>[1] Solar</strong></span>
       </div>
 
+      <!-- RIGID 7x7 GRID -->
       <div class="grid-7x7" id="grid-7x7">
-        <!-- Cells generated dynamically -->
+        <!-- Rigid cells inserted dynamically -->
       </div>
     </div>
 
@@ -419,7 +435,7 @@
     <div class="inspector-panel" id="inspector">
       <div class="inspector-header">
         <h2 id="inspect-title">Selecciona una celda</h2>
-        <p style="font-size: 0.8rem; color: var(--text-muted);">Edita la celda y sus conexiones cardinales</p>
+        <p style="font-size: 0.75rem; color: var(--text-muted);">Configura la celda y sus pasadizos cardinales</p>
       </div>
 
       <div class="form-group">
@@ -448,6 +464,7 @@
           <option value="Sala de la Rejilla y el Abismo">🔗 Sala de la Rejilla (Atajo Gaseosa)</option>
           <option value="Sala del Interruptor de Cristal">🔷 Sala del Interruptor de Cristal</option>
           <option value="Sala de las Cuatro Antorchas">🔥 Sala de las Cuatro Antorchas</option>
+          <option value="Sala del Pozo de las Balanzas">⚖️ Sala del Pozo de las Balanzas</option>
           <option value="Sala de la Cisterna de 3 Niveles">🚰 Sala Cisterna 3 Niveles</option>
           <option value="Sala del Tobogán Unidireccional">🛷 Sala Tobogán Unidireccional</option>
           <option value="Sala del Pozo de Viento">🌬️ Sala Pozo de Viento</option>
@@ -465,14 +482,14 @@
         <label>Rol Especial</label>
         <select class="form-control" id="inspect-role">
           <option value="NORMAL">Estándar</option>
-          <option value="ATRIO">🏛️ Entrada Atrio</option>
+          <option value="ATRIO">🏛️ Entrada (Atrio)</option>
           <option value="SUBDUNGEON">👑 Subdungeon Boss</option>
           <option value="SECRET">🗝️ Sala Secreta</option>
         </select>
       </div>
 
       <div class="doors-editor">
-        <label style="font-size:0.75rem; font-weight:700; color:var(--gold-accent);">🚪 ESTADO DE CONEXIONES DE PUERTAS</label>
+        <label style="font-size:0.75rem; font-weight:700; color:var(--gold-accent);">🚪 PASADIZOS Y PUERTAS</label>
 
         <div class="door-row">
           <span class="door-label">⬆️ Norte</span>
@@ -494,7 +511,7 @@
 
       <div class="form-group">
         <label>Notas de la Sala / Botín</label>
-        <input type="text" class="form-control" id="inspect-notes" placeholder="Ej: Cofre maestro con Guantelete de Llama">
+        <input type="text" class="form-control" id="inspect-notes" placeholder="Ej: Cofre con Guantelete de Llama">
       </div>
     </div>
 
@@ -544,7 +561,7 @@
 
     // State
     let gridData = {}; // key: "A1" -> { active: bool, name: str, role: str, notes: str }
-    let doorData = {}; // key: "A1-N" or tuple key -> door_type
+    let doorData = {}; // key: "A1-Door-B1" -> door_type
     let currentSelectedKey = "D1";
     let currentSubRoll = 1;
     let currentAlign = 1;
@@ -587,7 +604,7 @@
           div.innerHTML = `
             <span class="cell-coord">${k}</span>
             <div class="cell-icon">${icon}</div>
-            <div class="cell-name">${cell.active ? cell.name : '--- VACÍO ---'}</div>
+            <div class="cell-name">${cell.active ? cell.name : 'VACÍO'}</div>
           `;
           container.appendChild(div);
         });
@@ -675,7 +692,7 @@
       updateOutputLog();
     }
 
-    // Generator 7x7 Algorithm
+    // ORGANIC BRANCHING GENERATOR ALGORITHM (Zelda / Isaac with Gaps)
     function generateDungeon() {
       initGridData();
       
@@ -687,19 +704,18 @@
       }
       currentAlign = Math.floor(Math.random() * 6) + 1;
 
-      // Random Walk expansion
-      const startCoord = { r: 3, c: 1 }; // D1
-      const startKey = "D1";
+      // Pick a random Entry Atrio position (Periphery or Center)
+      const possibleStarts = ["C1", "D1", "D4", "A4", "G4", "D7"];
+      const startKey = possibleStarts[Math.floor(Math.random() * possibleStarts.length)];
       
       gridData[startKey] = {
         active: true,
         name: "Sala 01: Atrio de Entrada",
         role: "ATRIO",
-        notes: "Entrada inamovible y Altar de Sintonía"
+        notes: "Entrada principal y Altar de Sintonía"
       };
 
-      const targetRooms = Math.floor(Math.random() * 6) + 14; // 14-19 rooms
-      let activeKeys = [startKey];
+      const targetRooms = Math.floor(Math.random() * 5) + 13; // 13-17 rooms
       let placedKeys = new Set([startKey]);
 
       const presets = [
@@ -713,46 +729,56 @@
       let pool = [...presets];
       pool.sort(() => Math.random() - 0.5);
 
-      while (placedKeys.size < targetRooms && activeKeys.length > 0) {
-        const currKey = activeKeys[Math.floor(Math.random() * activeKeys.length)];
-        const r = currKey[0];
-        const c = parseInt(currKey[1]);
-        const rIdx = ROWS.indexOf(r);
+      // Create 3-4 distinct branches from start Key to leave GAPs between rooms
+      const numBranches = 4;
+      for (let b = 0; b < numBranches; b++) {
+        let currKey = startKey;
+        const branchLength = Math.floor(Math.random() * 3) + 3; // 3-5 steps
 
-        const neighbors = [];
-        if (rIdx > 0) neighbors.push(`${ROWS[rIdx - 1]}${c}`);
-        if (rIdx < 6) neighbors.push(`${ROWS[rIdx + 1]}${c}`);
-        if (c > 1) neighbors.push(`${r}${c - 1}`);
-        if (c < 7) neighbors.push(`${r}${c + 1}`);
+        for (let step = 0; step < branchLength; step++) {
+          if (placedKeys.size >= targetRooms) break;
 
-        const unvisited = neighbors.filter(nk => !placedKeys.has(nk));
+          const r = currKey[0];
+          const c = parseInt(currKey[1]);
+          const rIdx = ROWS.indexOf(r);
 
-        if (unvisited.length > 0) {
-          const nextKey = unvisited[Math.floor(Math.random() * unvisited.length)];
-          placedKeys.add(nextKey);
-          activeKeys.push(nextKey);
+          const neighbors = [];
+          if (rIdx > 0) neighbors.push(`${ROWS[rIdx - 1]}${c}`);
+          if (rIdx < 6) neighbors.push(`${ROWS[rIdx + 1]}${c}`);
+          if (c > 1) neighbors.push(`${r}${c - 1}`);
+          if (c < 7) neighbors.push(`${r}${c + 1}`);
 
-          gridData[nextKey] = {
-            active: true,
-            name: pool.length > 0 ? pool.pop() : `Sala Cámara (${nextKey})`,
-            role: "NORMAL",
-            notes: ""
-          };
+          // Pick next neighbor with gap skipping chance
+          const unvisited = neighbors.filter(nk => !placedKeys.has(nk));
+          if (unvisited.length > 0) {
+            const nextKey = unvisited[Math.floor(Math.random() * unvisited.length)];
+            placedKeys.add(nextKey);
+            
+            gridData[nextKey] = {
+              active: true,
+              name: pool.length > 0 ? pool.pop() : `Sala Cámara (${nextKey})`,
+              role: "NORMAL",
+              notes: ""
+            };
 
-          // Door state
-          const pairKey = getDoorPairKey(currKey, nextKey);
-          doorData[pairKey] = Math.random() < 0.6 ? "Puerta Abierta de Par en Par" : DOOR_TYPES[Math.floor(Math.random() * (DOOR_TYPES.length - 1))];
-        } else {
-          activeKeys = activeKeys.filter(k => k !== currKey);
+            // Door state
+            const pairKey = getDoorPairKey(currKey, nextKey);
+            doorData[pairKey] = Math.random() < 0.65 ? "Puerta Abierta de Par en Par" : DOOR_TYPES[Math.floor(Math.random() * (DOOR_TYPES.length - 1))];
+
+            currKey = nextKey;
+          }
         }
       }
 
-      // Place Subdungeon at furthest node
+      // Place Subdungeon at furthest node from startKey
+      const startR = ROWS.indexOf(startKey[0]);
+      const startC = parseInt(startKey[1]);
+
       if (currentSubRoll !== 8) {
         let maxDist = -1;
         let furthestKey = startKey;
         placedKeys.forEach(k => {
-          const dist = Math.abs(ROWS.indexOf(k[0]) - startCoord.r) + Math.abs(parseInt(k[1]) - startCoord.c);
+          const dist = Math.abs(ROWS.indexOf(k[0]) - startR) + Math.abs(parseInt(k[1]) - startC);
           if (dist > maxDist) {
             maxDist = dist;
             furthestKey = k;
@@ -851,6 +877,20 @@
 
     // Button Actions
     document.getElementById('btn-generate').onclick = generateDungeon;
+
+    document.getElementById('btn-set-atrio').onclick = () => {
+      // Clear previous ATRIO
+      Object.keys(gridData).forEach(k => {
+        if (gridData[k].role === "ATRIO") gridData[k].role = "NORMAL";
+      });
+      gridData[currentSelectedKey].active = true;
+      gridData[currentSelectedKey].role = "ATRIO";
+      gridData[currentSelectedKey].name = "Sala 01: Atrio de Entrada";
+      renderGrid();
+      selectCell(currentSelectedKey);
+      updateOutputLog();
+      alert(`📍 Celda [ ${currentSelectedKey} ] configurada como Entrada (Atrio).`);
+    };
 
     document.getElementById('btn-clear').onclick = () => {
       initGridData();
