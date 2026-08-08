@@ -1,80 +1,156 @@
-# El Sistema de Escritura de Minos (Lenguaje Alrestiano Arcaico)
+# El Sistema de Escritura Simbólico de Minos (Jeroglíficos Alrestianos)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/01-Sistema_de_Escritura_Alrestiano.md`  
-> **Inspiración**: *Alfabeto Alrestiano (Xenoblade Chronicles)* + *Criptografía de Puzles (Outer Wilds)*
+> **Filosofía**: **100% Simbólico y Pictográfico**. Sin gramática, sin conjugaciones, sin declinaciones complejas.  
+> **Inspiración**: *Iconografía Alrestiana (Xenoblade)* + *Nomai Glyphs (Outer Wilds)* + *Paneles Rúnicos Directos*.
 
 ---
 
-## 1. Naturaleza Criptográfica del Lenguaje
+## 1. Filosofía del Lenguaje: Triadas Pictográficas
 
-Las inscripciones en las paredes, puertas y consolas del laberinto no son decoración: son **mandatos de código ejecutable** tallados en piedra y cristal. El idioma se compone de **Ideogramas Base** combinados con **Modificadores Directivos** y **Sellos Elementales**.
+En el Laberinto de Minos no existen las oraciones ni las palabras gramaticales. Toda la escritura consiste en **Jeroglíficos de Impacto Directo**. 
+
+Cualquier panel, consola o bajorrelieve en las paredes se lee uniendo **2 o 3 Glifos Intuitivos**:
 
 ```
-[IDEOGRAMA BASE] + [MODIFICADOR DIRECTIVO] + [SELLO ELEMENTAL] = [ORDEN DEL LABERINTO]
++------------------+    +----------------------+    +--------------------+
+|  [SUSTANCIA]     | +  |  [ACCIÓN / VECTOR]   | +  |  [LUGAR / OBJETO]  |
+|  (¿Qué actúa?)   |    |  (¿Qué hace?)        |    |  (¿Sobre qué?)     |
++------------------+    +----------------------+    +--------------------+
 ```
 
-Ejemplo: `[AQUA] + [SHIFT_DOWN] + [FORGE]` = *"Drenar todo el líquido de la Forja Central hacia el nivel inferior"*.
+### Regla de Interpretación Inmediata
+Al mirar un grabado, el jugador no necesita "traducir un idioma"; simplemente **conecta los iconos visuales**.
+
+> **Ejemplo**: Ver los iconos `[🟂 AGUA]` + `[▼ ABAJO]` + `[🟁 FORJA]` significa intuitivamente:  
+> **"Drenar agua hacia La Forja"**.
 
 ---
 
-## 2. Diccionario de Glifos (Ideogramas Principales)
+## 2. El Catálogo Completo de Glifos Simbólicos
 
-### A. Glifos Elementales (Símbolos Primarios)
+### A. SUSTANCIAS Y ELEMENTOS (¿Qué sustancia actúa?)
 
-| Glifo | Nombre Alrestiano   | Significado Físico / Mapeo                                       |
-| :---: | :------------------ | :--------------------------------------------------------------- |
-| `🟁`  | **Ignis / Pyros**   | Fuego, Calor, Digestión Térmica, Activación de Forja.            |
-| `🟂`  | **Aura / Hydro**    | Agua, Líquidos, Presión Hidráulica, Enfriamiento.                |
-| `🟃`  | **Fulmen / Fulgur** | Rayo, Energía, Corriente Continua, Reducción de Barrera.         |
-| `🟄`  | **Vapor / Zephyr**  | Viento, Gas, Presión de Vaciado, Vuelo / Plataforma Elevadora.   |
-| `🟅`  | **Terra / Geo**     | Piedra, Muro, Ancla Espacial, Peso, Masa Físicamente Inamovible. |
-| `🟆`  | **Nox / Umbra**     | Vacío, Fase Astral, Resonancia Oculta, Registro de Memoria.      |
+| Icono | Nombre Alrestiano | Concepto Simbólico | Aplicación Directa |
+| :---: | :--- | :--- | :--- |
+| `🟁` | **Pyros / Ignis** | Llama / Calor | Fuego, incineración, derretir, encender. |
+| `🟂` | **Hydro / Aura** | Oculto / Agua | Líquido, drenaje, condensación, enfriar. |
+| `🟃` | **Fulgur / Fulmen** | Chispa / Rayo | Electricidad, energía, circuito, carga. |
+| `🟄` | **Zephyr / Vapor** | Válvula / Viento | Aire, gas, ráfaga, elevación flotante. |
+| `🟅` | **Geo / Terra** | Pilar / Piedra | Masa, solidez, reparar muros, peso. |
+| `🟆` | **Umbra / Nox** | Ojo / Vacío | Memoria, fase astral, secreto oculto. |
+| `❄` | **Glacies** | Copo / Hielo | Congelación, barrera helada, parálisis. |
+| `🌋` | **Magma** | Gota Candente | Lava, fusión térmica, calor extremo. |
 
-### B. Glifos de Acción y Orientación (Modificadores Directivos)
+---
 
-| Glifo | Nombre Alrestiano | Función de Consola / Efecto |
+### B. ACCIONES Y VECTORES (¿Qué hace la sustancia?)
+
+| Icono | Nombre Alrestiano | Vector Físico | Interpretación Intuitiva |
+| :---: | :--- | :--- | :--- |
+| `▲` | **Kael-Up** | Flecha Arriba | Elevar, Subir, Abrir compuerta, Entrar calor. |
+| `▼` | **Kael-Down** | Flecha Abajo | Descender, Drenar agua, Cerrar compuerta, Enfriar. |
+| `↻` | **Rota-Dextro** | Giro Horario | Rotar estructura 90° a la derecha. |
+| `↺` | **Rota-Sinistro** | Giro Antihorario | Rotar estructura 90° a la izquierda. |
+| `☌` | **Conex-Flux** | Dos Círculos Unidos | Enlazar conductos, conectar circuito eléctrico. |
+| `⊗` | **Purge-Null** | Círculo Tachado | Resetear sala, apagar mecanismos, purgar trampas. |
+| `⚓` | **Vinc-Anchor** | Ancla Arcana | Congelar la posición de la sala (Evitar *Shift*). |
+
+---
+
+### C. OBJETOS Y ESTRUCTURAS (¿Sobre qué objeto opera?)
+
+| Icono | Objeto Representado | Definición en el Laberinto |
 | :---: | :--- | :--- |
-| `▲` | **Kael-Up** | Elevar, Abrir Compuerta Superior, Calentar Temperatura. |
-| `▼` | **Kael-Down** | Descender, Drenar, Enfriar Temperatura, Cerrar Compuerta. |
-| `↻` | **Rota-Dextro** | Rotar sala 90° a la derecha (Sentido Horario). |
-| `↺` | **Rota-Sinistro** | Rotar sala 90° a la izquierda (Sentido Anti-horario). |
-| `◈` | **Vinc-Anchor** | Anclar sala actual (Impide que se mueva en el próximo *Shift*). |
-| `☌` | **Conex-Flux** | Conectar conducto entre la sala actual y la sala adyacente. |
-| `⊗` | **Purge-Null** | Resetear estado de la sala / Desactivar trampa activa. |
+| `⚙` | **Rota-Machina** | Rueda de Engranaje Maestro (Sala 04). |
+| `🚪` | **Janua-Gate** | Compuerta de Piedra / Puerta Principal. |
+| `🌉` | **Pons-Bridge** | Puente Levadizo / Plataforma Flotante. |
+| `🚰` | **Ductus-Pipe** | Tubería / Conducto de Fluidos o Lava. |
+| `⚡` | **Node-Coil** | Bobina de Sobretensión (Sala 03). |
+| `👑` | **Sanctum-Core** | La Gran Puerta Hexagonal del Núcleo (Sala 12). |
 
 ---
 
-## 3. Mecánica de Descifrado Progresivo en Mesa
+### D. IDENTIFICADORES DE SALA (Nodos del Laberinto)
 
-Inicialmente, los jugadores ven los páneles como **patrones geométricos incomprensibles**. El descifrado se logra de tres formas:
+Cada sala del laberinto tiene su ideograma tallado sobre el dintel de la entrada:
 
-1. **La Estela Bilingüe de la Entrada**:
-   * Otorga la traducción de los 6 Glifos Elementales Básicos desde la primera sesión.
-2. **Tablillas Fragmentadas (Pistas dispersas)**:
-   * Al explorar salas avanzadas, los jugadores encuentran notas de antiguos ingenieros con inscripciones traducidas parcialmente (ej: *"El glifo ↻ siempre gira la rueda de agua"*).
-3. **Resonancia Umbra**:
-   * El jugador con **Sintonía Umbra** puede tocar glifos oscuros para "escuchar" el eco de su significado, revelando el modificador directivo oculto.
+```
+[01] 🏛️ Atrio      [04] ⚙️ Engranaje   [07] ❄️ Cripta    [10] ⚓ Anclas
+[02] 🌊 Depósito   [05] 🟁 Forja       [08] 🌊 Acuífero  [11] ⚖️ Galería
+[03] ⚡ Bobina     [06] 🙃 Invertido   [09] 🛗 Ascensor  [12] 👑 Sanctum
+```
 
 ---
 
-## 4. Consolas de Minos (Ingreso de Comandos)
+## 3. Consolas de 3 Gemas (Interfaz Rúnica de Minos)
 
-En ciertas salas clave (Hub Central, La Forja, El Salón del Engranaje), existen **Consolas de Piedra con Esferas Rúnicas**.
+En las salas principales hay **Consolas de Piedra** con 3 cuencas esféricas donde los jugadores encajan esferas con glifos grabados.
 
 ```
-+-------------------------------------------------------+
-|                CONSOLA DE MINOS                       |
-|                                                       |
-|  [Ranura 1: Elemento]  [Ranura 2: Dirección/Acción]    |
-|       ( 🟂 Hydro )            ( ▼ Kael-Down )          |
-|                                                       |
-|  [Ranura 3: Destino]                                  |
-|       ( 🟁 Pyros - La Forja )                         |
-|                                                       |
-|  RESULTADO: "Drenar el agua sobre la Forja"           |
-+-------------------------------------------------------+
++-------------------------------------------------------------+
+|                 CONSOLA RÚNICA DE MINOS                     |
+|                                                             |
+|   [ Slot 1: Sustancia ]  [ Slot 2: Acción ]  [ Slot 3: Nodo ]|
+|       ( 🟃 Fulgur )        ( ☌ Conectar )    ( 🛗 Ascensor )  |
+|                                                             |
+|   EFECTO: Enviar energía desde la Bobina hasta el Ascensor.  |
++-------------------------------------------------------------+
 ```
 
-### Reglas de Uso de Consolas:
-* **Gasto de Carga**: Pulsar una combinación errónea en una consola consume **1 Punto de Carga Arcana** debido a la descarga de sobretensión.
-* **Confirmación Auditiva**: Si la combinación es correcta, la consola emite una nota armónica resonante y la sala afectada cambia su estado (incluso si está a varias salas de distancia).
+### Reglas de Operación en Mesa:
+1. **Combinación Válida**: El DM narra un pulso de luz de color (Azul para agua, Rojo para fuego, Amarillo para rayo) y el efecto físico ocurre de inmediato en el laberinto.
+2. **Combinación Errónea**: La consola emite un zumbido grave y consume **1 Punto de Carga Arcana** por choque de polaridad.
+
+---
+
+## 4. 15 Inscripciones de Ejemplo para Usar en Incursiones (DM Cheatsheet)
+
+Usa estas combinaciones pre-diseñadas al describir murales o consolas a tus jugadores:
+
+| Inscripto en la Pared / Consola | Traducción Simbólica Intuitiva | Efecto Físico en la Dungeon |
+| :--- | :--- | :--- |
+| `[🟂 Hydro] + [▼ Down] + [🟁 Forja]` | Agua -> Descender -> Forja | Drena la agua del Depósito (Sala 02) sobre la Forja (Sala 05) para apagar la lava. |
+| `[🟁 Pyros] + [▲ Up] + [❄ Cripta]` | Fuego -> Subir -> Cripta | Canaliza aire caliente de La Forja hacia la Cripta para derretir el hielo mágico. |
+| `[🟃 Fulgur] + [☌ Conectar] + [🛗 Ascensor]` | Rayo -> Enlazar -> Ascensor | Conecta la energía de la Sala 03 con el Ascensor Magnético de la Sala 09. |
+| `[⚙ Engranaje] + [↻ Giro Dextro]` | Engranaje -> Girar Derecha | Rota la Sala Invertida (Sala 06) 90° a la derecha. |
+| `[⚓ Ancla] + [☌ Conectar] + [Sala 06]` | Ancla -> Enlazar -> Sala 06 | Congela la posición de la Sala 06 para que no cambie en el próximo *Shift*. |
+| `[❄ Glacies] + [▼ Down] + [🌊 Acuífero]` | Hielo -> Enfriar -> Acuífero | Congela la superficie del Acuífero (Sala 08), permitiendo caminar sobre el agua. |
+| `[🟄 Zephyr] + [▲ Up] + [🌉 Puente]` | Viento -> Subir -> Puente | Activa los chorros de aire para elevar las plataformas flotantes. |
+| `[🟅 Geo] + [☌ Conectar] + [🚪 Compuerta]` | Piedra -> Enlazar -> Compuerta | Sella la puerta con un muro de piedra denso para bloquear el paso de monstruos. |
+| `[🟆 Umbra] + [☌ Conectar] + [⚖ Galería]` | Vacío -> Enlazar -> Galería | Revela los glifos invisibles de la Galería del Juicio (Sala 11). |
+| `[🌋 Magma] + [▲ Up] + [🟁 Forja]` | Magma -> Elevar -> Forja | Reactiva los crisoles de lava en La Forja Central. |
+| `[🟂 Hydro] + [☌ Conectar] + [🚰 Conducto]` | Agua -> Enlazar -> Conducto | Redirige el agua alcalina a los filtros del campamento. |
+| `[⊗ Purge] + [🟃 Fulgur] + [Sala 03]` | Reset -> Rayo -> Sala 03 | Desactiva las sobretensiones del Autómata Conductor. |
+| `[🟁 Pyros] + [🟅 Geo] + [👑 Sanctum]` | Fuego + Piedra -> Sanctum | Primera clave para desbloquear la Puerta Hexagonal. |
+| `[🟂 Hydro] + [🟃 Fulgur] + [👑 Sanctum]` | Agua + Rayo -> Sanctum | Segunda clave para desbloquear la Puerta Hexagonal. |
+| `[🟄 Zephyr] + [🟆 Umbra] + [👑 Sanctum]` | Viento + Vacío -> Sanctum | Tercera clave para desbloquear la Puerta Hexagonal. |
+
+---
+
+## 5. Handout Imprimible para la Mesa (Ficha de los Jugadores)
+
+Entrega el siguiente recuadro impreso o digital a tus jugadores al iniciar su primera expedición:
+
+```
+===================================================================
+             DIARIO DE CAMPO: GLIFOS SIMBÓLICOS DE MINOS
+===================================================================
+SUSTANCIAS:
+  🟁 Pyros (Fuego/Calor)      🟂 Hydro (Agua/Líquido)
+  🟃 Fulgur (Rayo/Energía)    🟄 Zephyr (Viento/Gas)
+  🟅 Geo (Piedra/Masa)       🟆 Umbra (Vacío/Secreto)
+  ❄ Glacies (Hielo)          🌋 Magma (Lava)
+
+VECTORES / ACCIONES:
+  ▲ Subir / Calentar / Abrir
+  ▼ Bajar / Enfriar / Drenar
+  ↻ Giro Horario (90°)
+  ↺ Giro Anti-horario (90°)
+  ☌ Conectar / Enlazar
+  ⊗ Purgar / Resetear
+  ⚓ Anclar Espacio
+
+REGLA: Junta 1 Sustancia + 1 Acción + 1 Objeto/Lugar para operar el Laberinto.
+===================================================================
+```
