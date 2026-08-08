@@ -156,7 +156,7 @@
       }
     }
 
-    /* Grid Display with RIGID CELLS & DOOR BORDER INDICATORS */
+    /* Grid Display with RIGID CELLS */
     .grid-container {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -229,6 +229,12 @@
       border-color: var(--elem-water);
       background: rgba(59, 130, 246, 0.2);
       box-shadow: inset 0 0 10px rgba(59, 130, 246, 0.4);
+    }
+
+    .cell.active.secret {
+      border-color: #06b6d4 !important;
+      background: rgba(6, 182, 212, 0.25) !important;
+      box-shadow: 0 0 14px rgba(6, 182, 212, 0.5) !important;
     }
 
     /* SUBDUNGEON ELEMENTAL COLOR ACCENTS */
@@ -432,8 +438,8 @@
 
   <header>
     <div class="title-area">
-      <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7)</h1>
-      <p>Generador Ramificado Estilo Zelda 2D / Binding of Isaac con Atrio Móvil & Subdungeons <= 3 Pasos</p>
+      <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7 DISPERSA)</h1>
+      <p>Generación Dispersa Estilo Isaac con Sala Secreta 🗝️ y Subdungeons <= 3 Pasos</p>
     </div>
     <div class="power-words-bar">
       <span class="power-badge badge-fire">🟁 Fire</span>
@@ -501,6 +507,7 @@
         <label>Nombre de la Sala (Plantillas Zelda)</label>
         <select class="form-control" id="inspect-preset">
           <option value="Sala 01: Atrio de Entrada">🏛️ Sala 01: Atrio de Entrada</option>
+          <option value="🗝️ Sala Secreta de Minos">🗝️ Sala Secreta de Minos</option>
           <option value="Sala 02: Depósito de Agua">🌊 Sala 02: Depósito de Agua</option>
           <option value="Sala 03: Invernadero Botánico">🌱 Sala 03: Invernadero Botánico</option>
           <option value="Sala 04: Engranaje Maestro">⚙️ Sala 04: Engranaje Maestro</option>
@@ -535,7 +542,7 @@
           <option value="NORMAL">Estándar</option>
           <option value="ATRIO">🏛️ Entrada (Atrio)</option>
           <option value="SUBDUNGEON">👑 Subdungeon Boss</option>
-          <option value="SECRET">🗝️ Sala Secreta</option>
+          <option value="SECRET">🗝️ Sala Secreta (Isaac)</option>
         </select>
       </div>
 
@@ -562,7 +569,7 @@
 
       <div class="form-group">
         <label>Notas de la Sala / Botín</label>
-        <input type="text" class="form-control" id="inspect-notes" placeholder="Ej: Cofre con Guantelete de Llama">
+        <input type="text" class="form-control" id="inspect-notes" placeholder="Ej: Cofre Secreto / Requiere Muro Bomba">
       </div>
     </div>
 
@@ -764,7 +771,7 @@
       updateOutputLog();
     }
 
-    // ORGANIC BRANCHING GENERATOR WITH SUBDUNGEON DISTANCE CONSTRAINT (<= 3 STEPS)
+    // DISPERSED ISAAC GENERATOR ALGORITHM WITH GUARANTEED SECRET ROOM & SUBDUNGEON <= 3 STEPS
     function generateDungeon() {
       initGridData();
       
@@ -787,7 +794,7 @@
         notes: "Entrada principal y Altar de Sintonía"
       };
 
-      const targetRooms = Math.floor(Math.random() * 5) + 13; // 13-17 rooms
+      const targetRooms = Math.floor(Math.random() * 5) + 14; // 14-18 rooms
       let placedKeys = new Set([startKey]);
 
       const presets = [
@@ -801,11 +808,11 @@
       let pool = [...presets];
       pool.sort(() => Math.random() - 0.5);
 
-      // Create 4 distinct branches from startKey to leave GAPs
+      // Create 4 DISPERSED long branches from startKey (Isaac Floorplan with Gaps)
       const numBranches = 4;
       for (let b = 0; b < numBranches; b++) {
         let currKey = startKey;
-        const branchLength = Math.floor(Math.random() * 3) + 2; // 2-4 steps
+        const branchLength = Math.floor(Math.random() * 3) + 3; // 3-5 steps
 
         for (let step = 0; step < branchLength; step++) {
           if (placedKeys.size >= targetRooms) break;
@@ -846,7 +853,6 @@
       const startC = parseInt(startKey[1]);
 
       if (currentSubRoll !== 8) {
-        // Candidates with distance 1, 2 or 3
         const candidates = Array.from(placedKeys).filter(k => {
           if (k === startKey) return false;
           const dist = Math.abs(ROWS.indexOf(k[0]) - startR) + Math.abs(parseInt(k[1]) - startC);
@@ -864,6 +870,46 @@
             notes: `Subdungeon: ${subInfo.name} - Boss: ${subInfo.boss} (Distancia: <= 3 pasajes)`
           };
         }
+      }
+
+      // ALWAYS GENERATE 1 ISAAC SECRET ROOM (Sala Secreta)
+      // Find an inactive grid cell adjacent to 2+ active rooms or a dead end
+      let secretCandidates = [];
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          if (!gridData[k].active) {
+            const rIdx = ROWS.indexOf(r);
+            const nbActive = getNeighbors(rIdx, c).filter(nb => {
+              const nbKey = `${nb[1]}${nb[2]}`;
+              return gridData[nbKey] && gridData[nbKey].active;
+            });
+            if (nbActive.length >= 1) {
+              secretCandidates.push({ key: k, count: nbActive.length, neighbors: nbActive });
+            }
+          }
+        });
+      });
+
+      // Sort by highest neighbor count for true Isaac Secret Room feel
+      secretCandidates.sort((a, b) => b.count - a.count);
+
+      if (secretCandidates.length > 0) {
+        const secretTarget = secretCandidates[0];
+        const sKey = secretTarget.key;
+        gridData[sKey] = {
+          active: true,
+          name: "🗝️ Sala Secreta de Minos",
+          role: "SECRET",
+          notes: "Sala Secreta estilo Isaac: Contiene cofre de reliquias raras y botín de downtime"
+        };
+
+        // Connect to adjacent rooms with Muro Bomba
+        secretTarget.neighbors.forEach(nb => {
+          const nKey = `${nb[1]}${nb[2]}`;
+          const pairKey = getDoorPairKey(sKey, nKey);
+          doorData[pairKey] = "Muro de Piedra Frágil [EARTH]";
+        });
       }
 
       // Update UI
@@ -884,6 +930,7 @@
       log += `SUBDUNGEON 1d8: [${currentSubRoll}] -> ${subObj.code} (${subObj.name})\n`;
       log += `GUARDIÁN DE ÁREA: ${subObj.boss}\n`;
       log += `ALINEAMIENTO: [${currentAlign}] ${ALIGNMENTS[currentAlign - 1]}\n`;
+      log += `SALA SECRETA ISAAC: Siempre generada en muro agrietado [EARTH Shatter / Bomba]\n`;
       log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;
 
