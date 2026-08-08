@@ -2,7 +2,7 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md`  
 > **Diseñado bajo el Marco Metodológico**: `boss-ability-design`  
-> **Sistema de Combate**: **Zelda-Style Mini-Dungeon Bosses (Dungeon Item Counter)** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
+> **Sistema de Combate**: **Zelda-Style Mini-Dungeon Bosses** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -65,17 +65,18 @@ flowchart LR
 
 ---
 
-## 2. BOSS FINAL: El Juicio de Minos (El Héroe del Sello)
+## 2. BOSS FINAL: El Juicio de Minos (Equilibrio de Nivel Fijo)
 
-* **Concepto**: Un coloso arcano compuesto de basalto y un núcleo de cristal hexagonal. Es la encarnación del test de Minos.
-* **Mecánica Core**: **Mecánica de Orbes Elementales (Xenoblade Chronicles 2 Adaptation)**.
-
-```mermaid
-graph TD
-    A["Ataque / Remate Elemental"] -->|"Genera Orbe"| B["Orbe Elemental Orbitando (Max 6)"]
-    B -->|"Otorga al Boss"| C["+1 AC por Orbe & Resistencia Elemental"]
-    D["Ataque con Elemento Opuesto"] -->|"Inflige 2 Pts de Daño al Orbe"| E["Orbe Rompe / Shatter"]
-    E -->|"Ruptura de 3+ Orbes"| F["🔥 FULL BURST (Stun + Daño x2 Automático) 🔥"]
+```
+======================================================================
+          👑 EQUILIBRIO Y DIFICULTAD DEL BOSS FINAL 👑
+======================================================================
+- NIVEL FIJO RECOMENDADO: Nivel 7 - 8.
+- BALANCE DE GRUPO: Diseñado exactamente para un grupo de CINCO (5)
+  personajes equipados con al menos 5 de las 6 Palabras de Poder.
+- DESAFÍO: Exige coordinación de sintonías elementales para apilar y
+  romper los Orbes Elementales y desatar el FULL BURST.
+======================================================================
 ```
 
 ---
@@ -94,8 +95,6 @@ Cada vez que el Boss ejecuta un ataque finalizador de fase o un jugador asesta u
 ---
 
 ### B. Rompimiento de Orbes (Elemental Countering)
-
-#### Tabla de Elementos Opuestos (Vulnerabilidad Crítica)
 
 | Orbe Activo en el Boss | Elemento Opuesto (Destructor Crítico) | Daño al Orbe por Impacto | Efecto de Destrucción de Orbe |
 | :--- | :--- | :---: | :--- |

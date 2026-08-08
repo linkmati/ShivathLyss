@@ -1,59 +1,50 @@
-# Ficha de Control del DM y Tablero de Rumores (Outer Wilds Curiosity Board)
+# Ficha de Control del DM, Cuaderno Físico y Tablero de Rumores
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md`  
-> **Propósito**: Herramienta interactiva para que el DM gestione la persistencia del laberinto en Treftiel entre múltiples sesiones y grupos de jugadores.  
+> **Formato de Seguimiento**: Cuaderno Físico en Mesa (Jugadores) + Grafo de Rumores (*Curiosity Board*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
-## 1. El Tablero de Rumores (Grafo de Conocimiento y Meta-Puzle)
+## 1. El Cuaderno Físico en Mesa (Transferencia entre Jugadores)
 
-Este es el mapa visual de misterios que los jugadores completan en el **Diario del Gremio**. Para abrir la Gran Puerta Hexagonal (Sala 12), deben ensamblar los **6 Fragmentos de la Gran Rueda de Criptografía**:
+```
+======================================================================
+               📖 EL CUADERNO FÍSICO DE LA MINA 📖
+======================================================================
+1. MAPA Y ANOTACIONES HECHAS POR JUGADORES:
+   - Los jugadores mantienen un CUADERNO FÍSICO en la mesa de juego donde
+     dibujan el mapa del laberinto, anotan significados de ideogramas
+     alrestianos y registran atajos permanentes.
 
-```mermaid
-graph TD
-    N1["Nodo 1: La Estela Bilingüe"] -->|"Muestra Glifos de Shivath"| N2["Nodo 2: Consolas de Minos"]
-    N2 -->|"Subdungeon Fire (7/10 Cargas)"| F1["Fragmento 1: Runa de Llama"]
-    N2 -->|"Subdungeon Water (7/10 Cargas)"| F2["Fragmento 2: Runa de Marea"]
-    N2 -->|"Subdungeon Air (7/10 Cargas)"| F3["Fragmento 3: Runa de Viento"]
-    N2 -->|"Subdungeon Earth (7/10 Cargas)"| F4["Fragmento 4: Runa de Pico"]
-    N2 -->|"Subdungeon Life (7/10 Cargas)"| F5["Fragmento 5: Runa de Brote"]
-    N2 -->|"Subdungeon Light (7/10 Cargas)"| F6["Fragmento 6: Runa de Sol"]
-    
-    F1 & F2 & F3 & F4 & F5 & F6 --> META["🧭 Gran Rueda de Criptografía de Minos Ensamblada 🧭"]
-    META --> SANCTUM["Puerta Hexagonal Desbloqueada (Sala 12: El Juicio de Minos)"]
+2. TRANSFERENCIA IN-GAME:
+   - Cualquier grupo de personajes que entre en el laberinto lleva consigo
+     el Cuaderno Físico en su equipo. De este modo, los descubrimientos de
+     jugadores anteriores benefician a los nuevos sin necesidad de reseteos.
+======================================================================
 ```
 
 ---
 
-## 2. Ficha de Registro de Estado Persistente (DM Checklist)
+## 2. Regla de Rendimiento Decreciente por Incursión (Anti-Farm)
 
-Imprime o copia este bloque para llevar el estado actual de tu campaña:
+Para evitar que los aventureros "farmeen" dinero repetido haciendo incursiones cortas de 2 cargas:
 
-```markdown
-### ESTADO DEL LABERINTO DE MINOS EN TREFTIEL (Campaña Activa)
+* **Salas Previamente Exploradas**: Los cofres menores de salas ya abiertas en runs anteriores **no otorgan dinero ni gemas repetidos**.
+* **Obtención de Botín de Downtime**: El botín solo se concede al explorar **salas nuevas en la rejilla 7x7**, resolver un puzle de triada por primera vez o completar la **Subdungeon Elemental**.
 
-#### A. Estado de Nodos y Redes Inter-Salas
-- [ ] Válvula de Agua (Sala 02 - WATER): [ CERRADA / ABIERTA ] -> La Forja está [ INUNDADA / SECA ]
-- [ ] Invernadero Solar (Sala 03 - LIFE/LIGHT): [ SIN LUZ / ILUMINADO ]
-- [ ] Engranaje Maestro (Sala 04 - EARTH/AIR): [ ORIENTACIÓN 0° / 90° DEXTRO / 180° ]
-- [ ] Horno de la Forja (Sala 05 - FIRE): [ APAGADO / ENCENDIDO ] -> Cripta Helada está [ CONGELADA / DERRETIDA ]
-- [ ] Espejos Rúnicos (Sala 09 - LIGHT): [ DESALINEADOS / ALINEADOS ]
+---
 
-#### B. Fragmentos de la Gran Rueda de Criptografía (Meta-Puzle)
-- [ ] Fragmento 1 (FIRE - Señor del Crisol >= 7 Cargas): [ PENDIENTE / RECUPERADO ]
-- [ ] Fragmento 2 (WATER - Quimera Hidráulica >= 7 Cargas): [ PENDIENTE / RECUPERADO ]
-- [ ] Fragmento 3 (AIR - Coloso del Vértice >= 7 Cargas): [ PENDIENTE / RECUPERADO ]
-- [ ] Fragmento 4 (EARTH - Titán de Basalto >= 7 Cargas): [ PENDIENTE / RECUPERADO ]
-- [ ] Fragmento 5 (LIFE - Botánico de Sombras >= 7 Cargas): [ PENDIENTE / RECUPERADO ]
-- [ ] Fragmento 6 (LIGHT - Espejismo de Cristal >= 7 Cargas): [ PENDIENTE / RECUPERADO ]
-- [ ] **Secuencia Rúnica Ensamblada (Puerta Hexagonal Abierta)**: [ NO / SÍ ]
+## 3. El Grafo de Rumores de Treftiel (Curiosity Board)
 
-#### C. Guardianes y Bosses Persistentes
-- [ ] El Juicio de Minos (Boss Final): [ INACTIVO / DERROTADO ]
+Usa esta red de pistas estilo *Outer Wilds* para entregar información en los descansos:
 
-#### D. Recompensas Extraídas por los Jugadores
-- Oro acumulado para el grupo: ________ GP
-- Consumibles en inventario: ________________________
-- Objetos mágicos menores hallados: ________________________
+```mermaid
+graph TD
+    A["Rumor: Las Nieblas de Treftiel"] --> B["Bóveda de Estabilización de Minos"]
+    B --> C["Ideogramas Rúnicos de Alrest"]
+    B --> D["Subdungeons Elementales (1d8)"]
+    C --> E["Consolas de 3 Gemas (Forced Override: 2 Cargas)"]
+    D --> F["Fragmentos de la Gran Rueda de Criptografía (6 Piezas)"]
+    F --> G["Sanctum 12: El Juicio de Minos (Balanced 5 PJs)"]
 ```
