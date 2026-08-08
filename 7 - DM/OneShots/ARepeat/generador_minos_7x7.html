@@ -439,7 +439,7 @@
   <header>
     <div class="title-area">
       <h1>🏛️ EL LABERINTO DE MINOS (REJILLA 7x7 DISPERSA)</h1>
-      <p>Generación Dispersa Estilo Isaac con Sala Secreta 🗝️ y Persistencia Mixta</p>
+      <p>Generación Isaac Pura con Sala Secreta 🗝️ Adyacente Multi-Sala y Sin Pistas Visuales</p>
     </div>
     <div class="power-words-bar">
       <span class="power-badge badge-fire">🟁 Fire</span>
@@ -542,7 +542,7 @@
           <option value="NORMAL">Estándar</option>
           <option value="ATRIO">🏛️ Entrada (Atrio)</option>
           <option value="SUBDUNGEON">👑 Subdungeon Boss</option>
-          <option value="SECRET">🗝️ Sala Secreta (Isaac)</option>
+          <option value="SECRET">🗝️ Sala Secreta (Isaac Pura)</option>
         </select>
       </div>
 
@@ -618,8 +618,8 @@
     ];
 
     // State
-    let gridData = {}; // key: "A1" -> { active: bool, name: str, role: str, notes: str }
-    let doorData = {}; // key: "A1-Door-B1" -> door_type
+    let gridData = {}; 
+    let doorData = {}; 
     let currentSelectedKey = "D1";
     let currentSubRoll = 1;
     let currentAlign = 1;
@@ -768,6 +768,7 @@
       updateOutputLog();
     }
 
+    // EXACT ISAAC GENERATION ALGORITHM (DISPERSED WITH MULTI-NEIGHBOR SECRET ROOM AND ZERO OUTSIDE CLUES)
     function generateDungeon() {
       initGridData();
       
@@ -873,7 +874,8 @@
         }
       }
 
-      // ISAAC SECRET ROOM
+      // EXACT ISAAC SECRET ROOM GENERATION:
+      // Priority given to grid cells touching 2, 3, or 4 active rooms. ZERO OUTSIDE CLUES.
       let secretCandidates = [];
       ROWS.forEach(r => {
         COLS.forEach(c => {
@@ -886,12 +888,31 @@
             if (c > 1 && gridData[`${r}${c-1}`].active) activeNb.push(`${r}${c-1}`);
             if (c < 7 && gridData[`${r}${c+1}`].active) activeNb.push(`${r}${c+1}`);
 
-            if (activeNb.length >= 1) {
+            if (activeNb.length >= 2) {
               secretCandidates.push({ key: k, count: activeNb.length, nbs: activeNb });
             }
           }
         });
       });
+
+      // Fallback to 1 neighbor if no 2+ neighbor spots exist
+      if (secretCandidates.length === 0) {
+        ROWS.forEach(r => {
+          COLS.forEach(c => {
+            const k = `${r}${c}`;
+            if (!gridData[k].active) {
+              const rIdx = ROWS.indexOf(r);
+              const activeNb = [];
+              if (rIdx > 0 && gridData[`${ROWS[rIdx-1]}${c}`].active) activeNb.push(`${ROWS[rIdx-1]}${c}`);
+              if (rIdx < 6 && gridData[`${ROWS[rIdx+1]}${c}`].active) activeNb.push(`${ROWS[rIdx+1]}${c}`);
+              if (c > 1 && gridData[`${r}${c-1}`].active) activeNb.push(`${r}${c-1}`);
+              if (c < 7 && gridData[`${r}${c+1}`].active) activeNb.push(`${r}${c+1}`);
+
+              if (activeNb.length >= 1) secretCandidates.push({ key: k, count: activeNb.length, nbs: activeNb });
+            }
+          });
+        });
+      }
 
       secretCandidates.sort((a, b) => b.count - a.count);
 
@@ -902,7 +923,7 @@
           active: true,
           name: "🗝️ Sala Secreta de Minos",
           role: "SECRET",
-          notes: "Pistas en salas adyacentes (grietas/viento) -> Abrir con Bomba / EARTH Shatter"
+          notes: "Regla Isaac Pura: SIN PISTAS EXTERNAS. Deducción por geometría del mapa -> Bomba / EARTH Shatter."
         };
 
         sTarget.nbs.forEach(nKey => {
@@ -928,6 +949,7 @@
       log += `SUBDUNGEON 1d8: [${currentSubRoll}] -> ${subObj.code} (${subObj.name})\n`;
       log += `GUARDIÁN DE ÁREA: ${subObj.boss}\n`;
       log += `ALINEAMIENTO: [${currentAlign}] ${ALIGNMENTS[currentAlign - 1]}\n`;
+      log += `SALA SECRETA ISAAC PURA: Sin pistas externas en paredes. Deducción por mapa.\n`;
       log += `PERSISTENCIA: Mixta (Atajos de rejilla/muro bomba se guardan; cerrojos resetean)\n`;
       log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;

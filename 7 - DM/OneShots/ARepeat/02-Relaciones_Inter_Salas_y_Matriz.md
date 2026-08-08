@@ -1,7 +1,7 @@
 # Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md`  
-> **Sistema**: Redes Causales de Área + Persistencia Mixta de Puertas.  
+> **Sistema**: Redes Causales de Área + Persistencia Mixta + Sala Secreta Isaac Pura.  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -30,7 +30,28 @@
 
 ---
 
-## 2. Redes Causales Inter-Salas (Efectos de Área)
+## 2. Regla de Generación de la Sala Secreta de Isaac (🗝️)
+
+```
+======================================================================
+           🗝️ SALA SECRETA DE ISAAC (REGLA PURA) 🗝️
+======================================================================
+1. GENERACIÓN EXACTA DE ISAAC:
+   - Se genera SIEMPRE 1 Sala Secreta por incursión.
+   - Se ubica en un hueco de la rejilla 7x7 que conecta directamente
+     con DOS O MÁS (2, 3 o 4) SALAS ACTIVAS vecinas.
+
+2. SIN PISTAS EXTERNAS (DEDUCCIÓN POR MAPA):
+   - NO hay grietas, marcas ni pistas visuales en las paredes exteriores.
+   - Los jugadores deben DEDUCIR su ubicación observando la geometría del
+     mapa en su cuaderno físico (buscando huecos vacíos rodeados por salas).
+   - Para abrirla, deben probar usando una Bomba o el poder EARTH en un muro.
+======================================================================
+```
+
+---
+
+## 3. Redes Causales Inter-Salas (Efectos de Área)
 
 Determinadas salas contienen mecanismos arcanos que alteran el estado de las salas adyacentes en la matriz 7x7:
 
@@ -39,10 +60,10 @@ graph TD
     A["Sala 02 / 07 (Cisterna)"] -->|"Rueda de Agua Drenada"| B["Drena Agua en 3 Salas Adyacentes"]
     C["Sala 04 (Engranaje)"] -->|"Inversión de Giro"| D["Cambia la Dirección del Viento en la Torre"]
     E["Sala del Interruptor de Cristal"] -->|"Golpe al Cristal Azul/Rojo"| F["Baja Bloques Azules / Sube Bloques Rojos"]
-    G["Pistas Ambientales (Grietas / Viento)"] -->|"Identificación de Muro Secreto"| H["Uso de Bomba / EARTH -> 🗝️ Sala Secreta"]
+    G["Deducción Geométrica del Mapa"] -->|"Uso de Bomba / EARTH en Muro ciego"| H["🗝️ Revela la Sala Secreta de Isaac"]
 ```
 
 ### Redes Inter-Salas Detalladas
-1. **Red Hidráulica (WATER)**: Accionar la manivela de la Cisterna (Sala 02) drena la piscina central de las 3 salas vecinas en la rejilla, permitiendo acceder a los pedestales inferiores del suelo.
+1. **Red Hidráulica (WATER)**: Accionar la manivela de la Cisterna (Sala 02) drena la piscina central de las 3 salas vecinas en la rejilla.
 2. **Red de Cristales Peg (LIGHT/AIR)**: Golpear el Cristal Rúnico conmuta el estado global de los bloques de cuarzo Azul y Rojo en las salas del cuadrante.
-3. **Pistas de la Sala Secreta de Isaac (🗝️)**: Las salas adyacentes a la Sala Secreta presentan **Pistas Ambientales** (grietas finas en el basalto, brisas frías o ideogramas atenuados). Al detectar la pista, asestar un impacto de Bomba o **EARTH** abre el pasadizo a la Sala Secreta.
+3. **Sala Secreta de Isaac (🗝️)**: Deducción geométrica pura en mapa. Un impacto de Bomba o **EARTH Shatter** en la pared ciega de una sala colindante derrumba el muro de piedra agrietada.
