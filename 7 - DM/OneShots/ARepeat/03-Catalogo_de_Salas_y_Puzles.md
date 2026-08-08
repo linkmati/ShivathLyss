@@ -1,121 +1,115 @@
-# Catálogo Maestro de Salas y Puzles de Minos
+# Catálogo Maestro de Salas, Puzles y Conexiones (Diseño Zelda Style)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md`  
-> **Formato**: 12 Salas Temáticas Artesanales basadas en las **6 Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
+> **Filosofía**: **Diseño de Salas estilo Legend of Zelda / Metroidvania**. Puzles espaciales, interacción de entorno, atajos con mecánicas únicas y objetos elementales de dungeon.
 
 ---
 
-## Sala 01: El Atrio de la Sintonía (Nodo de Entrada)
+## 1. Estructura Zelda para Subdungeons Elementales
 
-* **Atmósfera**: Galería de basalto negro iluminada por seis pilares de cristal elemental resplandeciente. En el centro descansa la **Mesa de Registro del Gremio**.
-* **Mecánica / Puzle**: 
-  * Cada jugador canaliza su mano en uno de los seis pilares de cristal para elegir su **Sintonía Elemental** de la incursión (Fire, Water, Air, Earth, Life, Light).
-* **Persistencia del Terreno**:
-  * Punto de inicio inamovible de cada expedición. Aquí se leen las notas dejadas por el grupo anterior en el **Diario de la Mina**.
+Cada Subdungeon Elemental opera como una **Mini-Dungeon de Zelda**:
 
----
+```mermaid
+flowchart TD
+    A["Entrada a la Subdungeon Elemental"] --> B["Fase 1: Puzles Iniciales de Navegación"]
+    B --> C["🎁 COFRE MAESTRO: Obtención del Objeto / Poder Elemental Temporal"]
+    C --> D["Fase 2: Aplicación del Poder Elemental en Puzles Avanzados"]
+    D --> E["Cámara del Guardián de Área (Miniboss)"]
+    E -->|"Superar con el Poder Elemental"| F["🔓 PODER PERMANENTE DESBLOQUEADO (Para todas las runs en el Altar)"]
+```
 
-## Sala 02: El Depósito de los Mil Canales (Nodo WATER)
-
-* **Atmósfera**: Enorme cisterna de piedra arcaica alimentada por cascadas subterráneas.
-* **Puzle de la Válvula Tripartita**:
-  * Requiere descifrar `[🟂 WATER] + [▼ KAEL-DOWN]` en la consola central.
-  * **Interacción WATER**: El PJ con sintonía Water se sumerge sin gastar aire y acciona manualmente la válvula atascada bajo el agua (*DC 14 STR o Water*).
-* **Efecto Inter-Salas / Persistencia**:
-  * **Si se drena**: El agua fluye a la **Sala 05 (La Forja)** apagando el fuego o a la **Sala 08 (Acuífero)** revelando un cofre. La válvula abierta **permanece abierta** en futuras runs.
-
----
-
-## Sala 03: El Invernadero Botánico (Nodo LIFE)
-
-* **Atmósfera**: Un jardín botánico subterráneo con esporas bioluminiscentes y vides carnívoras gigantes.
-* **Puzle de la Escalera de Flora**:
-  * El balcón superior está fuera del alcance de saltos convencionales.
-  * **Interacción LIFE**: El PJ con sintonía Life puede estimular la linfa de las vides arcanas (`[🌱 LIFE] + [▲ KAEL-UP]`), haciendo crecer una red de escaleras vivas permanentes.
+### El Objeto Elemental de Dungeon (Dungeon Item)
+* **FIRE**: *El Guantelete de Llama de Minos* -> Lanza proyectiles de plasma que encienden antorchas distantes o derriten hielo al instante.
+* **WATER**: *La Flauta del Mar de Minos* -> Eleva o drena el nivel del agua en cualquier sala con rejillas.
+* **AIR**: *La Capa del Vértice de Minos* -> Otorga impulso aéreo de 30 ft para cruzar abismos y remontar corrientes de viento.
+* **EARTH**: *El Martillo de Basalto de Minos* -> Rompe bloques de roca y golpea estacas telúricas para levantar pilares.
+* **LIFE**: *La Semilla Botánica de Minos* -> Germina plantas gigantes instantáneas que actúan como puentes o cuerdas.
+* **LIGHT**: *El Escudo Prismático de Minos* -> Refleja haces de luz solar hacia gemas receptoras distantes.
 
 ---
 
-## Sala 04: La Cámara del Engranaje Maestro (Nodo EARTH & AIR)
+## 2. Catálogo de Salas con Diseño Zelda
 
-* **Atmósfera**: Un mecanismo gigantesco de relojería astronómica incrustado en el suelo.
-* **Puzle del Selector de Orientación**:
-  * Contiene consola con ideogramas: `[⚙ ENGRANAJE] + [↻ GIRO DEXTRO]` o `[↺ GIRO SINISTRO]`.
-  * **Interacción EARTH/AIR**: Earth puede trabar el engranaje para forzar rotación de 180°. Air usa la corriente del eje para volar hasta la repisa del control manual.
-* **Efecto Inter-Salas / Persistencia**:
-  * Girar este engranaje cambia la inclinación de la **Sala 06 (Salón Invertido)**. El estado de rotación **persiste entre runs**.
+### CATEGORÍA A: SALAS DE ATAJO Y SECRETA
 
----
+#### Sala 01: La Sala de la Rejilla y el Abismo (Atajo de Forma Gaseosa / Fase)
+* **Diseño Zelda**: Dos plataformas de piedra separadas por un abismo sin fondo. Una **Rejilla de Hierro de Forja** bloquea el paso físico y aéreo (volar no funciona por los barrotes estrechos).
+* **Mecánica de Atajo**:
+  * Un jugador que use `Gaseous Form`, cambio de fase o paso etéreo puede atravesar los barrotes de la rejilla.
+  * **Acción del Otro Lado**: Al cruzar, el jugador acciona una palanca de palio que **deja caer un puente de cadenas permanente** y abre una trampilla.
+* **Beneficio en la Run**: Salta 2 o 3 salas de puzles/monstruos no hechos, ahorrando **2 Cargas Arcanas**. En días específicos, el lado lejano alberga un **Cofre de Reliquias Raras**.
 
-## Sala 05: La Gran Forja de Minos (Nodo FIRE)
+#### Sala 02: El Pasadizo de la Roca Agrietada (Muro de Bomba / Earth Shatter)
+* **Diseño Zelda**: Una pared de piedra con una marcada grieta resplandeciente.
+* **Mecánica**: Golpearla con el *Martillo de Basalto (EARTH)*, una carga explosiva o un hechizo contundente derriba la pared permanentemente, revelando un pasaje directo entre la entrada y el centro del mapa.
 
-* **Atmósfera**: Hornos abovedados incandescentes donde flotan lingotes de metal astral.
-* **Puzle del Crisol del Destino**:
-  * Encender los 3 sopletes de plasma.
-  * **Interacción FIRE**: El PJ Fire es inmune al calor y enciende directamente las boquillas arcanas con sus manos.
-* **Efecto Inter-Salas / Persistencia**:
-  * Encender La Forja calienta los túneles hacia la **Sala 07 (Cripta Congelada)**, derritiendo su muro de hielo. Si la **Sala 02** inunda La Forja, genera vapor denso (*Área Obscurecida*).
-
----
-
-## Sala 06: El Salón de la Gravedad Invertida (Nodo AIR & EARTH)
-
-* **Atmósfera**: Salón gótico donde arquerías y puertas están dispuestas en ángulos de 90° e inverosímiles.
-* **Puzle del Tránsito de Techo**:
-  * La salida está en el "techo" actual.
-  * **Interacción AIR/EARTH**: Air flota con caída pluma hasta la puerta. Earth golpea `[🟅 EARTH]` en la pared para alterar la gravedad local durante 1 minuto.
-* **Persistencia del Terreno**:
-  * Colocar un **Ancla Arcana** fija esta sala en su orientación óptima para siempre.
+#### Sala 03: La Cornisa del Gancho de Raíz (Atajo Botánico)
+* **Diseño Zelda**: Una cornisa elevada inaccesible.
+* **Mecánica**: Disparar una flecha o usar **LIFE** en la cepa marchita del techo hace crecer un liana permanente que cuelga hasta el suelo.
 
 ---
 
-## Sala 07: La Cripta del Hielo Mágico (Nodo FIRE & WATER)
+### CATEGORÍA B: SALAS DE INTERRUPTORES Y MECANISMOS DE CRISTAL
 
-* **Atmósfera**: Tumba ancestral sellada bajo bloques de hielo milenario translúcido.
-* **Puzle de la Tumba Helada**:
-  * Reliquias y puerta norte atrapadas en hielo.
-  * **Interacción**:
-    * **Directa**: PJ Fire derite un bloque por turno.
-    * **Indirecta (Inter-Salas)**: Encender la **Sala 05 (La Forja)** derrite todo el hielo automáticamente.
+#### Sala 04: El Salón del Cristal Azul/Rojo (Crystal Switch Room)
+* **Diseño Zelda**: Bloques de cristal en el suelo que suben y bajan. En el centro hay un **Cristal Rúnico de Golpe**.
+* **Mecánica**: Golpear el cristal cambia su color de Azul a Rojo. Cuando está Azul, los bloques azules bajan y los rojos suben. Permite resolver el avance golpeando el cristal a distancia con proyectiles o sintonía **LIGHT/AIR**.
 
----
+#### Sala 05: La Sala de las Cuatro Antorchas de Tiempo (Torch Lighting)
+* **Diseño Zelda**: Cuatro pedestales de antorcha apagados alrededor de una compuerta sellada.
+* **Mecánica**: Las 4 antorchas deben encenderse en menos de **6 segundos** (1 ronda). Requiere sintonía **FIRE** (lanzar una bola de fuego que cubra el área) o usar el *Guantelete de Llama* para encenderlas en secuencia rápida.
 
-## Sala 08: El Acuífero Subterráneo (Nodo WATER & LIGHT)
-
-* **Atmósfera**: Cueva subterránea de aguas cristalinas con ruinas de glifos sumergidos.
-* **Puzle del Reflejo Sombrío**:
-  * Solo visible desde el fondo del estanque sumergido.
-  * **Interacción**: Water se sumerge hasta el altar. Light proyecta su luz para revelar la contraseña en el reflejo del agua para el **Sanctum de Minos (Sala 12)**.
+#### Sala 06: El Abismo de los Bloques Desplazables (Block Pushing)
+* **Diseño Zelda**: Un abismo inundado con bloques de basalto sobre rieles.
+* **Mecánica**: Los jugadores deben empujar los bloques pesados (*Test de Fuerza o sintonía EARTH*) para formar un camino continuo hacia la salida.
 
 ---
 
-## Sala 09: La Galería de los Espejos Rúnicos (Nodo LIGHT)
+### CATEGORÍA C: SALAS DE NIVEL DE AGUA Y FLUIDOS
 
-* **Atmósfera**: Cámara circular rodeada de espejos orientables sobre peanas de bronce.
-* **Puzle del Haz Prismático**:
-  * Proyectar el rayo solar desde el tragaluz central hasta la gemas receptoras.
-  * **Interacción LIGHT**: El PJ Light actúa como prisma vivo cuando un espejo está roto para completar la trayectoria de luz hacia la **Sala 11**.
+#### Sala 07: La Cisterna de las Tres Marcas (Water Level Puzzle)
+* **Diseño Zelda**: Una sala de 3 niveles de altura con marcas de agua en las paredes y una rueda de control.
+* **Mecánica**:
+  * **Nivel Alto**: El agua llena la sala; permite nadar hasta repisas altas, pero cubre los cofres del suelo.
+  * **Nivel Medio**: Revela plataformas intermedias flotantes.
+  * **Nivel Bajo**: Drena la sala por completo, permitiendo acceder a los páneles de la base.
 
----
-
-## Sala 10: El Pilar de las Anclas Arcanas (Nodo EARTH & AIR)
-
-* **Atmósfera**: Aguja de cristal morado que zumba con energía de distorsión espacial.
-* **Puzle de Fijación de Mapeo**:
-  * Permite insertar una **Ancla Arcana** consumible.
-  * Al anclar la sala actual, el DM garantiza que esta sala aparecerá **siempre conectada a la entrada** en el próximo alineamiento.
+#### Sala 08: El Tobogán de la Corriente Unidireccional (One-Way Slide)
+* **Diseño Zelda**: Un canal de agua/hielo rápido que desliza a los aventureros desde la Sala A a la Sala B.
+* **Mecánica**: Es un viaje de un solo sentido. Para regresar a la Sala A, los jugadores deben encontrar el interruptor de inversión de corriente en una sala lejana.
 
 ---
 
-## Sala 11: La Galería del Juicio (Nodo de Criptografía Alrestiana)
+### CATEGORÍA D: SALAS DE LUZ Y REFLEJOS
 
-* **Atmósfera**: Pasillo flanqueado por estatuas de guerreros con páneles de glifos cambiantes.
-* **Puzle de la Combinación del Juicio**:
-  * Requiere la secuencia correcta: `[FIRE] -> [EARTH] -> [LIGHT] -> [WATER]`.
-  * Secuencia correcta: Desactiva las estatuas. Secuencia errónea: Las estatuas se convierten en **Constructos de Minos**.
+#### Sala 09: La Cámara del Ojo Receptor (Eye Target Room)
+* **Diseño Zelda**: Sobre la puerta norte hay un **Ojo de Cristal Dorado** cerrado.
+* **Mecánica**: El ojo solo se abre cuando recibe un haz de luz reflejado o un disparo directo preciso (sintonía **LIGHT**). Al iluminarse, la puerta emite un acorde armónico y se abre.
+
+#### Sala 10: La Galería del Espejo Giratorio (Mirror Alignment)
+* **Diseño Zelda**: Tres estatuas con espejos giratorios sobre peanas.
+* **Mecánica**: Girar los espejos para dirigir un rayo solar proveniente del techo desde la Estatua 1 -> Estatua 2 -> Estatua 3 -> Gema de la Puerta.
 
 ---
 
-## Sala 12: El Sanctum del Guardián (Nodo de Boss)
+### CATEGORÍA E: SALAS DE VIENTO Y GRAVEDAD
 
-* **Atmósfera**: Catedral circular suspendida sobre el vacío arcano con la **Gran Puerta Hexagonal**.
-* **Requisito de Apertura**: Requiere conectar las 4 Redes Inter-Salas (Hidráulica, Térmica, de Luz y Gravitacional).
+#### Sala 11: El Pozo de las Corrientes Ascendentes (Updraft Shaft)
+* **Diseño Zelda**: Un pozo vertical profundo con rejillas de aire en el suelo.
+* **Mecánica**: Al accionar la válvula `[🟄 AIR] + [▲ KAEL-UP]`, una fuerte corriente de aire asciende por el pozo. Los aventureros con capas o sintonía **AIR** flotan fácilmente hasta la cima.
+
+#### Sala 12: La Cámara del Mosaico Invertido (Gravity Flip)
+* **Diseño Zelda**: El suelo tiene marcas de pisadas grabadas en el techo.
+* **Mecánica**: Tocar el altar rúnico invierte la gravedad en la sala. Los jugadores caminan por el techo para cruzar sobre un foso de picos en el suelo real.
+
+---
+
+## 3. Catálogo de Ideas de Conexiones Flexibles entre Salas
+
+Usa estas ideas de conexión sin restricciones rígidas para enriquecer el mapa de la run:
+
+1. **Conexión por Trampilla de Caída**: Caer por un hueco en el suelo de la Sala B2 te deposita en la Sala C2.
+2. **Conexión de Espejismo (LIGHT)**: Una pared que parece piedra sólida se revela como una ilusión intangible al proyectarle luz brillante.
+3. **Conexión de Raíces (LIFE)**: Abrir paso cortando o haciendo crecer raíces que unen dos salas separadas verticalmente.
+4. **Conexión de Compuerta de Glifos**: Pasadizo sellado por una consola de 3 gemas que requiere ingresar la Triada Rúnica adecuada.
+5. **Conexión de Atajo por Palanca de Cadenas**: Un puente o reja que solo se puede abrir desde el lado posterior (estilo Souls / Zelda), creando un atajo permanente una vez explorado.

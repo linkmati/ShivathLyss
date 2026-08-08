@@ -2,87 +2,72 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md`  
 > **Diseñado bajo el Marco Metodológico**: `boss-ability-design`  
-> **Sistema de Combate**: **6 Guardianes de Área (Persistencia Total & Bonus de Excelencia 7/10)** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
+> **Sistema de Combate**: **Zelda-Style Mini-Dungeon Bosses (Dungeon Item Counter)** + **Elemental Orbs & Full Burst** (Inspirado en *Xenoblade 2*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
-## 1. Guardianes de Área y Regla de Persistencia
+## 1. Guardianes de Área y Objetos Elementales de Subdungeon
 
-```
-======================================================================
-         👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
-======================================================================
-1. PERSISTENCIA DE SUBDUNGEON: Todo el avance dentro de la Subdungeon
-   (palancas activadas, agua desviada, puertas abiertas o daño al Guardián)
-   SE GUARDA PERMANENTEMENTE entre incursiones. Los jugadores pueden volver
-   en otro momento y retomar la Subdungeon donde la dejaron.
+En cada Subdungeon Elemental, los jugadores obtienen el **Objeto Elemental Temporal** en el Cofre Maestro. Este objeto es indispensable para vulnerar la inmunidad del Guardián de Área:
 
-2. BONUS DE EXCELENCIA (REGLA 7/10):
-   - Si el grupo derrota al Guardián y completa la Subdungeon conservando
-     SIETE O MÁS (>= 7/10) PUNTOS DE CARGA ARCANA intactos al final:
-     ¡Ganan el BONUS DE EXCELENCIA! (Desbloqueo instantáneo del bufo
-     de sintonía permanente en el Altar + Reliquia Estelar de Minos).
-   - Si gastan más cargas (< 7 Cargas al final), IGUAL AVANZAN y guardan 
-     su progreso, pudiendo desbloquear la sintonía estándar sin el bonus.
-======================================================================
+```mermaid
+flowchart LR
+    A["Obtención del Objeto Elemental Temporal en Cofre Maestro"] --> B["Cámara del Guardián de Área"]
+    B --> C["Usar Objeto Elemental para Romper Inmunidad del Guardián"]
+    C --> D["Derrota del Guardián"]
+    D --> E["🔓 SINTONÍA PERMANENTE DESBLOQUEADA EN EL ALTAR PARA FUTURAS RUNS"]
 ```
 
 ---
 
-### Catálogo de los 6 Guardianes de Área
+### Catálogo de Guardianes y Objetos Elementales
 
 ### A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica)
-* **Tirada 1d8**: Opción 1.
-* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Reliquia Volcánica.
-* **Habilidad Destacada**:
-  * `Incineración Cauterizante (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de fuego** en cono de 20 ft. Evitar la lava previene la pérdida de Carga Arcana.
+* **Objeto Elemental Requerido**: *Guantelete de Llama de Minos* (Obtenido en el Cofre Maestro de la Caldera).
+* **Mecánica Zelda**: El boss se protege tras un escudo de escoria de magma congelado. Disparar el *Guantelete de Llama* a los 3 braseros superiores funde el escudo y lo aturde 1 ronda.
+* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **FIRE** en el Altar de Sintonía.
 
 ---
 
 ### B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida)
-* **Tirada 1d8**: Opción 2.
-* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Perla Astral.
-* **Habilidad Destacada**:
-  * `Chorro de Alta Presión (Acción Activa).` Inflige **3d6 daño contundente** y empuja 20 ft.
+* **Objeto Elemental Requerido**: *Flauta del Mar de Minos*.
+* **Mecánica Zelda**: La Quimera flota fuera del alcance sobre un chorro de agua. Tocar la *Flauta del Mar* drena la columna de agua, haciendo caer al boss al suelo.
+* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **WATER** en el Altar de Sintonía.
 
 ---
 
 ### C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos)
-* **Tirada 1d8**: Opción 3.
-* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Pluma Astral.
-* **Habilidad Destacada**:
-  * `Torbellino Repulsivo (Acción Activa).` Eleva a los jugadores 30 ft en el aire. Exige reacción de caída pluma.
+* **Objeto Elemental Requerido**: *Capa del Vértice de Minos*.
+* **Mecánica Zelda**: El Coloso genera tornados que empujan a los exploradores al vacío. Usar la *Capa del Vértice* permite remontar el tornado y aterrizar sobre el núcleo débil del boss.
+* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **AIR** en el Altar de Sintonía.
 
 ---
 
 ### D. El Titán de Basalto (Guardián de EARTH - El Dominio Telúrico)
-* **Tirada 1d8**: Opción 4.
-* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Escudo de Piedra Viva.
-* **Habilidad Destacada**:
-  * `Muro Telúrico (Pasiva).` +4 AC hasta usar el ideograma `[🟅 EARTH] + [⊗ PURGE]`.
+* **Objeto Elemental Requerido**: *Martillo de Basalto de Minos*.
+* **Mecánica Zelda**: El Titán posee armadura de piedra impenetrable. Asestar un golpe de impacto con el *Martillo de Basalto* agrieta su coraza para permitir daño convencional.
+* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **EARTH** en el Altar de Sintonía.
 
 ---
 
 ### E. El Botánico de Sombras (Guardián de LIFE - El Invernadero Ancestral)
-* **Tirada 1d8**: Opción 5.
-* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Semilla de Vitalidad.
-* **Habilidad Destacada**:
-  * `Esporas de Asfixia (Acción Activa, Recarga 5-6).` Inflige **3d8 daño de veneno**.
+* **Objeto Elemental Requerido**: *Semilla Botánica de Minos*.
+* **Mecánica Zelda**: El Botánico se esconde en bulbos carnívoros. Plantar la *Semilla Botánica* germina vides que aprisionan los bulbos y exponen la flor central.
+* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **LIFE** en el Altar de Sintonía.
 
 ---
 
 ### F. El Espejismo de Cristal (Guardián de LIGHT - El Santuario Prismático)
-* **Tirada 1d8**: Opción 6.
-* **Bonus de Excelencia (>= 7 Cargas)**: 🔓 Desbloqueo instantáneo + Prisma del Sol.
-* **Habilidad Destacada**:
-  * `Reflejos Ilusorios (Pasiva).` Crea 3 copias de luz.
+* **Objeto Elemental Requerido**: *Escudo Prismático de Minos*.
+* **Mecánica Zelda**: El boss genera 3 copias de luz ilusorias. Usar el *Escudo Prismático* para reflejar la luz del tragaluz revela inmediatamente al verdadero boss.
+* **Recompensa**: 🔓 Desbloqueo permanente de la Palabra de Poder **LIGHT** en el Altar de Sintonía.
 
 ---
 
 ## 2. BOSS FINAL: El Juicio de Minos (El Héroe del Sello)
 
-* **Tirada 1d8**: Opción 7 (o Puerta Hexagonal abierta tras reunir los 6 Fragmentos).
+* **Concepto**: Un coloso arcano compuesto de basalto y un núcleo de cristal hexagonal. Es la encarnación del test de Minos.
 * **Mecánica Core**: **Mecánica de Orbes Elementales (Xenoblade Chronicles 2 Adaptation)**.
 
 ```mermaid

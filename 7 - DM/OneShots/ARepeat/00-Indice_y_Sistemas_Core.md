@@ -1,9 +1,9 @@
-# El Laberinto de Minos: Sistemas Core, Lore y Subdungeons
+# El Laberinto de Minos: Sistemas Core, Lore y Subdungeons (Zelda Style)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md`  
 > **Ubicación en Shivath**: **Treftiel**, en el borde del **Angramanio** (La Herida del Mundo).  
 > **Formato**: Misión Secundaria Repetible / Downtime / West Marches  
-> **Inspiración**: *Outer Wilds* + *Blue Prince* + *Xenoblade*  
+> **Inspiración**: *Zelda 2D Mini-Dungeons* + *Outer Wilds* + *Blue Prince* + *Xenoblade*  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -17,20 +17,27 @@ El Laberinto de Minos se ubica en las regiones de **Treftiel**, erigido en las f
 
 ---
 
-## 2. El Bucle de Juego y Tirada 1d8 de Subdungeon
+## 2. Bucle de Juego y Estructura Zelda para Subdungeons
 
-Al inicio de cada incursión, el DM determina si hoy hay una **Subdungeon Abierta** tirando **1d8**:
+Cada **Subdungeon Elemental** opera como una **Mini-Dungeon de Zelda**:
 
-| 1d8 | Subdungeon Accesible | Guardián de Área | Tipo de Incursión |
-| :---: | :--- | :--- | :--- |
-| **1** | **FIRE (La Caldera Volcánica)** | El Señor del Crisol | Subdungeon Elemental. |
-| **2** | **WATER (La Cisterna Sumergida)** | La Quimera Hidráulica | Subdungeon Elemental. |
-| **3** | **AIR (La Torre de los Vientos)** | El Coloso del Vértice | Subdungeon Elemental. |
-| **4** | **EARTH (El Dominio Telúrico)** | El Titán de Basalto | Subdungeon Elemental. |
-| **5** | **LIFE (El Invernadero Ancestral)** | El Botánico de Sombras | Subdungeon Elemental. |
-| **6** | **LIGHT (El Santuario Prismático)** | El Espejismo de Cristal | Subdungeon Elemental. |
-| **7** | **BOSS FINAL (Sanctum de Minos)** | El Juicio de Minos | Acceso directo al Boss Final si la Rueda está lista. |
-| **8** | **NADA** | Sin Guardián hoy | Exploración estándar del laberinto principal. |
+```mermaid
+flowchart TD
+    A["Entrada a la Subdungeon Elemental"] --> B["Fase 1: Puzles Iniciales"]
+    B --> C["🎁 COFRE MAESTRO: Objeto / Poder Elemental Temporal"]
+    C --> D["Fase 2: Usar el Objeto en Puzles Avanzados"]
+    D --> E["Cámara del Guardián de Área (Miniboss)"]
+    E -->|"Vencer usando el Objeto Elemental"| F["🔓 SINTONÍA PERMANENTE DESBLOQUEADA EN EL ALTAR"]
+    F --> G["Fragmento de la Gran Rueda de Criptografía Obtenido"]
+```
+
+### Objetos Elementales Temporales de Subdungeon (Dungeon Items)
+1. **FIRE**: *Guantelete de Llama de Minos* (Dispara plasma para encender antorchas distantes y derretir hielo).
+2. **WATER**: *Flauta del Mar de Minos* (Modifica el nivel del agua en cualquier cisterna).
+3. **AIR**: *Capa del Vértice de Minos* (Otorga saltos de viento de 30 ft y vuelo en corrientes).
+4. **EARTH**: *Martillo de Basalto de Minos* (Rompe muros de piedra agrietados y golpea estacas telúricas).
+5. **LIFE**: *Semilla Botánica de Minos* (Germina vides gigantes instantáneas como puentes o cuerdas).
+6. **LIGHT**: *Escudo Prismático de Minos* (Refleja rayos de luz hacia ojos y receptores solares).
 
 ---
 
@@ -45,12 +52,12 @@ Al inicio de cada incursión, el DM determina si hoy hay una **Subdungeon Abiert
    SE GUARDA PERMANENTEMENTE entre incursiones.
 
 2. BONUS DE EXCELENCIA 7/10:
-   - Si el grupo completa la Subdungeon manteniendo SIETE O MÁS (>= 7/10)
+   - Si el grupo completa la Subdungeon conservando SIETE O MÁS (>= 7/10)
      Puntos de Carga Arcana al finalizar (máximo 3 cargas gastadas),
      obtiene el BONUS DE EXCELENCIA: Desbloqueo instantáneo del bufo
      de sintonía permanente + Reliquia Estelar de Minos.
-   - Si gastan más de 3 cargas (< 7 Cargas al final), IGUAL AVANZAN y
-     guardan su progreso, pero no obtienen la bonificación de excelencia.
+   - Si gastan más cargas (< 7 Cargas al final), IGUAL AVANZAN y guardan 
+     su progreso para desbloquear la sintonía en la siguiente run.
 ======================================================================
 ```
 
