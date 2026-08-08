@@ -4,7 +4,7 @@
 > **Ubicación en Shivath**: **Treftiel**, cerca del **Angramanio** (Bóveda de Estabilización).  
 > **Formato**: Compendio Ejecutivo para Actividad de Downtime / Repetible / Drop-in.  
 > **Herramienta Web App 7x7**: [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) (Fichero de un clic).  
-> **Inspiraciones Core**: *Zelda 2D/3D* + *Outer Wilds* + *Blue Prince* + *Xenoblade*.  
+> **Inspiraciones Core**: *Zelda 2D/3D* + *Outer Wilds* + *Blue Prince* + *Xenoblade* + *Binding of Isaac*.  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
@@ -14,7 +14,7 @@
 Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Minos como una aventura recurrente en tu campaña:
 
 1. [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) **(WEB APP INTERACTIVA DE 1 CLIC)**
-   * Matriz visual 7x7 editable, generador automático, inspector de celdas y modificador manual de conexiones de puertas.
+   * Matriz visual 7x7 dispersa con celdas de tamaño rígido, Atrio móvil, Subdungeon <= 3 pasos, Sala Secreta Isaac obligatoria, inspector de celdas y modificador manual de pasadizos.
 2. [`00-Indice_y_Sistemas_Core.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md)
    * Lore de Treftiel y el Angramanio.
    * Carga Arcana, Diario del Gremio y Sintonías Elementales.
@@ -29,8 +29,8 @@ Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Min
    * 6 Guardianes de Área y Boss Final con **Elemental Orbs & Full Burst** (Xenoblade 2).
 7. [`05-Ficha_Control_DM_y_Tablero_Rumores.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md)
    * Grafo de Rumores (*Curiosity Board*) y la Rueda de Criptografía de Minos.
-8. [`06-Generador_de_Conexiones_y_Mapas.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md) y [`generador_laberinto.py`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_laberinto.py)
-   * Manuales de uso de las herramientas de topología 7x7.
+8. [`06-Generador_de_Conexiones_y_Mapas.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md)
+   * Manual de uso de la herramienta Web App 7x7.
 
 ---
 
@@ -40,7 +40,7 @@ Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Min
 sequenceDiagram
     autonumber
     actor Jugadores
-    participant DM as DM (Web App 7x7 / Script)
+    participant DM as DM (Web App 7x7 generador_minos_7x7.html)
     participant Atrio as Sala 01 (Atrio)
     participant Laberinto as Matriz 7x7 de Minos
     participant Boss as El Juicio de Minos

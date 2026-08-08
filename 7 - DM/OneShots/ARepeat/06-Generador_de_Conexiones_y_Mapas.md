@@ -1,8 +1,7 @@
-# Generador de Conexiones y Topología de Mapas (Web App 7x7 & Python)
+# Generador de Conexiones y Topología de Mapas (Web App 7x7)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md`  
-> **Web App Interactiva**: [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) (Fichero de un clic).  
-> **Script CLI Python**: [`generador_laberinto.py`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_laberinto.py) (Ejecutable por terminal).
+> **Herramienta Única Recomendada**: [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) (Fichero de 1 clic).
 
 ---
 
@@ -11,8 +10,11 @@
 Abre el archivo [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) con un doble clic en cualquier navegador web.
 
 ### Características de la Web App:
-* **Matriz Interactiva 7x7**: Visualiza las 49 celdas (A1 a G7) con codificación por colores para Atrios, Subdungeons, Salas Secretas y Huecos Libres.
-* **Generación 1d8 Automática**: Botón **"⚡ Generar Mazmorra 7x7"** con selección de Subdungeon (FIRE, WATER, AIR, EARTH, LIFE, LIGHT, BOSS, NADA).
+* **Matriz Interactiva 7x7**: Visualiza las 49 celdas (A1 a G7) con celdas de tamaño rígido y codificación por colores para Atrios, Subdungeons, Salas Secretas y Huecos Libres.
+* **Generación 1d8 Automática Dispersa**: Botón **"⚡ Generar Mazmorra 7x7"** con selección de Subdungeon (FIRE, WATER, AIR, EARTH, LIFE, LIGHT, BOSS, NADA).
+* **Restricción de Distancia de Subdungeon**: La Subdungeon activa se genera como máximo a **3 pasadizos de distancia** de la Entrada.
+* **Sala Secreta Obligatoria estilo Isaac (🗝️)**: Siempre se incluye una Sala Secreta en muros de piedra agrietada (`Muro Bomba`).
+* **Atrio Móvil**: La Entrada se coloca en celdas variadas o el DM puede seleccionar cualquier celda y hacer clic en **"📍 Hacer Entrada (Atrio)"**.
 * **Edición Manual Celda a Celda**:
   * Haz clic en cualquier celda para activar/desactivar la sala.
   * Cambia el tipo de sala con un desplegable de plantillas Zelda o pon un nombre personalizado.
@@ -23,21 +25,7 @@ Abre el archivo [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/O
 
 ---
 
-## 2. Script de Terminal Python (`generador_laberinto.py`)
-
-Para uso rápido desde consola:
-
-```bash
-# Incursión aleatoria 7x7 o 5x5
-python3 generador_laberinto.py
-
-# Seleccionar opción de Subdungeon 1..8
-python3 generador_laberinto.py --subdungeon 1
-```
-
----
-
-## 3. Tablas Manuales con Dados (Zero-Tech DM Tables)
+## 2. Tablas Manuales con Dados (Zero-Tech DM Tables)
 
 ### Tirada 1d8 de Subdungeon Abierta Hoy
 | 1d8 | Subdungeon Accesible | Guardián de Área |
