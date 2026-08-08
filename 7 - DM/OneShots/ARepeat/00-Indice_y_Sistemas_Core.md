@@ -1,75 +1,68 @@
-# El Laberinto de Minos: Sistemas Core, Días Elementales y Sintonía
+# El Laberinto de Minos: Sistemas Core, Lore y Sintonía
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md`  
+> **Ubicación en Shivath**: **Treftiel**, en el borde del **Angramanio** (La Herida del Mundo).  
 > **Formato**: Misión Secundaria Repetible / Downtime / West Marches  
 > **Inspiración**: *Outer Wilds* + *Blue Prince* + *Xenoblade*  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
 ---
 
-## 1. El Propósito de Minos y la Estructura de la Dungeon
+## 1. Lore y Propósito: La Bóveda de Estabilización de Treftiel
 
-El Laberinto de Minos es un motor arcano-astronómico vivo creado voluntariamente por el gran arquitecto Minos. Su función es actuar como una prueba continua donde la fuerza bruta fracasa y solo la **acumulación de conocimiento**, la **manipulación de sistemas interconectados** y la **sintonía elemental progresiva** permiten avanzar hacia el núcleo.
+El Laberinto de Minos se ubica en las regiones de **Treftiel**, erigido en las fronteras de la bruma caótica del **Angramanio**. 
 
-### Resumen del Bucle (The Expedition Loop)
+* **El Ancla de Orden**: Minos creó este laberinto voluntariamente como una **Bóveda de Estabilización**. Su arquitectura viva canaliza y purifica la niebla alucinógena y las fluctuaciones del Angramanio, impidiendo que el caos devore las tierras de Treftiel.
+* **El Test de Preparación**: A su vez, el laberinto actúa como una prueba acumulativa para filtrar y preparar a los exploradores capaces de resistir las anomalías de Shivath.
+
+---
+
+## 2. El Bucle de Juego y la Carga Arcana
 
 ```mermaid
 flowchart TD
-    A["Entrada a la Mina / Campamento"] --> B["Consulta del Calendario Astral de Minos"]
-    B --> C{"¿Subdungeon Elemental Abierta Hoy?"}
-    C -->|"Sí (Día Específico)"| D["Incursión a la Subdungeon del Guardián"]
-    C -->|"No (Día Estándar)"| E["Exploración General / Colección de Glifos"]
-    D --> F{"¿Completado conservando >= 7/10 Carga Arcana?"}
-    F -->|"Sí (Ejecución Perfecta)"| G["🔓 Desbloqueo Permanente del Bufo en Altar"]
-    F -->|"No (< 7 Cargas)"| H["Colapso: Recompensa Menor, Sin Sintonía"]
-    E & G & H --> I["Expulsión al Campamento / Registro en Diario"]
+    A["Campamento Base en Treftiel"] --> B["Consulta del Calendario Astral de Minos"]
+    B --> C{"¿Subdungeon Elemental Abierta hoy?"}
+    C -->|"Sí (Día Astral)"| D["Incursión a la Subdungeon + Búsqueda de Fragmento de Puzle"]
+    C -->|"No (Día Estándar)"| E["Exploración General / Colección de Glifos y Recompensas"]
+    D --> F{"¿Completado conservando >= 7/10 Cargas?"}
+    F -->|"Sí (Ejecución Perfecta)"| G["🔓 Desbloqueo de Bufo + Fragmento de la Gran Rueda"]
+    F -->|"No (< 7 Cargas)"| H["Colapso: Botín Menor, Sin Sintonía"]
+    E & G & H --> I["Expulsión al Campamento / Registro en el Diario del Gremio"]
 ```
 
 ---
 
-## 2. Días Elementales y Subdungeons (Rotación Astral)
+## 3. Recompensas de Incursión (Downtime Loot)
 
-El laberinto no muestra todas sus salas al mismo tiempo. Existen **6 Subdungeons Elementales** dedicadas a las Palabras de Poder de Shivath. Cada Subdungeon solo abre su compuerta principal en **Días Particulares** del ciclo lunar/astral de Shivath:
+Al finalizar cada expedición (sea por colapso o extracción voluntaria), los jugadores traen al campamento:
 
-| Día Astral | Subdungeon Abierta | Guardián de Área | Requisito de Acceso |
-| :---: | :--- | :--- | :--- |
-| **Día de la Llama (FIRE)** | *La Caldera Volcánica* | El Señor del Crisol | Red Térmica encendida en la run anterior. |
-| **Día de la Marea (WATER)** | *La Cisterna Sumergida* | La Quimera Hidráulica | Válvula del Depósito desbloqueada. |
-| **Día del Viento (AIR)** | *La Torre de los Vientos* | El Coloso del Vértice | Conexión de aire activa en el Engranaje. |
-| **Día del Pico (EARTH)** | *El Dominio Telúrico* | El Guardián de Basalto | Ancla Arcana previa en la Sala 10. |
-| **Día del Brote (LIFE)** | *El Invernadero Ancestral* | El Botánico de Sombras | Semilla ancestral sembrada en la Sala 03. |
-| **Día del Sol (LIGHT)** | *El Santuario Prismático* | El Espejismo de Cristal | Espejo rúnico alineado en la Sala 09. |
+1. **Ligero Dinero / Reliquias Arcaicas**: Monedas y gemas de las ruinas de Treftiel para comerciar con facciones o eruditos.
+2. **Consumibles de Minos**: Elixires de sintonía, elixires de resistencia y bombas rúnicas elementales.
+3. **Objetos Mágicos Menores/Medianos**: Ocasionalmente hallados en cofres de salas secretas (5x5) o tras vencer a Guardianes de Área.
 
 ---
 
-## 3. Desbloqueo de Sintonía Elemental (Regla del 7/10 de Carga Arcana)
+## 4. El Gran Meta-Puzle de Minos (Acceso al Boss Final)
 
-Al inicio de la campaña, **los jugadores no tienen acceso a todos los elementos en el Altar de Sintonía**.
-
-Para **desbloquear permanentemente** una Palabra de Poder y poder elegirla en el Altar al inicio de cualquier incursión futura, el grupo debe cumplir la **Prueba de Ejecución Perfecta**:
+Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El Juicio de Minos*, los jugadores deben resolver un **Meta-Puzle de Múltiples Piezas**:
 
 ```
 ======================================================================
-         👑 REGLA DE EJECUCIÓN PERFECTA (PRUEBA DEL GUARDIÁN) 👑
+           🧭 LA GRAN RUEDA DE CRIPTOGRAFÍA DE MINOS 🧭
 ======================================================================
-1. Entrada en Día Específico: Entrar a la Subdungeon en su día astral.
-2. Derrotar al Guardián de Área y resolver el Puzle Maestro.
-3. EFICIENCIA DE CARGA: El grupo debe completar la Subdungeon conservando
-   SETE O MÁS (>= 7/10) PUNTOS DE CARGA ARCANA intactos al final.
-   (Máximo 3 Puntos de Carga gastados en toda la incursión).
-   
-RESULTADO:
-- Con 7-10 Cargas restantes: 🔓 SINTONÍA DESBLOQUEADA PARA SIEMPRE.
-- Con < 7 Cargas restantes: Se obtiene botín menor, pero el canal arcano
-  se desestabiliza y la Sintonía NO se desbloquea.
+1. CADA SUBDUNGEON CONTIENE 1 FRAGMENTO DE TABLILLA (6 Piezas en Total).
+2. Al conquistar una Subdungeon con >= 7/10 Cargas Arcanas, los jugadores
+   obtienen la Pieza Rúnica de ese elemento.
+3. ENSAMBLAJE EN EL DIARIO: En el Campamento, los jugadores superponen
+   los 6 Fragmentos en la Rueda de Criptografía de Minos para descifrar 
+   la SECUENCIA MAESTRA DE 12 SÍMBOLOS que desbloquea la Sala 12.
 ======================================================================
 ```
 
 ---
 
-## 4. Tabla de Sintonías Elementales Desbloqueables
-
-Una vez desbloqueada una Palabra de Poder mediante la regla del 7/10, cualquier jugador puede sintonizarse con ella al inicio de las siguientes incursiones:
+## 5. Tabla de Sintonías Elementales Desbloqueables
 
 | Palabra de Poder | Pasiva de Combate | Facultad de Puzles | Rol en Boss Final |
 | :--- | :--- | :--- | :--- |
@@ -79,11 +72,3 @@ Una vez desbloqueada una Palabra de Poder mediante la regla del 7/10, cualquier 
 | **EARTH (Tierra)** | +2 AC y resistencia a daño físico. | **Shatter/Anchor**: Repara muros y ancla salas. | Rompe el *EARTH Orb* del Boss con AIR. |
 | **LIFE (Vida)** | Regeneración 1d4 HP/turno (<50% HP). | **Overgrowth/Purify**: Brota vides y purifica toxinas. | Rompe el *LIFE Orb* del Boss con LIGHT. |
 | **LIGHT (Luz)** | Emite luz 30 ft. Visión en oscuridad. | **Refract/Reveal**: Proyecta espejos y revela glifos. | Rompe el *LIGHT Orb* del Boss con LIFE. |
-
----
-
-## 5. El Diario del Gremio y Calendario de la Mina
-
-En el Campamento Base reside el **Calendario Astral y Diario de la Mina**:
-* Los jugadores consultan qué **Día Astral** es hoy antes de elegir ruta.
-* Registran qué Palabras de Poder ya han sido **Desbloqueadas con 7/10 Cargas** y cuáles siguen selladas.
