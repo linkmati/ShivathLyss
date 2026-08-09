@@ -292,6 +292,20 @@
       line-height: 1;
     }
 
+    .cell-key-tag {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      font-size: 0.65rem;
+      background: #d4af37;
+      color: #0f0e17;
+      border-radius: 4px;
+      padding: 1px 3px;
+      font-weight: 800;
+      box-shadow: 0 0 6px rgba(212, 175, 55, 0.8);
+      z-index: 5;
+    }
+
     .cell-icon {
       font-size: 1.2rem;
       text-align: center;
@@ -546,6 +560,13 @@
         </select>
       </div>
 
+      <div class="form-group">
+        <label>Ítems y Llaves de Incursión</label>
+        <label style="font-size:0.8rem; cursor:pointer; display:flex; align-items:center; gap:8px; background:rgba(212,175,55,0.1); padding:6px 10px; border-radius:6px; border:1px solid rgba(212,175,55,0.3); color:var(--gold-accent);">
+          <input type="checkbox" id="inspect-has-key"> 🗝️ Contiene Llave de Latón (Small Key)
+        </label>
+      </div>
+
       <div class="doors-editor">
         <label style="font-size:0.75rem; font-weight:700; color:var(--gold-accent);">🚪 PASADIZOS Y PUERTAS</label>
 
@@ -586,6 +607,7 @@
 
     const DOOR_TYPES = [
       "Puerta Abierta de Par en Par",
+      "🗝️ Cerrojo de Latón [Small Key]",
       "Compuerta de Glifos [3 Gemas]",
       "Bloqueada por Hielo Mágico [FIRE]",
       "Muro de Piedra Frágil [EARTH]",
@@ -593,6 +615,11 @@
       "Pozo de Viento Ascendente [AIR]",
       "Tupida por Vides Arcanas [LIFE]",
       "Pasaje Invisible Espejado [LIGHT]",
+      "⚖️ Báscula de Contrapesos [Peso]",
+      "⚙️ Clave de Engranajes Murales [Clave 3 dígitos]",
+      "⏱️ Pasadores Sincronizados [2 Palancas]",
+      "🕯️ Pasaje de Fundición Fría [Molde]",
+      "🏋️ Rastrillo de Alta Tensión [Fuerza >= 13]",
       "Rejilla de Hierro [Atajo Forma Gaseosa]",
       "Sin Pasadizo (Muro Macizo)"
     ];
@@ -634,6 +661,7 @@
             active: false,
             name: `Sala ${k}`,
             role: "NORMAL",
+            hasSmallKey: false,
             notes: ""
           };
         });
@@ -666,8 +694,11 @@
           if (cell.role === "SUBDUNGEON") icon = "👑";
           if (cell.role === "SECRET") icon = "🗝️";
 
+          let keyTag = cell.hasSmallKey ? `<span class="cell-key-tag" title="Contiene Llave de Latón (Small Key)">🗝️ LLAVE</span>` : '';
+
           div.innerHTML = `
             <span class="cell-coord">${k}</span>
+            ${keyTag}
             <div class="cell-icon">${icon}</div>
             <div class="cell-name">${cell.active ? cell.name : 'VACÍO'}</div>
           `;
@@ -710,6 +741,7 @@
       document.getElementById('inspect-title').textContent = `Celda [ ${key} ]`;
       document.getElementById('inspect-active').value = cell.active ? "true" : "false";
       document.getElementById('inspect-role').value = cell.role;
+      document.getElementById('inspect-has-key').checked = cell.hasSmallKey || false;
       document.getElementById('inspect-notes').value = cell.notes || "";
 
       const presetSel = document.getElementById('inspect-preset');
@@ -946,6 +978,22 @@
         });
       }
 
+      // SMALL KEYS PLACEMENT LOGIC:
+      // Find all doors requiring "🗝️ Cerrojo de Latón [Small Key]"
+      const lockedDoors = Object.keys(doorData).filter(pk => doorData[pk] === "🗝️ Cerrojo de Latón [Small Key]");
+      const openActiveRooms = Object.keys(gridData).filter(k => gridData[k].active && gridData[k].role !== "SECRET" && gridData[k].role !== "SUBDUNGEON");
+
+      lockedDoors.forEach((pk, idx) => {
+        const candidates = openActiveRooms.filter(k => !gridData[k].hasSmallKey && k !== startKey);
+        const poolKeys = candidates.length > 0 ? candidates : openActiveRooms.filter(k => !gridData[k].hasSmallKey);
+        if (poolKeys.length > 0) {
+          const chosenKeyRoom = poolKeys[Math.floor(Math.random() * poolKeys.length)];
+          gridData[chosenKeyRoom].hasSmallKey = true;
+          const keyNote = `[🗝️ Contiene Llave de Latón de la Mina para el Cerrojo (${pk})]`;
+          gridData[chosenKeyRoom].notes = gridData[chosenKeyRoom].notes ? `${gridData[chosenKeyRoom].notes} | ${keyNote}` : keyNote;
+        }
+      });
+
       const subObj = SUBDUNGEONS[currentSubRoll];
       document.getElementById('info-dia').innerHTML = `Palabra: <strong>${subObj.code}</strong>`;
       document.getElementById('info-sub').innerHTML = `Subdungeon: <strong>${subObj.name}</strong>`;
@@ -965,6 +1013,19 @@
       log += `ALINEAMIENTO: [${currentAlign}] ${ALIGNMENTS[currentAlign - 1]}\n`;
       log += `SALA SECRETA ISAAC PURA: NUNCA colindante a la Subdungeon. Sin pistas en paredes.\n`;
       log += `PERSISTENCIA: Mixta (Atajos de rejilla/muro bomba se guardan; cerrojos resetean)\n`;
+      log += `----------------------------------------------------------------------\n`;
+      log += `🗝️ RASTREO Y UBICACIÓN DE LLAVES DE LATÓN (SMALL KEYS):\n`;
+      let keyCount = 0;
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          if (gridData[k].active && gridData[k].hasSmallKey) {
+            keyCount++;
+            log += `  - Llave #${keyCount}: Ubicada en Celda [${k}] (${gridData[k].name})\n`;
+          }
+        });
+      });
+      if (keyCount === 0) log += `  (No hay Llaves de Latón requeridas en los cerrojos de esta incursión)\n`;
       log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;
 
@@ -998,6 +1059,12 @@
 
     document.getElementById('inspect-role').onchange = (e) => {
       gridData[currentSelectedKey].role = e.target.value;
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('inspect-has-key').onchange = (e) => {
+      gridData[currentSelectedKey].hasSmallKey = e.target.checked;
       renderGrid();
       updateOutputLog();
     };
