@@ -1,262 +1,114 @@
-# Compendio Maestro de 27 Puzles, Salas y Encuentros (Isaac & 3D Zelda)
+# Compendio Modular de Sets de Salas y Gimmicks Elementales
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md`  
-> **Filosofía**: Catálogo exhaustivo de puzles espaciales, mecánicos y eventos no combativos inspirados en *The Binding of Isaac* y *3D Zelda Games* (OoT, MM, WW, TP, SS, BotW, TotK) listos para usar en la rejilla 7x7.
+> **Estructura Organizada**: 1 Set de Salas Genéricas (Mecánicas, Llaves, Isaac, Comercio) + 6 Sets de Salas Elementales (Fuego, Agua, Aire, Tierra, Vida, Luz) asociadas al Gimmick diario del laberinto.
 
 ---
 
-## 1. Estructura Zelda para Subdungeons Elementales
+## 1. Set 0: Salas Genéricas y Especiales (Cualquier Incursión / Neutral)
 
-Cada Subdungeon Elemental opera como una **Mini-Dungeon de Zelda**:
+Salas independientes de los 6 elementos, ideales para exploración libre, botín de downtime, comercio y cerrojos mecánicos:
 
-```mermaid
-flowchart TD
-    A["Entrada a la Subdungeon Elemental"] --> B["Fase 1: Puzles Iniciales de Navegación"]
-    B --> C["🎁 COFRE MAESTRO: Obtención del Objeto / Poder Elemental Temporal"]
-    C --> D["Fase 2: Aplicación del Poder Elemental en Puzles Avanzados"]
-    D --> E["Cámara del Guardián de Área (Miniboss)"]
-    E -->|"Superar con el Poder Elemental"| F["🔓 PODER PERMANENTE DESBLOQUEADO (En el Altar para futuras runs)"]
-```
+### 01. 🏛️ Atrio de Entrada (Hub Central)
+* **Función**: Entrada del laberinto. Selección de Sintonía Elemental diaria y gasto de Carga Arcana (10 pts).
 
----
+### 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room)
+* **Mecánica**: Celda oculta conectada a 2, 3 o 4 salas activas. NUNCA colindante a Subdungeon. Sin marcas exteriores; deducción por geometría en el cuaderno.
+* **Apertura**: Bomba o *EARTH Shatter*.
+* **Botín**: Cofre de Reliquias Raras de Minos.
 
-## 2. Catálogo de Salas Especiales Estilo The Binding of Isaac
+### 03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)
+* **Mecánica**: Ubicada al final de una rama muerta (conecta con 1 sola sala). Muro denso que exige Bomba rúnica pesada.
+* **Botín**: Altar de sintonía pura que otorga sintonía gratuita a un jugador durante la incursión.
 
-### 01. 🗝️ La Sala Secreta Pura de Minos (Isaac Secret Room)
-* **Generación Isaac**: Ubicada en una celda adyacente a **2, 3 o 4 salas activas**.
-* **Sin Pistas Exteriores**: NINGUNA grieta o marca en paredes exteriores. Deducción 100% por geometría en el cuaderno físico del grupo.
-* **Apertura**: Bomba o impacto contundente de sintonía **EARTH Shatter**.
-* **Botín**: Pedestal de piedra arcana con **Cofre de Reliquias Raras de Minos** (o 2d6 elixires elementales).
+### 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room)
+* **Mecánica**: Estanque de sangre rúnica. Donar 1d10 HP o 1 Carga Arcana otorga elixires elementales, revela salas activas en la Web App o concede un Fragmento de Tablilla.
 
-### 02. 🗝️🗝️ La Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)
-* **Generación Isaac**: Ubicada en una celda que conecta con **SOLO 1 SALA ACTIVA** (al final de una rama muerta).
-* **Apertura**: Muro de piedra muy denso que requiere 2 Cargas o una Bomba rúnica pesada.
-* **Botín**: Altar de sintonía pura que concede sintonía gratuita instantánea durante la run actual a 1 jugador.
+### 05. 📜 Mercado Espectral de Minos (Arcane Shop)
+* **Mecánica**: Estatua parlante de Minos comerciando elixires, pergaminos de atajo o bombas por gemas colectadas.
 
-### 03. 🩸 La Cámara del Altar de Sacrificio (Sacrifice Room)
-* **Mecánica**: Un estanque de sangre rúnica con un pedestal erizado de picos de basalto.
-* **Ofrenda**: Un jugador derrama voluntariamente sangre (pierde 1d10 HP o **1 Carga Arcana**).
-* **Favores de Minos (1d6)**:
-  1. *1-2*: Elixir de resistencia elemental para el grupo.
-  2. *3-4*: Revelación instantánea de 3 salas en la Web App.
-  3. *5-6*: **Fragmento de la Rueda de Criptografía de Minos** o Reliquia Estelar.
+### 06. 🎲 Sala del Dado de Basaltos (Arcade Room)
+* **Mecánica**: Pedestal con dado de 6 caras. Tirar 1d6 gastando 1 gema para ganar curación (2-3), abrir puertas de la sala (4-5) o mejorar cofres a dorados (6).
 
-### 04. ⚖️ La Sala de Desafío Rúnico (Challenge Room)
-* **Mecánica**: Pulsar el pedestal central sella las puertas e invoca 3 rondas de trampas Beamos o constructos de basalto.
-* **Recompensa**: Al sobrevivir 3 rondas, se abren las puertas y descienden **2 Cofres Dorados de Downtime**.
+### 07. ⚖️ Báscula de Contrapesos (Mecánica de Peso)
+* **Mecánica**: Dos platos de basalto que exigen masa exacta (colocar bloques de piedra o personajes).
+* **Persistencia**: Al trabar el contrapeso, la puerta queda abierta permanentemente.
 
-### 05. 📜 El Mercado Espectral de Minos (Arcane Shop / Merchant)
-* **Mecánica**: Estatua parlante de Minos rodeada de pedestales flotantes. Permite comerciar consumibles de dungeon, pergaminos de atajo o bombas por gemas o elixires colectados.
+### 08. ⚙️ Clave de Engranajes Murales (Muestreado de 3 Dígitos)
+* **Mecánica**: Tres discos de bronce con muescas numeradas. La clave (ej. 4-2-6) está grabada en la base.
+* **Persistencia**: La clave se anota en el cuaderno y se introduce en 5 segundos en runs posteriores.
 
-### 06. 🎲 La Sala del Dado de Basalto de 6 Caras (Arcade / Dice Room)
-* **Mecánica**: Un pedestal de dado gigante. Gastar 1 Carga Arcana o 1 gema permite tirar el dado:
-  * **1**: Trampa de descarga eléctrica.
-  * **2-3**: Regenera 1d4 HP a todos los exploradores.
-  * **4-5**: Cambia el estado de todas las puertas cerradas de la sala a Abiertas.
-  * **6**: Recombina la disposición de cofres de la run, mejorándolos a dorados.
-
-### 07. 🩸 La Sala de la Maldición de la Sombra (Curse Room)
-* **Mecánica**: El pasadizo de entrada está erizado de espinas oscuras. Atravesarlo inflige **1d6 daño psíquico** al entrar y **1d6** al salir.
-* **Recompensa**: Contiene un cofre de reliquias arcanas prohibidas o un pergamino de atajo directo a la Subdungeon.
+### 09. 🕯️ Puerta de la Fundición Fría (Molde de Cera)
+* **Mecánica**: Cerrojo profundo que requiere fundir un Molde de Cera con aleación blanda en la sala de la forja.
 
 ---
 
-## 3. Catálogo Extenso de Puzles Espaciales (3D Zelda)
+## 2. Set 1: FIRE (Caldera Volcánica & Presión Térmica)
 
-### A. Ocarina of Time / Majora's Mask
+* **Daily Gimmick del Fuego**: La dilatación térmica sella puertas de metal (exige enfriar) y crea corrientes térmicas ascendentes en pozos profundos.
+* **Dungeon Item**: *Guantelete de Llama* (Fundir hielo, encender braseros lejanos).
 
-#### 08. El Enigma de las Tres Cisternas en Cascada (OoT Water Temple)
-* **Mecánica**: Tres válvulas en espiral regulan el agua de 3 salas vecinas en la rejilla 7x7. Ajustar la Válvula A drena la Sala B, pero inunda la Sala C, exigiendo coordinar el flujo para alcanzar el pedestal sumergido.
-
-#### 09. El Pozo de las Sombras y Plataformas Fantasma (OoT Lens of Truth)
-* **Mecánica**: Foso sin suelo visible. El *Escudo Prismático (LIGHT)* o proyectar luz encendida sobre los muros muestra las sombras proyectadas de baldosas flotantes invisibles.
-
-#### 10. La Galería de las Cuatro Antorchas de Viento (MM Snowhead Temple)
-* **Mecánica**: Cuatro antorchas deben encenderse en < 6 segundos mientras soplos helados apagan las antorchas desprotegidas. Exige cubrir las corrientes con muros de basalto (`EARTH`) antes de encenderlas con **FIRE**.
-
-#### 11. El Laberinto de los Bloques de Tiempo Sincronizados (OoT Song of Time)
-* **Mecánica**: Bloques grabados con ideogramas que se materializan o desvanecen en intervalos de 1 ronda. Los aventureros deben cronometrar sus saltos para no caer al foso.
-
-#### 12. La Pista de Baldosas Caedizas de Cuarzo (OoT Crumbling Tiles)
-* **Mecánica**: Baldosas agrietadas sobre lava que se desmoronan 1 segundo después de pisarlas. Planificar la carrerilla continua sin detenerse.
+### Salas del Set Fuego:
+1. **🟁 La Caldera de Escoria Magmática**: Disparar el *Guantelete de Llama* a los 3 braseros superiores para fundir escudos de magma congelado.
+2. **🌋 El Horno de Enfriamiento Térmico**: Inundar el canal de magma con agua para petrificar un puente continuo de basalto poroso.
+3. **🔥 La Galería de las Cuatro Antorchas**: Encender 4 braseros en < 6s protegiéndolos de ventilaciones frías.
 
 ---
 
-### B. Wind Waker / Twilight Princess
+## 3. Set 2: WATER (Cisterna Sumergida & Control Hidráulico)
 
-#### 13. La Galería de los Espejos en Cadena (Spirit / Earth Temple)
-* **Mecánica**: Cuatro estatuas equipadas con espejos orientables. Girar cada espejo para conducir un haz solar en cadena desde la entrada hasta la compuerta del sello del sol.
+* **Daily Gimmick del Agua**: El nivel del agua sube/baja 1 nivel en todo el cuadrante al accionar manivelas; flotar en balsas da acceso al techo.
+* **Dungeon Item**: *Flauta del Mar* (Cambiar el nivel de agua en cualquier cisterna).
 
-#### 14. El Pozo del Viento Ascendente (WW Wind Temple)
-* **Mecánica**: Torre vertical de 50 pies con rejillas ruidosas. Activar `[🟄 AIR] + [▲ KAEL-UP]` genera una ráfaga ascendente que permite volar con la *Capa del Vértice* hasta la cima.
-
-#### 15. Las Estatuas Gemelas Espejadas (TP Dominion Rod Sync)
-* **Mecánica**: Sala dividida por un muro transparente. Mover la Estatua A desplaza la Estatua B de forma espejada en el otro lado para que ambas pisen pedestales a la vez.
-
-#### 16. El Cañón de las Bolas de Basalto (TP Bomb Bowling)
-* **Mecánica**: Rodar esferas de piedra pesadas por canaletas curvas inclinadas para impactar y destruir barreras distantes de la sala.
-
-#### 17. El Obelisco de la Vela Solar Giratoria (WW Wind Sail)
-* **Mecánica**: Reorientar una vela giratoria con ráfagas de la *Capa del Vértice (AIR)* para desplazar una pasarela móvil de bronce sobre un abismo.
+### Salas del Set Agua:
+1. **🌊 El Depósito de las Tres Cisternas**: Regular válvulas para alternar el nivel del agua en 3 salas vecinas de la rejilla 7x7.
+2. **🚰 El Carril de las Balsas Sumergidas**: Cortar retenidas de balsas sumergidas para catapultarlas a la superficie y presionar botones del techo.
+3. **💧 El Conducto de Agua Hirviendo**: Drenar la piscina con la *Flauta del Mar* para despejar el pasaje inferior.
 
 ---
 
-### C. Skyward Sword / Breath of the Wild / Tears of the Kingdom
+## 4. Set 3: AIR (Torre de los Vientos & Presión Atascada)
 
-#### 18. El Engranaje de Tiempo Invertido (TotK Recall)
-* **Mecánica**: Una rueda de molino gigante girando en sentido horario arrojando rocas. Usar `[🔄 ROT-CYCLE]` invierte su giro, permitiendo subir montado en sus palas.
+* **Daily Gimmick del Aire**: Conductos de ventilación generan turbulencias que impulsan aventureros o crean efecto Venturi al abrir 2 puertas alineadas.
+* **Dungeon Item**: *Capa del Vértice* (Saltos de viento de 30 ft, planeo en corrientes).
 
-#### 19. La Balanza de Peso y Catapulta de Piedra (BotW Seesaw Launch)
-* **Mecánica**: Dejar caer un bloque de basalto pesado (**EARTH**) en un extremo de una viga balanceada catapultando al aventurero del otro extremo al balcón superior.
-
-#### 20. La Red de Conductividad Salina (BotW Electric Circuit)
-* **Mecánica**: Estanque de agua salada entre un generador y la puerta. Alinear barriles metálicos o armas de hierro para formar la red que transmita la corriente continua.
-
-#### 21. El Carril de los Maderos Flotantes a Presión (BotW Buoyancy)
-* **Mecánica**: Cortar las cuerdas de retenidas de balsas sumergidas para catapultarlas verticalmente a la superficie y presionar botones del techo.
-
-#### 22. La Torre de Gravedad Invertida (Majora's Mask / TotK)
-* **Mecánica**: Invertir la gravedad de la sala con la consola rúnica, caminando boca abajo sobre el techo para cruzar fosos de picos.
+### Salas del Set Aire:
+1. **🌬️ La Torre del Viento Ascendente**: Usar la *Capa del Vértice* en ráfagas verticales para subir 50 ft hasta la cima.
+2. **⛵ El Obelisco de la Vela Solar Giratoria**: Reorientar una vela con ráfagas de viento para desplazar pasarelas sobre abismos.
+3. **💨 Las Fisuras Térmicas Micro-Gaseosas**: Identificar por flujo de aire la fisura respirable entre orificios de gas tóxico.
 
 ---
 
-## 4. Catálogo de Encuentros No Combativos (Narrativos y Espaciales)
+## 5. Set 4: EARTH (Dominio Telúrico & Densidad Gravitacional)
 
-### 23. El Oráculo de Basalto Mudo
-* **Concepto**: Gólem ancestral sentado en loto. Se comunica encendiendo triadas de ideogramas en su pecho (`[🌱 LIFE] + [▶ PHAS-FWD]`).
-* **Resolución**: Replicar la secuencia armónica en la consola del pedestal abre un atajo de retorno rápido al Atrio.
+* **Daily Gimmick de la Tierra**: Placas de peso alteran la inclinación de salas completas; paredes agrietadas se derrumban con vibraciones pesadas.
+* **Dungeon Item**: *Martillo de Basalto* (Romper muros agrietados, golpear estacas telúricas).
 
-### 24. El Dilema del Gran Puente de Cristal
-* **Concepto**: Puente de cuarzo sobre un cañón subterráneo que reacciona según la Palabra de Poder del día:
-  * **FIRE**: Arde e inflige daño sin protección de agua.
-  * **AIR**: Ráfagas laterales amenazan con despeñar a los cruzantes.
-  * **WATER**: Se inunda de corriente rápida.
-* **Resolución**: Coordinar sintonías de protección del grupo para cruzar a salvo.
-
-### 25. El Archivo de las Memorias de Minos
-* **Concepto**: Biblioteca de losas flotantes. Leer las losas desvela historia de Shivath y otorga pistas directas para armar la **Rueda de Criptografía de Minos**.
-
-### 26. El Invernadero de Esporas Durmientes (LIFE Encounter)
-* **Concepto**: Sala repleta de flora carnívora que despierta con vibraciones o ruidos.
-* **Resolución**: Tiradas de Sigilo o uso de **LIFE/AIR** para disipar las esporas y cruzar sin desatar la trampa botánica.
-
-### 27. El Pasaje de los Ecos Resonantes (Cuarzo Sonoro)
-* **Concepto**: Estalactitas de cuarzo que emiten tonos armónicos al recibir impactos.
-* **Resolución**: Repetir la melodía rúnica (golpeando estalactitas en el orden correcto) despierta el mecanismo de la compuerta.
+### Salas del Set Tierra:
+1. **⚓ El Pilar de Anclas de Basalto**: Golpear estacas telúricas con el *Martillo de Basalto* para fijar o inclinar la estructura de la sala.
+2. **⚖️ La Balanza de Peso y Catapulta**: Dejar caer bloques pesados en un extremo para catapultar personajes a pisos superiores.
+3. **🟅 Muro de Piedra Frágil**: Destruir paredes agrietadas mediante impactos contundentes o *EARTH Shatter*.
 
 ---
 
-## 5. Catálogo de Puzles Mecánicos y Cerrojos de Incursión (No Elementales)
+## 6. Set 5: LIFE (Invernadero Ancestral & Crecimiento Orgánico)
 
-Puzles diseñados para resolverse mediante físicas simples, llaves genéricas o ítems del laberinto. **Son deterministas y rápidos de repetir en expediciones futuras**:
+* **Daily Gimmick de la Vida**: Vides bioluminiscentes crecen con agua/luz creando puentes; esporas flotantes reaccionan al aliento o fuego.
+* **Dungeon Item**: *Semilla Botánica* (Germinar vides gigantes instantáneas como puentes o cuerdas).
 
-### 28. 🗝️ El Portón del Cerrojo de Latón (Small Key Lock)
-* **Mecánica**: Portón con cerradura de tambor reforzada. Requiere 1 **Llave de Latón** genérica hallada en cofres de salas comunes o nichos de escombros.
-* **Repetibilidad**: Una vez localizada la sala con la llave en el mapa 7x7, las incursiones posteriores la recogen en su ruta sin perder tiempo.
-
-### 29. ⚖️ La Cámara de la Báscula de Contrapesos
-* **Mecánica**: Dos platos de bronce suspendidos de cadenas. La puerta permanece sellada a menos que ambos platos alcancen la masa exacta.
-* **Repetibilidad**: Anotar el peso exacto la primera vez (ej. 2 aventureros en un plato / 1 bloque de piedra en el otro) permite resolverlo en 5 segundos en expediciones futuras.
-
-### 30. ⚙️ El Enigma de los Engranajes Muestreados (Pin Combination)
-* **Mecánica**: Tres discos de bronce con muescas numeradas. La combinación de 3 dígitos (ej. 4-2-6) está grabada de forma oculta en la base de la sala.
-* **Repetibilidad**: Tras descifrar la cifra en la primera run, el grupo anota la clave en su cuaderno físico y la introduce instantáneamente en runs subsecuentes.
-
-### 31. ⏱️ Los Pasadores de Pulso Sincronizado
-* **Mecánica**: Dos palancas distantes que retraen cerrojos hidráulicos durante 3 segundos. Exige que 2 jugadores (o 1 jugador corriendo tras trabar una palanca con una estaca) las activen a la vez.
-* **Repetibilidad**: Trabajo en equipo puro sin gasto de recursos ni sintonía mágica.
-
-### 32. 🕯️ La Puerta de la Fundición Fría (Key Mold Puzzle)
-* **Mecánica**: Cerradura de muesca profunda e irregular. En la sala opuesta se encuentra un molde de cera y una barra de metal maleable.
-* **Repetibilidad**: Presionar el molde y vaciarlo en la forja fría crea la llave. En runs posteriores el grupo conoce el camino directo entre la forja y el sello.
-
-### 33. 🏋️ El Rastrillo de Alta Tensión Mecánica
-* **Mecánica**: Rastrillo de hierro de 300 lbs conectado a un torno sin fin con trinquete.
-* **Repetibilidad**: Requiere una prueba de Fuerza (DC 13) o trabar el engranaje con un mazo/estaca de basalto. Proceso puramente físico y predecible.
+### Salas del Set Vida:
+1. **🌱 El Invernadero del Hongo Trampolín**: Madurar hongos titanis mediante savia vegetal para inflarlos como colchonetas elásticas.
+2. **🌿 La Compuerta de Vides Arcanas**: Plantar la *Semilla Botánica* para tejer redes vegetales que sostengan pasarelas caídas.
+3. **🍄 El Invernadero de Esporas Durmientes**: Disipar esporas tóxicas con sintonías vegetales o cruzar en sigilo.
 
 ---
 
-## 6. Catálogo de Cerrojos con Pruebas de Habilidad Inusuales
+## 7. Set 6: LIGHT (Santuario Prismático & Haces Reflectantes)
 
-Cerrojos interactivos que requieren usos creativos de habilidades poco habituales. **Al resolverlos la primera vez, la clave queda anotada en el cuaderno físico del grupo, evitando repetir tiradas de dado**:
+* **Daily Gimmick de la Luz**: Haces de luz solar/mágica atraviesan las salas en línea recta; colocar espejos redirige el haz para activar receptores.
+* **Dungeon Item**: *Escudo Prismático* (Reflejar rayos solares, proyectar luz en receptores ocultos).
 
-### 34. 🏥 La Compuerta Biomecánica Sangrante (Medicine Check)
-* **Mecánica**: Compuerta de músculo petrificado y savia arcana en tensión.
-* **Check Inusual**: *Medicina (DC 13)* para encontrar el "nodo arterial" correcto e infligir una punción quirúrgica que relaje la masa muscular.
-* **Repetibilidad**: La ubicación del nodo queda registrada en el cuaderno; en futuras incursiones se sangra en 1 segundo.
-
-### 35. 📜 El Friso de la Dinastía Olvidada (Strength [History] Check)
-* **Mecánica**: Cuatro losas gigantes rotatorias esculpidas con los reyes ancestrales de Shivath.
-* **Check Inusual**: Tirada combinada de *Fuerza (Historia) (DC 13)*: recordar la cronología real mientras se aplica palanca física para hacer girar las losas.
-* **Repetibilidad**: La secuencia de reyes anotada elimina la necesidad de tirada; sólo exige empujar las losas.
-
-### 36. 📜 El Portón del Cántico Sagrado de Alrest (Religion Check)
-* **Mecánica**: Estatuas de teólogos arcanos que solo abren el paso al escuchar la liturgia adecuada.
-* **Check Inusual**: *Religión (DC 13)* para cantar la salmodia arcana en la métrica adecuada.
-* **Repetibilidad**: La estrofa traducida queda en el cuaderno; cualquier personaje puede recitarla directamente.
-
-### 37. 🎵 La Cristalera de Resonancia Armónica (Performance Check)
-* **Mecánica**: Cierre de cuarzo traslúcido atascado por cristalización armónica.
-* **Check Inusual**: *Interpretación / Instrumento (DC 13)* para emitir la nota/tono vibracional exacto que resquebraja el bloqueo.
-* **Repetibilidad**: La nota (ej. Sol#) se anota en el cuaderno; hacer sonar un diapasón la abre al instante.
-
-### 38. 🪲 La Cerradura del Nido de Larvas de Basalto (Animal Handling Check)
-* **Mecánica**: Cerradura obstruida por pequeños constructos-insectos durmientes.
-* **Check Inusual**: *Trato con Animales (DC 13)* para engatusar o alimentar a las larvas con virutas de mineral para que royan el pestillo.
-* **Repetibilidad**: Sabiendo qué mineral comen las larvas, arrojar un trozo en el receptáculo la abre al instante.
-
-### 39. 💨 La Sima de las Fisuras Térmicas Micro-Gaseosas (Survival Check)
-* **Mecánica**: Muro con 6 orificios; 5 expulsan gas tóxico y 1 retrae el rastrillo.
-* **Check Inusual**: *Supervivencia (DC 13)* para detectar por diferencias de flujo de aire térmico cuál es la fisura segura.
-* **Repetibilidad**: Anotado el número del orificio seguro en el cuaderno, se introduce la vara en 1 segundo.
-
----
-
-## 7. Catálogo de Puzles y Mecanismos de Persistencia Permanente (Salas 40 a 50)
-
-Puzles espaciales, de perspectiva y redes causales donde **la resolución de la barrera queda guardada de forma PERMANENTE para todas las futuras incursiones del grupo**:
-
-### 40. 🌌 La Cámara de las Sombras Cuánticas (Perspectiva & Luz)
-* **Mecánica**: Alinear 3 linternas de cuarzo en los ángulos exactos para proyectar pasarelas de sombra sólidas sobre un abismo.
-* **Persistencia Permanente**: Al trabar el mecanismo en su posición, la pasarela de sombra se fija de forma permanente para todas las futuras incursiones.
-
-### 41. 🌋 El Horno de Enfriamiento Térmico (Fuego + Agua)
-* **Mecánica**: Canal de magma infranqueable. Accionar la compuerta de la piscina superior para inundar el canal de agua.
-* **Persistencia Permanente**: El magma se petrifica en un puente continuo de basalto que permanece sólido y cruzable para siempre.
-
-### 42. 🌱 El Invernadero del Hongo Trampolín (Vida + Aire)
-* **Mecánica**: Madurar el esporangio de un hongo titanis mediante savia vegetal y aire a presión para inflarlo como plataforma de salto hacia los balcones superiores.
-* **Persistencia Permanente**: El hongo gigante queda germinado e inflado permanentemente, funcionando como ascensor vegetal en runs futuras.
-
-### 43. 👁️ La Sala de la Perspectiva Anamórfica (Perspectiva / Tunic)
-* **Mecánica**: Columnas discontinuas que desde la losa de enfoque dibujan la sombra de un glifo sagrado, desencajando el sello de la compuerta.
-* **Persistencia Permanente**: Al desencajarse el sello, la compuerta cae y permanece abierta en todas las runs subsecuentes.
-
-### 44. 🧲 El Pozo de la Arena de Hierro Magnetizada (Magnetismo)
-* **Mecánica**: Sima repleta de polvo de basalto ferromagnético. Activar el prisma magnético atrae el polvo formando una calzada rígida de limo imantado.
-* **Persistencia Permanente**: La calzada imantada queda fijada y no se desmorona en expediciones posteriores.
-
-### 45. ⛓️ La Galería del Péndulo de Basalto (Física Dinámica)
-* **Mecánica**: Esfera de piedra de 500 lbs suspendida sobre un abismo. Balancear la esfera y cortar la cadena de retención posterior para que quede trabada como puente.
-* **Persistencia Permanente**: La esfera trabada sirve de puente permanente de piedra sobre la sima.
-
-### 46. 🩸 El Santuario de la Sangre y el Tiempo (Altar Isaac / Downtime)
-* **Mecánica**: Altar de sacrificio arcano. Ofrendar 1 Carga Arcana o sangre de aventurero desvela el plano del cuadrante y otorga elixires.
-* **Persistencia Permanente**: Los mapas e información revelados quedan anotados permanentemente en el Cuaderno Físico de la Mina.
-
-### 47. ⚔️ La Armería Dual de los Caballeros Durmientes (Pedestales Duales / Isaac)
-* **Mecánica**: Dos pedestales con Objetos Mágicos Menores. Escoger uno destruye el otro y despierta al guardián de la sala.
-* **Persistencia Permanente**: Una vez saqueado el objeto elegido, la sala queda limpia y segura para transitar en siguientes runs.
-
-### 48. 🎰 La Ruleta del Dado de las Esferas Rúnicas (Casino Arcano / Isaac)
-* **Mecánica**: Ruleta rúnica de 1d10 donde apostar monedas de cobre por elixires, gemas o mapas.
-* **Persistencia Permanente**: Permanece accesible como punto de comercio y recreo de downtime entre incursiones.
-
-### 49. 🌬️ El Nodo de la Red Teledirigida de Viento (Relay Hub de Área)
-* **Mecánica**: Válvula central de ventilación que al reorientarse desvía ráfagas a las 3 salas adyacentes de la rejilla 7x7.
-* **Persistencia Permanente**: El cambio de flujo en las salas adyacentes (trampas apagadas / molinos girando) se mantiene guardado permanentemente.
-
-### 50. 🔄 El Interruptor de Inversión Térmica de Cuadrante (Thermal Core Switch)
-* **Mecánica**: Palanca hidráulica que redirige el flujo de magma: derrite el hielo de la sala Norte y petrifica el agua de la sala Sur en la rejilla 7x7.
-* **Persistencia Permanente**: La reconfiguración térmica del cuadrante queda guardada permanentemente en la Web App y en el cuaderno físico.
-
+### Salas del Set Luz:
+1. **☀️ La Galería de los Espejos en Cadena**: Girar estatuas equipadas con espejos para conducir el haz solar hasta la compuerta final.
+2. **🌌 La Cámara de las Sombras Cuánticas**: Posicionar linternas de cuarzo para proyectar pasarelas de sombra sólidas sobre el abismo.
+3. **👁️ La Sala de la Perspectiva Anamórfica**: Buscar el ángulo de enfoque donde las sombras de las columnas forman el glifo del sello.
