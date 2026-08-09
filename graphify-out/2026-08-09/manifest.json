@@ -1065,8 +1065,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md": {
-    "mtime": 1786240784.8079386,
-    "ast_hash": "4ebca315815162188dac8a89fd0bdd3f",
+    "mtime": 1786242009.171464,
+    "ast_hash": "daebe38f7635ea33739bf3e75c7c71b2",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/01-Sistema_de_Escritura_Alrestiano.md": {
@@ -1080,8 +1080,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md": {
-    "mtime": 1786241872.5412083,
-    "ast_hash": "a9a62f18730f3f37795d7974f6e135cd",
+    "mtime": 1786241925.030905,
+    "ast_hash": "95937cf3cfd96fd44971d7a5dbf05667",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md": {
@@ -1567,6 +1567,41 @@
   "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/07_Arena_del_Espejismo_de_Cristal.md": {
     "mtime": 1786241863.3511636,
     "ast_hash": "1f94ce435a4339f8df44bb79a7bba7f1",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md": {
+    "mtime": 1786241983.0389247,
+    "ast_hash": "398285e57a06d021c849f44765352c3c",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md": {
+    "mtime": 1786241986.980787,
+    "ast_hash": "dea0326e3049d722124f8d17ed2c0a2a",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md": {
+    "mtime": 1786241990.5613842,
+    "ast_hash": "bda3313e53897b0307643520c65bd0a4",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md": {
+    "mtime": 1786241994.0804918,
+    "ast_hash": "fcff2ab3b1b9b4520e8a6e17136b6570",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md": {
+    "mtime": 1786241997.786219,
+    "ast_hash": "82009302b60e2047abf7f1118a703c00",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md": {
+    "mtime": 1786242001.774384,
+    "ast_hash": "1cf24026df819a48325178cc2cd34cc7",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Subdungeons/07_Sanctum_12_Reactor_Central.md": {
+    "mtime": 1786242005.3396912,
+    "ast_hash": "c20e6329275c50c35d64950e5e289dbb",
     "semantic_hash": ""
   }
 }
