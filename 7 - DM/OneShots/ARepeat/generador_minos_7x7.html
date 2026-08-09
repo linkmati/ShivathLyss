@@ -986,6 +986,50 @@
       else if (n.includes("Espejos") || n.includes("Sombras") || n.includes("Anamórfica") || n.includes("Prisma") || n.includes("Penumbra")) cell.elementTag = "LIGHT";
     }
 
+    const SET_ROOMS = {
+      "GENERIC": [
+        "⚖️ Báscula de Contrapesos", "⚙️ Clave de Engranajes Murales", "🕯️ Puerta de la Fundición Fría",
+        "🕸️ Galería de Cuerdas Tensadas", "⏱️ Taller de Relojería Rúnica", "📜 Archivo de Tablillas Rascadas",
+        "🔮 Umbral de Decodificación Arcana", "🎭 Relieve del Eco Espectral Parlante", "👥 Puerta del Cristal de Espinas Sumiso",
+        "🌿 Umbral de Vides Sensibles", "👁️ Relieve de Miradas Cambiantes", "🎲 Sala del Dado de Basaltos",
+        "🩸 Altar del Sacrificio Arcano", "📜 Mercado Espectral de Minos"
+      ],
+      "CLUSTERS": [
+        "🔗 Cluster A: Cisterna Maestro -> Filtros -> Esclusa",
+        "🔗 Cluster B: Interruptor -> Bloques Azules -> Rojos",
+        "🔗 Cluster C: Mina Aleación -> Horno -> Sello Molde",
+        "🔗 Cluster D: Consola Grúa -> Cámara Bloque -> Sello Presión",
+        "🔗 Cluster E: Tragaluz Solar -> Espejos -> Receptor",
+        "🔗 Cluster F: Horno Magmático -> Pozo Viento -> Balcón",
+        "🔗 Cluster G: Invernadero Esporas -> Conducto -> Purificador",
+        "🔗 Cluster H: Consola Inversión -> Torre Bloques"
+      ],
+      "FIRE": [
+        "🟁 La Caldera de Escoria Magmática", "🌋 El Horno de Enfriamiento Térmico", "🔥 La Galería de las Cuatro Antorchas",
+        "🔴 El Laberinto de Magma Fluido", "♨️ La Grieta del Vapor Térmico"
+      ],
+      "WATER": [
+        "🌊 El Depósito de las Tres Cisternas", "🚰 El Carril de las Balsas Sumergidas", "💧 El Conducto de Agua Hirviendo",
+        "🏊 El Acuífero de los Pilares Sumergidos", "🔀 La Cámara de las Esclusas Sincronizadas"
+      ],
+      "AIR": [
+        "🌬️ La Torre del Viento Ascendente", "⛵ El Obelisco de la Vela Solar Giratoria", "💨 Las Fisuras Térmicas Micro-Gaseosas",
+        "🌀 La Cámara del Vacío Venturi", "🪶 El Balcón del Planeador de Bronce"
+      ],
+      "EARTH": [
+        "⚓ El Pilar de Anclas de Basalto", "⚖️ La Balanza de Peso y Catapulta", "🟅 Muro de Piedra Frágil",
+        "🌋 La Sima de los Temblores Telúricos", "🪨 El Cañón del Rodillo de Basalto"
+      ],
+      "LIFE": [
+        "🌱 El Invernadero del Hongo Trampolín", "🌿 La Compuerta de Vides Arcanas", "🍄 El Invernadero de Esporas Durmientes",
+        "🌸 El Jardín de la Flora Bioluminiscente", "🪷 El Bulbo Carnívoro del Núcleo"
+      ],
+      "LIGHT": [
+        "☀️ La Galería de los Espejos en Cadena", "🌌 La Cámara de las Sombras Cuánticas", "👁️ La Sala de la Perspectiva Anamórfica",
+        "🌈 El Prisma del Santo Sol", "👥 La Cámara de los Clones de Penumbra"
+      ]
+    };
+
     // EXACT ISAAC GENERATION ALGORITHM (NO SECRET ROOM ADJACENT TO SUBDUNGEONS)
     function generateDungeon() {
       initGridData();
@@ -997,6 +1041,16 @@
         currentSubRoll = parseInt(subSel);
       }
       currentAlign = Math.floor(Math.random() * 6) + 1;
+
+      const subObj = SUBDUNGEONS[currentSubRoll];
+      const elemCode = subObj.code;
+
+      let activeElementalRooms = SET_ROOMS[elemCode] || [];
+      if (elemCode === "NONE" || elemCode === "BOSS") {
+        const allElems = ["FIRE", "WATER", "AIR", "EARTH", "LIFE", "LIGHT"];
+        const randElem = allElems[Math.floor(Math.random() * allElems.length)];
+        activeElementalRooms = SET_ROOMS[randElem];
+      }
 
       const possibleStarts = ["C3", "D3", "D4", "C4", "E4"];
       const startKey = possibleStarts[Math.floor(Math.random() * possibleStarts.length)];
@@ -1013,18 +1067,7 @@
       const targetRooms = Math.floor(Math.random() * 5) + 14;
       let placedKeys = new Set([startKey]);
 
-      const presets = [
-        "🟁 La Caldera de Escoria Magmática", "🌋 El Horno de Enfriamiento Térmico", "🔥 La Galería de las Cuatro Antorchas",
-        "🌊 El Depósito de las Tres Cisternas", "🚰 El Carril de las Balsas Sumergidas", "💧 El Conducto de Agua Hirviendo",
-        "🌬️ La Torre del Viento Ascendente", "⛵ El Obelisco de la Vela Solar Giratoria", "💨 Las Fisuras Térmicas Micro-Gaseosas",
-        "⚓ El Pilar de Anclas de Basalto", "⚖️ La Balanza de Peso y Catapulta", "🟅 Muro de Piedra Frágil",
-        "🌱 El Invernadero del Hongo Trampolín", "🌿 La Compuerta de Vides Arcanas", "🍄 El Invernadero de Esporas Durmientes",
-        "☀️ La Galería de los Espejos en Cadena", "🌌 La Cámara de las Sombras Cuánticas", "👁️ La Sala de la Perspectiva Anamórfica",
-        "🔗 Cluster A: Cisterna Maestro -> Filtros -> Esclusa", "🔗 Cluster B: Interruptor -> Bloques Azules -> Rojos",
-        "🔗 Cluster C: Mina Aleación -> Horno -> Sello Molde", "🔗 Cluster D: Consola Grúa -> Cámara Bloque -> Sello Presión",
-        "🕸️ Galería de Cuerdas Tensadas", "⏱️ Taller de Relojería Rúnica", "📜 Archivo de Tablillas Rascadas"
-      ];
-      let pool = [...presets];
+      let pool = [...SET_ROOMS["GENERIC"], ...SET_ROOMS["CLUSTERS"], ...activeElementalRooms];
       pool.sort(() => Math.random() - 0.5);
 
       const numBranches = 4;
