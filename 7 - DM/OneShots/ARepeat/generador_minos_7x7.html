@@ -995,14 +995,14 @@
         "🩸 Altar del Sacrificio Arcano", "📜 Mercado Espectral de Minos"
       ],
       "CLUSTERS": [
-        "🔗 Cluster A: Cisterna Maestro -> Filtros -> Esclusa",
-        "🔗 Cluster B: Interruptor -> Bloques Azules -> Rojos",
-        "🔗 Cluster C: Mina Aleación -> Horno -> Sello Molde",
-        "🔗 Cluster D: Consola Grúa -> Cámara Bloque -> Sello Presión",
-        "🔗 Cluster E: Tragaluz Solar -> Espejos -> Receptor",
-        "🔗 Cluster F: Horno Magmático -> Pozo Viento -> Balcón",
-        "🔗 Cluster G: Invernadero Esporas -> Conducto -> Purificador",
-        "🔗 Cluster H: Consola Inversión -> Torre Bloques"
+        "🔗 Cluster A: Cisterna Maestro (Control Hidráulico)", "🔗 Cluster A: Cámara de Filtros (Nivel Despejado)", "🔗 Cluster A: Esclusa de Salida (Portón Final)",
+        "🔗 Cluster B: Interruptor Rúnico (Conmutador Peg)", "🔗 Cluster B: Pasaje de Bloques Azules", "🔗 Cluster B: Cámara de Bloques Rojos",
+        "🔗 Cluster C: Mina de Aleación Maleable", "🔗 Cluster C: Horno de Fundición (Molde de Cera)", "🔗 Cluster C: Sello del Molde de Llave",
+        "🔗 Cluster D: Consola de Grúa de Basalto", "🔗 Cluster D: Cámara del Bloque Volado", "🔗 Cluster D: Sello de Presión de Basalto",
+        "🔗 Cluster E: Tragaluz Solar de Orientación", "🔗 Cluster E: Galería de Espejos Pivotantes", "🔗 Cluster E: Receptor de Luz Final",
+        "🔗 Cluster F: Horno Magmático Inferior", "🔗 Cluster F: Pozo de Viento Ascendente", "🔗 Cluster F: Balcón de Salida",
+        "🔗 Cluster G: Invernadero de Esporas", "🔗 Cluster G: Conducto Neumático", "🔗 Cluster G: Purificador Ambiental",
+        "🔗 Cluster H: Consola de Inversión Gravitatoria", "🔗 Cluster H: Torre de Bloques Flotantes", "🔗 Cluster H: Bóveda de Salida"
       ],
       "FIRE": [
         "🟁 La Caldera de Escoria Magmática", "🌋 El Horno de Enfriamiento Térmico", "🔥 La Galería de las Cuatro Antorchas",
@@ -1071,6 +1071,7 @@
       pool.sort(() => Math.random() - 0.5);
 
       const numBranches = 4;
+      let forcedClusterQueue = [];
       for (let b = 0; b < numBranches; b++) {
         let currKey = startKey;
         const branchLength = Math.floor(Math.random() * 3) + 3;
@@ -1094,7 +1095,25 @@
             placedKeys.add(nextKey);
             
             let rNotes = "";
-            const roomName = pool.length > 0 ? pool.pop() : `Sala Cámara (${nextKey})`;
+            let roomName = "";
+            if (forcedClusterQueue.length > 0) {
+              roomName = forcedClusterQueue.shift();
+            } else if (pool.length > 0) {
+              roomName = pool.pop();
+              if (roomName.includes("Cluster")) {
+                const match = roomName.match(/(Cluster [A-H])/);
+                if (match) {
+                  const cName = match[1];
+                  for (let i = pool.length - 1; i >= 0; i--) {
+                    if (pool[i].includes(cName)) {
+                      forcedClusterQueue.push(pool.splice(i, 1)[0]);
+                    }
+                  }
+                }
+              }
+            } else {
+              roomName = `Sala Cámara (${nextKey})`;
+            }
             if (roomName.includes("Cisterna") || roomName.includes("Depósito")) {
               rNotes = "Red Hidráulica: Modifica nivel de agua en salas vecinas";
             }
@@ -1141,6 +1160,9 @@
             active: true,
             name: subInfo.room,
             role: "SUBDUNGEON",
+            clusterTag: "",
+            elementTag: "",
+            hasSmallKey: false,
             notes: `Subdungeon: ${subInfo.name} - Guardián: ${subInfo.boss} (Distancia <= 3)`
           };
         }
@@ -1207,6 +1229,9 @@
           active: true,
           name: "🗝️ Sala Secreta de Minos",
           role: "SECRET",
+          clusterTag: "",
+          elementTag: "",
+          hasSmallKey: false,
           notes: "Regla Isaac Pura: NUNCA colindante a Subdungeon. Sin pistas externas en paredes -> Bomba / EARTH Shatter."
         };
 
@@ -1231,8 +1256,6 @@
           gridData[chosenKeyRoom].notes = gridData[chosenKeyRoom].notes ? `${gridData[chosenKeyRoom].notes} | ${keyNote}` : keyNote;
         }
       });
-
-      const subObj = SUBDUNGEONS[currentSubRoll];
       document.getElementById('info-dia').innerHTML = `Palabra: <strong>${subObj.code}</strong>`;
       document.getElementById('info-sub').innerHTML = `Subdungeon: <strong>${subObj.name}</strong>`;
       document.getElementById('info-align').innerHTML = `Alineamiento: <strong>[${currentAlign}]</strong>`;
