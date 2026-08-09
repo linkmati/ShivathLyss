@@ -183,10 +183,11 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
 ## 6. Sets de Salas Interconectadas en Cadena (Linked Room Clusters)
 
 > [!IMPORTANT]
-> **REGLA DE CLUSTERS (ASINCRONÍA Y ORDEN FLEXIBLE)**:
+> **REGLA DE CLUSTERS (ASINCRONÍA, ORDEN FLEXIBLE Y AGRUPAMIENTO REGIONAL)**:
 > 1. **Salas Independientes y Distantes**: Un Cluster NUNCA es una sala grande dividida en trozos contiguos. Son **salas separadas en la rejilla 7x7**, pudiendo estar en ramas distintas del laberinto.
-> 2. **Orden Flexible de Resolución**: Los aventureros pueden descubrir y visitar las salas de un cluster en **cualquier orden**. Si encuentran primero la `Sala B` (bloqueada/inundada), pueden registrar la pista en su cuaderno físico, encontrar la `Sala A` más tarde para cambiar el estado global, y retornar a `Sala B` o `Sala C`.
-> 3. **Sin Sincronización en Tiempo Real**: Todo se resuelve mediante interacciones de estado global (conmutadores, grúas, lentes de luz, purificación) que persistirán mientras dure la incursión.
+> 2. **Generación Parcial Opcional**: NO es obligatorio que las 3 salas de un cluster aparezcan en la misma incursión (pueden generarse solo 1 o 2). Si solo aparece 1 sala, funciona como puzle/mecanismo interactivo independiente.
+> 3. **Agrupamiento Regional**: Si el laberinto genera varias salas del MISMO cluster en una incursión, la Web App las **agrupa en la misma rama o región cercana del mapa** para mantener la coherencia temática del sector.
+> 4. **Orden Flexible de Resolución**: Los aventureros pueden descubrir y resolver las salas de un cluster en **cualquier orden**. Si encuentran primero la `Sala B` (bloqueada/inundada), la anotan en su cuaderno físico, encuentran la `Sala A` más tarde para cambiar el estado global, y retornan a `Sala B` o `Sala C`.
 
 > [!TIP]
 > **SISTEMA DE COLORES EN LA WEB APP (`generador_minos_7x7.html`)**:

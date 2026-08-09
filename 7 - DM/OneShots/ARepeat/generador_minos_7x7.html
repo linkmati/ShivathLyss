@@ -1069,12 +1069,6 @@
               notes: rNotes
             };
             autoDetectTags(gridData[nextKey]);
-            currKey = nextKey;
-          }
-        }
-      }
-              notes: rNotes
-            };
 
             const pairKey = getDoorPairKey(currKey, nextKey);
             doorData[pairKey] = Math.random() < 0.65 ? "Puerta Abierta de Par en Par" : DOOR_TYPES[Math.floor(Math.random() * (DOOR_TYPES.length - 1))];
