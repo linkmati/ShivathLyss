@@ -183,7 +183,10 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
 ## 6. Sets de Salas Interconectadas en Cadena (Linked Room Clusters)
 
 > [!IMPORTANT]
-> **REGLA ANTI-SALA GRANDE**: Un Cluster NUNCA debe ser una sala muy grande dividida artificialmente en habitaciones contiguas. Cada sala del cluster es **independiente en la rejilla 7x7**, pudiendo estar separadas geográficamente en la matriz. Se vinculan mediante **mecánicas globales (overarching mechanics)** o **ejecución estrictamente simultánea** entre 2 o más aventureros.
+> **REGLA DE CLUSTERS (ASINCRONÍA Y MECÁNICAS GLOBALES)**:
+> 1. **No Salas Grandes Fragmentadas**: Un Cluster NUNCA es una sala grande dividida artificialmente en habitaciones contiguas. Cada sala del cluster es **independiente en la rejilla 7x7**, pudiendo estar separadas geográficamente en la matriz.
+> 2. **Sin Requisito de Acción Simultánea**: NO se exige que personajes coordinen palancas en el mismo turno en salas distintas.
+> 3. **Mecánicas Globales Asíncronas**: Los clusters se resuelven de forma **progresiva y asíncrona** por el grupo avanzando junto (o por 1 aventurero) interactuando con **estados globales** (conmutadores rúnicos, circuitos hidráulicos, óptica de luz, grúas mecánicas o purificación de entorno).
 
 > [!TIP]
 > **MARCADO VISUAL EN EL MAPA WEB**: En la Web App `generador_minos_7x7.html`, las celdas con set elemental muestran etiquetas de color `[FIRE]`, `[WATER]`, etc., y los clusters se señalan con la insignia neón `[🔗 CLUSTER-X]` y bordes dobles, generando un diagrama de causalidad en el resumen del DM.
@@ -193,12 +196,12 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
          🔗 SETS DE SALAS ENCADENADAS Y LINKED CLUSTERS 🔗
 ======================================================================
 1. CLUSTER A: LA CADENA HIDRÁULICA (3 SALAS):
-   - Sala A (Cisterna Maestro): Drena el agua de la Sala B.
-   - Sala B (Cámara de Filtros): Al quedar sumergida/limpia, revela la palanca.
-   - Sala C (Esclusa de Salida): La palanca abre la gran esclusa final.
+   - Sala A (Cisterna Maestro): Drena el agua de la Sala B de forma permanente.
+   - Sala B (Cámara de Filtros): Con la cisterna seca, permite accionar la palanca.
+   - Sala C (Esclusa de Salida): La palanca retraerá el cerrojo de salida.
 
 2. CLUSTER B: EL CIRCUITO DE CRISTALES PEG (3 SALAS):
-   - Sala A (Interruptor Rúnico): Golpear el cristal alterna estados Azul/Rojo.
+   - Sala A (Interruptor Rúnico): Golpear el cristal alterna el estado global Azul/Rojo.
    - Sala B (Puerta de Bloques Azules): Transitable cuando los bloques Azules caen.
    - Sala C (Cámara de Bloques Rojos): Revela el cofre al bajar los bloques Rojos.
 
@@ -207,13 +210,14 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
    - Sala B (Horno de Fundición): Derretir el metal en el Molde de Cera.
    - Sala C (Sello del Molde): Insertar la llave forjada a medida para abrir.
 
-4. CLUSTER D: EL DUETO DE ESTATUAS ESPEJADAS (2 SALAS):
-   - Sala A y Sala B (Separadas por cristalera): Mover la estatua en A desplaza 
-     en espejo la estatua en B para presionar 2 botones a la vez.
+4. CLUSTER D: LA CADENA DEL CONTRAPESO DE BASALTO (3 SALAS):
+   - Sala A (Consola de Grúa): Girar el cabrestante eleva el bloque suspendido en la Sala B.
+   - Sala B (Cámara del Bloque Volado): Despejado el pasaje inferior, revela el pozo hacia la Sala C.
+   - Sala C (Sello de Presión de Basalto): Caer por el pozo desengancha el portón final.
 
 5. CLUSTER E: EL CIRCUITO DE ESPEJOS SOLAR (3 SALAS):
    - Sala A (Tragaluz Solar): Emite un haz solar directo hacia la entrada.
-   - Sala B (Galería de Espejos): Reorientar el espejo central hacia la pared Este.
+   - Sala B (Galería de Espejos): Reorientar el espejo central hacia el conducto Este.
    - Sala C (Receptor Solar del Sello): El haz incide en la gema solar y abre el portón.
 
 6. CLUSTER F: EL TRÍPTICO DE CONVECCIÓN TÉRMICA (3 SALAS):
@@ -228,7 +232,6 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
 
 8. CLUSTER H: EL PÉNDULO DE GRAVEDAD INVERTIDA (2 SALAS):
    - Sala A (Consola de Inversión): Invierte la gravedad del cuadrante.
-   - Sala B (Torre de Bloques): Los bloques de piedra caen hacia el techo, liberando 
-     el pasaje inferior de la sala.
+   - Sala B (Torre de Bloques): Los bloques caen hacia el techo, liberando el pasaje inferior.
 ======================================================================
 ```

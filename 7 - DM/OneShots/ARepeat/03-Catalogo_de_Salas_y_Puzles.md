@@ -176,8 +176,10 @@ Sets de 2 o 3 salas que **deben colocarse juntas en la matriz del mapa** porque 
 2. **Sala B (Horno de Fundición)**: Fundir la barra en el Molde de Cera para dar forma a la llave.
 3. **Sala C (Sello del Molde)**: Insertar la llave forjada a medida para retraer el pasador.
 
-### 🔗 Cluster D: Dueto de Estatuas Espejadas (2 Salas)
-1. **Sala A (Galería Espejo Izquierda)** y **Sala B (Galería Espejo Derecha)**: Separadas por un ventanal de cuarzo. Mover la estatua en A desplaza mecánicamente en espejo la estatua en B para presionar 2 botones simultáneamente.
+### 🔗 Cluster D: La Cadena del Contrapeso de Basalto (3 Salas)
+1. **Sala A (Consola de Grúa)**: Girar el cabrestante eleva el bloque suspendido en la *Sala B*.
+2. **Sala B (Cámara del Bloque Volado)**: Al despejarse el pasaje inferior, revela el pozo hacia la *Sala C*.
+3. **Sala C (Sello de Presión de Basalto)**: Caer por el pozo desengancha el portón final.
 
 ### 🔗 Cluster E: El Circuito de Espejos Solar (3 Salas)
 1. **Sala A (Tragaluz Solar)**: Emite un haz solar directo hacia la entrada.
