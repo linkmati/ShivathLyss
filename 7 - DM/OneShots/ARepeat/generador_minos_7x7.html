@@ -952,6 +952,8 @@
 
     function autoDetectTags(cell) {
       if (!cell || !cell.name) return;
+      cell.elementTag = "";
+      if (typeof SET_ROOMS !== 'undefined' && SET_ROOMS["GENERIC"] && SET_ROOMS["GENERIC"].includes(cell.name)) return;
       const n = cell.name;
       if (n.includes("Magma") || n.includes("Horno") || n.includes("Antorchas") || n.includes("Forja") || n.includes("Caldera") || n.includes("Vapor")) cell.elementTag = "FIRE";
       else if (n.includes("Cisterna") || n.includes("Agua") || n.includes("Acuífero") || n.includes("Esclusas") || n.includes("Balsas") || n.includes("Hidráulico")) cell.elementTag = "WATER";
@@ -966,7 +968,7 @@
         "⚖️ Báscula de Contrapesos", "⚙️ Clave de Engranajes Murales", "🕯️ Puerta de la Fundición Fría",
         "🕸️ Galería de Cuerdas Tensadas", "⏱️ Taller de Relojería Rúnica", "📜 Archivo de Tablillas Rascadas",
         "🔮 Umbral de Decodificación Arcana", "🎭 Relieve del Eco Espectral Parlante", "👥 Puerta del Cristal de Espinas Sumiso",
-        "🌿 Umbral de Vides Sensibles", "👁️ Relieve de Miradas Cambiantes", "🎲 Sala del Dado de Basaltos",
+        "👁️ Relieve de Miradas Cambiantes", "🎲 Sala del Dado Arcano",
         "🩸 Altar del Sacrificio Arcano", "📜 Mercado Espectral de Minos",
         "⚙️ Interruptor Rúnico (Conmutador Peg)", "🧊 Pasaje de Bloques Azules", "🟥 Cámara de Bloques Rojos",
         "🗝️ Sello del Molde de Llave", "⚖️ Consola de Inversión Gravitatoria", "🚪 Bóveda de Salida"
@@ -993,7 +995,7 @@
       "LIFE": [
         "🌱 El Invernadero del Hongo Trampolín", "🌿 La Compuerta de Vides Arcanas", "🍄 El Invernadero de Esporas Durmientes",
         "🌸 El Jardín de la Flora Bioluminiscente", "🪷 El Bulbo Carnívoro del Núcleo",
-        "🍄 Invernadero de Esporas", "🌿 Purificador Ambiental"
+        "🍄 Invernadero de Esporas", "🌿 Purificador Ambiental", "🌿 Umbral de Vides Sensibles"
       ],
       "LIGHT": [
         "☀️ La Galería de los Espejos en Cadena", "🌌 La Cámara de las Sombras Cuánticas", "👁️ La Sala de la Perspectiva Anamórfica",
