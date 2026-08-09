@@ -408,7 +408,7 @@
 
     .door-open { background-color: #10b981; }
     .door-locked { background-color: #f59e0b; }
-    .door-wall { background-color: transparent; }
+    .door-wall { background-color: #ef4444; }
 
     /* Inspector Panel */
     .inspector-panel {
@@ -777,7 +777,8 @@
       "🌿 Vides Sensibles [Naturaleza DC 13]",
       "👁️ Relieve Cambiante [Perspicacia DC 13]",
       "Rejilla de Hierro [Atajo Forma Gaseosa]",
-      "Sin Pasadizo (Muro Macizo)"
+      "Sin Pasadizo (Muro Macizo)",
+      "🧱 Muro Sólido (Bloqueado)"
     ];
 
     const SUBDUNGEONS = {
@@ -874,7 +875,10 @@
               const doorState = getDoorState(k, dir);
               if (doorState !== "Sin Pasadizo (Muro Macizo)") {
                 const doorInd = document.createElement('div');
-                doorInd.className = `door-indicator ${dir} ${doorState === 'Puerta Abierta de Par en Par' ? 'door-open' : 'door-locked'}`;
+                let dClass = 'door-locked';
+                if (doorState === 'Puerta Abierta de Par en Par') dClass = 'door-open';
+                else if (doorState === '🧱 Muro Sólido (Bloqueado)') dClass = 'door-wall';
+                doorInd.className = `door-indicator ${dir} ${dClass}`;
                 div.appendChild(doorInd);
               }
             });
@@ -1140,6 +1144,29 @@
         }
       }
 
+      // Conexiones de Adyacencia: Salas que acabaron tocándose en la rejilla
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k1 = `${r}${c}`;
+          if (gridData[k1].active) {
+            ['N', 'S', 'W', 'E'].forEach(dir => {
+              const k2 = getNeighborKey(k1, dir);
+              if (k2 && gridData[k2].active) {
+                const pairKey = getDoorPairKey(k1, k2);
+                if (!doorData[pairKey]) {
+                  // Probabilidad: 25% Muro Sólido (Rojo), 75% alguna conexión normal
+                  if (Math.random() < 0.25) {
+                    doorData[pairKey] = "🧱 Muro Sólido (Bloqueado)";
+                  } else {
+                    doorData[pairKey] = Math.random() < 0.65 ? "Puerta Abierta de Par en Par" : DOOR_TYPES[Math.floor(Math.random() * (DOOR_TYPES.length - 2))];
+                  }
+                }
+              }
+            });
+          }
+        });
+      });
+
       const startR = ROWS.indexOf(startKey[0]);
       const startC = parseInt(startKey[1]);
 
@@ -1323,7 +1350,9 @@
               const nKey = getNeighborKey(k, dir);
               if (nKey && gridData[nKey].active) {
                 const doorVal = getDoorState(k, dir);
-                log += `  └─ (${dir}) -> [${nKey}] ${gridData[nKey].name} | ESTADO: ${doorVal}\n`;
+                let stateStr = doorVal;
+                if (doorVal === "🧱 Muro Sólido (Bloqueado)") stateStr = "❌ MURO SÓLIDO (BLOQUEADO)";
+                log += `  └─ (${dir}) -> [${nKey}] ${gridData[nKey].name} | ESTADO: ${stateStr}\n`;
               }
             });
             if (cell.notes) log += `     NOTAS / CAUSALIDAD: ${cell.notes}\n`;
