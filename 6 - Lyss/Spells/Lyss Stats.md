@@ -24,12 +24,12 @@ d20 Base to HIT
 | **CHA** | 8   | -1  |
 
 
-INVENTORY
-- Scrolls - Se pueden aprender y vender
+INVENTORY-
+- **Scrolls** - Se pueden aprender y vender
 
-WARFORGED
-- Construct Resilience. You have **Resistance to Poison damage**. You also have Advantage on saving throws to avoid or end the Poisoned condition.
-- +1AC (accounted for)
+WARFORGED-
+- **Construct Resilience**. You have **Resistance to Poison damage**. You also have Advantage on saving throws to avoid or end the Poisoned condition.
+- **+1AC** (accounted for)
 - **Sentry's Rest**. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious.
 
 Proficiencies (+2) and Expertise (+4) 

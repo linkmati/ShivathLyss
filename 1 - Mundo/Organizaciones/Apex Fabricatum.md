@@ -3,10 +3,8 @@ The **Apex Fabricatum** is the most powerful and influential organization in 
 
 **Leadership and Structure**:
 
-  
-**- The Supreme Gearmaster**  is the highest authority, acting as both the political leader of Treftiel and the spiritual head of the Apex Fabricatum.
+- **The Supreme Gearmaster**  is the highest authority, acting as both the political leader of Treftiel and the spiritual head of the Apex Fabricatum.
 
-  
 - The **Council of High Gears** is composed of top leaders who oversee specific sectors of technology and society. Each **High Gear** is responsible for an essential area like manufacturing, energy, communication, biotech, and transport.
 
 - Beneath them are **Lesser Gears** and **Subgears**, who manage regional governance and specific technological projects.

@@ -1,20 +1,21 @@
-Unrelated
-- Preguntar lo de la pizarra, sin apuro tbd
+# Main
+- Ir al edge con un astral proyection al edge
+- Probar a leer la mente a [[Ate]]
+- Empezar Mizzium Apparatus mission
 
 En el casino cuando YO suba a nivel 6 Bladesinger Extra Attack
 - Maybe I can do it the Solipsis way
 
 ## Otros Spells Utiles
-- Mending 
 - Spellfire Flare
-- Shield
+- Shield - comprar 
 
 ## LEVEL 3 SPELLS
 
 FUNNY
 - Leomund's Tiny Hut rit - area to rest wherever
 - Phantom Steed rit - aura farm
-- Feign death rit - idk what for
+- Feign death rit - idk what for, funny though
 - Gaseous form - res to fisical, low movement
 - Summon X - funny too
 
@@ -22,7 +23,7 @@ In the Future TOO many uses of Bonus action may look into [[Time Credit|PTC]]
 
 LVL 5
 - Fireball yeah
-- Spirit Shroud* - budget Bestow curse, Necro Radiant Cold
+- Spirit Shroud* - budget Bestow curse pero me da 3 daños y ya que estare en la frontline o cerca de, Necro Radiant Cold
 - Counterspell no tengo tantos 3rd level spells me jodo
 
 LVL 6 - Manifest mind - activate it at start of day - takes BA to move
@@ -36,23 +37,3 @@ LVL 6 - Manifest mind - activate it at start of day - takes BA to move
 	- Conjure Constructs* - MA 3d6 force / 1d6+5 temp hp, immortal
 - Laeral's Silver Lance - Force dmg
 - Bestow Curse* - ***touch*** Action, more flexible, works on hit instead attack, only necrotic dmg
-
-
-# **3 prio items**
-Make +1 Arcane grimoire - 200GP + 10 Days
-https://5e.tools/items.html#%2b1%20arcane%20grimoire_tce
-
-Cloak of Protection - 200GP + 10Days
-+1 AC and Saving Throws
-
-Mizzium Apparatus - 200GP + 10Days
-Cast anything pretty much with arcana check
-
-
-Mind Sharpener - 200GP + 10 Days 
-- No con save
-- Need Jeweler
-https://5e.tools/items.html#mind%20sharpener_efa
-
-Rod of the pact keeper for Jose
-

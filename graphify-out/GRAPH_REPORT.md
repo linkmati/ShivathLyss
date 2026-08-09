@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-08-09)
 
 ## Corpus Check
-- 320 files · ~629,457 words
+- 320 files · ~631,698 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 5718 nodes · 14618 edges · 363 communities (311 shown, 52 thin omitted)
+- 5724 nodes · 14624 edges · 354 communities (302 shown, 52 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 1594 edges (avg confidence: 0.61)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e64f901e`
+- Built from commit: `35fcacff`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -91,7 +91,7 @@
 - .next
 - u$1
 - FileSuggestionModal
-- u$2
+- .onPointerDown
 - .harvestStyles
 - H
 - c$2
@@ -101,7 +101,7 @@
 - getLinkSuggestionsFiltered
 - xs
 - Combat Traits (Sistema Marcial de Arcadum)
-- b$4
+- .resolve
 - recordList
 - w0
 - m0
@@ -114,13 +114,13 @@
 - El Flujo Narrativo: De Principio a Fin
 - SuggestionModal
 - obsidian-excalidraw-plugin/manifest.json
-- SuggestionModal
+- .toJS
 - FASE 1: Dentro del Orbe (Mientras el agua hierve)
 - Hr
 - Nemorias.md
 - Suggester
 - 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room)
-- refresh
+- xk
 - 03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)
 - Wiki
 - s$7
@@ -141,13 +141,12 @@
 - 09. 🕯️ Puerta de la Fundición Fría
 - Marco de Referencia Metodológico para Diseño de Jefes (Boss Design Framework)
 - obsidian-git/manifest.json
-- b$4
-- getDataURL
+- CropImage
 - resolveTokenizedString
 - tinf_uncompress
 - 12. 📜 Archivo de Tablillas Rascadas
 - Deep Research Report: Momentos "Aha!" y Arquitectura de Salas de Metroidvanias Aplicados al Diseño de Dungeons
-- .render
+- makeCFFTable
 - changeThemeOfExcalidrawMD
 - Panteones.md
 - Káeon.md
@@ -157,7 +156,6 @@
 - Marcus Halberstram
 - Guía de Diseño: Dungeon Macro-Puzzle TTRPG (Zelda + Outer Wilds + Blue Prince)
 - Vitra
-- h$2
 - 16. 🌿 Umbral de Vides Sensibles
 - 18. ⚙️ Interruptor Rúnico (Conmutador Peg)
 - El Fragmento que Habla.md
@@ -168,7 +166,6 @@
 - 22. ⚖️ Consola de Inversión Gravitatoria
 - 01. 🟁 La Caldera de Escoria Magmática
 - 03. 🔥 La Galería de las Cuatro Antorchas
-- getElementMatrix
 - Deep Research Report: Narrativa No Lineal, Red de Rumores y Progresión por Conocimiento (Outer Wilds y la Metroidbrainia)
 - 04. 🔴 El Laberinto de Magma Fluido
 - 05. ♨️ La Grieta del Vapor Térmico
@@ -177,7 +174,6 @@
 - 06. 🔥 Horno de Fundición (Molde de Cera)
 - 07. 🌋 Horno Magmático Inferior
 - 01. 🌊 El Depósito de las Tres Cisternas
-- isPointOnText
 - Regla de Acumulación
 - CommandManager
 - addName
@@ -266,32 +262,27 @@
 - 03. 🌊 Arena de la Quimera Hidráulica (Guardián de Agua)
 - 04. 🌬️ Arena del Coloso del Vértice (Guardián de Aire)
 - 05. 🪨 Arena del Titán de Basalto (Guardián de Tierra)
-- ExcalidrawConfig
 - 06. 🍄 Arena del Botánico de Sombras (Guardián de Vida)
-- ScriptInstallPrompt
 - 07. 🪞 Arena del Espejismo de Cristal (Guardián de Luz)
 - 06. 🎲 Sala del Dado Arcano (Arcade Room)
 - 23. 🚪 Bóveda de Salida
 - 08. 🚰 Esclusa de Salida (Portón Final)
 - .harvestStyles
-- ImportSVGDialog
+- CropImage
 - renderLinkSuggestion
+- .onloadOnLayoutReady
+- InsertPDFModal
 - s$7
-- getTags
-- s$7
-- YAMLWarning
-- ModifierKeySettingsComponent
-- .parse
-- xk
-- InsertCommandDialog
+- .constructor
+- getElementMatrix
+- u$1
+- .getSuggestions
 - u$2
-- s$7
-- stringifyProps
 - b$4
-- .updateSceneTextElements
-- EmbeddalbeMDFileCustomDataSettingsComponent
-- CommandManager
-- UIModeSettingsComponent
+- .addMarkdownPostProcessor
+- filterAttrsToElementValues
+- getTags
+- pa
 
 ## God Nodes (most connected - your core abstractions)
 1. `ExcalidrawAutomate` - 365 edges
@@ -306,7 +297,7 @@
 10. `t()` - 107 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `WT()` --indirect_call--> `l()`  [INFERRED]
+- `g8()` --indirect_call--> `t()`  [INFERRED]
   .obsidian/plugins/obsidian-git/main.js → .obsidian/plugins/obsidian-excalidraw-plugin/main.js
 - `generateDungeon()` --indirect_call--> `nk()`  [INFERRED]
   script_clean2.js → .obsidian/plugins/obsidian-git/main.js
@@ -320,19 +311,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (363 total, 52 thin omitted)
+## Communities (354 total, 52 thin omitted)
 
 ### Community 0 - "obsidian-excalidraw-plugin/main.js"
 Cohesion: 0.01
-Nodes (237): allwaysPassedUseAttrs, anyModifierKeysPressed(), applyArabicPresentationForms(), applyArabicRequireLigatures(), applyLatinLigatures(), attrHandlers, binary, boolTag (+229 more)
+Nodes (285): a$7(), allwaysPassedUseAttrs, anyModifierKeysPressed(), applyArabicPresentationForms(), applyArabicRequireLigatures(), applyLatinLigatures(), attrHandlers, binary (+277 more)
 
 ### Community 1 - "obsidian-git/main.js"
 Cohesion: 0.01
-Nodes (273): $1(), A2(), a5(), AC(), activateCodeMirrorExtensions(), activateFeature(), activateLineAuthoring(), addLineAuthorInfoSettings() (+265 more)
+Nodes (318): $1(), A2(), a5(), AC(), activateCodeMirrorExtensions(), activateFeature(), activateLineAuthoring(), addLineAuthorInfoSettings() (+310 more)
 
 ### Community 2 - "ExcalidrawView"
-Cohesion: 0.03
-Nodes (19): calculateUIModeValue(), configurePasswordTextInput(), deleteAppStateKeys(), excalidrawSword(), ExcalidrawView, exportImageToFile(), exportSVGToClipboard(), getExcalidrawViews() (+11 more)
+Cohesion: 0.02
+Nodes (35): arrayToMap(), calculateUIModeValue(), deleteAppStateKeys(), ExcalidrawView, getBoundTextElementId(), _getContainerElement(), getElementsAtPointer(), getElementWithLinkAtPointer() (+27 more)
 
 ### Community 3 - "n"
 Cohesion: 0.07
@@ -340,43 +331,39 @@ Nodes (55): nk(), ALIGNMENTS, autoDetectTags(), ALIGNMENTS, autoDetectTags(), CO
 
 ### Community 4 - "ExcalidrawAutomate"
 Cohesion: 0.03
-Nodes (34): ALIGNRP(), editorInsertText(), ensureActiveScriptSettingsObject(), errorMessage(), estimateLineBound(), ExcalidrawAutomate, extractCodeBlocks(), FDEF() (+26 more)
+Nodes (38): ALIGNRP(), download(), editorInsertText(), ensureActiveScriptSettingsObject(), errorMessage(), estimateLineBound(), ExcalidrawAutomate, exportPNG() (+30 more)
 
 ### Community 5 - "t$d"
 Cohesion: 0.04
-Nodes (29): addYouTubeThumbnail(), AIModelConfigModal, AIProviderProfileModal, checkExcalidrawVersion(), checkScriptUpdates(), COLOR_NAMES, configurePasswordTextInput$1(), displayFontMessage() (+21 more)
+Nodes (22): AIModelConfigModal, AIProviderProfileModal, checkExcalidrawVersion(), checkScriptUpdates(), createSliderWithText(), displayFontMessage(), EmbeddableSettings, ExportDialog (+14 more)
 
 ### Community 6 - ".registerCommands"
-Cohesion: 0.09
-Nodes (24): addBackOfTheNoteCard(), addFiles(), ANIMATED_IMAGE_TYPES, captureScreenshot(), carveOutImage(), carveOutPDF(), cloneElement$1(), createImageCropperFile() (+16 more)
-
-### Community 7 - "getTemplate"
-Cohesion: 0.09
-Nodes (18): arrayToMap(), getBoundTextElementId(), _getContainerElement(), getElementsAtPointer(), getElementWithLinkAtPointer(), getExcalidrawFileForwardLinks(), getImageElementAtPointer(), getLinkFromMarkdownLink() (+10 more)
+Cohesion: 0.07
+Nodes (38): addBackOfTheNoteCard(), ANIMATED_IMAGE_TYPES, captureScreenshot(), carveOutImage(), carveOutPDF(), cloneElement$1(), createImageCropperFile(), createOrOverwriteFile() (+30 more)
 
 ### Community 8 - "getBoundingClientRect"
-Cohesion: 0.15
-Nodes (21): arrow(), computeAutoPlacement(), computeOffsets(), computeStyles(), distanceAndSkiddingToXY(), flip(), getAltAxis(), getBasePlacement() (+13 more)
+Cohesion: 0.11
+Nodes (14): contains(), emulateKeysForLinkClick(), getLeaf(), getLeafLoc(), getNewOrAdjacentLeaf(), getParentOfClass(), NewFileActions, openLeaf() (+6 more)
 
 ### Community 9 - "ExcalidrawData"
-Cohesion: 0.24
-Nodes (3): EMBEDDABLE_THEME_FRONTMATTER_VALUES, isVersionNewerThanOther$1(), updateElementIdsInScene()
+Cohesion: 0.18
+Nodes (6): AUDIO_TYPES, CODE_TYPES, FileSuggestionModal, predictViewType(), renderLinkSuggestion(), VIDEO_TYPES
 
 ### Community 10 - "RenderObsidianView"
-Cohesion: 0.11
-Nodes (6): blobToBase64(), createPNG(), CropImage, mapToXY(), replaceBlobWithBase64(), Taskbone
+Cohesion: 0.04
+Nodes (56): adaptTextForFakeCommit(), bv(), c5(), computeDom(), createHtmlNode(), D2(), D5(), da() (+48 more)
 
 ### Community 11 - "rgb2css"
 Cohesion: 0.05
 Nodes (44): Color, compand(), css2rgb(), gammaAdjustSRGB(), getLabWhitePoint(), hcl2rgb(), hsl2css(), hsl2rgb() (+36 more)
 
 ### Community 12 - ".push"
-Cohesion: 0.03
-Nodes (132): ABS(), absolutize(), ADD(), addSegment(), addTerminatorSegment(), AND(), arcToCubicCurves(), arrayPushArray() (+124 more)
+Cohesion: 0.02
+Nodes (144): ABS(), absolutize(), ADD(), addSegment(), addTerminatorSegment(), AND(), arcToCubicCurves(), arrayPushArray() (+136 more)
 
 ### Community 13 - "O"
 Cohesion: 0.06
-Nodes (12): activate(), Bw(), Ec(), jt(), k0(), lD(), na(), O() (+4 more)
+Nodes (13): activate(), Bw(), Ec(), jt(), k0(), lD(), na(), O() (+5 more)
 
 ### Community 14 - "join"
 Cohesion: 0.05
@@ -387,88 +374,80 @@ Cohesion: 0.07
 Nodes (26): ABILITY, DIVINITY, EVENT, FACTION, ITEM, Level 0 Spells, Level 1 Spells, Level 2 Spells (+18 more)
 
 ### Community 17 - "DropManager"
-Cohesion: 0.38
-Nodes (3): getAllWindowDocuments(), setStyleText(), StylesManager
+Cohesion: 0.21
+Nodes (6): clsx(), ObsidianMenu, penIcon(), r$d(), resetStrokeOptions(), setPen()
 
 ### Community 18 - "createPairs"
-Cohesion: 0.17
-Nodes (17): _accumulate(), byte(), chunk(), eof(), fromIdx(), jR(), _loadnext(), _moveCursor() (+9 more)
+Cohesion: 0.06
+Nodes (35): cloneKnownAIImageModelCapabilities(), cloneKnownAIProviderProfiles(), cloneModelConfigs(), constructor(), decodeBase64(), decodeObfuscatedAPIKeyPayload(), decryptPersistedAPIKeys(), decryptProviderProfiles() (+27 more)
 
 ### Community 19 - ".display"
-Cohesion: 0.10
-Nodes (11): cleanBlockRef(), cleanSectionHeading(), EmbeddableMenu, getActivePDFPageNumberFromPDFView(), getLinkParts$1(), getTransclusion(), isHeadingBlockEntry(), isParagraphLikeBlockEntry() (+3 more)
+Cohesion: 0.14
+Nodes (6): cleanSectionHeading(), EmbeddableMenu, getActivePDFPageNumberFromPDFView(), isHeadingBlockEntry(), isParagraphLikeBlockEntry(), MD_EX_SECTIONS
 
 ### Community 20 - "ExcalidrawPlugin"
-Cohesion: 0.05
-Nodes (8): clearMathJaxVariables(), ExcalidrawPlugin, hoverEvent(), initExcalidrawAutomate(), initializeMarkdownPostProcessor(), setExcalidrawPlugin(), setRootElementSize(), terminateCompressionWorker()
+Cohesion: 0.06
+Nodes (3): emulateCTRLClickForLinks(), ExcalidrawPlugin, setExcalidrawPlugin()
 
 ### Community 21 - "FloatingModal"
-Cohesion: 0.12
-Nodes (4): findPair(), stringifyCollection(), YAMLMap, YAMLSet
+Cohesion: 0.08
+Nodes (17): c$6(), debounce(), Epsilon$1(), fromValues(), getPathDefinition(), i(), i$6(), _interopNamespaceDefault() (+9 more)
+
+### Community 22 - ".isExcalidrawFile"
+Cohesion: 0.13
+Nodes (22): AE(), B3(), constructor(), create(), cw(), dispatch(), fA(), _initCache() (+14 more)
 
 ### Community 23 - "argument"
-Cohesion: 0.06
-Nodes (38): argument(), buildPath(), defineDependentProperty(), end(), escapeRegex(), fail(), getContours(), getPath() (+30 more)
+Cohesion: 0.05
+Nodes (42): argument(), average(), buildPath(), computeCheckSum(), defineDependentProperty(), end(), fail(), fontToSfntTable() (+34 more)
 
 ### Community 25 - "dR"
-Cohesion: 0.05
-Nodes (56): $0(), $2(), add(), addEventListener(), _addPattern(), AE(), apply(), B3() (+48 more)
+Cohesion: 0.06
+Nodes (55): e$d, applyPatch(), bk(), Bn(), consider(), copy(), deleteRef(), eB() (+47 more)
 
 ### Community 26 - "getRepo"
 Cohesion: 0.03
-Nodes (158): _8(), addAskPassScriptToExclude(), addFileToGitignore(), addTask(), applyPatch(), av(), beforeSaveSettings(), blame() (+150 more)
+Nodes (162): _8(), addAskPassScriptToExclude(), addFileToGitignore(), addTask(), askpass(), av(), beforeSaveSettings(), blame() (+154 more)
 
 ### Community 27 - "Document"
-Cohesion: 0.08
-Nodes (32): composeAlias(), composeCollection(), composeDoc(), composeEmptyNode(), composeNode(), Composer, composeScalar(), containsNewline() (+24 more)
-
-### Community 28 - "FD"
-Cohesion: 0.10
-Nodes (22): alphaTo(), createSliderWithText(), darkerBy(), EmbeddedFilesLoader, errorlog(), generateIdFromFile(), getBinaryFileFromDataURL(), getDataURLFromURL() (+14 more)
+Cohesion: 0.23
+Nodes (8): alphaTo(), COLOR_NAMES, darkerBy(), getHighlightColor(), getYouTubeStartAt(), lighterBy(), setDynamicStyle(), stringHEX()
 
 ### Community 29 - "e"
-Cohesion: 0.16
-Nodes (6): applyReviver(), createPairs(), hasAnchor(), NodeBase, toJS(), YAMLOMap
-
-### Community 30 - "createEventHandlers"
-Cohesion: 0.21
-Nodes (5): assertCollection(), Collection, collectionFromPath(), isCollection(), isEmptyPath()
-
-### Community 32 - "stringify$1"
-Cohesion: 0.14
-Nodes (16): addCommentBefore(), addPairToJSMap(), clone(), createStringifyContext(), indentComment(), isMergeKey(), isNode(), lineComment() (+8 more)
+Cohesion: 0.22
+Nodes (5): getCJKDataURLs(), getFontDataURL(), getFontMetrics(), matchesCJKRange(), promiseTry()
 
 ### Community 34 - "ExcalidrawSidepanelTab"
 Cohesion: 0.15
 Nodes (12): Actions:, Bonus Actions:, Concentration:, Intercept:, Lunge:, Pass:, Pick Up:, Reactions: (+4 more)
 
 ### Community 35 - "Lexer"
-Cohesion: 0.11
-Nodes (10): dedupe(), FieldSuggester, fileShouldDefaultAsExcalidraw(), foldExcalidrawSection(), GenericSuggester, isCallerFromTemplaterPlugin(), isEmpty(), isNotAnchorChar() (+2 more)
+Cohesion: 0.17
+Nodes (10): around(), around1(), dedupe(), fileShouldDefaultAsExcalidraw(), foldExcalidrawSection(), isCallerFromTemplaterPlugin(), isEmpty(), isNotAnchorChar() (+2 more)
 
 ### Community 36 - "ImageCache"
-Cohesion: 0.08
-Nodes (7): addSVGToImgSrc(), CommandManager, cropCanvas(), getKey(), getPDFCacheId(), getPDFDoc(), ImageCache
+Cohesion: 0.19
+Nodes (3): addSVGToImgSrc(), getKey(), ImageCache
+
+### Community 37 - ".renderButtons"
+Cohesion: 0.29
+Nodes (3): ActionButton, saveIcon(), stringToSVG()
 
 ### Community 38 - "log"
-Cohesion: 0.21
-Nodes (16): addMergeToJSMap(), callVisitor(), createNode(), findTagObject(), getAliasCount(), initVisitor(), isAlias(), isDocument() (+8 more)
+Cohesion: 0.12
+Nodes (9): cleanBlockRef(), EmbeddedFile, getEmbeddedFilenameParts$1(), getImageSize$1(), getLinkParts$1(), getTransclusion(), processLinkText(), promiseTry$1() (+1 more)
 
 ### Community 39 - "push"
-Cohesion: 0.06
-Nodes (21): cloneElement(), FloatingModal, getElementsWithLinkMatchingQuery(), getExcalidrawEmbeddedFilesFiletree(), getExcalidrawMarkdownHeader(), getExcalidrawMarkdownHeaderSection(), getImagesMatchingQuery(), getTemplate() (+13 more)
+Cohesion: 0.14
+Nodes (16): A6(), AP(), Aw(), CP(), f2(), H5(), kw(), lP() (+8 more)
 
 ### Community 40 - "Autumn"
 Cohesion: 0.08
 Nodes (25): Autumn, Eldritch Moons of Shivath: The Celestial Calendar, First Month, Day 10: Glowering Moon, First Month, Day 20: Shattered Moon (First Occurrence), First Month, Day 22: Sanguine Eclipse, First Month, Day 24: Glacial Moon, First Month, Day 25: Scorching Moon, First Month, Day 39: Shattered Moon (Third Occurrence) (+17 more)
 
-### Community 41 - "preventOverflow"
-Cohesion: 0.13
-Nodes (5): anchorNames(), createNodeAnchors(), createPair(), Directives, findNewAnchor()
-
-### Community 44 - ".onChooseItem"
-Cohesion: 0.22
-Nodes (5): clsx(), ObsidianMenu, penIcon(), r$d(), resetStrokeOptions()
+### Community 42 - "slice"
+Cohesion: 0.12
+Nodes (6): changeThemeOfExcalidrawMD(), compress(), getMarkdownDrawingSection(), isObsidianThemeDark(), JSON_parse(), PluginFileManager
 
 ### Community 45 - "addLineAuthorInfoSettings"
 Cohesion: 0.20
@@ -483,12 +462,12 @@ Cohesion: 0.13
 Nodes (14): 1. Guardianes de Área y Objetos Elementales de Subdungeon, 2. BOSS FINAL: El Juicio de Minos (Equilibrio de Nivel Fijo), 3. Mecánica Detallada de los Orbes Elementales (Xenoblade 2 System), A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica), A. Generación de Orbes (Orb Stacking), B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida), B. Rompimiento de Orbes (Elemental Countering), C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos) (+6 more)
 
 ### Community 48 - "preventOverflow"
-Cohesion: 0.07
-Nodes (12): contains(), EventManager, getLeaf(), getLeafLoc(), getNewOrAdjacentLeaf(), getParentOfClass(), NewFileActions, openLeaf() (+4 more)
+Cohesion: 0.05
+Nodes (15): CANVAS_VIEWTYPES, CanvasNodeFactory, createLeaf(), CustomEmbeddable(), ExcalidrawSettingTab, EXTENDED_EVENT_TYPES, getContainerForDocument(), getTheme() (+7 more)
 
 ### Community 49 - "pull"
-Cohesion: 0.04
-Nodes (56): e$d, adaptTextForFakeCommit(), Bn(), c5(), computeDom(), consider(), createHtmlNode(), D2() (+48 more)
+Cohesion: 0.03
+Nodes (61): addCommentBefore(), addMergeToJSMap(), addPairToJSMap(), ALIAS, anchorIsValid(), anchorNames(), asItemIndex(), assertCollection() (+53 more)
 
 ### Community 50 - ".handleError"
 Cohesion: 0.16
@@ -514,10 +493,6 @@ Nodes (10): 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room), Acciones y Co
 Cohesion: 0.18
 Nodes (10): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
-### Community 57 - "Bn"
-Cohesion: 0.20
-Nodes (5): asItemIndex(), getTagObject(), isScalar(), isScalarValue(), YAMLSeq
-
 ### Community 58 - "contains"
 Cohesion: 0.25
 Nodes (8): 1. "Chispas" (El Vendedor Ambulante), 2. Boran (El Turista Frustrado), 3. Las Tuberías Expuestas, 4. Otros Rostros en la Multitud, Encuentros en el Camino (Roleplay y Ambientación), Escena: El Resort "Arenas Plateadas", Hacia el Estadio, La Atmósfera (La Mansión Decadente)
@@ -527,24 +502,24 @@ Cohesion: 0.18
 Nodes (10): 10. 🕸️ Galería de las Cuerdas Tensadas, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 60 - "bT"
-Cohesion: 0.17
-Nodes (11): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Non-Linear Zelda Hub Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Backtracking), Room 1: Atrio del Crisol Central (Hub Central - 3 Pisos), Room 2: 🧩 Ala Este: Celdas Volcánicas & Rescate del Anciano Goron (OoT / TP), Room 3: 🧩 Ala Oeste: El Laberinto de Muros de Fuego (OoT), Room 4: ⚔️ Cámara del Mini-Boss: Bailarín de Llama / Flare Dancer (OoT), Room 5: 🧩 Piso 2: Galería de las Frutas de Agua (Fire Sanctuary SS), Room 6: Piso 3: Cañón de Escoria Rodante & Atajo del Hub (Llave del Boss 👑) (+3 more)
+Cohesion: 0.15
+Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Non-Linear Zelda Hub Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Backtracking), Room 1: Atrio del Crisol Central (Hub Central - 3 Pisos), Room 2: 🧩 Ala Este: Celdas Volcánicas & Rescate del Anciano Goron (OoT / TP), Room 3: 🧩 Ala Oeste: El Laberinto de Muros de Fuego (OoT), Room 4: ⚔️ Cámara del Mini-Boss: Bailarín de Llama / Flare Dancer (OoT), Room 5: 🧩 Piso 2: Galería de las Frutas de Agua (Fire Sanctuary SS), Room 6: Piso 3: Cañón de Escoria Rodante & Atajo del Hub (Llave del Boss 👑) (+4 more)
 
 ### Community 62 - "Hr"
-Cohesion: 0.17
-Nodes (11): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Ancient Cistern Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Water Level Manipulations), Room 1: La Gran Estatua de Loto (Hub Central Dual), Room 2: 🧩 Ala Este: Galería de las Núfares Flotantes (SS), Room 3: Ala Oeste: Esclusa del Canal Dorado, Room 4: ⚔️ Cámara del Mini-Boss: Guardián de Latón de Cuatro Brazos (SS), Room 5: 🧩 Foso Inferior: Caída al Submundo Cursado & Hilo de Seda (SS), Room 6: El Laberinto de Hilos y Turbinas (Llave del Boss 👑) (+3 more)
+Cohesion: 0.15
+Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Ancient Cistern Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Water Level Manipulations), Room 1: La Gran Estatua de Loto (Hub Central Dual), Room 2: 🧩 Ala Este: Galería de las Núfares Flotantes (SS), Room 3: Ala Oeste: Esclusa del Canal Dorado, Room 4: ⚔️ Cámara del Mini-Boss: Guardián de Latón de Cuatro Brazos (SS), Room 5: 🧩 Foso Inferior: Caída al Submundo Cursado & Hilo de Seda (SS), Room 6: El Laberinto de Hilos y Turbinas (Llave del Boss 👑) (+4 more)
 
 ### Community 63 - ".getViewType"
-Cohesion: 0.08
-Nodes (43): applyStyles(), clamp(), ContentSearcher, detectOverflow(), effect(), effect$2(), escapeRegExp(), expandToHashMap() (+35 more)
+Cohesion: 0.06
+Nodes (68): applyStyles(), areValidElements(), arrow(), clamp(), computeAutoPlacement(), computeOffsets(), computeStyles(), detectOverflow() (+60 more)
 
 ### Community 64 - "CropImage"
 Cohesion: 0.18
 Nodes (10): 11. ⏱️ Taller de Relojería Rúnica, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 65 - ".resolve"
-Cohesion: 0.14
-Nodes (13): diagramToHTML(), errorHTML(), extractDiagramHTML(), getDataURL(), getDiagramToHTMLFinishReason(), getFontDataURL(), getFontDataURL$1(), isDiagramToHTMLDebugEnabled() (+5 more)
+Cohesion: 0.22
+Nodes (9): diagramToHTML(), extractDiagramHTML(), getDiagramToHTMLFinishReason(), isDiagramToHTMLDebugEnabled(), isMaxTokenFinishReason(), logDiagramToHTMLDebug(), shouldRetryDiagramToHTML(), stringifyDiagramDebugValue() (+1 more)
 
 ### Community 66 - "_s"
 Cohesion: 0.18
@@ -555,8 +530,8 @@ Cohesion: 0.29
 Nodes (7): 1. Nivel de Superficie: El Silencio Industrial, 2. El Descenso (La Escotilla), 3. Nivel Subterráneo: El Laboratorio Inundado, 4. El Clímax: La Oferta del Anvil Consortium, Escena: La Planta y El Laboratorio Subterráneo, Explorando la Superficie, La Zona Cero
 
 ### Community 68 - "Group"
-Cohesion: 0.17
-Nodes (11): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (City in the Sky Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Vertical Navigation), Room 1: Atrio del Navío Celestial (Hub Vertical), Room 2: 🧩 Ala Proa: Torre de Ventiladores Exteriores (TotK), Room 3: Ala Oeste: El Puente del Viento Cruzado, Room 4: ⚔️ Cámara del Mini-Boss: Dragonante de Latón (TP), Room 5: 🧩 Ala Popa: Trampolines en Velas Celestiales (TotK), Room 6: Piso 3: Cámara del Motor Central (Llave del Boss 👑) (+3 more)
+Cohesion: 0.15
+Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (City in the Sky Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Vertical Navigation), Room 1: Atrio del Navío Celestial (Hub Vertical), Room 2: 🧩 Ala Proa: Torre de Ventiladores Exteriores (TotK), Room 3: Ala Oeste: El Puente del Viento Cruzado, Room 4: ⚔️ Cámara del Mini-Boss: Dragonante de Latón (TP), Room 5: 🧩 Ala Popa: Trampolines en Velas Celestiales (TotK), Room 6: Piso 3: Cámara del Motor Central (Llave del Boss 👑) (+4 more)
 
 ### Community 69 - "makeCFFTable"
 Cohesion: 0.22
@@ -568,7 +543,7 @@ Nodes (10): 17. 👁️ Relieve de Miradas Cambiantes, Acciones y Comprobaciones
 
 ### Community 71 - "requestAI"
 Cohesion: 0.04
-Nodes (67): analyzeAIImage(), applyOutgoingTokenBudget(), buildGenerateAIImageResult(), buildMultipartFormBody(), buildNormalizedMessages(), cloneAIRequestMessage(), cloneAIRequestMessageContent(), concatUint8Arrays() (+59 more)
+Nodes (83): AI_BASE_URL_SUFFIXES, analyzeAIImage(), applyOutgoingTokenBudget(), buildGenerateAIImageResult(), buildMultipartFormBody(), buildNormalizedMessages(), cloneAIRequestMessage(), cloneAIRequestMessageContent() (+75 more)
 
 ### Community 72 - "renderButtons"
 Cohesion: 0.33
@@ -582,17 +557,9 @@ Nodes (18): 1. Nifl: Conservación y Estasis (Lado Frío), 2. Muspel: Generació
 Cohesion: 0.18
 Nodes (10): 02. 🌋 El Horno de Enfriamiento Térmico, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
-### Community 75 - "u$1"
-Cohesion: 0.04
-Nodes (49): a$3(), addStringToPool(), areValidElements(), around(), around1(), attachOutsideHandlers(), c$3(), c$6() (+41 more)
-
 ### Community 76 - "FileSuggestionModal"
-Cohesion: 0.20
-Nodes (6): AUDIO_TYPES, CODE_TYPES, FileSuggestionModal, predictViewType(), renderLinkSuggestion(), VIDEO_TYPES
-
-### Community 77 - "u$2"
-Cohesion: 0.20
-Nodes (12): encodeString(), equals(), makeCFFTable(), makeCharsets(), makeDict(), makeGlobalSubrIndex(), makeHeader(), makeNameIndex() (+4 more)
+Cohesion: 0.17
+Nodes (16): addGlyphNames(), addGlyphNamesAll(), addGlyphNamesToUnicodeMap(), getTag(), getULong(), getUShort(), loadFromFile(), loadSync() (+8 more)
 
 ### Community 78 - ".harvestStyles"
 Cohesion: 0.33
@@ -603,20 +570,20 @@ Cohesion: 0.33
 Nodes (6): "Aleta" — Ex-jugadora de Blitzball, Socorrista, Dex — Corredor de Apuestas, Dr. Kael Sable — Médico de Guardia, NPCs de la Playa Arenas Plateadas, Pip — Niño del Resort, Sgt. Morrow — Seguridad Privada del Resort
 
 ### Community 80 - "c$2"
-Cohesion: 0.14
-Nodes (13): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Snowhead Complex Multi-Floor Layout), 🏛️ Recorrido Verbatim Sala por Sala con Puzles e Interconexiones, Room 10: 💀 Boss Final: Goht / El Titán de Basalto (Snowhead MM), Room 1: Base del Pilar Central (Hub Central - 4 Pisos - Piso 1), Room 2: 🧩 Ala Este (Piso 1): Catacumbas de Basalto (OoT / MM), Room 3: 🧩 Ala Oeste (Piso 1): Mina de Rieles y Vagoneras (TP / MM), Room 4: ⚔️ Mini-Boss (Piso 2): Armería Norte (Armos de la Cumbre MM), Room 5: 🧩 Base del Hub (Piso 1): Primer Smash al Pilar Central (Snowhead MM) (+5 more)
+Cohesion: 0.12
+Nodes (15): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Snowhead Complex Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Spatial Mechanics), Room 10: 🔒 Portón de la Cumbre Tectónica (Piso 3), Room 11: 💀 Boss Final: Goht / El Titán de Basalto (Snowhead MM), Room 1: Base del Pilar Central (Hub Central - 3 Pisos), Room 2: 🧩 Ala Este (Piso 1): Catacumbas de Basalto (OoT / MM), Room 3: 🧩 Ala Oeste (Piso 1): Mina de Rieles y Vagoneras (TP / MM), Room 4: 🧩 Foso Tectónico Subterráneo (Piso B1 - Pasaje Secreto) (+7 more)
 
 ### Community 81 - "ObserverManager"
-Cohesion: 0.17
-Nodes (11): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Great Deku Tree Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Tree Drops), Room 1: El Gran Tronco Hueco (Hub 3 Pisos - Planta Baja), Room 2: 🧩 Ala Dosel: Galería de los Matorrales Deku (OoT), Room 3: Ala Norte: Cúpula de la Tela de Araña Central, Room 4: ⚔️ Cámara del Mini-Boss: Reina Deku Baba (OoT), Room 5: 🧩 Balcón del Dosel: Caída de Fe sobre la Tela (OoT), Room 6: Nivel Inferior: Estanque de Savia & Bulbo Kalle Demos (Llave del Boss 👑) (+3 more)
+Cohesion: 0.15
+Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Great Deku Tree Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Tree Drops), Room 1: El Gran Tronco Hueco (Hub 3 Pisos - Planta Baja), Room 2: 🧩 Ala Dosel: Galería de los Matorrales Deku (OoT), Room 3: Ala Norte: Cúpula de la Tela de Araña Central, Room 4: ⚔️ Cámara del Mini-Boss: Reina Deku Baba (OoT), Room 5: 🧩 Balcón del Dosel: Caída de Fe sobre la Tela (OoT), Room 6: Nivel Inferior: Estanque de Savia & Bulbo Kalle Demos (Llave del Boss 👑) (+4 more)
 
 ### Community 82 - "Como conectan Shivath y Owners"
 Cohesion: 0.12
 Nodes (19): Auryn, Calyra, Como conectan Shivath y Owners, Dioses, Eldarionne, Eras, Kami, Káeon y Nameka (+11 more)
 
 ### Community 83 - ".onOpen"
-Cohesion: 0.05
-Nodes (43): addFilterToForeignObjects(), convertSVGStringToElement(), createFileAndAwaitMetacacheUpdate(), createImageDiv(), createImgElement(), createSVG(), filterFiles(), getDefaultHeight() (+35 more)
+Cohesion: 0.09
+Nodes (24): blobToBase64(), cropCanvas(), EmbeddedFilesLoader, getBinaryFileFromDataURL(), getDataURL(), getDataURLFromURL(), getExportPadding$1(), getExportTheme$1() (+16 more)
 
 ### Community 84 - "getLinkSuggestionsFiltered"
 Cohesion: 0.22
@@ -630,17 +597,13 @@ Nodes (8): 1. Bucle de Juego y Estructura de Subdungeons, 2. Persistencia Total 
 Cohesion: 0.13
 Nodes (14): Buffs, Clashing, Combat, Combat Traits (Sistema Marcial de Arcadum), Combo, Death, Debuffs, Healing (+6 more)
 
-### Community 88 - "b$4"
-Cohesion: 0.18
-Nodes (4): fuzzyMatchParagraphsWithId(), fuzzyMatchTextItems(), getSortedLinkMatches(), InsertMDDialog
-
 ### Community 89 - "recordList"
-Cohesion: 0.15
-Nodes (22): aD(), CD(), Cx(), $D(), dx(), ED(), FD(), Fr() (+14 more)
+Cohesion: 0.12
+Nodes (26): aD(), Ax(), CD(), $D(), dx(), ED(), FD(), Fr() (+18 more)
 
 ### Community 90 - "w0"
-Cohesion: 0.22
-Nodes (9): getExportPadding$1(), getExportTheme$1(), getSVGData(), getWithBackground$1(), hasExportBackground(), hasExportTheme$1(), isMaskFile$1(), replaceSVGColors() (+1 more)
+Cohesion: 0.09
+Nodes (16): cloneElement(), copyLinkToSelectedElementToClipboard(), FloatingModal, getElementsWithLinkMatchingQuery(), getExcalidrawMarkdownHeader(), getExcalidrawMarkdownHeaderSection(), getFrameBasedOnFrameNameOrId(), getTemplate() (+8 more)
 
 ### Community 91 - "m0"
 Cohesion: 0.40
@@ -658,9 +621,13 @@ Nodes (6): Celebración y Culto, Deidades Integrantes, Panteón Arkhantia, Anota
 Cohesion: 0.42
 Nodes (11): blockString(), consumeMoreIndentedLines(), containsDocumentMarker(), doubleQuotedString(), foldFlowLines(), getFoldOptions(), lineLengthOverLimit(), plainString() (+3 more)
 
+### Community 95 - "Group"
+Cohesion: 0.07
+Nodes (11): arrayToMap$1(), compressAsync(), EMBEDDABLE_THEME_FRONTMATTER_VALUES, ExcalidrawData, getMarkdownDrawingSectionAsync(), getMermaidImageElements(), getMermaidText(), getPDFRect() (+3 more)
+
 ### Community 96 - ".toJS"
-Cohesion: 0.12
-Nodes (15): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Spirit Temple Ultra-Complex Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Mechanics & No-Gate Guarantee), Room 10: Cámara de la Frente del Coloso (Piso 3 Secreta - Llave del Boss 👑), Room 11: 🔒 Portón del Santuario del Sol (Piso 3 Norte), Room 12: 💀 Boss Final: Twinrova / El Espejismo de Cristal (OoT), Room 1: Atrio del Coloso de la Diosa (Hub Master - 3 Pisos), Room 2: Foso Subterráneo de las Cobras (Piso B1 - Opcional / Atajo), Room 3: 🧩 Galería Anubis (Piso 1 Este - Puzle Posicional) (+7 more)
+Cohesion: 0.13
+Nodes (14): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Spirit Temple Complex Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Light Mechanics), Room 10: 💀 Boss Final: Twinrova / El Espejismo de Cristal (OoT), Room 1: Atrio del Coloso de la Diosa (Hub Master - 3 Pisos), Room 2: 🧩 Ala Sombras (Piso 1 Este): Galería Anubis (OoT / Spirit Temple), Room 3: 🧩 Foso Subterráneo de las Cobras (Piso B1 - Ruta Atajo), Room 4: 🧩 Cámara de las Sombras Cuánticas (Piso 2 Este - 🗝️1), Room 5: ⚔️ Armería del Coloso: Mini-Boss Iron Knuckle (OoT) (+6 more)
 
 ### Community 97 - "01. 👑 Sanctum 12: El Juicio de Minos (Reactor Central)"
 Cohesion: 0.18
@@ -694,9 +661,9 @@ Nodes (3): Deidades y Kami Integrantes, Panteón Nemorias (Panteón de Dho), Par
 Cohesion: 0.20
 Nodes (9): 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Botín, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
-### Community 107 - "refresh"
-Cohesion: 0.11
-Nodes (3): ImportSVGDialog, InsertImageDialog, VersionMismatchPrompt
+### Community 107 - "xk"
+Cohesion: 0.40
+Nodes (6): $0(), $2(), addEventListener(), r0(), w0(), z0()
 
 ### Community 108 - "03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)"
 Cohesion: 0.20
@@ -711,24 +678,24 @@ Cohesion: 0.12
 Nodes (16): 1. Contexto y Arquitectura de Diseño de Mazmorras, 2. Matriz Comparativa de las Salas y Secuencias Elite, 3.1. Stone Tower Temple: La Inversión del Mundo (*Majora's Mask*), 3.2. Ancient Cistern: La Escalada desde el Inframundo (*Skyward Sword*), 3.3. Water Temple: Sala de la Ilusión / Combat de Dark Link (*Ocarina of Time*), 3.4. Eagle's Tower: Colapso de Estructura 2D (*Link's Awakening*), 3.5. Sandship: Secuencia de Piedra del Tiempo (*Skyward Sword*), 3.6. Snowpeak Ruins: Cocina del Yeti (*Twilight Princess*) (+8 more)
 
 ### Community 111 - "Group"
-Cohesion: 0.05
-Nodes (76): AP(), Ax(), bd(), BR(), CP(), deleteSection(), e5(), eH() (+68 more)
+Cohesion: 0.03
+Nodes (120): aB(), _accumulate(), _addEntry(), Ag(), bd(), BR(), build(), byte() (+112 more)
 
 ### Community 112 - "Nairek.md"
 Cohesion: 0.22
 Nodes (5): Celebración y Culto, Deidades Integrantes, Panteón Aetérion, ¿Cómo se relacionan Nairek y [[Morierelth]]?, ¿Qué fue de Nairek tras formar la Black Thread?
 
 ### Community 113 - "EmbeddalbeMDFileCustomDataSettingsComponent"
-Cohesion: 0.04
-Nodes (58): applySubstitution(), arabicPresentationForms(), arabicRequiredLigatures(), arabicSentenceEndCheck(), arabicSentenceStartCheck(), arabicWordEndCheck(), arabicWordStartCheck(), average() (+50 more)
+Cohesion: 0.16
+Nodes (16): applySubstitution(), arabicPresentationForms(), arabicRequiredLigatures(), arabicSentenceEndCheck(), arabicSentenceStartCheck(), arabicWordEndCheck(), arabicWordStartCheck(), getContextParams() (+8 more)
 
 ### Community 114 - "showColorPicker"
-Cohesion: 0.12
-Nodes (20): addToPath(), aO(), append(), bs(), buildValues(), castInput(), diff(), diffWithOptionsObj() (+12 more)
+Cohesion: 0.40
+Nodes (4): attachOutsideHandlers(), getColors(), positionPopup(), showColorPicker()
 
 ### Community 115 - "b$4"
-Cohesion: 0.04
-Nodes (148): aB(), acquire(), _addEntry(), Ag(), ak(), AR(), aS(), askpass() (+140 more)
+Cohesion: 0.10
+Nodes (3): InsertCommandDialog, InsertImageDialog, VersionMismatchPrompt
 
 ### Community 116 - "_s"
 Cohesion: 0.20
@@ -741,6 +708,10 @@ Nodes (4): El Audio de los Altavoces, Escena: El Partido y los Comentaristas, La
 ### Community 118 - "Deep Research Report: Diseño de Niveles y Colocación de Enemigos (Dark Souls vs. The Binding of Isaac)"
 Cohesion: 0.14
 Nodes (13): 1. Matriz Comparativa: Dark Souls vs. The Binding of Isaac, 2.1. El Foso Claustrofóbico de Embestida (*Ejemplo: Capra Demon Arena en Dark Souls*), 2.2. El Fuego Cruzado en Pasillo Estrecho (*Ejemplo: Anor Londo Archers en Dark Souls*), 2.3. La Pinza de Torretas Estáticas y Perseguidores (*Ejemplo: Host + Fly Rooms en Isaac*), 2. Tipologías de Salas que Trabajan En Contra del Jugador (Salas Hostiles), 3.1. El Embudo del Cuello de Botella (*Chokepoint Design*), 3.2. La Trampa Reversible (*Ejemplo: Sen's Fortress en Dark Souls*), 3.3. Cobertura Estática y Destrucción Táctica (*Ejemplo: TNT y Rocas en Isaac*) (+5 more)
+
+### Community 119 - "InlineLinkSuggester"
+Cohesion: 0.18
+Nodes (3): InlineLinkSuggester, renderHeadingSuggestionRow(), renderParagraphSuggestionRow()
 
 ### Community 120 - "Wiki"
 Cohesion: 0.22
@@ -774,13 +745,9 @@ Nodes (8): 1. Taxonomía de Rasgos del Sistema (Core Trait Categories), 2. Estru
 Cohesion: 0.22
 Nodes (8): author, authorUrl, description, fundingUrl, id, isDesktopOnly, name, version
 
-### Community 128 - "b$4"
-Cohesion: 0.17
-Nodes (16): addGlyphNames(), addGlyphNamesAll(), addGlyphNamesToUnicodeMap(), getTag(), getULong(), getUShort(), loadFromFile(), loadSync() (+8 more)
-
-### Community 130 - "getDataURL"
-Cohesion: 0.17
-Nodes (3): HotkeyEditor, modifierLabel(), RankMessage
+### Community 128 - "CropImage"
+Cohesion: 0.60
+Nodes (5): Coverage(), FeatureList(), recordList(), ScriptList(), ushortList()
 
 ### Community 131 - "resolveTokenizedString"
 Cohesion: 0.32
@@ -797,10 +764,6 @@ Nodes (9): 12. 📜 Archivo de Tablillas Rascadas, Acciones y Comprobaciones, �
 ### Community 134 - "Deep Research Report: Momentos "Aha!" y Arquitectura de Salas de Metroidvanias Aplicados al Diseño de Dungeons"
 Cohesion: 0.15
 Nodes (12): 1. Clasificación de Patrones "Aha!" en Metroidvanias, 2. Matriz de Mecánicas de Metroidvania y su Aplicación a Dungeons, 3.1. La Sala del "Eco Temporal" (*Inspirado en Prince of Persia: The Lost Crown*), 3.2. La Sala de la Geometría Impresa (*Inspirado en Tunic*), 3.3. La Sala de la Transmutación Térmica / Fases del Agua (*Inspirado en Metroid Dread*), 3.4. La Sala de la Inercia y Retorno Magnético (*Inspirado en Metroid Dread Shinespark*), 3.5. La Sala de la Linterna Espectral / Capa UV (*Inspirado en Animal Well / Metroid Prime*), 3. Desglose de 5 Diseños de Salas "Aha!" para Mazmorras (+4 more)
-
-### Community 135 - ".render"
-Cohesion: 0.13
-Nodes (9): CANVAS_VIEWTYPES, CanvasNodeFactory, createLeaf(), CustomEmbeddable(), EXTENDED_EVENT_TYPES, getContainerForDocument(), getTheme(), KEYBOARD_EVENT_TYPES (+1 more)
 
 ### Community 137 - "Panteones.md"
 Cohesion: 0.17
@@ -829,10 +792,6 @@ Nodes (11): 1. El Tríptico de Diseño Centralizado, 2. Capa 1: Zelda - El Gran 
 ### Community 144 - "Vitra"
 Cohesion: 0.29
 Nodes (6): **Districts of Vitra**, **Life and Culture in Vitra**, **Society and Economy**, **Technology and Mercenaries**, Vitra, **Vitra: The City of a Thousand Lights**
-
-### Community 145 - "h$2"
-Cohesion: 0.33
-Nodes (7): c$8(), d$1(), f$1(), i$8(), p$1(), s$8(), u$6()
 
 ### Community 146 - "16. 🌿 Umbral de Vides Sensibles"
 Cohesion: 0.20
@@ -870,10 +829,6 @@ Nodes (9): 01. 🟁 La Caldera de Escoria Magmática, Acciones y Comprobaciones,
 Cohesion: 0.20
 Nodes (9): 03. 🔥 La Galería de las Cuatro Antorchas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos (+1 more)
 
-### Community 158 - "getElementMatrix"
-Cohesion: 0.60
-Nodes (5): create$1(), getElementMatrix(), getTransformMatrix(), multiply$1(), svgTransformToCSSTransform()
-
 ### Community 159 - "Deep Research Report: Narrativa No Lineal, Red de Rumores y Progresión por Conocimiento (Outer Wilds y la Metroidbrainia)"
 Cohesion: 0.22
 Nodes (8): 1. Matriz de Juegos de Progresión por Conocimiento (*Metroidbrainia*), 2. La Estructura del Grafo de Rumores (*Rumor Topology*), 3. Las 3 Capas de un Fragmento de Información Perfecto, 4. Aplicación Práctica a un Dungeon o Juego, 5. Referencias y Fuentes Consultadas, Deep Research Report: Narrativa No Lineal, Red de Rumores y Progresión por Conocimiento (Outer Wilds y la Metroidbrainia), Ejemplo Práctico (*Outer Wilds - Medusas en Giant's Deep*):, Executive Summary
@@ -890,6 +845,10 @@ Nodes (9): 05. ♨️ La Grieta del Vapor Térmico, Acciones y Comprobaciones, �
 Cohesion: 0.40
 Nodes (4): Cuaderno de Gogenheim/Paracelsus, Pizarra, Sala de [[Apex Fabricatum]], Sala Vieja
 
+### Community 163 - "FrontmatterEditor"
+Cohesion: 0.33
+Nodes (7): c$8(), d$1(), f$1(), i$8(), p$1(), s$8(), u$6()
+
 ### Community 164 - "06. 🔥 Horno de Fundición (Molde de Cera)"
 Cohesion: 0.20
 Nodes (9): 06. 🔥 Horno de Fundición (Molde de Cera), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
@@ -905,6 +864,10 @@ Nodes (9): 01. 🌊 El Depósito de las Tres Cisternas, Acciones y Comprobacione
 ### Community 168 - "Regla de Acumulación"
 Cohesion: 0.40
 Nodes (4): 🩸 Bleed (Sangrado), 🔥 Burn (Quemadura), Regla de Acumulación, Sistema de Estados Limbus Company (Burn & Bleed)
+
+### Community 169 - "CommandManager"
+Cohesion: 0.15
+Nodes (4): DropManager, internalDragModifierType(), localFileDragModifierType(), webbrowserDragModifierType()
 
 ### Community 170 - "addName"
 Cohesion: 0.67
@@ -943,16 +906,8 @@ Cohesion: 0.20
 Nodes (9): 06. 🌊 Cisterna Maestro (Control Hidráulico), Acciones y Comprobaciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 180 - "generateFileHtml"
-Cohesion: 0.07
-Nodes (121): a(), b(), c(), d(), e$3(), f(), f$2(), h() (+113 more)
-
-### Community 181 - "CropImage"
-Cohesion: 0.23
-Nodes (9): internalDragModifierType(), isSHIFT(), isWinALTorMacOPT(), isWinCTRLorMacCMD(), isWinMETAorMacCTRL(), localFileDragModifierType(), processModifiers(), scaleToFullsizeModifier() (+1 more)
-
-### Community 182 - "YAMLError"
-Cohesion: 0.11
-Nodes (4): LaTexPrompt, MultiOptionConfirmationPrompt, parser, PublishOutOfDateFilesDialog
+Cohesion: 0.06
+Nodes (148): b(), c(), d(), e$3(), f(), h(), s$6(), SegmentChainer$1() (+140 more)
 
 ### Community 183 - "07. 💧 Cámara de Filtros (Nivel Despejado)"
 Cohesion: 0.20
@@ -987,8 +942,8 @@ Cohesion: 0.20
 Nodes (9): 04. 🌀 La Cámara del Vacío Venturi, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 198 - "Xr"
-Cohesion: 0.04
-Nodes (112): c$2(), i$1(), n(), n$b(), r(), s$5(), t(), _6() (+104 more)
+Cohesion: 0.05
+Nodes (121): a(), c$2(), h$2(), hexa(), i$1(), Intersecter$1(), l(), l$1() (+113 more)
 
 ### Community 199 - "b$4"
 Cohesion: 0.13
@@ -1007,12 +962,12 @@ Cohesion: 0.20
 Nodes (9): 07. 🪶 Balcón de Salida, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 204 - ".onloadOnLayoutReady"
-Cohesion: 0.25
-Nodes (7): 🗺️ Mapa de Flujo No-Lineal del Sanctum Final (Ganon's Castle Hub Wings Layout), Phase 1: La Gran Puerta Hexagonal (Acceso), Phase 2: 🧩 Atrio Central y las Seis Alas Elementales Autónomas (Ganon's Castle OoT), Phase 3: 🧩 Desbloqueo de la Torre Central de Ascenso (OoT), Phase 4: 💀 Boss Final Verbatim: El Juicio de Minos (Ganon Core OoT / Xenoblade 2), 🏛️ Recorrido Verbatim por Fases y Navegación de Alas (DM Walkthrough), 👑 Sanctum 12: El Reactor Central de Minos (Layout Complejo y No-Lineal estilo Ganon's Castle)
+Cohesion: 0.22
+Nodes (8): 🗺️ Mapa de Flujo No-Lineal del Sanctum Final (Ganon's Castle Hub Wings Layout), Phase 1: La Gran Puerta Hexagonal (Acceso), Phase 2: 🧩 Atrio Central y las Seis Alas Elementales Autónomas (Ganon's Castle OoT), Phase 3: 🧩 Desbloqueo de la Torre Central de Ascenso (OoT), Phase 4: 💀 Boss Final Verbatim: El Juicio de Minos (Ganon Core OoT / Xenoblade 2), 🏛️ Recorrido Verbatim por Fases y Navegación de Alas (DM Walkthrough), 👑 Sanctum 12: El Reactor Central de Minos (Layout Complejo y No-Lineal estilo Ganon's Castle), 📊 Tabla Resumen de Progreso (Sistema Doble Opción)
 
 ### Community 205 - ".onOpen"
-Cohesion: 0.21
-Nodes (5): ExcalidrawLoading, getExcalidraAndMarkdowViewsForFile(), isUnwantedLeaf(), setFileToLocalGraph(), switchToExcalidraw()
+Cohesion: 0.24
+Nodes (4): ExcalidrawLoading, isUnwantedLeaf(), setFileToLocalGraph(), switchToExcalidraw()
 
 ### Community 208 - "08. 💨 Conducto Neumático"
 Cohesion: 0.20
@@ -1175,67 +1130,67 @@ Cohesion: 0.22
 Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
 
 ### Community 343 - ".harvestStyles"
-Cohesion: 0.04
-Nodes (67): AI_BASE_URL_SUFFIXES, changeThemeOfExcalidrawMD(), cloneKnownAIImageModelCapabilities(), cloneKnownAIProviderProfiles(), cloneModelConfigs(), constructor(), decodeBase64(), decodeObfuscatedAPIKeyPayload() (+59 more)
+Cohesion: 0.09
+Nodes (30): composeAlias(), composeCollection(), composeDoc(), composeEmptyNode(), composeNode(), Composer, composeScalar(), containsNewline() (+22 more)
 
-### Community 344 - "ImportSVGDialog"
-Cohesion: 0.12
-Nodes (7): getCJKDataURLs(), getFontMetrics(), getListOfTemplateFiles(), load(), matchesCJKRange(), OpenFileDialog, promiseTry()
+### Community 344 - "CropImage"
+Cohesion: 0.11
+Nodes (4): CropImage, log$2, mapToXY(), Taskbone
 
 ### Community 345 - "renderLinkSuggestion"
-Cohesion: 0.40
-Nodes (3): compress(), getMarkdownDrawingSection(), JSON_parse()
+Cohesion: 0.08
+Nodes (13): createFileAndAwaitMetacacheUpdate(), exportImageToFile(), exportToPDF(), getExportInternalLinks(), getExportTheme(), getMarginValue(), getPageDimensions(), getPNGScale() (+5 more)
 
-### Community 346 - "s$7"
-Cohesion: 0.29
-Nodes (3): ActionButton, saveIcon(), stringToSVG()
-
-### Community 349 - "s$7"
-Cohesion: 0.24
-Nodes (3): copyLinkToSelectedElementToClipboard(), LEGACY_AI_SETTING_KEYS, stripLegacyAISettings()
-
-### Community 350 - "YAMLWarning"
+### Community 346 - ".onloadOnLayoutReady"
 Cohesion: 0.18
-Nodes (5): compressAsync(), getMarkdownDrawingSectionAsync(), getMermaidImageElements(), getMermaidText(), runCompressionWorker()
+Nodes (4): initExcalidrawAutomate(), LEGACY_AI_SETTING_KEYS, setRootElementSize(), stripLegacyAISettings()
 
-### Community 353 - "xk"
-Cohesion: 0.50
-Nodes (3): getClientPoint(), isPointOnText(), pointInRect()
+### Community 347 - "InsertPDFModal"
+Cohesion: 0.04
+Nodes (56): addFiles(), addFilterToForeignObjects(), addYouTubeThumbnail(), applyReviver(), Collection, convertSVGStringToElement(), createImageDiv(), createImgElement() (+48 more)
 
-### Community 355 - "u$2"
+### Community 350 - ".constructor"
+Cohesion: 0.39
+Nodes (3): getAllWindowDocuments(), setStyleText(), StylesManager
+
+### Community 352 - "getElementMatrix"
+Cohesion: 0.60
+Nodes (5): create$1(), getElementMatrix(), getTransformMatrix(), multiply$1(), svgTransformToCSSTransform()
+
+### Community 355 - "u$1"
+Cohesion: 0.47
+Nodes (6): a$3(), c$3(), i$3(), o$3(), r$3(), u$1()
+
+### Community 356 - ".getSuggestions"
+Cohesion: 0.18
+Nodes (4): fuzzyMatchParagraphsWithId(), fuzzyMatchTextItems(), getSortedLinkMatches(), InsertMDDialog
+
+### Community 357 - "u$2"
 Cohesion: 0.47
 Nodes (6): c$4(), e$4(), o$4(), r$4(), s$4(), u$2()
 
-### Community 356 - "s$7"
-Cohesion: 0.50
-Nodes (5): a$7(), i$7(), o$7(), s$7(), u$5()
-
-### Community 357 - "stringifyProps"
-Cohesion: 0.40
-Nodes (3): ALIAS, anchorIsValid(), stringifyProps()
-
 ### Community 358 - "b$4"
-Cohesion: 0.50
-Nodes (5): b$4(), h$3(), l$4(), o$a(), v$1()
+Cohesion: 0.13
+Nodes (23): addStringToPool(), b$4(), f$2(), findSubArray(), getEncoding(), getLanguageCode(), h$3(), i$9() (+15 more)
 
-### Community 361 - "CommandManager"
-Cohesion: 0.15
-Nodes (11): createOrOverwriteFile(), download(), emulateCTRLClickForLinks(), EXPORT_TYPES, exportPNG(), format(), getAnnotationFileNameAndFolder(), getAttachmentsFolderAndFilePath() (+3 more)
+### Community 363 - "filterAttrsToElementValues"
+Cohesion: 0.50
+Nodes (5): filterAttrsToElementValues(), getGroupAttrs(), getNum(), presAttrs(), presAttrsToElementValues()
 
 ## Knowledge Gaps
-- **1096 isolated node(s):** `alwaysUpdateLinks`, `showInlineTitle`, `INITIAL_TIMESTAMP`, `{react, reactDOM }`, `excalidrawLib` (+1091 more)
+- **1095 isolated node(s):** `alwaysUpdateLinks`, `showInlineTitle`, `INITIAL_TIMESTAMP`, `{react, reactDOM }`, `excalidrawLib` (+1090 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **52 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ExcalidrawAutomate` connect `ExcalidrawAutomate` to `obsidian-excalidraw-plugin/main.js`, `getDataURL`, `ExcalidrawView`, `resolveTokenizedString`, `t$d`, `.registerCommands`, `getTemplate`, `getBoundingClientRect`, `.render`, `RenderObsidianView`, `rgb2css`, `.push`, `DropManager`, `.display`, `ExcalidrawPlugin`, `FloatingModal`, `.isExcalidrawFile`, `argument`, `Document`, `FD`, `e`, `H`, `stringify$1`, `ExcalidrawSidepanelView`, `Lexer`, `ImageCache`, `log`, `push`, `preventOverflow`, `addName`, `GenericInputPrompt`, `.onChooseItem`, `preventOverflow`, `.handleError`, `generateFileHtml`, `parseCFFTable`, `YAMLError`, `Bn`, `toBuffer`, `.getViewType`, `CropImage`, `.resolve`, `Xr`, `requestAI`, `b$4`, `u$1`, `FileSuggestionModal`, `.onOpen`, `.onOpen`, `.harvestStyles`, `b$4`, `renderLinkSuggestion`, `ImportSVGDialog`, `e$5`, `getTags`, `s$7`, `blockString`, `Group`, `.parse`, `YAMLWarning`, `SuggestionModal`, `CommandManager`, `Suggester`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `InlineLinkSuggester`?**
+- **Why does `ExcalidrawAutomate` connect `ExcalidrawAutomate` to `obsidian-excalidraw-plugin/main.js`, `ExcalidrawView`, `getDataURL`, `resolveTokenizedString`, `t$d`, `.registerCommands`, `makeCFFTable`, `getBoundingClientRect`, `ExcalidrawData`, `rgb2css`, `.push`, `DropManager`, `createPairs`, `.display`, `FloatingModal`, `argument`, `Document`, `e`, `createEventHandlers`, `H`, `ExcalidrawSidepanelView`, `Lexer`, `log`, `preventOverflow`, `slice`, `GenericInputPrompt`, `addName`, `preventOverflow`, `pull`, `.handleError`, `generateFileHtml`, `parseCFFTable`, `YAMLError`, `CropImage`, `.getViewType`, `.resolve`, `Xr`, `requestAI`, `b$4`, `.onOpen`, `.onOpen`, `.harvestStyles`, `CropImage`, `renderLinkSuggestion`, `w0`, `InsertPDFModal`, `blockString`, `Group`, `.constructor`, `.getSuggestions`, `Suggester`, `getTags`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `showColorPicker`, `InlineLinkSuggester`?**
   _High betweenness centrality (0.046) - this node is a cross-community bridge._
-- **Why does `n()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `ExcalidrawAutomate`, `t$d`, `.registerCommands`, `O`, `dR`, `getRepo`, `Document`, `e`, `stringify$1`, `Lexer`, `ImageCache`, `log`, `push`, `addName`, `.onChooseItem`, `preventOverflow`, `pull`, `generateFileHtml`, `parseCFFTable`, `Bn`, `.getViewType`, `.resolve`, `requestAI`, `u$1`, `.onOpen`, `.harvestStyles`, `b$4`, `ImportSVGDialog`, `s$7`, `recordList`, `blockString`, `YAMLWarning`, `SuggestionModal`, `CommandManager`, `Group`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `b$4`?**
+- **Why does `n()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `ExcalidrawAutomate`, `t$d`, `.registerCommands`, `getBoundingClientRect`, `RenderObsidianView`, `O`, `DropManager`, `createPairs`, `FloatingModal`, `.isExcalidrawFile`, `dR`, `getRepo`, `Lexer`, `ImageCache`, `.renderButtons`, `addName`, `pull`, `generateFileHtml`, `parseCFFTable`, `YAMLError`, `.getViewType`, `.resolve`, `requestAI`, `.harvestStyles`, `renderLinkSuggestion`, `w0`, `InsertPDFModal`, `recordList`, `blockString`, `.getSuggestions`, `b$4`, `Group`, `EmbeddalbeMDFileCustomDataSettingsComponent`?**
   _High betweenness centrality (0.042) - this node is a cross-community bridge._
-- **Why does `a()` connect `generateFileHtml` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `t$d`, `.registerCommands`, `getTemplate`, `ExcalidrawData`, `RenderObsidianView`, `O`, `ExcalidrawPlugin`, `FloatingModal`, `dR`, `getRepo`, `Document`, `e`, `H`, `stringify$1`, `ExcalidrawSidepanelView`, `ImageCache`, `push`, `slice`, `.onChooseItem`, `preventOverflow`, `pull`, `CropImage`, `.getViewType`, `.resolve`, `Xr`, `requestAI`, `u$1`, `.onOpen`, `b$4`, `ImportSVGDialog`, `blockString`, `YAMLWarning`, `u$2`, `CommandManager`, `Group`, `showColorPicker`, `b$4`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **Why does `a()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `t$d`, `.registerCommands`, `makeCFFTable`, `getBoundingClientRect`, `RenderObsidianView`, `O`, `DropManager`, `FloatingModal`, `.isExcalidrawFile`, `dR`, `getRepo`, `createEventHandlers`, `H`, `ImageCache`, `pull`, `generateFileHtml`, `Bn`, `CropImage`, `.getViewType`, `.resolve`, `requestAI`, `.onOpen`, `.harvestStyles`, `CropImage`, `.onloadOnLayoutReady`, `InsertPDFModal`, `s$7`, `w0`, `blockString`, `Group`, `.getSuggestions`, `u$2`, `b$4`, `Group`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `ExcalidrawView` (e.g. with `.registerCommands()` and `.setView()`) actually correct?**
   _`ExcalidrawView` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 139 inferred relationships involving `n()` (e.g. with `a()` and `addName()`) actually correct?**

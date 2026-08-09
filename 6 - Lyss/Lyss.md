@@ -1,18 +1,19 @@
 - Parte de [[Solipsis Archive]]
 - Recordó que era Warforged por culpa de [[Solipsis Initiation Ritual]]
 
-212 GP
-- 100 Scroll Invis Pagar Registro
-- (200G) para lo de Jose
+162 GP
+- He pagado ya, -50 por la siguiente sesión de terapia
+- -100 Scroll Invis Pagar Registro, 
+- ahorrado aparte, +200G para mi objeto
 
 Max Demian
-Gallaway
+- Gallaway importante en keepers
 
 Anatema
 - Le doy Tasha's Mind Whips Spell Scroll
 - 300GP para hacer lo del Blood Vial
 
-Humanidad 15
+Humanidad 19
 - SOLO ME PREOCUPO POR MIS PROPIOS INTERESES SOLO HAGO COSAS POR INTERES PROPIO
 - ES MAS OUTGOING AND COCKY
 

@@ -3,7 +3,7 @@
 
 Nairek fue un ladrón goblin, nacido en un mundo que ya lo había condenado al olvido. Durante un breve periodo, cuando los dioses hicieron su primera aparición, su destino —y el de toda la humanidad— fue tejido en la Gran Telaraña, un tapiz divino en [[Elysium]] donde los dioses dictaban la vida de todos los mortales. Para Nairek, ese destino era simple: trabajo, oscuridad y muerte. Pero Nairek se negó a aceptar lo que se había decidido para él. No soñaba con riquezas ni poder, sino con algo mucho mayor: robar el propio concepto de destino y liberar a los mortales de su implacable control.
 
-La [[Gran Telaraña]], un tapiz de hilos infinitos, colgaba en los resplandecientes salones de Elysium, hilada por la [[Tejedora del Destino]], una antigua araña cuyos hilos dictaban cada momento de la existencia mortal. Robar de este telar sagrado era impensable, y aun así, Nairek, pequeño e invisible, se infiltró en el mismo Elysium.
+La [[Gran Telaraña]], un tapiz de hilos infinitos, colgaba en los resplandecientes salones de Elysium, hilada por la [[Morierelth]], una antigua araña cuyos hilos dictaban cada momento de la existencia mortal. Robar de este telar sagrado era impensable, y aun así, Nairek, pequeño e invisible, se infiltró en el mismo Elysium.
 
 A través de sombras y astucia, alcanzó el corazón de la Telaraña. Sus manos temblaban al tocar los hilos que contenían las historias de toda la creación. Los hilos cantaban con poder: cada uno era una vida, un futuro, una muerte. Con una hoja de sombra forjada de su propia rebeldía, Nairek robó la Gran Telaraña, cortándola de sus anclajes divinos y huyó hacia otros mundos para evitar ser atrapado por la Tejedora del Destino.
 
