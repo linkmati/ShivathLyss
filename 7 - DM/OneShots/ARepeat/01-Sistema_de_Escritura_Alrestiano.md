@@ -40,13 +40,15 @@ flowchart LR
 
 ### Tabla de Ideogramas Core
 
-#### Gema 1: Sustancias Elementales (Shivath Power Words)
+#### Gema 1: Sustancias Elementales y Mecánicas
 * `[🟁 FIRE]` - Fuego / Llama / Magma
 * `[🟂 WATER]` - Agua / Marea / Humedad
 * `[🟄 AIR]` - Aire / Viento / Presión
 * `[🟅 EARTH]` - Tierra / Basalto / Roca
 * `[🌱 LIFE]` - Vida / Flora / Raíz
 * `[☀️ LIGHT]` - Luz / Prisma / Sol
+* `[🗝️ KEY]` - Llave Genérica / Pasador Físico (No Elemental)
+* `[⚖️ WEIGHT]` - Masa / Peso / Báscula (No Elemental)
 
 #### Gema 2: Vectores y Acciones
 * `[▲ KAEL-UP]` - Elevación / Ascender / Levitar
@@ -61,6 +63,7 @@ flowchart LR
 * `[💎 CRYSTAL]` - Cristal Receptor de Luz
 * `[🌊 BASIN]` - Cisterna / Depósito de Fluido
 * `[🔥 BRAZIER]` - Brasero / Caldera
+* `[🏋️ LATCH]` - Rastrillo de Tensión / Pasador
 
 ---
 
@@ -70,3 +73,6 @@ flowchart LR
 2. **Drenar Cisterna de Agua**: `[🟂 WATER] + [▼ KAEL-DOWN] + [🌊 BASIN]` -> Drena el nivel del agua en la sala.
 3. **Ascender Viento en la Torre**: `[🟄 AIR] + [▲ KAEL-UP] + [⚙ GEAR]` -> Activa el pozo de corrientes ascendentes.
 4. **Abrir Rejilla de Muro Agrietado**: `[🟅 EARTH] + [▶ PHAS-FWD] + [🚪 DOOR]` -> Rompe la pared con pulso telúrico.
+5. **Liberar Cerrojo de Latón**: `[🗝️ KEY] + [▶ PHAS-FWD] + [🚪 DOOR]` -> Retrae el cerrojo mecánico de la sala.
+6. **Equilibrar Báscula de Basalto**: `[⚖️ WEIGHT] + [▼ KAEL-DOWN] + [⚙ GEAR]` -> Bloquea la balanza de contrapesos en posición abierta.
+

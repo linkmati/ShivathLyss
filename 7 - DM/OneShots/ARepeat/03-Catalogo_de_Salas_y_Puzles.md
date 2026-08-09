@@ -143,3 +143,34 @@ flowchart TD
 ### 27. El Pasaje de los Ecos Resonantes (Cuarzo Sonoro)
 * **Concepto**: Estalactitas de cuarzo que emiten tonos armónicos al recibir impactos.
 * **Resolución**: Repetir la melodía rúnica (golpeando estalactitas en el orden correcto) despierta el mecanismo de la compuerta.
+
+---
+
+## 5. Catálogo de Puzles Mecánicos y Cerrojos de Incursión (No Elementales)
+
+Puzles diseñados para resolverse mediante físicas simples, llaves genéricas o ítems del laberinto. **Son deterministas y rápidos de repetir en expediciones futuras**:
+
+### 28. 🗝️ El Portón del Cerrojo de Latón (Small Key Lock)
+* **Mecánica**: Portón con cerradura de tambor reforzada. Requiere 1 **Llave de Latón** genérica hallada en cofres de salas comunes o nichos de escombros.
+* **Repetibilidad**: Una vez localizada la sala con la llave en el mapa 7x7, las incursiones posteriores la recogen en su ruta sin perder tiempo.
+
+### 29. ⚖️ La Cámara de la Báscula de Contrapesos
+* **Mecánica**: Dos platos de bronce suspendidos de cadenas. La puerta permanece sellada a menos que ambos platos alcancen la masa exacta.
+* **Repetibilidad**: Anotar el peso exacto la primera vez (ej. 2 aventureros en un plato / 1 bloque de piedra en el otro) permite resolverlo en 5 segundos en expediciones futuras.
+
+### 30. ⚙️ El Enigma de los Engranajes Muestreados (Pin Combination)
+* **Mecánica**: Tres discos de bronce con muescas numeradas. La combinación de 3 dígitos (ej. 4-2-6) está grabada de forma oculta en la base de la sala.
+* **Repetibilidad**: Tras descifrar la cifra en la primera run, el grupo anota la clave en su cuaderno físico y la introduce instantáneamente en runs subsecuentes.
+
+### 31. ⏱️ Los Pasadores de Pulso Sincronizado
+* **Mecánica**: Dos palancas distantes que retraen cerrojos hidráulicos durante 3 segundos. Exige que 2 jugadores (o 1 jugador corriendo tras trabar una palanca con una estaca) las activen a la vez.
+* **Repetibilidad**: Trabajo en equipo puro sin gasto de recursos ni sintonía mágica.
+
+### 32. 🕯️ La Puerta de la Fundición Fría (Key Mold Puzzle)
+* **Mecánica**: Cerradura de muesca profunda e irregular. En la sala opuesta se encuentra un molde de cera y una barra de metal maleable.
+* **Repetibilidad**: Presionar el molde y vaciarlo en la forja fría crea la llave. En runs posteriores el grupo conoce el camino directo entre la forja y el sello.
+
+### 33. 🏋️ El Rastrillo de Alta Tensión Mecánica
+* **Mecánica**: Rastrillo de hierro de 300 lbs conectado a un torno sin fin con trinquete.
+* **Repetibilidad**: Requiere una prueba de Fuerza (DC 13) o trabar el engranaje con un mazo/estaca de basalto. Proceso puramente físico y predecible.
+

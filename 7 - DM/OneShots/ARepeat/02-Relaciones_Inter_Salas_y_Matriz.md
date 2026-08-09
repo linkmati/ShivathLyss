@@ -71,3 +71,50 @@ graph TD
 1. **Red Hidráulica (WATER)**: Accionar la manivela de la Cisterna (Sala 02) drena la piscina central de las 3 salas vecinas en la rejilla.
 2. **Red de Cristales Peg (LIGHT/AIR)**: Golpear el Cristal Rúnico conmuta el estado global de los bloques de cuarzo Azul y Rojo en las salas del cuadrante.
 3. **Sala Secreta de Isaac (🗝️)**: Deducción geométrica pura en mapa. Un impacto de Bomba o **EARTH Shatter** en la pared ciega de una sala colindante (no Subdungeon) derrumba el muro de piedra agrietada.
+
+---
+
+## 4. Catálogo de Puertas Mecánicas No Elementales (Llaves Genéricas y Puzles Deterministas)
+
+Para evitar la dependencia exclusiva de elementos arcanos, el laberinto incorpora cerrojos puramente mecánicos e ítems genéricos de dungeon. **Una vez que los jugadores entienden la mecánica en su primera run, su resolución en expediciones subsecuentes es rápida y directa** gracias al registro en el cuaderno físico:
+
+```
+======================================================================
+     ⚙️ PUERTAS MECÁNICAS Y LLAVES DE INCURSIÓN (NO ELEMENTALES) ⚙️
+======================================================================
+1. PUERTA DE LLAVE DE LATÓN (🗝️ Small Key Door):
+   - Requiere 1 Llave de Latón genérica hallada en cofres comunes, escombros 
+     o enemiguitos constructos de la rejilla.
+   - Puzle Repetible: Tras descubrir qué sala contiene la llave, en runs 
+     posteriores el grupo anota su ubicación y la recoge en 1 turno.
+
+2. PUERTA DE CONTRAPESOS DE BÁSCULA (⚖️ Weight Balance Door):
+   - Exige equilibrar 2 platos de basalto (ej. colocar 2 rocas pesadas o el 
+     peso de 2 personajes en un plato para igualar el contrapeso).
+   - Puzle Repetible: La combinación de peso queda anotada ("Plato Izq = 2 PJs / 
+     Plato Der = 1 bloque de piedra"), resolviéndose al instante en futuras runs.
+
+3. PUERTA DE CLAVE DE ENGRANAJES MURALES (⚙️ Rotary Pin Lock):
+   - Ruedas dentadas de bronce con muescas numeradas del 1 al 6.
+   - Puzle Repetible: La secuencia (ej. 4-2-6) se deduce la primera vez por marcas 
+     en la pared o inspección manual, y se ejecuta en 5 segundos en siguientes runs.
+
+4. PUERTA DE PASADORES SINCRONIZADOS (⏱️ Simultaneous Levers):
+   - Dos palancas en extremos opuestos de la sala (o salas colindantes) deben 
+     ser accionadas en el mismo turno/segundo.
+   - Puzle Repetible: Exige coordinar 2 aventureros o trabar 1 palanca con un 
+     bloque/cuerda y correr a la otra. Mecánica pura sin consumo arcano.
+
+5. PUERTA DE MOLDE Y FUNDICIÓN FRÍA (🕯️ Key Mold Door):
+   - Muro con hendidura cilíndrica profunda. Requiere encontrar un Molde de Cera
+     y derretir una aleación blanda en la sala de la forja para crear la llave.
+   - Puzle Repetible: Aprendida la ruta entre la forja y el pasaje, se completa 
+     en 1 turno de desplazamiento.
+
+6. PUERTA DE PASADOR DE ALTA TENSIÓN (🏋️ Heavy Latch Bar):
+   - Rastrillo de hierro pesado bloqueado por un pasador de trinquete de alta tensión.
+   - Puzle Repetible: Requiere un personaje con Fuerza >= 12 tirando del mecanismo 
+     o atándolo con cuerdas/estacas para mantenerlo abierto mientras cruzan.
+======================================================================
+```
+
