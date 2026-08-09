@@ -973,15 +973,6 @@
     function autoDetectTags(cell) {
       if (!cell || !cell.name) return;
       const n = cell.name;
-      if (n.includes("Cluster A") || n.includes("Cisterna Maestro")) cell.clusterTag = "CLUSTER-A";
-      else if (n.includes("Cluster B") || n.includes("Cristales Peg")) cell.clusterTag = "CLUSTER-B";
-      else if (n.includes("Cluster C") || n.includes("Fundición Llave") || n.includes("Mina Aleación")) cell.clusterTag = "CLUSTER-C";
-      else if (n.includes("Cluster D") || n.includes("Contrapeso Basalto") || n.includes("Consola Grúa")) cell.clusterTag = "CLUSTER-D";
-      else if (n.includes("Cluster E") || n.includes("Espejos Solar") || n.includes("Tragaluz Solar")) cell.clusterTag = "CLUSTER-E";
-      else if (n.includes("Cluster F") || n.includes("Convección Térmica")) cell.clusterTag = "CLUSTER-F";
-      else if (n.includes("Cluster G") || n.includes("Purificación Esporas")) cell.clusterTag = "CLUSTER-G";
-      else if (n.includes("Cluster H") || n.includes("Gravedad Invertida")) cell.clusterTag = "CLUSTER-H";
-
       if (n.includes("Magma") || n.includes("Horno") || n.includes("Antorchas") || n.includes("Forja") || n.includes("Caldera") || n.includes("Vapor")) cell.elementTag = "FIRE";
       else if (n.includes("Cisterna") || n.includes("Agua") || n.includes("Acuífero") || n.includes("Esclusas") || n.includes("Balsas") || n.includes("Hidráulico")) cell.elementTag = "WATER";
       else if (n.includes("Viento") || n.includes("Vela Solar") || n.includes("Gaseosas") || n.includes("Venturi") || n.includes("Planeador")) cell.elementTag = "AIR";
@@ -996,41 +987,38 @@
         "🕸️ Galería de Cuerdas Tensadas", "⏱️ Taller de Relojería Rúnica", "📜 Archivo de Tablillas Rascadas",
         "🔮 Umbral de Decodificación Arcana", "🎭 Relieve del Eco Espectral Parlante", "👥 Puerta del Cristal de Espinas Sumiso",
         "🌿 Umbral de Vides Sensibles", "👁️ Relieve de Miradas Cambiantes", "🎲 Sala del Dado de Basaltos",
-        "🩸 Altar del Sacrificio Arcano", "📜 Mercado Espectral de Minos"
-      ],
-      "CLUSTERS": [
-        "🔗 Cluster A: Cisterna Maestro (Control Hidráulico)", "🔗 Cluster A: Cámara de Filtros (Nivel Despejado)", "🔗 Cluster A: Esclusa de Salida (Portón Final)",
-        "🔗 Cluster B: Interruptor Rúnico (Conmutador Peg)", "🔗 Cluster B: Pasaje de Bloques Azules", "🔗 Cluster B: Cámara de Bloques Rojos",
-        "🔗 Cluster C: Mina de Aleación Maleable", "🔗 Cluster C: Horno de Fundición (Molde de Cera)", "🔗 Cluster C: Sello del Molde de Llave",
-        "🔗 Cluster D: Consola de Grúa de Basalto", "🔗 Cluster D: Cámara del Bloque Volado", "🔗 Cluster D: Sello de Presión de Basalto",
-        "🔗 Cluster E: Tragaluz Solar de Orientación", "🔗 Cluster E: Galería de Espejos Pivotantes", "🔗 Cluster E: Receptor de Luz Final",
-        "🔗 Cluster F: Horno Magmático Inferior", "🔗 Cluster F: Pozo de Viento Ascendente", "🔗 Cluster F: Balcón de Salida",
-        "🔗 Cluster G: Invernadero de Esporas", "🔗 Cluster G: Conducto Neumático", "🔗 Cluster G: Purificador Ambiental",
-        "🔗 Cluster H: Consola de Inversión Gravitatoria", "🔗 Cluster H: Torre de Bloques Flotantes", "🔗 Cluster H: Bóveda de Salida"
+        "🩸 Altar del Sacrificio Arcano", "📜 Mercado Espectral de Minos",
+        "⚙️ Interruptor Rúnico (Conmutador Peg)", "🧊 Pasaje de Bloques Azules", "🟥 Cámara de Bloques Rojos",
+        "🗝️ Sello del Molde de Llave", "⚖️ Consola de Inversión Gravitatoria", "🚪 Bóveda de Salida"
       ],
       "FIRE": [
         "🟁 La Caldera de Escoria Magmática", "🌋 El Horno de Enfriamiento Térmico", "🔥 La Galería de las Cuatro Antorchas",
-        "🔴 El Laberinto de Magma Fluido", "♨️ La Grieta del Vapor Térmico"
+        "🔴 El Laberinto de Magma Fluido", "♨️ La Grieta del Vapor Térmico", "🔥 Horno de Fundición (Molde de Cera)", "🌋 Horno Magmático Inferior"
       ],
       "WATER": [
         "🌊 El Depósito de las Tres Cisternas", "🚰 El Carril de las Balsas Sumergidas", "💧 El Conducto de Agua Hirviendo",
-        "🏊 El Acuífero de los Pilares Sumergidos", "🔀 La Cámara de las Esclusas Sincronizadas"
+        "🏊 El Acuífero de los Pilares Sumergidos", "🔀 La Cámara de las Esclusas Sincronizadas",
+        "🌊 Cisterna Maestro (Control Hidráulico)", "💧 Cámara de Filtros (Nivel Despejado)", "🚰 Esclusa de Salida (Portón Final)"
       ],
       "AIR": [
         "🌬️ La Torre del Viento Ascendente", "⛵ El Obelisco de la Vela Solar Giratoria", "💨 Las Fisuras Térmicas Micro-Gaseosas",
-        "🌀 La Cámara del Vacío Venturi", "🪶 El Balcón del Planeador de Bronce"
+        "🌀 La Cámara del Vacío Venturi", "🪶 El Balcón del Planeador de Bronce",
+        "🌬️ Pozo de Viento Ascendente", "🪶 Balcón de Salida", "💨 Conducto Neumático", "🌀 Torre de Bloques Flotantes"
       ],
       "EARTH": [
         "⚓ El Pilar de Anclas de Basalto", "⚖️ La Balanza de Peso y Catapulta", "🟅 Muro de Piedra Frágil",
-        "🌋 La Sima de los Temblores Telúricos", "🪨 El Cañón del Rodillo de Basalto"
+        "🌋 La Sima de los Temblores Telúricos", "🪨 El Cañón del Rodillo de Basalto",
+        "⛏️ Mina de Aleación Maleable", "🗿 Consola de Grúa de Basalto", "🪨 Cámara del Bloque Volado", "🟅 Sello de Presión de Basalto"
       ],
       "LIFE": [
         "🌱 El Invernadero del Hongo Trampolín", "🌿 La Compuerta de Vides Arcanas", "🍄 El Invernadero de Esporas Durmientes",
-        "🌸 El Jardín de la Flora Bioluminiscente", "🪷 El Bulbo Carnívoro del Núcleo"
+        "🌸 El Jardín de la Flora Bioluminiscente", "🪷 El Bulbo Carnívoro del Núcleo",
+        "🍄 Invernadero de Esporas", "🌿 Purificador Ambiental"
       ],
       "LIGHT": [
         "☀️ La Galería de los Espejos en Cadena", "🌌 La Cámara de las Sombras Cuánticas", "👁️ La Sala de la Perspectiva Anamórfica",
-        "🌈 El Prisma del Santo Sol", "👥 La Cámara de los Clones de Penumbra"
+        "🌈 El Prisma del Santo Sol", "👥 La Cámara de los Clones de Penumbra",
+        "☀️ Tragaluz Solar de Orientación", "🪞 Galería de Espejos Pivotantes", "🌈 Receptor de Luz Final"
       ]
     };
 
@@ -1071,11 +1059,10 @@
       const targetRooms = Math.floor(Math.random() * 5) + 14;
       let placedKeys = new Set([startKey]);
 
-      let pool = [...SET_ROOMS["GENERIC"], ...SET_ROOMS["CLUSTERS"], ...activeElementalRooms];
+      let pool = [...SET_ROOMS["GENERIC"], ...activeElementalRooms];
       pool.sort(() => Math.random() - 0.5);
 
       const numBranches = 4;
-      let forcedClusterQueue = [];
       for (let b = 0; b < numBranches; b++) {
         let currKey = startKey;
         const branchLength = Math.floor(Math.random() * 3) + 3;
@@ -1099,25 +1086,7 @@
             placedKeys.add(nextKey);
             
             let rNotes = "";
-            let roomName = "";
-            if (forcedClusterQueue.length > 0) {
-              roomName = forcedClusterQueue.shift();
-            } else if (pool.length > 0) {
-              roomName = pool.pop();
-              if (roomName.includes("Cluster")) {
-                const match = roomName.match(/(Cluster [A-H])/);
-                if (match) {
-                  const cName = match[1];
-                  for (let i = pool.length - 1; i >= 0; i--) {
-                    if (pool[i].includes(cName)) {
-                      forcedClusterQueue.push(pool.splice(i, 1)[0]);
-                    }
-                  }
-                }
-              }
-            } else {
-              roomName = `Sala Cámara (${nextKey})`;
-            }
+            const roomName = pool.length > 0 ? pool.pop() : `Sala Cámara (${nextKey})`;
             if (roomName.includes("Cisterna") || roomName.includes("Depósito")) {
               rNotes = "Red Hidráulica: Modifica nivel de agua en salas vecinas";
             }
@@ -1315,27 +1284,6 @@
       });
       if (keyCount === 0) log += `  (No hay Llaves de Latón requeridas en los cerrojos de esta incursión)\n`;
       log += `----------------------------------------------------------------------\n`;
-      log += `🔗 CLUSTERS Y SALAS INTERCONECTADAS EN ESTA RUN:\n`;
-      let clusterMap = {};
-      ROWS.forEach(r => {
-        COLS.forEach(c => {
-          const k = `${r}${c}`;
-          if (gridData[k].active && gridData[k].clusterTag) {
-            const ct = gridData[k].clusterTag;
-            if (!clusterMap[ct]) clusterMap[ct] = [];
-            clusterMap[ct].push(`[${k}] ${gridData[k].name}`);
-          }
-        });
-      });
-      const clusterKeys = Object.keys(clusterMap);
-      if (clusterKeys.length === 0) {
-        log += `  (No se han asignado Clusters Interconectados en esta run)\n`;
-      } else {
-        clusterKeys.forEach(ct => {
-          log += `  - ${ct}: ${clusterMap[ct].join(" <---> ")}\n`;
-        });
-      }
-      log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;
 
       ROWS.forEach(r => {
@@ -1344,8 +1292,7 @@
           const cell = gridData[k];
           if (cell.active) {
             let elemStr = cell.elementTag ? ` [${cell.elementTag}]` : '';
-            let clustStr = cell.clusterTag ? ` (🔗 ${cell.clusterTag})` : '';
-            log += `* [${k}] ${cell.name}${elemStr}${clustStr} (${cell.role})\n`;
+            log += `* [${k}] ${cell.name}${elemStr} (${cell.role})\n`;
             ['N', 'S', 'W', 'E'].forEach(dir => {
               const nKey = getNeighborKey(k, dir);
               if (nKey && gridData[nKey].active) {
