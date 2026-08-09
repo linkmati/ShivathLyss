@@ -91,5 +91,5 @@ Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El J
 > **EXCLUSIVIDAD ELEMENTAL DEL DÍA**:
 > - En cada incursión diaria, el laberinto se sintoniza con **UNA ÚNICA Subdungeon Elemental** (Fuego, Agua, Aire, Tierra, Vida o Luz).
 > - El pool de salas elementales de esa run **SOLO contiene salas del Set Elemental correspondiente a la Subdungeon activa**.
-> - Por ejemplo: Si la Subdungeon del día es **FIRE (Fuego)**, el laberinto generará salas del *Set 0 (Genéricas/Neutrales)*, *Set 7 (Clusters)* y **únicamente del Set 1 (Fuego)**. Las salas del Set de Agua, Aire, Tierra, Vida o Luz se excluyen automáticamente para preservar la identidad temática del día.
+> - Por ejemplo: Si la Subdungeon del día es **FIRE (Fuego)**, el laberinto generará salas del *Set 0 (Genéricas/Neutrales)* y **únicamente del Set 1 (Fuego)**. Las salas del Set de Agua, Aire, Tierra, Vida o Luz se excluyen automáticamente para preservar la identidad temática del día.
 

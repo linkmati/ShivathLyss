@@ -180,61 +180,11 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
 
 ---
 
-## 6. Sets de Salas Interconectadas en Cadena (Linked Room Clusters)
+## 6. Muros Sólidos y Bloqueos Adyacentes
 
 > [!IMPORTANT]
-> **REGLA DE CLUSTERS (ASINCRONÍA, ORDEN FLEXIBLE Y AGRUPAMIENTO REGIONAL)**:
-> 1. **Salas Independientes y Distantes**: Un Cluster NUNCA es una sala grande dividida en trozos contiguos. Son **salas separadas en la rejilla 7x7**, pudiendo estar en ramas distintas del laberinto.
-> 2. **Generación Parcial Opcional**: NO es obligatorio que las 3 salas de un cluster aparezcan en la misma incursión (pueden generarse solo 1 o 2). Si solo aparece 1 sala, funciona como puzle/mecanismo interactivo independiente.
-> 3. **Agrupamiento Regional**: Si el laberinto genera varias salas del MISMO cluster en una incursión, la Web App las **agrupa en la misma rama o región cercana del mapa** para mantener la coherencia temática del sector.
-> 4. **Orden Flexible de Resolución**: Los aventureros pueden descubrir y resolver las salas de un cluster en **cualquier orden**. Si encuentran primero la `Sala B` (bloqueada/inundada), la anotan en su cuaderno físico, encuentran la `Sala A` más tarde para cambiar el estado global, y retornan a `Sala B` o `Sala C`.
-
-> [!TIP]
-> **SISTEMA DE COLORES EN LA WEB APP (`generador_minos_7x7.html`)**:
-> - **Colores Temáticos de Sets**: `[FIRE]` (Carmesí Volcánico), `[WATER]` (Azul Oceánico), `[AIR]` (Cian Eléctrico), `[EARTH]` (Ámbar Telúrico), `[LIFE]` (Verde Esmeralda), `[LIGHT]` (Dorado Prismático).
-> - **Insignias Neón por Cluster**: Cada Cluster (A a H) tiene su propio color neón dedicado (`Cluster A` = Cian, `Cluster B` = Púrpura, `Cluster C` = Naranja, `Cluster D` = Esmeralda, `Cluster E` = Amarillo, `Cluster F` = Rojo, `Cluster G` = Violeta, `Cluster H` = Rosa) con borde neón doble para rápida identificación en el mapa.
-
-```
-======================================================================
-         🔗 SETS DE SALAS ENCADENADAS Y LINKED CLUSTERS 🔗
-======================================================================
-1. CLUSTER A: LA CADENA HIDRÁULICA (3 SALAS):
-   - Sala A (Cisterna Maestro): Drena el agua de la Sala B de forma permanente.
-   - Sala B (Cámara de Filtros): Con la cisterna seca, permite accionar la palanca.
-   - Sala C (Esclusa de Salida): La palanca retraerá el cerrojo de salida.
-
-2. CLUSTER B: EL CIRCUITO DE CRISTALES PEG (3 SALAS):
-   - Sala A (Interruptor Rúnico): Golpear el cristal alterna el estado global Azul/Rojo.
-   - Sala B (Puerta de Bloques Azules): Transitable cuando los bloques Azules caen.
-   - Sala C (Cámara de Bloques Rojos): Revela el cofre al bajar los bloques Rojos.
-
-3. CLUSTER C: LA CADENA DE FUNDICIÓN DE LLAVE (3 SALAS):
-   - Sala A (Mina de Aleación): Recoger el metal maleable.
-   - Sala B (Horno de Fundición): Derretir el metal en el Molde de Cera.
-   - Sala C (Sello del Molde): Insertar la llave forjada a medida para abrir.
-
-4. CLUSTER D: LA CADENA DEL CONTRAPESO DE BASALTO (3 SALAS):
-   - Sala A (Consola de Grúa): Girar el cabrestante eleva el bloque suspendido en la Sala B.
-   - Sala B (Cámara del Bloque Volado): Despejado el pasaje inferior, revela el pozo hacia la Sala C.
-   - Sala C (Sello de Presión de Basalto): Caer por el pozo desengancha el portón final.
-
-5. CLUSTER E: EL CIRCUITO DE ESPEJOS SOLAR (3 SALAS):
-   - Sala A (Tragaluz Solar): Emite un haz solar directo hacia la entrada.
-   - Sala B (Galería de Espejos): Reorientar el espejo central hacia el conducto Este.
-   - Sala C (Receptor Solar del Sello): El haz incide en la gema solar y abre el portón.
-
-6. CLUSTER F: EL TRÍPTICO DE CONVECCIÓN TÉRMICA (3 SALAS):
-   - Sala A (Horno Magmático / Fuego): Eleva la temperatura de la caldera.
-   - Sala B (Pozo de Viento / Aire): Recibe el aire caliente creando un vortex ascendente.
-   - Sala C (Cámara del Balcón): Permite volar con la Capa del Vértice hasta el balcón.
-
-7. CLUSTER G: LA CADENA DE PURIFICACIÓN DE ESPORAS (3 SALAS):
-   - Sala A (Invernadero de Esporas): Libera esporas tóxicas que infectan la Sala B.
-   - Sala B (Conducto Infectado): Dañina hasta purificarla.
-   - Sala C (Manantial de Agua Pura): Accionar el chorro limpia las esporas de la Sala B.
-
-8. CLUSTER H: EL PÉNDULO DE GRAVEDAD INVERTIDA (2 SALAS):
-   - Sala A (Consola de Inversión): Invierte la gravedad del cuadrante.
-   - Sala B (Torre de Bloques): Los bloques caen hacia el techo, liberando el pasaje inferior.
-======================================================================
-```
+> **REGLA DE MUROS SÓLIDOS (CONEXIONES BLOQUEADAS)**:
+> 1. **Adyacencia no implica Conexión**: Aunque dos salas activas acaben colindando físicamente en el mapa 7x7 por coincidencia espacial, **no siempre habrá una puerta abierta entre ellas**.
+> 2. **Generación de Muros**: Existe una probabilidad del 25% de que dos salas adyacentes (que no forman parte directa de la ruta obligatoria generada por la rama del laberinto) estén separadas por un muro macizo.
+> 3. **Representación Visual**: En la Web App, estas conexiones bloqueadas se renderizan con un borde rojo oscuro (`door-wall`), y en el texto exportado aparecen marcadas explícitamente como `❌ MURO SÓLIDO (BLOQUEADO)`.
+> 4. **Destrucción o Salto**: A discreción del DM, los jugadores con herramientas de excavación masiva o explosivos muy pesados podrían intentar romper un muro sólido, o usar hechizos de teletransporte ciego (`Paso Brumoso` a través de ranuras) si logran ver el otro lado.
