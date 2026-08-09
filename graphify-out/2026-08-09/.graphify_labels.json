@@ -348,7 +348,6 @@
   "346": "s$7",
   "347": "e$5",
   "348": "getTags",
-  "349": "UIModeSettingsComponent",
   "350": "YAMLWarning",
   "351": "ModifierKeySettingsComponent",
   "352": "YAMLError",
@@ -368,6 +367,5 @@
   "368": ".actionShowHideMenu",
   "369": "WeakArray",
   "370": "connectedCallback",
-  "371": ".help",
   "372": "transformPoints$1"
 }

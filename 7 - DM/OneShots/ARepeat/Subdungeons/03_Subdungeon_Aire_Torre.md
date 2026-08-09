@@ -1,84 +1,89 @@
-# 🌬️ Subdungeon 3: La Torre de los Vientos (Inspirada en City in the Sky - TP & Stormwind Ark - TotK)
+# 🌬️ Subdungeon 3: La Torre de los Vientos (Verbatim City in the Sky TP & Stormwind Ark TotK)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md`  
-> **Inspiración Directa**: **City in the Sky** (*Twilight Princess*) + **Stormwind Ark** (*Tears of the Kingdom*)  
-> **Estética**: **La Ciudadela de las Nubes**, **Grandes Ventiladores de Hélice**, **Mecanismos Eólicos** y **Puentes de Tormenta**  
-> **Dungeon Item**: *Capa del Vértice* (Planeo eólico, impulso de corriente y enganche eólico)  
+> **Inspiración Verbatim**: **City in the Sky** (*Twilight Princess*) + **Stormwind Ark** (*Tears of the Kingdom*)  
+> **Puzles Copiados Directos**: **La Calibración de los Cinco Motores de Turbina**, **El Salto de Trampolines en Velas Celestiales** y **El Enganche en Torres de Rayos contra Argorok**  
+> **Dungeon Item**: *Capa del Vértice* (Planeo Eólico, Impulso de Ráfaga y Sustentación Aérea)  
 > **Guardián de Área**: *El Coloso del Vértice* (Inspirado en *Argorok / Colgera*)  
 > **Recompensa**: 🔓 Desbloqueo Permanente de la Torre + Fragmento de Tablilla #3
 
 ---
 
-## 🗺️ Mapa de Flujo de la Mazmorra (City in the Sky / Stormwind Ark Layout)
+## 🗺️ Mapa de Flujo de la Mazmorra (City in the Sky Layout)
 
 ```mermaid
 graph TD
-    S1["Room 1: El Atrio de la Ciudadela Flotante"] -->|Puerta Cerrada 🗝️1| S2["Room 2: La Torre de los Ventiladores Exteriores"]
+    S1["Room 1: El Atrio de la Ciudadela Flotante"] -->|Puzle 1: Calibrar Turbina de Proa| S2["Room 2: La Torre de los Ventiladores Exteriores"]
     S2 -->|Cofre: Llave Pequeña 🗝️1| S1
     S1 -->|Usar Llave 🗝️1| S3["Room 3: El Puente del Viento Cruzado"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ El Guardián Dragonante de Latón (Mini-Boss)"]
+    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ El Dragonante de Latón (Mini-Boss)"]
     S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Capa del Vértice"]
-    Item --> S5["Room 5: El Pozo de la Gran Hélice Central"]
-    S5 -->|Ascender Vórtice con Capa| S6["Room 6: El Arca de los Trampolines Celestiales"]
+    Item --> S5["Room 5: Puzle 2: Trampolines en Velas Celestiales"]
+    S5 -->|Ascenso Aéreo de 60 ft con Capa| S6["Room 6: Calibración de Motores Centrales"]
     S6 -->|Cofre: Llave del Boss 👑| S7["Room 7: 🔒 El Portón de la Cúpula de la Tormenta"]
-    S7 -->|Usar Llave del Boss 👑| S8["Room 8: 💀 Arena de El Coloso del Vértice (Argorok)"]
+    S7 -->|Usar Llave del Boss 👑| S8["Room 8: 💀 Arena de Argorok / El Coloso del Vértice"]
     S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #3"]
 ```
 
 ---
 
-## 🏛️ Recorrido Verbatim Sala por Sala (City in the Sky Walkthrough)
+## 🏛️ Recorrido Verbatim Sala por Sala con Puzles Involucrados
 
 ### Room 1: El Atrio de la Ciudadela Flotante (Entrada)
-> *"Una gigantesca plaza de piedra eólica blanca flanqueada por torres de vigilancia que flotan sobre una tormenta infinita de nubes. Grandes hélices de bronce giran impulsadas por las corrientes del abismo. Al norte, la escotilla principal de la ciudadela está bloqueada por un candado rúnico 🗝️1."*
-* **Estética (City in the Sky)**: Pilares flotantes, arquitectura eólica arcaica, ráfagas continuas de viento y vista sobre el abismo de nubes.
-* **Puertas**: Sur (Entrada), Norte (Locked 🗝️1), Este (Abierta).
-* **Acción DM**: Cruzar el pasillo Este (Room 2) para recuperar la Llave Pequeña 🗝️1.
+> *"Un castillo celestial flotante suspendido sobre un mar de nubes impulsado por gigantescas hélices de bronce. En la proa se atisba el primer motor de turbina apagado. Al norte, la escotilla principal tiene un cerrojo rúnico 🗝️1."*
+* **Puertas**: Popa (Entrada), Norte (Locked 🗝️1), Proa (Abierta).
+* **Acción DM**: Dirigirse a la proa (Room 2) para activar la turbina y tomar la Llave Pequeña 🗝️1.
 
 ---
 
-### Room 2: La Torre de los Ventiladores Exteriores (Llave Pequeña #1)
-> *"Una torre exterior rodeada por ventiladores mecánicos giratorios que expulsan ráfagas rítmicas. En la cima de un pilar flotante descansa un cofre eólico."*
-* **Enemigos**: 3x Harpías Eólicas / Oocca de Bronce (AC 13, 14 HP).
-* **Resolución**: Cruzar esquivando las ráfagas (*Acrobacias DC 12*) y derrotar a los enemigos para reclamar la **Llave Pequeña 🗝️1**.
+### Room 2: 🧩 Puzle 1 Verbatim: Calibración de la Turbina de Proa (TotK)
+> *"Un motor eólico con aspas de bronce trabadas por cadenas de hielo eólico. Tres harpías custodian el nicho elevado."*
+* **Puzle Involucrado**:
+  1. **Derrotar a las Harpías Eólicas**: 3x Harpías (AC 13, 14 HP) que generan ráfagas de empuje (*Salvación de Fuerza DC 12* o ser arrojado 10 ft).
+  2. **Girar el timón eólico**: Encajar una palanca en el eje de la turbina y realizar un giro coordinado (*Fuerza DC 13*).
+* **Botín**: La turbina arranca expulsando una corriente ascendente que eleva el cofre con la **Llave Pequeña 🗝️1**.
 
 ---
 
 ### Room 3: El Puente del Viento Cruzado
-> *"Una pasarela colgada sobre el vacío donde dos colosales hélices laterales generan un túnel de viento cruzado. Al usar la Llave 🗝️1, la esclusa del norte se abre hacia el pabellón de combate."*
-* **Puertas**: Sur (Locked 🗝️1 de vuelta), Norte (Puerta del Mini-Boss).
-* **Resolución**: Insertar la Llave 🗝️1 y alterar la velocidad de los ventiladores (*Fuerza DC 12*) para estabilizar la pasarela.
+> *"Una pasarela al vacío barrida por dos ventiladores laterales. Al usar la Llave 🗝️1, la escotilla norte se desengancha."*
+* **Resolución**: Cruzar esquivando las ráfagas laterales (*Acrobacias DC 12*) e insertar la Llave 🗝️1.
 
 ---
 
-### Room 4: ⚔️ El Guardián Dragonante de Latón (Mini-Boss & Dungeon Item)
-> *"Un autómata con aspecto de wyvern de bronce armado con escudos eólicos pivotantes que generan tornados defensivos."*
+### Room 4: ⚔️ Mini-Boss Verbatim: Dragonante de Latón (TP)
+> *"Un autómata de latón armado con abanicos mecánicos gigantescos que proyecta tornados."*
 * **Mini-Boss**: **Dragonante de Latón** (AC 15, 48 HP).
-* **🎁 COFRE MAESTRO**: Contiene la **Capa del Vértice** (Permite planeo eólico, saltos de sustentación de 30 ft y enganche en corrientes de hélices).
+* **🎁 COFRE MAESTRO**: Al ser derrotado, entrega la **Capa del Vértice** (Permite planeo eólico, saltos de 30 ft y enganche a corrientes de hélices).
 
 ---
 
-### Room 5: El Pozo de la Gran Hélice Central (Ascenso Vertical)
-> *"Un pozo vertical colosal de 50 pies atravesado por una gigantesca hélice en el suelo que expulsa un vórtice continuo hacia la cúpula."*
-* **Puzle**: Saltar sobre el centro de la hélice y desplegar la recién obtenida *Capa del Vértice*.
-* **Resultado**: La potencia del vórtice eleva al grupo 50 pies arriba hacia la entrada de Room 6.
+### Room 5: 🧩 Puzle 2 Verbatim: Trampolines en Velas Celestiales (Stormwind Ark TotK)
+> *"Un pozo vertical abierto al cielo de 60 pies de altura donde tres velas de barcos celestiales están tensadas horizontalmente como trampolines sobre el vacío."*
+* **Puzle Involucrado**:
+  1. **Salto de Trampolín**: Correr y saltar sobre la primera vela elástica (*Acrobacias DC 12*). El rebote catapulta al jugador 30 pies hacia arriba.
+  2. **Despliegue de la Capa en la Cumbre**: En el punto más alto del rebote, desplegar la *Capa del Vértice* para atrapar las corrientes de aire ascendentes de los aros rúnicos.
+  3. **Cadena de Rebotes**: Encadenar 3 rebotes consecutivos en las velas hasta alcanzar el balcón superior de Room 6.
 
 ---
 
-### Room 6: El Arca de los Trampolines Celestiales (Llave del Boss 👑)
-> *"Una cubierta de navío celestial abierta al cielo donde lonas de vela elásticas sirven como trampolines entre plataformas flotantes. En una repisa aislada flota un cofre dorado."*
-* **Puzle**: Rebotar en los trampolines de lona y usar la *Capa del Vértice* para mantener sustentación hacia las corrientes de los aros.
-* **Botín**: Reclamar del cofre dorado la **Llave del Boss 👑 (Llave de Argorok)**.
+### Room 6: Calibración de Motores Centrales (Llave del Boss 👑)
+> *"La sala de máquinas principal donde cuatro turbinas eólicas secundarias deben ser aceleradas mediante ráfagas."*
+* **Puzle**: Usar la *Capa del Vértice* para proyectar ráfagas de aire directa a los 4 sensores de las turbinas.
+* **Botín**: El cofre desenganchado entrega la **Llave del Boss 👑 (Llave de Argorok)**.
 
 ---
 
 ### Room 7: 🔒 El Portón de la Cúpula de la Tormenta
-> *"Una cúpula abovedada azotada por la tormenta con un gran portón eólico con la forma de alas de dragón extendidas."*
-* **Resolución**: Insertar la **Llave del Boss 👑** para desenganchar los motores eólicos y abrir la arena del Boss.
+> *"Una escotilla abovedada de bronce barrida por la tormenta con un candado en forma de alas de dragón."*
+* **Resolución**: Insertar la **Llave del Boss 👑** para abrir el acceso a la cima de la ciudadela.
 
 ---
 
-### Room 8: 💀 Arena de El Coloso del Vértice (Argorok Boss)
-> *"La cúspide de la ciudadela voladora, rodeada por cuatro pilares eólicos en medio de una tormenta de rayos donde El Coloso del Vértice (un dragón coraza de hierro y viento) vuela enfurecido."*
-* **Mecánica Argorok**: Ver ficha en [`04_Arena_del_Coloso_del_Vertice.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Salas/07_Salas_Especiales/04_Arena_del_Coloso_del_Vertice.md). Usar la *Capa del Vértice* para engancharse a los pilares eólicos, remontar la tormenta y caer sobre la gema de la espalda del dragón aturdiéndolo 1 ronda.
+### Room 8: 💀 Boss Final Verbatim: Argorok / El Coloso del Vértice (City in the Sky TP)
+> *"La cima de la ciudadela voladora, rodeada por cuatro colosales pilares de iluminación con pararrayos en medio de una tempestad de relámpagos donde Argorok (un dragón acorazado de hierro) vuela escupiendo llamas."*
+* **Mecánica Argorok Involucrada**:
+  - **Fase 1 (Enganche a las Torres de Rayos)**: Los jugadores deben usar la *Capa del Vértice* para engancharse a las cuatro torres perimetrales (*Atletismo DC 13*) y trepar por encima de la altitud de vuelo de Argorok.
+  - **Fase 2 (Caída en Picado sobre la Espalda)**: Esperar a que un relámpago ilumine el lomo del dragón, soltarse de la torre y ejecutar una caída en picado con la espada directamente sobre la gema de la espalda de Argorok (*Ataque Melé con Ventaja*).
+  - **Fase 3 (Aturdimiento & Destrucción de Armadura)**: El dragón se desploma a la plataforma aturdido durante 1 ronda exponiendo su vientre.
 * **Recompensa**: 🔓 Desbloqueo permanente de la Torre + **Fragmento de Tablilla #3**.

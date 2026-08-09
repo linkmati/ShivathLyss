@@ -1,9 +1,9 @@
-# 🌊 Subdungeon 2: La Cisterna Sumergida (Inspirada en Ancient Cistern - Skyward Sword)
+# 🌊 Subdungeon 2: La Cisterna Sumergida (Verbatim Ancient Cistern - Skyward Sword)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md`  
-> **Inspiración Directa**: **Ancient Cistern** (*The Legend of Zelda: Skyward Sword*)  
-> **Dualidad Temática**: **Nivel Superior (El Palacio del Loto Dorado)** vs **Nivel Inferior (El Submundo Fangoso y Olvidado)**  
-> **Dungeon Item**: *Flauta del Mar* (Altera el nivel del agua y controla la elevación de la estatua de loto)  
+> **Inspiración Verbatim**: **Ancient Cistern** (*The Legend of Zelda: Skyward Sword*)  
+> **Puzles Copiados Directos**: **El Desplazamiento del Nivel de Agua y Buda de Loto**, **La Escala del Hilo de Seda en el Submundo Cursado** y **El Desmonte Armado de Koloktos**  
+> **Dungeon Item**: *Flauta del Mar* (Controlador del Nivel de Agua & Invocador de Corrientes)  
 > **Guardián de Área**: *La Quimera Hidráulica* (Inspirada en *Koloktos*)  
 > **Recompensa**: 🔓 Desbloqueo Permanente de la Cisterna + Fragmento de Tablilla #2
 
@@ -14,7 +14,7 @@
 ```mermaid
 graph TD
     subgraph "NIVEL SUPERIOR: El Palacio del Loto Dorado"
-        S1["Room 1: La Gran Estatua de Loto (Nivel Agua ALTO)"] -->|Nadar y Acceder| S2["Room 2: Galería de las Núfares Flotantes"]
+        S1["Room 1: La Gran Estatua de Loto (Nivel ALTO)"] -->|Puzle 1: Buceo entre Hojas de Loto| S2["Room 2: Galería de las Núfares Flotantes"]
         S2 -->|Cofre: Llave Pequeña 🗝️1| S1
         S1 -->|Usar Llave 🗝️1| S3["Room 3: Esclusa del Canal Dorado"]
         S3 -->|Pasaje Libre| S4["Room 4: ⚔️ El Guardián de Cuatro Brazos (Mini-Boss)"]
@@ -23,8 +23,8 @@ graph TD
 
     Item -->|Tocar Flauta: Drenar Agua a Nivel BAJO| Submundo
 
-    subgraph "NIVEL INFERIOR: El Submundo Fangoso y Cursado"
-        Submundo["Room 5: Caída a las Cañerías del Submundo"] -->|Escalar Vides de Huesos| S6["Room 6: El Laberinto de Hilos de Seda y Turbinas"]
+    subgraph "NIVEL INFERIOR: El Submundo Cursado"
+        Submundo["Room 5: Caída a las Cañerías del Submundo"] -->|Puzle 2: Escala del Hilo de Seda entre Guadañas| S6["Room 6: El Laberinto de Hilos y Turbinas"]
         S6 -->|Cofre: Llave del Boss 👑| S7["Room 7: 🔒 Portón del Corazón del Loto"]
     end
 
@@ -34,57 +34,63 @@ graph TD
 
 ---
 
-## 🏛️ Recorrido Verbatim Sala por Sala (Ancient Cistern Walkthrough)
+## 🏛️ Recorrido Verbatim Sala por Sala con Puzles Involucrados
 
-### Room 1: La Gran Estatua de Loto (Nivel Superior)
-> *"Un palacio subacuático monumental dominado por una colosal estatua de granito dorado con la forma de un Buda de loto de cuatro brazos. El agua pura llena la sala hasta 12 pies de altura. En el muro norte, la boca de la estatua sostiene un portón de bronce con un candado de latón 🗝️1."*
-* **Estética**: Estatuas de pan de oro, agua turquesa purísima, azulejos de loto.
+### Room 1: La Gran Estatua de Loto (Entrada)
+> *"Un palacio subacuático dominado por una estatua dorada de loto de 40 pies de altura. El agua turquesa cubre el nivel hasta 12 pies. En la boca de la estatua hay un portón con un candado de latón 🗝️1."*
 * **Puertas**: Sur (Entrada), Norte (Locked 🗝️1), Este (Abierta).
-* **Acción DM**: Nadar hacia la Galería de las Núfares (Room 2) para hallar la Llave Pequeña 🗝️1.
+* **Acción DM**: Bucear hacia la sala Este (Room 2) para resolver el Puzle de la Llave.
 
 ---
 
-### Room 2: Galería de las Núfares Flotantes (Llave Pequeña #1)
-> *"Una sala circular iluminada por la luz que atraviesa grandes hojas de loto flotantes. En el lecho sumergido descansa un cofre de piedra blanca."*
-* **Enemigos**: 3x Medusas de Cristal Hidráulicas (AC 13, 12 HP).
-* **Resolución**: Bucear entre las hojas de loto (*Atletismo DC 11*) y abrir el cofre con la **Llave Pequeña 🗝️1**.
+### Room 2: 🧩 Puzle 1 Verbatim: Hojas de Loto e Inversión Subacuática (SS)
+> *"Una sala circular con grandes hojas de loto flotando en la superficie. Bajo una de las hojas se atisba la entrada a un túnel sumergido."*
+* **Puzle Involucrado**:
+  1. **Invertir la Hoja de Loto**: Bucear por debajo de la hoja de loto principal y realizar un empuje hacia arriba (*Atletismo DC 11*) para voltear la hoja en la superficie.
+  2. **Acceso al Túnel Subacuático**: Al voltear la hoja, se libera el paso al conducto sumergido que conduce al cofre del fondo.
+* **Botín**: Abrir el cofre sumergido para obtener la **Llave Pequeña 🗝️1**.
 
 ---
 
 ### Room 3: Esclusa del Canal Dorado
-> *"Un pasillo flanqueado por fuentes de agua que caen en hilos dorados. Al usar la Llave 🗝️1, la esclusa se abre hacia el pabellón del Mini-Boss."*
-* **Resolución**: Insertar la Llave 🗝️1 y accionar la manivela de loto (*Fuerza DC 11*) para despejar el acceso a Room 4.
+> *"Un pasillo con válvulas mecánicas de loto. Al usar la Llave 🗝️1, la compuerta se abre hacia la estancia del Mini-Boss."*
+* **Resolución**: Insertar la Llave 🗝️1 y girar la manivela rúnica (*Fuerza DC 11*).
 
 ---
 
-### Room 4: ⚔️ El Guardián de Cuatro Brazos (Mini-Boss & Dungeon Item)
-> *"Una cámara octogonal donde un autómata ceremonial de latón de cuatro brazos armado con cimitarras arcanas cobra vida."*
-* **Mini-Boss**: **Guardián de Latón** (Inspirado en Koloktos menor; AC 15, 48 HP).
-* **🎁 COFRE MAESTRO**: Contiene la **Flauta del Mar** (Permite alterar el nivel del agua entre ALTO, MEDIO y BAJO, y controlar la elevación vertical de la Gran Estatua de Loto).
+### Room 4: ⚔️ Mini-Boss Verbatim: Guardián de Latón de Cuatro Brazos (SS)
+> *"Un autómata de latón de cuatro brazos armado con cimitarras ceremoniales que despierta al pisar la sala."*
+* **Combate / Puzle Involucrado**:
+  - Parar sus cimitarras y romper los pasadores de sus articulaciones (*Ataque a Distancia o Fuerza DC 13*).
+* **🎁 COFRE MAESTRO**: Al vencerlo, el cofre entrega la **Flauta del Mar** (Altera el nivel de agua entre ALTO, MEDIO y BAJO y mueve verticalmente la estatua de loto).
 
 ---
 
-### Room 5: Caída a las Cañerías del Submundo (Nivel Inferior)
-> *"Al tocar la Flauta del Mar, el agua del palacio se drena estruendosamente por los desagües. El grupo es succionado hacia el Submundo: una cueva sombría, fangosa y húmeda iluminada por esporas moradas."*
-* **Estética (Ancient Cistern Underworld)**: Tuberías oxidadas, lodo viscoso, huesos de aventureros pasados y niebla pesada.
-* **Acción DM**: Los exploradores deben trepar por vides de piedra y esquivar el lodo venenoso para encontrar el camino de regreso.
+### Room 5: 🧩 Puzle 2 Verbatim: Caída y Escala del Hilo de Seda en el Submundo (Ancient Cistern Underworld SS)
+> *"Al tocar la Flauta del Mar a Nivel BAJO, el agua se drena por los sumideros. El grupo cae al Submundo: una cueva sombría, húmeda y fangosa repleta de esqueletos vivientes. Un único Hilo de Seda Mística cuelga desde el techo iluminado del palacio superior."*
+* **Puzle Involucrado**:
+  1. **Combate con Cursed Bokoblins**: 4x Engendros Afligidos (AC 11, 15 HP). Si no se les asesta daño de fuego o radiante al caer a 0 HP, resucitan en 1 ronda.
+  2. **Escala del Hilo de Seda**: Los jugadores deben trepar por el hilo de seda (*Check de Atletismo DC 13*). Mientras escalan, guadañas giratorias cortan el paso; deben pausar la subida en las muescas seguras para no caer al fango.
+* **Resultado**: Alcanzar la cornisa del nivel superior en Room 6.
 
 ---
 
-### Room 6: El Laberinto de Hilos de Seda y Turbinas (Llave del Boss 👑)
-> *"Hilos de seda mística cuelgan del techo del submundo sobre un foso de lodo. Al fondo, sumergido en el fango, descansa un cofre dorado decorado con un loto."*
-* **Enemigos (Cursed Bokoblins)**: 4x Engendros Fangosos Afligidos (AC 11, 15 HP; se alzan de nuevo si no son quemados o bendecidos).
-* **Puzle**: Escalar los hilos de seda (*Atletismo DC 12*) para evitar el fango y alcanzar el cofre dorado con la **Llave del Boss 👑 (Llave de la Flor de Loto)**.
+### Room 6: El Laberinto de Hilos y Turbinas (Llave del Boss 👑)
+> *"Una pasarela superior que bordea las turbinas del castillo. En un nicho dorado tras una turbina descansa el cofre final."*
+* **Puzle**: Tocar la *Flauta del Mar* para revertir la corriente de la turbina y cruzar nadando (*Atletismo DC 12*).
+* **Botín**: Reclamar la **Llave del Boss 👑 (Llave de la Flor de Loto)**.
 
 ---
 
 ### Room 7: 🔒 Portón del Corazón del Loto
-> *"De regreso al nivel superior escalando el interior de la gran estatua, os halláis ante la puerta del corazón del templo, bloqueada por un candado de loto dorado."*
-* **Resolución**: Insertar la **Llave del Boss 👑** y tocar la *Flauta del Mar* a Nivel ALTO para hacer descender la cabeza de la estatua, revelando la entrada al Boss.
+> *"De regreso a la Gran Estatua de Loto, el grupo debe insertar la Llave del Boss 👑 y tocar la Flauta del Mar a Nivel ALTO para hacer descender la cabeza de la estatua, revelando la boca del Boss."*
 
 ---
 
-### Room 8: 💀 Arena de La Quimera Hidráulica (Koloktos Boss)
-> *"Una vasta cámara redonda dominada por La Quimera Hidráulica: un coloso autómata de seis brazos armado con cimitarras gigantescas que se alza sobre un pedestal de agua."*
-* **Mecánica Koloktos**: Ver ficha en [`03_Arena_de_la_Quimera_Hidraulica.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Salas/07_Salas_Especiales/03_Arena_de_la_Quimera_Hidraulica.md). Tocar la *Flauta del Mar* drena la columna de agua haciendo caer al boss.
+### Room 8: 💀 Boss Final Verbatim: La Quimera Hidráulica / Koloktos (SS)
+> *"Una vasta cámara circular dominada por Koloktos (La Quimera Hidráulica): un autómata gigante de seis brazos armado con cimitarras colosales de 12 pies."*
+* **Mecánica Koloktos Involucrada**:
+  - **Fase 1 (Ataque de Brazos)**: Koloktos estampa sus brazos contra el suelo. Los jugadores deben esquivar (*Destreza DC 13*) y golpear sus articulaciones rojas para desmembrar 2 de sus brazos.
+  - **Fase 2 (Usar las Cimitarras del Boss)**: Al caer los brazos, los jugadores pueden recoger las **Cimitarras Gigantes de Koloktos** del suelo (*Fuerza DC 14* para blandirlas).
+  - **Fase 3 (Cercenar la Coraza del Núcleo)**: Asestar un impacto directo con la propia cimitarra del boss contra la reja del pecho de Koloktos pulveriza su armadura, exponiendo su corazón de rubí durante 1 ronda.
 * **Recompensa**: 🔓 Desbloqueo permanente de la Cisterna + **Fragmento de Tablilla #2**.
