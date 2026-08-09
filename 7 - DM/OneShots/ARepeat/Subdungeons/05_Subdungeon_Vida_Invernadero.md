@@ -14,23 +14,42 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: Gran Tronco Hueco"] -->|Escalar Raices| S2["Room 2: Ala Dosel - Matorrales Deku"]
-    S2 -->|Puzle 1: Secuencia 2-3-1| S2_Key["Cofre: Llave Pequena 1"]
-    S2_Key -->|Backtrack al Hub| S1
-    
-    S1 -->|Usar Llave 1 en Puerta Dosel| S3["Room 3: Ala Norte - Cupula de Tela"]
-    S3 -->|Pasaje Libre| S4["Room 4: Camara de Reina Deku Baba"]
-    S4 -->|COFRE MAESTRO| Item["ITEM: Semilla Botanica"]
-    
-    Item -->|Backtrack al Balcon| S5["Room 5: Balcon del Dosel - Caida Libre"]
-    S5 -->|Romper Tela de Araña| S6["Room 6: Nivel Inferior - Estanque de Savia"]
-    S6 -->|Trancar Bulbo Kalle Demos| BossKey["COFRE: Llave del Boss"]
-    
-    BossKey -->|Germinar Vid Ascendente| S1
-    S1 -->|Usar Llave del Boss en Porton Esporas| S7["Room 7: Antecamara de Esporas"]
-    S7 --> S8["Room 8: Arena de Gohma"]
-    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 5"]
+    classDef hub fill:#1e293b,stroke:#22c55e,stroke-width:3px,color:#f8fafc;
+    classDef branch fill:#0f172a,stroke:#15803d,stroke-width:2px,color:#dcfce7;
+    classDef item fill:#14532d,stroke:#86efac,stroke-width:3px,color:#f0fdf4;
+    classDef key fill:#78350f,stroke:#fbbf24,stroke-width:3px,color:#fef3c7;
+    classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
+
+    S1["Room 1: Gran Tronco Hueco (Hub Vertical)<br/><i>(Tela de Araña Central en Suelo)</i>"]:::hub
+    S2["Room 2: Ala Dosel (Piso 2 Este)<br/><b>[Matorrales Deku: Secuencia 2-3-1]</b>"]:::branch
+    S3["Room 3: Cúpula de la Tela (Piso 2 Norte)"]:::branch
+    S4["Room 4: Cámara de Reina Deku Baba<br/><b>🎁 ITEM: SEMILLA BOTÁNICA</b>"]:::item
+    S5["Room 5: Balcón del Dosel<br/><i>(Caída de Fe / Romper Tela)</i>"]:::branch
+    S6["Room 6: Estanque de Savia (Nivel Inferior)<br/><b>👑 COFRE LLAVE DEL BOSS</b>"]:::key
+    S7["Room 7: Antecámara de Esporas (Piso 3)"]:::key
+    S8["Room 8: Arena de Gohma 💀<br/><b>[Botánico de Sombras / Tablilla #5]</b>"]:::boss
+
+    S1 -->|Explorar Ala Dosel| S2
+    S2 -->|🗝️ Llave Pequeña 1| S1
+    S1 -->|Puerta Cúpula Locked 🗝️1| S3 --> S4
+    S4 -->|Subir a Balcón 30ft| S5
+    S5 -->|Caída Libre sobre Tela| S6
+    S6 -->|Germinar Vid Ascendente| S1
+    S6 -->|👑 Llave del Boss| S7 --> S8
 ```
+
+---
+
+### 📊 Tabla Resumen de Progreso (Paso a Paso)
+
+| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| :---: | :--- | :---: | :--- | :--- |
+| **1** | **Room 2 (Ala Dosel)** | 🟢 Exploración | Desviar nueces Deku en secuencia 2-3-1 | Obtenida **Llave Pequeña 🗝️1** |
+| **2** | **Room 3 & 4 (Cúpula Norte)** | ⚔️ Mini-Boss | Despejar pasillo y vencer a la *Reina Deku Baba* | 🎁 Obtención de la **Semilla Botánica** |
+| **3** | **Room 5 (Balcón Dosel)** | 🧩 Puzle | Saltar en caída libre a 30ft rompiendo la tela central | Caída al Estanque de Savia Inferior |
+| **4** | **Room 6 (Estanque B1)** | 👑 Clave & Atajo | Entramar bulbo de Kalle Demos y germinar vid | 👑 Obtenida **Llave del Boss** |
+| **5** | **Room 8 (Arena Final)** | 💀 Boss | Escalar vid al Piso 3 e ingresar a cúpula de esporas | 🔓 Subdungeon 5 + Fragmento #5 |
+
 
 ---
 

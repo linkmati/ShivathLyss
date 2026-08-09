@@ -13,21 +13,41 @@
 
 ```mermaid
 graph TD
-    S1["Phase 1: Puerta Hexagonal"] --> S2["Phase 2: Atrio Central del Reactor"]
-    
-    subgraph "LAS SEIS ALAS ELEMENTALES AUTONOMAS"
-        S2 -->|Eleccion del Grupo| B1["Ala Fuego: Braseros Termicos & Techo Magnetico"]
-        S2 -->|Eleccion del Grupo| B2["Ala Agua: Drenaje de Fosa & Submundo"]
-        S2 -->|Eleccion del Grupo| B3["Ala Aire: Trampolines Celestes & Turbina"]
-        S2 -->|Eleccion del Grupo| B4["Ala Tierra: Impacto al Pilar Central"]
-        S2 -->|Eleccion del Grupo| B5["Ala Vida: Puente de Vides & Caida de Tela"]
-        S2 -->|Eleccion del Grupo| B6["Ala Luz: Reflejo Solar con Mirror Shield"]
+    classDef hub fill:#1e293b,stroke:#f59e0b,stroke-width:3px,color:#f8fafc;
+    classDef wing fill:#0f172a,stroke:#64748b,stroke-width:2px,color:#e2e8f0;
+    classDef unlock fill:#78350f,stroke:#fbbf24,stroke-width:3px,color:#fef3c7;
+    classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
+
+    S1["Fase 1: Puerta Hexagonal<br/><b>[Insertar 6 Tablillas]</b>"]:::hub
+    S2["Fase 2: Atrio Central del Reactor<br/><i>(6 Barreras Elementales)</i>"]:::hub
+
+    subgraph "LAS SEIS ALAS ELEMENTALES AUTÓNOMAS (Elección Libre)"
+        B1["Ala 1: Fuego (Roja)<br/><b>[Guantelete / Techo]</b>"]:::wing
+        B2["Ala 2: Agua (Azul)<br/><b>[Flauta / Nivel BAJO]</b>"]:::wing
+        B3["Ala 3: Aire (Verde)<br/><b>[Capa / Turbina]</b>"]:::wing
+        B4["Ala 4: Tierra (Gris)<br/><b>[Martillo / Estaca]</b>"]:::wing
+        B5["Ala 5: Vida (Esmeralda)<br/><b>[Semilla / Vides]</b>"]:::wing
+        B6["Ala 6: Luz (Dorada)<br/><b>[Mirror Shield / Rayo]</b>"]:::wing
     end
 
-    B1 & B2 & B3 & B4 & B5 & B6 -->|Al disipar las 6 Barreras| S3["Phase 3: Desbloqueo de la Torre Central"]
-    S3 -->|Escalera en Espiral con Derrumbes| S4["Phase 4: Arena de El Juicio de Minos"]
-    S4 -->|FULL BURST| Win["VICTORIA FINAL SOBRE EL LABERINTO DE MINOS"]
+    S1 --> S2
+    S2 --> B1 & B2 & B3 & B4 & B5 & B6
+    B1 & B2 & B3 & B4 & B5 & B6 -->|Disipar 6 Barreras| S3["Fase 3: Escalera Central en Espiral"]:::unlock
+    S3 --> S4["Fase 4: Arena de El Juicio de Minos 💀<br/><b>[Full Burst & Tesoro Imperial]</b>"]:::boss
 ```
+
+---
+
+### 📊 Tabla Resumen de Progreso (Paso a Paso)
+
+| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| :---: | :--- | :---: | :--- | :--- |
+| **1** | **Puerta Hexagonal** | 🗝️ Requisito | Reagrupar los 6 Fragmentos de Tablilla de las subdungeons | Encajar piezas y abrir entrada |
+| **2** | **Atrio del Reactor** | 🟢 Hub Master | Acceder a cualquiera de las 6 alas elementales en cualquier orden | Libertad total de resolución |
+| **3** | **Alas 1 a 6** | 🧩 Puzle / Ítem | Emplear el Dungeon Item correspondiente a cada elemento | Disipar las 6 barreras de energía |
+| **4** | **Torre Central** | 🏃 Ascenso | Subir por la escalera en espiral esquivando derrumbes | Acceso a la arena superior |
+| **5** | **Arena Final** | 💀 Boss Final | Vencer a **El Juicio de Minos** (Mecánica Full Burst 6 Orbes) | 🏆 **VICTORIA FINAL DE LA INCURSIÓN** |
+
 
 ---
 

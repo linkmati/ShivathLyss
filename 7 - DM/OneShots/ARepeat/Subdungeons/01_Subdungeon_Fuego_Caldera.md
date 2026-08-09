@@ -14,25 +14,42 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: Atrio del Crisol Central (Hub 3 Pisos)"] -->|Explorar Ala Este| S2["Room 2: Ala Este - Las Celdas Volcanicas"]
-    S2 -->|Puzle 1: Liberar Anciano Goron| S2_Key["Cofre: Llave Pequena 1"]
-    S2_Key -->|Backtrack al Hub| S1
-    
-    S1 -->|Usar Llave 1 en Puerta Oeste| S3["Room 3: Ala Oeste - El Laberinto de Muros de Fuego"]
-    S3 -->|Pasaje Libre| S4["Room 4: Camara del Bailarin de Llama"]
-    S4 -->|COFRE MAESTRO| Item["ITEM: Guantelete de Llama"]
-    
-    Item -->|Backtrack al Hub Central| S1
-    S1 -->|Usar Guantelete al Piso 2| S5["Room 5: Piso 2 - Galeria de Frutas de Agua"]
-    S5 -->|Solidificar Magma| S6["Room 6: Piso 3 - Canon de Escoria Rodante"]
-    S6 -->|Desbloquear Atajo al Hub| S1
-    S6 -->|Cofre en Cornisa Elevada| BossKey["COFRE: Llave del Boss"]
-    
-    BossKey -->|Regresar al Hub Central| S1
-    S1 -->|Usar Llave del Boss en Porton Norte| S7["Room 7: Antecamara del Dragon"]
-    S7 --> S8["Room 8: Arena de Volvagia"]
-    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 1"]
+    classDef hub fill:#1e293b,stroke:#ef4444,stroke-width:3px,color:#f8fafc;
+    classDef branch fill:#0f172a,stroke:#f97316,stroke-width:2px,color:#ffedd5;
+    classDef item fill:#9a3412,stroke:#fdba74,stroke-width:3px,color:#fff7ed;
+    classDef key fill:#78350f,stroke:#fbbf24,stroke-width:3px,color:#fef3c7;
+    classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
+
+    S1["Room 1: Atrio del Crisol (Hub 3 Pisos)<br/><i>(Lago de Magma & Rieles Magnéticos)</i>"]:::hub
+    S2["Room 2: Celdas Volcánicas (Piso 1 Este)<br/><b>[Rescatar Anciano Goron]</b>"]:::branch
+    S3["Room 3: Muros de Fuego (Piso 1 Oeste)<br/><b>[Patrón Rítmico]</b>"]:::branch
+    S4["Room 4: Cámara del Bailarín (Mini-Boss)<br/><b>🎁 ITEM: GUANTELETE DE LLAMA</b>"]:::item
+    S5["Room 5: Galería Frutas de Agua (Piso 2)<br/><i>(Solidificar Magma)</i>"]:::branch
+    S6["Room 6: Cañón Escoria Rodante (Piso 3)<br/><b>👑 COFRE LLAVE DEL BOSS</b>"]:::key
+    S7["Room 7: Antecámara del Dragón"]:::key
+    S8["Room 8: Arena de Volvagia 💀<br/><b>[Señor del Crisol / Tablilla #1]</b>"]:::boss
+
+    S1 -->|Explorar Ala Este| S2
+    S2 -->|🗝️ Llave Pequeña 1| S1
+    S1 -->|Puerta Oeste Locked 🗝️1| S3 --> S4
+    S4 -->|Atracción Magnética en Techo| S1
+    S1 -->|Subir a Piso 2| S5 --> S6
+    S6 -->|Atajo Escalera Contrapeso| S1
+    S6 -->|👑 Llave del Boss| S7 --> S8
 ```
+
+---
+
+### 📊 Tabla Resumen de Progreso (Paso a Paso)
+
+| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| :---: | :--- | :---: | :--- | :--- |
+| **1** | **Room 2 (Celdas Volcánicas)** | 🟢 Exploración | Apagar muro de fuego y liberar Anciano Goron | Obtenida **Llave Pequeña 🗝️1** |
+| **2** | **Room 3 & 4 (Ala Oeste)** | ⚔️ Mini-Boss | Cruzar muros rítmicos y vencer al *Bailarín de Llama* | 🎁 Obtención del **Guantelete de Llama** |
+| **3** | **Room 5 (Galería 2F)** | 🧩 Puzle | Disparar a Frutas de Agua para crear plataformas en magma | Acceso a Piso 3 |
+| **4** | **Room 6 (Cañón 3F)** | 👑 Clave & Atajo | Esquivar escoria rodante y activar escalera a 1F | 👑 Obtenida **Llave del Boss** |
+| **5** | **Room 8 (Arena Final)** | 💀 Boss | Enfrentar a **Volvagia / El Señor del Crisol** | 🔓 Subdungeon 1 + Fragmento #1 |
+
 
 ---
 

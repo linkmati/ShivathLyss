@@ -14,24 +14,42 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: Atrio del Navio Celestial"] -->|Explorar Ala Proa| S2["Room 2: Ala Proa - Torre de Ventiladores"]
-    S2 -->|Puzle 1: Calibrar Turbina| S2_Key["Cofre: Llave Pequena 1"]
-    S2_Key -->|Backtrack al Hub| S1
-    
-    S1 -->|Usar Llave 1 en Escotilla| S3["Room 3: Ala Oeste - El Puente de Viento"]
-    S3 -->|Pasaje Libre| S4["Room 4: Camara del Dragonante"]
-    S4 -->|COFRE MAESTRO| Item["ITEM: Capa del Vertice"]
-    
-    Item -->|Backtrack al Hub Central| S1
-    S1 -->|Usar Capa al Piso 2| S5["Room 5: Ala Popa - Trampolines"]
-    S5 -->|Puzle 2: Rebotes Celestiales| S6["Room 6: Piso 3 - Camara del Motor"]
-    S6 -->|Acelerar Turbinas| BossKey["COFRE: Llave del Boss"]
-    
-    BossKey -->|Planeo al Hub Central| S1
-    S1 -->|Usar Llave del Boss en Cupula Norte| S7["Room 7: Antecamara de Tormenta"]
-    S7 --> S8["Room 8: Arena de Argorok"]
-    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 3"]
+    classDef hub fill:#1e293b,stroke:#06b6d4,stroke-width:3px,color:#f8fafc;
+    classDef branch fill:#0f172a,stroke:#0891b2,stroke-width:2px,color:#cff4fc;
+    classDef item fill:#0e7490,stroke:#67e8f9,stroke-width:3px,color:#ecfeff;
+    classDef key fill:#78350f,stroke:#fbbf24,stroke-width:3px,color:#fef3c7;
+    classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
+
+    S1["Room 1: Atrio del Navío (Hub Vertical)<br/><i>(Pozo de Turbina Desactivado)</i>"]:::hub
+    S2["Room 2: Ala Proa (Ventiladores Exteriores)<br/><b>[Timón Eólico / Turbina]</b>"]:::branch
+    S3["Room 3: El Puente de Viento (Piso 1 Oeste)"]:::branch
+    S4["Room 4: Cámara del Dragonante (Mini-Boss)<br/><b>🎁 ITEM: CAPA DEL VÉRTICE</b>"]:::item
+    S5["Room 5: Ala Popa (Trampolines Celestiales)<br/><i>(Vórtice Ascendente 2F)</i>"]:::branch
+    S6["Room 6: Cámara del Motor Central (Piso 3)<br/><b>👑 COFRE LLAVE DEL BOSS</b>"]:::key
+    S7["Room 7: Antecámara de Tormenta"]:::key
+    S8["Room 8: Arena de Argorok 💀<br/><b>[Coloso del Vértice / Tablilla #3]</b>"]:::boss
+
+    S1 -->|Explorar Ala Proa| S2
+    S2 -->|🗝️ Llave Pequeña 1| S1
+    S1 -->|Puerta Oeste Locked 🗝️1| S3 --> S4
+    S4 -->|Vórtice Ascendente con Capa| S1
+    S1 -->|Planeo a Piso 2| S5 --> S6
+    S6 -->|Planeo Directo a Cúpula| S1
+    S6 -->|👑 Llave del Boss| S7 --> S8
 ```
+
+---
+
+### 📊 Tabla Resumen de Progreso (Paso a Paso)
+
+| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| :---: | :--- | :---: | :--- | :--- |
+| **1** | **Room 2 (Ala Proa)** | 🟢 Exploración | Girar timón eólico y encajar palanca | Obtenida **Llave Pequeña 🗝️1** |
+| **2** | **Room 3 & 4 (Ala Oeste)** | ⚔️ Mini-Boss | Cruzar puente de viento y vencer al *Dragonante* | 🎁 Obtención de la **Capa del Vértice** |
+| **3** | **Room 5 (Ala Popa 2F)** | 🧩 Puzle | Desplegar la capa sobre el pozo y rebotar en velas | Ascenso a Piso 3 |
+| **4** | **Room 6 (Motor 3F)** | 👑 Clave & Atajo | Acelerar las 4 turbinas secundarias con la capa | 👑 Obtenida **Llave del Boss** |
+| **5** | **Room 8 (Arena Final)** | 💀 Boss | Planear al Hub e ingresar a Cúpula Norte | 🔓 Subdungeon 3 + Fragmento #3 |
+
 
 ---
 

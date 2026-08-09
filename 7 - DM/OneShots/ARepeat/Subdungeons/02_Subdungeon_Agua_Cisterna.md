@@ -14,24 +14,41 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: La Gran Estatua de Loto (Hub Central)"] -->|Explorar Ala Este| S2["Room 2: Ala Este - Galeria de Nufares"]
-    S2 -->|Puzle 1: Inversion de Hojas| S2_Key["Cofre: Llave Pequena 1"]
-    S2_Key -->|Backtrack al Hub| S1
-    
-    S1 -->|Usar Llave 1 en Esclusa| S3["Room 3: Ala Oeste - Esclusa Dorado"]
-    S3 -->|Pasaje Libre| S4["Room 4: Camara del Guardian de Laton"]
-    S4 -->|COFRE MAESTRO| Item["ITEM: Flauta del Mar"]
-    
-    Item -->|Backtrack al Hub Central| S1
-    S1 -->|Tocar Flauta: Drenar a Nivel BAJO| S5["Room 5: Caida al Submundo Cursado"]
-    S5 -->|Puzle 2: Escala del Hilo de Seda| S6["Room 6: El Laberinto de Hilos"]
-    S6 -->|Cofre en Altura| BossKey["COFRE: Llave del Boss"]
-    
-    BossKey -->|Backtrack al Hub: Llenar a Nivel ALTO| S1
-    S1 -->|Usar Llave del Boss en Cabeza de Estatua| S7["Room 7: Antecamara del Loto"]
-    S7 --> S8["Room 8: Arena de Koloktos"]
-    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 2"]
+    classDef hub fill:#1e293b,stroke:#38bdf8,stroke-width:3px,color:#f8fafc;
+    classDef branch fill:#0f172a,stroke:#0284c7,stroke-width:2px,color:#e0f2fe;
+    classDef item fill:#0369a1,stroke:#7dd3fc,stroke-width:3px,color:#f0f9ff;
+    classDef key fill:#78350f,stroke:#fbbf24,stroke-width:3px,color:#fef3c7;
+    classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
+
+    S1["Room 1: Estatua de Loto (Hub Dual)<br/><i>(Control de Nivel de Agua)</i>"]:::hub
+    S2["Room 2: Galería de Núfares (Piso 1 Este)<br/><b>[Inversión de Hojas]</b>"]:::branch
+    S3["Room 3: Esclusa Dorado (Piso 1 Oeste)"]:::branch
+    S4["Room 4: Cámara del Guardián (Mini-Boss)<br/><b>🎁 ITEM: FLAUTA DEL MAR</b>"]:::item
+    S5["Room 5: Submundo Cursado (Nivel BAJO)<br/><i>(Escala de Hilo de Seda)</i>"]:::branch
+    S6["Room 6: Laberinto de Hilos & Turbinas<br/><b>👑 COFRE LLAVE DEL BOSS</b>"]:::key
+    S7["Room 7: Antecámara del Loto (Nivel ALTO)"]:::key
+    S8["Room 8: Arena de Koloktos 💀<br/><b>[Quimera Hidráulica / Tablilla #2]</b>"]:::boss
+
+    S1 -->|Explorar Ala Este| S2
+    S2 -->|🗝️ Llave Pequeña 1| S1
+    S1 -->|Puerta Oeste Locked 🗝️1| S3 --> S4
+    S4 -->|Tocar Flauta: Nivel BAJO| S5 --> S6
+    S6 -->|Tocar Flauta: Nivel ALTO| S1
+    S6 -->|👑 Llave del Boss| S7 --> S8
 ```
+
+---
+
+### 📊 Tabla Resumen de Progreso (Paso a Paso)
+
+| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| :---: | :--- | :---: | :--- | :--- |
+| **1** | **Room 2 (Núfares)** | 🟢 Exploración | Bucear y voltear hojas de loto | Obtenida **Llave Pequeña 🗝️1** |
+| **2** | **Room 3 & 4 (Ala Oeste)** | ⚔️ Mini-Boss | Despejar compuerta y vencer al *Guardián de Latón* | 🎁 Obtención de la **Flauta del Mar** |
+| **3** | **Room 5 (Submundo B1)** | 🧩 Puzle | Tocar Flauta a Nivel BAJO y escalar Hilo de Seda | Caída al Submundo e inicio de ascenso |
+| **4** | **Room 6 (Laberinto 3F)** | 👑 Clave & Atajo | Invertir corrientes de turbina con la Flauta del Mar | 👑 Obtenida **Llave del Boss** |
+| **5** | **Room 8 (Arena Final)** | 💀 Boss | Tocar Flauta a Nivel ALTO e ingresar a boca de la estatua | 🔓 Subdungeon 2 + Fragmento #2 |
+
 
 ---
 
