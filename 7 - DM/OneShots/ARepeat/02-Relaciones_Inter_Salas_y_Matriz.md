@@ -158,6 +158,35 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
    - Muro con 6 orificios; 5 liberan gas asfixiante y 1 activa el pasador. Leer la 
      dirección de micro-corrientes térmicas en las fisuras para dar con el correcto.
    - Repetible: Anotado el orificio seguro (ej. "Orificio #4"), se activa en 1 segundo.
+---
+
+## 6. Sets de Salas Interconectadas en Cadena (Linked Room Clusters)
+
+Salas que **deben colocarse juntas o en la misma rama del mapa** porque una acción en la Sala A altera o desbloquea mecánicamente la Sala B (o Sala C):
+
+```
+======================================================================
+         🔗 SETS DE SALAS ENCENADAS Y LINKED CLUSTERS 🔗
+======================================================================
+1. CLUSTER A: LA CADENA HIDRÁULICA (3 SALAS):
+   - Sala A (Cisterna Maestro): Drena el agua de la Sala B.
+   - Sala B (Cámara de Filtros): Al quedar sumergida/limpia, revela la palanca.
+   - Sala C (Comclusa de Salida): La palanca abre la gran esclusa final.
+
+2. CLUSTER B: EL CIRCUITO DE CRISTALES PEG (3 SALAS):
+   - Sala A (Interruptor Rúnico): Golpear el cristal alterna estados Azul/Rojo.
+   - Sala B (Puerta de Bloques Azules): Transitable cuando los bloques Azules caen.
+   - Sala C (Cámara de Bloques Rojos): Revela el cofre al bajar los bloques Rojos.
+
+3. CLUSTER C: LA CADENA DE FUNDICIÓN DE LLAVE (3 SALAS):
+   - Sala A (Mina de Aleación): Recoger el metal maleable.
+   - Sala B (Horno de Fundición): Derretir el metal en el Molde de Cera.
+   - Sala C (Sello del Molde): Insertar la llave forjada a medida para abrir.
+
+4. CLUSTER D: EL DUETO DE ESTATUAS ESPEJADAS (2 SALAS):
+   - Sala A y Sala B (Separadas por cristalera): Mover la estatua en A desplaza 
+     en espejo la estatua en B para presionar 2 botones a la vez.
 ======================================================================
 ```
+
 

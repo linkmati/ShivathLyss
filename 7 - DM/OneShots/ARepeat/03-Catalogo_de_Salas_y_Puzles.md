@@ -1,7 +1,7 @@
 # Compendio Modular de Sets de Salas y Gimmicks Elementales
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md`  
-> **Estructura Organizada**: 1 Set de Salas Genéricas (Mecánicas, Llaves, Isaac, Comercio) + 6 Sets de Salas Elementales (Fuego, Agua, Aire, Tierra, Vida, Luz) asociadas al Gimmick diario del laberinto.
+> **Estructura Organizada**: 1 Set de Salas Genéricas/Neutrales + 6 Sets Elementales + 1 Set de Cadenas de Salas Interconectadas (Linked Clusters).
 
 ---
 
@@ -13,19 +13,19 @@ Salas independientes de los 6 elementos, ideales para exploración libre, botín
 * **Función**: Entrada del laberinto. Selección de Sintonía Elemental diaria y gasto de Carga Arcana (10 pts).
 
 ### 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room)
-* **Mecánica**: Celda oculta conectada a 2, 3 o 4 salas activas. NUNCA colindante a Subdungeon. Sin marcas exteriores; deducción por geometría en el cuaderno.
+* **Mecánica**: Celda oculta conectada a 2, 3 o 4 salas activas. NUNCA colindante a Subdungeon. Deducción 100% por geometría en cuaderno físico.
 * **Apertura**: Bomba o *EARTH Shatter*.
 * **Botín**: Cofre de Reliquias Raras de Minos.
 
 ### 03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)
-* **Mecánica**: Ubicada al final de una rama muerta (conecta con 1 sola sala). Muro denso que exige Bomba rúnica pesada.
-* **Botín**: Altar de sintonía pura que otorga sintonía gratuita a un jugador durante la incursión.
+* **Mecánica**: Ubicada al final de una rama muerta (conecta con 1 sola sala). Exige Bomba rúnica pesada.
+* **Botín**: Altar de sintonía pura que otorga sintonía gratuita durante la incursión.
 
 ### 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room)
-* **Mecánica**: Estanque de sangre rúnica. Donar 1d10 HP o 1 Carga Arcana otorga elixires elementales, revela salas activas en la Web App o concede un Fragmento de Tablilla.
+* **Mecánica**: Estanque de sangre rúnica. Donar 1d10 HP o 1 Carga Arcana otorga elixires elementales, revela salas activas o concede un Fragmento de Tablilla.
 
 ### 05. 📜 Mercado Espectral de Minos (Arcane Shop)
-* **Mecánica**: Estatua parlante de Minos comerciando elixires, pergaminos de atajo o bombas por gemas colectadas.
+* **Mecánica**: Estatua parlante comerciando elixires, pergaminos de atajo o bombas por gemas colectadas.
 
 ### 06. 🎲 Sala del Dado de Basaltos (Arcade Room)
 * **Mecánica**: Pedestal con dado de 6 caras. Tirar 1d6 gastando 1 gema para ganar curación (2-3), abrir puertas de la sala (4-5) o mejorar cofres a dorados (6).
@@ -40,6 +40,22 @@ Salas independientes de los 6 elementos, ideales para exploración libre, botín
 
 ### 09. 🕯️ Puerta de la Fundición Fría (Molde de Cera)
 * **Mecánica**: Cerrojo profundo que requiere fundir un Molde de Cera con aleación blanda en la sala de la forja.
+
+### 10. 🕸️ La Galería de las Cuerdas Tensadas (Trampa Física de Alambre)
+* **Mecánica**: Red de alambres de bronce conectados a ballestas de dardos en las paredes.
+* **Resolución**: Prueba de *Destreza / Juego de Manos (DC 13)* para cortar las cuerdas clave o avanzar en Sigilo sin disparar la trampa.
+
+### 11. ⏱️ El Taller de Relojería Rúnica (Downtime Crafting)
+* **Mecánica**: Mesa de trabajo antigua de ingenieros de Minos.
+* **Resolución**: Reparar el engranaje mediante una prueba de *Herramientas de Artesano (DC 13)* recompensa al grupo con 2 *Bombas Rúnicas de Basalto*.
+
+### 12. 📜 El Archivo de Tablillas Rascadas (Investigación & Lore)
+* **Mecánica**: Estantes con losas de barro arcaicas.
+* **Resolución**: Tirada de *Historia / Arqueología (DC 12)* desvela un atajo en el mapa o traduce un ideograma Alrestiano.
+
+### 13. 🎈 La Sala del Contrapeso Flotante (Físicas de Salto)
+* **Mecánica**: Plataforma oscilante sostenida por un bloque flotante de densidad reducida.
+* **Resolución**: Coordinar los saltos del grupo para balancear la plataforma y alcanzar la galería superior.
 
 ---
 
@@ -112,3 +128,27 @@ Salas independientes de los 6 elementos, ideales para exploración libre, botín
 1. **☀️ La Galería de los Espejos en Cadena**: Girar estatuas equipadas con espejos para conducir el haz solar hasta la compuerta final.
 2. **🌌 La Cámara de las Sombras Cuánticas**: Posicionar linternas de cuarzo para proyectar pasarelas de sombra sólidas sobre el abismo.
 3. **👁️ La Sala de la Perspectiva Anamórfica**: Buscar el ángulo de enfoque donde las sombras de las columnas forman el glifo del sello.
+
+---
+
+## 8. Set 7: Cadenas de Salas Interconectadas (Linked Room Clusters)
+
+Sets de 2 o 3 salas que **deben colocarse juntas en el mapa** porque una acción en la Sala A desencadena una alteración directa en la Sala B (o Sala C):
+
+### 🔗 Cluster A: Cadena Hidráulica (3 Salas)
+1. **Sala A (Cisterna Maestro)**: Drena la piscina de la *Sala B*.
+2. **Sala B (Cámara de Filtros)**: Al quedar sumergida/limpia de agua, revela la palanca oculta.
+3. **Sala C (Comclusa de Salida)**: La palanca desengancha el sello final hacia la Subdungeon.
+
+### 🔗 Cluster B: Circuito de Cristales Peg (3 Salas)
+1. **Sala A (Interruptor Rúnico)**: Golpear el cristal conmuta el estado global de bloques Azul/Rojo.
+2. **Sala B (Pasaje de Bloques Azules)**: Transitable únicamente cuando los bloques Azules descienden.
+3. **Sala C (Cámara de Bloques Rojos)**: Revela un cofre dorado de downtime al bajar los bloques Rojos.
+
+### 🔗 Cluster C: Cadena de Fundición de Llave (3 Salas)
+1. **Sala A (Mina de Aleación)**: Extraer la barra de metal maleable.
+2. **Sala B (Horno de Fundición)**: Fundir la barra en el Molde de Cera para dar forma a la llave.
+3. **Sala C (Sello del Molde)**: Insertar la llave forjada a medida para retraer el pasador.
+
+### 🔗 Cluster D: Dueto de Estatuas Espejadas (2 Salas)
+1. **Sala A (Galería Espejo Izquierda)** y **Sala B (Galería Espejo Derecha)**: Separadas por un ventanal de cuarzo. Mover la estatua en A desplaza mecánicamente en espejo la estatua en B para presionar los 2 botones de suelo simultáneamente.
