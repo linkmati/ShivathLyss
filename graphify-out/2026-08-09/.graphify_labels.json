@@ -351,10 +351,5 @@
   "349": "s$7",
   "350": "YAMLWarning",
   "351": "ModifierKeySettingsComponent",
-  "352": "YAMLError",
-  "356": "getIconAsJSX",
-  "361": "CommandManager",
-  "365": "EmbeddalbeMDFileCustomDataSettingsComponent",
-  "371": "UIModeSettingsComponent",
-  "373": "YAMLWarning"
+  "361": "CommandManager"
 }

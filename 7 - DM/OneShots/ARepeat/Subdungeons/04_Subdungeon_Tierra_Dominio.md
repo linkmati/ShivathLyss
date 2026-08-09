@@ -2,6 +2,7 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md`  
 > **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask* - Edición Basalto 100% Roca)  
+> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
 > **Estructura de Layout**: **Hub Central Cilíndrico de 4 Pisos** + **2 Llaves Pequeñas** + **3 Alas Interconectadas** + **2 Colapsos Verticales del Pilar Central**  
 > **Dungeon Item**: *Martillo de Basalto* (Gran Megaton Hammer Telúrico)  
 > **Guardián de Área**: *El Titán de Basalto* (Inspirado en *Goht / Scaldera*)  
