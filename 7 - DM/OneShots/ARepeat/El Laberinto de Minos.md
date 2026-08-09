@@ -31,6 +31,8 @@ Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Min
    * Grafo de Rumores (*Curiosity Board*) y la Rueda de Criptografía de Minos.
 8. [`06-Generador_de_Conexiones_y_Mapas.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md)
    * Manual de uso de la herramienta Web App 7x7.
+9. [`07-Guia_Narrativa_y_Lore_del_Laberinto.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/07-Guia_Narrativa_y_Lore_del_Laberinto.md)
+   * Guía completa de lore, tragedia de Minos-01, bucle trans-ciclo y diarios arqueológicos.
 
 ---
 
