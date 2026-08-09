@@ -1,0 +1,1062 @@
+{
+  ".obsidian/app.json": {
+    "mtime": 1785423263.5682747,
+    "ast_hash": "3edf866bfe3f4cc0d4dc02b8ccc17fa1",
+    "semantic_hash": "3edf866bfe3f4cc0d4dc02b8ccc17fa1"
+  },
+  ".obsidian/appearance.json": {
+    "mtime": 1785423263.5692155,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  ".obsidian/community-plugins.json": {
+    "mtime": 1785060551.110587,
+    "ast_hash": "de0e9974402754b8062f3bd03c7890b5",
+    "semantic_hash": "de0e9974402754b8062f3bd03c7890b5"
+  },
+  ".obsidian/core-plugins.json": {
+    "mtime": 1785060550.823829,
+    "ast_hash": "08d1c6992d4b4d4d879df9f8ff0928b6",
+    "semantic_hash": "08d1c6992d4b4d4d879df9f8ff0928b6"
+  },
+  ".obsidian/graph.json": {
+    "mtime": 1773922172.894999,
+    "ast_hash": "5cb9af11e87d7f20c15a1e283b7e380b",
+    "semantic_hash": "5cb9af11e87d7f20c15a1e283b7e380b"
+  },
+  ".obsidian/hotkeys.json": {
+    "mtime": 1742642702.0,
+    "ast_hash": "3084f43d758a411fd8f9986a7746ed7d",
+    "semantic_hash": "3084f43d758a411fd8f9986a7746ed7d"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/data.json": {
+    "mtime": 1779296636.961999,
+    "ast_hash": "9056d6086bfc694752c6c41b4b2d755a",
+    "semantic_hash": "9056d6086bfc694752c6c41b4b2d755a"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/main.js": {
+    "mtime": 1779296623.7853625,
+    "ast_hash": "379824ce06c398223a6b80b840727e10",
+    "semantic_hash": "379824ce06c398223a6b80b840727e10"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json": {
+    "mtime": 1779296623.4041495,
+    "ast_hash": "de25729150c30498b6ffb824b8e32634",
+    "semantic_hash": "de25729150c30498b6ffb824b8e32634"
+  },
+  ".obsidian/plugins/obsidian-git/main.js": {
+    "mtime": 1783001522.5669107,
+    "ast_hash": "ef850533c732bf9b092bc84b9a226660",
+    "semantic_hash": "ef850533c732bf9b092bc84b9a226660"
+  },
+  ".obsidian/plugins/obsidian-git/manifest.json": {
+    "mtime": 1783001522.2169187,
+    "ast_hash": "78daa9ee41f019d8766f19925b34c1f7",
+    "semantic_hash": "78daa9ee41f019d8766f19925b34c1f7"
+  },
+  ".obsidian/templates.json": {
+    "mtime": 1742642680.0,
+    "ast_hash": "b319c2f63a39a3e342032ed231e130da",
+    "semantic_hash": "b319c2f63a39a3e342032ed231e130da"
+  },
+  ".obsidian/workspace-DESKTOP-1ONFQEI.json": {
+    "mtime": 1761355816.0,
+    "ast_hash": "88c6ff5bb0cd75d311dad7e4ce2558dc",
+    "semantic_hash": "88c6ff5bb0cd75d311dad7e4ce2558dc"
+  },
+  "7 - DM/OneShots/search_ledger.py": {
+    "mtime": 1783823900.4029887,
+    "ast_hash": "6d955ba1f5cac867810391704576e7b3",
+    "semantic_hash": "6d955ba1f5cac867810391704576e7b3"
+  },
+  "7 - DM/OneShots/shivath_ledger_dump.json": {
+    "mtime": 1783859334.9067209,
+    "ast_hash": "b2d1e407d588053c1e81ceb8ece87e17",
+    "semantic_hash": "b2d1e407d588053c1e81ceb8ece87e17"
+  },
+  ".gemini/settings.json": {
+    "mtime": 1785767619.467067,
+    "ast_hash": "5731510718806a48783ee595402de1ce",
+    "semantic_hash": ""
+  },
+  ".agents/AGENTS.md": {
+    "mtime": 1785767626.4066458,
+    "ast_hash": "e7bacb773f3b66c88b782d7382887cd9",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1785767549.0716221,
+    "ast_hash": "f1e53ecc9194573d3c28fc116c743a2e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/boss-ability-design/SKILL.md": {
+    "mtime": 1784034711.5058863,
+    "ast_hash": "df9b20869ea7c45072c542c3ec5ac6a4",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1785767549.0717897,
+    "ast_hash": "0bc020d491fca99550c1ea3de0a5f862",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Angramanio/Angramanio.md": {
+    "mtime": 1783950340.5595617,
+    "ast_hash": "7f42498585e43eff208639c9c00cd502",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Biblioteca de Amunuon.md": {
+    "mtime": 1773255648.011473,
+    "ast_hash": "ff036685e444f1bd88cf58dfb47b8336",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Aethyra.md": {
+    "mtime": 1773314647.092698,
+    "ast_hash": "76aa9d13917edf435c04314a63d79eaf",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Dis.md": {
+    "mtime": 1773319476.515471,
+    "ast_hash": "893c325afa294913a7eedacf7ffafa06",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Eldritch Moons - Web Article.md": {
+    "mtime": 1784030924.8427172,
+    "ast_hash": "6d09781c5635cab866940c74a98e21a6",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Elysium.md": {
+    "mtime": 1785777750.8696074,
+    "ast_hash": "88e3f548a917527d905bfe6f9ae2a672",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Lunaris.md": {
+    "mtime": 1773314657.4769516,
+    "ast_hash": "82352155a0a68a2f31760e337072c794",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Lunas.md": {
+    "mtime": 1785777822.8664234,
+    "ast_hash": "7c85312ea082708a829693642a40a2c6",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Mekharion.md": {
+    "mtime": 1773314670.477246,
+    "ast_hash": "dca726b839d27f7607e56a95fca8122c",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Morphys.md": {
+    "mtime": 1773314673.092911,
+    "ast_hash": "65d1b7ceadb5655a99b29ece5fff944b",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Nyssara.md": {
+    "mtime": 1773314676.8624437,
+    "ast_hash": "7fa94099ae1e6ffb7e6134b41aa63258",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Nyxis.md": {
+    "mtime": 1773314680.6286578,
+    "ast_hash": "81c221fc340124b891bfea7dabaf1ece",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Prymyth.md": {
+    "mtime": 1773314683.679269,
+    "ast_hash": "c9b9439e02f8d59fef89e811ed867d9a",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/Valineth.md": {
+    "mtime": 1785777750.873102,
+    "ast_hash": "945742624ee445923b0670d3c5329d07",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Dho.md": {
+    "mtime": 1783859534.84203,
+    "ast_hash": "bc67cc0fd6ba0976c07714945b14d0c3",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Edhesk.md": {
+    "mtime": 1773314733.046287,
+    "ast_hash": "a26b1e562592714690772895af2bc1fd",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Harubeg.md": {
+    "mtime": 1773314736.780982,
+    "ast_hash": "bf17ae9820ca24a9fa11af78e2575ad6",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Kamoh.md": {
+    "mtime": 1773314739.6460326,
+    "ast_hash": "a26b1e562592714690772895af2bc1fd",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Khal-Tum.md": {
+    "mtime": 1773314743.6299572,
+    "ast_hash": "e29e2d4e5ed1b328d19aab8be33869eb",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/La Mazda Perdida.md": {
+    "mtime": 1773314746.7474523,
+    "ast_hash": "c3305142b2de7e7bbc66830a59ae1812",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Mazdas.md": {
+    "mtime": 1783950362.4422653,
+    "ast_hash": "0f65317d152e7382381d1d07ea8aa34c",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Nabhi.md": {
+    "mtime": 1773314754.878084,
+    "ast_hash": "daa740cbc1d8fa5ce5f76730c2aa9782",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Treftiel/Ginnun.md": {
+    "mtime": 1785430406.5989647,
+    "ast_hash": "4ef53c39cfd8e8c9177d2c172e0285aa",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Treftiel/The Iridescent Path.md": {
+    "mtime": 1784026634.854954,
+    "ast_hash": "c687c6620f4161e30fde467493947aff",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Treftiel/Treftiel.md": {
+    "mtime": 1784025470.2288039,
+    "ast_hash": "1bf690e4a7d12f26efc0295d4f6cc080",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Treftiel/Vitra.md": {
+    "mtime": 1783859534.8421361,
+    "ast_hash": "15c86c0813db8c5e033429960977b75c",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Mazdas/Zatchen.md": {
+    "mtime": 1773314769.5314865,
+    "ast_hash": "bd04c6a4cd13f0809b09a4f4cf422393",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Nivel Tecnologico.md": {
+    "mtime": 1784025464.9700518,
+    "ast_hash": "dbe741cb6fbc796de1cf8d59028e4b90",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/Apex Fabricatum.md": {
+    "mtime": 1784026759.8188841,
+    "ast_hash": "677c35611c6039dc3d86466b5902e297",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/Caballeros de la Luna Blanca.md": {
+    "mtime": 1780853544.546714,
+    "ast_hash": "17febb1995973a214eca732412109c8a",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/El Registro.md": {
+    "mtime": 1783950337.4353588,
+    "ast_hash": "24811a741694d39a65af89987be8a2fb",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/Glass Hand.md": {
+    "mtime": 1780857134.4329822,
+    "ast_hash": "40ba1743d434af645a8dc777f4023d84",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/Harlequin's Cry.md": {
+    "mtime": 1779294509.271311,
+    "ast_hash": "bd72ab5dab0b50017f28e40325639994",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/Keepers of the Archive.md": {
+    "mtime": 1780848275.0185206,
+    "ast_hash": "c8992aa60149c983301ff50990e36292",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/La Iglesia de Nu Varak.md": {
+    "mtime": 1783950337.4378507,
+    "ast_hash": "a1a4290c94b6e81e4f506fb4509ff334",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/Solipsis Archive.md": {
+    "mtime": 1779210029.8613014,
+    "ast_hash": "5cda1916f4478534dba4e80451812756",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/The Anvil Consortium.md": {
+    "mtime": 1773314990.8498578,
+    "ast_hash": "0b7dee8e26928f3cfa4ec5fed2232183",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/The Iron Fang.md": {
+    "mtime": 1773314996.998284,
+    "ast_hash": "e7147d2de50a553359580940e797bb02",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Organizaciones/The Nailbound.md": {
+    "mtime": 1773315072.709781,
+    "ast_hash": "51d8848318a6c1579ac26243debdaa19",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Aet\u00e9rion/Aet\u00e9rion.md": {
+    "mtime": 1785768463.2158513,
+    "ast_hash": "81f058eef714b3f05922bb68b4b6b5ef",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Aet\u00e9rion/Bion.md": {
+    "mtime": 1783859481.3852086,
+    "ast_hash": "07fb0f805a0f2d8c983a8b5f78b14a1c",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Aet\u00e9rion/Calyra.md": {
+    "mtime": 1783859481.3892038,
+    "ast_hash": "be6da42483c5d0f4d44668d23358b16d",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Aet\u00e9rion/Nairek.md": {
+    "mtime": 1785769034.0753894,
+    "ast_hash": "77829de73a4bf3d8a7768d72b565a317",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Anuri\u00f3n/Anuri\u00f3n.md": {
+    "mtime": 1785768464.7439299,
+    "ast_hash": "e8912be0f0954fd5847a32b406d9a115",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Anuri\u00f3n/Elos.md": {
+    "mtime": 1783859481.3911095,
+    "ast_hash": "319823d3f8e4a8b11393f1d2be308a80",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Arkhantia/Arkhantia.md": {
+    "mtime": 1785768698.0739665,
+    "ast_hash": "e2c21fa3db99aaf4fcc3ce17d67f70e4",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Arkhantia/Auryn.md": {
+    "mtime": 1783859481.381536,
+    "ast_hash": "b4636d4a9d7e51d60be34dac4283e38a",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Arkhantia/Eldarionne.md": {
+    "mtime": 1783859481.3877003,
+    "ast_hash": "917d3e7ad331ad90619121f11f1c77bc",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Arkhantia/Thalarkhan.md": {
+    "mtime": 1783859481.3889608,
+    "ast_hash": "b19867882045e9d43b68ffabf6e0c629",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Arkhantia/Zoryan.md": {
+    "mtime": 1783859481.3856921,
+    "ast_hash": "34af6a88a4008772ac33c9e2a3039ac1",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Dioses.md": {
+    "mtime": 1785768190.2217417,
+    "ast_hash": "b4650bdfe3e43065390c6f704f317b20",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Kami.md": {
+    "mtime": 1785769034.0737975,
+    "ast_hash": "eb2816c01b1af007eedb4079d8bc4576",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Nemorias/Daedalus.md": {
+    "mtime": 1783859481.3882272,
+    "ast_hash": "896e65880ec88b6e902ce60459ed1a6a",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Nemorias/Minos.md": {
+    "mtime": 1783859481.3913128,
+    "ast_hash": "ec1cd2a737b03bc9f7061e2e7edb76a6",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Nemorias/Nemorias.md": {
+    "mtime": 1785768470.3225465,
+    "ast_hash": "5bb5d37af85000d985d16de18a6846f8",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Nemorias/Oshikai.md": {
+    "mtime": 1783859481.3868089,
+    "ast_hash": "aafeedf7775f04a5c7f7fbed5a898b4b",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Nemorias/Tsukiryuu.md": {
+    "mtime": 1783859481.3903737,
+    "ast_hash": "de1d5eb47dbd39b5fb1da96d7433de52",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Nemorias/Yanglong.md": {
+    "mtime": 1783859481.3900251,
+    "ast_hash": "0739b480f8ef1883798b2ac8d72a0d0a",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Panteones.md": {
+    "mtime": 1785777160.8335252,
+    "ast_hash": "4fda8257b40a24268f09b008e52fee05",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Ulirith/Morghal.md": {
+    "mtime": 1783859481.3872917,
+    "ast_hash": "c25b6f14e89c07be3a25f0e176bd79c3",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Ulirith/Nu Varak.md": {
+    "mtime": 1783859481.3898125,
+    "ast_hash": "edbf778c39db3ed1ccb30b5039860c79",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Ulirith/Ulirith.md": {
+    "mtime": 1785768472.736954,
+    "ast_hash": "080f5a5f37c0dde7c5d6f977ce5c2824",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/ZNo Panteon or Unkown/Bo Koltos.md": {
+    "mtime": 1783859481.3916416,
+    "ast_hash": "a45bee86103abd4b0f944d3996e23b42",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/ZNo Panteon or Unkown/Morierelth.md": {
+    "mtime": 1785769034.0775807,
+    "ast_hash": "d24c71187694a39a0569c93ac0adcde2",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/ZNo Panteon or Unkown/Shefir.md": {
+    "mtime": 1785768171.1011035,
+    "ast_hash": "18a121b9cd0804446977f4758caac85a",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Zenithia/K\u00e1eon.md": {
+    "mtime": 1783859481.3894577,
+    "ast_hash": "24730145855bc62a896cb04b85ab7075",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Zenithia/Nameka.md": {
+    "mtime": 1783859481.3907347,
+    "ast_hash": "3d5acd8964a28f36b49f5838b36b0a0b",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Zenithia/Tzelsheiah.md": {
+    "mtime": 1783859481.3886018,
+    "ast_hash": "66a20096fd6b7a0000399a2b067402c3",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Zenithia/Zenithia.md": {
+    "mtime": 1785777385.5495129,
+    "ast_hash": "e0e60059ab6e689e8da5c5b8012c649b",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Shivath.md": {
+    "mtime": 1783859534.8417952,
+    "ast_hash": "f3d33196fee9747942b50cbf9b6c5b82",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Futuro/Wild Hunt.md": {
+    "mtime": 1773255770.0309455,
+    "ast_hash": "20bca2d6a619ffc5d113278d25008e4a",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Antigua Guerra de Dho.md": {
+    "mtime": 1761174956.0,
+    "ast_hash": "eb6120245f16d96deb15b86d078d66f2",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Estancaciones Temporales.md": {
+    "mtime": 1773315842.8118377,
+    "ast_hash": "dd584f564242444fa27e8d0ee95fa8fa",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Hilo Negro del Destino.md": {
+    "mtime": 1785769034.0468376,
+    "ast_hash": "c29a23676897cdece2853f48424954a9",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Las 7 Eras/Las 7 Eras.md": {
+    "mtime": 1773315578.4900563,
+    "ast_hash": "e8a0ffdde5ae2cf7b38fb93985985a63",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Las 7 Eras/Primera Era.md": {
+    "mtime": 1773315496.9378402,
+    "ast_hash": "f9861006d1b10c00c4020e8ff9c16670",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Las 7 Eras/Quinta Era.md": {
+    "mtime": 1761173354.0,
+    "ast_hash": "1190a610604fad5fb3db7f45a51481ce",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Las 7 Eras/Segunda Era.md": {
+    "mtime": 1744327324.0,
+    "ast_hash": "03313314cec413320a0e5cb300146006",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Primera Wild Hunt.md": {
+    "mtime": 1744084238.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Presente/Guerra de Dho.md": {
+    "mtime": 1783950337.4395177,
+    "ast_hash": "d63c3089e4fa72545b9e3620af80b45f",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Aldrean - Vicky.md": {
+    "mtime": 1773441973.6732314,
+    "ast_hash": "e4f443a14de819eab3c246a2e4d4393e",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Anathema - Jose.md": {
+    "mtime": 1773426368.3948658,
+    "ast_hash": "ff750d8a872a346c5a48a09123369adb",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Argia - Lucas.md": {
+    "mtime": 1773441953.177048,
+    "ast_hash": "f3486d318db33601a0da11152d7c967c",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Ary - Noah.md": {
+    "mtime": 1773426360.19528,
+    "ast_hash": "4a6559428563df391eb4dac4b147703d",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Gaios - Aless.md": {
+    "mtime": 1783950337.4409268,
+    "ast_hash": "a4c66ca16de9ce29c68d296a401435c1",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Jorasugoto - Alex.md": {
+    "mtime": 1773453085.2931595,
+    "ast_hash": "f3ea90b422a65d9dc7cba5df66bed2c0",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Jugadores.md": {
+    "mtime": 1773426301.8726819,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Kudi - Rafa.md": {
+    "mtime": 1773426387.0390449,
+    "ast_hash": "093a6e38222e07af41513ef0c65e1946",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Luther - Luciano.md": {
+    "mtime": 1773426392.3610904,
+    "ast_hash": "af8733b0e2f5e4ab08c3e15b78f6b525",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Mac - Dani.md": {
+    "mtime": 1773426486.3613079,
+    "ast_hash": "11faaafb9f58fa2cea8c2b9834d1904e",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Roxanne - Paola.md": {
+    "mtime": 1773453130.5551093,
+    "ast_hash": "65b2c07f739100084b90999273c3ea1a",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Szaemai - Yago.md": {
+    "mtime": 1785618368.4109435,
+    "ast_hash": "3fdd561f471c1d4de6b6abbdbb169681",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores Mayores/El Cazador Rojo.md": {
+    "mtime": 1783950337.4497175,
+    "ast_hash": "8d156a2fa2556bfd8edc1229097c0cf8",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores Mayores/The Blue Chronicle.md": {
+    "mtime": 1773424968.4283044,
+    "ast_hash": "d490734fc83d19e996b1a94f9ddfae4d",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores Mayores/Violet Parallax.md": {
+    "mtime": 1744332414.0,
+    "ast_hash": "df474916e2f2599aafe9c96b5f6f95aa",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores Mayores/White Moon.md": {
+    "mtime": 1744332468.0,
+    "ast_hash": "c405d31d51a93225976e4506b5f37773",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores Menores/The Cobalt Rain.md": {
+    "mtime": 1784040370.5659616,
+    "ast_hash": "7576f8a6c0319388494de8b5cbe917ff",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores Menores/The Paper Claw.md": {
+    "mtime": 1783950337.45146,
+    "ast_hash": "ca423e5cbe9497a844fd5b5f0a928d44",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Colores/Colores.md": {
+    "mtime": 1742652330.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Importantes/Amunuon.md": {
+    "mtime": 1773426085.4586132,
+    "ast_hash": "6defc312e526f32a1f456a760feed53b",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Importantes/Paracelsus.md": {
+    "mtime": 1773319374.845859,
+    "ast_hash": "502ef09ddfd50d8e56719406dfc04fa4",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Importantes/Sintesis/Ate.md": {
+    "mtime": 1773449823.6657286,
+    "ast_hash": "eddeb1ee4cf22e67f38f9437aa63a6ce",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Importantes/Sintesis/Babel.md": {
+    "mtime": 1773449716.1063042,
+    "ast_hash": "724d04566c2064dbd45b92605efecb6a",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Importantes/Sintesis/Nihi.md": {
+    "mtime": 1773449642.6293266,
+    "ast_hash": "86297d32cddca0de0749d9560a750313",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Importantes/Tasha.md": {
+    "mtime": 1773426056.2514424,
+    "ast_hash": "7070cc158a7b9f20aa219ec8b41535d4",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Aphor Wyrm.md": {
+    "mtime": 1783950337.466885,
+    "ast_hash": "040c46a23bf1467ace11c643f0041aff",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Beauregard Colt.md": {
+    "mtime": 1783859481.3939204,
+    "ast_hash": "ab1688735cc58a17a8f882f1b550c764",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Dorian.md": {
+    "mtime": 1744333828.0,
+    "ast_hash": "a2e24957b3df23fae0c2fb51cb92a53a",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Elyss.md": {
+    "mtime": 1783859481.3952327,
+    "ast_hash": "fcc69bf91894ca18204ff71a7276661c",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Endimion.md": {
+    "mtime": 1783859481.3926888,
+    "ast_hash": "272d602e1ba0551e97d7503ce86f923f",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/F\u00f3dhla.md": {
+    "mtime": 1783859481.3945508,
+    "ast_hash": "7d8b5da173142044c1e99b7285ad7cc5",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Kaellen.md": {
+    "mtime": 1783859481.3930016,
+    "ast_hash": "98ed130ecf535fc806a845f872ca9923",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Marcus Halberstram.md": {
+    "mtime": 1783859481.3919287,
+    "ast_hash": "5ac79a8476a0f4d149fb3371e418e9ab",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Morrigan.md": {
+    "mtime": 1783859481.3948383,
+    "ast_hash": "4165d48f1f5515683181cd176c3d682a",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Nejbet.md": {
+    "mtime": 1783859481.395332,
+    "ast_hash": "1d6fdf1bcbd622d96251c373e7c41eea",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Padre de las Espinas.md": {
+    "mtime": 1783859481.3937297,
+    "ast_hash": "72a278fb28d64f5701320b1f33732e31",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Petra Yormis.md": {
+    "mtime": 1773318209.5252485,
+    "ast_hash": "6abb9aa0e4f6d01a6313cd229a7b1648",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Player Characters.md": {
+    "mtime": 1783859481.392023,
+    "ast_hash": "f5164b823ca287bb64bb3f67c83dd8dd",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Quatreva.md": {
+    "mtime": 1783859481.392355,
+    "ast_hash": "e8e5c0e403a5f8a7bffd2109fb603124",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Senshi Shins\u00eb.md": {
+    "mtime": 1783859481.3918016,
+    "ast_hash": "82446a79de1222bbd4f6d890adead595",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Tiresias.md": {
+    "mtime": 1785079801.4972677,
+    "ast_hash": "33f1d5c85401bcfe203722b90cb96c4a",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/NPC/Otros/Valdros.md": {
+    "mtime": 1783859481.3947382,
+    "ast_hash": "8a1c51ad303ffbaf47cb78918769c65b",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Arys Mission.md": {
+    "mtime": 1773427245.4887872,
+    "ast_hash": "4096ffa16e3043ea48dbe7ce36b73ae6",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Circles Below Redux.md": {
+    "mtime": 1780853617.970869,
+    "ast_hash": "b0b36f1a0f8fcda9a8791b8ef6da1288",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Circles Below.md": {
+    "mtime": 1785066696.4060097,
+    "ast_hash": "ad7d402f140f04582a5a03021b312186",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Iron Vein + Crimson Fangs.md": {
+    "mtime": 1778353983.1465316,
+    "ast_hash": "5410f8c3845ec15d040ca460272c500e",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/Echoes of the Forgotten.md": {
+    "mtime": 1773319596.0568974,
+    "ast_hash": "4d7bed93cc6db7038ad0da87925e1d89",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/El Objeto Bendito de Morierelth.md": {
+    "mtime": 1773319490.9470522,
+    "ast_hash": "eb3853e283fd2c7cc39db40b688e7223",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/Kobolds Cleaning.md": {
+    "mtime": 1762075014.0,
+    "ast_hash": "8798582941d39d3b098e9f7421d39ebb",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/Niebla.md": {
+    "mtime": 1773426829.5031226,
+    "ast_hash": "7c2c442f100868082a15209c0ca5db1c",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/The Alchemist Trail.md": {
+    "mtime": 1761175168.0,
+    "ast_hash": "f1e6e7e239aeed85737b4f6b2c1d3146",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/The Blind Hunt.md": {
+    "mtime": 1744336782.0,
+    "ast_hash": "0e6b6abe1e7b911ad2f91d8958cf7dd1",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/The Lost Book of Nicol\u00e1s Furioso.md": {
+    "mtime": 1742651704.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/The Old Man and the Glowing Lake.md": {
+    "mtime": 1761174678.0,
+    "ast_hash": "7b34238ca541fd32bf65310772424a75",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Legacy/Unmasking Cassien.md": {
+    "mtime": 1758886454.0,
+    "ast_hash": "7d22e2fc124a42574adc3bb92701d650",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Solipsis Initiation Ritual.md": {
+    "mtime": 1785066759.12589,
+    "ast_hash": "a5aef5839a008fbab0400ad36f35775b",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Solipsis Misions.md": {
+    "mtime": 1785448744.5937598,
+    "ast_hash": "9eccf6f1a850c2e9248794e87a1b3f89",
+    "semantic_hash": ""
+  },
+  "4 - Misiones/Whispers in the Mine.md": {
+    "mtime": 1785777975.0301483,
+    "ast_hash": "5f5cde5b5558f2e996983f28d1641265",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Magic.md": {
+    "mtime": 1785777214.5879793,
+    "ast_hash": "e3f084d03e9973ed9949c0f75eea7b45",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Mecanicas/Humanidad.md": {
+    "mtime": 1779983487.2783356,
+    "ast_hash": "10bd169c2aa784c18fb09107ae2c39c2",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Mecanicas/Prost\u00e9ticos.md": {
+    "mtime": 1780853088.27305,
+    "ast_hash": "087fc48e7543cf2f39ad8b4bfe6b8ca4",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Mecanicas/Terapia.md": {
+    "mtime": 1780852962.9032724,
+    "ast_hash": "c840bb2b47bf4042f2334bd4040cd4ea",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Mecanicas/Time Credit.md": {
+    "mtime": 1785776608.3151293,
+    "ast_hash": "ced608ba642d00fe1f88d31e00639429",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Voluntad.md": {
+    "mtime": 1780856246.6213262,
+    "ast_hash": "6d62aaa4ac39a5042ac9444abca8d7ad",
+    "semantic_hash": ""
+  },
+  "7 - DM/Combat/Da\u00f1os Deluxe.md": {
+    "mtime": 1784849305.6566274,
+    "ast_hash": "4bb005f59a34c27ad965c5357ba1fe9c",
+    "semantic_hash": ""
+  },
+  "7 - DM/Combat/Dise\u00f1o de Jefes.md": {
+    "mtime": 1784034807.9529548,
+    "ast_hash": "509e0714f52a241dc3705a15d380437b",
+    "semantic_hash": ""
+  },
+  "7 - DM/Combat/Sistema Marcial.md": {
+    "mtime": 1784033499.276245,
+    "ast_hash": "d5fdba5612a689507c448ccdf77af6a0",
+    "semantic_hash": ""
+  },
+  "7 - DM/Combat/Status_Limbus_System.md": {
+    "mtime": 1785768308.395184,
+    "ast_hash": "a43912a1daccc52e2dec7775d80802a0",
+    "semantic_hash": ""
+  },
+  "7 - DM/Combat/Traits.md": {
+    "mtime": 1784032873.6561365,
+    "ast_hash": "78d47438cea1a41c1174178e9fc9c8ac",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Hot and Cold/00-Indice_y_Resumen.md": {
+    "mtime": 1785423260.583032,
+    "ast_hash": "864f03caa37d6cbe2b0f69da97dc5fcb",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Hot and Cold/01-Desafios_Ambientales.md": {
+    "mtime": 1784027299.456261,
+    "ast_hash": "ee3f88d49ecf9a4c3285f06744984421",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Hot and Cold/02-Combate_Cobalt_Rain.md": {
+    "mtime": 1784668778.0363684,
+    "ast_hash": "b2a9195d730514c149efc4182d9ced10",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Hot and Cold/Mecanica_Choque_Termico.md": {
+    "mtime": 1783950166.6291761,
+    "ast_hash": "5d01416ffd34b2dbf482055076f253ba",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/LORE_INDEX.md": {
+    "mtime": 1783950337.463478,
+    "ast_hash": "2d65b201ee0e0211322fb8d0f9d42825",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/La Colmena/Literalmente el hormiguero.md": {
+    "mtime": 1784045292.813141,
+    "ast_hash": "2d16b3e4eda9b8d3f43f8d5b8a7967f3",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Lanayru/Idea general.md": {
+    "mtime": 1785766497.7128928,
+    "ast_hash": "02a4e78f542ed67bd417f769065f9c31",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/TTT/TTTs.md": {
+    "mtime": 1785688748.1893268,
+    "ast_hash": "fcbbcec45a7a14639f5bad2ece83c743",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/00-Resumen_Definitivo.md": {
+    "mtime": 1782008478.381271,
+    "ast_hash": "fc1af8bd2bbcda230cefea88e43f48f8",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/01-Escena_Introduccion_Happy.md": {
+    "mtime": 1782007619.3683786,
+    "ast_hash": "f4d5faf3d7a183dcb25068c219f9a504",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/02-Escena_El_Resort.md": {
+    "mtime": 1782009257.7985928,
+    "ast_hash": "b4dbe145b76b9d8f89f81c31eb4db506",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/03-Escena_El_Orbe.md": {
+    "mtime": 1782009266.3707597,
+    "ast_hash": "bc70c7a7bd5ef6987bb238986ae49aa1",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/04-Escena_El_Partido.md": {
+    "mtime": 1782009278.322956,
+    "ast_hash": "5490ea1ba672c1a915cd43b834c75903",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/05-Escena_El_Caos.md": {
+    "mtime": 1782009284.0204914,
+    "ast_hash": "e70cd5169949f12ce2202706ba772c2a",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/06-Escena_El_Laboratorio.md": {
+    "mtime": 1782041963.2148712,
+    "ast_hash": "1810f71f18fcc241a905d1c65c7e21df",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/07-Consecuencias_y_Epilogo.md": {
+    "mtime": 1782008851.8129373,
+    "ast_hash": "0e2bf081210cea9c7a551760352bb38e",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/Chat.md": {
+    "mtime": 1782035370.7204325,
+    "ast_hash": "eaa480e207e00ef319472bf676ab4b8b",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/Lore_Los_Argentofagos.md": {
+    "mtime": 1782006719.591622,
+    "ast_hash": "186dab93f2a8049a559b1fc79f880364",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/Mecanica_Investigacion_Playa.md": {
+    "mtime": 1782005751.3587105,
+    "ast_hash": "9105d78643b377767b589b91230a67a0",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/Mecanica_Rutas_Infiltracion.md": {
+    "mtime": 1781200085.8497224,
+    "ast_hash": "25fd2f49ac2f5f9c4338bd3d0e23d3dd",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/Mecanicas Blitzball.md": {
+    "mtime": 1782037432.6362562,
+    "ast_hash": "103582a0ad435d70ca62a6bbd54a6ff7",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/The Boiling Sun of Treftiel/NPCs_Playa.md": {
+    "mtime": 1782033660.3210073,
+    "ast_hash": "827261c5183a0bc9d8e5f4b1251e0737",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Waiting for Godot/Untitled.md": {
+    "mtime": 1785516402.8200316,
+    "ast_hash": "df2ae46ecfee51083322ba0d89e27df9",
+    "semantic_hash": ""
+  },
+  "Excalidraw/Mac-Dorian Echos.md": {
+    "mtime": 1779297312.0271742,
+    "ast_hash": "ea7388c458029b71403a9775e783598a",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1785767619.46665,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "META.md": {
+    "mtime": 1783823568.2723956,
+    "ast_hash": "a95e0ae98954ce4ad6f448e2d7e6d49e",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/Se\u0301ptimo Panteo\u0301n.md": {
+    "mtime": 1773255590.1903763,
+    "ast_hash": "14816b22a7ca6e0ab036119ac926cd58",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Futuro/Fin de la Se\u0301ptima Era.md": {
+    "mtime": 1785085278.757227,
+    "ast_hash": "ff6e654c49e9daf78ec3aaed9fe69ebf",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/A\u0301rbol del Mundo.md": {
+    "mtime": 1742653662.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Gran Telaran\u0303a.md": {
+    "mtime": 1785769034.04656,
+    "ast_hash": "4bf0d3ddd8576a073689607c99420160",
+    "semantic_hash": ""
+  },
+  "2 - Historia/Pasado/Las 7 Eras/Se\u0301ptima Era.md": {
+    "mtime": 1744331148.0,
+    "ast_hash": "f8188261ed32255c3915f1afefc5378b",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Humeante - Luci\u0301a.md": {
+    "mtime": 1783950337.445172,
+    "ast_hash": "2a33baaf6937192522c33089aea18b59",
+    "semantic_hash": ""
+  },
+  "3 - Personajes/Jugadores/Nicola\u0301s - Arturo.md": {
+    "mtime": 1773426510.184404,
+    "ast_hash": "1858f4574227712a77c1f60cbd13a222",
+    "semantic_hash": ""
+  },
+  "5 - Otros/Teori\u0301as y preguntas.md": {
+    "mtime": 1785769034.0804439,
+    "ast_hash": "b8452d822b94bd79c9c2e96d25aee6ba",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Panteones/ZNo Panteon or Unkown/Vespria.md": {
+    "mtime": 1785782258.47859,
+    "ast_hash": "ed8be57de5e3e2c4fe83753c5658c9c9",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Patrones/Nejbet.md": {
+    "mtime": 1785768819.5259538,
+    "ast_hash": "a03d916597ab7fea5d88b264c5f74319",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Patrones/Quatreva.md": {
+    "mtime": 1785768808.802646,
+    "ast_hash": "a49be6fca8aee7017a140b80cbbfb9c3",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Patrones/The Red Hunter.md": {
+    "mtime": 1785768811.4129784,
+    "ast_hash": "0bada35c2718151d5d8515908756da7b",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Patrones/The Shard That Speaks.md": {
+    "mtime": 1785768821.534423,
+    "ast_hash": "cc1d7ad818538a850a75463ef0f225c5",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Patrones/The Thornfather.md": {
+    "mtime": 1785768817.0006204,
+    "ast_hash": "55006af09d6b089a060dd10b6c3529ee",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Patrones/Valdros.md": {
+    "mtime": 1785768813.994095,
+    "ast_hash": "c616f6fc4ebfd9b2b9ab0eea657f3f16",
+    "semantic_hash": ""
+  },
+  "1 - Mundo/Lunas/The Shard That Speaks.md": {
+    "mtime": 1783859481.3934193,
+    "ast_hash": "d78d9b757860279f0bb791b0d97d324a",
+    "semantic_hash": ""
+  },
+  "7 - DM/Lore Building/Vespria.md": {
+    "mtime": 1785782245.879418,
+    "ast_hash": "10f3535e034e386cb720026c73d8a3ce",
+    "semantic_hash": ""
+  }
+}
