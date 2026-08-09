@@ -174,3 +174,38 @@ Puzles diseñados para resolverse mediante físicas simples, llaves genéricas o
 * **Mecánica**: Rastrillo de hierro de 300 lbs conectado a un torno sin fin con trinquete.
 * **Repetibilidad**: Requiere una prueba de Fuerza (DC 13) o trabar el engranaje con un mazo/estaca de basalto. Proceso puramente físico y predecible.
 
+---
+
+## 6. Catálogo de Cerrojos con Pruebas de Habilidad Inusuales
+
+Cerrojos interactivos que requieren usos creativos de habilidades poco habituales. **Al resolverlos la primera vez, la clave queda anotada en el cuaderno físico del grupo, evitando repetir tiradas de dado**:
+
+### 34. 🏥 La Compuerta Biomecánica Sangrante (Medicine Check)
+* **Mecánica**: Compuerta de músculo petrificado y savia arcana en tensión.
+* **Check Inusual**: *Medicina (DC 13)* para encontrar el "nodo arterial" correcto e infligir una punción quirúrgica que relaje la masa muscular.
+* **Repetibilidad**: La ubicación del nodo queda registrada en el cuaderno; en futuras incursiones se sangra en 1 segundo.
+
+### 35. 📜 El Friso de la Dinastía Olvidada (Strength [History] Check)
+* **Mecánica**: Cuatro losas gigantes rotatorias esculpidas con los reyes ancestrales de Shivath.
+* **Check Inusual**: Tirada combinada de *Fuerza (Historia) (DC 13)*: recordar la cronología real mientras se aplica palanca física para hacer girar las losas.
+* **Repetibilidad**: La secuencia de reyes anotada elimina la necesidad de tirada; sólo exige empujar las losas.
+
+### 36. 📜 El Portón del Cántico Sagrado de Alrest (Religion Check)
+* **Mecánica**: Estatuas de teólogos arcanos que solo abren el paso al escuchar la liturgia adecuada.
+* **Check Inusual**: *Religión (DC 13)* para cantar la salmodia arcana en la métrica adecuada.
+* **Repetibilidad**: La estrofa traducida queda en el cuaderno; cualquier personaje puede recitarla directamente.
+
+### 37. 🎵 La Cristalera de Resonancia Armónica (Performance Check)
+* **Mecánica**: Cierre de cuarzo traslúcido atascado por cristalización armónica.
+* **Check Inusual**: *Interpretación / Instrumento (DC 13)* para emitir la nota/tono vibracional exacto que resquebraja el bloqueo.
+* **Repetibilidad**: La nota (ej. Sol#) se anota en el cuaderno; hacer sonar un diapasón la abre al instante.
+
+### 38. 🪲 La Cerradura del Nido de Larvas de Basalto (Animal Handling Check)
+* **Mecánica**: Cerradura obstruida por pequeños constructos-insectos durmientes.
+* **Check Inusual**: *Trato con Animales (DC 13)* para engatusar o alimentar a las larvas con virutas de mineral para que royan el pestillo.
+* **Repetibilidad**: Sabiendo qué mineral comen las larvas, arrojar un trozo en el receptáculo la abre al instante.
+
+### 39. 💨 La Sima de las Fisuras Térmicas Micro-Gaseosas (Survival Check)
+* **Mecánica**: Muro con 6 orificios; 5 expulsan gas tóxico y 1 retrae el rastrillo.
+* **Check Inusual**: *Supervivencia (DC 13)* para detectar por diferencias de flujo de aire térmico cuál es la fisura segura.
+* **Repetibilidad**: Anotado el número del orificio seguro en el cuaderno, se introduce la vara en 1 segundo.

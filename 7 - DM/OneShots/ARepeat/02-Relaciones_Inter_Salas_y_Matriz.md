@@ -118,3 +118,46 @@ Para evitar la dependencia exclusiva de elementos arcanos, el laberinto incorpor
 ======================================================================
 ```
 
+---
+
+## 5. Catálogo de Cerrojos con Pruebas de Habilidad Inusuales (Unusual Skill Checks)
+
+Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepción/Investigación/Atletismo, estas puertas requieren **usos creativos de habilidades inusuales**. Una vez descubierta la técnica o respuesta la primera vez, se anota en el cuaderno físico y su paso en runs futuras es inmediato:
+
+```
+======================================================================
+     🧠 CERROJOS CON PRUEBAS DE HABILIDAD INUSUALES (UNUSUAL CHECKS) 🧠
+======================================================================
+1. PUERTA BIOMECÁNICA SANGRANTE (🏥 Check: Medicina DC 13):
+   - Músculo petrificado y conductos de savia arcana. Palpar el "pulso" y hacer 
+     una punción precisa en la arteria rúnica correcta drena la presión.
+   - Repetible: Anotada la ubicación del nodo en el cuaderno, en futuras runs 
+     se punza sin necesidad de tirada.
+
+2. PUERTA DE FRISO DINÁSTICO (📜 Check: Fuerza [Historia] DC 13):
+   - Losas de 200 lbs grabadas con reyes antiguos. Exige conocer el orden dinástico 
+     mientras se ejerce fuerza física palanca para rotar las piedras pesadas.
+   - Repetible: Registrado el orden de los reyes en el cuaderno, sólo requiere empujar.
+
+3. PUERTA DE SALMODIA LITÚRGICA (📜 Check: Religión / Teología DC 13):
+   - Efigies de Alrest que requieren recitar los versos arcanos de consagración 
+     en la cadencia y tono ritual correctos.
+   - Repetible: Los versos quedan transcritos en el cuaderno para leerlos en voz alta.
+
+4. PUERTA DE RESONANCIA CUÁNTICA (🎵 Check: Interpretación / Instrumento DC 13):
+   - Cierre de cuarzo bloqueado por frecuencia armónica. Cantar o tocar la nota 
+     exacta que descompone la cristalización del cerrojo.
+   - Repetible: La nota exacta queda anotada (ej. Sol#); hacer sonar un diapasón la abre al instante.
+
+5. PUERTA DE NIDO DE VERMES CONSTRUCTO (🪲 Check: Trato con Animales DC 13):
+   - Cerradura tupida por larvas de basalto. Guiar o alimentar a los constructos-insecto 
+     con virutas de mineral para que royan las cuerdas de retención.
+   - Repetible: Sabiendo qué mineral comen, tirar un trozo en la muesca abre el sello.
+
+6. PUERTA DE FISURAS MICRO-GASEOSAS (💨 Check: Supervivencia Subterránea DC 13):
+   - Muro con 6 orificios; 5 liberan gas asfixiante y 1 activa el pasador. Leer la 
+     dirección de micro-corrientes térmicas en las fisuras para dar con el correcto.
+   - Repetible: Anotado el orificio seguro (ej. "Orificio #4"), se activa en 1 segundo.
+======================================================================
+```
+
