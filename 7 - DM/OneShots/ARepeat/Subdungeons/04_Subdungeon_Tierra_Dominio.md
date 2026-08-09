@@ -1,91 +1,87 @@
-# 🪨 Subdungeon 4: El Dominio Telúrico (Verbatim Snowhead Temple - Majora's Mask Edición Basalto)
+# 🪨 Subdungeon 4: El Dominio Telúrico (Layout Complejo y No-Lineal estilo Snowhead Temple)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md`  
-> **Inspiración Verbatim**: **Snowhead Temple / Torre de la Cumbre** (*Majora's Mask* - Edición Basalto 100% Roca)  
-> **Puzles Copiados Directos**: **El Colapso Vertical del Pilar Central de 4 Pisos**, **Interruptores Peg Rojos/Azules** y **La Carrera de Embestida contra Goht**  
+> **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask* - Edición Basalto 100% Roca)  
+> **Estructura de Layout**: **Torre Cilíndrica de 4 Pisos (Hub Central)** + **Ala Catacumbas (Piso 1)** + **Ala Armería (Piso 2)** + **Colapso Sísmico Vertical por Impactos de Martillo**  
 > **Dungeon Item**: *Martillo de Basalto* (Gran Megaton Hammer Telúrico)  
 > **Guardián de Área**: *El Titán de Basalto* (Inspirado en *Goht / Scaldera*)  
 > **Recompensa**: 🔓 Desbloqueo Permanente del Dominio Telúrico + Fragmento de Tablilla #4
 
 ---
 
-## 🗺️ Mapa de Flujo de la Mazmorra (Snowhead Central Pillar Layout)
+## 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Snowhead Central Pillar Non-Linear Layout)
 
 ```mermaid
 graph TD
-    S1["Room 1: El Gran Pozo del Pilar Central (Nivel 1)"] -->|Puzle 1: Llave en Catacumbas| S2["Room 2: Las Catacumbas de Basalto"]
-    S2 -->|Cofre: Llave Pequeña 🗝️1| S1
-    S1 -->|Usar Llave 🗝️1| S3["Room 3: La Galería del Nivel Medio (Nivel 2)"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ El Armos de la Cumbre (Mini-Boss)"]
+    S1["Room 1: Pozo del Pilar Central (Hub 4 Pisos - Nivel 1)"] -->|Explorar Catacumbas Este| S2["Room 2: Ala Catacumbas de Basalto Agrietado"]
+    S2 -->|Limpiar Escombros| S2_Key["🗝️ Cofre: Llave Pequeña #1"]
+    S2_Key -->|Backtrack al Hub| S1
+    
+    S1 -->|Usar Llave #1 en Puerta Oeste 🗝️1| S3["Room 3: Ala Armería (Piso 2)"]
+    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ Cámara del Armos de la Cumbre (Mini-Boss)"]
     S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Martillo de Basalto"]
     
-    Item --> S5["Room 5: Puzle 2: Primer Smash al Pilar Central (Nivel 1)"]
-    S5 -->|Destruir Anillo #1 del Pilar: Torre Cae 10 ft| S6["Room 6: Segundo Smash al Pilar (Nivel 3) & Bloques Peg"]
-    S6 -->|Destruir Anillo #2 del Pilar: Torre Cae 10 ft| S7["Room 7: 🔒 El Portón de la Cumbre Tectónica (Nivel 4)"]
-    S7 -->|Usar Llave del Boss 👑 & Cruce de Corona| S8["Room 8: 💀 Arena de Goht / El Titán de Basalto"]
+    Item -->|Backtrack a la Base del Hub (Piso 1)| S5["Room 5: Primer Smash al Pilar Central (Piso 1)"]
+    S5 -->|Destruir Anillo #1 del Pilar: Pilar Cae 10 ft| S5_Align["🔓 Alineamiento: Conecta Piso 2 con Piso 3"]
+    S5_Align --> S6["Room 6: Segundo Smash al Pilar (Piso 3) & Bloques Peg"]
+    S6 -->|Destruir Anillo #2 del Pilar: Pilar Cae 10 ft| BossKey["👑 COFRE: Llave del Boss (en Cúspide del Pilar)"]
+    
+    BossKey -->|Ascender Escalera Perimetral al Piso 4| S7["Room 7: 🔒 El Portón de la Cumbre Tectónica"]
+    S7 --> S8["Room 8: 💀 Arena de Goht / El Titán de Basalto"]
     S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #4"]
 ```
 
 ---
 
-## 🏛️ Recorrido Verbatim Sala por Sala con Puzles Involucrados
+## 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Tower Collapses)
 
-### Room 1: El Gran Pozo del Pilar Central (Entrada - Nivel 1)
-> *"Una monumental torre cilíndrica de cuatro pisos en cuyo centro se alza un gigantesco Pilar Central de Basalto. Pasarelas de piedra giran alrededor del pilar a distintas alturas, pero las pasarelas superiores están desalineadas. En el piso inferior, un portón tiene un candado de hierro 🗝️1."*
-* **Mecánica Central (Snowhead MM)**: Destruir anillos de basalto del pilar central hace caer la torre piso por piso.
-* **Puertas**: Sur (Entrada), Norte (Locked 🗝️1), Este (Abierta).
-* **Acción DM**: Explorar las catacumbas del Este (Room 2) para hallar la Llave Pequeña 🗝️1.
+### Room 1: Pozo del Pilar Central (Hub 4 Pisos - Nivel 1)
+> *"Una monumental torre cilíndrica de cuatro pisos dominada por un Pilar Central de Basalto. Pasarelas de piedra giran alrededor del pilar a distintas alturas, pero la pasarela del Piso 3 está inalcanzable. En el Piso 1 destacan las Catacumbas (Este), la Armería (Oeste - Locked 🗝️1) y la Cumbre (Piso 4 - Locked 🔒)."*
+* **Estructura Hub**: Conecta todos los pisos verticalmente mediante el Pilar Central.
 
 ---
 
-### Room 2: Las Catacumbas de Basalto (Llave Pequeña #1)
-> *"Un pasadizo donde temblores desprenden rocas. En el fondo, tras una pared frágil, descansa el cofre."*
-* **Enemigos**: 3x Escarabajos Telúricos (AC 14, 16 HP).
-* **Resolución**: Retirar los escombros (*Fuerza DC 11*) y derrotar a los escarabajos para tomar la **Llave Pequeña 🗝️1**.
+### Room 2: 🧩 Ala Catacumbas de Basalto Agrietado (Piso 1)
+> *"Un pasadizo donde temblores desprenden escombros de basalto sobre las tumbas."*
+* **Puzle Involucrado**: Mover rocas de fallas (*Fuerza DC 11*) y derrotar a 3x Escarabajos Telúricos.
+* **Botín**: Oblicuo en el nicho descansa la **Llave Pequeña 🗝️1**.
+* **🔄 BACKTRACKING**: Regresar al **Hub (Room 1)** e insertar la Llave 🗝️1 en la Armería Oeste.
 
 ---
 
-### Room 3: La Galería del Nivel Medio (Nivel 2)
-> *"Una pasarela circular en el piso 2. Al usar la Llave 🗝️1, la esclusa se abre hacia el Mini-Boss."*
-* **Resolución**: Insertar la Llave 🗝️1 para acceder a la arena de combate.
+### Room 3: Ala Armería (Piso 2)
+> *"Una galería de armaduras de basalto que conduce a la sala del guardián."*
 
 ---
 
-### Room 4: ⚔️ Mini-Boss Verbatim: Armos de la Cumbre (MM)
-> *"Un autómata de granito que custodia el cofre maestro del templo."*
-* **Mini-Boss**: **Armos de la Cumbre** (AC 16, 52 HP).
-* **🎁 COFRE MAESTRO**: Al vencerlo, el cofre entrega el **Martillo de Basalto** (Gran Megaton Hammer que destruye anillos del Pilar Central, hunde estacas de ancla y aplasta corazas minerales).
+### Room 4: ⚔️ Cámara del Mini-Boss: Armos de la Cumbre (MM)
+> *"Un colosal autómata de granito armado con mazo masivo."*
+* **🎁 COFRE MAESTRO**: Otorga el **Martillo de Basalto** (Gran Megaton Hammer capaz de pulverizar anillos del Pilar Central).
+* **🔄 BACKTRACKING & PRIMER IMPACTO**: El grupo regresa a la base del **Hub (Room 1)** para golpear la grieta del primer anillo del Pilar Central.
 
 ---
 
-### Room 5: 🧩 Puzle 1 Verbatim: Primer Golpe al Pilar Central (Snowhead MM)
-> *"En la base del Pilar Central en el Piso 1 destaca el primer anillo de basalto azulado cubierto de grietas sísmicas."*
+### Room 5: 🧩 Base del Pilar Central: Primer Smash (Snowhead MM)
+> *"Asestar un golpe de masa completa con el Martillo de Basalto (*Fuerza DC 13*) sobre el anillo inferior del pilar."*
+* **Resultado**: ¡El primer anillo de 10 pies del pilar se pulveriza en pedazos y todo el Pilar Central desciende 10 pies! Esto conecta por primera vez la pasarela del Piso 2 con el balcón del Piso 3 (Room 6).
+
+---
+
+### Room 6: 🧩 Balcón del Piso 3: Segundo Smash & Bloques Peg (Snowhead MM - Llave del Boss 👑)
+> *"Al ascender al Piso 3, el grupo alcanza el segundo anillo del pilar y encuentra dos bloques Peg (rojo y azul) que bloquean la corona."*
 * **Puzle Involucrado**:
-  1. **Alineación del Impacto**: Pararse en el ángulo de la grieta y asestar un golpe de masa completa con el *Martillo de Basalto* (*Ataque o Fuerza DC 13*).
-  2. **Colapso Vertical del Pilar**: ¡El primer anillo de 10 pies del pilar se pulveriza y todo el Pilar Central desciende 10 pies hacia el subsuelo!
-* **Resultado**: Las pasarelas del Piso 2 quedan perfectamente alineadas con el balcón del Piso 3 (Room 6).
+  1. Asestar un segundo golpe de martillo sobre el pilar (desciende otros 10 ft).
+  2. Golpear el bloque Peg rojo para hundirlo, elevando el bloque Peg azul y despejando la pasarela sobre la cabeza del pilar.
+* **Botín**: Caminar sobre la cúspide del pilar para abrir el cofre dorado con la **Llave del Boss 👑 (Llave de Goht)**.
 
 ---
 
-### Room 6: 🧩 Puzle 2 Verbatim: Segundo Golpe al Pilar y Bloques Peg (Snowhead MM - Llave del Boss 👑)
-> *"Al ascender al Piso 3, el grupo halla el segundo anillo frágil del Pilar Central. Al otro lado de la sala hay dos bloques Peg (uno rojo elevado y uno azul hundido) que bloquean el cofre dorado."*
-* **Puzle Involucrado**:
-  1. **Segundo Golpe de Martillo**: Golpe de masa con el *Martillo de Basalto* sobre el segundo anillo del pilar. El pilar desciende otros 10 pies.
-  2. **Intercambiar Bloques Peg**: Asestar un golpe de martillo sobre el bloque Peg rojo para hundirlo, haciendo elevar automáticamente el bloque Peg azul y despejando el camino sobre la corona del pilar desprendido.
-* **Botín**: Caminar por la cima del pilar desprendido para reclamar la **Llave del Boss 👑 (Llave de Goht)**.
+### Room 7: 🔒 Portón de la Cumbre Tectónica (Piso 4)
+> *"Ascender por la escalera perimetral al Piso 4 e insertar la Llave del Boss 👑."*
 
 ---
 
-### Room 7: 🔒 El Portón de la Cumbre Tectónica (Nivel 4)
-> *"La cima de la torre en el Piso 4 con un portón de basalto y un candado monumental."*
-* **Resolución**: Insertar la **Llave del Boss 👑** para abrir el acceso a la arena circular.
-
----
-
-### Room 8: 💀 Boss Final Verbatim: Goht / El Titán de Basalto (Snowhead MM)
-> *"Una vasta pista circular de basalto donde Goht (un coloso de embestida cubierto por coraza rocosa) rueda a gran velocidad alrededor del eje central lanzando rocas y estalactitas."*
-* **Mecánica Goht Involucrada**:
-  - **Fase de Embestida**: Goht corre a gran velocidad por la pista circular. Los jugadores deben esquivar su arremetida (*Salvadura de Destreza DC 13* o sufrir 2d6 daño contundente).
-  - **Fase de Intercepción con el Martillo**: Esperar a que pase por una curva y asestar un golpe cargado con el *Martillo de Basalto* directamente en sus patas delanteras o coraza (*Ataque Melé DC 13*).
-  - **Fase de Desequilibrio & Aturdimiento**: El impacto hace tropezar a Goht, volteándolo boca arriba y aturdiéndolo durante 1 ronda para golpear su vientre expuesto.
+### Room 8: 💀 Boss Final: Goht / El Titán de Basalto (Snowhead MM)
+> *"Pista circular de basalto donde Goht rueda a gran velocidad."*
+* **Mecánica Boss**: Golpe de martillo en sus patas durante la embestida para hacerlo tropezar.
 * **Recompensa**: 🔓 Desbloqueo permanente del Dominio Telúrico + **Fragmento de Tablilla #4**.

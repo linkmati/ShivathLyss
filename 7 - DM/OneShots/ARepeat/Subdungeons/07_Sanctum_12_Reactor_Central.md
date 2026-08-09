@@ -1,79 +1,62 @@
-# 👑 Sanctum 12: El Reactor Central de Minos (Verbatim Ganon's Castle - Ocarina of Time & TotK)
+# 👑 Sanctum 12: El Reactor Central de Minos (Layout Complejo y No-Lineal estilo Ganon's Castle)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/07_Sanctum_12_Reactor_Central.md`  
 > **Inspiración Verbatim**: **Ganon's Castle** (*The Legend of Zelda: Ocarina of Time*) + **Hyrule Castle** (*Tears of the Kingdom*)  
-> **Puzles Copiados Directos**: **Las Seis Barreras Elementales de Prueba**, **El Ascenso por la Escalera en Espiral del Órgano** y **El Combate de Orbes Elementales con Full Burst**  
+> **Estructura de Layout**: **Atrio Hexagonal de Entrada (Hub Master)** + **Seis Alas Elementales Autónomas (Wings 1 a 6)** + **Desbloqueo de la Torre Central de Ascenso**  
 > **Requisitos**: Reunir los 6 Fragmentos de Tablilla (de las 6 Subdungeons de Zelda)  
 > **Boss Final**: *El Juicio de Minos* (Nivel Recomendado 7-8, Grupo de 5 PJs)
 
 ---
 
-## 🗺️ Mapa de Flujo del Sanctum Final (Ganon's Castle Layout)
+## 🗺️ Mapa de Flujo No-Lineal del Sanctum Final (Ganon's Castle Hub Wings Layout)
 
 ```mermaid
 graph TD
-    S1["Phase 1: La Gran Puerta Hexagonal"] -->|Insertar 6 Fragmentos| S2["Phase 2: Las Seis Barreras Elementales"]
+    S1["Phase 1: Puerta Hexagonal (6 Fragmentos de Tablilla)"] --> S2["Phase 2: Atrio Central del Reactor (Hub Master)"]
     
-    subgraph "LAS SEIS BARRERAS ELEMENTALES (Ganon's Castle Wings)"
-        S2 --> B1["Barrera 1: FUEGO (Usar Guantelete de Llama)"]
-        S2 --> B2["Barrera 2: AGUA (Usar Flauta del Mar)"]
-        S2 --> B3["Barrera 3: AIRE (Usar Capa del Vértice)"]
-        S2 --> B4["Barrera 4: TIERRA (Usar Martillo de Basalto)"]
-        S2 --> B5["Barrera 5: VIDA (Usar Semilla Botánica)"]
-        S2 --> B6["Barrera 6: LUZ (Usar Escudo Prismático)"]
+    subgraph "LAS SEIS ALAS ELEMENTALES AUTÓNOMAS (Ganon's Castle Wings)"
+        S2 -->|Elección del Grupo| B1["Ala Fuego: Braseros Térmicos & Techo Magnético"]
+        S2 -->|Elección del Grupo| B2["Ala Agua: Drenaje de Fosa & Submundo"]
+        S2 -->|Elección del Grupo| B3["Ala Aire: Trampolines Celestes & Turbina"]
+        S2 -->|Elección del Grupo| B4["Ala Tierra: Impacto de Masa al Pilar Central"]
+        S2 -->|Elección del Grupo| B5["Ala Vida: Puente de Vides & Caída de Tela"]
+        S2 -->|Elección del Grupo| B6["Ala Luz: Reflejo Solar con Mirror Shield"]
     end
 
-    B1 & B2 & B3 & B4 & B5 & B6 -->|Disipar 6 Barreras| S3["Phase 3: La Escalera en Espiral del Órgano"]
-    S3 -->|Ascenso a la Cúspide| S4["Phase 4: 💀 Arena de El Juicio de Minos (Ganon Core)"]
+    B1 & B2 & B3 & B4 & B5 & B6 -->|Al disipar las 6 Barreras| S3["Phase 3: Desbloqueo de la Torre Central de Ascenso"]
+    S3 -->|Escalera en Espiral con Derrumbes| S4["Phase 4: 💀 Arena de El Juicio de Minos (Ganon Core)"]
     S4 -->|FULL BURST (Xenoblade 2 System)| Win["👑 VICTORIA FINAL SOBRE EL LABERINTO DE MINOS"]
 ```
 
 ---
 
-## 🏛️ Recorrido Verbatim por Fases con Puzles Involucrados
+## 🏛️ Recorrido Verbatim por Fases y Navegación de Alas (DM Walkthrough)
 
 ### Phase 1: La Gran Puerta Hexagonal (Acceso)
-> *"Una monumental cúpula de basalto sellada por una losa hexagonal. En cada vértice brilla un zócalo para un Fragmento de Tablilla. Una melodía sorda de órgano resuena desde la cúspide."*
-* **Mecánica**: Encajar los **6 Fragmentos de Tablilla** obtenidos al vencer a los 6 Guardianes de Área.
-* **Resultado**: La losa desciende con un estampido sordo abriendo el puente hacia el núcleo del castillo.
+> *"Una monumental cúpula de basalto sellada por una losa de seis lados. En cada vértice brilla un zócalo para un Fragmento de Tablilla."*
+* **Mecánica**: Encajar los **6 Fragmentos de Tablilla**. La losa desciende abriendo el paso al Hub Master del Reactor.
 
 ---
 
-### Phase 2: 🧩 Puzle 1 Verbatim: Las Seis Barreras Elementales de Prueba (Ganon's Castle OoT)
-> *"Un atrio central circular donde seis pasillos conducen a barreras de fuerza de colores primarios que bloquean la escalera central de ascenso."*
+### Phase 2: 🧩 Atrio Central y las Seis Alas Elementales Autónomas (Ganon's Castle OoT)
+> *"Un atrio circular catedralicio donde levita la esfera descalibrada del Reactor Central. Seis grandes pasillos abovedados conducen a seis Alas Elementales protegidas por barreras de fuerza de colores primarios. El grupo puede abordar las 6 alas en cualquier orden."*
 
-1. **Barrera de Fuego (Roja - OoT)**: Disparar el *Guantelete de Llama* a los 3 braseros distantes y caminar boca abajo por el techo magnético para pulsar el cristal que disipa la barrera.
-2. **Barrera de Agua (Azul - OoT)**: Tocar la *Flauta del Mar* a Nivel BAJO para drenar la fosa mística, bajar al submundo y rescatar la llave que apaga la barrera.
-3. **Barrera de Aire (Verde - OoT)**: Desplegar la *Capa del Vértice* en los 3 aros de trampolines celestiales para volar sobre la barrera y acelerar la turbina de paso.
-4. **Barrera de Tierra (Gris - OoT)**: Asestar un impacto del *Martillo de Basalto* sobre la base del pilar central para hacer caer la torre 10 ft y aplastar los pasadores de tierra.
-5. **Barrera de Vida (Verde Esmeralda - OoT)**: Plantar la *Semilla Botánica* en la fosa arcana para germinar un puente de vides y descender en caída libre por la tela de araña.
-6. **Barrera de Luz (Dorada - OoT)**: Interponer el *Escudo Prismático (Mirror Shield)* en el tragaluz para reflejar luz solar directa sobre el ojo de cuarzo de la barrera.
-
----
-
-### Phase 3: 🧩 Puzle 2 Verbatim: La Escalera en Espiral del Órgano Resonante (Ganon's Castle OoT)
-> *"Al disiparse las seis barreras, la gran escalera central en espiral queda desenganchada. Conforme el grupo asciende los 100 peldaños de mármol, la música de órgano se vuelve ensordecedora y pedazos de piedra caen del techo."*
-* **Puzle Involucrado**:
-  - **Ascenso con Derrumbes**: El grupo debe correr por los peldaños realizando *Checks de Atletismo o Destreza (DC 13)* para esquivar las rocas que caen del techo mientras la torre retumba (1d6 daño contundente si son golpeados).
+* **Ala 1: Fuego (Roja - OoT/TP)**: Disparar el *Guantelete de Llama* a los braseros y caminar boca abajo por el techo magnético para pulsar el cristal rúnico.
+* **Ala 2: Agua (Azul - OoT/SS)**: Tocar la *Flauta del Mar* a Nivel BAJO para drenar la fosa, bajar al submundo y recuperar la llave de la esclusa.
+* **Ala 3: Aire (Verde Clarita - OoT/TotK)**: Usar la *Capa del Vértice* en los trampolines celestiales para volar sobre la barrera y acelerar la turbina de paso.
+* **Ala 4: Tierra (Gris - OoT/MM)**: Asestar un golpe de *Martillo de Basalto* en la estaca de ancla para colapsar la torre de prueba 10 ft.
+* **Ala 5: Vida (Verde Esmeralda - OoT)**: Plantar la *Semilla Botánica* en la arcilla para tejer un puente de vides y descender en caída libre por la tela de araña.
+* **Ala 6: Luz (Dorada - OoT)**: Interponer el *Escudo Prismático (Mirror Shield)* en el tragaluz para reflejar luz solar directa sobre el ojo de cuarzo.
 
 ---
 
-### Phase 4: 💀 Boss Final Verbatim: El Juicio de Minos (Ganon Core OoT / Xenoblade 2 System)
-> *"Una catedral circular suspendida sobre el vacío electromagnético donde El Juicio de Minos toca el órgano del reactor rodeado por seis Orbes Elementales flotantes."*
-
-* **Mecánica de Combate (Xenoblade 2 System)**:
-  - **Orbes Activos**: Cada orbe (`Fire`, `Water`, `Air`, `Earth`, `Life`, `Light`) otorga al boss +1 AC e inmunidad a su elemento.
-  - **Countering de Orbes**:
-    - `Fire Orb` se rompe con **WATER** (2 pts de daño).
-    - `Water Orb` se rompe con **FIRE** (2 pts de daño).
-    - `Air Orb` se rompe con **EARTH** (2 pts de daño).
-    - `Earth Orb` se rompe con **AIR** (2 pts de daño).
-    - `Life Orb` se rompe con **LIGHT** (2 pts de daño).
-    - `Light Orb` se rompe con **LIFE** (2 pts de daño).
-  - **⚡ FULL BURST**: Al romper los 6 orbes activos, el boss queda **Aturdido 1 Ronda**, pierde sus inmunidades y sufre **Daño Crítico Automático Multiplicado (x2)** de todas las fuentes.
+### Phase 3: 🧩 Desbloqueo de la Torre Central de Ascenso (OoT)
+> *"Al disiparse las seis barreras elementales, el campo de fuerza del centro se desmorona con un zumbido armónico. Una gran escalera en espiral desenganchada se eleva hacia la cúspide mientras pedazos de mampostería caen del techo."*
+* **Puzle de Ascenso**: Correr por la escalera en espiral esquivando las rocas caídas (*Atletismo o Destreza DC 13*) mientras la melodía de órgano se vuelve estruendosa.
 
 ---
 
-## 👑 Recompensa y Cierre de la Incursión
-* Victoria total sobre el Sanctum Final de Minos.
-* Obtención del **Tesoro Imperial de Alrest** (Reliquias Legendarias, Elixires y Cierre Definitivo de la Misión Repetible `ARepetible`).
+### Phase 4: 💀 Arena del Boss Final: El Juicio de Minos (Ganon Core OoT / Xenoblade 2)
+> *"Una catedral circular suspendida sobre el vacío electromagnético donde El Juicio de Minos toca el órgano del reactor rodeado por seis Orbes Elementales."*
+* **Mecánica Xenoblade 2**: Romper los 6 Orbes Elementales usando sus contra-elementos opuestos para desencadenar el **⚡ FULL BURST** (Boss aturdido 1 ronda + daño crítico x2).
+* **Recompensa**: 🔓 Cierre definitivo de la Incursión Repetible + **Tesoro Imperial de Alrest**.

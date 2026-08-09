@@ -348,11 +348,13 @@
   "346": "s$7",
   "347": "e$5",
   "348": "getTags",
+  "349": "s$7",
   "350": "YAMLWarning",
   "351": "ModifierKeySettingsComponent",
   "352": "YAMLError",
   "353": "YAMLError",
   "354": "YAMLParseError",
+  "355": ".help",
   "356": "getIconAsJSX",
   "357": ".initializeFonts",
   "358": ".loadSettings",
@@ -362,10 +364,13 @@
   "362": "resolveFlowCollection",
   "363": ".harvestStyles",
   "364": ".renderScriptButtons",
+  "365": "EmbeddalbeMDFileCustomDataSettingsComponent",
   "366": ".runFocusHandlers",
   "367": ".diagramToCode",
   "368": ".actionShowHideMenu",
   "369": "WeakArray",
   "370": "connectedCallback",
-  "372": "transformPoints$1"
+  "371": "UIModeSettingsComponent",
+  "372": "transformPoints$1",
+  "373": "YAMLWarning"
 }
