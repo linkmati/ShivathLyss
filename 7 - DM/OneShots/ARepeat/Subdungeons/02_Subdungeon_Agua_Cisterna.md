@@ -2,6 +2,7 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md`  
 > **Inspiración Verbatim**: **Ancient Cistern** (*Skyward Sword*)  
+> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
 > **Estructura de Layout**: **Gran Palacio del Loto (Hub Central Dual)** + **Ala Este (Conductos Subacuáticos)** + **El Submundo Inferior (Nivel Cursado)** + **Control de Nivel de Agua (ALTO / MEDIO / BAJO)**  
 > **Dungeon Item**: *Flauta del Mar* (Controlador del Nivel de Agua & Invocador de Corrientes)  
 > **Guardián de Área**: *La Quimera Hidráulica* (Inspirado en *Koloktos*)  
@@ -37,14 +38,13 @@ graph TD
 ## 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Water Level Manipulations)
 
 ### Room 1: La Gran Estatua de Loto (Hub Central Dual)
-> *"Un palacio subacuático dominado por una estatua dorada de loto de 40 pies. La estatua conecta verticalmente el Palacio Superior (turquesa y brillante) con el Submundo Inferior (oscuro y fangoso). Al inicio, el nivel de agua está en ALTO. La boca de la estatua sostiene un portón con candado de loto 🔒."*
-* **Estructura Hub**: Almacena las compuertas a Room 2 (Este), Room 3 (Oeste - Locked 🗝️1), Room 5 (Submundo - accesible solo drenando el agua a Nivel BAJO) y Room 7 (Cabeza de la estatua - accesible solo elevando el agua a Nivel ALTO).
+> *"Un palacio subacuático dominado por una estatua dorada de loto de 40 pies. La estatua conecta verticalmente el Palacio Superior con el Submundo Inferior. Al inicio, el nivel de agua está en ALTO. La boca de la estatua sostiene un portón con candado de loto 🔒."*
 
 ---
 
 ### Room 2: 🧩 Ala Este: Galería de las Núfares Flotantes (SS)
 > *"Una cámara sumergida con grandes hojas de loto flotando en la superficie."*
-* **Puzle Involucrado**: Bucear bajo la hoja principal y realizar un empuje hacia arriba (*Atletismo DC 11*) para voltear la hoja en la superficie, revelando el paso al conducto sumergido.
+* **Puzle Mecánico Sin Gating**: Bucear bajo la hoja principal y presionar hacia arriba para voltearla en la superficie, revelando el paso al conducto sumergido. *(Tirada opcional de Atletismo DC 11 permite hacerlo en la mitad de tiempo, pero el volteo es 100% exitoso)*.
 * **Botín**: Abrir el cofre sumergido para obtener la **Llave Pequeña 🗝️1**.
 * **🔄 BACKTRACKING**: Regresar nadando al **Hub Central (Room 1)** e insertar la Llave 🗝️1 en la Esclusa Oeste.
 
@@ -57,31 +57,31 @@ graph TD
 
 ### Room 4: ⚔️ Cámara del Mini-Boss: Guardián de Latón de Cuatro Brazos (SS)
 > *"Un autómata de latón de cuatro brazos armado con cimitarras ceremoniales."*
-* **Combate**: Parar sus cimitarras y romper sus articulaciones (*DC 13*).
+* **Combate**: Parar sus cimitarras y romper sus articulaciones desmembrándolo.
 * **🎁 COFRE MAESTRO**: Entrega la **Flauta del Mar** (Cambia el nivel de agua del templo entre ALTO, MEDIO y BAJO).
-* **🔄 BACKTRACKING & CAMBIO DE ESTADO**: El grupo regresa al **Hub Central (Room 1)** y toca la *Flauta del Mar* a **Nivel BAJO**. El agua del palacio se drena estruendosamente, abriendo el gran abismo hacia el Submundo (Room 5).
+* **🔄 BACKTRACKING & CAMBIO DE ESTADO**: El grupo regresa al **Hub Central (Room 1)** y toca la *Flauta del Mar* a **Nivel BAJO**. El agua del palacio se drena, abriendo el foso hacia el Submundo (Room 5).
 
 ---
 
 ### Room 5: 🧩 Foso Inferior: Caída al Submundo Cursado & Hilo de Seda (SS)
 > *"Al vaciarse el agua, los jugadores caen al fango del Submundo entre hordas de Cursed Bokoblins. Un único Hilo de Seda Mística cuelga desde el techo elevado."*
-* **Puzle Involucrado**: Derrotar a 4x Engendros Afligidos (resucitan salvo daño de fuego/luz) y escalar el Hilo de Seda (*Atletismo DC 13*) esquivando guadañas giratorias.
+* **Puzle Mecánico Sin Gating**: Derrotar a 4x Engendros Afligidos (resucitan salvo daño de fuego/luz) y escalar el Hilo de Seda observando el ritmo de las guadañas giratorias. *(Tirada opcional de Atletismo DC 13 evita 1d6 daño de raspón de guadaña si alguien sube con prisa, pero el ascenso normal es 100% seguro)*.
 
 ---
 
 ### Room 6: El Laberinto de Hilos y Turbinas (Llave del Boss 👑)
-> *"Una pasarela superior en el Submundo. Tocar la Flauta del Mar para revertir la corriente de la turbina permite cruzar nadando (*Atletismo DC 12*)."*
+> *"Una pasarela superior en el Submundo. Tocar la Flauta del Mar revierte la corriente de la turbina permitiendo cruzar nadando sin esfuerzo."*
 * **Botín**: Reclamar la **Llave del Boss 👑 (Llave de la Flor de Loto)**.
 * **🔄 BACKTRACKING**: Regresar al **Hub Central (Room 1)** y tocar la *Flauta del Mar* a **Nivel ALTO** para llenar la estancia y hacer descender la cabeza de la estatua.
 
 ---
 
 ### Room 7: 🔒 Antecámara del Corazón del Loto
-> *"Nadar hacia la boca de la estatua descompuesta e insertar la Llave del Boss 👑."*
+> *"Nadar hacia la boca de la estatua e insertar la Llave del Boss 👑."*
 
 ---
 
 ### Room 8: 💀 Boss Final: Koloktos / La Quimera Hidráulica (SS)
 > *"Una cámara circular dominada por Koloktos: autómata gigante de seis brazos."*
-* **Mecánica Boss**: Desmembrar sus brazos, recoger sus cimitarras de 12 ft (*Fuerza DC 14*) y romper la reja de su pecho.
+* **Mecánica Boss**: Desmembrar sus brazos, recoger sus cimitarras de 12 ft y romper la reja de su pecho.
 * **Recompensa**: 🔓 Desbloqueo permanente de la Cisterna + **Fragmento de Tablilla #2**.

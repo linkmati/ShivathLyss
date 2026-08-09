@@ -2,6 +2,7 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md`  
 > **Inspiración Verbatim**: **Inside the Great Deku Tree** (*Ocarina of Time*)  
+> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
 > **Estructura de Layout**: **El Gran Tronco Hueco (Hub Vertical de 3 Pisos)** + **Ala Dosel (Matorrales Deku)** + **Ala Raíces Sumergidas (Foso de Savia)** + **Caída Libre con Destrucción de Tela de Araña**  
 > **Dungeon Item**: *Semilla Botánica* (Semilla Deku Titánica que germina vides instantáneas y trampolines)  
 > **Guardián de Área**: *El Botánico de Sombras* (Inspirado en *Gohma*)  
@@ -37,13 +38,12 @@ graph TD
 
 ### Room 1: El Gran Tronco Hueco (Hub 3 Pisos - Planta Baja)
 > *"Un árbol titánico de 500 pies en cuyo interior hueco raíces gigantescas forman rampas en espiral. En el centro del suelo del Piso 1 hay una gran tela de araña elástica tensada sobre un abismo. Tres accesos destacan: el Ala Dosel (Piso 2 - Este), la Cúpula Norte (Piso 2 - Locked 🗝️1) y la Antecámara de Esporas en el Piso 3 (Locked 🔒)."*
-* **Estructura Hub**: Conecta verticalmente la Planta Baja con el Dosel y las Raíces Subterráneas.
 
 ---
 
 ### Room 2: 🧩 Ala Dosel: Galería de los Matorrales Deku (OoT)
 > *"Un nicho en la corteza con tres Matorrales Deku que escupen nueces."*
-* **Puzle Involucrado**: Reflejar proyectiles (*DC 12*) y golpear a los matorrales en el orden **2-3-1 (Centro, Derecha, Izquierda)**.
+* **Puzle Mecánico Sin Gating**: Reflejar proyectiles de nuez con el escudo y golpear a los matorrales en el orden **2-3-1 (Centro, Derecha, Izquierda)**. *(Tirada opcional de Destreza DC 12 permite desviar la nuez a la primera, pero el intento es 100% infinito hasta lograr la secuencia 2-3-1)*.
 * **Botín**: El matorral confiesa la clave y entrega la **Llave Pequeña 🗝️1**.
 * **🔄 BACKTRACKING**: Regresar al **Hub (Room 1)** e insertar la Llave 🗝️1 en la Cúpula Norte del Piso 2.
 
@@ -63,7 +63,7 @@ graph TD
 
 ### Room 5: 🧩 Balcón del Dosel: Caída de Fe sobre la Tela (OoT)
 > *"Pararse en el borde del balcón a 30 pies de altura sobre la tela de araña central."*
-* **Puzle Involucrado**: Encender la antorcha del muro y saltar en caída libre (*Acrobacias DC 12*) directamente sobre la tela. El impacto de la caída rompe la tela y catapulta al grupo al Nivel Inferior de las Raíces (Room 6).
+* **Puzle Mecánico Sin Gating**: Encender la antorcha del muro y saltar en caída libre directamente sobre el centro de la tela. El peso del impacto rompe la tela de araña, haciendo caer al grupo de forma segura al Nivel Inferior de las Raíces (Room 6). *(Tirada opcional de Acrobacias DC 12 amortigua el agua sin mojarse la mochila, pero la caída es 100% segura)*.
 
 ---
 
@@ -82,5 +82,5 @@ graph TD
 
 ### Room 8: 💀 Boss Final: Gohma / El Botánico de Sombras (OoT)
 > *"La cúpula de las raíces a oscuras dominada por el ojo rojo de Gohma en el techo."*
-* **Mecánica Boss**: Disparar a su ojo cuando parpadee en **rojo** (*DC 12*) para aturdirla en el suelo.
+* **Mecánica Boss**: Disparar a su ojo cuando parpadee en **rojo** para aturdirla en el suelo.
 * **Recompensa**: 🔓 Desbloqueo permanente del Invernadero + **Fragmento de Tablilla #5**.
