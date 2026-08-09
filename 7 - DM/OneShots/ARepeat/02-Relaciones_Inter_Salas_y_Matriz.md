@@ -182,7 +182,11 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
 
 ## 6. Sets de Salas Interconectadas en Cadena (Linked Room Clusters)
 
-Salas que **deben colocarse juntas o en la misma rama del mapa** porque una acción en la Sala A altera o desbloquea mecánicamente la Sala B (o Sala C):
+> [!IMPORTANT]
+> **REGLA ANTI-SALA GRANDE**: Un Cluster NUNCA debe ser una sala muy grande dividida artificialmente en habitaciones contiguas. Cada sala del cluster es **independiente en la rejilla 7x7**, pudiendo estar separadas geográficamente en la matriz. Se vinculan mediante **mecánicas globales (overarching mechanics)** o **ejecución estrictamente simultánea** entre 2 o más aventureros.
+
+> [!TIP]
+> **MARCADO VISUAL EN EL MAPA WEB**: En la Web App `generador_minos_7x7.html`, las celdas con set elemental muestran etiquetas de color `[FIRE]`, `[WATER]`, etc., y los clusters se señalan con la insignia neón `[🔗 CLUSTER-X]` y bordes dobles, generando un diagrama de causalidad en el resumen del DM.
 
 ```
 ======================================================================

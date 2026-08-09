@@ -306,6 +306,45 @@
       z-index: 5;
     }
 
+    .cell-cluster-tag {
+      position: absolute;
+      bottom: 2px;
+      left: 2px;
+      font-size: 0.55rem;
+      background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+      color: #ffffff;
+      border-radius: 3px;
+      padding: 1px 3px;
+      font-weight: 800;
+      box-shadow: 0 0 6px rgba(139, 92, 246, 0.8);
+      z-index: 5;
+      letter-spacing: -0.3px;
+    }
+
+    .cell-element-tag {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      font-size: 0.55rem;
+      padding: 1px 3px;
+      border-radius: 3px;
+      font-weight: 800;
+      z-index: 5;
+      text-transform: uppercase;
+    }
+
+    .elem-tag-fire { background: rgba(239, 68, 68, 0.9); color: #fff; }
+    .elem-tag-water { background: rgba(59, 130, 246, 0.9); color: #fff; }
+    .elem-tag-air { background: rgba(6, 182, 212, 0.9); color: #000; }
+    .elem-tag-earth { background: rgba(217, 119, 6, 0.9); color: #fff; }
+    .elem-tag-life { background: rgba(16, 185, 129, 0.9); color: #fff; }
+    .elem-tag-light { background: rgba(245, 158, 11, 0.9); color: #000; }
+
+    .cell.has-cluster {
+      border-style: double !important;
+      border-width: 2px !important;
+    }
+
     .cell-icon {
       font-size: 1.2rem;
       text-align: center;
@@ -611,6 +650,34 @@
       </div>
 
       <div class="form-group">
+        <label>🔗 Asignar Cluster Interconectado</label>
+        <select class="form-control" id="inspect-cluster">
+          <option value="">(Ningún Cluster)</option>
+          <option value="CLUSTER-A">🔗 Cluster A (Cadena Hidráulica)</option>
+          <option value="CLUSTER-B">🔗 Cluster B (Cristales Peg)</option>
+          <option value="CLUSTER-C">🔗 Cluster C (Fundición Llave)</option>
+          <option value="CLUSTER-D">🔗 Cluster D (Estatuas Espejadas)</option>
+          <option value="CLUSTER-E">🔗 Cluster E (Espejos Solar)</option>
+          <option value="CLUSTER-F">🔗 Cluster F (Convección Térmica)</option>
+          <option value="CLUSTER-G">🔗 Cluster G (Purificación Esporas)</option>
+          <option value="CLUSTER-H">🔗 Cluster H (Gravedad Invertida)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>🏷️ Etiqueta de Set Elemental</label>
+        <select class="form-control" id="inspect-element">
+          <option value="">(Neutral / Sin Elemento)</option>
+          <option value="FIRE">🟁 FIRE (Fuego)</option>
+          <option value="WATER">🌊 WATER (Agua)</option>
+          <option value="AIR">🌬️ AIR (Aire)</option>
+          <option value="EARTH">🟅 EARTH (Tierra)</option>
+          <option value="LIFE">🌱 LIFE (Vida)</option>
+          <option value="LIGHT">☀️ LIGHT (Luz)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
         <label>Ítems y Llaves de Incursión</label>
         <label style="font-size:0.8rem; cursor:pointer; display:flex; align-items:center; gap:8px; background:rgba(212,175,55,0.1); padding:6px 10px; border-radius:6px; border:1px solid rgba(212,175,55,0.3); color:var(--gold-accent);">
           <input type="checkbox" id="inspect-has-key"> 🗝️ Contiene Llave de Latón (Small Key)
@@ -724,6 +791,8 @@
             name: `Sala ${k}`,
             role: "NORMAL",
             hasSmallKey: false,
+            clusterTag: "",
+            elementTag: "",
             notes: ""
           };
         });
@@ -748,6 +817,7 @@
           }
 
           div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()} ${subClass}`;
+          if (cell.clusterTag) div.classList.add('has-cluster');
           if (k === currentSelectedKey) div.classList.add('selected');
           div.onclick = () => selectCell(k);
 
@@ -757,12 +827,16 @@
           if (cell.role === "SECRET") icon = "🗝️";
 
           let keyTag = cell.hasSmallKey ? `<span class="cell-key-tag" title="Contiene Llave de Latón (Small Key)">🗝️ LLAVE</span>` : '';
+          let clusterTag = cell.clusterTag ? `<span class="cell-cluster-tag">🔗 ${cell.clusterTag}</span>` : '';
+          let elementTag = cell.elementTag ? `<span class="cell-element-tag elem-tag-${cell.elementTag.toLowerCase()}">${cell.elementTag}</span>` : '';
 
           div.innerHTML = `
             <span class="cell-coord">${k}</span>
+            ${elementTag}
             ${keyTag}
             <div class="cell-icon">${icon}</div>
             <div class="cell-name">${cell.active ? cell.name : 'VACÍO'}</div>
+            ${clusterTag}
           `;
 
           if (cell.active) {
@@ -1089,6 +1163,27 @@
       });
       if (keyCount === 0) log += `  (No hay Llaves de Latón requeridas en los cerrojos de esta incursión)\n`;
       log += `----------------------------------------------------------------------\n`;
+      log += `🔗 CLUSTERS Y SALAS INTERCONECTADAS EN ESTA RUN:\n`;
+      let clusterMap = {};
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          if (gridData[k].active && gridData[k].clusterTag) {
+            const ct = gridData[k].clusterTag;
+            if (!clusterMap[ct]) clusterMap[ct] = [];
+            clusterMap[ct].push(`[${k}] ${gridData[k].name}`);
+          }
+        });
+      });
+      const clusterKeys = Object.keys(clusterMap);
+      if (clusterKeys.length === 0) {
+        log += `  (No se han asignado Clusters Interconectados en esta run)\n`;
+      } else {
+        clusterKeys.forEach(ct => {
+          log += `  - ${ct}: ${clusterMap[ct].join(" <---> ")}\n`;
+        });
+      }
+      log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;
 
       ROWS.forEach(r => {
@@ -1096,7 +1191,9 @@
           const k = `${r}${c}`;
           const cell = gridData[k];
           if (cell.active) {
-            log += `* [${k}] ${cell.name} (${cell.role})\n`;
+            let elemStr = cell.elementTag ? ` [${cell.elementTag}]` : '';
+            let clustStr = cell.clusterTag ? ` (🔗 ${cell.clusterTag})` : '';
+            log += `* [${k}] ${cell.name}${elemStr}${clustStr} (${cell.role})\n`;
             ['N', 'S', 'W', 'E'].forEach(dir => {
               const nKey = getNeighborKey(k, dir);
               if (nKey && gridData[nKey].active) {
@@ -1121,6 +1218,18 @@
 
     document.getElementById('inspect-role').onchange = (e) => {
       gridData[currentSelectedKey].role = e.target.value;
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('inspect-cluster').onchange = (e) => {
+      gridData[currentSelectedKey].clusterTag = e.target.value;
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('inspect-element').onchange = (e) => {
+      gridData[currentSelectedKey].elementTag = e.target.value;
       renderGrid();
       updateOutputLog();
     };
