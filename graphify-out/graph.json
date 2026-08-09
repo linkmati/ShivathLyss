@@ -736,8 +736,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_e_d",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "e$d"
     },
     {
@@ -1341,8 +1341,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_cleansectionheading",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": "cleansectionheading()"
     },
     {
@@ -1352,8 +1352,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_cleanblockref",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": "cleanblockref()"
     },
     {
@@ -1451,8 +1451,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_setelementdisplay",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "setelementdisplay()"
     },
     {
@@ -1638,8 +1638,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_vault_base_url",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "vault_base_url()"
     },
     {
@@ -1649,8 +1649,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getinternallinkorfileurllink",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "getinternallinkorfileurllink()"
     },
     {
@@ -1704,8 +1704,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getlistoftemplatefiles",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "getlistoftemplatefiles()"
     },
     {
@@ -1726,8 +1726,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getexcalidrawembeddedfilesfiletree",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "getexcalidrawembeddedfilesfiletree()"
     },
     {
@@ -1737,8 +1737,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_hasexcalidrawembeddedimagestreechanged",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "hasexcalidrawembeddedimagestreechanged()"
     },
     {
@@ -2089,8 +2089,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_isdocument",
-      "community": 38,
-      "community_name": "log",
+      "community": 41,
+      "community_name": "preventOverflow",
       "norm_label": "isdocument()"
     },
     {
@@ -2210,8 +2210,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_visit",
-      "community": 38,
-      "community_name": "log",
+      "community": 41,
+      "community_name": "preventOverflow",
       "norm_label": "visit()"
     },
     {
@@ -2221,8 +2221,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_initvisitor",
-      "community": 38,
-      "community_name": "log",
+      "community": 41,
+      "community_name": "preventOverflow",
       "norm_label": "initvisitor()"
     },
     {
@@ -2232,8 +2232,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_callvisitor",
-      "community": 38,
-      "community_name": "log",
+      "community": 21,
+      "community_name": "FloatingModal",
       "norm_label": "callvisitor()"
     },
     {
@@ -2243,8 +2243,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_replacenode",
-      "community": 38,
-      "community_name": "log",
+      "community": 41,
+      "community_name": "preventOverflow",
       "norm_label": "replacenode()"
     },
     {
@@ -4124,8 +4124,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_document_add",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".add()"
     },
     {
@@ -4179,8 +4179,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_document_delete",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".delete()"
     },
     {
@@ -4366,8 +4366,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_yamlwarning",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 350,
+      "community_name": "YAMLWarning",
       "norm_label": "yamlwarning"
     },
     {
@@ -4377,8 +4377,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_yamlwarning_constructor",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 350,
+      "community_name": "YAMLWarning",
       "norm_label": ".constructor()"
     },
     {
@@ -5521,8 +5521,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_parse_1",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "parse$1()"
     },
     {
@@ -5532,8 +5532,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_stringify",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "stringify()"
     },
     {
@@ -5609,8 +5609,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_isobsidianthemedark",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "isobsidianthemedark()"
     },
     {
@@ -5697,8 +5697,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_mergemarkdownfiles",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "mergemarkdownfiles()"
     },
     {
@@ -6170,8 +6170,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawsidepanelview_getexisting",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".getexisting()"
     },
     {
@@ -6214,8 +6214,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawsidepanelview_consumescriptrestoreskip",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".consumescriptrestoreskip()"
     },
     {
@@ -6357,8 +6357,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawsidepanelview_gettabbyscript",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".gettabbyscript()"
     },
     {
@@ -6390,8 +6390,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawsidepanelview_restorepersistedtabs",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".restorepersistedtabs()"
     },
     {
@@ -6401,8 +6401,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawsidepanelview_restarttabforscript",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".restarttabforscript()"
     },
     {
@@ -6412,8 +6412,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawsidepanelview_runscriptbyname",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".runscriptbyname()"
     },
     {
@@ -6610,8 +6610,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getlinkparts_1",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": "getlinkparts$1()"
     },
     {
@@ -7567,8 +7567,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_scriptengine_removevieweas",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".removevieweas()"
     },
     {
@@ -7743,8 +7743,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_scriptengine_executescript",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".executescript()"
     },
     {
@@ -7952,8 +7952,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_istextimagetransclusion",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "istextimagetransclusion()"
     },
     {
@@ -7996,8 +7996,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getviewcolorpalette",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "getviewcolorpalette()"
     },
     {
@@ -8689,8 +8689,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_genericsuggester_onclose",
-      "community": 8,
-      "community_name": "getBoundingClientRect",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".onclose()"
     },
     {
@@ -9162,8 +9162,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawdata_gettransclusion",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": ".gettransclusion()"
     },
     {
@@ -9481,8 +9481,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawdata_getfiles",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": ".getfiles()"
     },
     {
@@ -9525,8 +9525,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawdata_hasfile",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".hasfile()"
     },
     {
@@ -9646,8 +9646,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_gettransclusion",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": "gettransclusion()"
     },
     {
@@ -9657,8 +9657,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_log_2",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "log$2"
     },
     {
@@ -9811,8 +9811,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_scriptinstallprompt_onopen",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -9921,8 +9921,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_pensettingsmodal",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "pensettingsmodal"
     },
     {
@@ -9932,8 +9932,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_pensettingsmodal_constructor",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".constructor()"
     },
     {
@@ -9943,8 +9943,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_pensettingsmodal_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -9954,8 +9954,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_pensettingsmodal_onclose",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onclose()"
     },
     {
@@ -10790,8 +10790,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_order",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "order()"
     },
     {
@@ -11230,8 +11230,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -11340,8 +11340,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_universalinsertfilemodal_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -11582,8 +11582,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "releasenotes"
     },
     {
@@ -11593,8 +11593,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes_constructor",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".constructor()"
     },
     {
@@ -11604,8 +11604,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -11615,8 +11615,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes_onclose",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onclose()"
     },
     {
@@ -12143,8 +12143,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_uimodesettingscomponent",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 349,
+      "community_name": "UIModeSettingsComponent",
       "norm_label": "uimodesettingscomponent"
     },
     {
@@ -12154,8 +12154,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_uimodesettingscomponent_constructor",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 349,
+      "community_name": "UIModeSettingsComponent",
       "norm_label": ".constructor()"
     },
     {
@@ -12198,8 +12198,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_uimodesettings_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -12319,8 +12319,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_toolspanel_setfullscreen",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 28,
+      "community_name": "FD",
       "norm_label": ".setfullscreen()"
     },
     {
@@ -12814,8 +12814,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_processlinktext",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": "processlinktext()"
     },
     {
@@ -13144,8 +13144,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_embeddalbemdfilecustomdatasettingscomponent",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 346,
+      "community_name": "s$7",
       "norm_label": "embeddalbemdfilecustomdatasettingscomponent"
     },
     {
@@ -13155,8 +13155,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_embeddalbemdfilecustomdatasettingscomponent_constructor",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 346,
+      "community_name": "s$7",
       "norm_label": ".constructor()"
     },
     {
@@ -13199,8 +13199,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_embeddablesettings_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -15454,8 +15454,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_gotofullscreen",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 28,
+      "community_name": "FD",
       "norm_label": ".gotofullscreen()"
     },
     {
@@ -15476,8 +15476,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_exitfullscreen",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 28,
+      "community_name": "FD",
       "norm_label": ".exitfullscreen()"
     },
     {
@@ -16499,8 +16499,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_getbackofthenoteblocks",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 19,
+      "community_name": ".display",
       "norm_label": ".getbackofthenoteblocks()"
     },
     {
@@ -16906,8 +16906,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_getviewselectedelements",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getviewselectedelements()"
     },
     {
@@ -17038,8 +17038,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_fuzzymatchtextitems",
-      "community": 119,
-      "community_name": "InlineLinkSuggester",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": "fuzzymatchtextitems()"
     },
     {
@@ -17170,8 +17170,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_modifyinput",
-      "community": 119,
-      "community_name": "InlineLinkSuggester",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".modifyinput()"
     },
     {
@@ -17203,8 +17203,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_gettagsearchvalue",
-      "community": 119,
-      "community_name": "InlineLinkSuggester",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".gettagsearchvalue()"
     },
     {
@@ -17214,8 +17214,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_getsuggestions",
-      "community": 119,
-      "community_name": "InlineLinkSuggester",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".getsuggestions()"
     },
     {
@@ -17984,8 +17984,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_o_7",
-      "community": 346,
-      "community_name": "s$7",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "o$7()"
     },
     {
@@ -17995,8 +17995,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_a_7",
-      "community": 346,
-      "community_name": "s$7",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "a$7()"
     },
     {
@@ -18006,8 +18006,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_u_5",
-      "community": 346,
-      "community_name": "s$7",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "u$5()"
     },
     {
@@ -18017,8 +18017,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_s_7",
-      "community": 346,
-      "community_name": "s$7",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "s$7()"
     },
     {
@@ -18028,8 +18028,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_i_7",
-      "community": 346,
-      "community_name": "s$7",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "i$7()"
     },
     {
@@ -18787,8 +18787,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_color_tostring",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".tostring()"
     },
     {
@@ -20173,8 +20173,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_has",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "has()"
     },
     {
@@ -21108,8 +21108,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_getembeddedimagesfiletree",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getembeddedimagesfiletree()"
     },
     {
@@ -21185,8 +21185,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_isexcalidrawmaskfile",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": ".isexcalidrawmaskfile()"
     },
     {
@@ -21196,8 +21196,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_constructor",
-      "community": 4,
-      "community_name": "ExcalidrawAutomate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".constructor()"
     },
     {
@@ -21207,8 +21207,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_checkforactivesidepaneltabforscript",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".checkforactivesidepaneltabforscript()"
     },
     {
@@ -21493,8 +21493,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_createsvg",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": ".createsvg()"
     },
     {
@@ -21757,8 +21757,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_reset",
-      "community": 4,
-      "community_name": "ExcalidrawAutomate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".reset()"
     },
     {
@@ -21933,8 +21933,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_viewtogglefullscreen",
-      "community": 114,
-      "community_name": "showColorPicker",
+      "community": 28,
+      "community_name": "FD",
       "norm_label": ".viewtogglefullscreen()"
     },
     {
@@ -26894,8 +26894,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getembeddedfilenameparts",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "getembeddedfilenameparts()"
     },
     {
@@ -27499,8 +27499,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_createsliderwithtext",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "createsliderwithtext()"
     },
     {
@@ -27950,8 +27950,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getdefaultwidth",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "getdefaultwidth()"
     },
     {
@@ -27961,8 +27961,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getdefaultheight",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "getdefaultheight()"
     },
     {
@@ -28049,8 +28049,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_createimagediv",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "createimagediv()"
     },
     {
@@ -28060,8 +28060,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_processreadingmode",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "processreadingmode()"
     },
     {
@@ -28071,8 +28071,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_processinternalembed",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "processinternalembed()"
     },
     {
@@ -28115,8 +28115,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_istextonlyembed",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "istextonlyembed()"
     },
     {
@@ -28126,8 +28126,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_tmpobsidianwysiwyg",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": "tmpobsidianwysiwyg()"
     },
     {
@@ -28148,8 +28148,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_markdownpostprocessor",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "markdownpostprocessor()"
     },
     {
@@ -28313,8 +28313,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_rankmessage_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onopen()"
     },
     {
@@ -29083,8 +29083,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertlinkdialog_onclose",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".onclose()"
     },
     {
@@ -29116,8 +29116,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": "insertcommanddialog"
     },
     {
@@ -29127,8 +29127,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_destroy",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".destroy()"
     },
     {
@@ -29138,8 +29138,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_constructor",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".constructor()"
     },
     {
@@ -29149,8 +29149,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_getitems",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".getitems()"
     },
     {
@@ -29160,8 +29160,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_getitemtext",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".getitemtext()"
     },
     {
@@ -29171,8 +29171,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_onchooseitem",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".onchooseitem()"
     },
     {
@@ -29182,8 +29182,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_start",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".start()"
     },
     {
@@ -29193,8 +29193,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_onclose",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".onclose()"
     },
     {
@@ -29248,8 +29248,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertimagedialog_getitems",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": ".getitems()"
     },
     {
@@ -29380,8 +29380,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 76,
+      "community_name": "FileSuggestionModal",
       "norm_label": "insertmddialog"
     },
     {
@@ -29391,8 +29391,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog_destroy",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 76,
+      "community_name": "FileSuggestionModal",
       "norm_label": ".destroy()"
     },
     {
@@ -29402,8 +29402,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog_constructor",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 76,
+      "community_name": "FileSuggestionModal",
       "norm_label": ".constructor()"
     },
     {
@@ -29457,8 +29457,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog_onclose",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 76,
+      "community_name": "FileSuggestionModal",
       "norm_label": ".onclose()"
     },
     {
@@ -29611,8 +29611,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_havelinkedfileschanged",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "havelinkedfileschanged()"
     },
     {
@@ -29622,8 +29622,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_listofoutofsyncimgexports",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "listofoutofsyncimgexports()"
     },
     {
@@ -29677,8 +29677,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_publishoutofdatefilesdialog_createform",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".createform()"
     },
     {
@@ -30304,8 +30304,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawplugin_awaitsettings",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".awaitsettings()"
     },
     {
@@ -30425,8 +30425,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawplugin_registerinstallcodeblockprocessor",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": ".registerinstallcodeblockprocessor()"
     },
     {
@@ -30667,8 +30667,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawplugin_createdrawing",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": ".createdrawing()"
     },
     {
@@ -30700,8 +30700,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawplugin_isexcalidrawfile",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 18,
+      "community_name": "createPairs",
       "norm_label": ".isexcalidrawfile()"
     },
     {
@@ -31239,8 +31239,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_bn",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "bn()"
     },
     {
@@ -31272,8 +31272,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_fb",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "fb()"
     },
     {
@@ -31283,8 +31283,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_zf",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "zf()"
     },
     {
@@ -31294,8 +31294,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_tm",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "tm()"
     },
     {
@@ -31316,8 +31316,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_qp",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "qp()"
     },
     {
@@ -31503,8 +31503,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_o_includes",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": ".includes()"
     },
     {
@@ -31822,8 +31822,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ob",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 25,
+      "community_name": "dR",
       "norm_label": "ob()"
     },
     {
@@ -32009,8 +32009,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_o_fill",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": ".fill()"
     },
     {
@@ -32548,8 +32548,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_cx",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 167,
+      "community_name": "isPointOnText",
       "norm_label": "cx()"
     },
     {
@@ -32570,8 +32570,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_tx",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 167,
+      "community_name": "isPointOnText",
       "norm_label": "tx()"
     },
     {
@@ -32581,8 +32581,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_kd",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 167,
+      "community_name": "isPointOnText",
       "norm_label": "kd()"
     },
     {
@@ -32592,8 +32592,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_px",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 167,
+      "community_name": "isPointOnText",
       "norm_label": "px()"
     },
     {
@@ -32702,8 +32702,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rd",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 167,
+      "community_name": "isPointOnText",
       "norm_label": "rd()"
     },
     {
@@ -33747,8 +33747,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rl",
-      "community": 49,
-      "community_name": "pull",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "rl()"
     },
     {
@@ -33813,8 +33813,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_entries",
-      "community": 49,
-      "community_name": "pull",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "entries()"
     },
     {
@@ -33901,8 +33901,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_render",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "render()"
     },
     {
@@ -34022,8 +34022,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_type",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "type()"
     },
     {
@@ -34033,8 +34033,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_mode",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "mode()"
     },
     {
@@ -34044,8 +34044,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_stat",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "stat()"
     },
     {
@@ -34055,8 +34055,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_content",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "content()"
     },
     {
@@ -34066,8 +34066,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_oid",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "oid()"
     },
     {
@@ -34077,8 +34077,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ea",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "ea()"
     },
     {
@@ -34176,8 +34176,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_get",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "get()"
     },
     {
@@ -34187,8 +34187,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getall",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "getall()"
     },
     {
@@ -34539,8 +34539,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rn",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "rn()"
     },
     {
@@ -34825,8 +34825,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_gg",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "gg()"
     },
     {
@@ -34847,8 +34847,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_mg",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "mg()"
     },
     {
@@ -34858,8 +34858,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_dn",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "dn()"
     },
     {
@@ -34869,8 +34869,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_hn",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "hn()"
     },
     {
@@ -35067,8 +35067,8 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_renderheaders",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "renderheaders()"
     },
     {
@@ -35089,8 +35089,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_xr",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "xr()"
     },
     {
@@ -35100,8 +35100,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getgitconfig",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "_getgitconfig()"
     },
     {
@@ -35111,8 +35111,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_consider",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "consider()"
     },
     {
@@ -35122,8 +35122,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_reset",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "reset()"
     },
     {
@@ -35133,8 +35133,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ps",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "ps()"
     },
     {
@@ -35177,8 +35177,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ke",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "ke()"
     },
     {
@@ -35496,8 +35496,8 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_pe",
-      "community": 25,
-      "community_name": "dR",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "pe()"
     },
     {
@@ -35617,8 +35617,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_flush",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 25,
+      "community_name": "dR",
       "norm_label": "flush()"
     },
     {
@@ -35628,8 +35628,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_delim",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 25,
+      "community_name": "dR",
       "norm_label": "delim()"
     },
     {
@@ -35881,8 +35881,8 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_eb",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "eb()"
     },
     {
@@ -35958,8 +35958,8 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rk",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "rk()"
     },
     {
@@ -36024,8 +36024,8 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ak",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "ak()"
     },
     {
@@ -36035,8 +36035,8 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ok",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "ok()"
     },
     {
@@ -36299,8 +36299,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getstashsha",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "getstashsha()"
     },
     {
@@ -36321,8 +36321,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_readstashcommit",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "readstashcommit()"
     },
     {
@@ -36354,8 +36354,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_readstashreflogs",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "readstashreflogs()"
     },
     {
@@ -36508,8 +36508,8 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_i3",
-      "community": 49,
-      "community_name": "pull",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "i3()"
     },
     {
@@ -36948,8 +36948,8 @@
       "source_location": "L140",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ha",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "ha()"
     },
     {
@@ -37630,8 +37630,8 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_xi",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "xi()"
     },
     {
@@ -37641,8 +37641,8 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_yi",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "yi()"
     },
     {
@@ -37773,8 +37773,8 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_vc",
-      "community": 111,
-      "community_name": "Group",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "vc()"
     },
     {
@@ -38334,8 +38334,8 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_v8",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "v8()"
     },
     {
@@ -38345,8 +38345,8 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_w8",
-      "community": 111,
-      "community_name": "Group",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "w8()"
     },
     {
@@ -38895,8 +38895,8 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_lh",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "lh()"
     },
     {
@@ -39302,8 +39302,8 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_hh",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "hh()"
     },
     {
@@ -39390,8 +39390,8 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_qt",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "qt()"
     },
     {
@@ -39401,8 +39401,8 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_zh",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "zh()"
     },
     {
@@ -40028,8 +40028,8 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_addaskpassscripttoexclude",
-      "community": 25,
-      "community_name": "dR",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "addaskpassscripttoexclude()"
     },
     {
@@ -40138,8 +40138,8 @@
       "source_location": "L155",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getavailablelocalbranchname",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "getavailablelocalbranchname()"
     },
     {
@@ -40193,8 +40193,8 @@
       "source_location": "L156",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_isfiletrackedbylfs",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "isfiletrackedbylfs()"
     },
     {
@@ -40369,8 +40369,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_t2",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "t2()"
     },
     {
@@ -40402,8 +40402,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_2",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "$2()"
     },
     {
@@ -40457,8 +40457,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_d2",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "d2()"
     },
     {
@@ -40512,8 +40512,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_l2",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "l2()"
     },
     {
@@ -40523,8 +40523,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_c5",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "c5()"
     },
     {
@@ -40545,8 +40545,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_todom",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "todom()"
     },
     {
@@ -40556,8 +40556,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_computedom",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "computedom()"
     },
     {
@@ -40567,8 +40567,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_createhtmlnode",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "createhtmlnode()"
     },
     {
@@ -40622,8 +40622,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_adapttextforfakecommit",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "adapttextforfakecommit()"
     },
     {
@@ -40633,8 +40633,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_lw",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "lw()"
     },
     {
@@ -40710,8 +40710,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_w5",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "w5()"
     },
     {
@@ -41084,8 +41084,8 @@
       "source_location": "L174",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_changeend",
-      "community": 25,
-      "community_name": "dR",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "changeend()"
     },
     {
@@ -41095,8 +41095,8 @@
       "source_location": "L174",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_calcsigns",
-      "community": 25,
-      "community_name": "dR",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "calcsigns()"
     },
     {
@@ -41238,8 +41238,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_y5",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "y5()"
     },
     {
@@ -41249,8 +41249,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_advance",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "advance()"
     },
     {
@@ -41260,8 +41260,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_x5",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "x5()"
     },
     {
@@ -41634,8 +41634,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_d5",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "d5()"
     },
     {
@@ -41887,8 +41887,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rw",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "rw()"
     },
     {
@@ -41964,8 +41964,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_j5",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "j5()"
     },
     {
@@ -41975,8 +41975,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_e4",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "e4()"
     },
     {
@@ -41986,8 +41986,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_t4",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "t4()"
     },
     {
@@ -41997,8 +41997,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ki",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "ki()"
     },
     {
@@ -42008,8 +42008,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_bl",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "bl()"
     },
     {
@@ -42019,8 +42019,8 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_makefilediffhtml",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "makefilediffhtml()"
     },
     {
@@ -42030,8 +42030,8 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_generateemptydiff",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "generateemptydiff()"
     },
     {
@@ -42041,8 +42041,8 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_generatefilehtml",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "generatefilehtml()"
     },
     {
@@ -42052,8 +42052,8 @@
       "source_location": "L192",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_applylinegroupping",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "applylinegroupping()"
     },
     {
@@ -42063,8 +42063,8 @@
       "source_location": "L192",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_applyrematchmatching",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "applyrematchmatching()"
     },
     {
@@ -42074,8 +42074,8 @@
       "source_location": "L192",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_processchangedlines",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "processchangedlines()"
     },
     {
@@ -42085,8 +42085,8 @@
       "source_location": "L192",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_generatelinehtml",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "generatelinehtml()"
     },
     {
@@ -42096,8 +42096,8 @@
       "source_location": "L192",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_generatesinglelinehtml",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "generatesinglelinehtml()"
     },
     {
@@ -42107,8 +42107,8 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_makeheaderhtml",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "makeheaderhtml()"
     },
     {
@@ -42118,8 +42118,8 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_generatesinglehtml",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "generatesinglehtml()"
     },
     {
@@ -42140,8 +42140,8 @@
       "source_location": "L293",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_template",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "template()"
     },
     {
@@ -42151,8 +42151,8 @@
       "source_location": "L293",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_templatekey",
-      "community": 90,
-      "community_name": "w0",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "templatekey()"
     },
     {
@@ -42459,8 +42459,8 @@
       "source_location": "L295",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getgutterspacingfallbacklength",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "getgutterspacingfallbacklength()"
     },
     {
@@ -42470,8 +42470,8 @@
       "source_location": "L295",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_setgutterspacingfallbacklength",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "setgutterspacingfallbacklength()"
     },
     {
@@ -42481,8 +42481,8 @@
       "source_location": "L295",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_hastoobigfiles",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "hastoobigfiles()"
     },
     {
@@ -42624,8 +42624,8 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_bshouldbeeditable",
-      "community": 26,
-      "community_name": "getRepo",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "bshouldbeeditable()"
     },
     {
@@ -42668,8 +42668,8 @@
       "source_location": "L307",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_createmergeview",
-      "community": 26,
-      "community_name": "getRepo",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "createmergeview()"
     },
     {
@@ -42690,8 +42690,8 @@
       "source_location": "L311",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_r0",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "r0()"
     },
     {
@@ -42910,8 +42910,8 @@
       "source_location": "L349",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_h4",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "h4()"
     },
     {
@@ -43075,8 +43075,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_error",
-      "community": 25,
-      "community_name": "dR",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "error()"
     },
     {
@@ -43152,8 +43152,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_w0",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "w0()"
     },
     {
@@ -43240,8 +43240,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_decrement",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 25,
+      "community_name": "dR",
       "norm_label": "decrement()"
     },
     {
@@ -43262,8 +43262,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_oncommit",
-      "community": 25,
-      "community_name": "dR",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "oncommit()"
     },
     {
@@ -43405,8 +43405,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_za",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "za()"
     },
     {
@@ -43449,8 +43449,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_0",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "$0()"
     },
     {
@@ -43691,8 +43691,8 @@
       "source_location": "L358",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_hu",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "hu()"
     },
     {
@@ -43724,8 +43724,8 @@
       "source_location": "L358",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_z0",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "z0()"
     },
     {
@@ -43757,8 +43757,8 @@
       "source_location": "L358",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_addeventlistener",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 48,
+      "community_name": "preventOverflow",
       "norm_label": "addeventlistener()"
     },
     {
@@ -44175,8 +44175,8 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_updatetonewstate",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 25,
+      "community_name": "dR",
       "norm_label": "updatetonewstate()"
     },
     {
@@ -44208,8 +44208,8 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_subscribeme",
-      "community": 1,
-      "community_name": "obsidian-git/main.js",
+      "community": 25,
+      "community_name": "dR",
       "norm_label": "subscribeme()"
     },
     {
@@ -59899,125 +59899,125 @@
       "norm_label": "01_subdungeon_fuego_caldera.md"
     },
     {
-      "label": "\ud83c\udf0b Subdungeon 1: La Caldera Volc\u00e1nica (Inspirada en Goron Mines & Fire Sanctuary)",
+      "label": "\ud83c\udf0b Subdungeon 1: La Caldera Volc\u00e1nica (Inspirada en Fire Temple - Ocarina of Time & Fire Sanctuary - SS)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_goron_mines_fire_sanctuary",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_fire_temple_ocarina_of_time_fire_sanctuary_ss",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "\ud83c\udf0b subdungeon 1: la caldera volcanica (inspirada en goron mines & fire sanctuary)"
+      "norm_label": "\ud83c\udf0b subdungeon 1: la caldera volcanica (inspirada en fire temple - ocarina of time & fire sanctuary - ss)"
     },
     {
-      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Goron Mines Layout)",
+      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Fire Temple OoT Layout)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_mapa_de_flujo_de_la_mazmorra_goron_mines_layout",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_mapa_de_flujo_de_la_mazmorra_fire_temple_oot_layout",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (goron mines layout)"
+      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (fire temple oot layout)"
     },
     {
-      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Goron Mines Walkthrough)",
+      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Fire Temple OoT Walkthrough)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (goron mines walkthrough)"
+      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (fire temple oot walkthrough)"
     },
     {
-      "label": "Room 1: La Gran Fundici\u00f3n R\u00fanica (Entrada)",
+      "label": "Room 1: El Atrio de las Celdas de la Prisi\u00f3n Volc\u00e1nica (Entrada)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_1_la_gran_fundici\u00f3n_r\u00fanica_entrada",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_1_el_atrio_de_las_celdas_de_la_prisi\u00f3n_volc\u00e1nica_entrada",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 1: la gran fundicion runica (entrada)"
+      "norm_label": "room 1: el atrio de las celdas de la prision volcanica (entrada)"
     },
     {
-      "label": "Room 2: La Caverna de las Sanguijuelas de Magma (Llave Peque\u00f1a #1)",
+      "label": "Room 2: La Celda del Arcanista Capturado (Llave Peque\u00f1a #1)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_2_la_caverna_de_las_sanguijuelas_de_magma_llave_peque\u00f1a_1",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_2_la_celda_del_arcanista_capturado_llave_peque\u00f1a_1",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 2: la caverna de las sanguijuelas de magma (llave pequena #1)"
+      "norm_label": "room 2: la celda del arcanista capturado (llave pequena #1)"
     },
     {
-      "label": "Room 3: El Puente de los Rieles Magn\u00e9ticos",
+      "label": "Room 3: El Laberinto de los Muros de Fuego",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_3_el_puente_de_los_rieles_magn\u00e9ticos",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_3_el_laberinto_de_los_muros_de_fuego",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 3: el puente de los rieles magneticos"
+      "norm_label": "room 3: el laberinto de los muros de fuego"
     },
     {
-      "label": "Room 4: \u2694\ufe0f Guardia del Cham\u00e1n de Escoria (Mini-Boss & Dungeon Item)",
+      "label": "Room 4: \u2694\ufe0f El Bailar\u00edn de Llama (Flare Dancer Mini-Boss & Dungeon Item)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_4_guardia_del_cham\u00e1n_de_escoria_mini_boss_dungeon_item",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_4_el_bailar\u00edn_de_llama_flare_dancer_mini_boss_dungeon_item",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 4: \u2694\ufe0f guardia del chaman de escoria (mini-boss & dungeon item)"
+      "norm_label": "room 4: \u2694\ufe0f el bailarin de llama (flare dancer mini-boss & dungeon item)"
     },
     {
-      "label": "Room 5: El Techo Magn\u00e9tico sobre el Foso de Magma",
+      "label": "Room 5: La Galer\u00eda de las Frutas de Agua y Lava (Fire Sanctuary SS)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_5_el_techo_magn\u00e9tico_sobre_el_foso_de_magma",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_5_la_galer\u00eda_de_las_frutas_de_agua_y_lava_fire_sanctuary_ss",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 5: el techo magnetico sobre el foso de magma"
+      "norm_label": "room 5: la galeria de las frutas de agua y lava (fire sanctuary ss)"
     },
     {
-      "label": "Room 6: La Caldera de las Cuatro Compuertas (Llave del Boss \ud83d\udc51)",
+      "label": "Room 6: La Caverna de las Rocas Rodantes de Escoria (Llave del Boss \ud83d\udc51)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_6_la_caldera_de_las_cuatro_compuertas_llave_del_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_6_la_caverna_de_las_rocas_rodantes_de_escoria_llave_del_boss",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 6: la caldera de las cuatro compuertas (llave del boss \ud83d\udc51)"
+      "norm_label": "room 6: la caverna de las rocas rodantes de escoria (llave del boss \ud83d\udc51)"
     },
     {
-      "label": "Room 7: \ud83d\udd12 El Port\u00f3n de la Cadena Volc\u00e1nica",
+      "label": "Room 7: \ud83d\udd12 Port\u00f3n del Drag\u00f3n Volc\u00e1nico",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_7_el_port\u00f3n_de_la_cadena_volc\u00e1nica",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_7_port\u00f3n_del_drag\u00f3n_volc\u00e1nico",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 7: \ud83d\udd12 el porton de la cadena volcanica"
+      "norm_label": "room 7: \ud83d\udd12 porton del dragon volcanico"
     },
     {
-      "label": "Room 8: \ud83d\udc80 Arena de El Se\u00f1or del Crisol (Fyrus Boss)",
+      "label": "Room 8: \ud83d\udc80 Arena de El Se\u00f1or del Crisol (Volvagia Boss)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_8_arena_de_el_se\u00f1or_del_crisol_fyrus_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_8_arena_de_el_se\u00f1or_del_crisol_volvagia_boss",
       "community": 60,
       "community_name": "bT",
-      "norm_label": "room 8: \ud83d\udc80 arena de el senor del crisol (fyrus boss)"
+      "norm_label": "room 8: \ud83d\udc80 arena de el senor del crisol (volvagia boss)"
     },
     {
       "label": "02_Subdungeon_Agua_Cisterna.md",
@@ -230058,7 +230058,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_goron_mines_fire_sanctuary",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_fire_temple_ocarina_of_time_fire_sanctuary_ss",
       "confidence_score": 1.0
     },
     {
@@ -230068,8 +230068,8 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_goron_mines_fire_sanctuary",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_mapa_de_flujo_de_la_mazmorra_goron_mines_layout",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_fire_temple_ocarina_of_time_fire_sanctuary_ss",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_mapa_de_flujo_de_la_mazmorra_fire_temple_oot_layout",
       "confidence_score": 1.0
     },
     {
@@ -230079,8 +230079,8 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_goron_mines_fire_sanctuary",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_subdungeon_1_la_caldera_volc\u00e1nica_inspirada_en_fire_temple_ocarina_of_time_fire_sanctuary_ss",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
       "confidence_score": 1.0
     },
     {
@@ -230090,8 +230090,8 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_1_la_gran_fundici\u00f3n_r\u00fanica_entrada",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_1_el_atrio_de_las_celdas_de_la_prisi\u00f3n_volc\u00e1nica_entrada",
       "confidence_score": 1.0
     },
     {
@@ -230101,8 +230101,8 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_2_la_caverna_de_las_sanguijuelas_de_magma_llave_peque\u00f1a_1",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_2_la_celda_del_arcanista_capturado_llave_peque\u00f1a_1",
       "confidence_score": 1.0
     },
     {
@@ -230112,8 +230112,8 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_3_el_puente_de_los_rieles_magn\u00e9ticos",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_3_el_laberinto_de_los_muros_de_fuego",
       "confidence_score": 1.0
     },
     {
@@ -230123,8 +230123,8 @@
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_4_guardia_del_cham\u00e1n_de_escoria_mini_boss_dungeon_item",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_4_el_bailar\u00edn_de_llama_flare_dancer_mini_boss_dungeon_item",
       "confidence_score": 1.0
     },
     {
@@ -230134,8 +230134,8 @@
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_5_el_techo_magn\u00e9tico_sobre_el_foso_de_magma",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_5_la_galer\u00eda_de_las_frutas_de_agua_y_lava_fire_sanctuary_ss",
       "confidence_score": 1.0
     },
     {
@@ -230145,8 +230145,8 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_6_la_caldera_de_las_cuatro_compuertas_llave_del_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_6_la_caverna_de_las_rocas_rodantes_de_escoria_llave_del_boss",
       "confidence_score": 1.0
     },
     {
@@ -230156,8 +230156,8 @@
       "source_location": "L75",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_7_el_port\u00f3n_de_la_cadena_volc\u00e1nica",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_7_port\u00f3n_del_drag\u00f3n_volc\u00e1nico",
       "confidence_score": 1.0
     },
     {
@@ -230167,8 +230167,8 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_goron_mines_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_8_arena_de_el_se\u00f1or_del_crisol_fyrus_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_recorrido_verbatim_sala_por_sala_fire_temple_oot_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_01_subdungeon_fuego_caldera_room_8_arena_de_el_se\u00f1or_del_crisol_volvagia_boss",
       "confidence_score": 1.0
     },
     {
@@ -232945,5 +232945,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3fa8d3884ca4ffe84a071ed217eab940492c9d98"
+  "built_at_commit": "6c163ae09c7c615dda51d618f1ffad6c2890ba22"
 }

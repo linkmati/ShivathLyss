@@ -35,7 +35,7 @@ flowchart TD
 
 Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala estilo Zelda** (con mapa de flujo Mermaid, Llaves Pequeñas 🗝️, Mini-Boss ⚔️, Dungeon Item 🎁, Llave del Boss 👑 y Boss Final 💀):
 
-1. **[🌋 Subdungeon 1: La Caldera Volcánica (Goron Mines - TP & Fire Sanctuary - SS)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md)** (`01_Subdungeon_Fuego_Caldera.md`)
+1. **[🌋 Subdungeon 1: La Caldera Volcánica (Fire Temple - OoT & Fire Sanctuary - SS)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md)** (`01_Subdungeon_Fuego_Caldera.md`)
 2. **[🌊 Subdungeon 2: La Cisterna Sumergida (Ancient Cistern - SS)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md)** (`02_Subdungeon_Agua_Cisterna.md`)
 3. **[🌬️ Subdungeon 3: La Torre de los Vientos (City in the Sky - TP & Stormwind Ark - TotK)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md)** (`03_Subdungeon_Aire_Torre.md`)
 4. **[🪨 Subdungeon 4: El Dominio Telúrico (Puramente Tectónico - Goron Mines & Earth Temple SS)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md)** (`04_Subdungeon_Tierra_Dominio.md`)
