@@ -26,6 +26,7 @@ flowchart LR
 ### A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica)
 * **Objeto Elemental Requerido**: *Guantelete de Llama* (Obtenido en el Cofre Maestro de la Caldera).
 * **Mecánica Zelda**: El boss se protege tras un escudo de escoria de magma congelado. Disparar el *Guantelete de Llama* a los 3 braseros superiores funde el escudo y lo aturde 1 ronda.
+* **Peligro Kinético de Arena**: Geiseres de lava activa en el suelo al final de cada ronda (Reflejos DC 14 o 2d6 Fuego).
 * **Recompensa**: 🔓 Desbloqueo permanente del paso por la Caldera y Fragmento de Tablilla #1.
 
 ---
@@ -33,6 +34,7 @@ flowchart LR
 ### B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida)
 * **Objeto Elemental Requerido**: *Flauta del Mar*.
 * **Mecánica Zelda**: La Quimera flota fuera del alcance sobre un chorro de agua. Tocar la *Flauta del Mar* drena la columna de agua, haciendo caer al boss al suelo.
+* **Peligro Kinético de Arena**: Corriente de succión en los desagües arrastra 15 ft hacia las cuchillas de turbina.
 * **Recompensa**: 🔓 Desbloqueo permanente del paso por la Cisterna y Fragmento de Tablilla #2.
 
 ---
@@ -40,6 +42,7 @@ flowchart LR
 ### C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos)
 * **Objeto Elemental Requerido**: *Capa del Vértice*.
 * **Mecánica Zelda**: El Coloso genera tornados que empujan a los exploradores al vacío. Usar la *Capa del Vértice* permite remontar el tornado y aterrizar sobre el núcleo débil del boss.
+* **Peligro Kinético de Arena**: Corrientes ascendentes y pozos sin fondo; caer requiere tirada de Atletismo DC 13 para agarrarse al borde.
 * **Recompensa**: 🔓 Desbloqueo permanente del paso por la Torre y Fragmento de Tablilla #3.
 
 ---
@@ -47,6 +50,7 @@ flowchart LR
 ### D. El Titán de Basalto (Guardián de EARTH - El Dominio Telúrico)
 * **Objeto Elemental Requerido**: *Martillo de Basalto*.
 * **Mecánica Zelda**: El Titán posee armadura de piedra impenetrable. Asestar un golpe de impacto con el *Martillo de Basalto* agrieta su coraza para permitir daño convencional.
+* **Peligro Kinético de Arena**: Derrumbes de estalactitas telúricas tras cada impacto sismológico (Fuerza DC 14 o quedar apresado).
 * **Recompensa**: 🔓 Desbloqueo permanente del paso por el Dominio y Fragmento de Tablilla #4.
 
 ---
@@ -54,6 +58,7 @@ flowchart LR
 ### E. El Botánico de Sombras (Guardián de LIFE - El Invernadero Ancestral)
 * **Objeto Elemental Requerido**: *Semilla Botánica*.
 * **Mecánica Zelda**: El Botánico se esconde en bulbos carnívoros. Plantar la *Semilla Botánica* germina vides que aprisionan los bulbos y exponen la flor central.
+* **Peligro Kinético de Arena**: Nubes de esporas venenosas (Constitución DC 13 o Envenenado) que se inflaman al contacto con fuego.
 * **Recompensa**: 🔓 Desbloqueo permanente del paso por el Invernadero y Fragmento de Tablilla #5.
 
 ---
@@ -61,6 +66,7 @@ flowchart LR
 ### F. El Espejismo de Cristal (Guardián de LIGHT - El Santuario Prismático)
 * **Objeto Elemental Requerido**: *Escudo Prismático*.
 * **Mecánica Zelda**: El boss genera 3 copias de luz ilusorias. Usar el *Escudo Prismático* para reflejar la luz del tragaluz revela inmediatamente al verdadero boss.
+* **Peligro Kinético de Arena**: Rayos cegadores refractados en las paredes (Sabiduría DC 13 o Ceguera por 1 ronda).
 * **Recompensa**: 🔓 Desbloqueo permanente del paso por el Santuario y Fragmento de Tablilla #6.
 
 ---

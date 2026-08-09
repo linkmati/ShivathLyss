@@ -60,9 +60,26 @@ flowchart TD
 
 ---
 
-## 4. El Gran Meta-Puzle (Acceso al Boss Final)
+## 4. El Gran Meta-Puzle y Bloqueos Cognitivos (Outer Wilds + Zelda)
 
-Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El Juicio de Minos*, los jugadores deben resolver un **Meta-Puzle de Múltiples Piezas**:
+Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El Juicio de Minos*, los jugadores deben resolver el **Macro-Puzle del Reactor Central**:
 
-* Cada Subdungeon contiene **1 Fragmento de Tablilla (6 Piezas en Total)**.
-* Los jugadores reúnen las 6 piezas para descifrar la secuencia maestra que abre la Sala 12.
+```
+======================================================================
+         🧠 BLOQUEOS COGNITIVOS VS. ATAJOS FÍSICOS (KNOWLEDGE GATING) 🧠
+======================================================================
+1. BLOQUEOS COGNITIVOS (KNOWLEDGE LOCKS):
+   - La entrada al Sanctum está 100% visible desde la primera incursión.
+   - El obstáculo NO es una llave física arbitraria, sino COMPRENDER la 
+     secuencia física/elemental del Reactor Central.
+   - Cada Subdungeon enseña una regla física fundamental (ej. cómo enfriar 
+     el reactor con WATER, cómo evacuar gases con AIR, cómo calibrar la lente 
+     con LIGHT).
+
+2. LAS 6 PIEZAS DEL TABLERO DE MINOS:
+   * Cada Subdungeon otorga 1 Fragmento de Tablilla (6 en total).
+   * Reunir los 6 fragmentos traduce la secuencia rúnica necesaria para 
+     ejecutar el Alineamiento Maestro del Reactor en la Sala 12.
+======================================================================
+```
+
