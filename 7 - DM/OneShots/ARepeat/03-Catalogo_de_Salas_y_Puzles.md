@@ -1,4 +1,4 @@
-# Compendio Modular de Sets de Salas y Gimmicks Elementales (Manual del DM)
+	# Compendio Modular de Sets de Salas y Gimmicks Elementales (Manual del DM)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md`  
 > **Estructura Organizada por Carpetas**: `7 - DM/OneShots/ARepeat/Salas/`  
