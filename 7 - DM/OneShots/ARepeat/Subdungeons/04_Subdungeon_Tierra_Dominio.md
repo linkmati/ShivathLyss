@@ -1,8 +1,9 @@
 # 🪨 Subdungeon 4: El Dominio Telúrico (Mazmorra Zelda estilo Snowhead Temple)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md`  
-> **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask* - Edición Basalto)  
-> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
+> **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask* - Edición Basa> **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, escombros y trampas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
+> 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante exploración espacial, colocación de vagoneras, puzles Peg o golpes del Martillo de Basalto.  
+> 2. ⚡ **Opción Rápida con Tirada (Skill Check Skip)**: Permite atajar al instante mediante una tirada de habilidad (Fuerza, Atletismo, Acrobacias, Juego de Manos, etc.).  
 > **Estructura de Layout**: **Hub Central de 3 Pisos** + **Mecánica de Impacto al Eje Central (Snowhead Cylinder Smash)** + **Circuito de Vagoneras & Tobogán de Retorno** + **Backtracking con Dungeon Item**  
 > **Dungeon Item**: *Martillo de Basalto* (Gran Megaton Hammer Telúrico)  
 > **Guardián de Área**: *El Titán de Basalto* (Inspirado en *Goht / Scaldera*)  
@@ -21,8 +22,8 @@ graph TD
     classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
 
     S1["Room 1: Base del Pilar (Hub 1F)<br/><i>(Pilar de 30 ft & Balcones Desalineados)</i>"]:::hub
-    S2["Room 2: Celdas de Basalto (Este)<br/><b>[Limpiar Escombros]</b>"]:::branch
-    S3["Room 3: Mina de Vagoneras (Oeste)<br/><b>[Descarrilar Vagonera]</b>"]:::branch
+    S2["Room 2: Celdas de Basalto (Este)<br/><b>[Limpiar Escombros / Fuerza]</b>"]:::branch
+    S3["Room 3: Mina de Vagoneras (Oeste)<br/><b>[Descarrilar Vagonera / 🗝️1]</b>"]:::branch
     S4["Room 4: Foso Tectónico (Subterráneo B1)<br/><i>(Túnel Secreto de Cripta)</i>"]:::branch
     S5["Room 5: Armería Norte (Piso 2)<br/><b>🎁 ITEM: MARTILLO DE BASALTO</b>"]:::item
     S6["Room 6: Primer Impacto al Pilar (Hub 1F)<br/><i>(Anillo Rojo Destruido: Pilar baja 10ft)</i>"]:::hub
@@ -35,7 +36,7 @@ graph TD
     S1 -->|Explorar Ala Este| S2
     S2 -->|🗝️ Llave Pequeña 1| S1
     S2 -.->|Grieta Secreta| S4
-    S1 -->|Puerta Oeste Locked 🗝️1| S3 --> S5
+    S1 -->|Puerta Oeste Locked 🗝️1 o Juego de Manos| S3 --> S5
     S5 -->|Backtrack a 1F con Martillo| S6
     S6 -->|Alineamiento 2F Este| S7
     S7 -->|🗝️ Llave Pequeña 2| S8
@@ -47,18 +48,18 @@ graph TD
 
 ---
 
-## 📊 Tabla Resumen de Progreso (Paso a Paso)
+### 📊 Tabla Resumen de Progreso (Sistema Doble Opción)
 
-| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| Paso | Ubicación | Tipo | 🟢 Opción Sin Tirada (100% Seguro) | ⚡ Opción Rápida con Tirada (Skill Skip) |
 | :---: | :--- | :---: | :--- | :--- |
-| **1** | **Room 2 (Celdas Este)** | 🟢 Exploración | Desplazar losa de falla de 300 lbs y vencer escarabajos | Obtenida **Llave Pequeña 🗝️1** |
-| **2** | **Room 3 (Mina Oeste)** | 🧩 Puzle | Usar 🗝️1, girar aguja de vía y descarrilar vagonera | Muro colapsa y abre paso a Piso 2 Norte |
-| **3** | **Room 5 (Armería Norte)** | ⚔️ Mini-Boss | Enfrentar al autómata *Armos de la Cumbre* | 🎁 Obtención del **Martillo de Basalto** |
-| **4** | **Room 6 (Hub 1F)** | 🔨 Puzle Pilar | Asestar golpe de masa con el Martillo al Anillo Rojo | El pilar baja 10ft y alinea pasarelas de 2F |
-| **5** | **Room 7 (Cañón 2F Este)** | 🟢 Puzle & Atajo | Golpear biela para soltar esfera de 500 lbs | Abre **Tobogán Atajo 1F** y da **Llave 🗝️2** |
-| **6** | **Room 8 (Bloques Peg 2F)** | 🧩 Puzle | Usar 🗝️2 e invertir bloques Peg Rojo/Azul con Martillo | Eleva pasarela a la cúspide del pilar |
+| **1** | **Room 2 (Celdas Este)** | 🟢 Exploración | Usar palanca manual para mover losa de 300 lbs (1 min) | **Fuerza DC 13** (desplazar la losa de un solo empuje en 1 seg) |
+| **2** | **Room 3 (Mina Oeste)** | 🟢 Transición | Usar 🗝️1, girar aguja de vía y descarrilar vagonera | **Juego de Manos DC 13** (ganzuar esclusa sin buscar la llave) |
+| **3** | **Room 5 (Armería Norte)** | ⚔️ Mini-Boss | Derrotar a *Armos* golpeando su gema trasera | **Atletismo DC 13** (taclear al Armos y volcar su armadura) |
+| **4** | **Room 6 (Hub 1F)** | 🔨 Puzle Pilar | Cargar golpe con Martillo de Basalto en Anillo Rojo | **Fuerza DC 14** (destruir el remache rúnico de 1 solo mazo) |
+| **5** | **Room 7 (Cañón 2F Este)** | 🟢 Puzle & Atajo | Golpear biela con el Martillo para soltar esfera de 500 lbs | **Acrobacias DC 13** (deslizarse por el cañón antes de soltar la esfera) |
+| **6** | **Room 8 (Bloques Peg 2F)** | 🧩 Puzle | Usar 🗝️2 e invertir bloques Peg Rojo/Azul con Martillo | **Atletismo DC 13** (escalar el muro de granito sin invertir Pegs) |
 | **7** | **Room 9 (Hub 2F)** | 👑 Clave Boss | Golpe final al Anillo Azul en la corona del pilar | 👑 Obtenida **Llave del Boss (Goht)** |
-| **8** | **Room 11 (Arena Final)** | 💀 Boss Final | Ascender por la pasarela Peg e ingresar al Portón 3F | 🔓 Subdungeon 4 + Fragmento #4 |
+| **8** | **Room 11 (Arena Final)** | 💀 Boss Final | Martillar patas de Goht para hacerlo tropezar | **Percepción DC 13** (predecir trayecto de embestida de Goht) |
 
 ---
 

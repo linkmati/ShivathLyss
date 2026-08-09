@@ -1,8 +1,9 @@
 # ☀️ Subdungeon 6: El Santuario Prismático (Mazmorra Zelda estilo Spirit Temple OoT)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md`  
-> **Inspiración Verbatim**: **Spirit Temple** (*The Legend of Zelda: Ocarina of Time*)  
-> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el paso a nuevas áreas NUNCA depende de fallar/pasar un dado.  
+> **Inspiración Verbatim**: **Spirit Temple** (*The Legend of Zelda: Ocarina of Ti> **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, refracciones de luz y esclusas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
+> 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante posicionamiento espacial con el Mirror Shield, simetría de movimiento, refracción en cadena o uso de cobras.  
+> 2. ⚡ **Opción Rápida con Tirada (Skill Check Skip)**: Permite atajar al instante mediante una tirada de habilidad (Destreza, Atletismo, Acrobacias, Juego de Manos, Arcanos, etc.).  
 > **Estructura de Layout**: **Hub Master (3 Pisos & Foso B1)** + **Estatua del Coloso de la Diosa de 40 ft** + **Red de Refracción Solar en Cadena entre Manos** + **Backtracking con Dungeon Item**  
 > **Dungeon Item**: *Escudo Prismático / Mirror Shield* (Reflexión de Luz Solar & Refracción Elemental)  
 > **Guardián de Área**: *El Espejismo de Cristal* (Inspirado en *Twinrova / Iron Knuckle*)  
@@ -21,9 +22,9 @@ graph TD
     classDef boss fill:#4c1d95,stroke:#c084fc,stroke-width:3px,color:#f3e8ff;
 
     L1["Room 1: Atrio del Coloso (Hub 1F)<br/><i>(Tragaluz Solar & Estatua de 40ft)</i>"]:::hub
-    L2["Room 2: Galería Anubis (Piso 1 Este)<br/><b>[Lurear Espectro al Fuego]</b>"]:::branch
+    L2["Room 2: Galería Anubis (Piso 1 Este)<br/><b>[Lurear Espectro / Destreza]</b>"]:::branch
     L3["Room 3: Foso de las Cobras (Piso B1)<br/><i>(Luz Ascendente por Rejilla)</i>"]:::branch
-    L4["Room 4: Sombras Cuánticas (Piso 2 Este)<br/><b>[Puentes de Sombra Sólida]</b>"]:::branch
+    L4["Room 4: Sombras Cuánticas (Piso 2 Este)<br/><b>[🗝️1 o Juego de Manos]</b>"]:::branch
     L5["Room 5: Armería del Coloso (Piso 2 Oeste)<br/><b>🎁 ITEM: MIRROR SHIELD</b>"]:::item
     L6["Room 6: Palma Izquierda (Piso 2 Este Balcón)<br/><i>(Reflejar Rayo a Palma Derecha)</i>"]:::branch
     L7["Room 7: Palma Derecha (Piso 2 Oeste Balcón)<br/><i>(Refranquear Rayo al Velo Facial)</i>"]:::branch
@@ -35,7 +36,7 @@ graph TD
     L2 -->|🗝️ Llave Pequeña 1| L1
     L1 -.->|Descenso al Foso| L3
     L3 -.->|Bypass de Luz Ascendente| L5
-    L1 -->|Puerta Oeste Locked 🗝️1| L4 --> L5
+    L1 -->|Puerta Oeste Locked 🗝️1 o Juego de Manos| L4 --> L5
     L5 -->|Subir a Palma Izquierda 2F| L6
     L6 -->|Mirror Shield Refracción| L7
     L7 -->|Fundir Velo Facial de Piedra| L8
@@ -44,18 +45,18 @@ graph TD
 
 ---
 
-## 📊 Tabla Resumen de Progreso (Paso a Paso)
+### 📊 Tabla Resumen de Progreso (Sistema Doble Opción)
 
-| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| Paso | Ubicación | Tipo | 🟢 Opción Sin Tirada (100% Seguro) | ⚡ Opción Rápida con Tirada (Skill Skip) |
 | :---: | :--- | :---: | :--- | :--- |
-| **1** | **Room 2 (Galería Anubis)** | 🟢 Exploración | Moverse en espejo para encender antorcha y quemar Anubis | Obtenida **Llave Pequeña 🗝️1** |
-| **2** | **Room 3 (Foso B1)** | 🧩 Puzle Atajo | Girar Cobra de Piedra B1 para reflejar luz por la rejilla | Abre bypass a Armería sin llaves |
-| **3** | **Room 4 (Sombras Cuánticas)**| 🧩 Puzle | Usar 🗝️1 y mover linternas para formar sombras sólidas | Acceso a Armería del Coloso 2F |
-| **4** | **Room 5 (Armería 2F)** | ⚔️ Mini-Boss | Enfrentar al *Iron Knuckle* haciéndole romper pilares | 🎁 Obtención del **Mirror Shield** |
-| **5** | **Room 6 (Palma Izquierda)**| ☀️ Refracción | Interponer Mirror Shield en el haz solar principal del tragaluz | Refleja el rayo a Palma Derecha |
-| **6** | **Room 7 (Palma Derecha)** | ☀️ Refracción | Apuntar rayo reflejado al Velo de Piedra durante 6 segundos | Velo facial se funde y abre la frente |
+| **1** | **Room 2 (Galería Anubis)** | 🟢 Exploración | Moverse en espejo para obligar a Anubis a marchar al fuego | **Destreza DC 13** (incinerar al Anubis al instante lanzando antorcha) |
+| **2** | **Room 3 (Foso B1)** | 🧩 Puzle Atajo | Girar Cobra de Piedra B1 para reflejar luz por la rejilla | **Atletismo DC 13** (trepar por las rejas del foso sin tocar la cobra) |
+| **3** | **Room 4 (Sombras Cuánticas)**| 🟢 Transición | Usar 🗝️1 y mover linternas para formar sombras sólidas | **Juego de Manos DC 13** (ganzuar el portón de bronce sin llave) |
+| **4** | **Room 5 (Armería 2F)** | ⚔️ Mini-Boss | Obligar al Iron Knuckle a destrozar pilares | **Atletismo DC 13** (taclear al Iron Knuckle para desprender su casco) |
+| **5** | **Room 6 (Palma Izquierda)**| ☀️ Refracción | Interponer Mirror Shield en el tragaluz apuntando a la Palma Derecha | **Acrobacias DC 13** (reflejar en pleno salto ganando alcance) |
+| **6** | **Room 7 (Palma Derecha)** | ☀️ Refracción | Apuntar rayo reflejado al Velo de Piedra durante 6 segundos | **Arcanos DC 14** (sobrecargar el haz espejado fundiendo el velo en 1s) |
 | **7** | **Room 8 (Cámara Frente)** | 👑 Clave Boss | Ingresar tras el rostro fundido y abrir el cofre dorado | 👑 Obtenida **Llave del Boss (Sol)** |
-| **8** | **Room 10 (Arena Final)** | 💀 Boss Final | Ascender por los escombros del velo al Portón 3F | 🔓 Subdungeon 6 + Fragmento #6 |
+| **8** | **Room 10 (Arena Final)** | 💀 Boss Final | Absorber 3 ráfagas del mismo elemento con Mirror Shield | **Percepción DC 13** (predecir qué bruja atacará en cada ronda) |
 
 ---
 

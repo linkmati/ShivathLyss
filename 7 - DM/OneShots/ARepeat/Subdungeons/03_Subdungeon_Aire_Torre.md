@@ -2,7 +2,9 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md`  
 > **Inspiración Verbatim**: **City in the Sky** (*Twilight Princess*) + **Stormwind Ark** (*Tears of the Kingdom*)  
-> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
+> **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, corrientes y escotillas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
+> 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante navegación vertical, uso de la Capa del Vértice, timones de bronce o paciencia con las ráfagas.  
+> 2. ⚡ **Opción Rápida con Tirada (Skill Check Skip)**: Permite atajar volando o forzando mecanismos mediante tiradas (Fuerza, Atletismo, Acrobacias, Arcanos, etc.).  
 > **Estructura de Layout**: **Núcleo de la Ciudadela Flotante (Hub Vertical)** + **Ala Proa (Turbinas Exteriores)** + **Ala Popa (Trampolines Celestes)** + **Activación de Vórtices Eólicos**  
 > **Dungeon Item**: *Capa del Vértice* (Planeo Eólico, Impulso de Ráfaga y Sustentación Aérea)  
 > **Guardián de Área**: *El Coloso del Vértice* (Inspirado en *Argorok / Colgera*)  
@@ -21,17 +23,17 @@ graph TD
     classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
 
     S1["Room 1: Atrio del Navío (Hub Vertical)<br/><i>(Pozo de Turbina Desactivado)</i>"]:::hub
-    S2["Room 2: Ala Proa (Ventiladores Exteriores)<br/><b>[Timón Eólico / Turbina]</b>"]:::branch
-    S3["Room 3: El Puente de Viento (Piso 1 Oeste)"]:::branch
+    S2["Room 2: Ala Proa (Ventiladores Exteriores)<br/><b>[Timón Eólico / Fuerza]</b>"]:::branch
+    S3["Room 3: El Puente de Viento (Piso 1 Oeste)<br/><b>[Escotilla 🗝️1 / Juego de Manos]</b>"]:::branch
     S4["Room 4: Cámara del Dragonante (Mini-Boss)<br/><b>🎁 ITEM: CAPA DEL VÉRTICE</b>"]:::item
-    S5["Room 5: Ala Popa (Trampolines Celestiales)<br/><i>(Vórtice Ascendente 2F)</i>"]:::branch
+    S5["Room 5: Ala Popa (Trampolines Celestiales)<br/><i>(Vórtice 2F / Acrobacias)</i>"]:::branch
     S6["Room 6: Cámara del Motor Central (Piso 3)<br/><b>👑 COFRE LLAVE DEL BOSS</b>"]:::key
     S7["Room 7: Antecámara de Tormenta"]:::key
     S8["Room 8: Arena de Argorok 💀<br/><b>[Coloso del Vértice / Tablilla #3]</b>"]:::boss
 
     S1 -->|Explorar Ala Proa| S2
     S2 -->|🗝️ Llave Pequeña 1| S1
-    S1 -->|Puerta Oeste Locked 🗝️1| S3 --> S4
+    S1 -->|Puerta Oeste Locked 🗝️1 o Juego de Manos| S3 --> S4
     S4 -->|Vórtice Ascendente con Capa| S1
     S1 -->|Planeo a Piso 2| S5 --> S6
     S6 -->|Planeo Directo a Cúpula| S1
@@ -40,16 +42,16 @@ graph TD
 
 ---
 
-### 📊 Tabla Resumen de Progreso (Paso a Paso)
+### 📊 Tabla Resumen de Progreso (Sistema Doble Opción)
 
-| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| Paso | Ubicación | Tipo | 🟢 Opción Sin Tirada (100% Seguro) | ⚡ Opción Rápida con Tirada (Skill Skip) |
 | :---: | :--- | :---: | :--- | :--- |
-| **1** | **Room 2 (Ala Proa)** | 🟢 Exploración | Girar timón eólico y encajar palanca | Obtenida **Llave Pequeña 🗝️1** |
-| **2** | **Room 3 & 4 (Ala Oeste)** | ⚔️ Mini-Boss | Cruzar puente de viento y vencer al *Dragonante* | 🎁 Obtención de la **Capa del Vértice** |
-| **3** | **Room 5 (Ala Popa 2F)** | 🧩 Puzle | Desplegar la capa sobre el pozo y rebotar en velas | Ascenso a Piso 3 |
-| **4** | **Room 6 (Motor 3F)** | 👑 Clave & Atajo | Acelerar las 4 turbinas secundarias con la capa | 👑 Obtenida **Llave del Boss** |
-| **5** | **Room 8 (Arena Final)** | 💀 Boss | Planear al Hub e ingresar a Cúpula Norte | 🔓 Subdungeon 3 + Fragmento #3 |
-
+| **1** | **Room 2 (Ala Proa)** | 🟢 Exploración | Girar timón eólico en equipo (2 personas / 1 min) | **Fuerza DC 13** (girar el timón solo de un solo empuje) |
+| **2** | **Room 3 (Puente Viento)** | 🟢 Transición | Abrir escotilla con 🗝️1 y cruzar observando ráfagas | **Juego de Manos DC 13** (ganzuar escotilla) / **Acrobacias DC 13** (cruzar en 1 acción) |
+| **3** | **Room 4 (Mini-Boss)** | ⚔️ Combate | Esquivar tornados del Dragonante y atacar su torso | **Atletismo DC 13** (taclear al Dragonante derribándolo al instante) |
+| **4** | **Room 5 (Ala Popa 2F)** | 🧩 Puzle | Desplegar Capa en el punto cumbre del rebote | **Acrobacias DC 13** (ganar 15ft extra de impulso y subir a 3F directo) |
+| **5** | **Room 6 (Motor 3F)** | 👑 Clave & Atajo | Acelerar las 4 turbinas secundarias lanzando ráfagas | **Arcanos DC 14** (sobrecargar el panel eólico principal de un solo toque) |
+| **6** | **Room 8 (Arena Final)** | 💀 Boss | Engancharse a torres con Capa y caer sobre su gema | **Atletismo DC 13** (saltar directo de torre a gema sin planeo) |
 
 ---
 
@@ -57,46 +59,55 @@ graph TD
 
 ### Room 1: Atrio del Navío Celestial (Hub Vertical)
 > *"Una plaza colosal de piedra eólica blanca que flota sobre un abismo de nubes. En el centro, un gran pozo de turbina desactivado se halla apagado. Tres accesos destacan: la Proa (Este), la Escotilla del Puente (Oeste - Locked 🗝️1) y la Popa elevada en el Piso 2. Al norte, en la cima, la Cúpula de la Tormenta 🔒."*
+* **Mecánica Doble**:
+  * 🟢 *Sin Tirada*: Usar la **Llave Pequeña 🗝️1** en la escotilla Oeste.
+  * ⚡ *Con Tirada*: **Juego de Manos DC 13** (ganzuar la escotilla sellada).
 
 ---
 
 ### Room 2: 🧩 Ala Proa: Torre de Ventiladores Exteriores (TotK)
 > *"Un pasaje al aire libre donde hélices de bronce giran impulsadas por corrientes heladas."*
-* **Puzle Mecánico Sin Gating**: Derrotar a 3x Harpías Eólicas y girar el timón eólico encajando una palanca. *(Tirada opcional de Fuerza DC 13 permite girarlo solo en vez de en equipo, pero el timón 100% arranca la turbina)*.
-* **Botín**: La turbina expulsa una corriente que eleva el cofre con la **Llave Pequeña 🗝️1**.
-* **🔄 BACKTRACKING**: Regresar al **Hub (Room 1)** e insertar la Llave 🗝️1 en la Escotilla Oeste.
+* **Mecánica Doble**:
+  * 🟢 *Sin Tirada*: Derrotar a 3x Harpías y girar el timón eólico entre 2 personas durante 1 minuto.
+  * ⚡ *Con Tirada*: **Fuerza DC 13** (arrancar la palanca y girar el timón solo en 1 acción rápida).
+* **Botín**: La turbina activa un chorro eólico que eleva el cofre con la **Llave Pequeña 🗝️1**.
 
 ---
 
 ### Room 3: Ala Oeste: El Puente del Viento Cruzado
 > *"Una pasarela al vacío barrida por dos ventiladores laterales."*
-* **Mecánica Sin Gating**: Cruzar observando las ráfagas laterales. *(Tirada opcional de Acrobacias DC 12 evita caer de rodillas, pero el cruce es 100% seguro)*.
+* **Mecánica Doble**:
+  * 🟢 *Sin Tirada*: Cruzar caminando con paso firme entre los descansos de las ráfagas.
+  * ⚡ *Con Tirada*: **Acrobacias DC 13** (esprintar a toda velocidad atravesando las ráfagas sin detenerse).
 
 ---
 
 ### Room 4: ⚔️ Cámara del Mini-Boss: Dragonante de Latón (TP)
 > *"Un autómata de latón que proyecta tornados."*
+* **Combate**: Esquivar tornados o **Atletismo DC 13** para interceptarlo al vuelo.
 * **🎁 COFRE MAESTRO**: Otorga la **Capa del Vértice** (Permite planeo eólico y atrapar corrientes de aire).
-* **🔄 BACKTRACKING & VÓRTICE RECTIFICADO**: Con la *Capa del Vértice*, el grupo regresa al **Hub (Room 1)**. Al desplegar la capa sobre el pozo central, el vórtice ascendente catapulta al grupo al Piso 2 (Ala Popa - Room 5).
 
 ---
 
 ### Room 5: 🧩 Ala Popa: Trampolines en Velas Celestiales (TotK)
 > *"Un pozo vertical de 60 pies con tres velas elásticas horizontalmente."*
-* **Puzle Mecánico Sin Gating**: Rebotar en las 3 velas y desplegar la *Capa del Vértice* en el punto cumbre de cada salto para ascender al Piso 3 (Room 6). *(Tirada opcional de Acrobacias DC 12 otorga 10 ft extra de altura, pero el ascenso es 100% garantizado)*.
+* **Mecánica Doble**:
+  * 🟢 *Sin Tirada*: Rebotar en las 3 velas y desplazar la *Capa del Vértice* en el punto alto de cada salto.
+  * ⚡ *Con Tirada*: **Acrobacias DC 13** (efectuar un salto perfecto que gana 15 ft adicionales de impulso ascendiendo a 3F de un tirón).
 
 ---
 
 ### Room 6: Piso 3: Cámara del Motor Central (Llave del Boss 👑)
 > *"La sala de máquinas principal donde cuatro turbinas eólicas secundarias deben ser aceleradas mediante ráfagas."*
-* **Puzle**: Proyectar ráfagas de aire con la capa en las cuatro turbinas.
+* **Mecánica Doble**:
+  * 🟢 *Sin Tirada*: Disparar ráfagas con la capa sobre las 4 turbinas individualmente.
+  * ⚡ *Con Tirada*: **Arcanos DC 14** (sintonizar el glifo maestro y encender las 4 turbinas en 1 sola ronda).
 * **Botín**: Reclamar la **Llave del Boss 👑 (Llave de Argorok)**.
-* **🔄 BACKTRACKING**: Planear desde la balconada del Piso 3 directamente a la Cúpula Norte del Hub (Room 1).
 
 ---
 
 ### Room 7: 🔒 Antecámara de la Tormenta
-> *"Insertar la Llave del Boss 👑 para abrir las alas de bronce de la cúpula."*
+> *"Insertar la Llave del Boss 👑 (o **Juego de Manos / Arcanos DC 14** para forzar las alas de bronce de la cúpula)."*
 
 ---
 
@@ -104,3 +115,4 @@ graph TD
 > *"Cúspide de la ciudadela entre tormentas de rayos con 4 torres de pararrayos."*
 * **Mecánica Boss**: Engancharse a las torres con la capa, ascender sobre Argorok y picar en caída libre sobre la gema de su espalda.
 * **Recompensa**: 🔓 Desbloqueo permanente de la Torre + **Fragmento de Tablilla #3**.
+

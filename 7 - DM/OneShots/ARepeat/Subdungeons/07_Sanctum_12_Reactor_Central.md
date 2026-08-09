@@ -2,7 +2,9 @@
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/07_Sanctum_12_Reactor_Central.md`  
 > **Inspiración Verbatim**: **Ganon's Castle** (*The Legend of Zelda: Ocarina of Time*) + **Hyrule Castle** (*Tears of the Kingdom*)  
-> **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
+> **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Las seis alas elementales y el ascenso al reactor admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
+> 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Emplear los Dungeon Items obtenidos en las 6 subdungeons previa (Guantelete, Flauta, Capa, Martillo, Semilla, Mirror Shield).  
+> 2. ⚡ **Opción Rápida con Tirada (Skill Check Skip)**: Permite disipar barreras o saltarse puzles elementales al instante mediante tiradas de habilidad (Fuerza, Atletismo, Acrobacias, Juego de Manos, Arcanos, etc.).  
 > **Estructura de Layout**: **Atrio Hexagonal de Entrada (Hub Master)** + **Seis Alas Elementales Autónomas (Wings 1 a 6)** + **Desbloqueo de la Torre Central de Ascenso**  
 > **Requisitos**: Reunir los 6 Fragmentos de Tablilla (de las 6 Subdungeons de Zelda)  
 > **Boss Final**: *El Juicio de Minos* (Nivel Recomendado 7-8, Grupo de 5 PJs)
@@ -18,16 +20,16 @@ graph TD
     classDef unlock fill:#78350f,stroke:#fbbf24,stroke-width:3px,color:#fef3c7;
     classDef boss fill:#7f1d1d,stroke:#f87171,stroke-width:3px,color:#fee2e2;
 
-    S1["Fase 1: Puerta Hexagonal<br/><b>[Insertar 6 Tablillas]</b>"]:::hub
+    S1["Fase 1: Puerta Hexagonal<br/><b>[6 Tablillas o Arcanos/Religión]</b>"]:::hub
     S2["Fase 2: Atrio Central del Reactor<br/><i>(6 Barreras Elementales)</i>"]:::hub
 
     subgraph "LAS SEIS ALAS ELEMENTALES AUTÓNOMAS (Elección Libre)"
-        B1["Ala 1: Fuego (Roja)<br/><b>[Guantelete / Techo]</b>"]:::wing
-        B2["Ala 2: Agua (Azul)<br/><b>[Flauta / Nivel BAJO]</b>"]:::wing
-        B3["Ala 3: Aire (Verde)<br/><b>[Capa / Turbina]</b>"]:::wing
-        B4["Ala 4: Tierra (Gris)<br/><b>[Martillo / Estaca]</b>"]:::wing
-        B5["Ala 5: Vida (Esmeralda)<br/><b>[Semilla / Vides]</b>"]:::wing
-        B6["Ala 6: Luz (Dorada)<br/><b>[Mirror Shield / Rayo]</b>"]:::wing
+        B1["Ala 1: Fuego (Roja)<br/><b>[Guantelete / Atletismo]</b>"]:::wing
+        B2["Ala 2: Agua (Azul)<br/><b>[Flauta / Atletismo Subacuático]</b>"]:::wing
+        B3["Ala 3: Aire (Verde)<br/><b>[Capa / Acrobacias]</b>"]:::wing
+        B4["Ala 4: Tierra (Gris)<br/><b>[Martillo / Fuerza]</b>"]:::wing
+        B5["Ala 5: Vida (Esmeralda)<br/><b>[Semilla / Naturaleza]</b>"]:::wing
+        B6["Ala 6: Luz (Dorada)<br/><b>[Mirror Shield / Arcanos]</b>"]:::wing
     end
 
     S1 --> S2
@@ -38,15 +40,20 @@ graph TD
 
 ---
 
-### 📊 Tabla Resumen de Progreso (Paso a Paso)
+### 📊 Tabla Resumen de Progreso (Sistema Doble Opción)
 
-| Paso | Ubicación | Tipo | Objetivo y Acción Clave | Resultado |
+| Paso | Ubicación | Tipo | 🟢 Opción Sin Tirada (100% Seguro) | ⚡ Opción Rápida con Tirada (Skill Skip) |
 | :---: | :--- | :---: | :--- | :--- |
-| **1** | **Puerta Hexagonal** | 🗝️ Requisito | Reagrupar los 6 Fragmentos de Tablilla de las subdungeons | Encajar piezas y abrir entrada |
-| **2** | **Atrio del Reactor** | 🟢 Hub Master | Acceder a cualquiera de las 6 alas elementales en cualquier orden | Libertad total de resolución |
-| **3** | **Alas 1 a 6** | 🧩 Puzle / Ítem | Emplear el Dungeon Item correspondiente a cada elemento | Disipar las 6 barreras de energía |
-| **4** | **Torre Central** | 🏃 Ascenso | Subir por la escalera en espiral esquivando derrumbes | Acceso a la arena superior |
-| **5** | **Arena Final** | 💀 Boss Final | Vencer a **El Juicio de Minos** (Mecánica Full Burst 6 Orbes) | 🏆 **VICTORIA FINAL DE LA INCURSIÓN** |
+| **1** | **Puerta Hexagonal** | 🗝️ Requisito | Encajar los 6 Fragmentos de Tablilla en sus zócalos | **Arcanos DC 14** (forzar sintonización de glifos en zócalos faltantes) |
+| **2** | **Ala 1: Fuego** | 🟢 Elemental | Caminar por el techo magnético con Guantelete de Llama | **Atletismo DC 13** (saltar entre plataformas de magma sin caminata techo) |
+| **3** | **Ala 2: Agua** | 🟢 Elemental | Drenar fosa a Nivel BAJO con la Flauta del Mar | **Atletismo DC 13** (bucear a pulmón a contracorriente sin drenar) |
+| **4** | **Ala 3: Aire** | 🟢 Elemental | Rebotar en trampolines celestiales con la Capa del Vértice | **Acrobacias DC 13** (impulsarse en muros celestes volando sobre barrera) |
+| **5** | **Ala 4: Tierra** | 🟢 Elemental | Asestar golpe de Martillo de Basalto en estaca de prueba | **Fuerza DC 14** (derribar el pilar de granito de un tacle directo) |
+| **6** | **Ala 5: Vida** | 🟢 Elemental | Plantar Semilla Botánica para tejer puente de vides | **Naturaleza / Atletismo DC 13** (balancearse en lianas ancestrales) |
+| **7** | **Ala 6: Luz** | 🟢 Elemental | Reflejar luz solar del tragaluz con el Mirror Shield | **Arcanos DC 14** (canalizar conjuro de luz propia hacia el ojo) |
+| **8** | **Torre Central** | 🏃 Ascenso | Correr resguardándose en nichos ante rocas caídas | **Acrobacias DC 13** (esprintar en espiral sin detenerse entre derrumbes) |
+| **9** | **Arena Boss** | 💀 Boss Final | Romper los 6 Orbes con elementos opuestos | **Percepción DC 14** (identificar vulnerabilidad de orbe 1 ronda antes) |
+
 
 
 ---
