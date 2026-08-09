@@ -1,45 +1,51 @@
-# ☀️ Subdungeon 6: El Santuario Prismático (Layout No-Lineal estilo Spirit Temple OoT)
+# ☀️ Subdungeon 6: El Santuario Prismático (Layout No-Lineal con Ramificación Doble estilo Spirit Temple OoT)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md`  
 > **Inspiración Verbatim**: **Spirit Temple** (*The Legend of Zelda: Ocarina of Time*)  
 > **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el paso a nuevas áreas NUNCA depende de fallar/pasar un dado.  
-> **Estructura de Layout**: **Atrio del Coloso (Hub Master - 3 Pisos)** + **Ala Sombras (Piso 1 Este)** + **Ala Sol (Piso 1 Oeste)** + **Red de Refracción de Luz entre Manos** + **Backtracking con Dungeon Item**  
+> **Estructura de Layout**: **Atrio del Coloso (Hub Master - 3 Pisos)** + **Ramificación Paralela Pre-Item (Ala Sombras Este & Ala Sol Oeste)** + **Ramificación Paralela Post-Item (Palma Izquierda & Palma Derecha)** + **Refracción Solar Doble al Rostro**  
 > **Dungeon Item**: *Escudo Prismático / Mirror Shield* (Reflexión de Luz Solar & Refracción Elemental)  
 > **Guardián de Área**: *El Espejismo de Cristal* (Inspirado en *Twinrova / Iron Knuckle*)  
 > **Recompensa**: 🔓 Desbloqueo Permanente del Santuario Prismático + Fragmento de Tablilla #6
 
 ---
 
-## 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Spirit Temple Balanced Zelda Layout)
+## 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Spirit Temple Dual-Branching Layout)
 
 ```mermaid
 graph TD
-    S1["Room 1: Atrio del Coloso de la Diosa (Hub Master - 3 Pisos)"] -->|Explorar Ala Sombras| S2["Room 2: Ala Sombras - Galeria Anubis (Piso 1 Este)"]
-    S2 -->|Puzle 1: Lurear Anubis a la Trampa| S2_Key["Cofre: Llave Pequena 1"]
-    S2_Key -->|Backtrack al Hub| S1
+    S1["Room 1: Atrio del Coloso de la Diosa (Hub Master - 3 Pisos)"] -->|Ruta Libre Este| S2["Room 2: Ala Sombras - Galeria Anubis (Espejo Sombrio)"]
+    S1 -->|Ruta Libre Oeste| S3["Room 3: Ala Sol - Tragaluz Inclinado (Espejo Solar)"]
     
-    S1 -->|Usar Llave 1 en Puerta Oeste| S3["Room 3: Ala Sol - Camara de las Sombras (Piso 1 Oeste)"]
-    S3 -->|Pasaje Libre| S4["Room 4: Armeria del Coloso - Mini-Boss Iron Knuckle"]
+    S2 -->|Activar Espejo Sombrio| S4_Unlock["Apertura Cerrojo Armeria"]
+    S3 -->|Activar Espejo Solar| S4_Unlock
+    
+    S4_Unlock --> S4["Room 4: Armeria del Coloso - Mini-Boss Iron Knuckle"]
     S4 -->|COFRE MAESTRO| Item["ITEM: Escudo Prismatico / Mirror Shield"]
     
-    Item -->|Subir al Balcon 2F Este| S5["Room 5: Palma Izquierda del Coloso (Piso 2 Este)"]
-    S5 -->|Reflejar Rayo Solar a Palma Derecha| S6["Room 6: Palma Derecha del Coloso (Piso 2 Oeste)"]
+    Item -->|Subir al Balcon 2F| Hub2F["Hub 2F: Acceso a Ambas Manos del Coloso"]
     
-    S6 -->|Refranquear Rayo directo al Rostro| S7["Room 7: Camara de la Frente del Coloso (Piso 3 Secreta)"]
-    S7 -->|Fundir Velo Facial| BossKey["COFRE: Llave del Boss 👑"]
+    Hub2F -->|Opcion Libre A: Palma Izquierda| S5["Room 5: Palma Izquierda 2F (Reflejar al Ojo Izquierdo)"]
+    Hub2F -->|Opcion Libre B: Palma Derecha| S6["Room 6: Palma Derecha 2F (Reflejar al Ojo Derecho)"]
     
-    BossKey -->|Ascender Escalera del Velo al Piso 3| S8["Room 8: Porton del Santuario del Sol (Piso 3)"]
+    S5 -->|Fundir Ojo Izquierdo| Face1["Velo Facial: 50% Colapsado"]
+    S6 -->|Fundir Ojo Derecho| Face2["Velo Facial: 100% Fundido"]
+    
+    Face1 & Face2 --> S7["Room 7: Camara de la Frente del Coloso (Piso 3 Secreta)"]
+    S7 --> BossKey["COFRE: Llave del Boss 👑"]
+    
+    BossKey --> S8["Room 8: Porton del Santuario del Sol (Piso 3)"]
     S8 --> S9["Room 9: Arena de Twinrova / El Espejismo de Cristal"]
     S9 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 6"]
 ```
 
 ---
 
-## 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Light Mechanics)
+## 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Dual-Branching Flow)
 
 ### Room 1: Atrio del Coloso de la Diosa (Hub Master - 3 Pisos)
-> *"Un gran templo excavado en la piedra rojiza de un coloso de 40 pies. Sus dos manos extendidas están en el Piso 2 y su rostro cubierto por un velo de piedra domina el Piso 3. Del tragaluz de la cúpula cae un haz constante de luz solar blanca. Tres accesos destacan: al Este el Ala Sombras, al Oeste un corredor con cerrojo de latón 🗝️1, y en el Piso 3 el Portón del Sol 🔒."*
-* **Acceso Sin Gating**: Los jugadores eligen libremente por dónde explorar.
+> *"Un gran templo excavado en la piedra rojiza de un coloso de 40 pies. Sus dos manos extendidas están en el Piso 2 y su rostro cubierto por un velo de piedra domina el Piso 3. Del tragaluz de la cúpula cae un haz constante de luz solar blanca. Desde el Piso 1 parten dos accesos libres en paralelo: al Este el Ala Sombras y al Oeste el Ala Sol. En el Piso 3 se ubica el Portón del Sol 🔒."*
+* **Acceso Sin Gating**: Los jugadores pueden comenzar explorando Ala Sombras (Room 2) o Ala Sol (Room 3) de manera totalmente independiente.
 
 ---
 
@@ -48,14 +54,15 @@ graph TD
 * **Puzle Mecánico Sin Gating**:
   1. Presionar la losa del muro para encender la antorcha central.
   2. Mover al personaje 3 casillas a la izquierda para forzar al Anubis imitado a marchar sobre el fuego, incinerándolo.
-* **Botín**: Aparece el cofre con la **Llave Pequeña 🗝️1**.
-* **🔄 BACKTRACKING**: Regresar al **Hub (Room 1)** e insertar la Llave 🗝️1 en la Puerta Oeste.
+* **Resultado**: Se activa el **Espejo Sombrío**.
 
 ---
 
-### Room 3: 🧩 Ala Sol (Piso 1 Oeste): Cámara de las Sombras Cuánticas (OoT)
-> *"Una sala sobre el vacío donde linternas de cuarzo proyectan sombras sólidas sobre los muros."*
-* **Puzle Mecánico Sin Gating**: Mover las linternas proyecta puentes de sombra sólida para cruzar de forma 100% segura. *(Tirada opcional de Acrobacias DC 12 permite cruzar corriendo en mitad de tiempo)*. Otorga paso a la Armería (Room 4).
+### Room 3: 🧩 Ala Sol (Piso 1 Oeste): Cámara del Tragaluz Inclinado (OoT)
+> *"Una sala bañado por un haz solar inclinado cruzado por pedestales espejados."*
+* **Puzle Mecánico Sin Gating**: Ajustar la manivela de la cobra espejada para alinear el rayo solar con el receptor de la pared.
+* **Resultado**: Se activa el **Espejo Solar**.
+* **Apertura de Armería**: Al activar el Espejo Sombrío y el Espejo Solar en cualquier orden, los pesados portones de bronce de la Armería (Room 4) en el Piso 2 se abren.
 
 ---
 
@@ -63,20 +70,22 @@ graph TD
 > *"Una cámara abovedada donde un caballero en armadura de hierro pesada empuña una hacha masiva."*
 * **Combate**: Iron Knuckle (AC 18, 65 HP). Obligarle a golpear los pilares de mármol de la sala para destrozar su armadura y rematar su núcleo.
 * **🎁 COFRE MAESTRO**: Otorga el **Escudo Prismático / Mirror Shield** (Refleja rayos de luz solar y refracta proyectiles mágicos).
-* **🔄 BACKTRACKING & REFRACCIÓN DE LUZ**: Con el *Mirror Shield*, subir al balcón del **Hub (Room 1 - Palma Izquierda)**.
+* **🔄 RAMIFICACIÓN EN PISO 2**: Con el *Mirror Shield*, los jugadores ascienden al balcón del Piso 2 donde tienen acceso libre a **ambas manos del Coloso en paralelo**.
 
 ---
 
-### Room 5: 🧩 Palma Izquierda del Coloso (Piso 2 Este - Hub Balcón)
-> *"La gran palma extendida de la estatua en el Piso 2. El haz solar principal procedente del tragaluz cae directamente sobre la palma."*
-* **Mecánica Posicional Sin Gating**: Interponer el *Escudo Prismático (Mirror Shield)* en el haz solar y reflejar el rayo de luz horizontalmente cruzando todo el atrio hasta la Palma Derecha (Room 6).
+### Room 5: 🧩 Palma Izquierda del Coloso (Piso 2 Este - Balcón Hub)
+> *"La gran palma extendida de la estatua en el Piso 2 Este sobre la que cae un haz secundario de luz solar."*
+* **Mecánica Posicional Sin Gating**: Interponer el *Mirror Shield* en el haz solar y reflejar el rayo hacia el **Ojo Izquierdo del Velo de Piedra**.
+* **Resultado**: El Ojo Izquierdo de roca se calienta al rojo vivo y se colapsa en un destello (50% del velo fundido).
 
 ---
 
-### Room 6: 🧩 Palma Derecha: Refracción al Velo Facial (OoT)
-> *"Cruzar a la Palma Derecha (Piso 2 Oeste) e interceptar el rayo procedente de la Palma Izquierda."*
-* **Mecánica Posicional Sin Gating**: Interceptar el rayo con la estatua espejada de la mano derecha (o con el escudo) y apuntarlo directamente al **Velo de Piedra** que cubre el rostro del Coloso durante 6 segundos.
-* **Resultado**: La roca del velo facial se calienta al rojo vivo y se pulveriza en un destello de luz, colapsando y revelando la cámara oculta de la frente (Room 7).
+### Room 6: 🧩 Palma Derecha del Coloso (Piso 2 Oeste - Balcón Hub)
+> *"La gran palma extendida de la estatua en el Piso 2 Oeste sobre la que cae el segundo haz de luz solar."*
+* **Mecánica Posicional Sin Gating**: Interponer el *Mirror Shield* (o accionar el pedestal espejado de la mano derecha) para reflejar el rayo hacia el **Ojo Derecho del Velo de Piedra**.
+* **Resultado**: El Ojo Derecho de roca se calienta al rojo vivo y se pulveriza.
+* **Colapso del Velo Facial**: Al fundir ambos ojos en cualquier orden, la máscara facial completa de piedra se resquebraja y cae, revelando la estancia secreta de la frente (Room 7).
 
 ---
 
@@ -95,4 +104,5 @@ graph TD
 > *"Una plataforma circular suspendida sobre el vacío donde Kotake (Fuego) y Koume (Hielo) sobrevuelan desatando ráfagas elementales."*
 * **Mecánica Twinrova**: Absorber 3 ráfagas elementales consecutivas del mismo tipo con el *Mirror Shield* y redirigir la gran descarga refractada a la bruja opuesta para derribarla.
 * **Recompensa**: 🔓 Desbloqueo permanente del Santuario Prismático + **Fragmento de Tablilla #6**.
+
 
