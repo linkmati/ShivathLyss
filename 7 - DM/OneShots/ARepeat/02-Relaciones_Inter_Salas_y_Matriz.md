@@ -183,13 +183,15 @@ Para dinamizar la exploración sin limitarse a tiradas repetitivas de Percepció
 ## 6. Sets de Salas Interconectadas en Cadena (Linked Room Clusters)
 
 > [!IMPORTANT]
-> **REGLA DE CLUSTERS (ASINCRONÍA Y MECÁNICAS GLOBALES)**:
-> 1. **No Salas Grandes Fragmentadas**: Un Cluster NUNCA es una sala grande dividida artificialmente en habitaciones contiguas. Cada sala del cluster es **independiente en la rejilla 7x7**, pudiendo estar separadas geográficamente en la matriz.
-> 2. **Sin Requisito de Acción Simultánea**: NO se exige que personajes coordinen palancas en el mismo turno en salas distintas.
-> 3. **Mecánicas Globales Asíncronas**: Los clusters se resuelven de forma **progresiva y asíncrona** por el grupo avanzando junto (o por 1 aventurero) interactuando con **estados globales** (conmutadores rúnicos, circuitos hidráulicos, óptica de luz, grúas mecánicas o purificación de entorno).
+> **REGLA DE CLUSTERS (ASINCRONÍA Y ORDEN FLEXIBLE)**:
+> 1. **Salas Independientes y Distantes**: Un Cluster NUNCA es una sala grande dividida en trozos contiguos. Son **salas separadas en la rejilla 7x7**, pudiendo estar en ramas distintas del laberinto.
+> 2. **Orden Flexible de Resolución**: Los aventureros pueden descubrir y visitar las salas de un cluster en **cualquier orden**. Si encuentran primero la `Sala B` (bloqueada/inundada), pueden registrar la pista en su cuaderno físico, encontrar la `Sala A` más tarde para cambiar el estado global, y retornar a `Sala B` o `Sala C`.
+> 3. **Sin Sincronización en Tiempo Real**: Todo se resuelve mediante interacciones de estado global (conmutadores, grúas, lentes de luz, purificación) que persistirán mientras dure la incursión.
 
 > [!TIP]
-> **MARCADO VISUAL EN EL MAPA WEB**: En la Web App `generador_minos_7x7.html`, las celdas con set elemental muestran etiquetas de color `[FIRE]`, `[WATER]`, etc., y los clusters se señalan con la insignia neón `[🔗 CLUSTER-X]` y bordes dobles, generando un diagrama de causalidad en el resumen del DM.
+> **SISTEMA DE COLORES EN LA WEB APP (`generador_minos_7x7.html`)**:
+> - **Colores Temáticos de Sets**: `[FIRE]` (Carmesí Volcánico), `[WATER]` (Azul Oceánico), `[AIR]` (Cian Eléctrico), `[EARTH]` (Ámbar Telúrico), `[LIFE]` (Verde Esmeralda), `[LIGHT]` (Dorado Prismático).
+> - **Insignias Neón por Cluster**: Cada Cluster (A a H) tiene su propio color neón dedicado (`Cluster A` = Cian, `Cluster B` = Púrpura, `Cluster C` = Naranja, `Cluster D` = Esmeralda, `Cluster E` = Amarillo, `Cluster F` = Rojo, `Cluster G` = Violeta, `Cluster H` = Rosa) con borde neón doble para rápida identificación en el mapa.
 
 ```
 ======================================================================

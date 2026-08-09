@@ -340,6 +340,33 @@
     .elem-tag-life { background: rgba(16, 185, 129, 0.9); color: #fff; }
     .elem-tag-light { background: rgba(245, 158, 11, 0.9); color: #000; }
 
+    /* ELEMENTAL SET CELL BACKGROUND STYLES */
+    .cell.cell-set-fire { background: linear-gradient(135deg, rgba(127, 29, 29, 0.5) 0%, rgba(220, 38, 38, 0.25) 100%) !important; border-color: rgba(239, 68, 68, 0.7) !important; }
+    .cell.cell-set-water { background: linear-gradient(135deg, rgba(30, 58, 138, 0.5) 0%, rgba(37, 99, 235, 0.25) 100%) !important; border-color: rgba(59, 130, 246, 0.7) !important; }
+    .cell.cell-set-air { background: linear-gradient(135deg, rgba(22, 78, 99, 0.5) 0%, rgba(8, 145, 178, 0.25) 100%) !important; border-color: rgba(6, 182, 212, 0.7) !important; }
+    .cell.cell-set-earth { background: linear-gradient(135deg, rgba(120, 53, 15, 0.5) 0%, rgba(217, 119, 6, 0.25) 100%) !important; border-color: rgba(245, 158, 11, 0.7) !important; }
+    .cell.cell-set-life { background: linear-gradient(135deg, rgba(6, 78, 59, 0.5) 0%, rgba(5, 150, 105, 0.25) 100%) !important; border-color: rgba(16, 185, 129, 0.7) !important; }
+    .cell.cell-set-light { background: linear-gradient(135deg, rgba(113, 63, 18, 0.5) 0%, rgba(202, 138, 4, 0.25) 100%) !important; border-color: rgba(234, 179, 8, 0.7) !important; }
+
+    /* CLUSTER NEON BADGES & BORDERS */
+    .cell-cluster-tag.clust-a { background: #06b6d4; color: #000; box-shadow: 0 0 8px #06b6d4; }
+    .cell-cluster-tag.clust-b { background: #a855f7; color: #fff; box-shadow: 0 0 8px #a855f7; }
+    .cell-cluster-tag.clust-c { background: #f97316; color: #000; box-shadow: 0 0 8px #f97316; }
+    .cell-cluster-tag.clust-d { background: #10b981; color: #000; box-shadow: 0 0 8px #10b981; }
+    .cell-cluster-tag.clust-e { background: #eab308; color: #000; box-shadow: 0 0 8px #eab308; }
+    .cell-cluster-tag.clust-f { background: #ef4444; color: #fff; box-shadow: 0 0 8px #ef4444; }
+    .cell-cluster-tag.clust-g { background: #8b5cf6; color: #fff; box-shadow: 0 0 8px #8b5cf6; }
+    .cell-cluster-tag.clust-h { background: #ec4899; color: #fff; box-shadow: 0 0 8px #ec4899; }
+
+    .cell.cluster-a { border: 2px double #06b6d4 !important; box-shadow: inset 0 0 12px rgba(6, 182, 212, 0.4), 0 0 8px rgba(6, 182, 212, 0.5) !important; }
+    .cell.cluster-b { border: 2px double #a855f7 !important; box-shadow: inset 0 0 12px rgba(168, 85, 247, 0.4), 0 0 8px rgba(168, 85, 247, 0.5) !important; }
+    .cell.cluster-c { border: 2px double #f97316 !important; box-shadow: inset 0 0 12px rgba(249, 115, 22, 0.4), 0 0 8px rgba(249, 115, 22, 0.5) !important; }
+    .cell.cluster-d { border: 2px double #10b981 !important; box-shadow: inset 0 0 12px rgba(16, 185, 129, 0.4), 0 0 8px rgba(16, 185, 129, 0.5) !important; }
+    .cell.cluster-e { border: 2px double #eab308 !important; box-shadow: inset 0 0 12px rgba(234, 179, 8, 0.4), 0 0 8px rgba(234, 179, 8, 0.5) !important; }
+    .cell.cluster-f { border: 2px double #ef4444 !important; box-shadow: inset 0 0 12px rgba(239, 68, 68, 0.4), 0 0 8px rgba(239, 68, 68, 0.5) !important; }
+    .cell.cluster-g { border: 2px double #8b5cf6 !important; box-shadow: inset 0 0 12px rgba(139, 92, 246, 0.4), 0 0 8px rgba(139, 92, 246, 0.5) !important; }
+    .cell.cluster-h { border: 2px double #ec4899 !important; box-shadow: inset 0 0 12px rgba(236, 72, 153, 0.4), 0 0 8px rgba(236, 72, 153, 0.5) !important; }
+
     .cell.has-cluster {
       border-style: double !important;
       border-width: 2px !important;
@@ -816,8 +843,11 @@
             subClass = subObj.class;
           }
 
-          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()} ${subClass}`;
-          if (cell.clusterTag) div.classList.add('has-cluster');
+          let setClass = cell.elementTag ? `cell-set-${cell.elementTag.toLowerCase()}` : '';
+          let clusterClass = cell.clusterTag ? `cluster-${cell.clusterTag.split('-')[1]?.toLowerCase()}` : '';
+          let clusterTagClass = cell.clusterTag ? `clust-${cell.clusterTag.split('-')[1]?.toLowerCase()}` : '';
+
+          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()} ${subClass} ${setClass} ${clusterClass}`;
           if (k === currentSelectedKey) div.classList.add('selected');
           div.onclick = () => selectCell(k);
 
@@ -827,16 +857,16 @@
           if (cell.role === "SECRET") icon = "🗝️";
 
           let keyTag = cell.hasSmallKey ? `<span class="cell-key-tag" title="Contiene Llave de Latón (Small Key)">🗝️ LLAVE</span>` : '';
-          let clusterTag = cell.clusterTag ? `<span class="cell-cluster-tag">🔗 ${cell.clusterTag}</span>` : '';
-          let elementTag = cell.elementTag ? `<span class="cell-element-tag elem-tag-${cell.elementTag.toLowerCase()}">${cell.elementTag}</span>` : '';
+          let clusterTagHtml = cell.clusterTag ? `<span class="cell-cluster-tag ${clusterTagClass}">🔗 ${cell.clusterTag}</span>` : '';
+          let elementTagHtml = cell.elementTag ? `<span class="cell-element-tag elem-tag-${cell.elementTag.toLowerCase()}">${cell.elementTag}</span>` : '';
 
           div.innerHTML = `
             <span class="cell-coord">${k}</span>
-            ${elementTag}
+            ${elementTagHtml}
             ${keyTag}
             <div class="cell-icon">${icon}</div>
             <div class="cell-name">${cell.active ? cell.name : 'VACÍO'}</div>
-            ${clusterTag}
+            ${clusterTagHtml}
           `;
 
           if (cell.active) {
@@ -936,6 +966,26 @@
       updateOutputLog();
     }
 
+    function autoDetectTags(cell) {
+      if (!cell || !cell.name) return;
+      const n = cell.name;
+      if (n.includes("Cluster A") || n.includes("Cisterna Maestro")) cell.clusterTag = "CLUSTER-A";
+      else if (n.includes("Cluster B") || n.includes("Cristales Peg")) cell.clusterTag = "CLUSTER-B";
+      else if (n.includes("Cluster C") || n.includes("Fundición Llave") || n.includes("Mina Aleación")) cell.clusterTag = "CLUSTER-C";
+      else if (n.includes("Cluster D") || n.includes("Contrapeso Basalto") || n.includes("Consola Grúa")) cell.clusterTag = "CLUSTER-D";
+      else if (n.includes("Cluster E") || n.includes("Espejos Solar") || n.includes("Tragaluz Solar")) cell.clusterTag = "CLUSTER-E";
+      else if (n.includes("Cluster F") || n.includes("Convección Térmica")) cell.clusterTag = "CLUSTER-F";
+      else if (n.includes("Cluster G") || n.includes("Purificación Esporas")) cell.clusterTag = "CLUSTER-G";
+      else if (n.includes("Cluster H") || n.includes("Gravedad Invertida")) cell.clusterTag = "CLUSTER-H";
+
+      if (n.includes("Magma") || n.includes("Horno") || n.includes("Antorchas") || n.includes("Forja") || n.includes("Caldera") || n.includes("Vapor")) cell.elementTag = "FIRE";
+      else if (n.includes("Cisterna") || n.includes("Agua") || n.includes("Acuífero") || n.includes("Esclusas") || n.includes("Balsas") || n.includes("Hidráulico")) cell.elementTag = "WATER";
+      else if (n.includes("Viento") || n.includes("Vela Solar") || n.includes("Gaseosas") || n.includes("Venturi") || n.includes("Planeador")) cell.elementTag = "AIR";
+      else if (n.includes("Basalto") || n.includes("Catapulta") || n.includes("Piedra") || n.includes("Telúricos") || n.includes("Rodillo") || n.includes("Anclas")) cell.elementTag = "EARTH";
+      else if (n.includes("Hongo") || n.includes("Vides") || n.includes("Esporas") || n.includes("Flora") || n.includes("Bulbo")) cell.elementTag = "LIFE";
+      else if (n.includes("Espejos") || n.includes("Sombras") || n.includes("Anamórfica") || n.includes("Prisma") || n.includes("Penumbra")) cell.elementTag = "LIGHT";
+    }
+
     // EXACT ISAAC GENERATION ALGORITHM (NO SECRET ROOM ADJACENT TO SUBDUNGEONS)
     function generateDungeon() {
       initGridData();
@@ -955,6 +1005,8 @@
         active: true,
         name: "Sala 01: Atrio de Entrada",
         role: "ATRIO",
+        clusterTag: "",
+        elementTag: "",
         notes: "Entrada principal del laberinto"
       };
 
@@ -962,12 +1014,15 @@
       let placedKeys = new Set([startKey]);
 
       const presets = [
-        "Sala 02: Depósito de Agua", "Sala 03: Invernadero Botánico", "Sala 04: Engranaje Maestro",
-        "Sala 05: La Gran Forja", "Sala 06: Salón Invertido", "Sala 07: Cripta del Hielo",
-        "Sala 08: Acuífero Subterráneo", "Sala 09: Galería de Espejos", "Sala 10: Pilar de Anclas",
-        "Sala 11: Galería del Juicio", "Sala de la Rejilla y el Abismo", "Sala del Interruptor de Cristal",
-        "Sala de las Cuatro Antorchas", "Sala de la Cisterna de 3 Niveles", "Sala del Tobogán Unidireccional",
-        "Sala del Pozo de Viento", "Sala de las Estatuas Espejo"
+        "🟁 La Caldera de Escoria Magmática", "🌋 El Horno de Enfriamiento Térmico", "🔥 La Galería de las Cuatro Antorchas",
+        "🌊 El Depósito de las Tres Cisternas", "🚰 El Carril de las Balsas Sumergidas", "💧 El Conducto de Agua Hirviendo",
+        "🌬️ La Torre del Viento Ascendente", "⛵ El Obelisco de la Vela Solar Giratoria", "💨 Las Fisuras Térmicas Micro-Gaseosas",
+        "⚓ El Pilar de Anclas de Basalto", "⚖️ La Balanza de Peso y Catapulta", "🟅 Muro de Piedra Frágil",
+        "🌱 El Invernadero del Hongo Trampolín", "🌿 La Compuerta de Vides Arcanas", "🍄 El Invernadero de Esporas Durmientes",
+        "☀️ La Galería de los Espejos en Cadena", "🌌 La Cámara de las Sombras Cuánticas", "👁️ La Sala de la Perspectiva Anamórfica",
+        "🔗 Cluster A: Cisterna Maestro -> Filtros -> Esclusa", "🔗 Cluster B: Interruptor -> Bloques Azules -> Rojos",
+        "🔗 Cluster C: Mina Aleación -> Horno -> Sello Molde", "🔗 Cluster D: Consola Grúa -> Cámara Bloque -> Sello Presión",
+        "🕸️ Galería de Cuerdas Tensadas", "⏱️ Taller de Relojería Rúnica", "📜 Archivo de Tablillas Rascadas"
       ];
       let pool = [...presets];
       pool.sort(() => Math.random() - 0.5);
@@ -1008,6 +1063,16 @@
               active: true,
               name: roomName,
               role: "NORMAL",
+              clusterTag: "",
+              elementTag: "",
+              hasSmallKey: false,
+              notes: rNotes
+            };
+            autoDetectTags(gridData[nextKey]);
+            currKey = nextKey;
+          }
+        }
+      }
               notes: rNotes
             };
 
@@ -1247,6 +1312,8 @@
       } else {
         document.getElementById('group-custom-name').style.display = "none";
         gridData[currentSelectedKey].name = val;
+        autoDetectTags(gridData[currentSelectedKey]);
+        selectCell(currentSelectedKey);
         renderGrid();
         updateOutputLog();
       }
