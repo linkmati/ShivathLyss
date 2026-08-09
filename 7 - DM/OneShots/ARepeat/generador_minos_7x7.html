@@ -1303,12 +1303,6 @@
       updateOutputLog();
     };
 
-    document.getElementById('inspect-cluster').onchange = (e) => {
-      gridData[currentSelectedKey].clusterTag = e.target.value;
-      renderGrid();
-      updateOutputLog();
-    };
-
     document.getElementById('inspect-element').onchange = (e) => {
       gridData[currentSelectedKey].elementTag = e.target.value;
       renderGrid();
