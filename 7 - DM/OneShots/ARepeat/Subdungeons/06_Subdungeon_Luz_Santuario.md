@@ -1,84 +1,84 @@
-# ☀️ Subdungeon 6: El Santuario Prismático (Inspirada en Temple of Time & Spirit Temple)
+# ☀️ Subdungeon 6: El Santuario Prismático (Inspirada en el Spirit Temple - Ocarina of Time Verbatim)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md`  
-> **Inspiración Directa**: **Temple of Time** (*Twilight Princess*) + **Spirit Temple** (*Ocarina of Time*)  
-> **Mecánicas Clave**: **Dominio de Estatuas Ceremoniales**, **Descomposición Prismática** y **Perspectiva de Penumbra**  
-> **Dungeon Item**: *Escudo Prismático* (Refleja haces solares, descompone luz blanca en 3 primarios y desvela ilusiones)  
-> **Guardián de Área**: *El Espejismo de Cristal* (Inspirado en *Armogohma / Twinrova*)  
+> **Inspiración Directa**: **Spirit Temple** (*The Legend of Zelda: Ocarina of Time*)  
+> **Estética**: **El Coloso del Desierto**, **La Estatua de la Diosa de la Arena**, **Reflexión por Escudo de Espejo** e **Iron Knuckles**  
+> **Dungeon Item**: *Escudo Prismático* (El legendario Mirror Shield de la Diosa)  
+> **Guardián de Área**: *El Espejismo de Cristal* (Inspirado en *Twinrova / Iron Knuckle*)  
 > **Recompensa**: 🔓 Desbloqueo Permanente del Santuario Prismático + Fragmento de Tablilla #6
 
 ---
 
-## 🗺️ Mapa de Flujo de la Mazmorra (Temple of Time Layout)
+## 🗺️ Mapa de Flujo de la Mazmorra (Spirit Temple Layout)
 
 ```mermaid
 graph TD
-    S1["Room 1: El Gran Atrio del Tiempo y la Luz"] -->|Puerta Cerrada 🗝️1| S2["Room 2: La Galería de la Estatua de la Retina"]
+    S1["Room 1: El Atrio de la Diosa de la Arena (Coloso)"] -->|Puerta Cerrada 🗝️1| S2["Room 2: La Galería de los Espejos de Cobra"]
     S2 -->|Cofre: Llave Pequeña 🗝️1| S1
-    S1 -->|Usar Llave 🗝️1| S3["Room 3: La Sala de las Balanzas Solares"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ El Guerrero Darknut de Marfil (Mini-Boss)"]
-    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Escudo Prismático"]
-    Item --> S5["Room 5: La Galería de los Espejos Pivotantes"]
-    S5 -->|Reflejar Haz con Escudo| S6["Room 6: El Prisma del Santo Sol"]
-    S6 -->|Cofre: Llave del Boss 👑| S7["Room 7: 🔒 Portón del Sol Primordial"]
+    S1 -->|Usar Llave 🗝️1| S3["Room 3: La Cámara del Tragaluz Solar Inclinado"]
+    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ El Caballero Iron Knuckle de la Diosa (Mini-Boss)"]
+    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Escudo Prismático (Mirror Shield)"]
+    Item --> S5["Room 5: Las Manos de la Estatua del Coloso"]
+    S5 -->|Reflejar Luz con Mirror Shield| S6["Room 6: El Rostro de Piedra de la Diosa (Fusión del Sello)"]
+    S6 -->|Cofre: Llave del Boss 👑| S7["Room 7: 🔒 Portón del Santuario del Sol"]
     S7 -->|Usar Llave del Boss 👑| S8["Room 8: 💀 Arena de El Espejismo de Cristal (Twinrova)"]
     S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #6"]
 ```
 
 ---
 
-## 🏛️ Recorrido Verbatim Sala por Sala (Temple of Time Walkthrough)
+## 🏛️ Recorrido Verbatim Sala por Sala (Spirit Temple Walkthrough)
 
-### Room 1: El Gran Atrio del Tiempo y la Luz (Entrada)
-> *"Una majestuosa catedral de mármol blanco de ocho pisos donde un potente haz solar cae sobre una peana desierta. Al norte, una gran estatua de un guardián de granito blanco custodia un portón con un ojo de cerradura de cuarzo 🗝️1."*
-* **Estética**: Mármol blanco impecable, vidrieras doradas, engranajes temporales de latón.
+### Room 1: El Atrio de la Diosa de la Arena (Entrada)
+> *"Un templo de piedra rojiza excavado en la roca de un coloso en medio del desierto. En el fondo del atrio se alza una majestuosa estatua de 40 pies de la Diosa de la Arena con brazos extendidos. En el rostro de la estatua hay un velo de piedra que oculta la entrada. Al norte, un portón con un candado de cobra 🗝️1 bloquea el paso."*
+* **Estética (Spirit Temple OoT)**: Antorchas encendidas, relieves de cobras, estatuas de la Diosa de la Arena, tragaluces solares.
 * **Puertas**: Sur (Entrada), Norte (Locked 🗝️1), Este (Abierta).
-* **Acción DM**: Avanzar por la galería Este (Room 2) para hallar la Llave Pequeña 🗝️1.
+* **Acción DM**: Avanzar por el pasaje del Este (Room 2) para hallar la Llave Pequeña 🗝️1.
 
 ---
 
-### Room 2: La Galería de la Estatua de la Retina (Llave Pequeña #1)
-> *"Una sala con pilares rotos donde linternas de cuarzo proyectan sombras caóticas. Al pararse sobre la losa de retina del suelo, las sombras encajan revelando un nicho con un cofre."*
-* **Enemigos**: 3x Bebés Armos de Marfil (AC 14, 12 HP).
-* **Resolución**: Pararse sobre la losa de retina para alinear el glifo de sombras y reclamar la **Llave Pequeña 🗝️1**.
+### Room 2: La Galería de los Espejos de Cobra (Llave Pequeña #1)
+> *"Un corredor flanqueado por estatuas de cobras de piedra con espejos pulidos en sus cabezas. En el centro descansa un cofre de granito."*
+* **Enemigos**: 3x Estatuas Anubis / Momias del Desierto (AC 13, 15 HP; vulnerables al fuego y la luz directa).
+* **Resolución**: Girar la cabeza de las cobras para dirigir la luz solar sobre los Anubis y abrir el cofre con la **Llave Pequeña 🗝️1**.
 
 ---
 
-### Room 3: La Sala de las Balanzas Solares
-> *"Dos grandes platos de mármol penden de cadenas de oro. Al usar la Llave 🗝️1, la puerta del norte se abre hacia el pabellón de combate."*
+### Room 3: La Cámara del Tragaluz Solar Inclinado
+> *"Un haz de luz solar directa penetra en diagonal desde un tragaluz en la roca. Al usar la Llave 🗝️1, la puerta se abre hacia los aposentos del guardián."*
 * **Puertas**: Sur (Locked 🗝️1 de vuelta), Norte (Puerta del Mini-Boss).
-* **Resolución**: Colocar estatuas miniatura en las balanzas (*Fuerza DC 11*) e insertar la Llave 🗝️1.
+* **Resolución**: Insertar la Llave 🗝️1 y mover la estatua reflectante (*Fuerza DC 11*) para despejar el acceso a Room 4.
 
 ---
 
-### Room 4: ⚔️ El Guerrero Darknut de Marfil (Mini-Boss & Dungeon Item)
-> *"Un imponente caballero con armadura de placas de marfil de 10 pies de altura armado con un espadón ceremonial de bronce."*
-* **Mini-Boss**: **Darknut de Marfil** (AC 17, 55 HP; la armadura cae por piezas tras sufrir daño).
-* **🎁 COFRE MAESTRO**: Contiene el **Escudo Prismático** (Refleja rayos solares hacia receptores, descompone luz blanca en 3 primarios y disipa ilusiones).
+### Room 4: ⚔️ El Caballero Iron Knuckle de la Diosa (Mini-Boss & Dungeon Item)
+> *"Un temible caballero cubierto por una armadura de placas de hierro masiva de 10 pies de altura provisto de un hacha de batalla gigante."*
+* **Mini-Boss**: **Iron Knuckle** (Inspirado en Nabooru / Iron Knuckle OoT; AC 17, 55 HP; la armadura cae por piezas al sufrir daño).
+* **🎁 COFRE MAESTRO**: Contiene el **Escudo Prismático / Mirror Shield** (El legendario escudo espejado capaz de reflejar haces de luz solar directa, fundir sellos faciales y disipar ilusiones).
 
 ---
 
-### Room 5: La Galería de los Espejos Pivotantes (Reflexión de Haz)
-> *"Un haz solar entra por una cúpula sobre una estatua reflectante rota. Las puertas laterales permanecen bloqueadas por gemas apagadas."*
-* **Puzle**: Interponer el recién obtenido *Escudo Prismático* para sustituir el espejo roto y desviar el haz solar hacia los receptores del muro.
-* **Resultado**: La gema absorbe el rayo dorado y abre la puerta norte hacia Room 6.
+### Room 5: Las Manos de la Estatua del Coloso (Navegación de Luz)
+> *"El grupo asciende a las manos extendidas de la estatua de la Diosa de la Arena a 30 pies de altura. Frente al rostro de piedra de la estatua se alza un velo de piedra con el símbolo de un sol."*
+* **Puzle**: Pararse en la mano de la estatua e interponer el recién obtenido *Escudo Prismático (Mirror Shield)* para interceptar el haz solar del tragaluz.
+* **Resultado**: El espejo del escudo refleja un potente haz de luz solar concentrado directamente sobre la cara de piedra de la estatua de la Diosa.
 
 ---
 
-### Room 6: El Prisma del Santo Sol (Llave del Boss 👑)
-> *"Un haz concentrado de luz blanca pura cae sobre un pedestal. En el muro norte hay tres receptores primarios: Rojo, Azul y Amarillo."*
-* **Puzle**: Interponer el *Escudo Prismático* sobre el pedestal central para descomponer el haz de luz blanca en los 3 colores primarios dirigiéndolos a los 3 receptores.
-* **Botín**: Abrir el cofre desenganchado para tomar la **Llave del Boss 👑 (Llave del Sol Primordial)**.
+### Room 6: El Rostro de Piedra de la Diosa (Llave del Boss 👑)
+> *"El haz de luz reflejado por el Mirror Shield calienta el velo de piedra del rostro de la estatua hasta fundirlo en luz resplandeciente, revelando la cámara oculta de la frente."*
+* **Puzle**: Entrar por la apertura fundida en la frente de la estatua.
+* **Botín**: Reclamar del altar interior el cofre dorado con la **Llave del Boss 👑 (Llave de la Diosa de la Arena)**.
 
 ---
 
-### Room 7: 🔒 Portón del Sol Primordial
-> *"Un portón monumental de pan de oro con una gran gema prismática apagada y un candado con el relieve del astro sol."*
-* **Resolución**: Insertar la **Llave del Boss 👑** para que el haz solar encienda la gema final y abra la arena.
+### Room 7: 🔒 Portón del Santuario del Sol
+> *"Un portón ceremonial grabado con las efigies de Kotake y Koume (las brujas gemelas de fuego y hielo) y un candado con el relieve del sol espejado."*
+* **Resolución**: Insertar la **Llave del Boss 👑** para abrir el paso hacia la cima de la cúpula del templo.
 
 ---
 
 ### Room 8: 💀 Arena de El Espejismo de Cristal (Twinrova Boss)
-> *"Una sala octogonal revestida de espejos donde El Espejismo de Cristal vuela escoltado por tres copias de luz ilusorias."*
-* **Mecánica Boss**: Ver ficha en [`07_Arena_del_Espejismo_de_Cristal.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Salas/07_Salas_Especiales/07_Arena_del_Espejismo_de_Cristal.md). Usar el *Escudo Prismático* para reflejar la luz solar sobre las copias las disipa de inmediato y aturde al verdadero boss 1 ronda.
+> *"Una plataforma elevada rodeada por un abismo donde El Espejismo de Cristal (las brujas gemelas de luz y penumbra) ataca refractando rayos solares."*
+* **Mecánica Twinrova**: Ver ficha en [`07_Arena_del_Espejismo_de_Cristal.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Salas/07_Salas_Especiales/07_Arena_del_Espejismo_de_Cristal.md). Usar el *Escudo Prismático (Mirror Shield)* para absorber y reflejar los rayos solares directamente a las brujas, disipando sus ilusiones y aturdiéndolas 1 ronda.
 * **Recompensa**: 🔓 Desbloqueo permanente del Santuario Prismático + **Fragmento de Tablilla #6**.

@@ -736,8 +736,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_e_d",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "e$d"
     },
     {
@@ -1594,8 +1594,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_blobtobase64",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "blobtobase64()"
     },
     {
@@ -2089,8 +2089,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_isdocument",
-      "community": 41,
-      "community_name": "preventOverflow",
+      "community": 38,
+      "community_name": "log",
       "norm_label": "isdocument()"
     },
     {
@@ -2210,8 +2210,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_visit",
-      "community": 41,
-      "community_name": "preventOverflow",
+      "community": 38,
+      "community_name": "log",
       "norm_label": "visit()"
     },
     {
@@ -2221,8 +2221,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_initvisitor",
-      "community": 41,
-      "community_name": "preventOverflow",
+      "community": 38,
+      "community_name": "log",
       "norm_label": "initvisitor()"
     },
     {
@@ -2232,8 +2232,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_callvisitor",
-      "community": 21,
-      "community_name": "FloatingModal",
+      "community": 38,
+      "community_name": "log",
       "norm_label": "callvisitor()"
     },
     {
@@ -2243,8 +2243,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_replacenode",
-      "community": 41,
-      "community_name": "preventOverflow",
+      "community": 38,
+      "community_name": "log",
       "norm_label": "replacenode()"
     },
     {
@@ -4366,8 +4366,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_yamlwarning",
-      "community": 355,
-      "community_name": "YAMLWarning",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "yamlwarning"
     },
     {
@@ -4377,8 +4377,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_yamlwarning_constructor",
-      "community": 355,
-      "community_name": "YAMLWarning",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": ".constructor()"
     },
     {
@@ -5609,8 +5609,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_isobsidianthemedark",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "isobsidianthemedark()"
     },
     {
@@ -7457,8 +7457,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_generateidfromfile",
-      "community": 6,
-      "community_name": ".registerCommands",
+      "community": 42,
+      "community_name": "slice",
       "norm_label": "generateidfromfile()"
     },
     {
@@ -7468,8 +7468,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_replaceblobwithbase64",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "replaceblobwithbase64()"
     },
     {
@@ -7512,8 +7512,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_weakarray_foreach",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".foreach()"
     },
     {
@@ -7897,8 +7897,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getexcalidrawfileforwardlinks",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "getexcalidrawfileforwardlinks()"
     },
     {
@@ -7908,8 +7908,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getframebasedonframenameorid",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "getframebasedonframenameorid()"
     },
     {
@@ -7941,8 +7941,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_tmpbruteforcecleanup",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "tmpbruteforcecleanup()"
     },
     {
@@ -8040,8 +8040,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getclientpoint",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 343,
+      "community_name": ".harvestStyles",
       "norm_label": "getclientpoint()"
     },
     {
@@ -8051,8 +8051,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_pointinrect",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 343,
+      "community_name": ".harvestStyles",
       "norm_label": "pointinrect()"
     },
     {
@@ -8062,8 +8062,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_ispointontext",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 343,
+      "community_name": ".harvestStyles",
       "norm_label": "ispointontext()"
     },
     {
@@ -8073,8 +8073,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "floatingmodal"
     },
     {
@@ -8084,8 +8084,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_constructor",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".constructor()"
     },
     {
@@ -8095,8 +8095,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_shouldnotstartdrag",
-      "community": 0,
-      "community_name": "obsidian-excalidraw-plugin/main.js",
+      "community": 343,
+      "community_name": ".harvestStyles",
       "norm_label": ".shouldnotstartdrag()"
     },
     {
@@ -8106,8 +8106,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_handlepointerdown",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".handlepointerdown()"
     },
     {
@@ -8128,8 +8128,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_handlepointerup",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".handlepointerup()"
     },
     {
@@ -8150,8 +8150,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_close",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".close()"
     },
     {
@@ -8161,8 +8161,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_enablekeycapture",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".enablekeycapture()"
     },
     {
@@ -8172,8 +8172,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_floatingmodal_disablekeycapturefn",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".disablekeycapturefn()"
     },
     {
@@ -8249,8 +8249,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "latexprompt"
     },
     {
@@ -8260,8 +8260,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_constructor",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".constructor()"
     },
     {
@@ -8271,8 +8271,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_shouldnotstartdrag",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".shouldnotstartdrag()"
     },
     {
@@ -8282,8 +8282,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_prompt",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".prompt()"
     },
     {
@@ -8304,8 +8304,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_createbutton",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".createbutton()"
     },
     {
@@ -8326,8 +8326,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_cancelcallback",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".cancelcallback()"
     },
     {
@@ -8337,8 +8337,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_onopen",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".onopen()"
     },
     {
@@ -8348,8 +8348,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_latexprompt_onclose",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".onclose()"
     },
     {
@@ -8689,8 +8689,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_genericsuggester_onclose",
-      "community": 107,
-      "community_name": "refresh",
+      "community": 8,
+      "community_name": "getBoundingClientRect",
       "norm_label": ".onclose()"
     },
     {
@@ -9030,8 +9030,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawdata_initializenoninitializedfields",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 6,
+      "community_name": ".registerCommands",
       "norm_label": ".initializenoninitializedfields()"
     },
     {
@@ -9272,8 +9272,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawdata_synccroppedpdfs",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".synccroppedpdfs()"
     },
     {
@@ -9657,8 +9657,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_log_2",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 5,
+      "community_name": "t$d",
       "norm_label": "log$2"
     },
     {
@@ -9811,8 +9811,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_scriptinstallprompt_onopen",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 5,
+      "community_name": "t$d",
       "norm_label": ".onopen()"
     },
     {
@@ -11120,8 +11120,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_filesuggestionmodal_getselecteditem",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".getselecteditem()"
     },
     {
@@ -11197,8 +11197,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "insertpdfmodal"
     },
     {
@@ -11208,8 +11208,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_constructor",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".constructor()"
     },
     {
@@ -11219,8 +11219,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_open",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".open()"
     },
     {
@@ -11241,8 +11241,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_onclose",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".onclose()"
     },
     {
@@ -11252,8 +11252,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_loadpagedimensions",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".loadpagedimensions()"
     },
     {
@@ -11263,8 +11263,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_getmaxselectedpagedimensions",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".getmaxselectedpagedimensions()"
     },
     {
@@ -11274,8 +11274,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_createpagelistfromstring",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".createpagelistfromstring()"
     },
     {
@@ -11285,8 +11285,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_setimagesizemessage",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".setimagesizemessage()"
     },
     {
@@ -11296,8 +11296,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertpdfmodal_createform",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": ".createform()"
     },
     {
@@ -11582,8 +11582,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": "releasenotes"
     },
     {
@@ -11593,8 +11593,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes_constructor",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".constructor()"
     },
     {
@@ -11615,8 +11615,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_releasenotes_onclose",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 7,
+      "community_name": "getTemplate",
       "norm_label": ".onclose()"
     },
     {
@@ -12143,8 +12143,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_uimodesettingscomponent",
-      "community": 352,
-      "community_name": "UIModeSettingsComponent",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "uimodesettingscomponent"
     },
     {
@@ -12154,8 +12154,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_uimodesettingscomponent_constructor",
-      "community": 352,
-      "community_name": "UIModeSettingsComponent",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": ".constructor()"
     },
     {
@@ -12319,8 +12319,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_toolspanel_setfullscreen",
-      "community": 28,
-      "community_name": "FD",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".setfullscreen()"
     },
     {
@@ -13144,8 +13144,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_embeddalbemdfilecustomdatasettingscomponent",
-      "community": 350,
-      "community_name": "EmbeddalbeMDFileCustomDataSettingsComponent",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": "embeddalbemdfilecustomdatasettingscomponent"
     },
     {
@@ -13155,8 +13155,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_embeddalbemdfilecustomdatasettingscomponent_constructor",
-      "community": 350,
-      "community_name": "EmbeddalbeMDFileCustomDataSettingsComponent",
+      "community": 0,
+      "community_name": "obsidian-excalidraw-plugin/main.js",
       "norm_label": ".constructor()"
     },
     {
@@ -14959,8 +14959,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_addfiles",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 6,
+      "community_name": ".registerCommands",
       "norm_label": "addfiles()"
     },
     {
@@ -15454,8 +15454,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_gotofullscreen",
-      "community": 28,
-      "community_name": "FD",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".gotofullscreen()"
     },
     {
@@ -15476,8 +15476,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_exitfullscreen",
-      "community": 28,
-      "community_name": "FD",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".exitfullscreen()"
     },
     {
@@ -15740,8 +15740,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_onclose",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".onclose()"
     },
     {
@@ -16180,8 +16180,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_addelements",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 2,
+      "community_name": "ExcalidrawView",
       "norm_label": ".addelements()"
     },
     {
@@ -16774,8 +16774,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawview_updatecontainersize",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 2,
+      "community_name": "ExcalidrawView",
       "norm_label": ".updatecontainersize()"
     },
     {
@@ -17038,8 +17038,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_fuzzymatchtextitems",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 119,
+      "community_name": "InlineLinkSuggester",
       "norm_label": "fuzzymatchtextitems()"
     },
     {
@@ -17170,8 +17170,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_modifyinput",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 119,
+      "community_name": "InlineLinkSuggester",
       "norm_label": ".modifyinput()"
     },
     {
@@ -17203,8 +17203,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_gettagsearchvalue",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 119,
+      "community_name": "InlineLinkSuggester",
       "norm_label": ".gettagsearchvalue()"
     },
     {
@@ -17214,8 +17214,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_getsuggestions",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 119,
+      "community_name": "InlineLinkSuggester",
       "norm_label": ".getsuggestions()"
     },
     {
@@ -17379,8 +17379,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_inlinelinksuggester_loadframes",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".loadframes()"
     },
     {
@@ -18831,8 +18831,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_rgb2hex",
-      "community": 5,
-      "community_name": "t$d",
+      "community": 83,
+      "community_name": ".onOpen",
       "norm_label": "rgb2hex()"
     },
     {
@@ -20910,8 +20910,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_printurlsincodebase",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".printurlsincodebase()"
     },
     {
@@ -20921,8 +20921,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_addappendupdatecustomdata",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 6,
+      "community_name": ".registerCommands",
       "norm_label": ".addappendupdatecustomdata()"
     },
     {
@@ -21394,8 +21394,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_toclipboard",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".toclipboard()"
     },
     {
@@ -21405,8 +21405,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_getscenefromfile",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getscenefromfile()"
     },
     {
@@ -21493,8 +21493,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_createsvg",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".createsvg()"
     },
     {
@@ -21504,8 +21504,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_createpng",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".createpng()"
     },
     {
@@ -21515,8 +21515,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_createpngbase64",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".createpngbase64()"
     },
     {
@@ -21570,8 +21570,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_addelementstoframe",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".addelementstoframe()"
     },
     {
@@ -21933,8 +21933,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_viewtogglefullscreen",
-      "community": 28,
-      "community_name": "FD",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".viewtogglefullscreen()"
     },
     {
@@ -22043,8 +22043,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_getelementsinarea",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getelementsinarea()"
     },
     {
@@ -22054,8 +22054,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_getboundingbox",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getboundingbox()"
     },
     {
@@ -22109,8 +22109,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_getelementsinthesamegroupwithelement",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getelementsinthesamegroupwithelement()"
     },
     {
@@ -22120,8 +22120,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_excalidrawautomate_getelementsinframe",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".getelementsinframe()"
     },
     {
@@ -22560,8 +22560,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_gettemplate",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "gettemplate()"
     },
     {
@@ -22571,8 +22571,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_createpng",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "createpng()"
     },
     {
@@ -22582,8 +22582,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_updateelementlinkstoobsidianlinks",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "updateelementlinkstoobsidianlinks()"
     },
     {
@@ -22593,8 +22593,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_addfiltertoforeignobjects",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "addfiltertoforeignobjects()"
     },
     {
@@ -22604,8 +22604,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_createsvg",
-      "community": 18,
-      "community_name": "createPairs",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "createsvg()"
     },
     {
@@ -22714,8 +22714,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_cloneelement",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "cloneelement()"
     },
     {
@@ -26212,8 +26212,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_reversearabicsentences",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "reversearabicsentences()"
     },
     {
@@ -26608,8 +26608,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_checkexcalidrawversion",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 5,
+      "community_name": "t$d",
       "norm_label": "checkexcalidrawversion()"
     },
     {
@@ -26619,8 +26619,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_checkscriptupdates",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 5,
+      "community_name": "t$d",
       "norm_label": "checkscriptupdates()"
     },
     {
@@ -26729,8 +26729,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_scaleloadedimage",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 6,
+      "community_name": ".registerCommands",
       "norm_label": "scaleloadedimage()"
     },
     {
@@ -26773,8 +26773,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_getlinkparts",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "getlinkparts()"
     },
     {
@@ -26971,8 +26971,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_iscontainer",
-      "community": 7,
-      "community_name": "getTemplate",
+      "community": 2,
+      "community_name": "ExcalidrawView",
       "norm_label": "iscontainer()"
     },
     {
@@ -29083,8 +29083,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertlinkdialog_onclose",
-      "community": 101,
-      "community_name": "SuggestionModal",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".onclose()"
     },
     {
@@ -29116,8 +29116,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": "insertcommanddialog"
     },
     {
@@ -29127,8 +29127,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_destroy",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".destroy()"
     },
     {
@@ -29138,8 +29138,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_constructor",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".constructor()"
     },
     {
@@ -29149,8 +29149,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_getitems",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".getitems()"
     },
     {
@@ -29160,8 +29160,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_getitemtext",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".getitemtext()"
     },
     {
@@ -29171,8 +29171,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_onchooseitem",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".onchooseitem()"
     },
     {
@@ -29182,8 +29182,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_start",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".start()"
     },
     {
@@ -29193,8 +29193,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertcommanddialog_onclose",
-      "community": 365,
-      "community_name": "InsertCommandDialog",
+      "community": 107,
+      "community_name": "refresh",
       "norm_label": ".onclose()"
     },
     {
@@ -29380,8 +29380,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog",
-      "community": 76,
-      "community_name": "FileSuggestionModal",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": "insertmddialog"
     },
     {
@@ -29391,8 +29391,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog_destroy",
-      "community": 76,
-      "community_name": "FileSuggestionModal",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".destroy()"
     },
     {
@@ -29402,8 +29402,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog_constructor",
-      "community": 76,
-      "community_name": "FileSuggestionModal",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".constructor()"
     },
     {
@@ -29457,8 +29457,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_insertmddialog_onclose",
-      "community": 76,
-      "community_name": "FileSuggestionModal",
+      "community": 101,
+      "community_name": "SuggestionModal",
       "norm_label": ".onclose()"
     },
     {
@@ -29523,8 +29523,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": "taskbone"
     },
     {
@@ -29534,8 +29534,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone_apikey",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".apikey()"
     },
     {
@@ -29545,8 +29545,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone_constructor",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".constructor()"
     },
     {
@@ -29556,8 +29556,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone_destroy",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".destroy()"
     },
     {
@@ -29567,8 +29567,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone_initialize",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".initialize()"
     },
     {
@@ -29578,8 +29578,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone_gettextforelements",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".gettextforelements()"
     },
     {
@@ -29600,8 +29600,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_taskbone_gettextforimage",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".gettextforimage()"
     },
     {
@@ -29908,8 +29908,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_excalidraw_plugin_main_eventmanager_initialize",
-      "community": 349,
-      "community_name": ".help",
+      "community": 114,
+      "community_name": "showColorPicker",
       "norm_label": ".initialize()"
     },
     {
@@ -31239,8 +31239,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_bn",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "bn()"
     },
     {
@@ -31272,8 +31272,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_fb",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "fb()"
     },
     {
@@ -31283,8 +31283,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_zf",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "zf()"
     },
     {
@@ -31294,8 +31294,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_tm",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "tm()"
     },
     {
@@ -31316,8 +31316,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_qp",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "qp()"
     },
     {
@@ -31503,8 +31503,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_o_includes",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": ".includes()"
     },
     {
@@ -31822,8 +31822,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ob",
-      "community": 25,
-      "community_name": "dR",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "ob()"
     },
     {
@@ -32009,8 +32009,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_o_fill",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": ".fill()"
     },
     {
@@ -32834,8 +32834,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_oe",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "oe()"
     },
     {
@@ -33747,8 +33747,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rl",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 49,
+      "community_name": "pull",
       "norm_label": "rl()"
     },
     {
@@ -33813,8 +33813,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_entries",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 49,
+      "community_name": "pull",
       "norm_label": "entries()"
     },
     {
@@ -34022,8 +34022,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_type",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "type()"
     },
     {
@@ -34033,8 +34033,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_mode",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "mode()"
     },
     {
@@ -34044,8 +34044,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_stat",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "stat()"
     },
     {
@@ -34055,8 +34055,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_content",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "content()"
     },
     {
@@ -34066,8 +34066,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_oid",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "oid()"
     },
     {
@@ -34077,8 +34077,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ea",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "ea()"
     },
     {
@@ -34176,8 +34176,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_get",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "get()"
     },
     {
@@ -34187,8 +34187,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getall",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "getall()"
     },
     {
@@ -34539,8 +34539,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rn",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "rn()"
     },
     {
@@ -34825,8 +34825,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_gg",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "gg()"
     },
     {
@@ -35089,8 +35089,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_xr",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "xr()"
     },
     {
@@ -35100,8 +35100,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getgitconfig",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "_getgitconfig()"
     },
     {
@@ -35111,8 +35111,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_consider",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "consider()"
     },
     {
@@ -35122,8 +35122,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_reset",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "reset()"
     },
     {
@@ -35133,8 +35133,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ps",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "ps()"
     },
     {
@@ -35177,8 +35177,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ke",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "ke()"
     },
     {
@@ -35617,8 +35617,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_flush",
-      "community": 25,
-      "community_name": "dR",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "flush()"
     },
     {
@@ -35628,8 +35628,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_delim",
-      "community": 25,
-      "community_name": "dR",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "delim()"
     },
     {
@@ -35881,8 +35881,8 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_eb",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "eb()"
     },
     {
@@ -35958,8 +35958,8 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_rk",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "rk()"
     },
     {
@@ -36024,8 +36024,8 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ak",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "ak()"
     },
     {
@@ -36035,8 +36035,8 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ok",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "ok()"
     },
     {
@@ -36299,8 +36299,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getstashsha",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "getstashsha()"
     },
     {
@@ -36321,8 +36321,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_readstashcommit",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "readstashcommit()"
     },
     {
@@ -36354,8 +36354,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_readstashreflogs",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "readstashreflogs()"
     },
     {
@@ -36508,8 +36508,8 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_i3",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 49,
+      "community_name": "pull",
       "norm_label": "i3()"
     },
     {
@@ -36772,8 +36772,8 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_equals",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "equals()"
     },
     {
@@ -36948,8 +36948,8 @@
       "source_location": "L140",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_ha",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "ha()"
     },
     {
@@ -37773,8 +37773,8 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_vc",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 111,
+      "community_name": "Group",
       "norm_label": "vc()"
     },
     {
@@ -38334,8 +38334,8 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_v8",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "v8()"
     },
     {
@@ -38345,8 +38345,8 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_w8",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 111,
+      "community_name": "Group",
       "norm_label": "w8()"
     },
     {
@@ -39390,8 +39390,8 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_qt",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "qt()"
     },
     {
@@ -39401,8 +39401,8 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_zh",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "zh()"
     },
     {
@@ -40138,8 +40138,8 @@
       "source_location": "L155",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_getavailablelocalbranchname",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "getavailablelocalbranchname()"
     },
     {
@@ -40193,8 +40193,8 @@
       "source_location": "L156",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_isfiletrackedbylfs",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "isfiletrackedbylfs()"
     },
     {
@@ -40710,8 +40710,8 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_w5",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "w5()"
     },
     {
@@ -41238,8 +41238,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_y5",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "y5()"
     },
     {
@@ -41249,8 +41249,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_advance",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "advance()"
     },
     {
@@ -41260,8 +41260,8 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_x5",
-      "community": 343,
-      "community_name": ".harvestStyles",
+      "community": 1,
+      "community_name": "obsidian-git/main.js",
       "norm_label": "x5()"
     },
     {
@@ -42481,8 +42481,8 @@
       "source_location": "L295",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_hastoobigfiles",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "hastoobigfiles()"
     },
     {
@@ -42624,8 +42624,8 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_bshouldbeeditable",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "bshouldbeeditable()"
     },
     {
@@ -42668,8 +42668,8 @@
       "source_location": "L307",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_createmergeview",
-      "community": 115,
-      "community_name": "b$4",
+      "community": 26,
+      "community_name": "getRepo",
       "norm_label": "createmergeview()"
     },
     {
@@ -42767,8 +42767,8 @@
       "source_location": "L323",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_pr",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "pr()"
     },
     {
@@ -42800,8 +42800,8 @@
       "source_location": "L329",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_mr",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "mr()"
     },
     {
@@ -42866,8 +42866,8 @@
       "source_location": "L347",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_it",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "it()"
     },
     {
@@ -42987,8 +42987,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_zl",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "zl()"
     },
     {
@@ -43031,8 +43031,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_is_rendered",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "is_rendered()"
     },
     {
@@ -43053,8 +43053,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_update_pending_count",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "update_pending_count()"
     },
     {
@@ -43086,8 +43086,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_h0",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "h0()"
     },
     {
@@ -43108,8 +43108,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_m0",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "m0()"
     },
     {
@@ -43141,8 +43141,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_v0",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "v0()"
     },
     {
@@ -43185,8 +43185,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_capture",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "capture()"
     },
     {
@@ -43229,8 +43229,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_increment",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "increment()"
     },
     {
@@ -43240,8 +43240,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_decrement",
-      "community": 25,
-      "community_name": "dR",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "decrement()"
     },
     {
@@ -43394,8 +43394,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_qi",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "qi()"
     },
     {
@@ -43405,8 +43405,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_za",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "za()"
     },
     {
@@ -43515,8 +43515,8 @@
       "source_location": "L356",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_f0",
-      "community": 83,
-      "community_name": ".onOpen",
+      "community": 90,
+      "community_name": "w0",
       "norm_label": "f0()"
     },
     {
@@ -43691,8 +43691,8 @@
       "source_location": "L358",
       "_origin": "ast",
       "id": "obsidian_plugins_obsidian_git_main_hu",
-      "community": 48,
-      "community_name": "preventOverflow",
+      "community": 115,
+      "community_name": "b$4",
       "norm_label": "hu()"
     },
     {
@@ -60163,125 +60163,125 @@
       "norm_label": "03_subdungeon_aire_torre.md"
     },
     {
-      "label": "\ud83c\udf2c\ufe0f Subdungeon 3: La Torre de los Vientos (Inspirada en el Arca de las Tormentas - TotK & Wind Waker)",
+      "label": "\ud83c\udf2c\ufe0f Subdungeon 3: La Torre de los Vientos (Inspirada en City in the Sky - TP & Stormwind Ark - TotK)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_el_arca_de_las_tormentas_totk_wind_waker",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_city_in_the_sky_tp_stormwind_ark_totk",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "\ud83c\udf2c\ufe0f subdungeon 3: la torre de los vientos (inspirada en el arca de las tormentas - totk & wind waker)"
+      "norm_label": "\ud83c\udf2c\ufe0f subdungeon 3: la torre de los vientos (inspirada en city in the sky - tp & stormwind ark - totk)"
     },
     {
-      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Stormwind Ark Layout)",
+      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (City in the Sky / Stormwind Ark Layout)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_mapa_de_flujo_de_la_mazmorra_stormwind_ark_layout",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_mapa_de_flujo_de_la_mazmorra_city_in_the_sky_stormwind_ark_layout",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (stormwind ark layout)"
+      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (city in the sky / stormwind ark layout)"
     },
     {
-      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Stormwind Ark Walkthrough)",
+      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (City in the Sky Walkthrough)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (stormwind ark walkthrough)"
+      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (city in the sky walkthrough)"
     },
     {
-      "label": "Room 1: La Cubierta del Nav\u00edo Celestial (Entrada)",
+      "label": "Room 1: El Atrio de la Ciudadela Flotante (Entrada)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_1_la_cubierta_del_nav\u00edo_celestial_entrada",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_1_el_atrio_de_la_ciudadela_flotante_entrada",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 1: la cubierta del navio celestial (entrada)"
+      "norm_label": "room 1: el atrio de la ciudadela flotante (entrada)"
     },
     {
-      "label": "Room 2: La Galer\u00eda de los Camorristas de Viento (Llave Peque\u00f1a #1)",
+      "label": "Room 2: La Torre de los Ventiladores Exteriores (Llave Peque\u00f1a #1)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_2_la_galer\u00eda_de_los_camorristas_de_viento_llave_peque\u00f1a_1",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_2_la_torre_de_los_ventiladores_exteriores_llave_peque\u00f1a_1",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 2: la galeria de los camorristas de viento (llave pequena #1)"
+      "norm_label": "room 2: la torre de los ventiladores exteriores (llave pequena #1)"
     },
     {
-      "label": "Room 3: El Pozo de las Turbinas E\u00f3licas",
+      "label": "Room 3: El Puente del Viento Cruzado",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_3_el_pozo_de_las_turbinas_e\u00f3licas",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_3_el_puente_del_viento_cruzado",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 3: el pozo de las turbinas eolicas"
+      "norm_label": "room 3: el puente del viento cruzado"
     },
     {
-      "label": "Room 4: \u2694\ufe0f El Capit\u00e1n Wyvern de Bronce (Mini-Boss & Dungeon Item)",
+      "label": "Room 4: \u2694\ufe0f El Guardi\u00e1n Dragonante de Lat\u00f3n (Mini-Boss & Dungeon Item)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_4_el_capit\u00e1n_wyvern_de_bronce_mini_boss_dungeon_item",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_4_el_guardi\u00e1n_dragonante_de_lat\u00f3n_mini_boss_dungeon_item",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 4: \u2694\ufe0f el capitan wyvern de bronce (mini-boss & dungeon item)"
+      "norm_label": "room 4: \u2694\ufe0f el guardian dragonante de laton (mini-boss & dungeon item)"
     },
     {
-      "label": "Room 5: El Velo de Trampolines de Lona (Navegaci\u00f3n A\u00e9rea)",
+      "label": "Room 5: El Pozo de la Gran H\u00e9lice Central (Ascenso Vertical)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_5_el_velo_de_trampolines_de_lona_navegaci\u00f3n_a\u00e9rea",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_5_el_pozo_de_la_gran_h\u00e9lice_central_ascenso_vertical",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 5: el velo de trampolines de lona (navegacion aerea)"
+      "norm_label": "room 5: el pozo de la gran helice central (ascenso vertical)"
     },
     {
-      "label": "Room 6: El Motor Central del Arca (Llave del Boss \ud83d\udc51)",
+      "label": "Room 6: El Arca de los Trampolines Celestiales (Llave del Boss \ud83d\udc51)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_6_el_motor_central_del_arca_llave_del_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_6_el_arca_de_los_trampolines_celestiales_llave_del_boss",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 6: el motor central del arca (llave del boss \ud83d\udc51)"
+      "norm_label": "room 6: el arca de los trampolines celestiales (llave del boss \ud83d\udc51)"
     },
     {
-      "label": "Room 7: \ud83d\udd12 El Port\u00f3n de la Gran Escotilla",
+      "label": "Room 7: \ud83d\udd12 El Port\u00f3n de la C\u00fapula de la Tormenta",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_7_el_port\u00f3n_de_la_gran_escotilla",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_7_el_port\u00f3n_de_la_c\u00fapula_de_la_tormenta",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 7: \ud83d\udd12 el porton de la gran escotilla"
+      "norm_label": "room 7: \ud83d\udd12 el porton de la cupula de la tormenta"
     },
     {
-      "label": "Room 8: \ud83d\udc80 Arena de El Coloso del V\u00e9rtice (Colgera Boss)",
+      "label": "Room 8: \ud83d\udc80 Arena de El Coloso del V\u00e9rtice (Argorok Boss)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_8_arena_de_el_coloso_del_v\u00e9rtice_colgera_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_8_arena_de_el_coloso_del_v\u00e9rtice_argorok_boss",
       "community": 68,
       "community_name": "Group",
-      "norm_label": "room 8: \ud83d\udc80 arena de el coloso del vertice (colgera boss)"
+      "norm_label": "room 8: \ud83d\udc80 arena de el coloso del vertice (argorok boss)"
     },
     {
       "label": "04_Subdungeon_Tierra_Dominio.md",
@@ -60295,26 +60295,26 @@
       "norm_label": "04_subdungeon_tierra_dominio.md"
     },
     {
-      "label": "\ud83e\udea8 Subdungeon 4: El Dominio Tel\u00farico (Inspirada en Earth Temple - Wind Waker & Skyward Sword)",
+      "label": "\ud83e\udea8 Subdungeon 4: El Dominio Tel\u00farico (Puramente Tect\u00f3nico - Goron Mines & Earth Temple SS)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_inspirada_en_earth_temple_wind_waker_skyward_sword",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_puramente_tect\u00f3nico_goron_mines_earth_temple_ss",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "\ud83e\udea8 subdungeon 4: el dominio telurico (inspirada en earth temple - wind waker & skyward sword)"
+      "norm_label": "\ud83e\udea8 subdungeon 4: el dominio telurico (puramente tectonico - goron mines & earth temple ss)"
     },
     {
-      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Earth Temple Layout)",
+      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Tectonic Earth Layout)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_mapa_de_flujo_de_la_mazmorra_earth_temple_layout",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_mapa_de_flujo_de_la_mazmorra_tectonic_earth_layout",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (earth temple layout)"
+      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (tectonic earth layout)"
     },
     {
       "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Earth Temple Walkthrough)",
@@ -60328,92 +60328,92 @@
       "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (earth temple walkthrough)"
     },
     {
-      "label": "Room 1: La Gran Cripta Tel\u00farica (Entrada)",
+      "label": "Room 1: El Gran Abismo Tect\u00f3nico (Entrada)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_1_la_gran_cripta_tel\u00farica_entrada",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_1_el_gran_abismo_tect\u00f3nico_entrada",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 1: la gran cripta telurica (entrada)"
+      "norm_label": "room 1: el gran abismo tectonico (entrada)"
     },
     {
-      "label": "Room 2: La Galer\u00eda de los Espectros Tel\u00faricos (Llave Peque\u00f1a #1)",
+      "label": "Room 2: La Mina de los Escombros Tel\u00faricos (Llave Peque\u00f1a #1)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_2_la_galer\u00eda_de_los_espectros_tel\u00faricos_llave_peque\u00f1a_1",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_2_la_mina_de_los_escombros_tel\u00faricos_llave_peque\u00f1a_1",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 2: la galeria de los espectros teluricos (llave pequena #1)"
+      "norm_label": "room 2: la mina de los escombros teluricos (llave pequena #1)"
     },
     {
-      "label": "Room 3: La Sima del Miasma Oscuro",
+      "label": "Room 3: La Sima de los Temblores S\u00edsmicos",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_3_la_sima_del_miasma_oscuro",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_3_la_sima_de_los_temblores_s\u00edsmicos",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 3: la sima del miasma oscuro"
+      "norm_label": "room 3: la sima de los temblores sismicos"
     },
     {
-      "label": "Room 4: \u2694\ufe0f El Guerrero Armos de Piedra (Mini-Boss & Dungeon Item)",
+      "label": "Room 4: \u2694\ufe0f El Guerrero Armos de Granito (Mini-Boss & Dungeon Item)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_4_el_guerrero_armos_de_piedra_mini_boss_dungeon_item",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_4_el_guerrero_armos_de_granito_mini_boss_dungeon_item",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 4: \u2694\ufe0f el guerrero armos de piedra (mini-boss & dungeon item)"
+      "norm_label": "room 4: \u2694\ufe0f el guerrero armos de granito (mini-boss & dungeon item)"
     },
     {
-      "label": "Room 5: Muro de Mamposter\u00eda Agrietada (Demolici\u00f3n)",
+      "label": "Room 5: Muro de Piedra Fr\u00e1gil (Demolici\u00f3n Isaac)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_5_muro_de_mamposter\u00eda_agrietada_demolici\u00f3n",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_5_muro_de_piedra_fr\u00e1gil_demolici\u00f3n_isaac",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 5: muro de mamposteria agrietada (demolicion)"
+      "norm_label": "room 5: muro de piedra fragil (demolicion isaac)"
     },
     {
-      "label": "Room 6: El Ca\u00f1\u00f3n de la Esfera de Basalto Rodante (Llave del Boss \ud83d\udc51)",
+      "label": "Room 6: El Ca\u00f1\u00f3n del Rodillo de Basalto de 500 lbs (Llave del Boss \ud83d\udc51)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_6_el_ca\u00f1\u00f3n_de_la_esfera_de_basalto_rodante_llave_del_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_6_el_ca\u00f1\u00f3n_del_rodillo_de_basalto_de_500_lbs_llave_del_boss",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 6: el canon de la esfera de basalto rodante (llave del boss \ud83d\udc51)"
+      "norm_label": "room 6: el canon del rodillo de basalto de 500 lbs (llave del boss \ud83d\udc51)"
     },
     {
-      "label": "Room 7: \ud83d\udd12 El Port\u00f3n de la M\u00e1scara de Piedra",
+      "label": "Room 7: \ud83d\udd12 El Port\u00f3n del Sello de Anclas de Basalto",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_7_el_port\u00f3n_de_la_m\u00e1scara_de_piedra",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_7_el_port\u00f3n_del_sello_de_anclas_de_basalto",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 7: \ud83d\udd12 el porton de la mascara de piedra"
+      "norm_label": "room 7: \ud83d\udd12 el porton del sello de anclas de basalto"
     },
     {
-      "label": "Room 8: \ud83d\udc80 Arena de El Tit\u00e1n de Basalto (Jalhalla / Scaldera Boss)",
+      "label": "Room 8: \ud83d\udc80 Arena de El Tit\u00e1n de Basalto (Scaldera Boss)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_8_arena_de_el_tit\u00e1n_de_basalto_jalhalla_scaldera_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_8_arena_de_el_tit\u00e1n_de_basalto_scaldera_boss",
       "community": 80,
       "community_name": "c$2",
-      "norm_label": "room 8: \ud83d\udc80 arena de el titan de basalto (jalhalla / scaldera boss)"
+      "norm_label": "room 8: \ud83d\udc80 arena de el titan de basalto (scaldera boss)"
     },
     {
       "label": "05_Subdungeon_Vida_Invernadero.md",
@@ -60427,125 +60427,125 @@
       "norm_label": "05_subdungeon_vida_invernadero.md"
     },
     {
-      "label": "\ud83c\udf3f Subdungeon 5: El Invernadero Ancestral (Inspirada en Forest Temple - Ocarina of Time & Twilight Princess)",
+      "label": "\ud83c\udf3f Subdungeon 5: El Invernadero Ancestral (Inspirada en Inside the Great Deku Tree - OoT & Forbidden Woods - WW)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_forest_temple_ocarina_of_time_twilight_princess",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_inside_the_great_deku_tree_oot_forbidden_woods_ww",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "\ud83c\udf3f subdungeon 5: el invernadero ancestral (inspirada en forest temple - ocarina of time & twilight princess)"
+      "norm_label": "\ud83c\udf3f subdungeon 5: el invernadero ancestral (inspirada en inside the great deku tree - oot & forbidden woods - ww)"
     },
     {
-      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Forest Temple Layout)",
+      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Great Deku Tree Layout)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_mapa_de_flujo_de_la_mazmorra_forest_temple_layout",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_mapa_de_flujo_de_la_mazmorra_great_deku_tree_layout",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (forest temple layout)"
+      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (great deku tree layout)"
     },
     {
-      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Forest Temple Walkthrough)",
+      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Deku Tree Walkthrough)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (forest temple walkthrough)"
+      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (deku tree walkthrough)"
     },
     {
-      "label": "Room 1: El Patio Central del Invernadero (Entrada)",
+      "label": "Room 1: El Gran Tronco Hueco (Entrada)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_1_el_patio_central_del_invernadero_entrada",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_1_el_gran_tronco_hueco_entrada",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 1: el patio central del invernadero (entrada)"
+      "norm_label": "room 1: el gran tronco hueco (entrada)"
     },
     {
-      "label": "Room 2: La Galer\u00eda de los Cuadros Espectrales (Llave Peque\u00f1a #1)",
+      "label": "Room 2: La Galer\u00eda de los Matorrales Deku (Llave Peque\u00f1a #1)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_2_la_galer\u00eda_de_los_cuadros_espectrales_llave_peque\u00f1a_1",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_2_la_galer\u00eda_de_los_matorrales_deku_llave_peque\u00f1a_1",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 2: la galeria de los cuadros espectrales (llave pequena #1)"
+      "norm_label": "room 2: la galeria de los matorrales deku (llave pequena #1)"
     },
     {
-      "label": "Room 3: El Pasillo Retorcido de Vides",
+      "label": "Room 3: La C\u00fapula de la Tela de Ara\u00f1a Central",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_3_el_pasillo_retorcido_de_vides",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_3_la_c\u00fapula_de_la_tela_de_ara\u00f1a_central",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 3: el pasillo retorcido de vides"
+      "norm_label": "room 3: la cupula de la tela de arana central"
     },
     {
-      "label": "Room 4: \u2694\ufe0f La Gran Deku Baba Tit\u00e1nica (Mini-Boss & Dungeon Item)",
+      "label": "Room 4: \u2694\ufe0f La Reina Deku Baba de las Ra\u00edces (Mini-Boss & Dungeon Item)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_4_la_gran_deku_baba_tit\u00e1nica_mini_boss_dungeon_item",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_4_la_reina_deku_baba_de_las_ra\u00edces_mini_boss_dungeon_item",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 4: \u2694\ufe0f la gran deku baba titanica (mini-boss & dungeon item)"
+      "norm_label": "room 4: \u2694\ufe0f la reina deku baba de las raices (mini-boss & dungeon item)"
     },
     {
-      "label": "Room 5: El Abismo de las Vides Germinadas (Pasarela Vegetal)",
+      "label": "Room 5: Ca\u00edda por la Tela de Ara\u00f1a hacia el Nivel Inferior",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_5_el_abismo_de_las_vides_germinadas_pasarela_vegetal",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_5_ca\u00edda_por_la_tela_de_ara\u00f1a_hacia_el_nivel_inferior",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 5: el abismo de las vides germinadas (pasarela vegetal)"
+      "norm_label": "room 5: caida por la tela de arana hacia el nivel inferior"
     },
     {
-      "label": "Room 6: El Jard\u00edn del Bulbo Carn\u00edvoro (Llave del Boss \ud83d\udc51)",
+      "label": "Room 6: El Estanque del Bulbo Carn\u00edvoro (Kalle Demos - Llave del Boss \ud83d\udc51)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
-      "source_location": "L68",
+      "source_location": "L67",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_6_el_jard\u00edn_del_bulbo_carn\u00edvoro_llave_del_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_6_el_estanque_del_bulbo_carn\u00edvoro_kalle_demos_llave_del_boss",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 6: el jardin del bulbo carnivoro (llave del boss \ud83d\udc51)"
+      "norm_label": "room 6: el estanque del bulbo carnivoro (kalle demos - llave del boss \ud83d\udc51)"
     },
     {
-      "label": "Room 7: \ud83d\udd12 Port\u00f3n de las Hojas Espectrales",
+      "label": "Room 7: \ud83d\udd12 El Port\u00f3n de las Esporas de la Ra\u00edz",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
-      "source_location": "L75",
+      "source_location": "L74",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_7_port\u00f3n_de_las_hojas_espectrales",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_7_el_port\u00f3n_de_las_esporas_de_la_ra\u00edz",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 7: \ud83d\udd12 porton de las hojas espectrales"
+      "norm_label": "room 7: \ud83d\udd12 el porton de las esporas de la raiz"
     },
     {
-      "label": "Room 8: \ud83d\udc80 Arena de El Bot\u00e1nico de Sombras (Phantom Ganon Boss)",
+      "label": "Room 8: \ud83d\udc80 Arena de El Bot\u00e1nico de Sombras (Gohma Parasite Boss)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
-      "source_location": "L81",
+      "source_location": "L80",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_8_arena_de_el_bot\u00e1nico_de_sombras_phantom_ganon_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_8_arena_de_el_bot\u00e1nico_de_sombras_gohma_parasite_boss",
       "community": 81,
       "community_name": "ObserverManager",
-      "norm_label": "room 8: \ud83d\udc80 arena de el botanico de sombras (phantom ganon boss)"
+      "norm_label": "room 8: \ud83d\udc80 arena de el botanico de sombras (gohma parasite boss)"
     },
     {
       "label": "06_Subdungeon_Luz_Santuario.md",
@@ -60559,114 +60559,114 @@
       "norm_label": "06_subdungeon_luz_santuario.md"
     },
     {
-      "label": "\u2600\ufe0f Subdungeon 6: El Santuario Prism\u00e1tico (Inspirada en Temple of Time & Spirit Temple)",
+      "label": "\u2600\ufe0f Subdungeon 6: El Santuario Prism\u00e1tico (Inspirada en el Spirit Temple - Ocarina of Time Verbatim)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_temple_of_time_spirit_temple",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_el_spirit_temple_ocarina_of_time_verbatim",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "\u2600\ufe0f subdungeon 6: el santuario prismatico (inspirada en temple of time & spirit temple)"
+      "norm_label": "\u2600\ufe0f subdungeon 6: el santuario prismatico (inspirada en el spirit temple - ocarina of time verbatim)"
     },
     {
-      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Temple of Time Layout)",
+      "label": "\ud83d\uddfa\ufe0f Mapa de Flujo de la Mazmorra (Spirit Temple Layout)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_mapa_de_flujo_de_la_mazmorra_temple_of_time_layout",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_mapa_de_flujo_de_la_mazmorra_spirit_temple_layout",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (temple of time layout)"
+      "norm_label": "\ud83d\uddfa\ufe0f mapa de flujo de la mazmorra (spirit temple layout)"
     },
     {
-      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Temple of Time Walkthrough)",
+      "label": "\ud83c\udfdb\ufe0f Recorrido Verbatim Sala por Sala (Spirit Temple Walkthrough)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (temple of time walkthrough)"
+      "norm_label": "\ud83c\udfdb\ufe0f recorrido verbatim sala por sala (spirit temple walkthrough)"
     },
     {
-      "label": "Room 1: El Gran Atrio del Tiempo y la Luz (Entrada)",
+      "label": "Room 1: El Atrio de la Diosa de la Arena (Entrada)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_1_el_gran_atrio_del_tiempo_y_la_luz_entrada",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_1_el_atrio_de_la_diosa_de_la_arena_entrada",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 1: el gran atrio del tiempo y la luz (entrada)"
+      "norm_label": "room 1: el atrio de la diosa de la arena (entrada)"
     },
     {
-      "label": "Room 2: La Galer\u00eda de la Estatua de la Retina (Llave Peque\u00f1a #1)",
+      "label": "Room 2: La Galer\u00eda de los Espejos de Cobra (Llave Peque\u00f1a #1)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_2_la_galer\u00eda_de_la_estatua_de_la_retina_llave_peque\u00f1a_1",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_2_la_galer\u00eda_de_los_espejos_de_cobra_llave_peque\u00f1a_1",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 2: la galeria de la estatua de la retina (llave pequena #1)"
+      "norm_label": "room 2: la galeria de los espejos de cobra (llave pequena #1)"
     },
     {
-      "label": "Room 3: La Sala de las Balanzas Solares",
+      "label": "Room 3: La C\u00e1mara del Tragaluz Solar Inclinado",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_3_la_sala_de_las_balanzas_solares",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_3_la_c\u00e1mara_del_tragaluz_solar_inclinado",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 3: la sala de las balanzas solares"
+      "norm_label": "room 3: la camara del tragaluz solar inclinado"
     },
     {
-      "label": "Room 4: \u2694\ufe0f El Guerrero Darknut de Marfil (Mini-Boss & Dungeon Item)",
+      "label": "Room 4: \u2694\ufe0f El Caballero Iron Knuckle de la Diosa (Mini-Boss & Dungeon Item)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_4_el_guerrero_darknut_de_marfil_mini_boss_dungeon_item",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_4_el_caballero_iron_knuckle_de_la_diosa_mini_boss_dungeon_item",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 4: \u2694\ufe0f el guerrero darknut de marfil (mini-boss & dungeon item)"
+      "norm_label": "room 4: \u2694\ufe0f el caballero iron knuckle de la diosa (mini-boss & dungeon item)"
     },
     {
-      "label": "Room 5: La Galer\u00eda de los Espejos Pivotantes (Reflexi\u00f3n de Haz)",
+      "label": "Room 5: Las Manos de la Estatua del Coloso (Navegaci\u00f3n de Luz)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_5_la_galer\u00eda_de_los_espejos_pivotantes_reflexi\u00f3n_de_haz",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_5_las_manos_de_la_estatua_del_coloso_navegaci\u00f3n_de_luz",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 5: la galeria de los espejos pivotantes (reflexion de haz)"
+      "norm_label": "room 5: las manos de la estatua del coloso (navegacion de luz)"
     },
     {
-      "label": "Room 6: El Prisma del Santo Sol (Llave del Boss \ud83d\udc51)",
+      "label": "Room 6: El Rostro de Piedra de la Diosa (Llave del Boss \ud83d\udc51)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_6_el_prisma_del_santo_sol_llave_del_boss",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_6_el_rostro_de_piedra_de_la_diosa_llave_del_boss",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 6: el prisma del santo sol (llave del boss \ud83d\udc51)"
+      "norm_label": "room 6: el rostro de piedra de la diosa (llave del boss \ud83d\udc51)"
     },
     {
-      "label": "Room 7: \ud83d\udd12 Port\u00f3n del Sol Primordial",
+      "label": "Room 7: \ud83d\udd12 Port\u00f3n del Santuario del Sol",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_7_port\u00f3n_del_sol_primordial",
+      "id": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_7_port\u00f3n_del_santuario_del_sol",
       "community": 96,
       "community_name": ".toJS",
-      "norm_label": "room 7: \ud83d\udd12 porton del sol primordial"
+      "norm_label": "room 7: \ud83d\udd12 porton del santuario del sol"
     },
     {
       "label": "Room 8: \ud83d\udc80 Arena de El Espejismo de Cristal (Twinrova Boss)",
@@ -230300,7 +230300,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_el_arca_de_las_tormentas_totk_wind_waker",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_city_in_the_sky_tp_stormwind_ark_totk",
       "confidence_score": 1.0
     },
     {
@@ -230310,8 +230310,8 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_el_arca_de_las_tormentas_totk_wind_waker",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_mapa_de_flujo_de_la_mazmorra_stormwind_ark_layout",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_city_in_the_sky_tp_stormwind_ark_totk",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_mapa_de_flujo_de_la_mazmorra_city_in_the_sky_stormwind_ark_layout",
       "confidence_score": 1.0
     },
     {
@@ -230321,8 +230321,8 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_el_arca_de_las_tormentas_totk_wind_waker",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_subdungeon_3_la_torre_de_los_vientos_inspirada_en_city_in_the_sky_tp_stormwind_ark_totk",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
       "confidence_score": 1.0
     },
     {
@@ -230332,8 +230332,8 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_1_la_cubierta_del_nav\u00edo_celestial_entrada",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_1_el_atrio_de_la_ciudadela_flotante_entrada",
       "confidence_score": 1.0
     },
     {
@@ -230343,8 +230343,8 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_2_la_galer\u00eda_de_los_camorristas_de_viento_llave_peque\u00f1a_1",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_2_la_torre_de_los_ventiladores_exteriores_llave_peque\u00f1a_1",
       "confidence_score": 1.0
     },
     {
@@ -230354,8 +230354,8 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_3_el_pozo_de_las_turbinas_e\u00f3licas",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_3_el_puente_del_viento_cruzado",
       "confidence_score": 1.0
     },
     {
@@ -230365,8 +230365,8 @@
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_4_el_capit\u00e1n_wyvern_de_bronce_mini_boss_dungeon_item",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_4_el_guardi\u00e1n_dragonante_de_lat\u00f3n_mini_boss_dungeon_item",
       "confidence_score": 1.0
     },
     {
@@ -230376,8 +230376,8 @@
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_5_el_velo_de_trampolines_de_lona_navegaci\u00f3n_a\u00e9rea",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_5_el_pozo_de_la_gran_h\u00e9lice_central_ascenso_vertical",
       "confidence_score": 1.0
     },
     {
@@ -230387,8 +230387,8 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_6_el_motor_central_del_arca_llave_del_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_6_el_arca_de_los_trampolines_celestiales_llave_del_boss",
       "confidence_score": 1.0
     },
     {
@@ -230398,8 +230398,8 @@
       "source_location": "L75",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_7_el_port\u00f3n_de_la_gran_escotilla",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_7_el_port\u00f3n_de_la_c\u00fapula_de_la_tormenta",
       "confidence_score": 1.0
     },
     {
@@ -230409,8 +230409,8 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_stormwind_ark_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_8_arena_de_el_coloso_del_v\u00e9rtice_colgera_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_recorrido_verbatim_sala_por_sala_city_in_the_sky_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_03_subdungeon_aire_torre_room_8_arena_de_el_coloso_del_v\u00e9rtice_argorok_boss",
       "confidence_score": 1.0
     },
     {
@@ -230421,7 +230421,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_inspirada_en_earth_temple_wind_waker_skyward_sword",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_puramente_tect\u00f3nico_goron_mines_earth_temple_ss",
       "confidence_score": 1.0
     },
     {
@@ -230431,8 +230431,8 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_inspirada_en_earth_temple_wind_waker_skyward_sword",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_mapa_de_flujo_de_la_mazmorra_earth_temple_layout",
+      "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_puramente_tect\u00f3nico_goron_mines_earth_temple_ss",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_mapa_de_flujo_de_la_mazmorra_tectonic_earth_layout",
       "confidence_score": 1.0
     },
     {
@@ -230442,7 +230442,7 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_inspirada_en_earth_temple_wind_waker_skyward_sword",
+      "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_subdungeon_4_el_dominio_tel\u00farico_puramente_tect\u00f3nico_goron_mines_earth_temple_ss",
       "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
       "confidence_score": 1.0
     },
@@ -230454,7 +230454,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_1_la_gran_cripta_tel\u00farica_entrada",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_1_el_gran_abismo_tect\u00f3nico_entrada",
       "confidence_score": 1.0
     },
     {
@@ -230465,7 +230465,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_2_la_galer\u00eda_de_los_espectros_tel\u00faricos_llave_peque\u00f1a_1",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_2_la_mina_de_los_escombros_tel\u00faricos_llave_peque\u00f1a_1",
       "confidence_score": 1.0
     },
     {
@@ -230476,7 +230476,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_3_la_sima_del_miasma_oscuro",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_3_la_sima_de_los_temblores_s\u00edsmicos",
       "confidence_score": 1.0
     },
     {
@@ -230487,7 +230487,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_4_el_guerrero_armos_de_piedra_mini_boss_dungeon_item",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_4_el_guerrero_armos_de_granito_mini_boss_dungeon_item",
       "confidence_score": 1.0
     },
     {
@@ -230498,7 +230498,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_5_muro_de_mamposter\u00eda_agrietada_demolici\u00f3n",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_5_muro_de_piedra_fr\u00e1gil_demolici\u00f3n_isaac",
       "confidence_score": 1.0
     },
     {
@@ -230509,7 +230509,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_6_el_ca\u00f1\u00f3n_de_la_esfera_de_basalto_rodante_llave_del_boss",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_6_el_ca\u00f1\u00f3n_del_rodillo_de_basalto_de_500_lbs_llave_del_boss",
       "confidence_score": 1.0
     },
     {
@@ -230520,7 +230520,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_7_el_port\u00f3n_de_la_m\u00e1scara_de_piedra",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_7_el_port\u00f3n_del_sello_de_anclas_de_basalto",
       "confidence_score": 1.0
     },
     {
@@ -230531,7 +230531,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_recorrido_verbatim_sala_por_sala_earth_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_8_arena_de_el_tit\u00e1n_de_basalto_jalhalla_scaldera_boss",
+      "target": "7_dm_oneshots_arepeat_subdungeons_04_subdungeon_tierra_dominio_room_8_arena_de_el_tit\u00e1n_de_basalto_scaldera_boss",
       "confidence_score": 1.0
     },
     {
@@ -230542,7 +230542,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_forest_temple_ocarina_of_time_twilight_princess",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_inside_the_great_deku_tree_oot_forbidden_woods_ww",
       "confidence_score": 1.0
     },
     {
@@ -230552,8 +230552,8 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_forest_temple_ocarina_of_time_twilight_princess",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_mapa_de_flujo_de_la_mazmorra_forest_temple_layout",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_inside_the_great_deku_tree_oot_forbidden_woods_ww",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_mapa_de_flujo_de_la_mazmorra_great_deku_tree_layout",
       "confidence_score": 1.0
     },
     {
@@ -230563,8 +230563,8 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_forest_temple_ocarina_of_time_twilight_princess",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_subdungeon_5_el_invernadero_ancestral_inspirada_en_inside_the_great_deku_tree_oot_forbidden_woods_ww",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
       "confidence_score": 1.0
     },
     {
@@ -230574,8 +230574,8 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_1_el_patio_central_del_invernadero_entrada",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_1_el_gran_tronco_hueco_entrada",
       "confidence_score": 1.0
     },
     {
@@ -230585,8 +230585,8 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_2_la_galer\u00eda_de_los_cuadros_espectrales_llave_peque\u00f1a_1",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_2_la_galer\u00eda_de_los_matorrales_deku_llave_peque\u00f1a_1",
       "confidence_score": 1.0
     },
     {
@@ -230596,8 +230596,8 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_3_el_pasillo_retorcido_de_vides",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_3_la_c\u00fapula_de_la_tela_de_ara\u00f1a_central",
       "confidence_score": 1.0
     },
     {
@@ -230607,8 +230607,8 @@
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_4_la_gran_deku_baba_tit\u00e1nica_mini_boss_dungeon_item",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_4_la_reina_deku_baba_de_las_ra\u00edces_mini_boss_dungeon_item",
       "confidence_score": 1.0
     },
     {
@@ -230618,41 +230618,41 @@
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_5_el_abismo_de_las_vides_germinadas_pasarela_vegetal",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_5_ca\u00edda_por_la_tela_de_ara\u00f1a_hacia_el_nivel_inferior",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
-      "source_location": "L68",
+      "source_location": "L67",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_6_el_jard\u00edn_del_bulbo_carn\u00edvoro_llave_del_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_6_el_estanque_del_bulbo_carn\u00edvoro_kalle_demos_llave_del_boss",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
-      "source_location": "L75",
+      "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_7_port\u00f3n_de_las_hojas_espectrales",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_7_el_port\u00f3n_de_las_esporas_de_la_ra\u00edz",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md",
-      "source_location": "L81",
+      "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_forest_temple_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_8_arena_de_el_bot\u00e1nico_de_sombras_phantom_ganon_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_recorrido_verbatim_sala_por_sala_deku_tree_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_05_subdungeon_vida_invernadero_room_8_arena_de_el_bot\u00e1nico_de_sombras_gohma_parasite_boss",
       "confidence_score": 1.0
     },
     {
@@ -230663,7 +230663,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_temple_of_time_spirit_temple",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_el_spirit_temple_ocarina_of_time_verbatim",
       "confidence_score": 1.0
     },
     {
@@ -230673,8 +230673,8 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_temple_of_time_spirit_temple",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_mapa_de_flujo_de_la_mazmorra_temple_of_time_layout",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_el_spirit_temple_ocarina_of_time_verbatim",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_mapa_de_flujo_de_la_mazmorra_spirit_temple_layout",
       "confidence_score": 1.0
     },
     {
@@ -230684,8 +230684,8 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_temple_of_time_spirit_temple",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_subdungeon_6_el_santuario_prism\u00e1tico_inspirada_en_el_spirit_temple_ocarina_of_time_verbatim",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
       "confidence_score": 1.0
     },
     {
@@ -230695,8 +230695,8 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_1_el_gran_atrio_del_tiempo_y_la_luz_entrada",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_1_el_atrio_de_la_diosa_de_la_arena_entrada",
       "confidence_score": 1.0
     },
     {
@@ -230706,8 +230706,8 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_2_la_galer\u00eda_de_la_estatua_de_la_retina_llave_peque\u00f1a_1",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_2_la_galer\u00eda_de_los_espejos_de_cobra_llave_peque\u00f1a_1",
       "confidence_score": 1.0
     },
     {
@@ -230717,8 +230717,8 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_3_la_sala_de_las_balanzas_solares",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_3_la_c\u00e1mara_del_tragaluz_solar_inclinado",
       "confidence_score": 1.0
     },
     {
@@ -230728,8 +230728,8 @@
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_4_el_guerrero_darknut_de_marfil_mini_boss_dungeon_item",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_4_el_caballero_iron_knuckle_de_la_diosa_mini_boss_dungeon_item",
       "confidence_score": 1.0
     },
     {
@@ -230739,8 +230739,8 @@
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_5_la_galer\u00eda_de_los_espejos_pivotantes_reflexi\u00f3n_de_haz",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_5_las_manos_de_la_estatua_del_coloso_navegaci\u00f3n_de_luz",
       "confidence_score": 1.0
     },
     {
@@ -230750,8 +230750,8 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_6_el_prisma_del_santo_sol_llave_del_boss",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_6_el_rostro_de_piedra_de_la_diosa_llave_del_boss",
       "confidence_score": 1.0
     },
     {
@@ -230761,8 +230761,8 @@
       "source_location": "L75",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
-      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_7_port\u00f3n_del_sol_primordial",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
+      "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_7_port\u00f3n_del_santuario_del_sol",
       "confidence_score": 1.0
     },
     {
@@ -230772,7 +230772,7 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_temple_of_time_walkthrough",
+      "source": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_recorrido_verbatim_sala_por_sala_spirit_temple_walkthrough",
       "target": "7_dm_oneshots_arepeat_subdungeons_06_subdungeon_luz_santuario_room_8_arena_de_el_espejismo_de_cristal_twinrova_boss",
       "confidence_score": 1.0
     },
@@ -232945,5 +232945,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4a2a09a0e3ec20b96921e8b940afcbfa3a8754cc"
+  "built_at_commit": "3fa8d3884ca4ffe84a071ed217eab940492c9d98"
 }
