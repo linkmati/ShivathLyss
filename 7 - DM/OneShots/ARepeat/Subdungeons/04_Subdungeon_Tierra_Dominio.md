@@ -1,111 +1,159 @@
-# 🪨 Subdungeon 4: El Dominio Telúrico (Layout No-Lineal & Dinámico estilo Snowhead Temple)
+# 🪨 Subdungeon 4: El Dominio Telúrico (Zelda Macro-Dungeon: Snowhead / Stone Tower Style)
 
 > **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md`  
-> **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask* - Edición Basalto 100% Roca)  
+> **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask*) + **Stone Tower Temple** (*Majora's Mask*)  
 > **Regla de Diseño DM**: **CERO BLOQUEOS POR TIRADA OBLIGATORIA (No Skill-Check Gates)**. La progresión es 100% interactiva, mecánica y espacial. Las tiradas de dados son opcionales (evitar daño, ir más rápido o hallar secretos), pero el avance obligatorio NUNCA requiere fallar/pasar un dado.  
-> **Estructura de Layout**: **Hub Central Cilíndrico (4 Pisos)** + **Exploración Paralela Libre (Ala Este / Ala Oeste / Foso Subterráneo B1)** + **Mecánica Dinámica de Anillos del Pilar Central** + **2 Caminos Independientes a la Llave del Boss**  
+> **Estructura de Layout**: **Hub Central de 4 Pisos + Foso B1** + **Macro-Gimmick: Alineación del Eje Rúnico (4 Estados Globales de Mazmorra)** + **Matriz No-Lineal de 3 Llaves Pequeñas e Intercambiables** + **Circuito de Vagoneras y Toboganes Verticales**  
 > **Dungeon Item**: *Martillo de Basalto* (Gran Megaton Hammer Telúrico)  
 > **Guardián de Área**: *El Titán de Basalto* (Inspirado en *Goht / Scaldera*)  
 > **Recompensa**: 🔓 Desbloqueo Permanente del Dominio Telúrico + Fragmento de Tablilla #4
 
 ---
 
-## 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Snowhead Complex Dynamic Multi-Floor Layout)
+## ⚙️ El Macro-Gimmick Global: Alineación del Eje Rúnico (4 Estados del Pilar Central)
+
+El corazón de la mazmorra es un Pilar Central de Basalto de 40 pies en un cilíndrico Hub Master (4 Pisos). El pilar está dividido en 4 anillos rúnicos (Rojo en 1F, Azul en 2F, Verde en 3F, Dorado en 4F). Asestar impactos con el *Martillo de Basalto* en los anillos los pulveriza, alterando mecánicamente la altura del pilar y las pasarelas que conecta en toda la mazmorra:
+
+* **ESTADO 0 (Eje Elevado - Inicio)**: Conecta 1F Hub $\leftrightarrow$ 1F Este (Catacumbas) y 1F Oeste (Mina). Pisos 2 y 3 inaccesibles.
+* **ESTADO I (Anillo Rojo Destruido)**: El pilar desciende 10 ft. Conecta 1F Hub $\leftrightarrow$ 2F Norte (Armería) y 2F Este (Cripta).
+* **ESTADO II (Anillo Azul Destruido)**: El pilar desciende otros 10 ft. Conecta 2F West $\leftrightarrow$ 3F East (Cañón Rodante) y 3F West (Pegs). Cúspide al alcance de 3F.
+* **ESTADO III (Geiser Neumático B1 Activado)**: Presionar la válvula neumática en el Foso B1 eleva una columna de vapor magmático que reinstala los anillos de basalto, **reiniciando la altura del pilar al Estado 0** a voluntad del grupo para resolver salas opcionales o rehacer recorridos.
+
+---
+
+## 🔑 Matriz No-Lineal de Llaves Pequeñas y Candados Intercambiables
+
+El grupo puede encontrar hasta **3 Llaves Pequeñas (🗝️A, 🗝️B, 🗝️C)** en cualquier orden y decidir en qué **Puerta Candado (🚪1, 🚪2, 🚪3)** gastarlas primero, alterando el orden de resolución:
+
+| Llave Pequeña | Ubicación Inicial | Acceso |
+| :--- | :--- | :--- |
+| **🗝️ Llave A** | Cofre sumergido en escombros (Room 2: Catacumbas 1F) | Libre desde 1F Este |
+| **🗝️ Llave B** | Cofre en cornisa tras colapso de vagonera (Room 3: Mina 1F) | Requiere empujar vagonera (Libre 1F Oeste) |
+| **🗝️ Llave C** | Cofre en cavidad rúnica (Room 4: Foso B1) | Requiere bajar por la grieta del Hub (Libre B1) |
+
+| Puerta Candado | Destino | Ventaja de Abrir Primero |
+| :--- | :--- | :--- |
+| **🚪 Puerta 1** | Room 5: Armería Norte (Piso 2) | Acceso temprano al **Martillo de Basalto** (Dungeon Item). |
+| **🚪 Puerta 2** | Room 7: Cañón Rodante (Piso 3 Este) | Desbloquea la red de rieles y el circuito de vagoneras directa a 1F. |
+| **🚪 Puerta 3** | Room 8: Sala de Bloques Peg (Piso 3 Oeste) | Acceso directo a la válvula del Geiser Neumático para ciclar el Pilar. |
+
+---
+
+## 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Zelda Matrix Flowchart)
 
 ```mermaid
 graph TD
-    S1["Room 1: Base del Pilar Central (Hub Master - 4 Pisos)"] -->|Opcion Libre A: Ala Este| S2["Room 2: Ala Este - Catacumbas de Basalto (Piso 1)"]
-    S1 -->|Opcion Libre B: Ala Oeste| S3["Room 3: Ala Oeste - Mina de Rieles y Vagoneras (Piso 1)"]
-    S1 -->|Opcion Libre C: Atajo Foso| S2_3_Foso["Room 2B: Foso Tectonico (Piso B1 - Conecta Este/Oeste)"]
+    S1["Room 1: Base del Pilar Central (Hub Master - 4 Pisos & B1)"] -->|Exploracion Libre 1F Este| S2["Room 2: Catacumbas 1F (Contiene 🗝️A)"]
+    S1 -->|Exploracion Libre 1F Oeste| S3["Room 3: Mina de Rieles 1F (Contiene 🗝️B)"]
+    S1 -->|Descenso Libre B1| S4["Room 4: Foso Tectonico B1 (Contiene 🗝️C)"]
     
-    S2 -->|Puzle Catacumbas: Limpiar Escombros| S2_Key["Cofre: Llave Pequena A"]
-    S3 -->|Puzle Vagoneras: Descarrilar Vagonera| S3_Key["Cofre: Llave Pequena B"]
-    S2_3_Foso -->|Bypass Foso: Subir directamente a 2F| S4
+    S2 -->|Tunel Secreto de Roca| S4
+    S3 -->|Vagonera Caida| S1
     
-    S2_Key & S3_Key -->|Desbloqueo Dual de Armeria| S4["Room 4: Armeria Norte (Piso 2) - Mini-Boss Armos"]
-    S4 -->|COFRE MAESTRO| Item["ITEM: Martillo de Basalto"]
+    S2 & S3 & S4 -->|Decidir gastar 🗝️ en 🚪1| S5["Room 5: Armeria Norte 2F (Mini-Boss Armos)"]
+    S2 & S3 & S4 -->|Decidir gastar 🗝️ en 🚪2| S7["Room 7: Canon Rodante 3F (Rieles / Circuito)"]
+    S2 & S3 & S4 -->|Decidir gastar 🗝️ en 🚪3| S8["Room 8: Bloques Peg 3F (Valvula Geiser)"]
     
-    Item -->|Smash Anillo Rojo en Piso 1| S5["Room 5: Primer Smash - Anillo Rojo (Piso 1)"]
-    S5 -->|Pilar desciende 10ft| Align1["Alineamiento 1: Conecta Piso 2 con Piso 3"]
+    S5 -->|COFRE MAESTRO| Item["ITEM: Martillo de Basalto"]
     
-    Align1 -->|Explorar Piso 3 Este| S6["Room 6: Canon del Rodillo (Piso 3 Este)"]
-    Align1 -->|Explorar Piso 3 Oeste| S7["Room 7: Sala de Bloques Peg (Piso 3 Oeste)"]
+    Item -->|Smash Anillo Rojo en 1F| P_State1["ESTADO I: Pilar Cae 10ft (Conecta 2F)"]
+    Item -->|Smash Anillo Azul en 2F| P_State2["ESTADO II: Pilar Cae 10ft (Cus pide a Nivel 3F)"]
     
-    S6 -->|Soltar Esfera de Basalto| Shortcut1["Atajo: Tobogan Directo a Piso 1 Hub"]
-    S7 -->|Invertir Pegs Rojo/Azul| Bridge1["Pasarela Elevada a Cus pide"]
+    P_State1 --> S7
+    P_State1 --> S8
     
-    Align1 -->|Smash Anillo Azul en Piso 2| S8["Room 8: Segundo Smash - Anillo Azul (Piso 2)"]
-    S8 -->|Pilar desciende otros 10ft| Align2["Alineamiento 2: Cus pide Nivelada con Piso 3"]
+    S8 -->|Activar Geiser B1| P_Reset["ESTADO III: Reiniciar Pilar a Estado 0"]
+    P_Reset --> S1
     
-    Align2 & Bridge1 --> BossKey["COFRE: Llave del Boss 👑 (En Cus pide del Pilar)"]
+    P_State2 & S7 & S8 --> S9["Room 9: Cus pide del Pilar Central (Piso 3)"]
+    S9 -->|Abrir Cofre Dorado| BossKey["COFRE: Llave del Boss 👑"]
     
-    BossKey -->|Ascender por Escalera Perimetral o Trampolin Peg| S9["Room 9: Porton de la Cumbre Tectonica (Piso 4)"]
-    S9 --> S10["Room 10: Arena de Goht / El Titan de Basalto"]
-    S10 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 4"]
+    BossKey -->|Ascenso por Riel de Basalto o Escalera| S10["Room 10: Porton de la Cumbre Tectonica (Piso 4)"]
+    S10 --> S11["Room 11: Arena de Goht / El Titan de Basalto"]
+    S11 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 4"]
 ```
 
 ---
 
-## 🏛️ Recorrido Verbatim Sala por Sala con Puzles e Interconexiones
+## 🏛️ Recorrido Verbatim Sala por Sala (Mecánicas Zelda & Conexiones 3D)
 
-### Room 1: Base del Pilar Central (Hub Master - 4 Pisos)
-> *"Una majestuosa catedral cilíndrica de cuatro pisos. En su eje central se alza un monumental Pilar Central de Basalto de 40 pies formado por tres gigantescos Anillos Rúnicos desmontables (Rojo en 1F, Azul en 2F, Verde en 3F). En el Piso 1 existen tres accesos inmediatos: el Ala Este (Catacumbas), el Ala Oeste (Mina) y una grieta descendente al Foso Tectónico (Piso B1). En el Piso 2 se encuentra la Armería Norte (Locked 🔒 Puerta de Cerrojo Dual). En el Piso 4 domina el Portón de la Cumbre 🔒."*
-* **Mecánica No-Lineal**: El grupo tiene libertad total de explorar Ala Este, Ala Oeste o descender al Foso B1 desde el primer segundo. No hay orden impuesto.
+### Room 1: Base del Pilar Central (Hub Master - 4 Pisos & B1 Foso)
+> *"Un monumental cilindro tectónico de cuatro niveles cruzado por pasarelas concéntricas de granito. En el eje vertical se alza un Pilar Central de 40 pies compuesto por 4 gigantescos Anillos Rúnicos (Rojo, Azul, Verde, Dorado). Al inicio, las pasarelas de los pisos 2, 3 y 4 no coinciden con las puertas de los pisos superiores. Desde el suelo del Piso 1 se observan tres accesos: Catacumbas (Este), Mina de Rieles (Oeste) y el abismo del Foso Tectónico (Grieta B1)."*
+* **Mecánica Central**: Progresión totalmente interconectada. Ningún paso bloqueado por dados.
 
-### Room 2: 🧩 Ala Este (Piso 1): Catacumbas de Basalto (OoT / MM)
-> *"Un complejo de criptas donde temblores desprenden losas sobre sarcófagos antiguos."*
+---
+
+### Room 2: 🧩 Ala Este (Piso 1): Catacumbas de Basalto
+> *"Criptas subterráneas barridas por derrumbes constantes donde sarcófagos de granito descansan bajo losas quebradas."*
 * **Puzle Mecánico Sin Gating**:
-  1. Mover la piedra de falla (*Fuerza DC 11 opcional para despejar de un solo empuje, o 1 minuto de trabajo en equipo*) para liberar el acceso.
-  2. Derrotar 3x Escarabajos Telúricos.
-* **Botín**: Cofre con la **Llave Pequeña A 🗝️**.
-* **🔄 OPCIONES DE CONEXIÓN**:
-  - Volver al Hub (Room 1).
-  - Descender por la rampa trasera hacia el **Foso Tectónico (Room 2B)** para cruzar directamente al Ala Oeste sin pasar por el Hub.
+  1. Desplazar la piedra de falla de 300 lbs (*Fuerza DC 11 opcional para hacerlo de un solo empuje, o 1 minuto de palanca manual*) para despejar el pasaje.
+  2. Derrotar a 3x Escarabajos Telúricos.
+* **Botín**: Cofre con la **Llave Pequeña 🗝️A**.
+* **🔄 CONEXIONES NO-LINEALES**:
+  - Regresar al Hub (Room 1).
+  - Volar la pared de mampostería agrietada (o romperla con vagonera) para caer al **Foso Tectónico (Room 4)**.
 
-### Room 2B: 🧩 Foso Tectónico Subterráneo (Piso B1 - Atajo Inter-Alas)
-> *"Una caverna sin clavar por debajo del pilar central donde gruesas raíces tectónicas cruzan el abismo."*
-* **Mecánica Sin Gating**: Trepar por las raíces o accionar la palanca hidráulica permite moverse fluidamente entre Ala Este (Room 2) y Ala Oeste (Room 3), o subir mediante una escalera de contrapeso directamente al Piso 2 del Hub.
+---
 
-### Room 3: 🧩 Ala Oeste (Piso 1): Mina de Rieles y Vagoneras (TP / MM)
-> *"Un sistema de minería donde una vagonera de granito está trabada en la aguja de cambio de vía."*
+### Room 3: 🧩 Ala Oeste (Piso 1): Mina de Rieles y Vagoneras
+> *"Un complejo minero con rieles suspendidos sobre el vacío. Una vagonera de granito está encallada en el trinquete principal."*
 * **Puzle Mecánico Sin Gating**:
-  1. Girar el interruptor de la vía manualmente.
-  2. Soltar el trinquete de la vagonera para que ruede y colapse el muro de basalto débil.
-* **Botín**: Al caer el muro, se revela el cofre con la **Llave Pequeña B 🗝️**.
-* **🔄 RESOLUCIÓN PRE-ITEM**: Con la **Llave A** y la **Llave B** (o usando el elevador del Foso B1), el grupo asciende al Piso 2 del Hub y abre el cerrojo dual de la Armería Norte (Room 4).
+  1. Accionar la aguja del cambio de vía manualmente.
+  2. Soltar el pasador de freno de la vagonera. La vagonera ruede por la vía en pendiente y descarrila contra el muro inferior, derrumbando una cornisa.
+* **Botín**: El derrumbe hace caer el cofre con la **Llave Pequeña 🗝️B**.
+* **🔄 CONEXIONES NO-LINEALES**:
+  - La vía vacía despeja un túnel de retorno directo a la pasarela del **Hub 1F**.
 
-### Room 4: ⚔️ Mini-Boss (Piso 2 Norte): Armería Norte (Armos de la Cumbre MM)
-> *"Una armería abovedada donde un coloso autómata de granito despierta al pisar el altar tectónico."*
-* **Combate**: Armos de la Cumbre (AC 16, 52 HP). Golpear la gema de su espalda cuando gira.
+---
+
+### Room 4: 🧩 Foso Tectónico Subterráneo (Piso B1): La Geoda Neumática
+> *"Una caverna abisal bajo el templo alimentada por un geiser magmático encajonado en pistones de bronce."*
+* **Puzle Mecánico Sin Gating**: Girar la llave de paso de vapor permite accionar una plataforma elevadora de presión para subir a cualquier piso.
+* **Botín**: Cofre en nicho rúnico con la **Llave Pequeña 🗝️C**.
+* **Mecánica Reset (Estado III)**: Una vez obtenido el *Martillo de Basalto*, golpear el pistón principal del geiser dispara una columna de vapor que eleva el pilar central y restaura sus anillos desprendidos, reiniciando la mazmorra al **Estado 0** en cualquier momento.
+
+---
+
+### Room 5: ⚔️ Armería Norte (Piso 2): Mini-Boss Armos (Requiere 1x Llave Pequeña en 🚪1)
+> *"Una estancia abovedada en el Piso 2 donde un autómata gigante de granito de 12 pies permanece petrificado sobre un altar tectónico."*
+* **Combate**: Armos de la Cumbre (AC 16, 52 HP). Golpear la gema rúnica de su espalda cuando gira.
 * **🎁 COFRE MAESTRO**: Otorga el **Martillo de Basalto** (Gran Megaton Hammer capaz de pulverizar anillos de basalto, remaches tectónicos y bloques Peg).
 
-### Room 5: 🧩 Hub (Piso 1): Primer Smash al Pilar Central - Anillo Rojo (Snowhead MM)
-> *"Ante el Anillo de Basalto Rojo en la base del Pilar Central."*
-* **Puzle Mecánico Sin Gating**: Asestar un golpe de carga completa con el *Martillo de Basalto* sobre el remache del Anillo Rojo.
-* **Resultado**: ¡El Anillo Rojo de 10 pies sale despedido por los aires y se pulveriza! El Pilar Central desciende 10 pies hacia el suelo. Esto alinea la pasarela del Piso 2 directamente con las entradas del **Piso 3 Este (Room 6)** y **Piso 3 Oeste (Room 7)**.
+---
 
-### Room 6: 🧩 Piso 3 Este: Cañón del Rodillo de 500 lbs (Scaldera SS / MM)
-> *"Un corredor inclinado donde una esfera de basalto de 500 lbs descansa atrapada en una biela tectónica."*
-* **Puzle Mecánico Sin Gating**: Golpear la biela con el *Martillo de Basalto*. La esfera rueda destruyendo el muro inferior y creando un **Tobogán Atajo Permanente** directo al Piso 1 del Hub.
+### Room 6: 🧩 Hub Central: Mecanismo del Eje (Impactos de Martillo & Cambio de Estados)
+> *"Posicionarse ante los anillos del Pilar Central con el Martillo de Basalto."*
+* **Puzle de Estado I (Smash Anillo Rojo en 1F)**: Impactar el remache rojo pulveriza el Anillo Rojo. El pilar desciende 10 ft. **Las pasarelas de Piso 2 se alinean con las salas de Piso 3 (Room 7 y Room 8)**.
+* **Puzle de Estado II (Smash Anillo Azul en 2F)**: Impactar el remache azul pulveriza el Anillo Azul. El pilar desciende otros 10 ft. **La cúspide plana del pilar queda a nivel del Piso 3**, permitiendo caminar por encima de su corona.
 
-### Room 7: 🧩 Piso 3 Oeste: Sala de Bloques Peg Reversibles (Snowhead MM)
-> *"Una estancia con una matriz de bloques Peg intercambiables (Rojo elevado / Azul hundido)."*
-* **Puzle Mecánico Sin Gating**: Usar el *Martillo de Basalto* para rematar los bloques Peg rojos. Esto eleva los bloques Peg azules, formando una pasarela elevada hacia el eje del Pilar Central.
+---
 
-### Room 8: 🧩 Hub (Piso 2/3): Segundo Smash al Pilar - Anillo Azul & Llave del Boss (Snowhead MM)
-> *"Con las pasarelas del Piso 3 despejadas, el grupo se posiciona ante el Anillo de Basalto Azul del pilar."*
-* **Mecánica No-Lineal**:
-  1. Asestar un segundo golpe con el *Martillo de Basalto* en el Anillo Azul.
-  2. El pilar desciende otros 10 ft, dejando su **Cúspide plana** perfectamente nivelada con las pasarelas del Piso 3.
-* **Botín (Llave del Boss 👑)**:
-  - *Opción A*: Caminar libremente por encima de la cima del pilar desprendido.
-  - *Opción B*: Cruzar por la pasarela de Bloques Peg (Room 7) si se resolvió previamente.
-  - Cofre dorado con la **Llave del Boss 👑 (Llave de Goht)**.
+### Room 7: 🧩 Piso 3 Este: Cañón Rodante & Circuito de Vagoneras (🚪2)
+> *"Un canal inclinado por donde ruedan esferas de basalto de 500 lbs impulsadas por bielas mecánicas."*
+* **Puzle Mecánico Sin Gating**: Golpear la biela con el *Martillo de Basalto* frena el flujo de esferas y desvía la vía minera.
+* **Circuito de Vagonera**: Montar en la vagonera superior transporta a los jugadores en un vertiginoso viaje por el exterior del templo, aterrizando en la cornisa superior del Hub (Piso 3).
 
-### Room 9: 🔒 Portón de la Cumbre Tectónica (Piso 4)
-> *"Ascender por la escalera perimetral (o catapultarse mediante un bloque Peg invertido) al Piso 4 e insertar la Llave del Boss 👑."*
+---
 
-### Room 10: 💀 Boss Final: Goht / El Titán de Basalto (Snowhead MM)
+### Room 8: 🧩 Piso 3 Oeste: Sala de Bloques Peg Reversibles (🚪3)
+> *"Una estancia con una matriz de bloques Peg intercambiables (Rojos elevados / Azules hundidos)."*
+* **Puzle Mecánico Sin Gating**: Usar el *Martillo de Basalto* para rematar los bloques Peg rojos. Esto eleva los bloques Peg azules, formando una pasarela continua hacia la cúspide del pilar.
+* **Válvula del Geiser**: Contiene una palanca neumática secundaria que se conecta con el Foso B1 (Room 4).
+
+---
+
+### Room 9: 🧩 Cúspide del Pilar Central (Piso 3): La Llave del Boss 👑
+> *"Caminar por la corona de basalto del pilar central una vez alineado en Estado II o cruzar por la pasarela de Bloques Peg (Room 8)."*
+* **Botín**: Abrir el cofre dorado monumental para reclamar la **Llave del Boss 👑 (Llave de Goht)**.
+
+---
+
+### Room 10: 🔒 Portón de la Cumbre Tectónica (Piso 4)
+> *"Ascender por la escalera perimetral del Hub (o impulsarse en un bloque Peg invertido) al Piso 4 e insertar la Llave del Boss 👑."*
+
+---
+
+### Room 11: 💀 Boss Final: Goht / El Titán de Basalto (Snowhead MM)
 > *"Una monumental pista circular de basalto donde Goht embiste a gran velocidad envuelto en chispas y rocas."*
 * **Mecánica Boss**: Asestar martillazos mecánicos en las articulaciones de sus patas durante sus embestidas para hacerlo tropezar y rematar su vientre.
 * **Recompensa**: 🔓 Desbloqueo permanente del Dominio Telúrico + **Fragmento de Tablilla #4**.
