@@ -28,18 +28,18 @@ El análisis de mazmorras en *The Legend of Zelda* (respaldado por estudios de d
 
 ## 2. Matriz Comparativa de las Salas y Secuencias Elite
 
-| Mazmorra / Juego | Sala / Secuencia | Tipo de Mecánica / Momento | Nivel de Complejidad Puzle | Impacto Atmosférico |
-| :--- | :--- | :--- | :--- | :--- |
-| **Majora's Mask** | *Stone Tower Temple* - Emblem Flip Room | Inversión gravitacional de mazmorra completa | 10 / 10 | 10 / 10 |
-| **Skyward Sword** | *Ancient Cistern* - Underworld to Heaven Climb | Tránsito vertical inframundo/paraíso & Hilo de Araña | 8 / 10 | 10 / 10 |
-| **Ocarina of Time** | *Water Temple* - Room of Illusion (Dark Link) | Ilusión espacial sin límites visuales & Espejo combate | 6 / 10 | 10 / 10 |
-| **Link's Awakening** | *Eagle's Tower* - 4-Pillar Destruction Room | Demolición estructural para colapsar piso 4 en 3 | 9 / 10 | 7 / 10 |
-| **Skyward Sword** | *Sandship* - Timeshift Mast Sequence | Esfera de tiempo móvil recontextualizando cubierta | 9 / 10 | 9 / 10 |
-| **Twilight Princess** | *Snowpeak Ruins* - Mansion Kitchen (Yeto's Soup) | Hub de sopa interactivo & Transporte de balas de cañón | 7 / 10 | 9 / 10 |
-| **Twilight Princess** | *Arbiter's Grounds* - Spinner Tracks Central Chamber | Rail-riding vertical & Pista para Stallord | 8 / 10 | 9 / 10 |
-| **Tears of the Kingdom**| *Wind Temple* - Ark Sky Ascent & Trampoline Sails | Caída libre, corrientes de viento y salto en velas | 7 / 10 | 10 / 10 |
-| **Ocarina of Time** | *Forest Temple* - Twisted Corridor | Geometría distorsionada mediante interruptores de pared | 8 / 10 | 9 / 10 |
-| **A Link Between Worlds**| *Dark Palace* - Wall-Merge Light & Shadow Rooms | Fusión en pared 2D para ver objetos en oscuridad 3D | 8 / 10 | 8 / 10 |
+| Mazmorra / Juego          | Sala / Secuencia                                     | Tipo de Mecánica / Momento                              | Nivel de Complejidad Puzle | Impacto Atmosférico |
+| :------------------------ | :--------------------------------------------------- | :------------------------------------------------------ | :------------------------- | :------------------ |
+| **Majora's Mask**         | *Stone Tower Temple* - Emblem Flip Room              | Inversión gravitacional de mazmorra completa            | 10 / 10                    | 10 / 10             |
+| **Skyward Sword**         | *Ancient Cistern* - Underworld to Heaven Climb       | Tránsito vertical inframundo/paraíso & Hilo de Araña    | 8 / 10                     | 10 / 10             |
+| **Ocarina of Time**       | *Water Temple* - Room of Illusion (Dark Link)        | Ilusión espacial sin límites visuales & Espejo combate  | 6 / 10                     | 10 / 10             |
+| **Link's Awakening**      | *Eagle's Tower* - 4-Pillar Destruction Room          | Demolición estructural para colapsar piso 4 en 3        | 9 / 10                     | 7 / 10              |
+| **Skyward Sword**         | *Sandship* - Timeshift Mast Sequence                 | Esfera de tiempo móvil recontextualizando cubierta      | 9 / 10                     | 9 / 10              |
+| **Twilight Princess**     | *Snowpeak Ruins* - Mansion Kitchen (Yeto's Soup)     | Hub de sopa interactivo & Transporte de balas de cañón  | 7 / 10                     | 9 / 10              |
+| **Twilight Princess**     | *Arbiter's Grounds* - Spinner Tracks Central Chamber | Rail-riding vertical & Pista para Stallord              | 8 / 10                     | 9 / 10              |
+| **Tears of the Kingdom**  | *Wind Temple* - Ark Sky Ascent & Trampoline Sails    | Caída libre, corrientes de viento y salto en velas      | 7 / 10                     | 10 / 10             |
+| **Ocarina of Time**       | *Forest Temple* - Twisted Corridor                   | Geometría distorsionada mediante interruptores de pared | 8 / 10                     | 9 / 10              |
+| **A Link Between Worlds** | *Dark Palace* - Wall-Merge Light & Shadow Rooms      | Fusión en pared 2D para ver objetos en oscuridad 3D     | 8 / 10                     | 8 / 10              |
 
 ---
 
