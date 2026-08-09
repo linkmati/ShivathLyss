@@ -354,5 +354,6 @@
   "352": "UIModeSettingsComponent",
   "353": "YAMLError",
   "354": "YAMLParseError",
-  "355": "YAMLWarning"
+  "355": "YAMLWarning",
+  "356": "getIconAsJSX"
 }

@@ -1080,8 +1080,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md": {
-    "mtime": 1786241437.270558,
-    "ast_hash": "b996e9f5cd071bde8066a645d2ab0d49",
+    "mtime": 1786241872.5412083,
+    "ast_hash": "a9a62f18730f3f37795d7974f6e135cd",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md": {
@@ -1177,6 +1177,396 @@
   "test4.js": {
     "mtime": 1786238563.8359601,
     "ast_hash": "45909f3384fea8f09cd6c83e283a931b",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/01_Atrio_de_Entrada.md": {
+    "mtime": 1786241711.7701826,
+    "ast_hash": "46d634014a8ba5b5cf1cd47a91d80eab",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/02_Sala_Secreta_Pura.md": {
+    "mtime": 1786241714.8763688,
+    "ast_hash": "2372e7b75092778d29c7ab9303c7a129",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/03_Sala_Super_Secreta.md": {
+    "mtime": 1786241717.1940365,
+    "ast_hash": "ac3ca7c106c86409a0a7d578ec93779e",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/04_Altar_del_Sacrificio_Arcano.md": {
+    "mtime": 1786241719.63053,
+    "ast_hash": "680620e06e6ff13fe77fa2e676ebd6dc",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/05_Mercado_Espectral.md": {
+    "mtime": 1786241721.8335266,
+    "ast_hash": "b5237cdd05e02dc249336d94831810f2",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/06_Sala_del_Dado_Arcano.md": {
+    "mtime": 1786241723.7529032,
+    "ast_hash": "d62e1777973c0d061b61f8f650582707",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/07_Bascula_de_Contrapesos.md": {
+    "mtime": 1786241725.995083,
+    "ast_hash": "b3a715313b1248e48c20b44080111488",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/08_Clave_de_Engranajes_Murales.md": {
+    "mtime": 1786241728.165033,
+    "ast_hash": "98e53b80f2d7d5064a3a6872b9dbaf79",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/09_Puerta_de_la_Fundicion_Fria.md": {
+    "mtime": 1786241730.1943321,
+    "ast_hash": "8a2d61445035073c71a473d2a3020966",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/10_Galeria_de_Cuerdas_Tensadas.md": {
+    "mtime": 1786241732.3251486,
+    "ast_hash": "e03070db10659d04c911a90d5ef21476",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/11_Taller_de_Relojeria_Runica.md": {
+    "mtime": 1786241734.295427,
+    "ast_hash": "34caae475c6bd858ae390c2a86c82caf",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md": {
+    "mtime": 1786241736.1313624,
+    "ast_hash": "c2849a9b98a60828ee4ff5c46bc0b3a7",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/13_Umbral_de_Decodificacion_Arcana.md": {
+    "mtime": 1786241738.1771452,
+    "ast_hash": "4aa7c981ff6940caf89a479efa700ea4",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/14_Relieve_del_Eco_Espectral.md": {
+    "mtime": 1786241740.3324993,
+    "ast_hash": "54b50aec9a06021949e892e69b67ac48",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/15_Cristal_de_Espinas_Sumiso.md": {
+    "mtime": 1786241742.3822215,
+    "ast_hash": "496d228626627c318d829f9f486efc3e",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/16_Umbral_de_Vides_Sensibles.md": {
+    "mtime": 1786241744.6338694,
+    "ast_hash": "3ca0b8f4ad63bfa0fad3541767910f73",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/17_Relieve_de_Miradas_Cambiantes.md": {
+    "mtime": 1786241746.3756833,
+    "ast_hash": "3fb3eac3892e4eea555dcb415665f075",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/18_Interruptor_Runico_Peg.md": {
+    "mtime": 1786241748.1958969,
+    "ast_hash": "89df48aeb3a8c10badea9efcfb5ac72d",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/19_Pasaje_de_Bloques_Azules.md": {
+    "mtime": 1786241750.305674,
+    "ast_hash": "f026abb5f1f5a4ac313c5af1cf9a699b",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/20_Camara_de_Bloques_Rojos.md": {
+    "mtime": 1786241752.2120302,
+    "ast_hash": "e9ef013c974354380b81c4f57e4e6886",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/21_Sello_del_Molde_de_Llave.md": {
+    "mtime": 1786241754.1618204,
+    "ast_hash": "fa0220edb73c7dd6513ea461eca36624",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/22_Consola_de_Inversion_Gravitatoria.md": {
+    "mtime": 1786241756.2033427,
+    "ast_hash": "4a4f9819914bdd8da8990e93b71a7d3e",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/23_Boveda_de_Salida.md": {
+    "mtime": 1786241758.1532269,
+    "ast_hash": "74173257e777c20767039dda57717bbb",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/01_La_Caldera_de_Escoria_Magmatica.md": {
+    "mtime": 1786241760.8199027,
+    "ast_hash": "ac23281d65783ed29b75d9ae44786419",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/02_El_Horno_de_Enfriamiento_Termico.md": {
+    "mtime": 1786241763.1378849,
+    "ast_hash": "1551f21fc679ce56b670f61d491396cc",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/03_La_Galeria_de_las_Cuatro_Antorchas.md": {
+    "mtime": 1786241764.9985132,
+    "ast_hash": "a023dcb408951e0f75b18ab5983f7832",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/04_El_Laberinto_de_Magma_Fluido.md": {
+    "mtime": 1786241767.0689828,
+    "ast_hash": "011200f47d0ee26dc74886fa3265aae7",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/05_La_Grieta_del_Vapor_Termico.md": {
+    "mtime": 1786241769.0952215,
+    "ast_hash": "11dde620e60d1e3568d9b9a4bfda6684",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/06_Horno_de_Fundicion_Molde.md": {
+    "mtime": 1786241770.9538333,
+    "ast_hash": "358073d880d36d102c67d6c703ce1cd9",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/07_Horno_Magmatico_Inferior.md": {
+    "mtime": 1786241772.6159217,
+    "ast_hash": "bbc39264f2b6f9f952179f31f40891ff",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/01_El_Deposito_de_las_Tres_Cisternas.md": {
+    "mtime": 1786241774.5887585,
+    "ast_hash": "291bf59aee3aaf25340b8c39fdf7030f",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/02_El_Carril_de_las_Balsas_Sumergidas.md": {
+    "mtime": 1786241776.4919026,
+    "ast_hash": "6fd00496ffcaa4bc54791da819517ac6",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/03_El_Conducto_de_Agua_Hirviendo.md": {
+    "mtime": 1786241778.5296276,
+    "ast_hash": "a727a9b249400f7dd0f59316af811152",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/04_El_Acuifero_de_los_Pilares_Sumergidos.md": {
+    "mtime": 1786241780.388462,
+    "ast_hash": "4af2e581bebcdbf9956fe09c397c2f07",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/05_La_Camara_de_las_Esclusas_Sincronizadas.md": {
+    "mtime": 1786241782.5817473,
+    "ast_hash": "8db63b28be80d1ba319e6b51ebc274a7",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/06_Cisterna_Maestro.md": {
+    "mtime": 1786241784.3646865,
+    "ast_hash": "010050792d228e678b26af654a1cb1d8",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/07_Camara_de_Filtros.md": {
+    "mtime": 1786241786.0041215,
+    "ast_hash": "61710dcea5167cec631ff9eaca29e20a",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/08_Esclusa_de_Salida.md": {
+    "mtime": 1786241787.7497115,
+    "ast_hash": "c4b827dbdbc2278238daf09babaf3540",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/01_La_Torre_del_Viento_Ascendente.md": {
+    "mtime": 1786241789.6389012,
+    "ast_hash": "2911241683827d59ccb342028026ee44",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/02_El_Obelisco_de_la_Vela_Solar.md": {
+    "mtime": 1786241791.42993,
+    "ast_hash": "a49a2220900c99fcba6b2ee0a5e7e420",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/03_Las_Fisuras_Termicas_Micro_Gaseosas.md": {
+    "mtime": 1786241793.3990119,
+    "ast_hash": "792ee4fc631e6c700038c85b9b2e65e9",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/04_La_Camara_del_Vacio_Venturi.md": {
+    "mtime": 1786241795.2327347,
+    "ast_hash": "96e555a16d6795d95a7656f45d4078f3",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/05_El_Balcon_del_Planeador_de_Bronce.md": {
+    "mtime": 1786241797.1627474,
+    "ast_hash": "1e9cd3e75d098cf7400eb2868bc2069e",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/06_Pozo_de_Viento_Ascendente.md": {
+    "mtime": 1786241798.8893719,
+    "ast_hash": "a6219520d3acca9c19f20026cfb7d85c",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/07_Balcon_de_Salida.md": {
+    "mtime": 1786241800.52692,
+    "ast_hash": "050d8e6077259b4e1abf1955fd47867f",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/08_Conducto_Neumatico.md": {
+    "mtime": 1786241802.2836704,
+    "ast_hash": "4bec64627fcf1249cb1640e6d12b2df6",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/03_Set_Aire/09_Torre_de_Bloques_Flotantes.md": {
+    "mtime": 1786241804.2249014,
+    "ast_hash": "f474795ce878d921c072246b6dde6e53",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/01_El_Pilar_de_Anclas_de_Basalto.md": {
+    "mtime": 1786241806.1732843,
+    "ast_hash": "253f9a0e559989fff7481e718b58e833",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/02_La_Balanza_de_Peso_y_Catapulta.md": {
+    "mtime": 1786241808.0136864,
+    "ast_hash": "802820a17211642013bf2429257e5b38",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/03_Muro_de_Piedra_Fragil.md": {
+    "mtime": 1786241809.987613,
+    "ast_hash": "21680a23cce7e1c5f346b7c8b2547bf1",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/04_La_Sima_de_los_Temblores_Teluricos.md": {
+    "mtime": 1786241812.0375783,
+    "ast_hash": "196fb0ea92dca4d5a3325bffa44c32fd",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/05_El_Canon_del_Rodillo_de_Basalto.md": {
+    "mtime": 1786241813.8479922,
+    "ast_hash": "98ebb39f50d423f51d6863b650ad5013",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/06_Mina_de_Aleacion_Maleable.md": {
+    "mtime": 1786241815.6872993,
+    "ast_hash": "a2f0523fcd73e5153ae47f7a2789f706",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/07_Consola_de_Grua_de_Basalto.md": {
+    "mtime": 1786241817.298806,
+    "ast_hash": "8d3cd8c95c3fa9ae3fa768017080e94f",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/08_Camara_del_Bloque_Volado.md": {
+    "mtime": 1786241818.9475982,
+    "ast_hash": "02f544fad8e91ee8596fad77bbbd7934",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/04_Set_Tierra/09_Sello_de_Presion_de_Basalto.md": {
+    "mtime": 1786241820.4244173,
+    "ast_hash": "4a02e5f5dea9d6b7928c6c5eab875c2d",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/01_El_Invernadero_del_Hongo_Trampolin.md": {
+    "mtime": 1786241822.5736654,
+    "ast_hash": "c1e19dbd7bd3c4a31f0021454e704b35",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/02_La_Compuerta_de_Vides_Arcanas.md": {
+    "mtime": 1786241824.2925277,
+    "ast_hash": "e01955fcf00b8de38aede1505f29bd81",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/03_El_Invernadero_de_Esporas_Durmientes.md": {
+    "mtime": 1786241826.4481187,
+    "ast_hash": "0af1f3f3cb3f1041fd9341f54908287b",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/04_El_Jardin_de_la_Flora_Bioluminiscente.md": {
+    "mtime": 1786241828.2364788,
+    "ast_hash": "180b11c8868c047d655188532179ec67",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/05_El_Bulbo_Carnivoro_del_Nucleo.md": {
+    "mtime": 1786241830.2311993,
+    "ast_hash": "a3390c75261a8655dbefc6d12f9ec3a2",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/06_Invernadero_de_Esporas_Infeccioso.md": {
+    "mtime": 1786241832.14669,
+    "ast_hash": "a7607fa03ccbfeb12b492c201968812c",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/07_Purificador_Ambiental.md": {
+    "mtime": 1786241833.8803654,
+    "ast_hash": "ffd5380ba2fbe69c5459c70a55065a6c",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/01_La_Galeria_de_los_Espejos_en_Cadena.md": {
+    "mtime": 1786241835.9811454,
+    "ast_hash": "3695713fd1dadf0f8ba9c113a4e23cc1",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/02_La_Camara_de_las_Sombras_Cuanticas.md": {
+    "mtime": 1786241838.1156893,
+    "ast_hash": "d28a07898e29828610853c9054dbb769",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/03_La_Sala_de_la_Perspectiva_Anamorfica.md": {
+    "mtime": 1786241840.1433816,
+    "ast_hash": "b105d33b91561b629e516228bc582adf",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/04_El_Prisma_del_Santo_Sol.md": {
+    "mtime": 1786241842.0071847,
+    "ast_hash": "e22c49325b8ac1b3d2393082536e0aa8",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/05_La_Camara_de_los_Clones_de_Penumbra.md": {
+    "mtime": 1786241844.1529474,
+    "ast_hash": "63cd3d19b055021cbe94fad55f178e58",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/06_Tragaluz_Solar_de_Orientacion.md": {
+    "mtime": 1786241846.1014833,
+    "ast_hash": "388ff3794e1fd7f02f429f47df712e45",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/07_Galeria_de_Espejos_Pivotantes.md": {
+    "mtime": 1786241847.9456644,
+    "ast_hash": "5415749aa64ad3b415a7b7651f53af4b",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/08_Receptor_de_Luz_Final.md": {
+    "mtime": 1786241849.6485925,
+    "ast_hash": "381674738d49141e35628a0e8f2b0adf",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/01_Sanctum_12_El_Juicio_de_Minos.md": {
+    "mtime": 1786241852.366207,
+    "ast_hash": "524ad5e23f358e9af923d16a46760300",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/02_Arena_del_Senor_del_Crisol.md": {
+    "mtime": 1786241854.4455214,
+    "ast_hash": "9b212977c6b56043677eb6c2cf7ead2e",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/03_Arena_de_la_Quimera_Hidraulica.md": {
+    "mtime": 1786241856.2376945,
+    "ast_hash": "6e205598fad3b05a919527346687c5f6",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/04_Arena_del_Coloso_del_Vertice.md": {
+    "mtime": 1786241857.977976,
+    "ast_hash": "ddf86206006a503494078848faac9b66",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/05_Arena_del_Titan_de_Basalto.md": {
+    "mtime": 1786241859.7704945,
+    "ast_hash": "794b9c976f6f54022be7284ebfdc3630",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/06_Arena_del_Botanico_de_Sombras.md": {
+    "mtime": 1786241861.5356455,
+    "ast_hash": "75412f2c405d198a1e536dd1eb86a24b",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/07_Arena_del_Espejismo_de_Cristal.md": {
+    "mtime": 1786241863.3511636,
+    "ast_hash": "1f94ce435a4339f8df44bb79a7bba7f1",
     "semantic_hash": ""
   }
 }

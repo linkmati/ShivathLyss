@@ -1,11 +1,11 @@
 # Graph Report - Shivath  (2026-08-09)
 
 ## Corpus Check
-- 235 files · ~601,336 words
+- 313 files · ~622,528 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 4915 nodes · 13900 edges · 278 communities (231 shown, 47 thin omitted)
+- 5632 nodes · 14539 edges · 356 communities (297 shown, 59 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 1594 edges (avg confidence: 0.61)
 - Token cost: 0 input · 0 output
 
@@ -110,14 +110,18 @@
 - blockString
 - Group
 - .toJS
+- 01. 👑 Sanctum 12: El Juicio de Minos (Reactor Central)
 - El Flujo Narrativo: De Principio a Fin
 - SuggestionModal
 - obsidian-excalidraw-plugin/manifest.json
+- SuggestionModal
 - FASE 1: Dentro del Orbe (Mientras el agua hierve)
 - Hr
 - Nemorias.md
 - Suggester
+- 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room)
 - refresh
+- 03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)
 - Wiki
 - s$7
 - Group
@@ -133,57 +137,90 @@
 - WO
 - Guía de Diseño y Estructura de Jefes (Boss Design Framework)
 - 00-Resumen_Definitivo.md
+- 07. ⚖️ Báscula de Contrapesos
+- 09. 🕯️ Puerta de la Fundición Fría
 - Marco de Referencia Metodológico para Diseño de Jefes (Boss Design Framework)
 - obsidian-git/manifest.json
 - b$4
 - getDataURL
 - resolveTokenizedString
 - tinf_uncompress
+- 12. 📜 Archivo de Tablillas Rascadas
 - Deep Research Report: Momentos "Aha!" y Arquitectura de Salas de Metroidvanias Aplicados al Diseño de Dungeons
 - .render
 - changeThemeOfExcalidrawMD
 - Panteones.md
 - Káeon.md
+- 13. 🔮 Umbral de Decodificación Arcana
 - listRefs
 - The Cobalt Rain.md
 - Marcus Halberstram
 - Guía de Diseño: Dungeon Macro-Puzzle TTRPG (Zelda + Outer Wilds + Blue Prince)
 - Vitra
 - h$2
+- 16. 🌿 Umbral de Vides Sensibles
+- 18. ⚙️ Interruptor Rúnico (Conmutador Peg)
 - El Fragmento que Habla.md
+- 19. 🧊 Pasaje de Bloques Azules
 - Nu Varak.md
 - ObsidianMenu
+- 21. 🗝️ Sello del Molde de Llave
+- 22. ⚖️ Consola de Inversión Gravitatoria
+- 01. 🟁 La Caldera de Escoria Magmática
+- 03. 🔥 La Galería de las Cuatro Antorchas
 - getElementMatrix
 - Deep Research Report: Narrativa No Lineal, Red de Rumores y Progresión por Conocimiento (Outer Wilds y la Metroidbrainia)
+- 04. 🔴 El Laberinto de Magma Fluido
+- 05. ♨️ La Grieta del Vapor Térmico
 - Sala Vieja
 - FrontmatterEditor
+- 06. 🔥 Horno de Fundición (Molde de Cera)
+- 07. 🌋 Horno Magmático Inferior
+- 01. 🌊 El Depósito de las Tres Cisternas
 - isPointOnText
 - Regla de Acumulación
 - CommandManager
 - addName
+- 02. 🚰 El Carril de las Balsas Sumergidas
+- 03. 💧 El Conducto de Agua Hirviendo
 - The Iridescent Path.md
 - m0
 - Elos.md
 - Sistema Marcial de Arcadum (Verum)
+- 05. 🔀 La Cámara de las Esclusas Sincronizadas
+- 06. 🌊 Cisterna Maestro (Control Hidráulico)
 - generateFileHtml
 - CropImage
 - YAMLError
+- 07. 💧 Cámara de Filtros (Nivel Despejado)
 - search_ledger.py
 - app.json
 - Agent Rules for Shivath Workspace
 - Excalidraw Data
+- 01. 🌬️ La Torre del Viento Ascendente
 - ExcalidrawScene
+- 02. ⛵ El Obelisco de la Vela Solar Giratoria
 - CropImage
+- 03. 💨 Las Fisuras Térmicas Micro-Gaseosas
 - Morierelth.md
 - PromisePool
 - Random
+- 04. 🌀 La Cámara del Vacío Venturi
 - Xr
 - b$4
+- 05. 🪶 El Balcón del Planeador de Bronce
+- 06. 🌬️ Pozo de Viento Ascendente
+- 07. 🪶 Balcón de Salida
 - .onloadOnLayoutReady
 - .onOpen
 - Waiting for Godot
 - Web Access & AI Scraping
+- 08. 💨 Conducto Neumático
 - pa
+- 09. 🌀 Torre de Bloques Flotantes
+- 01. ⚓ El Pilar de Anclas de Basalto
+- 02. ⚖️ La Balanza de Peso y Catapulta
+- 03. 🟅 Muro de Piedra Frágil (Muro Agrietado Isaac)
 - The Blue Chronicle.md
 - Aphor Wyrm.md
 - .renderScriptButtons
@@ -194,20 +231,61 @@
 - rules/graphify.md
 - workflows/graphify.md
 - GEMINI.md
+- 05. 🪨 El Cañón del Rodillo de Basalto
 - Shefir.md
+- 06. ⛏️ Mina de Aleación Maleable
 - Patrones/Quatreva.md
 - The Red Hunter.md
 - The Shard That Speaks.md
 - The Thornfather.md
 - Patrones/Valdros.md
+- 07. 🗿 Consola de Grúa de Basalto
+- 08. 🟅 Cámara del Bloque Volado
+- 09. 🟅 Sello de Presión de Basalto
+- 01. 🌱 El Invernadero del Hongo Trampolín
+- 02. 🌿 La Compuerta de Vides Arcanas
+- 03. 🍄 El Invernadero de Esporas Durmientes
+- 04. 🌸 El Jardín de la Flora Bioluminiscente
+- 05. 🪷 El Bulbo Carnívoro del Núcleo
 - test.js
 - test2.js
 - test3.js
 - test4.js
 - dependencies
+- 06. 🍄 Invernadero de Esporas Infeccioso
+- 07. 🌿 Purificador Ambiental
 - EditorHandler
+- 02. 🌌 La Cámara de las Sombras Cuánticas
+- 03. 👁️ La Sala de la Perspectiva Anamórfica
+- 04. 🌈 El Prisma del Santo Sol
+- 05. 👥 La Cámara de los Clones de Penumbra
+- 06. ☀️ Tragaluz Solar de Orientación
+- 07. 🪞 Galería de Espejos Pivotantes
+- 08. 🌈 Receptor de Luz Final
+- 02. 🔥 Arena del Señor del Crisol (Guardián de Fuego)
+- 03. 🌊 Arena de la Quimera Hidráulica (Guardián de Agua)
+- 04. 🌬️ Arena del Coloso del Vértice (Guardián de Aire)
+- 05. 🪨 Arena del Titán de Basalto (Guardián de Tierra)
 - ExcalidrawConfig
+- 06. 🍄 Arena del Botánico de Sombras (Guardián de Vida)
 - ScriptInstallPrompt
+- 07. 🪞 Arena del Espejismo de Cristal (Guardián de Luz)
+- 06. 🎲 Sala del Dado Arcano (Arcade Room)
+- 23. 🚪 Bóveda de Salida
+- 08. 🚰 Esclusa de Salida (Portón Final)
+- .harvestStyles
+- ImportSVGDialog
+- renderLinkSuggestion
+- s$7
+- e$5
+- getTags
+- .help
+- EmbeddalbeMDFileCustomDataSettingsComponent
+- ModifierKeySettingsComponent
+- UIModeSettingsComponent
+- YAMLError
+- YAMLParseError
+- YAMLWarning
 
 ## God Nodes (most connected - your core abstractions)
 1. `ExcalidrawAutomate` - 365 edges
@@ -222,7 +300,7 @@
 10. `t()` - 107 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `g8()` --indirect_call--> `t()`  [INFERRED]
+- `WT()` --indirect_call--> `l()`  [INFERRED]
   .obsidian/plugins/obsidian-git/main.js → .obsidian/plugins/obsidian-excalidraw-plugin/main.js
 - `generateDungeon()` --indirect_call--> `nk()`  [INFERRED]
   script_clean2.js → .obsidian/plugins/obsidian-git/main.js
@@ -236,19 +314,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (278 total, 47 thin omitted)
+## Communities (356 total, 59 thin omitted)
 
 ### Community 0 - "obsidian-excalidraw-plugin/main.js"
 Cohesion: 0.01
-Nodes (252): a$7(), allwaysPassedUseAttrs, anyModifierKeysPressed(), applyArabicRequireLigatures(), applyLatinLigatures(), attrHandlers, bezier(), binary (+244 more)
+Nodes (252): allwaysPassedUseAttrs, anyModifierKeysPressed(), applyArabicPresentationForms(), applyArabicRequireLigatures(), applyLatinLigatures(), attrHandlers, b$2(), binary (+244 more)
 
 ### Community 1 - "obsidian-git/main.js"
 Cohesion: 0.01
-Nodes (272): $0(), $1(), $2(), A2(), a5(), AC(), activateCodeMirrorExtensions(), activateFeature() (+264 more)
+Nodes (322): $0(), $1(), $2(), A2(), a5(), AC(), activateCodeMirrorExtensions(), activateFeature() (+314 more)
 
 ### Community 2 - "ExcalidrawView"
-Cohesion: 0.04
-Nodes (10): calculateUIModeValue(), ExcalidrawView, exportImageToFile(), foldExcalidrawSection(), getFrameBasedOnFrameNameOrId(), setLeftHandedMode(), setMobileNavbarPosition(), setUIMode() (+2 more)
+Cohesion: 0.03
+Nodes (21): calculateUIModeValue(), deleteAppStateKeys(), ExcalidrawView, exportImageToFile(), foldExcalidrawSection(), getExcalidraAndMarkdowViewsForFile(), getExcalidrawMarkdownHeader(), getExcalidrawMarkdownHeaderSection() (+13 more)
 
 ### Community 3 - "n"
 Cohesion: 0.07
@@ -256,27 +334,23 @@ Nodes (55): nk(), ALIGNMENTS, autoDetectTags(), ALIGNMENTS, autoDetectTags(), CO
 
 ### Community 4 - "ExcalidrawAutomate"
 Cohesion: 0.03
-Nodes (31): ALIGNRP(), editorInsertText(), ensureActiveScriptSettingsObject(), errorMessage(), ExcalidrawAutomate, extractCodeBlocks(), FDEF(), getDefElWithCorrectAttrs() (+23 more)
+Nodes (35): ALIGNRP(), blobToBase64(), download(), editorInsertText(), ensureActiveScriptSettingsObject(), errorMessage(), ExcalidrawAutomate, exportPNG() (+27 more)
 
 ### Community 5 - "t$d"
 Cohesion: 0.04
-Nodes (20): AIModelConfigModal, AIProviderProfileModal, checkExcalidrawVersion(), checkScriptUpdates(), displayFontMessage(), ExportDialog, fragWithHTML(), isUnwantedLeaf() (+12 more)
+Nodes (22): AIModelConfigModal, AIProviderProfileModal, checkExcalidrawVersion(), checkScriptUpdates(), displayFontMessage(), ExportDialog, fragWithHTML(), getListOfTemplateFiles() (+14 more)
 
 ### Community 6 - ".registerCommands"
-Cohesion: 0.08
-Nodes (26): addBackOfTheNoteCard(), ANIMATED_IMAGE_TYPES, captureScreenshot(), carveOutImage(), carveOutPDF(), createImageCropperFile(), fileid, generateIdFromFile() (+18 more)
+Cohesion: 0.07
+Nodes (35): addBackOfTheNoteCard(), addFiles(), ANIMATED_IMAGE_TYPES, captureScreenshot(), carveOutImage(), carveOutPDF(), cloneElement$1(), copyLinkToSelectedElementToClipboard() (+27 more)
 
 ### Community 7 - "getTemplate"
-Cohesion: 0.05
-Nodes (40): addFilterToForeignObjects(), convertSVGStringToElement(), createImageDiv(), createImgElement(), createPNG(), createSVG(), filterFiles(), getDefaultHeight() (+32 more)
+Cohesion: 0.03
+Nodes (62): addFilterToForeignObjects(), cloneElement(), convertSVGStringToElement(), createFileAndAwaitMetacacheUpdate(), createImageDiv(), createImgElement(), createPNG(), createSVG() (+54 more)
 
 ### Community 9 - "ExcalidrawData"
 Cohesion: 0.08
-Nodes (6): arrayToMap$1(), EMBEDDABLE_THEME_FRONTMATTER_VALUES, ExcalidrawData, getPDFRect(), updateElementIdsInScene(), wrapTextAtCharLength$1()
-
-### Community 10 - "RenderObsidianView"
-Cohesion: 0.13
-Nodes (13): cloneElement(), copyLinkToSelectedElementToClipboard(), getElementsWithLinkMatchingQuery(), getExcalidrawMarkdownHeader(), getExcalidrawMarkdownHeaderSection(), getLastActiveExcalidrawView(), getTemplate(), getTextElementsMatchingQuery() (+5 more)
+Nodes (9): arrayToMap$1(), compressAsync(), EMBEDDABLE_THEME_FRONTMATTER_VALUES, ExcalidrawData, getMarkdownDrawingSectionAsync(), isVersionNewerThanOther$1(), JSON_parse(), updateElementIdsInScene() (+1 more)
 
 ### Community 11 - "rgb2css"
 Cohesion: 0.05
@@ -284,11 +358,11 @@ Nodes (44): Color, compand(), css2rgb(), gammaAdjustSRGB(), getLabWhitePoint(), 
 
 ### Community 12 - ".push"
 Cohesion: 0.02
-Nodes (138): ABS(), absolutize(), ADD(), addSegment(), addTerminatorSegment(), analyze(), AND(), arcToCubicCurves() (+130 more)
+Nodes (134): ABS(), absolutize(), ADD(), addSegment(), addTerminatorSegment(), AND(), arcToCubicCurves(), arrayPushArray() (+126 more)
 
 ### Community 13 - "O"
-Cohesion: 0.06
-Nodes (13): activate(), Bw(), Ec(), jt(), k0(), lD(), na(), O() (+5 more)
+Cohesion: 0.07
+Nodes (10): activate(), Bw(), Ec(), jt(), k0(), na(), O(), p0() (+2 more)
 
 ### Community 14 - "join"
 Cohesion: 0.05
@@ -299,12 +373,12 @@ Cohesion: 0.07
 Nodes (26): ABILITY, DIVINITY, EVENT, FACTION, ITEM, Level 0 Spells, Level 1 Spells, Level 2 Spells (+18 more)
 
 ### Community 17 - "DropManager"
-Cohesion: 0.07
-Nodes (17): createFileAndAwaitMetacacheUpdate(), createOrOverwriteFile(), download(), EmbeddableSettings, errorlog(), exportPNG(), getAnnotationFileNameAndFolder(), getAttachmentsFolderAndFilePath() (+9 more)
+Cohesion: 0.16
+Nodes (12): alphaTo(), COLOR_NAMES, darkerBy(), EmbeddableSettings, getHighlightColor(), getViewColorPalette(), getYouTubeStartAt(), isColorStringTransparent() (+4 more)
 
 ### Community 18 - "createPairs"
-Cohesion: 0.05
-Nodes (30): addFiles(), blobToBase64(), deleteAppStateKeys(), EmbeddedFile, EmbeddedFilesLoader, filterColorMap(), getEmbeddedFilenameParts$1(), getExcalidrawEmbeddedFilesFiletree() (+22 more)
+Cohesion: 0.09
+Nodes (15): EmbeddedFile, EmbeddedFilesLoader, errorlog(), format(), getBinaryFileFromDataURL(), getDataURLFromURL(), getEmbeddedFilenameParts$1(), getEmbedFilename() (+7 more)
 
 ### Community 19 - ".display"
 Cohesion: 0.10
@@ -312,39 +386,43 @@ Nodes (11): cleanBlockRef(), cleanSectionHeading(), EmbeddableMenu, getActivePDF
 
 ### Community 20 - "ExcalidrawPlugin"
 Cohesion: 0.05
-Nodes (7): emulateCTRLClickForLinks(), ExcalidrawPlugin, hoverEvent(), initializeMarkdownPostProcessor(), LEGACY_AI_SETTING_KEYS, setExcalidrawPlugin(), stripLegacyAISettings()
+Nodes (7): ExcalidrawPlugin, hoverEvent(), initExcalidrawAutomate(), initializeMarkdownPostProcessor(), LEGACY_AI_SETTING_KEYS, setExcalidrawPlugin(), stripLegacyAISettings()
 
 ### Community 21 - "FloatingModal"
-Cohesion: 0.15
-Nodes (6): findPair(), isPair(), isScalarValue(), stringifyCollection(), YAMLMap, YAMLSet
+Cohesion: 0.19
+Nodes (5): findPair(), isPair(), isScalar(), YAMLMap, YAMLSet
 
 ### Community 22 - ".isExcalidrawFile"
 Cohesion: 0.03
-Nodes (79): AI_BASE_URL_SUFFIXES, around(), around1(), cloneKnownAIImageModelCapabilities(), cloneKnownAIProviderProfiles(), cloneModelConfigs(), constructor(), customAlphabet() (+71 more)
+Nodes (80): AI_BASE_URL_SUFFIXES, around(), around1(), changeThemeOfExcalidrawMD(), cloneKnownAIImageModelCapabilities(), cloneKnownAIProviderProfiles(), cloneModelConfigs(), compress() (+72 more)
 
 ### Community 23 - "argument"
 Cohesion: 0.09
 Nodes (27): argument(), buildPath(), defineDependentProperty(), fail(), getContours(), getPath(), glyphLoader(), Hinting() (+19 more)
 
+### Community 24 - "ToolsPanel"
+Cohesion: 0.06
+Nodes (11): ActionButton, checkVersionMismatch(), clsx(), ObsidianMenu, penIcon(), r$d(), resetStrokeOptions(), saveIcon() (+3 more)
+
 ### Community 25 - "dR"
 Cohesion: 0.14
-Nodes (13): alpha(), blend_f(), chroma(), css(), cubehelix(), h$4(), hexWithAlpha(), hue() (+5 more)
+Nodes (16): alpha(), analyze(), bezier(), binom_row(), blend_f(), chroma(), css(), cubehelix() (+8 more)
 
 ### Community 26 - "getRepo"
-Cohesion: 0.03
-Nodes (177): _8(), addAskPassScriptToExclude(), addFileToGitignore(), addTask(), addToPath(), applyPatch(), askpass(), av() (+169 more)
+Cohesion: 0.04
+Nodes (138): _8(), addFileToGitignore(), addTask(), av(), beforeSaveSettings(), blame(), branchInfo(), canPush() (+130 more)
 
 ### Community 27 - "Document"
-Cohesion: 0.11
-Nodes (27): composeAlias(), composeCollection(), composeDoc(), composeEmptyNode(), composeNode(), composeScalar(), containsNewline(), doubleQuotedValue() (+19 more)
+Cohesion: 0.14
+Nodes (16): composeAlias(), composeCollection(), composeDoc(), composeEmptyNode(), composeNode(), Composer, composeScalar(), emptyScalarPosition() (+8 more)
 
 ### Community 28 - "FD"
-Cohesion: 0.23
-Nodes (13): _accumulate(), byte(), chunk(), eof(), jR(), _loadnext(), _moveCursor(), _next() (+5 more)
+Cohesion: 0.11
+Nodes (20): A6(), AP(), Aw(), build(), CP(), f2(), FP(), H5() (+12 more)
 
 ### Community 29 - "e"
-Cohesion: 0.12
-Nodes (10): applyReviver(), escapeRegex(), hasAnchor(), mergeMarkdownFiles(), NodeBase, parse$1(), replaceYamlKeyBlock(), stringify() (+2 more)
+Cohesion: 0.16
+Nodes (5): applyReviver(), hasAnchor(), NodeBase, toJS(), YAMLOMap
 
 ### Community 30 - "createEventHandlers"
 Cohesion: 0.20
@@ -352,19 +430,19 @@ Nodes (5): assertCollection(), Collection, collectionFromPath(), isCollection(),
 
 ### Community 32 - "stringify$1"
 Cohesion: 0.14
-Nodes (17): addCommentBefore(), addPairToJSMap(), clone(), createStringifyContext(), indentComment(), isMergeKey(), isNode(), lineComment() (+9 more)
+Nodes (17): addCommentBefore(), addPairToJSMap(), clone(), createStringifyContext(), getTagObject(), indentComment(), isMergeKey(), isNode() (+9 more)
 
 ### Community 34 - "ExcalidrawSidepanelTab"
 Cohesion: 0.15
 Nodes (12): Actions:, Bonus Actions:, Concentration:, Intercept:, Lunge:, Pass:, Pick Up:, Reactions: (+4 more)
 
 ### Community 35 - "Lexer"
-Cohesion: 0.25
-Nodes (4): isEmpty(), isNotAnchorChar(), Lexer, peek()
+Cohesion: 0.26
+Nodes (3): isEmpty(), isNotAnchorChar(), Lexer
 
 ### Community 36 - "ImageCache"
-Cohesion: 0.16
-Nodes (6): addSVGToImgSrc(), cropCanvas(), getKey(), getPDFCacheId(), getPDFDoc(), ImageCache
+Cohesion: 0.08
+Nodes (18): addSVGToImgSrc(), cropCanvas(), debounce(), Epsilon$1(), getKey(), getPathDefinition(), getPDFCacheId(), getPDFDoc() (+10 more)
 
 ### Community 37 - ".renderButtons"
 Cohesion: 0.20
@@ -386,17 +464,9 @@ Nodes (25): Autumn, Eldritch Moons of Shivath: The Celestial Calendar, First Mon
 Cohesion: 0.16
 Nodes (7): anchorNames(), createNode(), createNodeAnchors(), createPair(), createPairs(), findNewAnchor(), findTagObject()
 
-### Community 42 - "slice"
-Cohesion: 0.16
-Nodes (13): Bn(), consider(), copy(), eI(), em(), Fb(), Jp(), Pf() (+5 more)
-
-### Community 43 - "GenericInputPrompt"
-Cohesion: 0.09
-Nodes (12): contains(), GenericInputPrompt, getExcalidraAndMarkdowViewsForFile(), getLeaf(), getLeafLoc(), getNewOrAdjacentLeaf(), getParentOfClass(), openLeaf() (+4 more)
-
 ### Community 45 - "addLineAuthorInfoSettings"
-Cohesion: 0.20
-Nodes (9): 01. 🟁 La Caldera de Escoria Magmática, 02. 🌋 El Horno de Enfriamiento Térmico, 03. 🔥 La Galería de las Cuatro Antorchas, 04. 🔴 El Laberinto de Magma Fluido, 05. ♨️ La Grieta del Vapor Térmico, 06. 🔥 Horno de Fundición (Molde de Cera), 07. 🌋 Horno Magmático Inferior, 2. Set 1: FIRE (Caldera Volcánica & Presión Térmica) (+1 more)
+Cohesion: 0.18
+Nodes (10): Compendio Modular de Sets de Salas y Gimmicks Elementales (Manual del DM), 📁 Estructura del Compendio por Carpetas, 🏛️ Set 0: Salas Genéricas y Neutrales (`Salas/00_Set_Generico/`), 🔥 Set 1: FIRE (`Salas/01_Set_Fuego/`), 🌊 Set 2: WATER (`Salas/02_Set_Agua/`), 🌬️ Set 3: AIR (`Salas/03_Set_Aire/`), 🪨 Set 4: EARTH (`Salas/04_Set_Tierra/`), 🌿 Set 5: LIFE (`Salas/05_Set_Vida/`) (+2 more)
 
 ### Community 46 - "m0"
 Cohesion: 0.17
@@ -407,20 +477,20 @@ Cohesion: 0.13
 Nodes (14): 1. Guardianes de Área y Objetos Elementales de Subdungeon, 2. BOSS FINAL: El Juicio de Minos (Equilibrio de Nivel Fijo), 3. Mecánica Detallada de los Orbes Elementales (Xenoblade 2 System), A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica), A. Generación de Orbes (Orb Stacking), B. La Quimera Hidráulica (Guardián de WATER - La Cisterna Sumergida), B. Rompimiento de Orbes (Elemental Countering), C. El Coloso del Vértice (Guardián de AIR - La Torre de los Vientos) (+6 more)
 
 ### Community 48 - "preventOverflow"
-Cohesion: 0.09
-Nodes (30): e$d, bk(), f4(), fk(), g3(), g5(), getAuthor(), getCursorHunk() (+22 more)
+Cohesion: 0.05
+Nodes (42): adaptTextForFakeCommit(), bv(), da(), eI(), f4(), fI(), g3(), getAvailableLocalBranchName() (+34 more)
 
 ### Community 49 - "pull"
-Cohesion: 0.08
-Nodes (17): debounce(), dedupe(), Epsilon$1(), fileShouldDefaultAsExcalidraw(), getPathDefinition(), i(), _interopNamespaceDefault(), isCallerFromTemplaterPlugin() (+9 more)
+Cohesion: 0.22
+Nodes (5): dedupe(), fileShouldDefaultAsExcalidraw(), isCallerFromTemplaterPlugin(), setRootElementSize(), switchToExcalidraw()
 
 ### Community 50 - ".handleError"
 Cohesion: 0.16
 Nodes (4): ErrorHandler, PackageManager, unpackExcalidraw(), updateExcalidrawLib()
 
 ### Community 51 - "ScriptEngine"
-Cohesion: 0.20
-Nodes (10): 01. ⚓ El Pilar de Anclas de Basalto, 02. ⚖️ La Balanza de Peso y Catapulta, 03. 🟅 Muro de Piedra Frágil, 04. 🌋 La Sima de los Temblores Telúricos, 05. 🪨 El Cañón del Rodillo de Basalto, 06. ⛏️ Mina de Aleación Maleable, 07. 🗿 Consola de Grúa de Basalto, 08. 🪨 Cámara del Bloque Volado (+2 more)
+Cohesion: 0.18
+Nodes (10): 01. 🏛️ Atrio de Entrada (Hub Central), Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Avance (+2 more)
 
 ### Community 52 - "stringifyProps"
 Cohesion: 0.17
@@ -430,21 +500,29 @@ Nodes (12): FASE 1: Dentro del Orbe (Mientras el agua hierve), FASE 2: El Caos e
 Cohesion: 0.13
 Nodes (22): calcCFFSubroutineBias(), cffGlyphLoader(), entriesToObject(), gatherCFFTopDicts(), getByte(), getBytes(), getCffIndexObject(), getCFFString() (+14 more)
 
+### Community 55 - "EventManager"
+Cohesion: 0.18
+Nodes (10): 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, Límites, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Tabla de Resultados (Tira 1d6 por Sacrificio) (+2 more)
+
 ### Community 56 - "get"
-Cohesion: 0.20
-Nodes (10): 01. 🌬️ La Torre del Viento Ascendente, 02. ⛵ El Obelisco de la Vela Solar Giratoria, 03. 💨 Las Fisuras Térmicas Micro-Gaseosas, 04. 🌀 La Cámara del Vacío Venturi, 05. 🪶 El Balcón del Planeador de Bronce, 06. 🌬️ Pozo de Viento Ascendente, 07. 🪶 Balcón de Salida, 08. 💨 Conducto Neumático (+2 more)
+Cohesion: 0.18
+Nodes (10): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 57 - "Bn"
-Cohesion: 0.31
-Nodes (4): asItemIndex(), getTagObject(), isScalar(), YAMLSeq
+Cohesion: 0.24
+Nodes (4): asItemIndex(), isScalarValue(), stringifyCollection(), YAMLSeq
 
 ### Community 58 - "contains"
 Cohesion: 0.25
 Nodes (8): 1. "Chispas" (El Vendedor Ambulante), 2. Boran (El Turista Frustrado), 3. Las Tuberías Expuestas, 4. Otros Rostros en la Multitud, Encuentros en el Camino (Roleplay y Ambientación), Escena: El Resort "Arenas Plateadas", Hacia el Estadio, La Atmósfera (La Mansión Decadente)
 
+### Community 59 - "isPair"
+Cohesion: 0.18
+Nodes (10): 10. 🕸️ Galería de las Cuerdas Tensadas, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+
 ### Community 60 - "bT"
-Cohesion: 0.25
-Nodes (5): getCJKDataURLs(), getFontMetrics(), load(), matchesCJKRange(), promiseTry()
+Cohesion: 0.18
+Nodes (7): getCJKDataURLs(), getDataURL(), getFontDataURL(), getFontDataURL$1(), getFontMetrics(), matchesCJKRange(), promiseTry()
 
 ### Community 62 - "Hr"
 Cohesion: 0.22
@@ -452,19 +530,19 @@ Nodes (9): getExportPadding$1(), getExportTheme$1(), getSVGData(), getWithBackgr
 
 ### Community 63 - ".getViewType"
 Cohesion: 0.06
-Nodes (68): applyStyles(), areValidElements(), arrow(), clamp(), computeAutoPlacement(), computeOffsets(), computeStyles(), detectOverflow() (+60 more)
+Nodes (63): applyStyles(), areValidElements(), arrow(), clamp(), computeAutoPlacement(), computeOffsets(), computeStyles(), detectOverflow() (+55 more)
 
 ### Community 64 - "CropImage"
-Cohesion: 0.22
-Nodes (9): 01. 🌊 El Depósito de las Tres Cisternas, 02. 🚰 El Carril de las Balsas Sumergidas, 03. 💧 El Conducto de Agua Hirviendo, 04. 🏊 El Acuífero de los Pilares Sumergidos, 05. 🔀 La Cámara de las Esclusas Sincronizadas, 06. 🌊 Cisterna Maestro (Control Hidráulico), 07. 💧 Cámara de Filtros (Nivel Despejado), 08. 🚰 Esclusa de Salida (Portón Final) (+1 more)
+Cohesion: 0.18
+Nodes (10): 11. ⏱️ Taller de Relojería Rúnica, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 65 - ".resolve"
 Cohesion: 0.22
 Nodes (9): diagramToHTML(), extractDiagramHTML(), getDiagramToHTMLFinishReason(), isDiagramToHTMLDebugEnabled(), isMaxTokenFinishReason(), logDiagramToHTMLDebug(), shouldRetryDiagramToHTML(), stringifyDiagramDebugValue() (+1 more)
 
 ### Community 66 - "_s"
-Cohesion: 0.22
-Nodes (9): 01. ☀️ La Galería de los Espejos en Cadena, 02. 🌌 La Cámara de las Sombras Cuánticas, 03. 👁️ La Sala de la Perspectiva Anamórfica, 04. 🌈 El Prisma del Santo Sol, 05. 👥 La Cámara de los Clones de Penumbra, 06. ☀️ Tragaluz Solar de Orientación, 07. 🪞 Galería de Espejos Pivotantes, 08. 🌈 Receptor de Luz Final (+1 more)
+Cohesion: 0.18
+Nodes (10): 14. 🎭 Relieve del Eco Espectral Parlante, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 67 - "isScalar"
 Cohesion: 0.29
@@ -475,12 +553,12 @@ Cohesion: 0.22
 Nodes (8): 1. Regla de Persistencia Mixta de Puertas y Pasadizos, 2. Regla de Generación de la Sala Secreta de Isaac (🗝️), 3. Redes Causales Inter-Salas (Efectos de Área), 4. Catálogo de Puertas Mecánicas No Elementales (Llaves Genéricas y Puzles Deterministas), 5. Catálogo de Cerrojos con Pruebas de Habilidad Inusuales (Unusual Skill Checks), 6. Muros Sólidos y Bloqueos Adyacentes, Redes Inter-Salas Detalladas, Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas
 
 ### Community 70 - "6. Set 5: LIFE (Invernadero Ancestral & Crecimiento Orgánico)"
-Cohesion: 0.25
-Nodes (8): 01. 🌱 El Invernadero del Hongo Trampolín, 02. 🌿 La Compuerta de Vides Arcanas, 03. 🍄 El Invernadero de Esporas Durmientes, 04. 🌸 El Jardín de la Flora Bioluminiscente, 05. 🪷 El Bulbo Carnívoro del Núcleo, 06. 🍄 Invernadero de Esporas (Fase 2), 07. 🌿 Purificador Ambiental, 6. Set 5: LIFE (Invernadero Ancestral & Crecimiento Orgánico)
+Cohesion: 0.18
+Nodes (10): 17. 👁️ Relieve de Miradas Cambiantes, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 71 - "requestAI"
-Cohesion: 0.05
-Nodes (64): analyzeAIImage(), applyOutgoingTokenBudget(), buildGenerateAIImageResult(), buildMultipartFormBody(), buildNormalizedMessages(), cloneAIRequestMessage(), cloneAIRequestMessageContent(), concatUint8Arrays() (+56 more)
+Cohesion: 0.04
+Nodes (69): analyzeAIImage(), applyOutgoingTokenBudget(), buildGenerateAIImageResult(), buildMultipartFormBody(), buildNormalizedMessages(), cloneAIRequestMessage(), cloneAIRequestMessageContent(), concatUint8Arrays() (+61 more)
 
 ### Community 72 - "renderButtons"
 Cohesion: 0.33
@@ -491,20 +569,16 @@ Cohesion: 0.10
 Nodes (18): 1. Nifl: Conservación y Estasis (Lado Frío), 2. Muspel: Generación y Combustión (Lado Caliente), Criaturas y Habitantes del Sector, Especialización Industrial de las Mitades, Habitantes de Muspel (Lado Caliente), Habitantes de Nifl (Lado Frío), Perfil Tecnológico (Ver [[Nivel Tecnologico]]), Sistema de Transporte (TL 7) (+10 more)
 
 ### Community 74 - ".next"
-Cohesion: 0.39
-Nodes (3): Composer, getErrorPos(), parsePrelude()
+Cohesion: 0.18
+Nodes (10): 02. 🌋 El Horno de Enfriamiento Térmico, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 75 - "u$1"
 Cohesion: 0.47
 Nodes (6): a$3(), c$3(), i$3(), o$3(), r$3(), u$1()
 
-### Community 76 - "FileSuggestionModal"
-Cohesion: 0.14
-Nodes (7): AUDIO_TYPES, CODE_TYPES, FileSuggestionModal, InsertMDDialog, predictViewType(), renderLinkSuggestion(), VIDEO_TYPES
-
 ### Community 77 - "u$2"
-Cohesion: 0.47
-Nodes (6): c$4(), e$4(), o$4(), r$4(), s$4(), u$2()
+Cohesion: 0.50
+Nodes (5): c$4(), e$4(), o$4(), r$4(), s$4()
 
 ### Community 78 - ".harvestStyles"
 Cohesion: 0.33
@@ -515,16 +589,16 @@ Cohesion: 0.33
 Nodes (6): "Aleta" — Ex-jugadora de Blitzball, Socorrista, Dex — Corredor de Apuestas, Dr. Kael Sable — Médico de Guardia, NPCs de la Playa Arenas Plateadas, Pip — Niño del Resort, Sgt. Morrow — Seguridad Privada del Resort
 
 ### Community 80 - "c$2"
-Cohesion: 0.33
-Nodes (5): end(), parse(), parseDocument(), parseOptions(), prettifyError()
+Cohesion: 0.18
+Nodes (10): end(), escapeRegex(), mergeMarkdownFiles(), parse(), parse$1(), parseDocument(), parseOptions(), prettifyError() (+2 more)
 
 ### Community 82 - "Como conectan Shivath y Owners"
 Cohesion: 0.12
 Nodes (19): Auryn, Calyra, Como conectan Shivath y Owners, Dioses, Eldarionne, Eras, Kami, Káeon y Nameka (+11 more)
 
 ### Community 83 - ".onOpen"
-Cohesion: 0.07
-Nodes (43): add(), _addPattern(), AE(), append(), B3(), C2(), clear(), constructor() (+35 more)
+Cohesion: 0.05
+Nodes (64): add(), addAskPassScriptToExclude(), _addPattern(), C2(), calcSigns(), capture(), changeEnd(), clear() (+56 more)
 
 ### Community 84 - "getLinkSuggestionsFiltered"
 Cohesion: 0.22
@@ -567,8 +641,12 @@ Cohesion: 0.42
 Nodes (11): blockString(), consumeMoreIndentedLines(), containsDocumentMarker(), doubleQuotedString(), foldFlowLines(), getFoldOptions(), lineLengthOverLimit(), plainString() (+3 more)
 
 ### Community 96 - ".toJS"
-Cohesion: 0.06
-Nodes (12): addYouTubeThumbnail(), createSliderWithText(), FloatingModal, format(), getDrawingFilename(), getEmbedFilename(), getExcalidrawViews(), getInternalLinkOrFileURLLink() (+4 more)
+Cohesion: 0.05
+Nodes (17): addYouTubeThumbnail(), contains(), getExcalidrawViews(), getLastActiveExcalidrawView(), getLeaf(), getLeafLoc(), getNewOrAdjacentLeaf(), getParentOfClass() (+9 more)
+
+### Community 97 - "01. 👑 Sanctum 12: El Juicio de Minos (Reactor Central)"
+Cohesion: 0.18
+Nodes (10): 01. 👑 Sanctum 12: El Juicio de Minos (Reactor Central), Dinámica de Combate (Full Burst Xenoblade 2), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa Final, 🎯 Resolución del Puzle y Guía del DM (+2 more)
 
 ### Community 98 - "El Flujo Narrativo: De Principio a Fin"
 Cohesion: 0.40
@@ -594,9 +672,17 @@ Nodes (5): 1. Aplicación Web Interactiva 7x7 (`generador_minos_7x7.html`), 2. T
 Cohesion: 0.28
 Nodes (3): Deidades y Kami Integrantes, Panteón Nemorias (Panteón de Dho), Particularidad de los Kami en Nemorias
 
+### Community 106 - "02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room)"
+Cohesion: 0.20
+Nodes (9): 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Botín, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 107 - "refresh"
-Cohesion: 0.09
-Nodes (4): ImportSVGDialog, InsertImageDialog, NewFileActions, VersionMismatchPrompt
+Cohesion: 0.10
+Nodes (3): InsertCommandDialog, InsertImageDialog, VersionMismatchPrompt
+
+### Community 108 - "03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room)"
+Cohesion: 0.20
+Nodes (9): 03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Efectos, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 109 - "Wiki"
 Cohesion: 0.20
@@ -608,7 +694,7 @@ Nodes (16): 1. Contexto y Arquitectura de Diseño de Mazmorras, 2. Matriz Compar
 
 ### Community 111 - "Group"
 Cohesion: 0.04
-Nodes (93): A6(), aB(), _addEntry(), Ag(), AP(), bd(), BR(), build() (+85 more)
+Nodes (109): aB(), _accumulate(), _addEntry(), Ag(), bd(), BR(), byte(), chunk() (+101 more)
 
 ### Community 112 - "Nairek.md"
 Cohesion: 0.22
@@ -616,19 +702,19 @@ Nodes (5): Celebración y Culto, Deidades Integrantes, Panteón Aetérion, ¿Có
 
 ### Community 113 - "EmbeddalbeMDFileCustomDataSettingsComponent"
 Cohesion: 0.04
-Nodes (60): applySubstitution(), arabicPresentationForms(), arabicRequiredLigatures(), arabicSentenceEndCheck(), arabicSentenceStartCheck(), arabicWordEndCheck(), arabicWordStartCheck(), average() (+52 more)
+Nodes (56): applySubstitution(), arabicPresentationForms(), arabicRequiredLigatures(), arabicSentenceEndCheck(), arabicSentenceStartCheck(), arabicWordEndCheck(), arabicWordStartCheck(), average() (+48 more)
 
 ### Community 114 - "showColorPicker"
 Cohesion: 0.40
 Nodes (4): attachOutsideHandlers(), getColors(), positionPopup(), showColorPicker()
 
 ### Community 115 - "b$4"
-Cohesion: 0.04
-Nodes (135): acquire(), aS(), $b(), BF(), CB(), ck(), connect(), content() (+127 more)
+Cohesion: 0.05
+Nodes (83): e$d, append(), applyPatch(), askpass(), B3(), bShouldBeEditable(), constructor(), create() (+75 more)
 
 ### Community 116 - "_s"
-Cohesion: 0.40
-Nodes (6): changeThemeOfExcalidrawMD(), compress(), decompress$1(), getDecompressedScene(), getJSON(), isCompressedMD()
+Cohesion: 0.20
+Nodes (9): 05. 📜 Mercado Espectral de Minos (Arcane Shop), Acciones y Comprobaciones, Catálogo de Mercancías y Precios, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 117 - ".initializeFonts"
 Cohesion: 0.50
@@ -637,10 +723,6 @@ Nodes (4): El Audio de los Altavoces, Escena: El Partido y los Comentaristas, La
 ### Community 118 - "Deep Research Report: Diseño de Niveles y Colocación de Enemigos (Dark Souls vs. The Binding of Isaac)"
 Cohesion: 0.14
 Nodes (13): 1. Matriz Comparativa: Dark Souls vs. The Binding of Isaac, 2.1. El Foso Claustrofóbico de Embestida (*Ejemplo: Capra Demon Arena en Dark Souls*), 2.2. El Fuego Cruzado en Pasillo Estrecho (*Ejemplo: Anor Londo Archers en Dark Souls*), 2.3. La Pinza de Torretas Estáticas y Perseguidores (*Ejemplo: Host + Fly Rooms en Isaac*), 2. Tipologías de Salas que Trabajan En Contra del Jugador (Salas Hostiles), 3.1. El Embudo del Cuello de Botella (*Chokepoint Design*), 3.2. La Trampa Reversible (*Ejemplo: Sen's Fortress en Dark Souls*), 3.3. Cobertura Estática y Destrucción Táctica (*Ejemplo: TNT y Rocas en Isaac*) (+5 more)
-
-### Community 119 - "InlineLinkSuggester"
-Cohesion: 0.10
-Nodes (4): getLinkSuggestionsFiltered(), InlineLinkSuggester, renderHeadingSuggestionRow(), renderParagraphSuggestionRow()
 
 ### Community 120 - "Wiki"
 Cohesion: 0.22
@@ -658,6 +740,14 @@ Nodes (8): 1. Categorías de Rasgos Base (Core Trait Categories), 2. Plantilla d
 Cohesion: 0.50
 Nodes (3): 1. Do Not Overwrite / Rewrite Notes Without Explicit Instruction, 2. Commit / Save Git State Before Modifying Files, Safe Editing & Revision Control Rules
 
+### Community 124 - "07. ⚖️ Báscula de Contrapesos"
+Cohesion: 0.20
+Nodes (9): 07. ⚖️ Báscula de Contrapesos, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 125 - "09. 🕯️ Puerta de la Fundición Fría"
+Cohesion: 0.20
+Nodes (9): 09. 🕯️ Puerta de la Fundición Fría, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 126 - "Marco de Referencia Metodológico para Diseño de Jefes (Boss Design Framework)"
 Cohesion: 0.22
 Nodes (8): 1. Taxonomía de Rasgos del Sistema (Core Trait Categories), 2. Estructura de Redacción de Acciones (Action Syntax Template), 3. Escalado y Modularidad de Habilidades, 4. Estructura de Transición de Fase, A. Escalado de Recursos Acumulativos, B. Modularidad por Componentes Activos, Clasificación de Acciones y Tiempos:, Marco de Referencia Metodológico para Diseño de Jefes (Boss Design Framework)
@@ -671,8 +761,8 @@ Cohesion: 0.17
 Nodes (16): addGlyphNames(), addGlyphNamesAll(), addGlyphNamesToUnicodeMap(), getTag(), getULong(), getUShort(), loadFromFile(), loadSync() (+8 more)
 
 ### Community 130 - "getDataURL"
-Cohesion: 0.07
-Nodes (27): arrayToMap(), emulateKeysForLinkClick(), getBoundTextElementId(), _getContainerElement(), getElementsAtPointer(), getElementWithLinkAtPointer(), getImageElementAtPointer(), getLinkFromMarkdownLink() (+19 more)
+Cohesion: 0.09
+Nodes (19): arrayToMap(), getBoundTextElementId(), _getContainerElement(), getElementsAtPointer(), getElementWithLinkAtPointer(), getImageElementAtPointer(), getLinkTextFromLink(), getTextElementAtPointer() (+11 more)
 
 ### Community 131 - "resolveTokenizedString"
 Cohesion: 0.32
@@ -681,6 +771,10 @@ Nodes (8): isApplePlatform(), labelALT(), labelCTRL(), labelMETA(), labelSHIFT()
 ### Community 132 - "tinf_uncompress"
 Cohesion: 0.36
 Nodes (8): tinf_build_tree(), tinf_decode_symbol(), tinf_decode_trees(), tinf_getbit(), tinf_inflate_block_data(), tinf_inflate_uncompressed_block(), tinf_read_bits(), tinf_uncompress()
+
+### Community 133 - "12. 📜 Archivo de Tablillas Rascadas"
+Cohesion: 0.20
+Nodes (9): 12. 📜 Archivo de Tablillas Rascadas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 134 - "Deep Research Report: Momentos "Aha!" y Arquitectura de Salas de Metroidvanias Aplicados al Diseño de Dungeons"
 Cohesion: 0.15
@@ -694,9 +788,13 @@ Nodes (15): CANVAS_VIEWTYPES, CanvasNodeFactory, createLeaf(), CustomEmbeddable(
 Cohesion: 0.17
 Nodes (9): Anotaciones, Anotaciones, ¿Cuál es la función de un panteón?, ¿Cuáles panteones existen o existieron?, Entidades Sin Panteón Conocido / Panteón Perdido:, Patrones (Ubicados en `1 - Mundo/Patrones/`), Qué diferencia un panteón de otro?, ¿Qué es un panteón? (+1 more)
 
+### Community 139 - "13. 🔮 Umbral de Decodificación Arcana"
+Cohesion: 0.20
+Nodes (9): 13. 🔮 Umbral de Decodificación Arcana, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 140 - "listRefs"
-Cohesion: 0.08
-Nodes (24): 01. 🏛️ Atrio de Entrada (Hub Central), 02. 🗝️ Sala Secreta Pura de Minos (Isaac Secret Room), 03. 💎 Sala Super Secreta del Altar de Cristal (Isaac Super Secret Room), 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room), 05. 📜 Mercado Espectral de Minos (Arcane Shop), 06. 🎲 Sala del Dado Arcano (Arcade Room), 07. ⚖️ Báscula de Contrapesos, 08. ⚙️ Clave de Engranajes Murales (+16 more)
+Cohesion: 0.20
+Nodes (9): 15. 👥 Puerta del Cristal de Espinas Sumiso, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 141 - "The Cobalt Rain.md"
 Cohesion: 0.25
@@ -715,16 +813,44 @@ Cohesion: 0.29
 Nodes (6): **Districts of Vitra**, **Life and Culture in Vitra**, **Society and Economy**, **Technology and Mercenaries**, Vitra, **Vitra: The City of a Thousand Lights**
 
 ### Community 145 - "h$2"
-Cohesion: 0.36
-Nodes (8): c$8(), d$1(), f$1(), h$2(), i$8(), p$1(), s$8(), u$6()
+Cohesion: 0.33
+Nodes (7): c$8(), d$1(), f$1(), i$8(), p$1(), s$8(), u$6()
+
+### Community 146 - "16. 🌿 Umbral de Vides Sensibles"
+Cohesion: 0.20
+Nodes (9): 16. 🌿 Umbral de Vides Sensibles, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 147 - "18. ⚙️ Interruptor Rúnico (Conmutador Peg)"
+Cohesion: 0.20
+Nodes (9): 18. ⚙️ Interruptor Rúnico (Conmutador Peg), Acciones y Comprobaciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 150 - "19. 🧊 Pasaje de Bloques Azules"
+Cohesion: 0.20
+Nodes (9): 19. 🧊 Pasaje de Bloques Azules, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 151 - "Nu Varak.md"
 Cohesion: 0.33
 Nodes (4): Anotaciones, Celebración y Culto, Deidades Integrantes, Panteón Ulirith
 
 ### Community 153 - "ObsidianMenu"
-Cohesion: 0.19
-Nodes (6): clsx(), ObsidianMenu, penIcon(), r$d(), resetStrokeOptions(), setPen()
+Cohesion: 0.20
+Nodes (9): 20. 🟥 Cámara de Bloques Rojos, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 154 - "21. 🗝️ Sello del Molde de Llave"
+Cohesion: 0.20
+Nodes (9): 21. 🗝️ Sello del Molde de Llave, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 155 - "22. ⚖️ Consola de Inversión Gravitatoria"
+Cohesion: 0.20
+Nodes (9): 22. ⚖️ Consola de Inversión Gravitatoria, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 156 - "01. 🟁 La Caldera de Escoria Magmática"
+Cohesion: 0.20
+Nodes (9): 01. 🟁 La Caldera de Escoria Magmática, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 157 - "03. 🔥 La Galería de las Cuatro Antorchas"
+Cohesion: 0.20
+Nodes (9): 03. 🔥 La Galería de las Cuatro Antorchas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos (+1 more)
 
 ### Community 158 - "getElementMatrix"
 Cohesion: 0.60
@@ -734,13 +860,33 @@ Nodes (5): create$1(), getElementMatrix(), getTransformMatrix(), multiply$1(), s
 Cohesion: 0.22
 Nodes (8): 1. Matriz de Juegos de Progresión por Conocimiento (*Metroidbrainia*), 2. La Estructura del Grafo de Rumores (*Rumor Topology*), 3. Las 3 Capas de un Fragmento de Información Perfecto, 4. Aplicación Práctica a un Dungeon o Juego, 5. Referencias y Fuentes Consultadas, Deep Research Report: Narrativa No Lineal, Red de Rumores y Progresión por Conocimiento (Outer Wilds y la Metroidbrainia), Ejemplo Práctico (*Outer Wilds - Medusas en Giant's Deep*):, Executive Summary
 
+### Community 160 - "04. 🔴 El Laberinto de Magma Fluido"
+Cohesion: 0.20
+Nodes (9): 04. 🔴 El Laberinto de Magma Fluido, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 161 - "05. ♨️ La Grieta del Vapor Térmico"
+Cohesion: 0.20
+Nodes (9): 05. ♨️ La Grieta del Vapor Térmico, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 162 - "Sala Vieja"
 Cohesion: 0.40
 Nodes (4): Cuaderno de Gogenheim/Paracelsus, Pizarra, Sala de [[Apex Fabricatum]], Sala Vieja
 
+### Community 164 - "06. 🔥 Horno de Fundición (Molde de Cera)"
+Cohesion: 0.20
+Nodes (9): 06. 🔥 Horno de Fundición (Molde de Cera), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 165 - "07. 🌋 Horno Magmático Inferior"
+Cohesion: 0.20
+Nodes (9): 07. 🌋 Horno Magmático Inferior, Acciones y Comprobaciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 166 - "01. 🌊 El Depósito de las Tres Cisternas"
+Cohesion: 0.20
+Nodes (9): 01. 🌊 El Depósito de las Tres Cisternas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 167 - "isPointOnText"
-Cohesion: 0.11
-Nodes (29): aD(), Ax(), CD(), Cx(), $D(), ED(), FD(), Fr() (+21 more)
+Cohesion: 0.08
+Nodes (34): aD(), Ax(), CD(), Cx(), $D(), dx(), ED(), FD() (+26 more)
 
 ### Community 168 - "Regla de Acumulación"
 Cohesion: 0.40
@@ -750,13 +896,21 @@ Nodes (4): 🩸 Bleed (Sangrado), 🔥 Burn (Quemadura), Regla de Acumulación, 
 Cohesion: 0.67
 Nodes (4): addName(), makeFvarAxis(), makeFvarInstance(), makeFvarTable()
 
+### Community 171 - "02. 🚰 El Carril de las Balsas Sumergidas"
+Cohesion: 0.20
+Nodes (9): 02. 🚰 El Carril de las Balsas Sumergidas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 172 - "03. 💧 El Conducto de Agua Hirviendo"
+Cohesion: 0.20
+Nodes (9): 03. 💧 El Conducto de Agua Hirviendo, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 173 - "The Iridescent Path.md"
 Cohesion: 0.50
 Nodes (3): **Cultural and Economic Significance**, The Iridescent Path, **The Iridescent Path: Gateway to Vitra**
 
 ### Community 174 - "m0"
-Cohesion: 0.07
-Nodes (38): aO(), AR(), B4(), capture(), cO(), CR(), Do(), equals() (+30 more)
+Cohesion: 0.20
+Nodes (9): 04. 🏊 El Acuífero de los Pilares Sumergidos, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 175 - "Elos.md"
 Cohesion: 0.33
@@ -766,13 +920,25 @@ Nodes (4): Celebración y Culto, Deidades Integrantes, Panteón Anûrión, El vi
 Cohesion: 0.50
 Nodes (3): Clash (Choque), Martial Check (Chequeo Marcial), Sistema Marcial de Arcadum (Verum)
 
+### Community 178 - "05. 🔀 La Cámara de las Esclusas Sincronizadas"
+Cohesion: 0.20
+Nodes (9): 05. 🔀 La Cámara de las Esclusas Sincronizadas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 179 - "06. 🌊 Cisterna Maestro (Control Hidráulico)"
+Cohesion: 0.20
+Nodes (9): 06. 🌊 Cisterna Maestro (Control Hidráulico), Acciones y Comprobaciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 180 - "generateFileHtml"
-Cohesion: 0.09
-Nodes (95): b(), c(), d(), e$3(), f(), f$2(), h(), i$9() (+87 more)
+Cohesion: 0.07
+Nodes (135): b(), c(), c$6(), d(), e$3(), f(), f$2(), h() (+127 more)
 
 ### Community 181 - "CropImage"
-Cohesion: 0.12
-Nodes (4): cloneElement$1(), CropImage, mapToXY(), Taskbone
+Cohesion: 0.09
+Nodes (8): createSliderWithText(), CropImage, FloatingModal, getInternalLinkOrFileURLLink(), InsertPDFModal, mapToXY(), rgb2hex(), VAULT_BASE_URL()
+
+### Community 183 - "07. 💧 Cámara de Filtros (Nivel Despejado)"
+Cohesion: 0.20
+Nodes (9): 07. 💧 Cámara de Filtros (Nivel Despejado), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 186 - "Agent Rules for Shivath Workspace"
 Cohesion: 0.40
@@ -782,25 +948,113 @@ Nodes (4): Agent Rules for Shivath Workspace, Graphify First Rule, Lyss Folder P
 Cohesion: 0.50
 Nodes (3): Drawing, Excalidraw Data, Text Elements
 
+### Community 188 - "01. 🌬️ La Torre del Viento Ascendente"
+Cohesion: 0.20
+Nodes (9): 01. 🌬️ La Torre del Viento Ascendente, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 190 - "02. ⛵ El Obelisco de la Vela Solar Giratoria"
+Cohesion: 0.20
+Nodes (9): 02. ⛵ El Obelisco de la Vela Solar Giratoria, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 191 - "CropImage"
-Cohesion: 0.06
-Nodes (29): a$c(), alphaBy(), alphaTo(), b$5(), COLOR_NAMES, d$2(), darkerBy(), desaturateBy() (+21 more)
+Cohesion: 0.14
+Nodes (22): a$c(), alphaBy(), b$5(), d$2(), desaturateBy(), grayscale(), h$4(), hsla() (+14 more)
+
+### Community 192 - "03. 💨 Las Fisuras Térmicas Micro-Gaseosas"
+Cohesion: 0.20
+Nodes (9): 03. 💨 Las Fisuras Térmicas Micro-Gaseosas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 197 - "04. 🌀 La Cámara del Vacío Venturi"
+Cohesion: 0.20
+Nodes (9): 04. 🌀 La Cámara del Vacío Venturi, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 198 - "Xr"
 Cohesion: 0.04
-Nodes (127): a(), a$9(), applyArabicPresentationForms(), b$2(), c$2(), c$6(), estimateLineBound(), hexa() (+119 more)
+Nodes (124): a(), a$9(), c$2(), hexa(), i$1(), Intersecter$1(), l$1(), load() (+116 more)
 
 ### Community 199 - "b$4"
 Cohesion: 0.25
 Nodes (8): addStringToPool(), findSubArray(), getEncoding(), getLanguageCode(), makeNameRecord(), makeNameTable(), parseNameTable(), reverseDict()
 
+### Community 201 - "05. 🪶 El Balcón del Planeador de Bronce"
+Cohesion: 0.20
+Nodes (9): 05. 🪶 El Balcón del Planeador de Bronce, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 202 - "06. 🌬️ Pozo de Viento Ascendente"
+Cohesion: 0.20
+Nodes (9): 06. 🌬️ Pozo de Viento Ascendente, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 203 - "07. 🪶 Balcón de Salida"
+Cohesion: 0.20
+Nodes (9): 07. 🪶 Balcón de Salida, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
 ### Community 205 - ".onOpen"
-Cohesion: 0.10
-Nodes (5): fuzzyMatchParagraphsWithId(), fuzzyMatchTextItems(), getSortedLinkMatches(), InsertLinkDialog, SuggestionModal
+Cohesion: 0.12
+Nodes (5): fuzzyMatchParagraphsWithId(), fuzzyMatchTextItems(), getLinkSuggestionsFiltered(), getSortedLinkMatches(), InsertLinkDialog
+
+### Community 208 - "08. 💨 Conducto Neumático"
+Cohesion: 0.20
+Nodes (9): 08. 💨 Conducto Neumático, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 210 - "09. 🌀 Torre de Bloques Flotantes"
+Cohesion: 0.20
+Nodes (9): 09. 🌀 Torre de Bloques Flotantes, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 211 - "01. ⚓ El Pilar de Anclas de Basalto"
+Cohesion: 0.20
+Nodes (9): 01. ⚓ El Pilar de Anclas de Basalto, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 215 - "02. ⚖️ La Balanza de Peso y Catapulta"
+Cohesion: 0.20
+Nodes (9): 02. ⚖️ La Balanza de Peso y Catapulta, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos of Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 217 - "03. 🟅 Muro de Piedra Frágil (Muro Agrietado Isaac)"
+Cohesion: 0.20
+Nodes (9): 03. 🟅 Muro de Piedra Frágil (Muro Agrietado Isaac), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 222 - ".renderScriptButtons"
-Cohesion: 0.29
-Nodes (3): ActionButton, saveIcon(), stringToSVG()
+Cohesion: 0.20
+Nodes (9): 04. 🌋 La Sima de los Temblores Telúricos, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 255 - "05. 🪨 El Cañón del Rodillo de Basalto"
+Cohesion: 0.20
+Nodes (9): 05. 🪨 El Cañón del Rodillo de Basalto, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 301 - "06. ⛏️ Mina de Aleación Maleable"
+Cohesion: 0.20
+Nodes (9): 06. ⛏️ Mina de Aleación Maleable, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 308 - "07. 🗿 Consola de Grúa de Basalto"
+Cohesion: 0.20
+Nodes (9): 07. 🗿 Consola de Grúa de Basalto, Acciones y Comprobaciones, Efecto en Sala Vecina, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 309 - "08. 🟅 Cámara del Bloque Volado"
+Cohesion: 0.20
+Nodes (9): 08. 🟅 Cámara del Bloque Volado, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 310 - "09. 🟅 Sello de Presión de Basalto"
+Cohesion: 0.20
+Nodes (9): 09. 🟅 Sello de Presión de Basalto, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 311 - "01. 🌱 El Invernadero del Hongo Trampolín"
+Cohesion: 0.20
+Nodes (9): 01. 🌱 El Invernadero del Hongo Trampolín, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 312 - "02. 🌿 La Compuerta de Vides Arcanas"
+Cohesion: 0.20
+Nodes (9): 02. 🌿 La Compuerta de Vides Arcanas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 314 - "03. 🍄 El Invernadero de Esporas Durmientes"
+Cohesion: 0.20
+Nodes (9): 03. 🍄 El Invernadero de Esporas Durmientes, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 315 - "04. 🌸 El Jardín de la Flora Bioluminiscente"
+Cohesion: 0.20
+Nodes (9): 04. 🌸 El Jardín de la Flora Bioluminiscente, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 316 - "05. 🪷 El Bulbo Carnívoro del Núcleo"
+Cohesion: 0.20
+Nodes (9): 05. 🪷 El Bulbo Carnívoro del Núcleo, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 317 - "test.js"
 Cohesion: 0.40
@@ -822,20 +1076,108 @@ Nodes (4): dom, fs, html, jsdom
 Cohesion: 0.50
 Nodes (3): jsdom, dependencies, jsdom
 
+### Community 322 - "06. 🍄 Invernadero de Esporas Infeccioso"
+Cohesion: 0.20
+Nodes (9): 06. 🍄 Invernadero de Esporas Infeccioso, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 323 - "07. 🌿 Purificador Ambiental"
+Cohesion: 0.20
+Nodes (9): 07. 🌿 Purificador Ambiental, Acciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas of Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 324 - "EditorHandler"
+Cohesion: 0.20
+Nodes (9): 01. ☀️ La Galería de los Espejos en Cadena, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 325 - "02. 🌌 La Cámara de las Sombras Cuánticas"
+Cohesion: 0.20
+Nodes (9): 02. 🌌 La Cámara de las Sombras Cuánticas, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 326 - "03. 👁️ La Sala de la Perspectiva Anamórfica"
+Cohesion: 0.20
+Nodes (9): 03. 👁️ La Sala de la Perspectiva Anamórfica, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 327 - "04. 🌈 El Prisma del Santo Sol"
+Cohesion: 0.20
+Nodes (9): 04. 🌈 El Prisma del Santo Sol, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 328 - "05. 👥 La Cámara de los Clones de Penumbra"
+Cohesion: 0.20
+Nodes (9): 05. 👥 La Cámara de los Clones de Penumbra, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 329 - "06. ☀️ Tragaluz Solar de Orientación"
+Cohesion: 0.20
+Nodes (9): 06. ☀️ Tragaluz Solar de Orientación, Acciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 330 - "07. 🪞 Galería de Espejos Pivotantes"
+Cohesion: 0.20
+Nodes (9): 07. 🪞 Galería de Espejos Pivotantes, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 331 - "08. 🌈 Receptor de Luz Final"
+Cohesion: 0.20
+Nodes (9): 08. 🌈 Receptor de Luz Final, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 332 - "02. 🔥 Arena del Señor del Crisol (Guardián de Fuego)"
+Cohesion: 0.20
+Nodes (9): 02. 🔥 Arena del Señor del Crisol (Guardián de Fuego), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 333 - "03. 🌊 Arena de la Quimera Hidráulica (Guardián de Agua)"
+Cohesion: 0.20
+Nodes (9): 03. 🌊 Arena de la Quimera Hidráulica (Guardián de Agua), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 334 - "04. 🌬️ Arena del Coloso del Vértice (Guardián de Aire)"
+Cohesion: 0.20
+Nodes (9): 04. 🌬️ Arena del Coloso del Vértice (Guardián de Aire), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 335 - "05. 🪨 Arena del Titán de Basalto (Guardián de Tierra)"
+Cohesion: 0.20
+Nodes (9): 05. 🪨 Arena del Titán de Basalto (Guardián de Tierra), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 337 - "06. 🍄 Arena del Botánico de Sombras (Guardián de Vida)"
+Cohesion: 0.20
+Nodes (9): 06. 🍄 Arena del Botánico de Sombras (Guardián de Vida), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 339 - "07. 🪞 Arena del Espejismo de Cristal (Guardián de Luz)"
+Cohesion: 0.20
+Nodes (9): 07. 🪞 Arena del Espejismo de Cristal (Guardián de Luz), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+
+### Community 340 - "06. 🎲 Sala del Dado Arcano (Arcade Room)"
+Cohesion: 0.22
+Nodes (8): 06. 🎲 Sala del Dado Arcano (Arcade Room), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tabla de Resultados del Dado (Tira 1d6), Tríada de Información de Minos
+
+### Community 341 - "23. 🚪 Bóveda de Salida"
+Cohesion: 0.22
+Nodes (8): 23. 🚪 Bóveda de Salida, Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
+
+### Community 342 - "08. 🚰 Esclusa de Salida (Portón Final)"
+Cohesion: 0.22
+Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
+
+### Community 345 - "renderLinkSuggestion"
+Cohesion: 0.53
+Nodes (5): AUDIO_TYPES, CODE_TYPES, predictViewType(), renderLinkSuggestion(), VIDEO_TYPES
+
+### Community 346 - "s$7"
+Cohesion: 0.50
+Nodes (5): a$7(), i$7(), o$7(), s$7(), u$5()
+
+### Community 347 - "e$5"
+Cohesion: 0.50
+Nodes (5): c$5(), e$5(), o$5(), r$5(), u$3()
+
 ## Knowledge Gaps
-- **618 isolated node(s):** `alwaysUpdateLinks`, `showInlineTitle`, `INITIAL_TIMESTAMP`, `{react, reactDOM }`, `excalidrawLib` (+613 more)
+- **1030 isolated node(s):** `alwaysUpdateLinks`, `showInlineTitle`, `INITIAL_TIMESTAMP`, `{react, reactDOM }`, `excalidrawLib` (+1025 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **47 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **59 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ExcalidrawAutomate` connect `ExcalidrawAutomate` to `obsidian-excalidraw-plugin/main.js`, `ExcalidrawView`, `getDataURL`, `resolveTokenizedString`, `t$d`, `.registerCommands`, `.render`, `getTemplate`, `ExcalidrawData`, `RenderObsidianView`, `getBoundingClientRect`, `rgb2css`, `.push`, `DropManager`, `createPairs`, `.display`, `.isExcalidrawFile`, `argument`, `dR`, `ObsidianMenu`, `Document`, `e`, `H`, `stringify$1`, `ExcalidrawSidepanelView`, `Lexer`, `ImageCache`, `log`, `push`, `preventOverflow`, `addName`, `GenericInputPrompt`, `.onChooseItem`, `pull`, `.handleError`, `generateFileHtml`, `CropImage`, `YAMLError`, `parseCFFTable`, `Bn`, `bT`, `.getViewType`, `CropImage`, `.resolve`, `Xr`, `requestAI`, `.next`, `FileSuggestionModal`, `.onOpen`, `c$2`, `blockString`, `.toJS`, `Suggester`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `showColorPicker`, `_s`, `InlineLinkSuggester`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
-- **Why does `n()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `ExcalidrawAutomate`, `t$d`, `.registerCommands`, `getTemplate`, `RenderObsidianView`, `O`, `h$2`, `createPairs`, `DropManager`, `FloatingModal`, `.isExcalidrawFile`, `dR`, `ObsidianMenu`, `Document`, `getRepo`, `e`, `stringify$1`, `isPointOnText`, `preventOverflow`, `addName`, `GenericInputPrompt`, `slice`, `m0`, `pull`, `generateFileHtml`, `parseCFFTable`, `bT`, `.getViewType`, `.resolve`, `requestAI`, `.next`, `.onOpen`, `.onOpen`, `blockString`, `.renderScriptButtons`, `.toJS`, `Group`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `b$4`, `InlineLinkSuggester`?**
-  _High betweenness centrality (0.056) - this node is a cross-community bridge._
-- **Why does `a()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `getDataURL`, `t$d`, `.registerCommands`, `ExcalidrawData`, `RenderObsidianView`, `O`, `DropManager`, `createPairs`, `FloatingModal`, `.isExcalidrawFile`, `ObsidianMenu`, `getRepo`, `Document`, `e`, `H`, `stringify$1`, `ImageCache`, `GenericInputPrompt`, `.onChooseItem`, `preventOverflow`, `pull`, `generateFileHtml`, `CropImage`, `YAMLError`, `bT`, `.getViewType`, `.resolve`, `requestAI`, `.next`, `.onOpen`, `u$2`, `ObserverManager`, `.onOpen`, `blockString`, `.toJS`, `Group`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `b$4`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+- **Why does `ExcalidrawAutomate` connect `ExcalidrawAutomate` to `obsidian-excalidraw-plugin/main.js`, `ExcalidrawView`, `getDataURL`, `resolveTokenizedString`, `t$d`, `.registerCommands`, `.render`, `getTemplate`, `ExcalidrawData`, `getBoundingClientRect`, `rgb2css`, `.push`, `RenderObsidianView`, `DropManager`, `createPairs`, `.display`, `.isExcalidrawFile`, `argument`, `ToolsPanel`, `dR`, `Document`, `e`, `H`, `stringify$1`, `ExcalidrawSidepanelView`, `Lexer`, `ImageCache`, `log`, `push`, `preventOverflow`, `slice`, `GenericInputPrompt`, `.onChooseItem`, `addName`, `pull`, `.handleError`, `generateFileHtml`, `CropImage`, `YAMLError`, `parseCFFTable`, `bT`, `.getViewType`, `.resolve`, `Xr`, `requestAI`, `.onOpen`, `c$2`, `.harvestStyles`, `renderLinkSuggestion`, `getTags`, `.help`, `blockString`, `.toJS`, `Suggester`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `showColorPicker`, `InlineLinkSuggester`?**
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
+- **Why does `n()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `ExcalidrawAutomate`, `t$d`, `.registerCommands`, `getTemplate`, `O`, `FloatingModal`, `.isExcalidrawFile`, `ToolsPanel`, `getRepo`, `Document`, `e`, `stringify$1`, `isPointOnText`, `preventOverflow`, `addName`, `preventOverflow`, `pull`, `generateFileHtml`, `parseCFFTable`, `CropImage`, `.getViewType`, `.resolve`, `requestAI`, `.onOpen`, `.onOpen`, `blockString`, `.toJS`, `Group`, `EmbeddalbeMDFileCustomDataSettingsComponent`, `b$4`?**
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+- **Why does `a()` connect `Xr` to `obsidian-excalidraw-plugin/main.js`, `obsidian-git/main.js`, `ExcalidrawView`, `getDataURL`, `t$d`, `.registerCommands`, `getTemplate`, `ExcalidrawData`, `O`, `FloatingModal`, `ToolsPanel`, `getRepo`, `Document`, `e`, `H`, `stringify$1`, `ImageCache`, `.onChooseItem`, `preventOverflow`, `pull`, `generateFileHtml`, `CropImage`, `YAMLError`, `bT`, `.getViewType`, `.resolve`, `requestAI`, `.onOpen`, `ObserverManager`, `blockString`, `.toJS`, `Group`, `b$4`?**
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `ExcalidrawView` (e.g. with `.registerCommands()` and `.setView()`) actually correct?**
   _`ExcalidrawView` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 139 inferred relationships involving `n()` (e.g. with `a()` and `addName()`) actually correct?**
