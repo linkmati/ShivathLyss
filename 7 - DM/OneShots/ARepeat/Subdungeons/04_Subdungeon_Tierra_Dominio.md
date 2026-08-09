@@ -13,22 +13,22 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: Pozo del Pilar Central (Hub 4 Pisos - Nivel 1)"] -->|Explorar Catacumbas Este| S2["Room 2: Ala Catacumbas de Basalto Agrietado"]
-    S2 -->|Limpiar Escombros| S2_Key["🗝️ Cofre: Llave Pequeña #1"]
+    S1["Room 1: Pozo del Pilar Central"] -->|Explorar Catacumbas Este| S2["Room 2: Ala Catacumbas de Basalto"]
+    S2 -->|Limpiar Escombros| S2_Key["Cofre: Llave Pequena 1"]
     S2_Key -->|Backtrack al Hub| S1
     
-    S1 -->|Usar Llave #1 en Puerta Oeste 🗝️1| S3["Room 3: Ala Armería (Piso 2)"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ Cámara del Armos de la Cumbre (Mini-Boss)"]
-    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Martillo de Basalto"]
+    S1 -->|Usar Llave 1 en Puerta Oeste| S3["Room 3: Ala Armeria"]
+    S3 -->|Pasaje Libre| S4["Room 4: Camara del Armos de la Cumbre"]
+    S4 -->|COFRE MAESTRO| Item["ITEM: Martillo de Basalto"]
     
-    Item -->|Backtrack a la Base del Hub (Piso 1)| S5["Room 5: Primer Smash al Pilar Central (Piso 1)"]
-    S5 -->|Destruir Anillo #1 del Pilar: Pilar Cae 10 ft| S5_Align["🔓 Alineamiento: Conecta Piso 2 con Piso 3"]
-    S5_Align --> S6["Room 6: Segundo Smash al Pilar (Piso 3) & Bloques Peg"]
-    S6 -->|Destruir Anillo #2 del Pilar: Pilar Cae 10 ft| BossKey["👑 COFRE: Llave del Boss (en Cúspide del Pilar)"]
+    Item -->|Backtrack al Piso 1| S5["Room 5: Primer Smash al Pilar Central"]
+    S5 -->|Destruir Anillo 1: Pilar Cae 10ft| S5_Align["Alineamiento: Conecta Piso 2 con 3"]
+    S5_Align --> S6["Room 6: Segundo Smash al Pilar"]
+    S6 -->|Destruir Anillo 2: Pilar Cae 10ft| BossKey["COFRE: Llave del Boss"]
     
-    BossKey -->|Ascender Escalera Perimetral al Piso 4| S7["Room 7: 🔒 El Portón de la Cumbre Tectónica"]
-    S7 --> S8["Room 8: 💀 Arena de Goht / El Titán de Basalto"]
-    S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #4"]
+    BossKey -->|Ascender Escalera al Piso 4| S7["Room 7: Porton de la Cumbre Tectonica"]
+    S7 --> S8["Room 8: Arena de Goht"]
+    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 4"]
 ```
 
 ---

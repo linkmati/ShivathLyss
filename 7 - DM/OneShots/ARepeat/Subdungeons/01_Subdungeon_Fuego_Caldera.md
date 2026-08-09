@@ -13,24 +13,24 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: Atrio del Crisol Central (Hub 3 Pisos)"] -->|Explorar Ala Este| S2["Room 2: Ala Este - Las Celdas Volcánicas"]
-    S2 -->|Puzle 1: Liberar Anciano Goron| S2_Key["🗝️ Cofre: Llave Pequeña #1"]
+    S1["Room 1: Atrio del Crisol Central (Hub 3 Pisos)"] -->|Explorar Ala Este| S2["Room 2: Ala Este - Las Celdas Volcanicas"]
+    S2 -->|Puzle 1: Liberar Anciano Goron| S2_Key["Cofre: Llave Pequena 1"]
     S2_Key -->|Backtrack al Hub| S1
     
-    S1 -->|Usar Llave #1 en Puerta Oeste 🗝️1| S3["Room 3: Ala Oeste - El Laberinto de Muros de Fuego"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ Cámara del Bailarín de Llama (Mini-Boss)"]
-    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Guantelete de Llama"]
+    S1 -->|Usar Llave 1 en Puerta Oeste| S3["Room 3: Ala Oeste - El Laberinto de Muros de Fuego"]
+    S3 -->|Pasaje Libre| S4["Room 4: Camara del Bailarin de Llama"]
+    S4 -->|COFRE MAESTRO| Item["ITEM: Guantelete de Llama"]
     
     Item -->|Backtrack al Hub Central| S1
-    S1 -->|Usar Guantelete: Techo Magnético al Piso 2| S5["Room 5: Piso 2 - Galería de las Frutas de Agua"]
-    S5 -->|Solidificar Magma con Frutas| S6["Room 6: Piso 3 - Cañón de Escoria Rodante"]
-    S6 -->|Puzle de Basalto: Desbloquear Atajo al Hub| S1
-    S6 -->|Cofre en Cornisa Elevada| BossKey["👑 COFRE: Llave del Boss"]
+    S1 -->|Usar Guantelete al Piso 2| S5["Room 5: Piso 2 - Galeria de Frutas de Agua"]
+    S5 -->|Solidificar Magma| S6["Room 6: Piso 3 - Canon de Escoria Rodante"]
+    S6 -->|Desbloquear Atajo al Hub| S1
+    S6 -->|Cofre en Cornisa Elevada| BossKey["COFRE: Llave del Boss"]
     
     BossKey -->|Regresar al Hub Central| S1
-    S1 -->|Usar Llave del Boss en Portón Norte 🔒| S7["Room 7: Antecámara del Dragón"]
-    S7 --> S8["Room 8: 💀 Arena de Volvagia / El Señor del Crisol"]
-    S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #1"]
+    S1 -->|Usar Llave del Boss en Porton Norte| S7["Room 7: Antecamara del Dragon"]
+    S7 --> S8["Room 8: Arena de Volvagia"]
+    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 1"]
 ```
 
 ---

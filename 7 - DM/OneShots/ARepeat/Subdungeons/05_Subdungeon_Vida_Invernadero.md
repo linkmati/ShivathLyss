@@ -13,22 +13,22 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: El Gran Tronco Hueco (Hub 3 Pisos - Planta Baja)"] -->|Escalar Raíces al Ala Dosel| S2["Room 2: Ala Dosel - Galería de los Matorrales Deku"]
-    S2 -->|Puzle 1: Secuencia 2-3-1 a Matorrales| S2_Key["🗝️ Cofre: Llave Pequeña #1"]
+    S1["Room 1: Gran Tronco Hueco"] -->|Escalar Raices| S2["Room 2: Ala Dosel - Matorrales Deku"]
+    S2 -->|Puzle 1: Secuencia 2-3-1| S2_Key["Cofre: Llave Pequena 1"]
     S2_Key -->|Backtrack al Hub| S1
     
-    S1 -->|Usar Llave #1 en Puerta del Dosel 🗝️1| S3["Room 3: Ala Norte - Cúpula de la Tela de Araña Central"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ Cámara de la Reina Deku Baba (Mini-Boss)"]
-    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Semilla Botánica"]
+    S1 -->|Usar Llave 1 en Puerta Dosel| S3["Room 3: Ala Norte - Cupula de Tela"]
+    S3 -->|Pasaje Libre| S4["Room 4: Camara de Reina Deku Baba"]
+    S4 -->|COFRE MAESTRO| Item["ITEM: Semilla Botanica"]
     
-    Item -->|Backtrack al Balcón Superior del Hub| S5["Room 5: Balcón del Dosel - Puzle 2: Caída de Fe de 30 ft"]
-    S5 -->|Romper Tela de Araña Central con Caída Libre| S6["Room 6: Nivel Inferior - El Estanque de Savia de las Raíces"]
-    S6 -->|Trancar Bulbo Kalle Demos con Semilla| BossKey["👑 COFRE: Llave del Boss"]
+    Item -->|Backtrack al Balcon| S5["Room 5: Balcon del Dosel - Caida Libre"]
+    S5 -->|Romper Tela de Araña| S6["Room 6: Nivel Inferior - Estanque de Savia"]
+    S6 -->|Trancar Bulbo Kalle Demos| BossKey["COFRE: Llave del Boss"]
     
-    BossKey -->|Germinar Vid Ascendente al Hub Central| S1
-    S1 -->|Usar Llave del Boss en Portón de Esporas 🔒| S7["Room 7: Antecámara de las Esporas"]
-    S7 --> S8["Room 8: 💀 Arena de Gohma / El Botánico de Sombras"]
-    S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #5"]
+    BossKey -->|Germinar Vid Ascendente| S1
+    S1 -->|Usar Llave del Boss en Porton Esporas| S7["Room 7: Antecamara de Esporas"]
+    S7 --> S8["Room 8: Arena de Gohma"]
+    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 5"]
 ```
 
 ---

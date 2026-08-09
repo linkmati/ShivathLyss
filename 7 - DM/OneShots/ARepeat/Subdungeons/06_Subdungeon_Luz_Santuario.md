@@ -13,21 +13,21 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: Atrio de la Diosa de la Arena (Hub 3 Pisos - Coloso)"] -->|Explorar Ala Mano Izquierda| S2["Room 2: Ala Mano Izquierda - Galería Anubis"]
-    S2 -->|Puzle 1: Lurear Anubis al Muro de Fuego| S2_Key["🗝️ Cofre: Llave Pequeña #1"]
+    S1["Room 1: Atrio de la Diosa de la Arena"] -->|Explorar Ala Mano Izquierda| S2["Room 2: Ala Mano Izquierda - Galeria Anubis"]
+    S2 -->|Puzle 1: Lurear Anubis al Fuego| S2_Key["Cofre: Llave Pequena 1"]
     S2_Key -->|Backtrack al Hub| S1
     
-    S1 -->|Usar Llave #1 en Ala Mano Derecha 🗝️1| S3["Room 3: Ala Mano Derecha - Tragaluz Solar Inclinado"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ Cámara del Iron Knuckle de la Diosa (Mini-Boss)"]
-    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Escudo Prismático (Mirror Shield)"]
+    S1 -->|Usar Llave 1 en Ala Mano Derecha| S3["Room 3: Ala Mano Derecha - Tragaluz Solar"]
+    S3 -->|Pasaje Libre| S4["Room 4: Camara del Iron Knuckle"]
+    S4 -->|COFRE MAESTRO| Item["ITEM: Escudo Prismatico"]
     
-    Item -->|Backtrack a las Manos de la Estatua en el Hub| S5["Room 5: Manos del Coloso (Piso 2) - Puzle 2: Mirror Shield"]
-    S5 -->|Reflejar Rayo Solar al Rostro de la Diosa| S6["Room 6: Piso 3 - Cámara de la Frente del Coloso"]
-    S6 -->|Fundir Velo Facial de Piedra| BossKey["👑 COFRE: Llave del Boss"]
+    Item -->|Backtrack a las Manos de Estatua| S5["Room 5: Manos del Coloso - Mirror Shield"]
+    S5 -->|Reflejar Rayo Solar al Rostro| S6["Room 6: Piso 3 - Camara de la Frente"]
+    S6 -->|Fundir Velo Facial| BossKey["COFRE: Llave del Boss"]
     
-    BossKey -->|Regresar al Atrio Superior del Hub| S7["Room 7: 🔒 Portón del Santuario del Sol"]
-    S7 --> S8["Room 8: 💀 Arena de Twinrova / El Espejismo de Cristal"]
-    S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #6"]
+    BossKey -->|Regresar al Atrio Superior| S7["Room 7: Porton del Santuario del Sol"]
+    S7 --> S8["Room 8: Arena de Twinrova"]
+    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 6"]
 ```
 
 ---

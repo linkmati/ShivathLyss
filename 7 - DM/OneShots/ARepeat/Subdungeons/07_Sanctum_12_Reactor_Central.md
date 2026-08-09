@@ -12,20 +12,20 @@
 
 ```mermaid
 graph TD
-    S1["Phase 1: Puerta Hexagonal (6 Fragmentos de Tablilla)"] --> S2["Phase 2: Atrio Central del Reactor (Hub Master)"]
+    S1["Phase 1: Puerta Hexagonal"] --> S2["Phase 2: Atrio Central del Reactor"]
     
-    subgraph "LAS SEIS ALAS ELEMENTALES AUTÓNOMAS (Ganon's Castle Wings)"
-        S2 -->|Elección del Grupo| B1["Ala Fuego: Braseros Térmicos & Techo Magnético"]
-        S2 -->|Elección del Grupo| B2["Ala Agua: Drenaje de Fosa & Submundo"]
-        S2 -->|Elección del Grupo| B3["Ala Aire: Trampolines Celestes & Turbina"]
-        S2 -->|Elección del Grupo| B4["Ala Tierra: Impacto de Masa al Pilar Central"]
-        S2 -->|Elección del Grupo| B5["Ala Vida: Puente de Vides & Caída de Tela"]
-        S2 -->|Elección del Grupo| B6["Ala Luz: Reflejo Solar con Mirror Shield"]
+    subgraph "LAS SEIS ALAS ELEMENTALES AUTONOMAS"
+        S2 -->|Eleccion del Grupo| B1["Ala Fuego: Braseros Termicos & Techo Magnetico"]
+        S2 -->|Eleccion del Grupo| B2["Ala Agua: Drenaje de Fosa & Submundo"]
+        S2 -->|Eleccion del Grupo| B3["Ala Aire: Trampolines Celestes & Turbina"]
+        S2 -->|Eleccion del Grupo| B4["Ala Tierra: Impacto al Pilar Central"]
+        S2 -->|Eleccion del Grupo| B5["Ala Vida: Puente de Vides & Caida de Tela"]
+        S2 -->|Eleccion del Grupo| B6["Ala Luz: Reflejo Solar con Mirror Shield"]
     end
 
-    B1 & B2 & B3 & B4 & B5 & B6 -->|Al disipar las 6 Barreras| S3["Phase 3: Desbloqueo de la Torre Central de Ascenso"]
-    S3 -->|Escalera en Espiral con Derrumbes| S4["Phase 4: 💀 Arena de El Juicio de Minos (Ganon Core)"]
-    S4 -->|FULL BURST (Xenoblade 2 System)| Win["👑 VICTORIA FINAL SOBRE EL LABERINTO DE MINOS"]
+    B1 & B2 & B3 & B4 & B5 & B6 -->|Al disipar las 6 Barreras| S3["Phase 3: Desbloqueo de la Torre Central"]
+    S3 -->|Escalera en Espiral con Derrumbes| S4["Phase 4: Arena de El Juicio de Minos"]
+    S4 -->|FULL BURST| Win["VICTORIA FINAL SOBRE EL LABERINTO DE MINOS"]
 ```
 
 ---

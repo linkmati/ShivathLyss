@@ -13,23 +13,23 @@
 
 ```mermaid
 graph TD
-    S1["Room 1: La Gran Estatua de Loto (Hub Central - Nivel ALTO)"] -->|Explorar Ala Este Sumida| S2["Room 2: Ala Este - Galería de Núfares Flotantes"]
-    S2 -->|Puzle 1: Inversión de Hojas de Loto| S2_Key["🗝️ Cofre: Llave Pequeña #1"]
+    S1["Room 1: La Gran Estatua de Loto (Hub Central)"] -->|Explorar Ala Este| S2["Room 2: Ala Este - Galeria de Nufares"]
+    S2 -->|Puzle 1: Inversion de Hojas| S2_Key["Cofre: Llave Pequena 1"]
     S2_Key -->|Backtrack al Hub| S1
     
-    S1 -->|Usar Llave #1 en Esclusa Oeste 🗝️1| S3["Room 3: Ala Oeste - Esclusa del Canal Dorado"]
-    S3 -->|Pasaje Libre| S4["Room 4: ⚔️ Cámara del Guardián de Latón (Mini-Boss)"]
-    S4 -->|🎁 COFRE MAESTRO| Item["🎁 ITEM: Flauta del Mar"]
+    S1 -->|Usar Llave 1 en Esclusa| S3["Room 3: Ala Oeste - Esclusa Dorado"]
+    S3 -->|Pasaje Libre| S4["Room 4: Camara del Guardian de Laton"]
+    S4 -->|COFRE MAESTRO| Item["ITEM: Flauta del Mar"]
     
     Item -->|Backtrack al Hub Central| S1
-    S1 -->|Tocar Flauta del Mar: Drenar Agua a Nivel BAJO| S5["Room 5: Caída al Submundo Cursado (Foso Inferior)"]
-    S5 -->|Puzle 2: Escala del Hilo de Seda entre Guadañas| S6["Room 6: El Laberinto de Hilos y Turbinas"]
-    S6 -->|Cofre en Altura| BossKey["👑 COFRE: Llave del Boss"]
+    S1 -->|Tocar Flauta: Drenar a Nivel BAJO| S5["Room 5: Caida al Submundo Cursado"]
+    S5 -->|Puzle 2: Escala del Hilo de Seda| S6["Room 6: El Laberinto de Hilos"]
+    S6 -->|Cofre en Altura| BossKey["COFRE: Llave del Boss"]
     
-    BossKey -->|Backtrack al Hub: Tocar Flauta a Nivel ALTO| S1
-    S1 -->|Usar Llave del Boss en Cabeza de la Estatua 🔒| S7["Room 7: Antecámara del Corazón del Loto"]
-    S7 --> S8["Room 8: 💀 Arena de Koloktos / La Quimera Hidráulica"]
-    S8 -->|Vencer Guardián| Win["🔓 SUBDUNGEON COMPLETADA & FRAGMENTO #2"]
+    BossKey -->|Backtrack al Hub: Llenar a Nivel ALTO| S1
+    S1 -->|Usar Llave del Boss en Cabeza de Estatua| S7["Room 7: Antecamara del Loto"]
+    S7 --> S8["Room 8: Arena de Koloktos"]
+    S8 -->|Vencer Guardian| Win["SUBDUNGEON COMPLETADA & FRAGMENTO 2"]
 ```
 
 ---
