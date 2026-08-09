@@ -209,3 +209,54 @@ Cerrojos interactivos que requieren usos creativos de habilidades poco habituale
 * **Mecánica**: Muro con 6 orificios; 5 expulsan gas tóxico y 1 retrae el rastrillo.
 * **Check Inusual**: *Supervivencia (DC 13)* para detectar por diferencias de flujo de aire térmico cuál es la fisura segura.
 * **Repetibilidad**: Anotado el número del orificio seguro en el cuaderno, se introduce la vara en 1 segundo.
+
+---
+
+## 7. Catálogo de Puzles y Mecanismos de Persistencia Permanente (Salas 40 a 50)
+
+Puzles espaciales, de perspectiva y redes causales donde **la resolución de la barrera queda guardada de forma PERMANENTE para todas las futuras incursiones del grupo**:
+
+### 40. 🌌 La Cámara de las Sombras Cuánticas (Perspectiva & Luz)
+* **Mecánica**: Alinear 3 linternas de cuarzo en los ángulos exactos para proyectar pasarelas de sombra sólidas sobre un abismo.
+* **Persistencia Permanente**: Al trabar el mecanismo en su posición, la pasarela de sombra se fija de forma permanente para todas las futuras incursiones.
+
+### 41. 🌋 El Horno de Enfriamiento Térmico (Fuego + Agua)
+* **Mecánica**: Canal de magma infranqueable. Accionar la compuerta de la piscina superior para inundar el canal de agua.
+* **Persistencia Permanente**: El magma se petrifica en un puente continuo de basalto que permanece sólido y cruzable para siempre.
+
+### 42. 🌱 El Invernadero del Hongo Trampolín (Vida + Aire)
+* **Mecánica**: Madurar el esporangio de un hongo titanis mediante savia vegetal y aire a presión para inflarlo como plataforma de salto hacia los balcones superiores.
+* **Persistencia Permanente**: El hongo gigante queda germinado e inflado permanentemente, funcionando como ascensor vegetal en runs futuras.
+
+### 43. 👁️ La Sala de la Perspectiva Anamórfica (Perspectiva / Tunic)
+* **Mecánica**: Columnas discontinuas que desde la losa de enfoque dibujan la sombra de un glifo sagrado, desencajando el sello de la compuerta.
+* **Persistencia Permanente**: Al desencajarse el sello, la compuerta cae y permanece abierta en todas las runs subsecuentes.
+
+### 44. 🧲 El Pozo de la Arena de Hierro Magnetizada (Magnetismo)
+* **Mecánica**: Sima repleta de polvo de basalto ferromagnético. Activar el prisma magnético atrae el polvo formando una calzada rígida de limo imantado.
+* **Persistencia Permanente**: La calzada imantada queda fijada y no se desmorona en expediciones posteriores.
+
+### 45. ⛓️ La Galería del Péndulo de Basalto (Física Dinámica)
+* **Mecánica**: Esfera de piedra de 500 lbs suspendida sobre un abismo. Balancear la esfera y cortar la cadena de retención posterior para que quede trabada como puente.
+* **Persistencia Permanente**: La esfera trabada sirve de puente permanente de piedra sobre la sima.
+
+### 46. 🩸 El Santuario de la Sangre y el Tiempo (Altar Isaac / Downtime)
+* **Mecánica**: Altar de sacrificio arcano. Ofrendar 1 Carga Arcana o sangre de aventurero desvela el plano del cuadrante y otorga elixires.
+* **Persistencia Permanente**: Los mapas e información revelados quedan anotados permanentemente en el Cuaderno Físico de la Mina.
+
+### 47. ⚔️ La Armería Dual de los Caballeros Durmientes (Pedestales Duales / Isaac)
+* **Mecánica**: Dos pedestales con Objetos Mágicos Menores. Escoger uno destruye el otro y despierta al guardián de la sala.
+* **Persistencia Permanente**: Una vez saqueado el objeto elegido, la sala queda limpia y segura para transitar en siguientes runs.
+
+### 48. 🎰 La Ruleta del Dado de las Esferas Rúnicas (Casino Arcano / Isaac)
+* **Mecánica**: Ruleta rúnica de 1d10 donde apostar monedas de cobre por elixires, gemas o mapas.
+* **Persistencia Permanente**: Permanece accesible como punto de comercio y recreo de downtime entre incursiones.
+
+### 49. 🌬️ El Nodo de la Red Teledirigida de Viento (Relay Hub de Área)
+* **Mecánica**: Válvula central de ventilación que al reorientarse desvía ráfagas a las 3 salas adyacentes de la rejilla 7x7.
+* **Persistencia Permanente**: El cambio de flujo en las salas adyacentes (trampas apagadas / molinos girando) se mantiene guardado permanentemente.
+
+### 50. 🔄 El Interruptor de Inversión Térmica de Cuadrante (Thermal Core Switch)
+* **Mecánica**: Palanca hidráulica que redirige el flujo de magma: derrite el hielo de la sala Norte y petrifica el agua de la sala Sur en la rejilla 7x7.
+* **Persistencia Permanente**: La reconfiguración térmica del cuadrante queda guardada permanentemente en la Web App y en el cuaderno físico.
+
