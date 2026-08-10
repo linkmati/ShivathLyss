@@ -237,6 +237,12 @@
       box-shadow: 0 0 14px rgba(6, 182, 212, 0.5) !important;
     }
 
+    .cell.active.combat {
+      border-color: #ef4444 !important;
+      background: rgba(239, 68, 68, 0.3) !important;
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.5) !important;
+    }
+
     /* SUBDUNGEON ELEMENTAL COLOR ACCENTS */
     .cell.active.subdungeon-fire {
       border-color: var(--elem-fire) !important;
@@ -697,10 +703,11 @@
       <div class="form-group">
         <label>Rol Especial</label>
         <select class="form-control" id="inspect-role">
-          <option value="NORMAL">Estándar</option>
+          <option value="NORMAL">Estándar (Puzle / Gimmick)</option>
           <option value="ATRIO">🏛️ Entrada (Atrio)</option>
           <option value="SUBDUNGEON">👑 Subdungeon Boss</option>
           <option value="SECRET">🗝️ Sala Secreta (Isaac Pura)</option>
+          <option value="COMBAT">⚔️ Sala de Combate Dedicada</option>
         </select>
       </div>
 
@@ -973,6 +980,7 @@
           if (cell.role === "ATRIO") icon = "🏛️";
           if (cell.role === "SUBDUNGEON") icon = "👑";
           if (cell.role === "SECRET") icon = "🗝️";
+          if (cell.role === "COMBAT") icon = "⚔️";
 
           let keyTag = cell.hasSmallKey ? `<span class="cell-key-tag" title="Contiene Llave de Latón (Small Key)">🗝️ LLAVE</span>` : '';
           let unlockedTag = cell.unlocked ? `<span class="cell-unlocked-tag" title="Sala Desbloqueada (Persistente)">🔓 UNLOCKED</span>` : '';
@@ -1408,23 +1416,24 @@
         12: "Titán Primigenio de Basalto / Señor de la Sombra Espectral"
       };
 
-      const activeRoomsList = Object.keys(gridData).filter(k => gridData[k].active && gridData[k].role !== "ATRIO");
+      const candidateCombatKeys = Object.keys(gridData).filter(k => gridData[k].active && gridData[k].role === "NORMAL");
       const combatPercent = 0.20 + (Math.random() * 0.30); // 20% to 50%
-      const numCombatRooms = Math.max(1, Math.round(activeRoomsList.length * combatPercent));
+      const numCombatRooms = Math.max(1, Math.round(candidateCombatKeys.length * combatPercent));
 
-      const shuffledForCombat = [...activeRoomsList].sort(() => Math.random() - 0.5);
+      const shuffledForCombat = [...candidateCombatKeys].sort(() => Math.random() - 0.5);
       const chosenCombatKeys = shuffledForCombat.slice(0, numCombatRooms);
 
       chosenCombatKeys.forEach(k => {
         const cr = getNormalRandomCR(7, 1.8);
         const monster = CR_MONSTER_CATALOG[cr] || "Guardián del Laberinto";
+        gridData[k].role = "COMBAT";
+        gridData[k].name = `⚔️ Sala de Combate: ${monster} (CR ${cr})`;
         gridData[k].combat = {
           hasCombat: true,
           cr: cr,
           monster: monster
         };
-        const combatNote = `[⚔️ Combate Añadido: CR ${cr} - ${monster}]`;
-        gridData[k].notes = gridData[k].notes ? `${gridData[k].notes} | ${combatNote}` : combatNote;
+        gridData[k].notes = `Sala de Combate dedicada de Minos en posición independiente. Enemigo: ${monster} (CR ${cr}). Exige victoria en combate para avanzar.`;
       });
 
       document.getElementById('info-dia').innerHTML = `Palabra: <strong>${subObj.code}</strong>`;

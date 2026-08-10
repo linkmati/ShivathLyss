@@ -129,13 +129,13 @@ Cada vez que el Boss ejecuta un ataque finalizador de fase o un jugador asesta u
 
 ---
 
-## 4. Distribución Diaria de Encuentros de Combate (Regla de Adición 20-50%)
+## 4. Distribución Diaria de Salas de Combate (Nuevo Tipo de Sala Dedicada, 20-50%)
 
-> **Regla Core de Encuentros**: En cada incursión diaria del laberinto, los encuentros de combate **SE AÑADEN** a las salas activas existentes (puzles, trampas o salas de ítems), **NUNCA reemplazan** la sala ni su contenido original.
+> **Regla Core de Encuentros**: Las **Salas de Combate (`role: COMBAT`)** son un **nuevo tipo de sala dedicada e independiente** dentro de la rejilla 7x7. Se ubican en posiciones físicas separadas de las salas de puzles/gimmicks (no se superponen ni reemplazan otras salas).
 
-### A. Proporción Diaria de Combates
-* **Porcentaje Diario**: Entre el **20% y el 50%** de las salas activas de la incursión recibirán un encuentro de combate añadido.
-* **Mecánica Aditiva**: El puzle o gimmick original de la sala permanece 100% activo. El combate puede librarse en paralelo o antes de resolver la sala.
+### A. Proporción Diaria y Posicionamiento Independiente
+* **Porcentaje Diario**: Entre el **20% y el 50%** de las salas activas del mapa diario son generadas como **Salas de Combate Dedicadas** (`⚔️ Sala de Combate`).
+* **Autonomía Espacial**: Ocupan sus propias celdas en la topología de la rejilla 7x7 y cuentan con su propio identificador y mapa visual con la etiqueta `⚔️ CR X`.
 
 ### B. Distribución Normal de Dificultad (CR 3 - 12, Media 7)
 La dificultad de los encuentros sigue una **curva de distribución normal (Gaussiana)** centrada en **Media CR = 7** ($\sigma \approx 1.8$), acotada estrictamente entre **CR 3 y CR 12**:
