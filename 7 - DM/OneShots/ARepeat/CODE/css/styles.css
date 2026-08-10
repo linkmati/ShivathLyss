@@ -228,9 +228,9 @@ select.btn-select {
 }
 
 .cell.active.combat {
-  border-color: #e11d48 !important;
-  background: rgba(225, 29, 72, 0.3) !important;
-  box-shadow: 0 0 15px rgba(225, 29, 72, 0.5) !important;
+  border-color: #ec4899 !important;
+  background: rgba(236, 72, 153, 0.35) !important;
+  box-shadow: 0 0 16px rgba(236, 72, 153, 0.6) !important;
 }
 
 /* SUBDUNGEON ELEMENTAL COLOR ACCENTS */
@@ -321,12 +321,12 @@ select.btn-select {
   bottom: 15px;
   right: 2px;
   font-size: 0.55rem;
-  background: #be123c;
+  background: #db2777;
   color: #ffffff;
   border-radius: 3px;
   padding: 1px 3px;
   font-weight: 800;
-  box-shadow: 0 0 6px rgba(190, 18, 60, 0.8);
+  box-shadow: 0 0 8px rgba(219, 39, 119, 0.9);
   z-index: 5;
 }
 
