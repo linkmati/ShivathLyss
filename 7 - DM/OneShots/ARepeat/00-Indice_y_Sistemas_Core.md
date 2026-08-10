@@ -35,13 +35,13 @@ flowchart TD
 
 Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala estilo Zelda** (con mapa de flujo Mermaid, Llaves Pequeñas 🗝️, Mini-Boss ⚔️, Dungeon Item 🎁, Llave del Boss 👑 y Boss Final 💀):
 
-1. **[🌋 Subdungeon 1: La Caldera Volcánica (Goron Mines - Twilight Princess)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md)** (`01_Subdungeon_Fuego_Caldera.md`)
-2. **[🌊 Subdungeon 2: La Cisterna Sumergida (Ancient Cistern - Skyward Sword)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md)** (`02_Subdungeon_Agua_Cisterna.md`)
-3. **[🌬️ Subdungeon 3: La Torre de los Vientos (City in the Sky - TP & Stormwind Ark - TotK)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/03_Subdungeon_Aire_Torre.md)** (`03_Subdungeon_Aire_Torre.md`)
-4. **[🪨 Subdungeon 4: El Dominio Telúrico (Snowhead Temple - MM Edición Basalto sin Hielo)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md)** (`04_Subdungeon_Tierra_Dominio.md`)
-5. **[🌿 Subdungeon 5: El Invernadero Ancestral (Inside the Great Deku Tree - OoT & Forbidden Woods - WW)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md)** (`05_Subdungeon_Vida_Invernadero.md`)
-6. **[☀️ Subdungeon 6: El Santuario Prismático (Spirit Temple - OoT Verbatim)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md)** (`06_Subdungeon_Luz_Santuario.md`)
-7. **[👑 Sanctum 12: El Reactor Central (Ganon's Castle - OoT & TotK)](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Subdungeons/07_Sanctum_12_Reactor_Central.md)** (`07_Sanctum_12_Reactor_Central.md`)
+1. **[[01_Subdungeon_Fuego_Caldera|🌋 Subdungeon 1: La Caldera Volcánica (Goron Mines - Twilight Princess)]]** (`01_Subdungeon_Fuego_Caldera.md`)
+2. **[[02_Subdungeon_Agua_Cisterna|🌊 Subdungeon 2: La Cisterna Sumergida (Ancient Cistern - Skyward Sword)]]** (`02_Subdungeon_Agua_Cisterna.md`)
+3. **[[03_Subdungeon_Aire_Torre|🌬️ Subdungeon 3: La Torre de los Vientos (City in the Sky - TP & Stormwind Ark - TotK)]]** (`03_Subdungeon_Aire_Torre.md`)
+4. **[[04_Subdungeon_Tierra_Dominio|🪨 Subdungeon 4: El Dominio Telúrico (Snowhead Temple - MM Edición Basalto sin Hielo)]]** (`04_Subdungeon_Tierra_Dominio.md`)
+5. **[[05_Subdungeon_Vida_Invernadero|🌿 Subdungeon 5: El Invernadero Ancestral (Inside the Great Deku Tree - OoT & Forbidden Woods - WW)]]** (`05_Subdungeon_Vida_Invernadero.md`)
+6. **[[06_Subdungeon_Luz_Santuario|☀️ Subdungeon 6: El Santuario Prismático (Spirit Temple - OoT Verbatim)]]** (`06_Subdungeon_Luz_Santuario.md`)
+7. **[[07_Sanctum_12_Reactor_Central|👑 Sanctum 12: El Reactor Central (Ganon's Castle - OoT & TotK)]]** (`07_Sanctum_12_Reactor_Central.md`)
 
 ---
 

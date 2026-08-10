@@ -15,23 +15,23 @@ Este paquete modular contiene todo lo necesario para dirigir el Laberinto de Min
 
 1. [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) **(WEB APP INTERACTIVA DE 1 CLIC)**
    * Matriz visual 7x7 dispersa con celdas de tamaño rígido, Atrio móvil, Subdungeon <= 3 pasos, Sala Secreta Isaac obligatoria, inspector de celdas y modificador manual de pasadizos.
-2. [`00-Indice_y_Sistemas_Core.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md)
+2. [[00-Indice_y_Sistemas_Core|`00-Indice_y_Sistemas_Core.md`]]
    * Lore de Treftiel y el Angramanio.
    * Carga Arcana, Diario del Gremio y Sintonías Elementales.
    * Subdungeons 1d8, persistencia total y bonus de excelencia 7/10.
-3. [`01-Sistema_de_Escritura_Alrestiano.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/01-Sistema_de_Escritura_Alrestiano.md)
+3. [[01-Sistema_de_Escritura_Alrestiano|`01-Sistema_de_Escritura_Alrestiano.md`]]
    * Jeroglíficos simbólicos de Shivath (Triadas de 3 gemas).
-4. [`02-Relaciones_Inter_Salas_y_Matriz.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md)
+4. [[02-Relaciones_Inter_Salas_y_Matriz|`02-Relaciones_Inter_Salas_y_Matriz.md`]]
    * Redes causales inter-salas (Hidráulica, Térmica, Luz, Gravitacional).
-5. [`03-Catalogo_de_Salas_y_Puzles.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md)
+5. [[03-Catalogo_de_Salas_y_Puzles|`03-Catalogo_de_Salas_y_Puzles.md`]]
    * Catálogo masivo de 23+ salas inspiradas directamente en Zelda (2D, 3D, BotW/TotK).
-6. [`04-Encuentros_y_Guardianes.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/04-Encuentros_y_Guardianes.md)
+6. [[04-Encuentros_y_Guardianes|`04-Encuentros_y_Guardianes.md`]]
    * 6 Guardianes de Área y Boss Final con **Elemental Orbs & Full Burst** (Xenoblade 2).
-7. [`05-Ficha_Control_DM_y_Tablero_Rumores.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md)
+7. [[05-Ficha_Control_DM_y_Tablero_Rumores|`05-Ficha_Control_DM_y_Tablero_Rumores.md`]]
    * Grafo de Rumores (*Curiosity Board*) y la Rueda de Criptografía de Minos.
-8. [`06-Generador_de_Conexiones_y_Mapas.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md)
+8. [[06-Generador_de_Conexiones_y_Mapas|`06-Generador_de_Conexiones_y_Mapas.md`]]
    * Manual de uso de la herramienta Web App 7x7.
-9. [`07-Guia_Narrativa_y_Lore_del_Laberinto.md`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/07-Guia_Narrativa_y_Lore_del_Laberinto.md)
+9. [[07-Guia_Narrativa_y_Lore_del_Laberinto|`07-Guia_Narrativa_y_Lore_del_Laberinto.md`]]
    * Guía completa de lore, tragedia de Minos-01, bucle trans-ciclo y diarios arqueológicos.
 
 ---
