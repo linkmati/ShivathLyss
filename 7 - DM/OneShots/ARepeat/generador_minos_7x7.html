@@ -814,50 +814,49 @@
     let currentSubRoll = 1;
     let currentAlign = 1;
 
-    const LOCAL_STORAGE_KEY = 'minos_unlocked_rooms_persist_v1';
+    const LOCAL_STORAGE_KEY = 'minos_unlocked_room_names_v2';
+
+    function getUnlockedRoomNames() {
+      try {
+        const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return new Set(arr.map(item => (typeof item === 'object' && item.name) ? item.name : item));
+      } catch (e) {
+        return new Set();
+      }
+    }
 
     function saveUnlockedToLocalStorage() {
-      const unlockedList = [];
+      const unlockedNames = new Set(getUnlockedRoomNames());
+      
       ROWS.forEach(r => {
         COLS.forEach(c => {
           const k = `${r}${c}`;
-          if (gridData[k] && gridData[k].unlocked) {
-            unlockedList.push({
-              key: k,
-              name: gridData[k].name
-            });
+          const cell = gridData[k];
+          if (cell && cell.active && cell.name) {
+            if (cell.unlocked) {
+              unlockedNames.add(cell.name);
+            } else {
+              unlockedNames.delete(cell.name);
+            }
           }
         });
       });
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(unlockedList));
+
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(Array.from(unlockedNames)));
       updateUnlockedCounter();
     }
 
-    function getUnlockedFromLocalStorage() {
-      try {
-        const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
-        return raw ? JSON.parse(raw) : [];
-      } catch (e) {
-        return [];
-      }
-    }
-
     function applyUnlockedFromLocalStorage() {
-      const saved = getUnlockedFromLocalStorage();
-      if (!saved || saved.length === 0) {
-        updateUnlockedCounter();
-        return;
-      }
-      const savedKeys = new Set(saved.map(item => typeof item === 'string' ? item : item.key));
-      const savedNames = new Set(saved.map(item => typeof item === 'string' ? item : item.name));
-
+      const savedNames = getUnlockedRoomNames();
+      
       ROWS.forEach(r => {
         COLS.forEach(c => {
           const k = `${r}${c}`;
-          if (gridData[k]) {
-            if (savedKeys.has(k) || savedNames.has(gridData[k].name)) {
-              gridData[k].unlocked = true;
-            }
+          const cell = gridData[k];
+          if (cell) {
+            // Strict room name matching: position key is ignored!
+            cell.unlocked = cell.active && savedNames.has(cell.name);
           }
         });
       });
@@ -877,11 +876,19 @@
     }
 
     function updateUnlockedCounter() {
-      const saved = getUnlockedFromLocalStorage();
-      const activeUnlocked = Object.keys(gridData).filter(k => gridData[k] && gridData[k].unlocked).length;
+      const savedNames = getUnlockedRoomNames();
+      let activeUnlockedCount = 0;
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          if (gridData[k] && gridData[k].active && gridData[k].unlocked) {
+            activeUnlockedCount++;
+          }
+        });
+      });
       const counterEl = document.getElementById('unlocked-counter');
       if (counterEl) {
-        counterEl.innerHTML = `🔓 Desbloqueadas: <strong>${activeUnlocked}</strong> en run (<strong>${saved.length}</strong> guardadas)`;
+        counterEl.innerHTML = `🔓 Salas Desbloqueadas: <strong>${activeUnlockedCount}</strong> en mapa (<strong>${savedNames.size}</strong> en memoria global)`;
       }
     }
 
@@ -1370,6 +1377,18 @@
         });
       });
       if (keyCount === 0) log += `  (No hay Llaves de Latón requeridas en los cerrojos de esta incursión)\n`;
+      log += `----------------------------------------------------------------------\n`;
+      log += `🔓 SALAS DESBLOQUEADAS PERSISTENTES EN MEMORIA GLOBAL:\n`;
+      const savedNames = getUnlockedRoomNames();
+      if (savedNames.size > 0) {
+        Array.from(savedNames).forEach(rName => {
+          const activeCellKey = Object.keys(gridData).find(k => gridData[k].active && gridData[k].name === rName);
+          const locStr = activeCellKey ? `📍 En mapa hoy [${activeCellKey}]` : `⚪ No generada hoy`;
+          log += `  - 🔓 ${rName} (${locStr})\n`;
+        });
+      } else {
+        log += `  (No hay salas desbloqueadas guardadas en memoria)\n`;
+      }
       log += `----------------------------------------------------------------------\n`;
       log += `DETALLE DE CONEXIONES Y ESTADO DE SALAS ACTIVAS:\n\n`;
 
