@@ -306,6 +306,25 @@
       z-index: 5;
     }
 
+    .cell-unlocked-tag {
+      position: absolute;
+      top: 16px;
+      right: 2px;
+      font-size: 0.55rem;
+      background: #10b981;
+      color: #0f0e17;
+      border-radius: 3px;
+      padding: 1px 3px;
+      font-weight: 800;
+      box-shadow: 0 0 6px rgba(16, 185, 129, 0.8);
+      z-index: 5;
+    }
+
+    .cell.unlocked-cell {
+      border: 2px solid #10b981 !important;
+      box-shadow: inset 0 0 10px rgba(16, 185, 129, 0.35), 0 0 10px rgba(16, 185, 129, 0.4) !important;
+    }
+
     .cell-cluster-tag {
       position: absolute;
       bottom: 2px;
@@ -545,6 +564,10 @@
       <option value="8">8: NADA (Exploración Estándar)</option>
     </select>
     <button class="btn" id="btn-set-atrio">📍 Hacer Entrada (Atrio)</button>
+    <button class="btn" id="btn-toggle-unlocked" style="border-color: #10b981; color: #6ee7b7;">🔓 Desbloquear Celda</button>
+    <button class="btn" id="btn-save-persistent" style="border-color: var(--gold-accent); color: var(--gold-accent);">💾 Guardar Desbloqueadas</button>
+    <button class="btn" id="btn-clear-persistent" style="border-color: var(--elem-fire); color: #fca5a5;">🧹 Limpiar Persistencia</button>
+    <span id="unlocked-counter" style="font-size:0.8rem; font-weight:700; color:#6ee7b7; align-self:center; margin-left:4px; padding: 4px 8px; background: rgba(16, 185, 129, 0.15); border-radius: 6px; border: 1px solid rgba(16, 185, 129, 0.4);">🔓 Desbloqueadas: 0</span>
     <button class="btn" id="btn-clear">🧹 Vaciar Rejilla</button>
     <button class="btn" id="btn-copy">📋 Copiar Resumen DM</button>
     <button class="btn" id="btn-export">💾 Exportar JSON</button>
@@ -686,8 +709,11 @@
 
       <div class="form-group">
         <label>Ítems y Llaves de Incursión</label>
-        <label style="font-size:0.8rem; cursor:pointer; display:flex; align-items:center; gap:8px; background:rgba(212,175,55,0.1); padding:6px 10px; border-radius:6px; border:1px solid rgba(212,175,55,0.3); color:var(--gold-accent);">
+        <label style="font-size:0.8rem; cursor:pointer; display:flex; align-items:center; gap:8px; background:rgba(212,175,55,0.1); padding:6px 10px; border-radius:6px; border:1px solid rgba(212,175,55,0.3); color:var(--gold-accent); margin-bottom:6px;">
           <input type="checkbox" id="inspect-has-key"> 🗝️ Contiene Llave de Latón (Small Key)
+        </label>
+        <label style="font-size:0.8rem; cursor:pointer; display:flex; align-items:center; gap:8px; background:rgba(16,185,129,0.15); padding:6px 10px; border-radius:6px; border:1px solid rgba(16,185,129,0.4); color:#6ee7b7; font-weight:700;">
+          <input type="checkbox" id="inspect-unlocked"> 🔓 Sala Desbloqueada (Persistente entre Restarts)
         </label>
       </div>
 
@@ -788,6 +814,77 @@
     let currentSubRoll = 1;
     let currentAlign = 1;
 
+    const LOCAL_STORAGE_KEY = 'minos_unlocked_rooms_persist_v1';
+
+    function saveUnlockedToLocalStorage() {
+      const unlockedList = [];
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          if (gridData[k] && gridData[k].unlocked) {
+            unlockedList.push({
+              key: k,
+              name: gridData[k].name
+            });
+          }
+        });
+      });
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(unlockedList));
+      updateUnlockedCounter();
+    }
+
+    function getUnlockedFromLocalStorage() {
+      try {
+        const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
+        return raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function applyUnlockedFromLocalStorage() {
+      const saved = getUnlockedFromLocalStorage();
+      if (!saved || saved.length === 0) {
+        updateUnlockedCounter();
+        return;
+      }
+      const savedKeys = new Set(saved.map(item => typeof item === 'string' ? item : item.key));
+      const savedNames = new Set(saved.map(item => typeof item === 'string' ? item : item.name));
+
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          const k = `${r}${c}`;
+          if (gridData[k]) {
+            if (savedKeys.has(k) || savedNames.has(gridData[k].name)) {
+              gridData[k].unlocked = true;
+            }
+          }
+        });
+      });
+      updateUnlockedCounter();
+    }
+
+    function clearUnlockedLocalStorage() {
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      ROWS.forEach(r => {
+        COLS.forEach(c => {
+          if (gridData[`${r}${c}`]) gridData[`${r}${c}`].unlocked = false;
+        });
+      });
+      renderGrid();
+      updateUnlockedCounter();
+      updateOutputLog();
+    }
+
+    function updateUnlockedCounter() {
+      const saved = getUnlockedFromLocalStorage();
+      const activeUnlocked = Object.keys(gridData).filter(k => gridData[k] && gridData[k].unlocked).length;
+      const counterEl = document.getElementById('unlocked-counter');
+      if (counterEl) {
+        counterEl.innerHTML = `🔓 Desbloqueadas: <strong>${activeUnlocked}</strong> en run (<strong>${saved.length}</strong> guardadas)`;
+      }
+    }
+
     function initGridData() {
       gridData = {};
       doorData = {};
@@ -799,6 +896,7 @@
             name: `Sala ${k}`,
             role: "NORMAL",
             hasSmallKey: false,
+            unlocked: false,
             clusterTag: "",
             elementTag: "",
             notes: ""
@@ -827,8 +925,9 @@
           let setClass = cell.elementTag ? `cell-set-${cell.elementTag.toLowerCase()}` : '';
           let clusterClass = cell.clusterTag ? `cluster-${cell.clusterTag.split('-')[1]?.toLowerCase()}` : '';
           let clusterTagClass = cell.clusterTag ? `clust-${cell.clusterTag.split('-')[1]?.toLowerCase()}` : '';
+          let unlockedClass = cell.unlocked ? 'unlocked-cell' : '';
 
-          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()} ${subClass} ${setClass} ${clusterClass}`;
+          div.className = `cell ${cell.active ? 'active' : 'empty'} ${cell.role.toLowerCase()} ${subClass} ${setClass} ${clusterClass} ${unlockedClass}`;
           if (k === currentSelectedKey) div.classList.add('selected');
           div.onclick = () => selectCell(k);
 
@@ -838,6 +937,7 @@
           if (cell.role === "SECRET") icon = "🗝️";
 
           let keyTag = cell.hasSmallKey ? `<span class="cell-key-tag" title="Contiene Llave de Latón (Small Key)">🗝️ LLAVE</span>` : '';
+          let unlockedTag = cell.unlocked ? `<span class="cell-unlocked-tag" title="Sala Desbloqueada (Persistente)">🔓 UNLOCKED</span>` : '';
           let clusterTagHtml = cell.clusterTag ? `<span class="cell-cluster-tag ${clusterTagClass}">🔗 ${cell.clusterTag}</span>` : '';
           let elementTagHtml = cell.elementTag ? `<span class="cell-element-tag elem-tag-${cell.elementTag.toLowerCase()}">${cell.elementTag}</span>` : '';
 
@@ -845,6 +945,7 @@
             <span class="cell-coord">${k}</span>
             ${elementTagHtml}
             ${keyTag}
+            ${unlockedTag}
             <div class="cell-icon">${icon}</div>
             <div class="cell-name">${cell.active ? cell.name : 'VACÍO'}</div>
             ${clusterTagHtml}
@@ -867,6 +968,7 @@
           container.appendChild(div);
         });
       });
+      updateUnlockedCounter();
     }
 
     function populateDoorDropdowns() {
@@ -892,6 +994,7 @@
       document.getElementById('inspect-active').value = cell.active ? "true" : "false";
       document.getElementById('inspect-role').value = cell.role;
       document.getElementById('inspect-has-key').checked = cell.hasSmallKey || false;
+      document.getElementById('inspect-unlocked').checked = cell.unlocked || false;
       document.getElementById('inspect-notes').value = cell.notes || "";
 
       const presetSel = document.getElementById('inspect-preset');
@@ -1238,6 +1341,8 @@
       document.getElementById('info-sub').innerHTML = `Subdungeon: <strong>${subObj.name}</strong>`;
       document.getElementById('info-align').innerHTML = `Alineamiento: <strong>[${currentAlign}]</strong>`;
 
+      applyUnlockedFromLocalStorage();
+
       selectCell(startKey);
       updateOutputLog();
     }
@@ -1315,6 +1420,35 @@
       gridData[currentSelectedKey].hasSmallKey = e.target.checked;
       renderGrid();
       updateOutputLog();
+    };
+
+    document.getElementById('inspect-unlocked').onchange = (e) => {
+      gridData[currentSelectedKey].unlocked = e.target.checked;
+      saveUnlockedToLocalStorage();
+      renderGrid();
+      updateOutputLog();
+    };
+
+    document.getElementById('btn-toggle-unlocked').onclick = () => {
+      const cell = gridData[currentSelectedKey];
+      cell.unlocked = !cell.unlocked;
+      saveUnlockedToLocalStorage();
+      renderGrid();
+      selectCell(currentSelectedKey);
+      updateOutputLog();
+    };
+
+    document.getElementById('btn-save-persistent').onclick = () => {
+      saveUnlockedToLocalStorage();
+      const saved = getUnlockedFromLocalStorage();
+      alert(`💾 ¡Se han guardado ${saved.length} salas desbloqueadas de forma persistente!`);
+    };
+
+    document.getElementById('btn-clear-persistent').onclick = () => {
+      if (confirm("¿Seguro que deseas borrar la memoria de salas desbloqueadas en este navegador?")) {
+        clearUnlockedLocalStorage();
+        alert("🧹 Memoria persistente limpiada.");
+      }
     };
 
     document.getElementById('inspect-preset').onchange = (e) => {
