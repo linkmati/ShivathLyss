@@ -12,10 +12,8 @@
 ======================================================================
                  🚪 REGLA DE PERSISTENCIA MIXTA 🚪
 ======================================================================
-1. ATAJOS FÍSICOS PERMANENTES (SE GUARDAN):
-   - Atajos de Rejilla de Hierro caídos (Forma Gaseosa).
-   - Muros de piedra agrietados derribados con Bombas / EARTH Shatter.
-   - Puentes desplegados con palancas de cadenas.
+1. SALAS SE GUARDAN PERMANENTEMENTE :
+   - Puzzles se quedan resueltos, salas de paso libre
    * Al desbloquearse, el DM los marca como "Abiertos Permanentemente"
      en la Web App generador_minos_7x7.html.
 
@@ -23,8 +21,8 @@
    - Compuertas con sellos de Glifos (Triadas de 3 gemas).
    - Puertas selladas por Hielo Mágico [FIRE], Agua Hirviendo [WATER],
      Vientos Ascendentes [AIR] o Vides Arcanas [LIFE].
-   * Se resetean al cambiar de día astral, exigiendo que los jugadores
-     usen sus sintonías o Cargas Arcanas para superarlas nuevamente.
+   * Se resetean al cambiar de día, exigiendo que los jugadores
+     tengan las sintonias para superarlas nuevamente.
 ======================================================================
 ```
 
@@ -55,26 +53,7 @@
 
 ---
 
-## 3. Redes Causales Inter-Salas (Efectos de Área)
-
-Determinadas salas contienen mecanismos arcanos que alteran el estado de las salas adyacentes en la matriz 7x7:
-
-```mermaid
-graph TD
-    A["Sala 02 / 07 (Cisterna)"] -->|"Rueda de Agua Drenada"| B["Drena Agua en 3 Salas Adyacentes"]
-    C["Sala 04 (Engranaje)"] -->|"Inversión de Giro"| D["Cambia la Dirección del Viento en la Torre"]
-    E["Sala del Interruptor de Cristal"] -->|"Golpe al Cristal Azul/Rojo"| F["Baja Bloques Azules / Sube Bloques Rojos"]
-    G["Deducción Geométrica del Mapa"] -->|"Uso de Bomba / EARTH en Muro ciego (Alejado de Subdungeon)"| H["🗝️ Revela la Sala Secreta de Isaac"]
-```
-
-### Redes Inter-Salas Detalladas
-1. **Red Hidráulica (WATER)**: Accionar la manivela de la Cisterna (Sala 02) drena la piscina central de las 3 salas vecinas en la rejilla.
-2. **Red de Cristales Peg (LIGHT/AIR)**: Golpear el Cristal Rúnico conmuta el estado global de los bloques de cuarzo Azul y Rojo en las salas del cuadrante.
-3. **Sala Secreta de Isaac (🗝️)**: Deducción geométrica pura en mapa. Un impacto de Bomba o **EARTH Shatter** en la pared ciega de una sala colindante (no Subdungeon) derrumba el muro de piedra agrietada.
-
----
-
-## 4. Catálogo de Puertas Mecánicas No Elementales (Llaves Genéricas y Puzles Deterministas)
+## 3. Catálogo de Puertas Mecánicas No Elementales (Llaves Genéricas y Puzzles Deterministas)
 
 Para evitar la dependencia exclusiva de elementos arcanos, el laberinto incorpora cerrojos puramente mecánicos e ítems genéricos de dungeon. **Una vez que los jugadores entienden la mecánica en su primera run, su resolución en expediciones subsecuentes es rápida y directa** gracias al registro en el cuaderno físico:
 

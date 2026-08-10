@@ -5,6 +5,10 @@
 > **Inspiración**: *Zelda 2D/3D Mini-Dungeons* + *Outer Wilds* + *Blue Prince* + *Binding of Isaac*  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 
+Ver de simplificar y hacer una dungeon con ascensor o escaleras
+Vale maybe la cosa empieza como dungeon meshi y después cambia a otra cosa
+Maybe basarme en pokemon mundo misterioso
+
 ---
 
 ## 1. Bucle de Juego y Estructura de Subdungeons

@@ -126,3 +126,27 @@ Cada vez que el Boss ejecuta un ataque finalizador de fase o un jugador asesta u
    esta ronda asestan DAÑO CRÍTICO AUTOMÁTICO MULTIPLICADO (x2).
 ======================================================================
 ```
+
+---
+
+## 4. Distribución Diaria de Encuentros de Combate (Regla de Adición 20-50%)
+
+> **Regla Core de Encuentros**: En cada incursión diaria del laberinto, los encuentros de combate **SE AÑADEN** a las salas activas existentes (puzles, trampas o salas de ítems), **NUNCA reemplazan** la sala ni su contenido original.
+
+### A. Proporción Diaria de Combates
+* **Porcentaje Diario**: Entre el **20% y el 50%** de las salas activas de la incursión recibirán un encuentro de combate añadido.
+* **Mecánica Aditiva**: El puzle o gimmick original de la sala permanece 100% activo. El combate puede librarse en paralelo o antes de resolver la sala.
+
+### B. Distribución Normal de Dificultad (CR 3 - 12, Media 7)
+La dificultad de los encuentros sigue una **curva de distribución normal (Gaussiana)** centrada en **Media CR = 7** ($\sigma \approx 1.8$), acotada estrictamente entre **CR 3 y CR 12**:
+
+| Rango de Desafío | Probabilidad Estimada | Tipo de Criaturas del Laberinto |
+| :---: | :---: | :--- |
+| **CR 3 - 4** | ~15% (Extremo Bajo) | Enjambre de Escarabajos Magmáticos, Espectros de Bronce, Minotauro Joven |
+| **CR 5 - 6** | ~30% (Medio-Bajo) | Minotauro del Laberinto, Golem de Piedra Rúnico, Quimera Vulcánica |
+| **CR 7 - 8** | **~35% (Pico de la Curva)** | **Guardián Mecánico de Minos, Titán de Granito Telúrico, Minotauro Berserker** |
+| **CR 9 - 10** | ~15% (Medio-Alto) | Titán de Basalto Enfadado, Quimera del Abismo, Avatar de Minos |
+| **CR 11 - 12** | ~5% (Extremo Alto) | Gryphon de Cristal Místico, Archidemonio de Escoria, Titán Primigenio de Basalto |
+
+---
+
