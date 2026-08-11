@@ -1,7 +1,7 @@
 # Graph Report - Shivath  (2026-08-11)
 
 ## Corpus Check
-- 303 files · ~549,588 words
+- 303 files · ~549,830 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6493d415`
+- Built from commit: `10bfe11c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -255,7 +255,7 @@ Nodes (10): 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room), Acciones y Co
 
 ### Community 56 - "get"
 Cohesion: 0.18
-Nodes (10): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 58 - "contains"
 Cohesion: 0.25
@@ -263,7 +263,7 @@ Nodes (8): 1. "Chispas" (El Vendedor Ambulante), 2. Boran (El Turista Frustrado)
 
 ### Community 59 - "isPair"
 Cohesion: 0.18
-Nodes (10): 10. 🕸️ Galería de las Cuerdas Tensadas, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 10. 🕸️ Galería de las Cuerdas Tensadas, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 60 - "bT"
 Cohesion: 0.15
@@ -291,7 +291,7 @@ Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (City in the Sky Non-
 
 ### Community 70 - "6. Set 5: LIFE (Invernadero Ancestral & Crecimiento Orgánico)"
 Cohesion: 0.18
-Nodes (10): 17. 👁️ Relieve de Miradas Cambiantes, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 17. 👁️ Relieve de Miradas Cambiantes, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 72 - "renderButtons"
 Cohesion: 0.33
@@ -411,11 +411,11 @@ Nodes (3): 1. Do Not Overwrite / Rewrite Notes Without Explicit Instruction, 2. 
 
 ### Community 124 - "07. ⚖️ Báscula de Contrapesos"
 Cohesion: 0.18
-Nodes (10): 07. ⚖️ Báscula de Contrapesos, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 07. ⚖️ Báscula de Contrapesos, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 125 - "09. 🕯️ Puerta de la Fundición Fría"
 Cohesion: 0.18
-Nodes (10): 09. 🕯️ Puerta de la Fundición Fría, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 09. 🕯️ Puerta de la Fundición Fría, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 126 - "Marco de Referencia Metodológico para Diseño de Jefes (Boss Design Framework)"
 Cohesion: 0.22
@@ -439,7 +439,7 @@ Nodes (10): 13. 🔮 Umbral de Decodificación Arcana, Acciones y Comprobaciones
 
 ### Community 140 - "listRefs"
 Cohesion: 0.18
-Nodes (10): 15. 👥 Puerta del Cristal de Espinas Sumiso, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 15. 👥 Puerta del Cristal de Espinas Sumiso, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 141 - "The Cobalt Rain.md"
 Cohesion: 0.25
@@ -459,7 +459,7 @@ Nodes (6): **Districts of Vitra**, **Life and Culture in Vitra**, **Society and 
 
 ### Community 146 - "16. 🌿 Umbral de Vides Sensibles"
 Cohesion: 0.18
-Nodes (10): 16. 🌿 Umbral de Vides Sensibles, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 16. 🌿 Umbral de Vides Sensibles, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 147 - "18. ⚙️ Interruptor Rúnico (Conmutador Peg)"
 Cohesion: 0.20
