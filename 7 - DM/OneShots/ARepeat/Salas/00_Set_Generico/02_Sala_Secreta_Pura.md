@@ -26,7 +26,7 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Pared Grietada Oculta**: Tiene 15 HP y Vulnerabilidad a daño contundente/fuerza de detonaciones.
+* **Pared Grietada Oculta**: Tiene 1 HP 
 * **Cofre de Minos**: No contiene trampa; se abre de inmediato tras acceder a la cámara.
 
 ---

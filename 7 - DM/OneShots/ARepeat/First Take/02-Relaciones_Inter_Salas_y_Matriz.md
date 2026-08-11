@@ -53,7 +53,7 @@
 
 ---
 
-## 3. Catálogo de Puertas Mecánicas No Elementales (Llaves Genéricas y Puzzles Deterministas)
+## 3. Catálogo de Puertas Mecánicas No Elementales 
 
 Para evitar la dependencia exclusiva de elementos arcanos, el laberinto incorpora cerrojos puramente mecánicos e ítems genéricos de dungeon. **Una vez que los jugadores entienden la mecánica en su primera run, su resolución en expediciones subsecuentes es rápida y directa** gracias al registro en el cuaderno físico:
 

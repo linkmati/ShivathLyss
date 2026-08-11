@@ -71,8 +71,8 @@ const SET_ROOMS = {
     "⚖️ Báscula de Contrapesos", "⚙️ Clave de Engranajes Murales", "🕯️ Puerta de la Fundición Fría",
     "🕸️ Galería de Cuerdas Tensadas", "⏱️ Taller de Relojería Rúnica", "📜 Archivo de Tablillas Rascadas",
     "🔮 Umbral de Decodificación Arcana", "🎭 Relieve del Eco Espectral Parlante", "👥 Puerta del Cristal de Espinas Sumiso",
-    "👁️ Relieve de Miradas Cambiantes", "🎲 Sala del Dado Arcano",
-    "🩸 Altar del Sacrificio Arcano", "📜 Mercado Espectral de Minos",
+    "👁️ Relieve de Miradas Cambiantes",
+    "🩸 Altar del Sacrificio Arcano",
     "⚙️ Interruptor Rúnico (Conmutador Peg)", "🧊 Pasaje de Bloques Azules", "🟥 Cámara de Bloques Rojos",
     "🗝️ Sello del Molde de Llave", "⚖️ Consola de Inversión Gravitatoria", "🚪 Bóveda de Salida"
   ],

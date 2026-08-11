@@ -38,7 +38,7 @@
 * **Ganzuado Sensorial**: *Check de Herramientas de Ladrón (DC 13)* o *Percepción (DC 14)* para oír el chasquido del trinquete místico al girar los discos.
 
 ### Consecuencias de Fallo
-* Tres combinaciones erróneas consecutivas liberan un chorro de gas adormecedor (Salvación de Constitución DC 12 o quedar Inconsciente por 1 minuto).
+* Tres combinaciones erróneas consecutivas liberan un chorro de gas adormecedor (Pierden 1 carga).
 
 ### Recompensa
 * Retracción completa de los tres pasadores de hierro y apertura del portón.

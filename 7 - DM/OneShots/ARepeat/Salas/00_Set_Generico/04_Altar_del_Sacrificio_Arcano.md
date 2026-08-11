@@ -18,9 +18,9 @@
 3. **El Drenaje de Bronce**: Una rejilla inferior parece lista para recibir la fuerza vital y canalizarla hacia las entrañas del laberinto.
 
 ### Tríada de Información de Minos
-* **Capa 1: Lore (Historia of Alrest)**: *Los antiguos iniciados alrestianos entregaban su propia vitalidad al altar como prueba de devoción para revelar los secretos de la red de Minos.*
-* **Capa 2: Vector Espacial**: *El líquido reacciona apuntando la dirección de los cofres y tesoros no reclamados del cuadrante.*
-* **Capa 3: Regla Mecánica (Riesgo y Recompensa)**: *Verter vitalidad (1d10 HP) o 1 Carga Arcana activa una tirada en la tabla de bendiciones de sacrificio.*
+* **Capa 1: Lore: 
+* **Capa 2: Vector Espacial**: 
+* **Capa 3: Regla Mecánica (Riesgo y Recompensa)**: *Verter vitalidad (30% HP)*
 
 ---
 
@@ -37,7 +37,7 @@
 * **Inspeccionar el Altar**: *Check de Arcanismo (DC 11)* o *Religión (DC 12)* confirma que el altar no es malévolo, sino un mecanismo de intercambio equivalente.
 
 ### Recompensa y Tabla de Resultados (Tira 1d6 por Sacrificio)
-* **1-2**: Escupe un *Elixir de Salud/Maná* (recupera 2d4+2 HP o 1 spell slot de nivel 1).
+* **1-2**: Escupe un *Elixir de Salud* (recupera 2d4+2 HP).
 * **3-4**: Revela el plano completo y el contenido de 2 salas no exploradas en el mapa.
 * **5-6**: Cae sobre el suelo un consumible raro de Minos (Bomba Rúnica o Pergamino de Atajo).
 

@@ -12,7 +12,7 @@ El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Sala
 
 ```
 7 - DM/OneShots/ARepeat/Salas/
-├── 00_Set_Generico/      (23 Salas Neutrales y Mecánicas)
+├── 00_Set_Generico/      (20 Salas Neutrales y Mecánicas)
 ├── 01_Set_Fuego/         (7 Salas de Caldera Volcánica)
 ├── 02_Set_Agua/          (8 Salas de Cisterna Sumergida)
 ├── 03_Set_Aire/          (9 Salas de la Torre de Vientos)
@@ -28,10 +28,7 @@ El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Sala
 
 1. **[[01_Atrio_de_Entrada|01. 🏛️ Atrio de Entrada (Hub Central)]]** (`01_Atrio_de_Entrada.md`): Selección de sintonía daily, gasto de Carga Arcana (10 pts) y mapa de ejes.
 2. **[[02_Sala_Secreta_Pura|02. 🗝️ Sala Secreta Pura de Minos]]** (`02_Sala_Secreta_Pura.md`): Isaac secret room colindante; requiere Bomba Rúnica.
-3. **[[03_Sala_Super_Secreta|03. 💎 Sala Super Secreta del Altar de Cristal]]** (`03_Sala_Super_Secreta.md`): Isaac super secret en callejón sin salida; sintonía elemental gratuita.
 4. **[[04_Altar_del_Sacrificio_Arcano|04. 🩸 Altar del Sacrificio Arcano]]** (`04_Altar_del_Sacrificio_Arcano.md`): Sacrificio de vitalidad (1d10 HP) o Carga Arcana a cambio de elixires o mapa.
-5. **[[05_Mercado_Espectral|05. 📜 Mercado Espectral de Minos]]** (`05_Mercado_Espectral.md`): Estatua comerciante de cuatro brazos para comprar suministros.
-6. **[[06_Sala_del_Dado_Arcano|06. 🎲 Sala del Dado Arcano]]** (`06_Sala_del_Dado_Arcano.md`): Dado d12 de la fortuna (arcade room) a cambio de monedas de Alrest.
 7. **[[07_Bascula_de_Contrapesos|07. ⚖️ Báscula de Contrapesos]]** (`07_Bascula_de_Contrapesos.md`): Equilibrio de masa de 300 lbs sobre pasarelas suspendidas.
 8. **[[08_Clave_de_Engranajes_Murales|08. ⚙️ Clave de Engranajes Murales]]** (`08_Clave_de_Engranajes_Murales.md`): Tres discos concéntricos con combinación de dígitos (3-1-5).
 9. **[[09_Puerta_de_la_Fundicion_Fria|09. 🕯️ Puerta de la Fundición Fría]]** (`09_Puerta_de_la_Fundicion_Fria.md`): Fundir metal blando en el crisol y verter en el molde de cera.
