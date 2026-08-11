@@ -59,11 +59,12 @@ Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala
    (palancas activadas, agua desviada, puertas abiertas o daño al Guardián)
    SE GUARDA PERMANENTEMENTE entre incursiones.
 
-2. BONUS DE EXCELENCIA 7/10:
+2. BONUS DE EXCELENCIA 7/10 (CARGAS ARCANAS SOLO SE GASTAN EN FALLO):
+   - Las Cargas Arcanas (10 pts) SOLO SE GASTAN EN CASO DE FALLO (pruebas falladas, trampas, etc.).
    - Si el grupo completa la Subdungeon conservando SIETE O MÁS (>= 7/10)
-     Puntos de Carga Arcana al finalizar (máximo 3 cargas gastadas),
+     Puntos de Carga Arcana al finalizar (máximo 3 fallos cometidos),
      obtiene el BONUS DE EXCELENCIA (Reliquia de Minos + Recompensa Extra).
-   - Si gastan más cargas (< 7 Cargas al final), IGUAL AVANZAN y guardan 
+   - Si cometen más de 3 fallos (< 7 Cargas al final), IGUAL AVANZAN y guardan 
      su progreso para la siguiente run.
 ======================================================================
 ```

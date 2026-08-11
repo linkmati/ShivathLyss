@@ -26,12 +26,12 @@ Tras la caída de Alrest, el mantenimiento del reactor cesó. La presión consta
    - Como mecanismo de emergencia anti-colapso, la matriz del laberinto 
      DESALINEA y REORDENA sus 49 salas (Matriz 7x7) para disipar el calor.
 
-2. LA CARGA ARCANA (10 PUNTOS):
+2. LA CARGA ARCANA (10 PUNTOS, SOLO SE GASTAN EN FALLO):
    - La atmósfera dentro de la matriz cambiante está saturada de radiación
      entrópica.
    - El Cristal del Atrio otorga a los exploradores un campo de fuerza 
      (Carga Arcana de 10 Puntos).
-   - Cada transición entre salas consume 1 Punto. Si se agota, el sistema de 
+   - Las Cargas Arcanas SOLO se gastan en caso de fallo (pruebas o puzles fallados, trampas o errores). Si se agotan los 10 puntos por acumular fallos, el sistema de 
      seguridad del Atrio extrae automáticamente al grupo para evitar su 
      desintegración, devolviéndolos al Campamento de la Mina.
 ======================================================================

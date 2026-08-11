@@ -51,7 +51,7 @@ sequenceDiagram
     DM->>DM: Abre generador_minos_7x7.html y genera mazmorra
     Jugadores->>Atrio: Entran y leen Diario de la Mina (Día Astral)
     Jugadores->>Atrio: Seleccionan Sintonía Elemental
-    Jugadores->>Laberinto: Exploran consumiendo Carga Arcana (10 pts)
+    Jugadores->>Laberinto: Exploran (Carga Arcana de 10 pts, solo se gasta en fallo)
     Laberinto-->>Jugadores: Puzles Zelda + Botín de Downtime
     Jugadores->>Laberinto: Desafían Guardián con Dungeon Item
     Jugadores->>Boss: Combate con Orbes Elementales y FULL BURST

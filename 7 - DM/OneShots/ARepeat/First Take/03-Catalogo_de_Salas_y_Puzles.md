@@ -26,7 +26,7 @@ El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Sala
 
 ## 🏛️ Set 0: Salas Genéricas y Neutrales (`Salas/00_Set_Generico/`)
 
-1. **[[01_Atrio_de_Entrada|01. 🏛️ Atrio de Entrada (Hub Central)]]** (`01_Atrio_de_Entrada.md`): Selección de sintonía daily, gasto de Carga Arcana (10 pts) y mapa de ejes.
+1. **[[01_Atrio_de_Entrada|01. 🏛️ Atrio de Entrada (Hub Central)]]** (`01_Atrio_de_Entrada.md`): Selección de sintonía daily, asignación de Carga Arcana (10 pts, solo se gasta en fallo) y mapa de ejes.
 2. **[[02_Sala_Secreta_Pura|02. 🗝️ Sala Secreta Pura de Minos]]** (`02_Sala_Secreta_Pura.md`): Isaac secret room colindante; requiere Bomba Rúnica.
 4. **[[04_Altar_del_Sacrificio_Arcano|04. 🩸 Altar del Sacrificio Arcano]]** (`04_Altar_del_Sacrificio_Arcano.md`): Sacrificio de vitalidad (1d10 HP) o Carga Arcana a cambio de elixires o mapa.
 7. **[[07_Bascula_de_Contrapesos|07. ⚖️ Báscula de Contrapesos]]** (`07_Bascula_de_Contrapesos.md`): Equilibrio de masa de 300 lbs sobre pasarelas suspendidas.
