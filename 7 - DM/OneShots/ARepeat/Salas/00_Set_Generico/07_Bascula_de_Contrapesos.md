@@ -1,6 +1,7 @@
 # 07. ⚖️ Báscula de Contrapesos
 
-> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Puzle Físico de Peso | **Requisito**: Masa / Fuerza Física / Martillo de Basalto
+> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Puzle Físico de Peso | **Requisito**: Masa / Fuerza Física / Martillo de Basalto  
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Umbral de Peso Determinista (300 lbs)** integrable en el **Diario de la Mina**
 
 ---
 
@@ -20,23 +21,26 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Las básculas de contrapeso controlaban el paso de cargamentos pesados de mineral entre los talleres arcanos de la ciudadela.*
 * **Capa 2: Vector Espacial**: *Equilibrar las plataformas desciende la pasarela superior conectando con el balcón del Norte.*
-* **Capa 3: Regla Mecánica (Puzle de Peso)**: *La balanza exige una masa combinada de aproximadamente 300 lbs (o la presencia de dos personajes pesados / bloques) para liberar el trinquete.*
+* **Capa 3: Regla Mecánica (Puzle de Peso 300 lbs)**: *La balanza exige una masa combinada exacta de **300 lbs** (2 bloques de basalto o 2 aventureros de armadura pesada) para liberar el trinquete.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Plataformas de la Balanza**: Subir aventureros o desplazar los bloques de basalto cambia instantáneamente la altura relativa de los platos.
-* **El Trinquete de Cierre**: Se desengancha con un chasquido metálico rotundo cuando el peso alcanza las 300 lbs.
+* **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), las plataformas vuelven a su altura desequilibrada inicial y los bloques de basalto regresan a su esquina.
+* **Bypass con Diario de la Mina**: La masa exigida de **300 lbs** y la combinación exacta de bloques es **fija e inmutable**. Si los jugadores anotaron en su Diario en una run previa el peso exacto requerido (ej: `2 Bloques de 150 lbs`), pueden colocar los bloques o personajes directamente **sin necesidad de tiradas de deducción o prueba y error**.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones
+### Acciones y Comprobaciones (Primera Vez / Sin Notas)
 * **Mover Bloques de Piedra**: *Check de Fuerza (Atletismo DC 13)* para arrastrar los bloques de basalto hacia la plataforma.
 * **Intervención Mecánica**: Un personaje experto en herramientas puede intentar trabar el engranaje (*Check de Herramientas de Ladrón DC 14*) para fijar la plataforma en su posición óptima.
-* **Solución Rápida**: Si se posee el *Martillo de Basalto* (de la Subdungeon de Tierra), golpear el trinquete superior desencaja la traba fijando el puente.
+* **Solución por Item**: Si se posee el *Martillo de Basalto* (de la Subdungeon de Tierra), golpear el trinquete superior desencaja la traba fijando el puente.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo Grave**: Caer los bloques torpemente o desequilibrar violentamente las cadenas (fallar el check por 5+ puntos) **consume 1 Carga Arcana** y provoca el latigazo de una cadena en tensión (**2d6 daño contundente** a quien esté en la plataforma).
 
 ### Recompensa
 * Descenso completo de la plataforma opuesta, abriendo paso seguro hacia la puerta del balcón Norte.

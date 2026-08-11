@@ -1,6 +1,7 @@
 # 14. 🎭 Relieve del Eco Espectral Parlante
 
-> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Interacción Social / Engaño | **Requisito**: Engaño / Persuasión / Conocimiento Alrestiano
+> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Interacción Social / Engaño | **Requisito**: Engaño / Persuasión / Conocimiento Alrestiano  
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Título & Contraseñas Deterministas** integrables en el **Diario de la Mina**
 
 ---
 
@@ -14,31 +15,32 @@
 
 ### Puntos de Interés Visuales
 1. **La Escultura Mural Parlante**: Las articulaciones del muro están selladas con bronce flexible.
-2. **Las Ojos de Pedernal**: Reaccionan a la postura corporal, al tono de voz y a las palabras de autoridad alrestiana.
+2. **Los Ojos de Pedernal**: Reaccionan a la postura corporal, al tono de voz y a las palabras de autoridad alrestiana.
 3. **Las Muescas del Muro**: Detrás del relieve se percibe el espacio hueco del pasadizo bloqueado.
 
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Los ecos espectrales eran inteligencias rúnicas pre-programadas por los magistrados de Minos para auditar las credenciales de los caminantes.*
 * **Capa 2: Vector Espacial**: *Persuadir al eco retrae el rostro hacia el techo abriendo la puerta norte.*
-* **Capa 3: Regla Mecánica (Autoridad y Engaño)**: *Convencer al eco mediante engaño, persuasión o citando ideogramas alrestianos desactiva el bloqueo defensivo.*
+* **Capa 3: Regla Mecánica (Título Fijo de Nombramiento)**: *Pronunciar la fórmula exacta alrestiana (**"Comisionado Mayor del Angramanio"**) satisface la auditoría del eco.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **El Rostro Parlante**: Escucha las respuestas de los jugadores. Si intentan pasar por la fuerza, sopla una ráfaga de polvo que cega.
+* **Reseteo Físico**: Al reiniciar la incursión, el relieve desciende nuevamente del techo y bloquea el muro norte esperando la auditoría de credenciales.
+* **Bypass con Diario de la Mina**: La fórmula de nombramiento (**"Comisionado Mayor del Angramanio"**) es **fija e inmutable**. Si los jugadores descubrieron la contraseña en una run anterior y la anotaron en su Diario, pueden recitarla directamente **sin necesidad de chequeos de Engaño o Persuasión**.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones
-* **Engaño de Credenciales**: *Check de Engaño (DC 13)* para fingir ser heraldos legítimos enviada por los magistrados.
-* **Persuasión Formal**: *Check de Persuasión (DC 14)* o citar un texto alrestiano leído en el Archivo de Tablillas para demostrar dignidad de paso.
-* **Intimidación de Mando**: *Check de Intimidación (DC 15)* para asumir un tono de autoridad imperial alrestiana.
+### Acciones y Comprobaciones (Primera Vez / Sin Notas)
+* **Recitar la Fórmula Anotada**: Pronunciar la frase oficial del Diario abre el paso al instante.
+* **Engaño de Credenciales**: *Check de Engaño (DC 13)* para improvisar un nombramiento ficticio convincente.
+* **Persuasión Formal**: *Check de Persuasión (DC 14)* o citar un ideograma leído en el Archivo de Tablillas para demostrar dignidad de paso.
 
-### Consecuencias de Fallo
-* Intentos fallidos provocan un soplido de polvo cegador (Salvación de Constitución DC 12 o Ceguera durante 1 ronda).
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo Grave / Insulto**: Equivocar la contraseña o provocar al eco (fallar el check por 5+ puntos) **consume 1 Carga Arcana** y hace que el relieve sople una nube de polvo cegador de basalto (**1d6 daño cegador** + ceguera por 1 ronda, Salvación de Constitución DC 13).
 
 ### Recompensa
 * El relieve inclina su cabeza y se repliega hacia el techo liberando el pasaje.

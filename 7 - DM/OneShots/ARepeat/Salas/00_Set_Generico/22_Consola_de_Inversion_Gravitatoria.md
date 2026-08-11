@@ -1,6 +1,7 @@
 # 22. ⚖️ Consola de Inversión Gravitatoria
 
-> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Alteración Gravitacional | **Requisito**: Acción de Consola / Navegación Vertical
+> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Alteración Gravitacional | **Requisito**: Acción de Consola / Navegación Vertical  
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Orientación de Manivela Determinista** integrable en el **Diario de la Mina**
 
 ---
 
@@ -20,21 +21,25 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Las salas de gravedad cero permitían el transporte vertical de materiales pesados hacia las cúpulas del laberinto.*
 * **Capa 2: Vector Espacial**: *Acceder al techo invertido revela la puerta que conduce al balcón superior del cuadrante.*
-* **Capa 3: Regla Mecánica (Girar Manivela)**: *Accionar la manivela invierte la gravedad del sector; aventureros y objetos caen 'hacia arriba' hacia el techo.*
+* **Capa 3: Regla Mecánica (Girar Manivela 180°)**: *Accionar la manivela invierte la gravedad del sector; aventureros y objetos caen 'hacia arriba' hacia el techo.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Inversión Gravitacional**: Caer hacia el techo provoca **1d6 daño de caída** a menos que se realice un check de Acrobacias (DC 12).
+* **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), la gravedad de la sala vuelve a su orientación normal hacia abajo y la manivela regresa a la posición inicial 0°.
+* **Bypass con Diario de la Mina**: El mecanismo de 180° y la ubicación del balcón invertido son **fijos e inmutables**. Si los jugadores anotaron en su Diario la función de la consola, pueden accionar la manivela y prepararse para la caída **sin necesidad de inspección**.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Accionar la Consola**: *Fuerza (DC 10)* para girar la manivela de bronce.
+* **Accionar la Consola**: *Fuerza (DC 10)* para girar la manivela de bronce 180 grados.
 * **Control de Caída al Techo**: *Check de Acrobacias (DC 12)* o desplegar la *Capa del Vértice* para aterrizar sin daño en el suelo invertido (techo).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo en Aterrizaje**: Errar estrepitosamente la acrobacia al caer al techo (fallar el check por 5+ puntos) **consume 1 Carga Arcana** y causa un impacto violento contra las cornisas (**2d6 daño contundente** de caída).
 
 ### Recompensa
 * Acceso libre a la puerta del techo invertido y a un cofre de basalto suspendido en las alturas.

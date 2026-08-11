@@ -1,6 +1,7 @@
 # 18. ⚙️ Interruptor Rúnico (Conmutador Peg)
 
-> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Conmutador Peg (Zelda Crystal Switch) | **Requisito**: Ataque a Distancia / Impacto Físico / Magia
+> **Set**: `Set 0: Salas Genéricas` | **Tipo**: Conmutador Peg (Zelda Crystal Switch) | **Requisito**: Ataque a Distancia / Impacto Físico / Magia  
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Estado Inicial AZUL Determinista** integrable en el **Diario de la Mina**
 
 ---
 
@@ -13,28 +14,29 @@
 ## 🔍 Pistas de Inspección y Puntos de Interés
 
 ### Puntos de Interés Visuales
-1. **El Cristal Octogonal Central**: Reacciona instantáneamente a cualquier impacto físico, proyectil o hechizo cambiando de azul a rojo.
-2. **Los Bloques Azules**: Elevados 8 pies sobre el suelo, impidiendo continuar.
-3. **Los Bloques Rojos**: Retraídos a ras del piso, dejando ver nichos y pasajes.
+1. **El Cristal Octogonal Central**: Reacciona instantáneamente a cualquier impacto físico, proyectil o hechizo cambiando entre azul y rojo.
+2. **Los Bloques Azules**: Elevados 8 pies sobre el suelo en estado inicial.
+3. **Los Bloques Rojos**: Retraídos a ras del piso en estado inicial.
 
-### Tríada de Información of Minos
+### Tríada of Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *El conmutador rúnico alteraba la presión del circuito hidráulico principal de Minos.*
 * **Capa 2: Vector Espacial**: *Alternar el estado del cristal afecta a todas las salas con bloques Peg del cuadrante actual.*
-* **Capa 3: Regla Mecánica (Conmutador Azul/Rojo)**: *Golpear el cristal invierte el estado global: Azul baja / Rojo sube.*
+* **Capa 3: Regla Mecánica (Estado Inicial Fijo AZUL)**: *Golpear el cristal invierte el estado global del cuadrante: Azul baja / Rojo sube.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Impactar el Cristal**: Se puede golpear a mele, con flecha, proyectil o hechizo *cantrip*. Al recibir impacto, suena un tintineo sordo y el cristal cambia de color.
+* **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), el cristal Peg vuelve automáticamente a su estado inicial **AZUL** (Bloques Azules alzados / Bloques Rojos bajados).
+* **Bypass con Diario de la Mina**: La ruta de conmutación del cuadrante es **fija e inmutable**. Los jugadores que anotaron en su Diario en qué salas necesitan el estado ROJO o el estado AZUL pueden planificar su recorrido exacto de antemano.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Golpear el Cristal**: No exige tirada de ataque si se hace de cerca; a distancia requiere superar AC 10.
+* **Golpear el Cristal**: No exige tirada de ataque de cerca; a distancia requiere superar AC 10 (Ataque con arma a distancia o *cantrip*).
 
-### Efecto Global
-* **Estado AZUL**: Bloques Azules SUBIDOS / Bloques Rojos BAJADOS.
-* **Estado ROJO**: Bloques Azules BAJADOS / Bloques Rojos SUBIDOS.
+### Efecto Global del Cuadrante
+* **Estado AZUL (Inicial)**: Bloques Azules SUBIDOS / Bloques Rojos BAJADOS.
+* **Estado ROJO (Al golpear)**: Bloques Azules BAJADOS / Bloques Rojos SUBIDOS.
