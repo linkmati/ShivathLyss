@@ -1,5 +1,7 @@
 # 10. 🕸️ Galería de las Cuerdas Tensadas
 
+# SE RESETEA, NO SE GUARDA
+
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Trampa Física / Habilidad | **Requisito**: Destreza / Percepción / Juego de Manos
 
 ---
@@ -37,7 +39,7 @@
 * **Desarme de Hilo Maestro**: *Check de Herramientas de Ladrón (DC 13)* o *Juego de Manos (DC 14)* para cortar la cuerda de tensión principal y neutralizar la trampa.
 
 ### Consecuencias de Fallo
-* Rozar o activar las cuerdas dispara una lluvia de dardos de basalto: **2d6 daño perforante** (Salvación de Destreza DC 13 para mitad de daño).
+* Rozar o activar las cuerdas dispara una lluvia de dardos de basalto: **3d10 daño perforante** (Salvación de Destreza DC 13 para mitad de daño).
 
 ### Recompensa
 * Paso libre por la galería para todo el grupo.

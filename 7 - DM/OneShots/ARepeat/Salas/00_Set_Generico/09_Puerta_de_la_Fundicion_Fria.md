@@ -1,5 +1,7 @@
 # 09. 🕯️ Puerta de la Fundición Fría
 
+# SE RESETEA, NO SE GUARDA
+
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Puzle de Moldeo / Crafting | **Requisito**: Fuego / Aleación / Fundición
 
 ---
@@ -35,6 +37,7 @@
 
 ### Acciones y Comprobaciones
 * **Fundición del Metal**: Encender el brasero (*Check de Naturaleza / Herramientas de Artesano DC 11* o uso directo de Fuego).
+* **Moldes:** Hay varios moldes pero tienen que ver cual hacer para que abra las puerta
 * **Enfriamiento Rápido**: Usar magia de agua/aire (o la *Flauta del Mar* / *Capa del Vértice*) solidifica el metal en 1 ronda.
 * **Giro de Cerrojo**: Encajar la llave recién forjada y girar (Fuerza DC 10).
 
