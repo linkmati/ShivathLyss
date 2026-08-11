@@ -40,7 +40,7 @@
 
 1. **Sintonizar Péndulo de Cobre (Restauración del Pasado)**:
    - **Tirada**: *Herramientas de Artesano / Arcanos (DC 14)*.
-   - **Éxito**: Repara un objeto dañado, arma rota o restaura 1 uso de un consumible/varita desgastada.
+   - **Éxito**: Repara un objeto dañado, arma rota o restaura 1 uso de un recurso.
 
 2. **Sintonizar Péndulo de Plata (Forja del Presente)**:
    - **Tirada**: *Investigación / Herramientas de Ladrón (DC 13)*.
@@ -48,7 +48,7 @@
 
 3. **Sintonizar Péndulo de Basalto (Visión del Futuro)**:
    - **Tirada**: *Historia / Percepción (DC 13)*.
-   - **Éxito**: Revela el tipo exacto de sala, peligros o presencia de monstruos en una celda no explorada a elección del grupo.
+   - **Éxito**: Revela el tipo exacto de sala, peligros o presencia de monstruos en 3 celdas no explorada a elección del grupo.
 
 ### Consecuencias de Fallo (Disonancia Crono-Arcana)
 * **Fallo en Tirada**: Si se falla el chequeo de cualquiera de los péndulos, la consola entra en disonancia. **Consume 1 Carga Arcana** (según la regla de fallos) y desata una onda de choque temporal que inflige **2d6 daño de fuerza** a todos los aventureros en la sala y los empuja contra el muro.
