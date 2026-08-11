@@ -74,7 +74,8 @@ const SET_ROOMS = {
     "👁️ Relieve de Miradas Cambiantes",
     "🩸 Altar del Sacrificio Arcano",
     "⚙️ Interruptor Rúnico (Conmutador Peg)", "🧊 Pasaje de Bloques Azules", "🟥 Cámara de Bloques Rojos",
-    "🗝️ Sello del Molde de Llave", "⚖️ Consola de Inversión Gravitatoria", "🚪 Bóveda de Salida"
+    "🗝️ Sello del Molde de Llave", "⚖️ Consola de Inversión Gravitatoria", "🚪 Bóveda de Salida",
+    "🌌 Cámara del Observatorio Sideral", "📜 Cripta de los Diarios de Daedalus"
   ],
   "FIRE": [
     "🟁 La Caldera de Escoria Magmática", "🌋 El Horno de Enfriamiento Térmico", "🔥 La Galería de las Cuatro Antorchas",

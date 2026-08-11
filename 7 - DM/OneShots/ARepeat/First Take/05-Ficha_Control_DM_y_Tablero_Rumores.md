@@ -95,3 +95,18 @@ graph TD
     F3 & W3 & A3 & E3 & L3 & Li3 -->|6 Fragmentos de Tablilla + Reglas Aprendidas| Sanctum["Sanctum 12: El Juicio de Minos (Boss Final)"]
 ```
 
+---
+
+## 5. Tabla de Bloqueos Cognitivos Inter-Salas (Knowledge-Gated Puzzles)
+
+Las siguientes salas **NO se pueden resolver mediante tiradas casuales o fuerza bruta**, sino que **EXIGEN la información descubierta en otra estancia del laberinto**:
+
+| Sala Bloqueada (Target) | Puzle / Bloqueo | Dónde está la Pista / Clave | Contenido de la Clave (Anotar en Diario) |
+|---|---|---|---|
+| **Sala 13** (*Umbral Decodificación*) | Cortina mística invulnerable | **Sala 24** (*Observatorio Sideral*) | Secuencia rúnica: **Sol ➔ Luna ➔ Estrella** |
+| **Sala 07 de Fuego** (*Horno Magmático*) | Reactor térmico inestable | **Sala 25** (*Cripta de Daedalus*) | Protocolo de purga: **2 Vapor + 1 Helada a 400°C** |
+| **Sala 05 de Vida** (*Bulbo Carnívoro*) | Fauce vegetal voraz | **Sala 25** (*Cripta de Daedalus*) | Nota de sedación: **Fa Sostenido (432 Hz)** |
+| **Sala 04 de Luz** (*Prisma del Santo Sol*) | Descomposición de luz descalibrada | **Sala 24** (*Observatorio Sideral*) | Ángulo cósmico: **45° Norte - 135° Este** |
+| **Sanctum 12** (*Reactor Central*) | Escudo del Boss Final (*Juicio de Minos*) | **6 Arenas de Guardianes** (Sets 1 a 6) | Orden de activación de los 6 Relés Elementales |
+
+

@@ -46,6 +46,8 @@ El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Sala
 21. **[[21_Sello_del_Molde_de_Llave|21. 🗝️ Sello del Molde de Llave]]** (`21_Sello_del_Molde_de_Llave.md`): Ojo de cerradura triple que requiere la llave moldeada a medida.
 22. **[[22_Consola_de_Inversion_Gravitatoria|22. ⚖️ Consola de Inversión Gravitatoria]]** (`22_Consola_de_Inversion_Gravitatoria.md`): Inversión de gravedad para acceder al techo invertido.
 23. **[[23_Boveda_de_Salida|23. 🚪 Bóveda de Salida]]** (`23_Boveda_de_Salida.md`): Zona segura de descanso corto y transición entre cuadrantes.
+24. **[[24_Camara_del_Observatorio_Sideral|24. 🌌 Cámara del Observatorio Sideral]]** (`24_Camara_del_Observatorio_Sideral.md`): Contiene el Astrolabio de Minos. Revela la secuencia `Sol-Luna-Estrella` (Sala 13) y el ángulo solar `45°N - 135°E` (Sala 04 de Luz).
+25. **[[25_Cripta_de_los_Diarios_de_Daedalus|25. 📜 Cripta de los Diarios de Daedalus]]** (`25_Cripta_de_los_Diarios_de_Daedalus.md`): Contiene las Tablillas de los 6 Arquitectos. Revela la fórmula del Horno de Fuego (`2 Vapor + 1 Helada a 400°C`) y la frecuencia de la flor de Vida (`Fa Sostenido / 432 Hz`).
 
 ---
 
