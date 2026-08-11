@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-08-11)
 
 ## Corpus Check
-- 301 files · ~545,747 words
+- 301 files · ~547,114 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1574 nodes · 1403 edges · 243 communities (220 shown, 23 thin omitted)
+- 1577 nodes · 1406 edges · 243 communities (220 shown, 23 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e8719548`
+- Built from commit: `c6dae250`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -244,16 +244,16 @@ Cohesion: 0.18
 Nodes (10): 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, Límites, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Tabla de Resultados (Tira 1d6 por Sacrificio) (+2 more)
 
 ### Community 56 - "get"
-Cohesion: 0.17
-Nodes (11): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+3 more)
+Cohesion: 0.18
+Nodes (10): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 58 - "contains"
 Cohesion: 0.25
 Nodes (8): 1. "Chispas" (El Vendedor Ambulante), 2. Boran (El Turista Frustrado), 3. Las Tuberías Expuestas, 4. Otros Rostros en la Multitud, Encuentros en el Camino (Roleplay y Ambientación), Escena: El Resort "Arenas Plateadas", Hacia el Estadio, La Atmósfera (La Mansión Decadente)
 
 ### Community 59 - "isPair"
-Cohesion: 0.17
-Nodes (11): 10. 🕸️ Galería de las Cuerdas Tensadas, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+3 more)
+Cohesion: 0.18
+Nodes (10): 10. 🕸️ Galería de las Cuerdas Tensadas, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 60 - "bT"
 Cohesion: 0.15
@@ -269,7 +269,7 @@ Nodes (9): 11. ⏱️ El Forjador del Tiempo (Taller de Relojería y Crono-Ingen
 
 ### Community 66 - "_s"
 Cohesion: 0.18
-Nodes (10): 14. 🎭 Relieve del Eco Espectral Parlante, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 14. 🎭 Relieve del Eco Espectral Parlante, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 67 - "isScalar"
 Cohesion: 0.29
@@ -281,7 +281,7 @@ Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (City in the Sky Non-
 
 ### Community 70 - "6. Set 5: LIFE (Invernadero Ancestral & Crecimiento Orgánico)"
 Cohesion: 0.18
-Nodes (10): 17. 👁️ Relieve de Miradas Cambiantes, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Nodes (10): 17. 👁️ Relieve de Miradas Cambiantes, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 72 - "renderButtons"
 Cohesion: 0.33
@@ -400,12 +400,12 @@ Cohesion: 0.50
 Nodes (3): 1. Do Not Overwrite / Rewrite Notes Without Explicit Instruction, 2. Commit / Save Git State Before Modifying Files, Safe Editing & Revision Control Rules
 
 ### Community 124 - "07. ⚖️ Báscula de Contrapesos"
-Cohesion: 0.20
-Nodes (9): 07. ⚖️ Báscula de Contrapesos, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+Cohesion: 0.18
+Nodes (10): 07. ⚖️ Báscula de Contrapesos, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 125 - "09. 🕯️ Puerta de la Fundición Fría"
 Cohesion: 0.18
-Nodes (10): 09. 🕯️ Puerta de la Fundición Fría, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+2 more)
+Nodes (10): 09. 🕯️ Puerta de la Fundición Fría, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 126 - "Marco de Referencia Metodológico para Diseño de Jefes (Boss Design Framework)"
 Cohesion: 0.22
@@ -424,12 +424,12 @@ Cohesion: 0.17
 Nodes (9): Anotaciones, Anotaciones, ¿Cuál es la función de un panteón?, ¿Cuáles panteones existen o existieron?, Entidades Sin Panteón Conocido / Panteón Perdido:, Patrones (Ubicados en `1 - Mundo/Patrones/`), Qué diferencia un panteón de otro?, ¿Qué es un panteón? (+1 more)
 
 ### Community 139 - "13. 🔮 Umbral de Decodificación Arcana"
-Cohesion: 0.20
-Nodes (9): 13. 🔮 Umbral de Decodificación Arcana, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+Cohesion: 0.18
+Nodes (10): 13. 🔮 Umbral de Decodificación Arcana, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 140 - "listRefs"
-Cohesion: 0.20
-Nodes (9): 15. 👥 Puerta del Cristal de Espinas Sumiso, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+Cohesion: 0.18
+Nodes (10): 15. 👥 Puerta del Cristal de Espinas Sumiso, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 141 - "The Cobalt Rain.md"
 Cohesion: 0.25
@@ -448,12 +448,12 @@ Cohesion: 0.29
 Nodes (6): **Districts of Vitra**, **Life and Culture in Vitra**, **Society and Economy**, **Technology and Mercenaries**, Vitra, **Vitra: The City of a Thousand Lights**
 
 ### Community 146 - "16. 🌿 Umbral de Vides Sensibles"
-Cohesion: 0.20
-Nodes (9): 16. 🌿 Umbral de Vides Sensibles, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+Cohesion: 0.18
+Nodes (10): 16. 🌿 Umbral de Vides Sensibles, Acciones y Comprobaciones (Primera Vez / Sin Notas), Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 147 - "18. ⚙️ Interruptor Rúnico (Conmutador Peg)"
 Cohesion: 0.20
-Nodes (9): 18. ⚙️ Interruptor Rúnico (Conmutador Peg), Acciones y Comprobaciones, Efecto Global, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+Nodes (9): 18. ⚙️ Interruptor Rúnico (Conmutador Peg), Acciones y Comprobaciones, Efecto Global del Cuadrante, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 150 - "19. 🧊 Pasaje de Bloques Azules"
 Cohesion: 0.20
@@ -472,8 +472,8 @@ Cohesion: 0.20
 Nodes (9): 21. 🗝️ Sello del Molde de Llave, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 155 - "22. ⚖️ Consola de Inversión Gravitatoria"
-Cohesion: 0.20
-Nodes (9): 22. ⚖️ Consola de Inversión Gravitatoria, Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa, 🎯 Resolución del Puzle y Guía del DM (+1 more)
+Cohesion: 0.18
+Nodes (10): 22. ⚖️ Consola de Inversión Gravitatoria, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 156 - "01. 🟁 La Caldera de Escoria Magmática"
 Cohesion: 0.20
@@ -744,24 +744,24 @@ Cohesion: 0.22
 Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
 
 ## Knowledge Gaps
-- **891 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+886 more)
+- **894 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+889 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Escena: El Levantamiento del Orbe` connect `m0` to `push`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `Consecuencias Ecológicas: El Ocaso del Glowing Lake` connect `WO` to `push`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Escena: La Planta y El Laboratorio Subterráneo` connect `isScalar` to `push`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _891 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _894 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `join` be split into smaller, more focused modules?**
   _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
 - **Should `Lore by Category` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Autumn` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
