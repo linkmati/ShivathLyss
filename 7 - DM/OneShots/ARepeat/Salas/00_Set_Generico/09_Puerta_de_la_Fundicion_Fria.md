@@ -1,7 +1,7 @@
 # 09. 🕯️ Puerta de la Fundición Fría
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Puzle de Moldeo / Crafting | **Requisito**: Fuego / Aleación / Fundición  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Receta & Molde Determinista** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** o Lore (Sala 25) para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,16 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión, la puerta vuelve a estar bloqueada y la llave moldeada previamente se desintegra en polvo arcano al salir de la matriz. El brasero y el crisol se resetean a su posición inicial.
-* **Bypass con Diario de la Mina**: La receta del crisol y la silueta del molde son **fijas e inmutables**. Si los jugadores apuntaron la secuencia exacta (temperatura de brasero + vertido directo en cera) en su Diario en una run previa, pueden forjar la llave **de inmediato sin necesidad de chequeos de deducción**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15 o Lore en Sala 25)**:
+  - **Superar DC 15 (Herramientas de Artesano / Naturaleza)** o leer la *Cripta de Daedalus (Sala 25)*: Registran de forma **permanente** la fórmula del crisol y la silueta del molde en el Diario de la Mina. En runs futuras forjan la llave al instante.
+  - **Fundición Normal (DC 11-12)**: Un vertido básico forja la llave para esta incursión únicamente.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones (Primera Vez / Sin Notas)
-* **Fundición del Metal**: Encender el brasero (*Check de Naturaleza / Herramientas de Artesano DC 11* o uso directo de *Guantelete de Llama* / Cantrip de Fuego).
-* **Inspección de Molde**: *Check de Investigación (DC 12)* para verificar el volumen exacto de metal a verter en la cera refractaria.
-* **Enfriamiento Rápido**: Usar magia de agua/aire (o la *Flauta del Mar* / *Capa del Vértice*) solidifica el metal en 1 ronda.
+### Acciones y Comprobaciones
+* **Fundición de Paso (Paso Temporal)**: Encender brasero y verter metal (*Check de Naturaleza DC 11* / *Herramientas DC 11*).
+* **Perfeccionamiento de Receta (Desbloqueo Permanente Diario)**: *Check de Herramientas de Artesano / Naturaleza (DC 15)* para registrar la pauta de fundición en el Diario de la Mina.
 * **Giro de Cerrojo**: Encajar la llave recién forjada y girar (Fuerza DC 10).
 
 ### Consecuencias de Fallo (Cargas Arcanas)

@@ -1,7 +1,7 @@
 # 17. 👁️ Relieve de Miradas Cambiantes
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Observación / Puzle de Micro-expresiones | **Requisito**: Perspicacia / Percepción  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Máscara Auténtica Determinista (Máscara #3)** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** o Lore (Sala 12) para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,15 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión, la puerta vuelve a bloquearse y el cerrojo encaja nuevamente detrás de la pared.
-* **Bypass con Diario de la Mina**: La posición de la máscara auténtica (**Máscara #3**) es **fija e inmutable**. Si los jugadores descubrieron cuál era en una run anterior y la anotaron en su Diario, pueden presionar el botón #3 directamente **sin necesidad de tiradas de Perspicacia o Percepción**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15 o Lore en Sala 12)**:
+  - **Superar DC 15 (Perspicacia / Percepción)** o leer el *Archivo de Tablillas (Sala 12)*: Los exploradores notan la fotosensibilidad diferencial de la **Máscara #3 (El Juez Central)** y la inscriben de forma **permanente** en el Diario. En runs futuras pulsan el botón #3 al instante.
+  - **Inspección Visual (DC 13)**: Percibir la micro-expresión abre la puerta esta vez, pero sin el análisis meticuloso no se registra en la libreta.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones (Primera Vez / Sin Notas)
-* **Presionar el Botón Anotado (#3)**: Libera el pasador de la puerta de inmediato.
-* **Observación de Micro-expresiones**: *Check de Perspicacia (DC 13)* o *Percepción (DC 14)* para distinguir las pupilas fotosensibles de la Máscara #3.
+### Acciones y Comprobaciones
+* **Observación Visual (Paso Temporal)**: *Check de Perspicacia (DC 13)* o *Percepción (DC 13)* abre la puerta esta vez.
+* **Análisis de Fotosensibilidad (Desbloqueo Permanente Diario)**: *Check de Perspicacia (DC 15)* o *Percepción (DC 15)* identifica de forma inequívoca la Máscara #3 e inscribe el dato en el Diario de la Mina.
 
 ### Consecuencias de Fallo (Cargas Arcanas)
 * **Fallo / Máscara Falsa**: Presionar el botón de cualquiera de las 4 máscaras falsas **consume 1 Carga Arcana** y dispara un dardo de paralización (**1d6 daño perforante** + Salvación de Constitución DC 13 o caer Paralizado durante 1 minuto).

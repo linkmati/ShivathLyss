@@ -1,7 +1,7 @@
 # 10. 🕸️ Galería de las Cuerdas Tensadas
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Trampa Física / Habilidad | **Requisito**: Destreza / Percepción / Juego de Manos  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Ruta & Hilo Maestro Determinista** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,15 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), los muelles tensan nuevamente toda la red de hilos de bronce y recargan las ballestas de las paredes.
-* **Bypass con Diario de la Mina**: La ubicación del **Hilo Maestro de Bronce** y la secuencia de pasos seguros son **fijos e inmutables**. Si los jugadores apuntaron la ruta o la posición del hilo maestro en su Diario en una run previa, pueden cruzar o desactivar la galería **de inmediato sin necesidad de tiradas de Acrobatas/Sigilo**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15)**:
+  - **Superar DC 15 (Herramientas de Ladrón / Percepción)**: Los exploradores mapean la tensión de la red y localizan con precisión el **Hilo Maestro de Bronce**, anotándolo **permanente** en el Diario. En runs futuras cortan la red al instante sin tiradas.
+  - **Cruce Sigiloso (DC 13)**: Esquivar los hilos permite cruzar en esta incursión, pero no desactiva la trampa para el Diario.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones (Primera Vez / Sin Notas)
-* **Cruce Sigiloso (Uno a uno)**: *Check de Acrobacias (DC 13)* o *Sigilo (DC 13)* para esquivar los hilos sin rozarlos.
-* **Desarme de Hilo Maestro**: *Check de Herramientas de Ladrón (DC 13)* o *Juego de Manos (DC 14)* para cortar la cuerda de tensión principal y neutralizar la trampa.
+### Acciones y Comprobaciones
+* **Cruce Sigiloso (Paso Temporal)**: *Check de Acrobacias (DC 13)* o *Sigilo (DC 13)* para esquivar los hilos sin rozarlos.
+* **Mapeo del Hilo Maestro (Desbloqueo Permanente Diario)**: *Check de Herramientas de Ladrón (DC 15)* o *Percepción (DC 15)* para desactivar la red e inscribir el mapa en el Diario de la Mina.
 
 ### Consecuencias de Fallo (Cargas Arcanas)
 * **Fallo Grave / Tropiezo**: Rozar o romper torpemente una cuerda activa las ballestas del sector: **consume 1 Carga Arcana** y dispara una lluvia de dardos de basalto (**3d10 daño perforante**, Salvación de Destreza DC 13 para mitad de daño).

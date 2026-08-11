@@ -1,7 +1,7 @@
 # 22. ⚖️ Consola de Inversión Gravitatoria
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Alteración Gravitacional | **Requisito**: Acción de Consola / Navegación Vertical  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Orientación de Manivela Determinista** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,15 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), la gravedad de la sala vuelve a su orientación normal hacia abajo y la manivela regresa a la posición inicial 0°.
-* **Bypass con Diario de la Mina**: El mecanismo de 180° y la ubicación del balcón invertido son **fijos e inmutables**. Si los jugadores anotaron en su Diario la función de la consola, pueden accionar la manivela y prepararse para la caída **sin necesidad de inspección**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15)**:
+  - **Superar DC 15 (Arcanismo / Acrobacias)**: Los exploradores calculan el punto exacto de giro (`180° completos`) y la trayectoria de caída al techo, anotándolo **permanente** en el Diario. En runs futuras invierten y caen sin tiradas.
+  - **Accionar Consola (DC 10)**: Girar la manivela invierte la gravedad esta vez, pero requiere tirada de caída.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Accionar la Consola**: *Fuerza (DC 10)* para girar la manivela de bronce 180 grados.
-* **Control de Caída al Techo**: *Check de Acrobacias (DC 12)* o desplegar la *Capa del Vértice* para aterrizar sin daño en el suelo invertido (techo).
+* **Accionar Consola (Paso Temporal)**: *Fuerza (DC 10)* para girar la manivela 180 grados y *Acrobacias (DC 12)* para el aterrizaje.
+* **Cálculo de Inversión (Desbloqueo Permanente Diario)**: *Check de Arcanismo (DC 15)* para registrar la trayectoria en el Diario de la Mina.
 
 ### Consecuencias de Fallo (Cargas Arcanas)
 * **Fallo en Aterrizaje**: Errar estrepitosamente la acrobacia al caer al techo (fallar el check por 5+ puntos) **consume 1 Carga Arcana** y causa un impacto violento contra las cornisas (**2d6 daño contundente** de caída).

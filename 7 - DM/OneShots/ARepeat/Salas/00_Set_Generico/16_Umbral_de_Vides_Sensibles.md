@@ -1,7 +1,7 @@
 # 16. 🌿 Umbral de Vides Sensibles
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Barrera Vegetal / Botánica | **Requisito**: Naturaleza / Polen / Fuego Controlado  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Sedante & Frecuencia Botánica Determinista** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,15 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión, las vides vegetales vuelven a germinar y estrechar la compuerta de piedra.
-* **Bypass con Diario de la Mina**: La dosis de polen y el punto exacto de cauterización suave son **fijos e inmutables**. Si los jugadores anotaron el procedimiento en su Diario en una run previa, pueden aplicar el polen o el calor suave **de inmediato sin necesidad de tiradas de Naturaleza**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15)**:
+  - **Superar DC 15 (Naturaleza / Medicina)**: Los exploradores determinan la dosis sedante exacta (`2 puñados de polen amarillo sobre el bulbo central`) e inscriben el procedimiento en el Diario. En runs futuras sedarán las vides al instante sin tiradas.
+  - **Fuego Controlado (DC 12)**: Quemar superficialmente los zarcillos despeja la compuerta para esta incursión, pero no registra el sedante botánico en el Diario.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones (Primera Vez / Sin Notas)
-* **Uso de Polen Sedante**: *Check de Naturaleza (DC 13)* para esparcir el polen amarillento sobre el bulbo central sin alertar a los zarcillos.
-* **Uso de Fuego Controlado**: Usar el *Guantelete de Llama* o antorcha con *Check de Medicina / Naturaleza (DC 12)* para cauterizar los zarcillos sin dañar la compuerta.
+### Acciones y Comprobaciones
+* **Fuego Controlado (Paso Temporal)**: *Check de Naturaleza / Atletismo (DC 12)* o usar *Guantelete de Llama* para cauterizar temporalmente las vides.
+* **Análisis Botánico (Desbloqueo Permanente Diario)**: *Check de Naturaleza (DC 15)* para descifrar la fórmula de polen sedante e inscribirla en el Diario de la Mina.
 
 ### Consecuencias de Fallo (Cargas Arcanas)
 * **Fallo Grave / Ataque Brusco**: Cortar las vides con armas sin sedarlas (o fallar el check por 5+ puntos) **consume 1 Carga Arcana** y provoca el contraataque de las vides carnívoras (**1d6 daño contundente** + aprisionamiento durante 1 ronda).

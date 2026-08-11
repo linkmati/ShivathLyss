@@ -1,7 +1,7 @@
 # 15. 👥 Puerta del Cristal de Espinas Sumiso
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Barrera Cristalina / Voluntad | **Requisito**: Intimidación / Voluntad Mística / Frecuencia  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Frecuencia Armónica Determinista** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,16 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión, la maraña de cuarzo vuelve a germinar y expandirse bloqueando el corredor.
-* **Bypass con Diario de la Mina**: La nota armónica de resonancia (**Re Sostenido**) y la fórmula verbal son **fijas e inmutables**. Si los jugadores anotaron el tono en su Diario en una run previa, pueden emitir la frecuencia o cantarla directamente **sin necesidad de tiradas de Intimidación o Interpretación**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15)**:
+  - **Superar DC 15 (Interpretación / Arcanismo)**: Los exploradores identifican con precisión la nota de resonancia (`Re Sostenido`) e inscriben el tono **permanente** en el Diario. En runs futuras reproducen la nota al instante.
+  - **Intimidación / Dominación (DC 13)**: Forzar la retracción con voluntad pura abre el paso esta vez, pero no registra la frecuencia musical en la libreta.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones (Primera Vez / Sin Notas)
-* **Emitir la Nota Anotada**: Reproducir el tono exacto del Diario hace retraer las espinas al instante.
-* **Proyección de Voluntad Dominante**: *Check de Intimidación (DC 13)* para imponer la autoridad del aventurero sobre el cristal.
-* **Sintonización Armónica**: *Check de Interpretación (DC 13)* cantando o tocando un instrumento en la frecuencia armónica adecuada.
+### Acciones y Comprobaciones
+* **Intimidación / Proyección Dominante (Paso Temporal)**: *Check de Intimidación (DC 13)* para replegar las espinas temporalmente.
+* **Sintonización Armónica (Desbloqueo Permanente Diario)**: *Check de Interpretación (DC 15)* o *Arcanismo (DC 15)* para registrar la nota `Re Sostenido` en el Diario de la Mina.
 
 ### Consecuencias de Fallo (Cargas Arcanas)
 * **Fallo Grave / Contacto Brusco**: Tocar bruscamente las espinas o errar el tono (fallar por 5+ puntos) **consume 1 Carga Arcana** y hace que las zarzas arremetan (**1d8 daño cortante** a quien esté frente a la barrera).

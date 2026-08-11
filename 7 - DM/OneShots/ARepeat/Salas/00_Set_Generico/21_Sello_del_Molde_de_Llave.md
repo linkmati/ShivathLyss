@@ -1,7 +1,7 @@
 # 21. 🗝️ Sello del Molde de Llave
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Cerrojo Especial | **Requisito**: Llave Forjada a Medida (Fundición Fría)  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Patrón de Cerradura Determinista** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** o Lore (Sala 25) para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,14 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), los remaches y cerrojos mecánicos vuelven a extenderse locking el portón.
-* **Bypass con Diario de la Mina**: La forma de las tres muescas concéntricas es **fija e inmutable**. Los jugadores que anotaron en su Diario en qué sala forjar la llave (Sala 09) pueden dirigirse directamente a forjarla sin perder tiempo investigando el ojo de cerradura.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15 o Lore en Sala 25)**:
+  - **Superar DC 15 (Investigación / Herramientas)** o leer la *Cripta de Daedalus (Sala 25)*: Mapean la geometría del ojo de cerradura y relacionan la fragua exacta (Sala 09) en el Diario. En runs futuras van a forjar la llave directamente.
+  - **Uso In-situ**: Usar la llave moldeada forjada en la Sala 09 retrae los remaches esta vez.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Insertar Llave Moldeada**: Ajustar la llave obtenida en la *Puerta de la Fundición Fría* y girar hacia la derecha.
+* **Insertar Llave Moldeada (Paso Temporal)**: Ajustar la llave obtenida en la *Puerta de la Fundición Fría* y girar hacia la derecha.
+* **Análisis de Geometría de Cerradura (Desbloqueo Permanente Diario)**: *Check de Investigación / Herramientas (DC 15)* para registrar la relación de forja en el Diario de la Mina.
 
 ### Recompensa
 * Retracción inmediata de los pasadores de bronce y apertura del portón.

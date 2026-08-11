@@ -1,7 +1,7 @@
 # 07. ⚖️ Báscula de Contrapesos
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Puzle Físico de Peso | **Requisito**: Masa / Fuerza Física / Martillo de Basalto  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Umbral de Peso Determinista (300 lbs)** integrable en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 15)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -28,15 +28,17 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión (tras colapso o cambio de día), las plataformas vuelven a su altura desequilibrada inicial y los bloques de basalto regresan a su esquina.
-* **Bypass con Diario de la Mina**: La masa exigida de **300 lbs** y la combinación exacta de bloques es **fija e inmutable**. Si los jugadores anotaron en su Diario en una run previa el peso exacto requerido (ej: `2 Bloques de 150 lbs`), pueden colocar los bloques o personajes directamente **sin necesidad de tiradas de deducción o prueba y error**.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 15)**:
+  - **Superar DC 15 (Investigación / Herramientas de Ladrón)**: Los exploradores identifican la graduación exacta del trinquete (`300 lbs exactas = 2 Bloques de Basalto`) y la registran **permanente** en su Diario. En runs futuras colocan los bloques al instante sin tiradas.
+  - **Paso Temporal (Fuerza DC 13)**: Arrastrar los bloques resuelve la pasarela para esta incursión únicamente, sin deducir la fórmula exacta para la libreta.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones y Comprobaciones (Primera Vez / Sin Notas)
-* **Mover Bloques de Piedra**: *Check de Fuerza (Atletismo DC 13)* para arrastrar los bloques de basalto hacia la plataforma.
-* **Intervención Mecánica**: Un personaje experto en herramientas puede intentar trabar el engranaje (*Check de Herramientas de Ladrón DC 14*) para fijar la plataforma en su posición óptima.
+### Acciones y Comprobaciones
+* **Arrastre de Bloques (Paso Temporal)**: *Check de Fuerza (Atletismo DC 13)* para arrastrar los bloques de basalto hacia la plataforma.
+* **Análisis de Engranaje (Desbloqueo Permanente Diario)**: *Check de Investigación / Herramientas (DC 15)* para descifrar el umbral de 300 lbs e inscribirlo en el Diario de la Mina.
 * **Solución por Item**: Si se posee el *Martillo de Basalto* (de la Subdungeon de Tierra), golpear el trinquete superior desencaja la traba fijando el puente.
 
 ### Consecuencias de Fallo (Cargas Arcanas)
