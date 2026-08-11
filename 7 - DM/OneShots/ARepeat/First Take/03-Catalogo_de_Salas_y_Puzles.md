@@ -33,7 +33,7 @@ El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Sala
 8. **[[08_Clave_de_Engranajes_Murales|08. ⚙️ Clave de Engranajes Murales]]** (`08_Clave_de_Engranajes_Murales.md`): Tres discos concéntricos con combinación de dígitos (3-1-5).
 9. **[[09_Puerta_de_la_Fundicion_Fria|09. 🕯️ Puerta de la Fundición Fría]]** (`09_Puerta_de_la_Fundicion_Fria.md`): Fundir metal blando en el crisol y verter en el molde de cera.
 10. **[[10_Galeria_de_Cuerdas_Tensadas|10. 🕸️ Galería de las Cuerdas Tensadas]]** (`10_Galeria_de_Cuerdas_Tensadas.md`): Hilos de bronce conectados a ballestas de basalto; desarme o sigilo.
-11. **[[11_Taller_de_Relojeria_Runica|11. ⏱️ Taller de Relojería Rúnica]]** (`11_Taller_de_Relojeria_Runica.md`): Fabricación artesanal de Bombas Rúnicas consumibles.
+11. **[[11_Taller_de_Relojeria_Runica|11. ⏱️ El Forjador del Tiempo]]** (`11_Taller_de_Relojeria_Runica.md`): Mecanismo de Tres Péndulos (Pasado: reparar objetos, Presente: forjar 2 bombas rúnicas, Futuro: revelar sala colindante).
 12. **[[12_Archivo_de_Tablillas_Rascadas|12. 📜 Archivo de Tablillas Rascadas]]** (`12_Archivo_de_Tablillas_Rascadas.md`): Lectura de ideogramas alrestianos para revelar mapa y grafo de rumores.
 13. **[[13_Umbral_de_Decodificacion_Arcana|13. 🔮 Umbral de Decodificación Arcana]]** (`13_Umbral_de_Decodificacion_Arcana.md`): Barrera mística de tres impulsos; requiere inversión de polaridad.
 14. **[[14_Relieve_del_Eco_Espectral|14. 🎭 Relieve del Eco Espectral Parlante]]** (`14_Relieve_del_Eco_Espectral.md`): Rostro mural de piedra parlante; persuasión o engaño de credenciales.
