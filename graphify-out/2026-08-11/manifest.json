@@ -1100,33 +1100,18 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/01_Atrio_de_Entrada.md": {
-    "mtime": 1786241711.7701826,
-    "ast_hash": "46d634014a8ba5b5cf1cd47a91d80eab",
+    "mtime": 1786410116.6262455,
+    "ast_hash": "8ce0668caf46eefa1ab3704d2fba96eb",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/02_Sala_Secreta_Pura.md": {
-    "mtime": 1786241714.8763688,
-    "ast_hash": "2372e7b75092778d29c7ab9303c7a129",
-    "semantic_hash": ""
-  },
-  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/03_Sala_Super_Secreta.md": {
-    "mtime": 1786241717.1940365,
-    "ast_hash": "ac3ca7c106c86409a0a7d578ec93779e",
+    "mtime": 1786410157.887686,
+    "ast_hash": "13d3ac961db21516af5e93583c102482",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/04_Altar_del_Sacrificio_Arcano.md": {
-    "mtime": 1786241719.63053,
-    "ast_hash": "680620e06e6ff13fe77fa2e676ebd6dc",
-    "semantic_hash": ""
-  },
-  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/05_Mercado_Espectral.md": {
-    "mtime": 1786241721.8335266,
-    "ast_hash": "b5237cdd05e02dc249336d94831810f2",
-    "semantic_hash": ""
-  },
-  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/06_Sala_del_Dado_Arcano.md": {
-    "mtime": 1786241723.7529032,
-    "ast_hash": "d62e1777973c0d061b61f8f650582707",
+    "mtime": 1786410382.8598347,
+    "ast_hash": "8749f2f9414cd7558247b7ccbf05aaef",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/07_Bascula_de_Contrapesos.md": {
@@ -1135,8 +1120,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/08_Clave_de_Engranajes_Murales.md": {
-    "mtime": 1786241728.165033,
-    "ast_hash": "98e53b80f2d7d5064a3a6872b9dbaf79",
+    "mtime": 1786410639.6943,
+    "ast_hash": "129d10b758107cc04e092af070d42eb9",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/09_Puerta_de_la_Fundicion_Fria.md": {
@@ -1525,8 +1510,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/CODE/js/constants.js": {
-    "mtime": 1786324848.6650772,
-    "ast_hash": "4fcb91f2de224a57d7dd6b193fec378d",
+    "mtime": 1786411118.660315,
+    "ast_hash": "03d50c6af5aae9d4f7d10e6ef43be1e6",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/CODE/js/generator.js": {
@@ -1545,8 +1530,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/CODE/generador_minos_7x7.html": {
-    "mtime": 1786325529.392134,
-    "ast_hash": "7600bcc309541e0d79fffb32e488c7f9",
+    "mtime": 1786411116.5244374,
+    "ast_hash": "47e3d058346929112ce2fb6ef5322544",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md": {
@@ -1555,18 +1540,18 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/01-Sistema_de_Escritura_Alrestiano.md": {
-    "mtime": 1786236204.4350314,
-    "ast_hash": "a45c233fea9bfa952fe84093329f421b",
+    "mtime": 1786408082.0589354,
+    "ast_hash": "f405bef1381ac252e9ebaf1dcd196029",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md": {
-    "mtime": 1786323681.2857113,
-    "ast_hash": "d969e40c10a635328735958ff4fb6743",
+    "mtime": 1786408100.140334,
+    "ast_hash": "5eeeedee4e38a32c02036576fcbe6327",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/03-Catalogo_de_Salas_y_Puzles.md": {
-    "mtime": 1786321599.8163903,
-    "ast_hash": "bfc4aee91413ef2ee18b7564351c2753",
+    "mtime": 1786411114.3848782,
+    "ast_hash": "a6545f6eb65250b8edb257a8a6bfcffe",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/04-Encuentros_y_Guardianes.md": {
