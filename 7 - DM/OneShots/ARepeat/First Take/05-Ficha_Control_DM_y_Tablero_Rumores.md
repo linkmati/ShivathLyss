@@ -100,7 +100,9 @@ graph TD
 ## 5. Tabla de Bloqueos Cognitivos & Desbloqueos por Lore Alternativo
 
 ### A. Bloqueos Cognitivos Estrictos (Knowledge-Gated Puzzles)
-Exigen información descubierta en otra estancia del laberinto para evitar descargas o daños graves:
+Exigen información descubierta en otra estancia del laberinto para evitar descargas o daños graves.
+
+* **Regla de Tirada Exigente (DC 16 - 18)**: Para descifrar e inscribir la solución exacta en el **Diario de la Mina** de forma permanente, los exploradores deben superar una tirada exigente de **Investigación, Arcanos, Historia o Naturaleza (DC 16-18)** al examinar la sala de origen. Un éxito normal (DC 12-15) solo otorga una pista parcial.
 
 | Sala Bloqueada (Target) | Puzle / Bloqueo | Dónde está la Pista / Clave | Contenido de la Clave (Anotar en Diario) |
 |---|---|---|---|

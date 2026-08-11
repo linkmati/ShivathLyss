@@ -1,7 +1,7 @@
 # 12. 📜 Archivo de Tablillas Rascadas
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Lore / Descubrimiento Cognitivo (Lore Key Room) | **Requisito**: Investigación / Historia / Sistema Alrestiano  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Contiene Claves de Lore Alternativas** integrables en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 16)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -24,21 +24,23 @@
   - **Clave para Sala 08 (Engranajes Murales)**: La combinación administrativa grabada es **3 - 1 - 5**.
   - **Clave para Sala 14 (Eco Espectral)**: La fórmula oficial de nombramiento es *"Comisionado Mayor del Angramanio"*.
   - **Clave para Sala 17 (Miradas Cambiantes)**: El registro indica: *"El Juicio de las Cinco Caras: Solo el Juez Central (Máscara #3) dice la verdad"*.
-* **Capa 3: Regla Mecánica (Conocimiento Trans-Ciclo)**: *Estudiar las tablillas registra estas tres claves en el **Diario de la Mina**, permitiendo resolver o bypassear las salas 08, 14 y 17 de inmediato en cualquier run.*
+* **Capa 3: Regla Mecánica (Conocimiento Trans-Ciclo por Tirada DC 16)**: *Superar un check exigente de Investigación/Historia (DC 16) inscribe estas tres claves de forma **permanente** en el **Diario de la Mina**, permitiendo bypassear las salas 08, 14 y 17 de inmediato en cualquier run futura.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Atril de Lectura**: Permite descifrar ideogramas alrestianos usando la tabla de escritura.
-* **Toma de Notas**: Registra las claves de las salas 08, 14 y 17 en el Diario del grupo.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 16)**:
+  - **Superar DC 16 (Investigación / Historia)**: Los jugadores descifran la nomenclatura administrativa exacta y registran las 3 contraseñas (`3-1-5`, `"Comisionado Mayor del Angramanio"`, `Máscara #3`) en el Diario de la Mina.
+  - **Resultado Normal (DC 12-15)**: Revelan el mapa del cuadrante y un rumor en Treftiel, pero solo obtienen fragmentos borrosos de las contraseñas.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Descifrar Tablillas**: *Check de Historia / Arqueología (DC 12)* o *Investigación (DC 13)* para traducir la losa del atril.
+* **Descifrado de Tablillas (Desbloqueo Diario)**: *Check de Historia (DC 16)* o *Investigación (DC 16)* para inscribir las contraseñas oficiales en el Diario de la Mina.
 
 ### Recompensa
-* Revela el mapa del cuadrante y registra en el **Diario de la Mina** las contraseñas alternativas de las salas **08**, **14** y **17**, otorgando además un rumor en el **Grafo de Rumores de Treftiel**.
+* Revela el mapa del cuadrante, otorga un rumor en el **Grafo de Rumores de Treftiel** e inscribe las claves de las salas **08**, **14** y **17** en el **Diario de la Mina**.

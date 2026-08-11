@@ -55,12 +55,10 @@ Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala
 ======================================================================
          👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
 ======================================================================
-1. RESETEO FÍSICO DE SALAS & SOLUCIONES FIJAS (TOMA DE NOTAS):
-   - El estado físico de las salas (palancas, bloques, puertas) SE RESETEA FÍSICAMENTE
-     al iniciar cada nueva incursión.
-   - Las combinaciones, códigos de engranajes y soluciones de puzles NO SE RANDOMIZAN;
-     permanecen fijas e inmutables. Los jugadores que las hayan apuntado en su **Diario de la Mina**
-     pueden resolverlas instantáneamente sin volver a investigar ni tirar dados.
+1. RESETEO FÍSICO DE SALAS & SOLUCIONES FIJAS (REGLA DE TIRADA ALTA DC 16-18):
+   - El estado físico de las salas (palancas, bloques, puertas) SE RESETEA FÍSICAMENTE al iniciar cada nueva incursión.
+   - Las soluciones, códigos y frecuencias NO SE RANDOMIZAN; permanecen fijas e inmutables.
+   - **Desbloqueo Permanente en Diario (DC Exigente 16-18)**: Para descifrar e inscribir la solución exacta (ej. la frecuencia exacta `Fa Sostenido / 432 Hz`, la clave `3-1-5` o la temperatura `400°C`) en el **Diario de la Mina**, el grupo debe superar una **tirada exigente (DC 16-18)** de Arcanismo/Historia/Investigación/Naturaleza en la sala correspondiente. Una vez registrada tras el éxito, el bypass en el Diario es **permanente e incondicional** para todas las runs futuras.
 
 2. BONUS DE EXCELENCIA 7/10 (CARGAS ARCANAS SOLO SE GASTAN EN FALLO):
    - Las Cargas Arcanas (10 pts) SOLO SE GASTAN EN CASO DE FALLO (pruebas falladas, trampas, etc.).

@@ -1,7 +1,7 @@
 # 24. 🌌 Cámara del Observatorio Sideral
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Lore / Descubrimiento Cognitivo (Outer Wilds Key Room) | **Requisito**: Percepción / Arcanos / Investigación  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Contiene Claves Críticas para Otras Salas** integrables en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 16)** para Desbloqueo Permanente en el **Diario de la Mina**
 
 ---
 
@@ -14,7 +14,7 @@
 ## 🔍 Pistas de Inspección y Puntos de Interés
 
 ### Puntos de Interés Visuales
-1. **El Astrolabio de Latón**: Al ajustar la lente de cuarzo, las sombras proyectadas en el suelo revelan las coordinadas celestes del laberinto.
+1. **El Astrolabio de Latón**: Al ajustar la lente de cuarzo, las sombras proyectadas en el suelo revelan las coordenadas celestes del laberinto.
 2. **Los Ideogramas Flotantes de Luz**: Muestran la secuencia de tres sellos: **Sol ➔ Luna ➔ Estrella**.
 3. **El Mosaico de Grados Celestiales**: Un grabado en el borde del zócalo indica el ángulo cósmico de refracción: **45° Norte - 135° Este**.
 
@@ -28,14 +28,16 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión, la lente del astrolabio se desalinea y la piscina de mercurio vuelve a reposar en sombra.
-* **Toma de Notas en el Diario**: Al inspeccionar el astrolabio, los jugadores descubren las dos claves deterministas (**Secuencia de Sellos: Sol-Luna-Estrella** y **Ángulo de Luz: 45°N - 135°E**) y las anotan en su **Diario de la Mina**. Con esta información en su libreta, podrán abrir la Sala 13 y resolver la Sala 04 de Luz de inmediato en cualquier run futura.
+* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 16)**:
+  - **Superar DC 16 (Arcanismo / Percepción)**: Los exploradores descifran las matemáticas estelares con precisión y registran de forma **permanente** la secuencia (`Sol-Luna-Estrella`) y el ángulo (`45°N - 135°E`) en el **Diario de la Mina**. A partir de ese momento, tienen bypass directo en la Sala 13 y en la Sala 04 de Luz para siempre.
+  - **Resultado Normal (DC 12-15)**: Entienden que el astrolabio proyecta constelaciones, pero solo obtienen una pista imprecisa (ej: "las tres estrellas del amanecer", "el haz debe mirar hacia el noreste"), exigiendo chequeos o re-intentos en las salas objetivo.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Alinear la Lente del Astrolabio**: *Check de Arcanismo (DC 12)* o *Investigación (DC 13)* para girar el mecanismo del astrolabio y enfocar los ideogramas estelares.
+* **Descifrado de Astrolabio (Desbloqueo Diario)**: *Check de Arcanismo (DC 16)* o *Percepción (DC 16)* para alinear la lente de cuarzo e inscribir las claves exactas en el Diario de la Mina.
 
 ### Recompensa
-* Revelación y registro definitivo en el **Diario de la Mina** de las claves de acceso para la **Sala 13** y la **Sala 04 de Luz**.
+* Registro permanente e incondicional en el **Diario de la Mina** de las claves exactas para la **Sala 13** y la **Sala 04 de Luz**.
