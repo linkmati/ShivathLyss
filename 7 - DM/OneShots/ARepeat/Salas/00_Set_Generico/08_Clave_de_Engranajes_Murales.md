@@ -1,5 +1,7 @@
 # 08. ⚙️ Clave de Engranajes Murales
 
+# SE RESETEA, NO SE GUARDA
+
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Puzle de Combinación / Mecanismos | **Requisito**: Deducción / Herramientas de Ladrón / Investigación
 
 ---
