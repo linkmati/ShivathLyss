@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-08-11)
 
 ## Corpus Check
-- 301 files · ~545,369 words
+- 301 files · ~545,633 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1574 nodes · 1403 edges · 243 communities (220 shown, 23 thin omitted)
+- 1573 nodes · 1402 edges · 243 communities (220 shown, 23 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2f44548c`
+- Built from commit: `51f5e0fa`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -264,8 +264,8 @@ Cohesion: 0.15
 Nodes (12): 🗺️ Mapa de Flujo No-Lineal de la Mazmorra (Ancient Cistern Non-Linear Layout), 🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Water Level Manipulations), Room 1: La Gran Estatua de Loto (Hub Central Dual), Room 2: 🧩 Ala Este: Galería de las Núfares Flotantes (SS), Room 3: Ala Oeste: Esclusa del Canal Dorado, Room 4: ⚔️ Cámara del Mini-Boss: Guardián de Latón de Cuatro Brazos (SS), Room 5: 🧩 Foso Inferior: Caída al Submundo Cursado & Hilo de Seda (SS), Room 6: El Laberinto de Hilos y Turbinas (Llave del Boss 👑) (+4 more)
 
 ### Community 64 - "CropImage"
-Cohesion: 0.18
-Nodes (10): 11. ⏱️ Taller de Relojería Rúnica, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Cohesion: 0.20
+Nodes (9): 11. ⏱️ El Forjador del Tiempo (Taller de Relojería y Crono-Ingeniería), Acciones y Opciones de Sintonización (Elegir 1 por incursión), Consecuencias de Fallo (Disonancia Crono-Arcana), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM (+1 more)
 
 ### Community 66 - "_s"
 Cohesion: 0.18
@@ -744,24 +744,24 @@ Cohesion: 0.22
 Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
 
 ## Knowledge Gaps
-- **891 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+886 more)
+- **890 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+885 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Escena: El Levantamiento del Orbe` connect `m0` to `push`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `Consecuencias Ecológicas: El Ocaso del Glowing Lake` connect `WO` to `push`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Escena: La Planta y El Laboratorio Subterráneo` connect `isScalar` to `push`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _891 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _890 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `join` be split into smaller, more focused modules?**
   _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
 - **Should `Lore by Category` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Autumn` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

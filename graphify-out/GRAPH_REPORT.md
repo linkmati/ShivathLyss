@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-08-11)
 
 ## Corpus Check
-- 301 files · ~545,633 words
+- 301 files · ~545,747 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1573 nodes · 1402 edges · 243 communities (220 shown, 23 thin omitted)
+- 1574 nodes · 1403 edges · 243 communities (220 shown, 23 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `51f5e0fa`
+- Built from commit: `e8719548`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -244,8 +244,8 @@ Cohesion: 0.18
 Nodes (10): 04. 🩸 Altar del Sacrificio Arcano (Sacrifice Room), Acciones y Comprobaciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, Límites, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa y Tabla de Resultados (Tira 1d6 por Sacrificio) (+2 more)
 
 ### Community 56 - "get"
-Cohesion: 0.18
-Nodes (10): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
+Cohesion: 0.17
+Nodes (11): 08. ⚙️ Clave de Engranajes Murales, Acciones y Comprobaciones, Consecuencias de Fallo, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+3 more)
 
 ### Community 58 - "contains"
 Cohesion: 0.25
@@ -577,7 +577,7 @@ Nodes (9): 04. 🌀 La Cámara del Vacío Venturi, Acciones y Comprobaciones, �
 
 ### Community 198 - "Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas"
 Cohesion: 0.29
-Nodes (6): 1. Regla de Persistencia Mixta de Puertas y Pasadizos, 2. Regla de Generación de la Sala Secreta de Isaac (🗝️), 3. Catálogo de Puertas Mecánicas No Elementales, 5. Catálogo de Cerrojos con Pruebas de Habilidad Inusuales (Unusual Skill Checks), 6. Muros Sólidos y Bloqueos Adyacentes, Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas
+Nodes (6): 1. Regla de Reseteo Físico y Soluciones Deterministas (Outer Wilds Style), 2. Regla de Generación de la Sala Secreta de Isaac (🗝️), 3. Catálogo de Puertas Mecánicas No Elementales, 5. Catálogo de Cerrojos con Pruebas de Habilidad Inusuales (Unusual Skill Checks), 6. Muros Sólidos y Bloqueos Adyacentes, Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas
 
 ### Community 201 - "05. 🪶 El Balcón del Planeador de Bronce"
 Cohesion: 0.20
@@ -744,24 +744,24 @@ Cohesion: 0.22
 Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
 
 ## Knowledge Gaps
-- **890 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+885 more)
+- **891 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+886 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Escena: El Levantamiento del Orbe` connect `m0` to `push`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Consecuencias Ecológicas: El Ocaso del Glowing Lake` connect `WO` to `push`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `Escena: La Planta y El Laboratorio Subterráneo` connect `isScalar` to `push`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _890 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _891 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `join` be split into smaller, more focused modules?**
   _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
 - **Should `Lore by Category` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `Autumn` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
