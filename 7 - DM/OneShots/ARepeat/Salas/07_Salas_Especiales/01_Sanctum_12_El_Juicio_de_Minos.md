@@ -1,6 +1,6 @@
 # 01. 👑 Sanctum 12: El Juicio de Minos (Reactor Central)
 
-> **Set**: `Set 7: Salas Especiales` | **Tipo**: Reactor Central / Boss Final de la Run | **Requisito**: 6 Fragmentos de Tablilla + Alineamiento del Reactor
+> **Set**: `Set 7: Salas Especiales` | **Tipo**: Reactor Central / Boss Final de la Run | **Requisito**: Alineamiento del Reactor (Independiente)
 
 ---
 
@@ -14,26 +14,26 @@
 
 ### Puntos de Interés Visuales
 1. **El Reactor Central Hexagonal**: Posee seis anillos giratorios correspondientes a los 6 elementos (*Fuego, Agua, Aire, Tierra, Vida, Luz*).
-2. **Las Consolas de Alineación**: Seis terminales en el perímetro donde deben insertarse los 6 Fragmentos de Tablilla.
+2. **Las Consolas de Alineación**: Seis terminales en el perímetro que controlan el flujo electromagnético de los anillos.
 3. **El Juicio de Minos (Boss Final)**: Rodeado por una barrera de orbes elementales en órbita.
 
 ### Tríada de Información de Minos
-* **Capa 1: Lore (Historia de Alrest)**: *El Reactor Central es el corazón que sostiene el laberinto de Minos y el juicio supremo de la antigua civilización.*
-* **Capa 2: Vector Espacial**: *Alinear los 6 anillos mediante las consolas disipa la inmunidad del reactor y expone la fase de combate del Boss Final.*
-* **Capa 3: Regla Mecánica (Alineamiento + System Xenoblade 2)**: *Insertar los 6 Fragmentos de Tablilla traduce la secuencia de alineación. Durante el combate, apilar y romper Orbes Elementales con su elemento opuesto desata el FULL BURST (Stun + Daño Crítico x2).*
+* **Capa 1: Lore (Historia de Alrest)**: *El Reactor Central es el corazón independiente que sostiene el laberinto de Minos y el juicio supremo de la antigua civilización.*
+* **Capa 2: Vector Espacial**: *Alinear los 6 anillos mediante las consolas perimetrales disipa la inmunidad del reactor y expone la fase de combate del Boss Final.*
+* **Capa 3: Regla Mecánica (Alineamiento Directo + System Xenoblade 2)**: *Accionar las consolas perimetrales desengancha los pasadores del reactor. Durante el combate, apilar y romper Orbes Elementales con su elemento opuesto desata el FULL BURST (Stun + Daño Crítico x2).*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Consolas del Reactor**: Exigen los 6 Fragmentos de Tablilla obtenidos en las Subdungeons.
+* **Consolas del Reactor**: Permiten sintonizar los 6 anillos del reactor directamente in-situ (sin requerir fragmentos externos).
 * **Orbes Elementales del Boss**: Flotan en órbita otorgando inmunidades y AC extra al boss hasta ser destruidos por su elemento opuesto.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Secuencia de Alineamiento del Reactor
+### Secuencia de Alineamiento del Reactor (In-situ)
 1. **Fuego / Agua**: Estabilizar la temperatura de las tuberías.
 2. **Aire / Tierra**: Regular la presión sísmica y evacuación de gases.
 3. **Vida / Luz**: Enfocar la lente solar bioluminiscente.

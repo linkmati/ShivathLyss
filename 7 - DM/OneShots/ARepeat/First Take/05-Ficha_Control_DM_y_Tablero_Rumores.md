@@ -97,9 +97,10 @@ graph TD
 
 ---
 
-## 5. Tabla de Bloqueos Cognitivos Inter-Salas (Knowledge-Gated Puzzles)
+## 5. Tabla de Bloqueos Cognitivos & Desbloqueos por Lore Alternativo
 
-Las siguientes salas **NO se pueden resolver mediante tiradas casuales o fuerza bruta**, sino que **EXIGEN la información descubierta en otra estancia del laberinto**:
+### A. Bloqueos Cognitivos Estrictos (Knowledge-Gated Puzzles)
+Exigen información descubierta en otra estancia del laberinto para evitar descargas o daños graves:
 
 | Sala Bloqueada (Target) | Puzle / Bloqueo | Dónde está la Pista / Clave | Contenido de la Clave (Anotar en Diario) |
 |---|---|---|---|
@@ -107,6 +108,17 @@ Las siguientes salas **NO se pueden resolver mediante tiradas casuales o fuerza 
 | **Sala 07 de Fuego** (*Horno Magmático*) | Reactor térmico inestable | **Sala 25** (*Cripta de Daedalus*) | Protocolo de purga: **2 Vapor + 1 Helada a 400°C** |
 | **Sala 05 de Vida** (*Bulbo Carnívoro*) | Fauce vegetal voraz | **Sala 25** (*Cripta de Daedalus*) | Nota de sedación: **Fa Sostenido (432 Hz)** |
 | **Sala 04 de Luz** (*Prisma del Santo Sol*) | Descomposición de luz descalibrada | **Sala 24** (*Observatorio Sideral*) | Ángulo cósmico: **45° Norte - 135° Este** |
-| **Sanctum 12** (*Reactor Central*) | Escudo del Boss Final (*Juicio de Minos*) | **6 Arenas de Guardianes** (Sets 1 a 6) | Orden de activación de los 6 Relés Elementales |
+
+*Nota: **Sanctum 12 (El Juicio de Minos)** es una estancia **independiente** que se alinea in-situ directamente en las consolas de su reactor.*
+
+### B. Desbloqueos Alternativos por Lore (Bypass con Diario)
+Salas que se pueden resolver mediante tiradas in-situ (Método A) **O** bypassear directamente si se descubrió la contraseña en una Sala de Lore (Método B):
+
+| Sala con Contraseña | Método A (In-situ) | Método B (Lore Alternativo en Sala 12) | Contraseña / Clave Registrada |
+|---|---|---|---|
+| **Sala 08** (*Engranajes Murales*) | Investigación DC 12 / Herramientas DC 13 | **Sala 12** (*Archivo de Tablillas*) | Código numérico: **3 - 1 - 5** |
+| **Sala 14** (*Eco Espectral*) | Engaño DC 13 / Persuasión DC 14 | **Sala 12** (*Archivo de Tablillas*) | Nombramiento: *"Comisionado Mayor del Angramanio"* |
+| **Sala 17** (*Miradas Cambiantes*) | Perspicacia DC 13 / Percepción DC 14 | **Sala 12** (*Archivo de Tablillas*) | Posición: **Máscara #3 (El Juez Central)** |
+| **Sala 21** (*Sello del Molde*) | Fundir llave in-situ en Sala 09 | **Sala 25** (*Cripta de Daedalus*) | Molde e instrucciones de forja de latón |
 
 
