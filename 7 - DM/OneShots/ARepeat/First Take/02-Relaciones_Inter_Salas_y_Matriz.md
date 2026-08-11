@@ -6,23 +6,25 @@
 
 ---
 
-## 1. Regla de Persistencia Mixta de Puertas y Pasadizos
+## 1. Regla de Reseteo Físico y Soluciones Deterministas (Outer Wilds Style)
 
 ```
 ======================================================================
-                 🚪 REGLA DE PERSISTENCIA MIXTA 🚪
+     🔁 RESETEO COMPLETO DE ESTADO VS. SOLUCIONES FIJAS 🔁
 ======================================================================
-1. SALAS SE GUARDAN PERMANENTEMENTE :
-   - Puzzles se quedan resueltos, salas de paso libre
-   * Al desbloquearse, el DM los marca como "Abiertos Permanentemente"
-     en la Web App generador_minos_7x7.html.
+1. RESETEO TOTAL DE SALAS ENTRE INCURSIONES:
+   - Al iniciar una nueva run (tras cambiar de día o por colapso), 
+     todas las salas, palancas, interruptores y puzles SE RESETEAN FÍSICAMENTE
+     a su estado inicial cerrado o bloqueado.
 
-2. CERROJOS ELEMENTALES TEMPORALES (SE RESETEAN DÍA A DÍA):
-   - Compuertas con sellos de Glifos (Triadas de 3 gemas).
-   - Puertas selladas por Hielo Mágico [FIRE], Agua Hirviendo [WATER],
-     Vientos Ascendentes [AIR] o Vides Arcanas [LIFE].
-   * Se resetean al cambiar de día, exigiendo que los jugadores
-     tengan las sintonias para superarlas nuevamente.
+2. SOLUCIONES Y COMBINACIONES DETERMINISTAS (NO SE RANDOMIZAN):
+   - Las combinaciones de engranajes, secuencias de botones, claves de 
+     dígitos y patrones de espejos PERMANECEN EXACTAMENTE IGUALES entre 
+     incursiones.
+   - Propósito de diseño: Premiar la toma de notas en el **Diario de la Mina**.
+     Los jugadores que apunten la solución en su libreta pueden resolver 
+     la sala al instante en runs subsecuentes sin necesidad de volver 
+     a tirar dado ni investigar.
 ======================================================================
 ```
 

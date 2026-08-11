@@ -60,7 +60,8 @@ En la **Ciudad Baja de Treftiel**, el **Gremio de los Mineros** vive de los recu
 
 * **El Cuaderno Físico en la Mesa de Juego**:
   * Los jugadores representan al equipo de exploración actual.
-  * Todo lo anotado en el cuaderno (mapas de celdas, traducción de jeroglíficos alrestianos, atajos de palancas) permanece guardado entre incursiones.
+  * Todo lo anotado en el cuaderno (combinaciones numéricas `3-1-5`, patrones de espejos, secuencias de interruptores) PERMANECE FIJO entre incursiones (no se randomizan).
+  * Los jugadores que hayan apuntado una solución en el Diario de la Mina pueden ingresar la combinación directamente en runs futuras sin necesidad de repetir la deducción o tirar dados.
   * Narrativamente, el nuevo grupo recoge el **Diario de la Mina** de la mesa del Atrio antes de cruzar la puerta rúnica.
 
 ---

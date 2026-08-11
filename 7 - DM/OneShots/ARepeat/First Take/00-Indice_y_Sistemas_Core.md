@@ -55,9 +55,12 @@ Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala
 ======================================================================
          👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
 ======================================================================
-1. PERSISTENCIA DE SUBDUNGEONS: Todo el avance dentro de una Subdungeon
-   (palancas activadas, agua desviada, puertas abiertas o daño al Guardián)
-   SE GUARDA PERMANENTEMENTE entre incursiones.
+1. RESETEO FÍSICO DE SALAS & SOLUCIONES FIJAS (TOMA DE NOTAS):
+   - El estado físico de las salas (palancas, bloques, puertas) SE RESETEA FÍSICAMENTE
+     al iniciar cada nueva incursión.
+   - Las combinaciones, códigos de engranajes y soluciones de puzles NO SE RANDOMIZAN;
+     permanecen fijas e inmutables. Los jugadores que las hayan apuntado en su **Diario de la Mina**
+     pueden resolverlas instantáneamente sin volver a investigar ni tirar dados.
 
 2. BONUS DE EXCELENCIA 7/10 (CARGAS ARCANAS SOLO SE GASTAN EN FALLO):
    - Las Cargas Arcanas (10 pts) SOLO SE GASTAN EN CASO DE FALLO (pruebas falladas, trampas, etc.).

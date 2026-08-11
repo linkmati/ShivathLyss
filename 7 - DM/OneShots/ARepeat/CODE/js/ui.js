@@ -136,7 +136,7 @@ function updateOutputLog() {
   log += `GUARDIÁN DE ÁREA: ${subObj.boss}\n`;
   log += `ALINEAMIENTO: [${currentAlign}] ${ALIGNMENTS[currentAlign - 1]}\n`;
   log += `SALA SECRETA ISAAC PURA: NUNCA colindante a la Subdungeon. Sin pistas en paredes.\n`;
-  log += `PERSISTENCIA: Mixta (Atajos de rejilla/muro bomba se guardan; cerrojos resetean)\n`;
+  log += `PERSISTENCIA: Reseteo físico total entre incursiones. Soluciones y combinaciones fijas (Diario de la Mina).\n`;
   log += `----------------------------------------------------------------------\n`;
   log += `🗝️ RASTREO Y UBICACIÓN DE LLAVES DE LATÓN (SMALL KEYS):\n`;
   let keyCount = 0;
