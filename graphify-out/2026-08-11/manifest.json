@@ -1070,8 +1070,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/11_Taller_de_Relojeria_Runica.md": {
-    "mtime": 1786411955.5611625,
-    "ast_hash": "0b78bd2be60f2e4c9e70e9b1a2afc0ad",
+    "mtime": 1786412573.4114733,
+    "ast_hash": "5e0ce6ea16c1567c434b44dc08ca4f2e",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md": {
@@ -1080,8 +1080,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/13_Umbral_de_Decodificacion_Arcana.md": {
-    "mtime": 1786412178.7499993,
-    "ast_hash": "098045a1203c31e6fda206cfcccfc6c8",
+    "mtime": 1786413111.8024678,
+    "ast_hash": "cd9e19e6d5fb2691709484935b323482",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/14_Relieve_del_Eco_Espectral.md": {
@@ -1165,8 +1165,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/01_Set_Fuego/07_Horno_Magmatico_Inferior.md": {
-    "mtime": 1786241772.6159217,
-    "ast_hash": "bbc39264f2b6f9f952179f31f40891ff",
+    "mtime": 1786413116.9653776,
+    "ast_hash": "b47fd5d9eeb8cb7defa33ed28e12e7a5",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/02_Set_Agua/01_El_Deposito_de_las_Tres_Cisternas.md": {
@@ -1320,8 +1320,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/05_El_Bulbo_Carnivoro_del_Nucleo.md": {
-    "mtime": 1786241830.2311993,
-    "ast_hash": "a3390c75261a8655dbefc6d12f9ec3a2",
+    "mtime": 1786413121.7114468,
+    "ast_hash": "a45b50921b64b2590d175ac7c59111c7",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/05_Set_Vida/06_Invernadero_de_Esporas_Infeccioso.md": {
@@ -1350,8 +1350,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/04_El_Prisma_del_Santo_Sol.md": {
-    "mtime": 1786241842.0071847,
-    "ast_hash": "e22c49325b8ac1b3d2393082536e0aa8",
+    "mtime": 1786413126.9341073,
+    "ast_hash": "23d39c0db12fef0996643d97ad964104",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/Salas/06_Set_Luz/05_La_Camara_de_los_Clones_de_Penumbra.md": {
@@ -1445,8 +1445,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/CODE/js/constants.js": {
-    "mtime": 1786411118.660315,
-    "ast_hash": "03d50c6af5aae9d4f7d10e6ef43be1e6",
+    "mtime": 1786413143.7625308,
+    "ast_hash": "c2b2d83165d63dc50e0981854d9770de",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/CODE/js/generator.js": {
@@ -1465,8 +1465,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/CODE/generador_minos_7x7.html": {
-    "mtime": 1786411116.5244374,
-    "ast_hash": "47e3d058346929112ce2fb6ef5322544",
+    "mtime": 1786413140.4093409,
+    "ast_hash": "a455dce9159669059abdd6ccc6f778a2",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md": {
@@ -1485,8 +1485,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/03-Catalogo_de_Salas_y_Puzles.md": {
-    "mtime": 1786411958.759298,
-    "ast_hash": "1af5b132356caa1c0cb060123ab12e24",
+    "mtime": 1786413132.218564,
+    "ast_hash": "46d59bde955705893ccde34a1cb91c47",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/04-Encuentros_y_Guardianes.md": {
@@ -1495,8 +1495,8 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/05-Ficha_Control_DM_y_Tablero_Rumores.md": {
-    "mtime": 1786235216.2958825,
-    "ast_hash": "177b71874ea7479b52e2b79fe3b2de34",
+    "mtime": 1786413136.9185061,
+    "ast_hash": "083b023dad8e7d32a99989dfbc5392f7",
     "semantic_hash": ""
   },
   "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md": {
@@ -1507,6 +1507,16 @@
   "7 - DM/OneShots/ARepeat/First Take/07-Guia_Narrativa_y_Lore_del_Laberinto.md": {
     "mtime": 1786412121.3023062,
     "ast_hash": "06b0cbffe562025f117ed2c12ea82dba",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/24_Camara_del_Observatorio_Sideral.md": {
+    "mtime": 1786413103.0336545,
+    "ast_hash": "c487888b960957c5dcc072cc1c8e09de",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/25_Cripta_de_los_Diarios_de_Daedalus.md": {
+    "mtime": 1786413106.4106264,
+    "ast_hash": "3347c7b0f9be459a84b4dc7b97b322f1",
     "semantic_hash": ""
   }
 }

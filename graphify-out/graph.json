@@ -5064,15 +5064,37 @@
       "norm_label": "4. el grafo de rumores de treftiel (curiosity board / knowledge dag)"
     },
     {
-      "label": "5. Tabla de Bloqueos Cognitivos Inter-Salas (Knowledge-Gated Puzzles)",
+      "label": "5. Tabla de Bloqueos Cognitivos & Desbloqueos por Lore Alternativo",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/05-Ficha_Control_DM_y_Tablero_Rumores.md",
       "source_location": "L100",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_5_tabla_de_bloqueos_cognitivos_inter_salas_knowledge_gated_puzzles",
+      "id": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_5_tabla_de_bloqueos_cognitivos_desbloqueos_por_lore_alternativo",
       "community": 317,
       "community_name": "Ficha de Control del DM, Cuaderno F\u00edsico y Tablero de Rumores",
-      "norm_label": "5. tabla de bloqueos cognitivos inter-salas (knowledge-gated puzzles)"
+      "norm_label": "5. tabla de bloqueos cognitivos & desbloqueos por lore alternativo"
+    },
+    {
+      "label": "A. Bloqueos Cognitivos Estrictos (Knowledge-Gated Puzzles)",
+      "file_type": "document",
+      "source_file": "7 - DM/OneShots/ARepeat/First Take/05-Ficha_Control_DM_y_Tablero_Rumores.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_a_bloqueos_cognitivos_estrictos_knowledge_gated_puzzles",
+      "community": 317,
+      "community_name": "Ficha de Control del DM, Cuaderno F\u00edsico y Tablero de Rumores",
+      "norm_label": "a. bloqueos cognitivos estrictos (knowledge-gated puzzles)"
+    },
+    {
+      "label": "B. Desbloqueos Alternativos por Lore (Bypass con Diario)",
+      "file_type": "document",
+      "source_file": "7 - DM/OneShots/ARepeat/First Take/05-Ficha_Control_DM_y_Tablero_Rumores.md",
+      "source_location": "L114",
+      "_origin": "ast",
+      "id": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_b_desbloqueos_alternativos_por_lore_bypass_con_diario",
+      "community": 317,
+      "community_name": "Ficha de Control del DM, Cuaderno F\u00edsico y Tablero de Rumores",
+      "norm_label": "b. desbloqueos alternativos por lore (bypass con diario)"
     },
     {
       "label": "06-Generador_de_Conexiones_y_Mapas.md",
@@ -6871,7 +6893,7 @@
       "label": "\ud83d\udde3\ufe0f Narraci\u00f3n DM en Voz Alta",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L7",
+      "source_location": "L8",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_narraci\u00f3n_dm_en_voz_alta",
       "community": 133,
@@ -6882,7 +6904,7 @@
       "label": "\ud83d\udd0d Pistas de Inspecci\u00f3n y Puntos de Inter\u00e9s",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L13",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_pistas_de_inspecci\u00f3n_y_puntos_de_inter\u00e9s",
       "community": 133,
@@ -6893,7 +6915,7 @@
       "label": "Puntos de Inter\u00e9s Visuales",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L15",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_puntos_de_inter\u00e9s_visuales",
       "community": 133,
@@ -6901,21 +6923,21 @@
       "norm_label": "puntos de interes visuales"
     },
     {
-      "label": "Tr\u00edada de Informaci\u00f3n de Minos",
+      "label": "Tr\u00edada de Informaci\u00f3n de Minos (Claves de Lore Alternativas)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L20",
+      "source_location": "L21",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_tr\u00edada_de_informaci\u00f3n_de_minos",
+      "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_tr\u00edada_de_informaci\u00f3n_de_minos_claves_de_lore_alternativas",
       "community": 133,
       "community_name": "12. \ud83d\udcdc Archivo de Tablillas Rascadas",
-      "norm_label": "triada de informacion de minos"
+      "norm_label": "triada de informacion de minos (claves de lore alternativas)"
     },
     {
       "label": "\u2699\ufe0f Elementos Interactivos y Din\u00e1mica Ambiental",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L27",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_elementos_interactivos_y_din\u00e1mica_ambiental",
       "community": 133,
@@ -6926,7 +6948,7 @@
       "label": "\ud83c\udfaf Resoluci\u00f3n del Puzle y Gu\u00eda del DM",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L33",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_resoluci\u00f3n_del_puzle_y_gu\u00eda_del_dm",
       "community": 133,
@@ -6937,7 +6959,7 @@
       "label": "Acciones y Comprobaciones",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L35",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_acciones_y_comprobaciones",
       "community": 133,
@@ -6948,7 +6970,7 @@
       "label": "Recompensa",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L38",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_recompensa",
       "community": 133,
@@ -13842,15 +13864,15 @@
       "norm_label": "\ud83c\udfaf resolucion del puzle y guia del dm"
     },
     {
-      "label": "Secuencia de Alineamiento del Reactor",
+      "label": "Secuencia de Alineamiento del Reactor (In-situ)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/07_Salas_Especiales/01_Sanctum_12_El_Juicio_de_Minos.md",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_salas_07_salas_especiales_01_sanctum_12_el_juicio_de_minos_secuencia_de_alineamiento_del_reactor",
+      "id": "7_dm_oneshots_arepeat_salas_07_salas_especiales_01_sanctum_12_el_juicio_de_minos_secuencia_de_alineamiento_del_reactor_in_situ",
       "community": 97,
       "community_name": "01. \ud83d\udc51 Sanctum 12: El Juicio de Minos (Reactor Central)",
-      "norm_label": "secuencia de alineamiento del reactor"
+      "norm_label": "secuencia de alineamiento del reactor (in-situ)"
     },
     {
       "label": "Din\u00e1mica de Combate (Full Burst Xenoblade 2)",
@@ -21805,7 +21827,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_ficha_de_control_del_dm_cuaderno_f\u00edsico_y_tablero_de_rumores",
-      "target": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_5_tabla_de_bloqueos_cognitivos_inter_salas_knowledge_gated_puzzles",
+      "target": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_5_tabla_de_bloqueos_cognitivos_desbloqueos_por_lore_alternativo",
       "confidence_score": 1.0
     },
     {
@@ -21817,6 +21839,28 @@
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_3_la_tr\u00edada_de_informaci\u00f3n_de_minos_knowledge_gating_outer_wilds",
       "target": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_ejemplo_de_pista_multicapa_el_cuaderno_del_arcanista",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "7 - DM/OneShots/ARepeat/First Take/05-Ficha_Control_DM_y_Tablero_Rumores.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_5_tabla_de_bloqueos_cognitivos_desbloqueos_por_lore_alternativo",
+      "target": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_a_bloqueos_cognitivos_estrictos_knowledge_gated_puzzles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "7 - DM/OneShots/ARepeat/First Take/05-Ficha_Control_DM_y_Tablero_Rumores.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_5_tabla_de_bloqueos_cognitivos_desbloqueos_por_lore_alternativo",
+      "target": "7_dm_oneshots_arepeat_first_take_05_ficha_control_dm_y_tablero_rumores_b_desbloqueos_alternativos_por_lore_bypass_con_diario",
       "confidence_score": 1.0
     },
     {
@@ -23429,7 +23473,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L27",
+      "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_12_archivo_de_tablillas_rascadas",
@@ -23440,7 +23484,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_12_archivo_de_tablillas_rascadas",
@@ -23451,7 +23495,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_12_archivo_de_tablillas_rascadas",
@@ -23462,7 +23506,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L33",
+      "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_12_archivo_de_tablillas_rascadas",
@@ -23473,7 +23517,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_pistas_de_inspecci\u00f3n_y_puntos_de_inter\u00e9s",
@@ -23484,18 +23528,18 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_pistas_de_inspecci\u00f3n_y_puntos_de_inter\u00e9s",
-      "target": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_tr\u00edada_de_informaci\u00f3n_de_minos",
+      "target": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_tr\u00edada_de_informaci\u00f3n_de_minos_claves_de_lore_alternativas",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L35",
+      "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_resoluci\u00f3n_del_puzle_y_gu\u00eda_del_dm",
@@ -23506,7 +23550,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/Salas/00_Set_Generico/12_Archivo_de_Tablillas_Rascadas.md",
-      "source_location": "L38",
+      "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_00_set_generico_12_archivo_de_tablillas_rascadas_resoluci\u00f3n_del_puzle_y_gu\u00eda_del_dm",
@@ -29747,7 +29791,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_salas_07_salas_especiales_01_sanctum_12_el_juicio_de_minos_resoluci\u00f3n_del_puzle_y_gu\u00eda_del_dm",
-      "target": "7_dm_oneshots_arepeat_salas_07_salas_especiales_01_sanctum_12_el_juicio_de_minos_secuencia_de_alineamiento_del_reactor",
+      "target": "7_dm_oneshots_arepeat_salas_07_salas_especiales_01_sanctum_12_el_juicio_de_minos_secuencia_de_alineamiento_del_reactor_in_situ",
       "confidence_score": 1.0
     },
     {
@@ -33360,5 +33404,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b7ae30179a46c6f0d3f23f8c481bcc8be61857cf"
+  "built_at_commit": "61d9f37d1f1392674fd6543a133ebbf818b34648"
 }

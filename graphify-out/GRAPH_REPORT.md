@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-08-11)
 
 ## Corpus Check
-- 303 files · ~549,054 words
+- 303 files · ~549,317 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1601 nodes · 1428 edges · 245 communities (222 shown, 23 thin omitted)
+- 1603 nodes · 1430 edges · 245 communities (222 shown, 23 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b7ae3017`
+- Built from commit: `61d9f37d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -670,8 +670,8 @@ Cohesion: 0.18
 Nodes (10): 05. 🪷 El Bulbo Carnívoro del Núcleo, Acciones y Comprobaciones, Consecuencias de Fallo (Cargas Arcanas), ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, Recompensa (+2 more)
 
 ### Community 317 - "Ficha de Control del DM, Cuaderno Físico y Tablero de Rumores"
-Cohesion: 0.25
-Nodes (7): 1. El Cuaderno Físico en Mesa (Transferencia entre Jugadores), 2. Regla de Rendimiento Decreciente por Incursión (Anti-Farm), 3. La Tríada de Información de Minos (Knowledge-Gating / Outer Wilds), 4. El Grafo de Rumores de Treftiel (Curiosity Board / Knowledge DAG), 5. Tabla de Bloqueos Cognitivos Inter-Salas (Knowledge-Gated Puzzles), Ejemplo de Pista Multicapa (El Cuaderno del Arcanista), Ficha de Control del DM, Cuaderno Físico y Tablero de Rumores
+Cohesion: 0.20
+Nodes (9): 1. El Cuaderno Físico en Mesa (Transferencia entre Jugadores), 2. Regla de Rendimiento Decreciente por Incursión (Anti-Farm), 3. La Tríada de Información de Minos (Knowledge-Gating / Outer Wilds), 4. El Grafo de Rumores de Treftiel (Curiosity Board / Knowledge DAG), 5. Tabla de Bloqueos Cognitivos & Desbloqueos por Lore Alternativo, A. Bloqueos Cognitivos Estrictos (Knowledge-Gated Puzzles), B. Desbloqueos Alternativos por Lore (Bypass con Diario), Ejemplo de Pista Multicapa (El Cuaderno del Arcanista) (+1 more)
 
 ### Community 318 - "Guía Narrativa y Lore del Laberinto de Minos (ARepeat)"
 Cohesion: 0.29
@@ -754,19 +754,19 @@ Cohesion: 0.22
 Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
 
 ## Knowledge Gaps
-- **910 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+905 more)
+- **911 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+906 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Mecánicas de Investigación: La Playa y el Rastro` connect `stringifyProps` to `push`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Mecánicas de Investigación: La Playa y el Rastro` connect `stringifyProps` to `push`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _910 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _911 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `join` be split into smaller, more focused modules?**
