@@ -45,13 +45,13 @@ function autoDetectTags(cell) {
   else if (n.includes("Espejos") || n.includes("Sombras") || n.includes("Anamórfica") || n.includes("Prisma") || n.includes("Penumbra")) cell.elementTag = "LIGHT";
 }
 
-function getNormalRandomCR(mean = 7, stdDev = 1.8) {
+function getNormalRandomCR(mean = 5, stdDev = 1.2) {
   let u = 0, v = 0;
   while(u === 0) u = Math.random();
   while(v === 0) v = Math.random();
   let num = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
   let cr = Math.round(num * stdDev + mean);
-  return Math.max(3, Math.min(12, cr));
+  return Math.max(3, Math.min(7, cr));
 }
 
 function generateDungeon() {

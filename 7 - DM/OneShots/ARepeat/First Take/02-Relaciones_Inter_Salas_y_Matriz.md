@@ -46,11 +46,10 @@
    - NUNCA se genera en celdas colindantes a la Subdungeon Boss (Regla Isaac).
      La Sala Secreta debe estar en una rama distinta del laberinto.
 
-3. SIN PISTAS EXTERNAS (DEDUCCIÓN POR MAPA):
-   - NO hay grietas, marcas ni pistas visuales en las paredes exteriores.
-   - Los jugadores deben DEDUCIR su ubicación observando la geometría del
-     mapa en su cuaderno físico (buscando huecos vacíos rodeados por salas).
-   - Para abrirla, deben probar usando una Bomba o el poder EARTH en un muro.
+3. SIN PISTAS EXTERNAS NI DIBUJO EN MAPA (DEDUCCIÓN PURA):
+   - **No se Dibuja en el Mapa de Jugadores**: El DM **NUNCA dibuja la celda de la Sala Secreta** ni sus bordes en el tablero físico de los jugadores. Permanece completamente invisible e indetectable a simple vista.
+   - **Deducción por Geometría del Cuaderno**: Los jugadores deducen su ubicación observando la geometría de su propio cuaderno dibujado, identificando huecos no revelados rodeados por 2, 3 o 4 salas.
+   - **Apertura**: Para abrirla, deben usar una **Bomba Rúnica** o la habilidad **EARTH (Martillo/Shatter)** en el muro macizo que colinda con el espacio hueco.
 ======================================================================
 ```
 

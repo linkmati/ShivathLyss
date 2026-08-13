@@ -137,16 +137,14 @@ Cada vez que el Boss ejecuta un ataque finalizador de fase o un jugador asesta u
 * **Porcentaje Diario**: Entre el **20% y el 50%** de las salas activas del mapa diario son generadas como **Salas de Combate Dedicadas** (`⚔️ Sala de Combate`).
 * **Autonomía Espacial**: Ocupan sus propias celdas en la topología de la rejilla 7x7 y cuentan con su propio identificador y mapa visual con la etiqueta `⚔️ CR X`.
 
-### B. Distribución Normal de Dificultad (CR 3 - 12, Media 7)
-La dificultad de los encuentros sigue una **curva de distribución normal (Gaussiana)** centrada en **Media CR = 7** ($\sigma \approx 1.8$), acotada estrictamente entre **CR 3 y CR 12**:
+### B. Distribución de Dificultad (CR 3 - 7, Cap Máximo CR 7)
+La dificultad de los encuentros aleatorios en las salas de combate dedicadas está **acotada estrictamente hasta un máximo de CR 7 (CR 3 a CR 7)** para garantizar encuentros ágiles y desafiantes sin riesgo de TPKs injustos por picos desproporcionados:
 
 | Rango de Desafío | Probabilidad Estimada | Tipo de Criaturas del Laberinto |
 | :---: | :---: | :--- |
-| **CR 3 - 4** | ~15% (Extremo Bajo) | Enjambre de Escarabajos Magmáticos, Espectros de Bronce, Minotauro Joven |
-| **CR 5 - 6** | ~30% (Medio-Bajo) | Minotauro del Laberinto, Golem de Piedra Rúnico, Quimera Vulcánica |
-| **CR 7 - 8** | **~35% (Pico de la Curva)** | **Guardián Mecánico de Minos, Titán de Granito Telúrico, Minotauro Berserker** |
-| **CR 9 - 10** | ~15% (Medio-Alto) | Titán de Basalto Enfadado, Quimera del Abismo, Avatar de Minos |
-| **CR 11 - 12** | ~5% (Extremo Alto) | Gryphon de Cristal Místico, Archidemonio de Escoria, Titán Primigenio de Basalto |
+| **CR 3 - 4** | ~30% (Ligero) | Enjambre de Escarabajos Magmáticos, Espectros de Bronce, Minotauro Joven |
+| **CR 5 - 6** | ~45% (Estándar) | Minotauro del Laberinto, Golem de Piedra Rúnico, Quimera Vulcánica |
+| **CR 7 (CAP MÁXIMO)** | **~25% (Pico de Desafío)** | **Guardián Mecánico de Minos, Titán de Granito Telúrico, Minotauro Berserker** |
 
 ---
 

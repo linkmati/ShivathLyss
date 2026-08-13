@@ -74,34 +74,34 @@ Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala
 
 ---
 
-## 3. Recompensas de Incursión (Downtime Loot)
+## 3. Recompensas de Incursión y Botín Repetido
 
-1. **Monedas / Reliquias Arcaicas**: Monedas y gemas de las ruinas para comerciar.
-2. **Consumibles de Minos**: Elixires de resistencia y bombas rúnicas elementales.
-3. **Objetos Mágicos Menores/Medianos**: Hallados en cofres de salas secretas (7x7) o tras vencer a Guardianes de Área.
+1. **Botín Principal (Salas Nuevas & Guardianes)**: Monedas, gemas y objetos mágicos permanentes al explorar celdas nuevas por primera vez o vencer Guardianes.
+2. **Botín de Re-exploración (Consumibles Exclusivos de Mazmorra - No Extraíbles)**:
+   - Las salas ya abiertas en runs anteriores **no conceden dinero ni gemas repetidos** (Regla Anti-Farm).
+   - En su lugar, pueden contener **Consumibles de Incursión Exclusivos (NO EXTRAÍBLES)**: Elixires de resistencia temporal, bombas rúnicas de un uso o cargas de escudo arcano. Estos objetos **solo se pueden usar dentro de la mazmorra durante la run actual** y se disipan al salir o colapsar.
 
 ---
 
-## 4. El Gran Meta-Puzle y Bloqueos Cognitivos (Outer Wilds + Zelda)
+## 4. El Gran Meta-Puzle: Knowledge Gating vs Item Gate Final (Zelda + Outer Wilds)
 
-Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El Juicio de Minos*, los jugadores deben resolver el **Macro-Puzle del Reactor Central**:
+Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El Juicio de Minos*, los jugadores deben completar el **Macro-Puzle del Reactor Central**:
 
 ```
 ======================================================================
-         🧠 BLOQUEOS COGNITIVOS VS. ATAJOS FÍSICOS (KNOWLEDGE GATING) 🧠
+     🧠 KNOWLEDGE GATING GENERACIÓN VS. ITEM GATE FINAL (ZELDA) 🧠
 ======================================================================
-1. BLOQUEOS COGNITIVOS (KNOWLEDGE LOCKS):
-   - La entrada al Sanctum está 100% visible desde la primera incursión.
-   - El obstáculo NO es una llave física arbitraria, sino COMPRENDER la 
-     secuencia física/elemental del Reactor Central.
-   - Cada Subdungeon enseña una regla física fundamental (ej. cómo enfriar 
-     el reactor con WATER, cómo evacuar gases con AIR, cómo calibrar la lente 
-     con LIGHT).
+1. BLOQUEOS COGNITIVOS EN EL LABERINTO (KNOWLEDGE LOCKS):
+   - A lo largo de la rejilla 7x7 y las Subdungeons, todos los accesos 
+     intermedios operan por COMPRENSIÓN (Knowledge Gating). Entender el 
+     lore, la secuencia o el patrón permite cruzar sin llaves arbitrarias.
 
-2. LAS 6 PIEZAS DEL TABLERO DE MINOS:
-   * Cada Subdungeon otorga 1 Fragmento de Tablilla (6 en total).
-   * Reunir los 6 fragmentos traduce la secuencia rúnica necesaria para 
-     ejecutar el Alineamiento Maestro del Reactor en la Sala 12.
+2. ITEM GATE EXCLUSIVO DEL SANCTUM 12 (ESTILO ZELDA):
+   - Únicamente la entrada a la Boss Dungeon Final (**Sanctum 12**) funciona 
+     como un **Item Gate clásico de Zelda**.
+   - Se exige físicamente encajar los **6 Fragmentos de Tablilla** (1 por cada 
+     Guardián de Subdungeon derrotado) en el pedestal central para desencadenar 
+     el Alineamiento Maestro y abrir el reactor final.
 ======================================================================
 ```
 
