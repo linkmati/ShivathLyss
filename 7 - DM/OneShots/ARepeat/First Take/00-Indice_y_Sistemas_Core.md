@@ -55,10 +55,12 @@ Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala
 ======================================================================
          👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
 ======================================================================
-1. RESETEO FÍSICO DE SALAS & SOLUCIONES FIJAS (REGLA DE TIRADA ALTA DC 16-18):
+1. RESETEO FÍSICO Y PRIORIDAD DEL CONOCIMIENTO DEL JUGADOR:
    - El estado físico de las salas (palancas, bloques, puertas) SE RESETEA FÍSICAMENTE al iniciar cada nueva incursión.
    - Las soluciones, códigos y frecuencias NO SE RANDOMIZAN; permanecen fijas e inmutables.
-   - **Desbloqueo Permanente en Diario (DC Exigente 16-18)**: Para descifrar e inscribir la solución exacta (ej. la frecuencia exacta `Fa Sostenido / 432 Hz`, la clave `3-1-5` o la temperatura `400°C`) en el **Diario de la Mina**, el grupo debe superar una **tirada exigente (DC 16-18)** de Arcanismo/Historia/Investigación/Naturaleza en la sala correspondiente. Una vez registrada tras el éxito, el bypass en el Diario es **permanente e incondicional** para todas las runs futuras.
+   - **Prioridad Absoluta al Conocimiento del Jugador**: Si los jugadores deducen la clave o código mediante pistas del entorno (ej. descubren que la combinación es `3-1-5` o la frecuencia `Fa Sostenido / 432 Hz`), la prueban y funciona, la anotan en su cuaderno físico y queda desbloqueada para siempre.
+   - **Resolución por Tirada de Dados (Check Bajo)**: Si los jugadores deciden no deducir la clave y prueban resolver la sala mediante una tirada de habilidad con un resultado bajo/medio, la sala se abre pero narrativamente ocurre un fallo de precisión: *"Tras probar combinaciones a ciegas durante unos minutos, dais con una secuencia que abre la puerta, pero no sabéis exactamente qué números eran los correctos"*. En este caso avanzan en la run actual, pero **no pueden anotarla con precisión en la libreta** para saltársela gratis en runs futuras.
+   - **Travesía e Incursión en la Misma Run (Theatre of the Mind)**: Atravesar salas ya despejadas durante la MISMA incursión es **instantáneo** mediante teatro de la mente (el DM simplemente narra el tránsito directo sin tiradas ni encuentros).
 
 2. BONUS DE EXCELENCIA 7/10 (CARGAS ARCANAS SOLO SE GASTAN EN FALLO):
    - Las Cargas Arcanas (10 pts) SOLO SE GASTAN EN CASO DE FALLO (pruebas falladas, trampas, etc.).

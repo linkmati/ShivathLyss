@@ -17,14 +17,15 @@
      todas las salas, palancas, interruptores y puzles SE RESETEAN FÍSICAMENTE
      a su estado inicial cerrado o bloqueado.
 
-2. SOLUCIONES Y COMBINACIONES DETERMINISTAS (NO SE RANDOMIZAN):
-   - Las combinaciones de engranajes, secuencias de botones, claves de 
-     dígitos y patrones de espejos PERMANECEN EXACTAMENTE IGUALES entre 
-     incursiones.
-   - Propósito de diseño: Premiar la toma de notas en el **Diario de la Mina**.
-     Los jugadores que apunten la solución en su libreta pueden resolver 
-     la sala al instante en runs subsecuentes sin necesidad de volver 
-     a tirar dado ni investigar.
+2. SOLUCIONES DETERMINISTAS Y DEDUCCIÓN DEL JUGADOR:
+   - Las combinaciones de engranajes, secuencias de botones, claves y patrones de espejos PERMANECEN EXACTAMENTE IGUALES entre incursiones.
+   - **Prioridad del Conocimiento del Jugador**: Si los jugadores deducen la clave de las pistas del escenario (ej. deducen `3-1-5`), la prueban y funciona, la anotan en su libreta física y queda resuelta para siempre.
+   - **Resolución por Tirada de Dados (Resultado Bajo)**: Si prefieren resolver la sala tirando dados y obtienen un resultado bajo/medio, la sala se abre pero narrativamente: *"Tras probar combinaciones a ciegas, dais con la que abre la puerta pero no sabéis cuáles eran los números exactos"*, impidiendo inscribirla con precisión en la libreta para el futuro.
+   - **Travesía Instantánea (Theatre of the Mind)**: Desplazarse por salas ya recorridas y despejadas dentro de la MISMA incursión es **100% instantáneo** mediante teatro de la mente (sin tiradas ni combates de relleno).
+
+3. REVELACIÓN DEL MAPA EN MESA (DIBUJO DEL DM):
+   - El DM dibuja progresivamente el mapa en el tablero físico de la mesa mostrando las celdas/conexiones a las que el grupo puede desplazarse.
+   - **Contenido Oculto**: Los jugadores ven la geometría de las salas adyacentes a las que pueden ir, pero **NO saben qué hay dentro de cada celda ni su tipo/rol** hasta que cruzan el umbral y entran en ella.
 ======================================================================
 ```
 

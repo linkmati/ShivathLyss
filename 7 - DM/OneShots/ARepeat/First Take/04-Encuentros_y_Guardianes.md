@@ -150,3 +150,18 @@ La dificultad de los encuentros sigue una **curva de distribución normal (Gauss
 
 ---
 
+### C. Catálogo de Tipos de Arenas de Combate y Gimmicks Ambientales (1d6)
+
+Cada Sala de Combate Dedicada cuenta con una **topología de arena específica** con peligros tácticos y elementos interactivos que los jugadores pueden utilizar a su favor:
+
+| 1d6 | Tipo de Arena de Combate | Gimmick Ambiental Táctico | Uso Creativo por Jugadores |
+| :---: | :--- | :--- | :--- |
+| **1** | **Arena del Foso de Contrapesos** | Péndulo pesado de basalto oscilando en el centro (daño 2d10 contundente a quien ocupe la línea central en iniciativa 20). | Empujar o cortar la soga para soltar el contrapeso directamente sobre los enemigos (DC 13 Fuerza/Atletismo). |
+| **2** | **Arena de las Geodas Inestables** | Pilares de cristal telúrico que resuenan con la vibración del combate y explotan al recibir impacto (3d6 daño de fuerza en área 15 ft). | Provocar o empujar a los monstruos hacia las geodas antes de detonarlas a distancia con proyectiles. |
+| **3** | **Arena del foso de Rejas Retráctiles** | El suelo alterna entre placas firmes y rejas metálicas que se abren cada ronda par revelando un abismo de estacas. | Posicionarse estratégicamente o usar empujes/agarres (Shove/Grapple) para hacer caer enemigos al abismo. |
+| **4** | **Arena de los Muros Reflectantes** | Muros de cuarzo pulido que duplican y desvían los proyectiles mágicos y flechas en ángulos de 90°. | Apuntar disparos a las paredes para bordear la cobertura de los enemigos o lograr impacto por la espalda. |
+| **5** | **Arena de la Pasarela Suspendida** | Combate en un puente angosto de 10 ft de ancho sobre una sima sin fondo. Terreno difícil y viento cruzado. | Habilidades de control de masas (Ráfaga de Viento, Empujón) son letales para limpiar enemigos rápidamente. |
+| **6** | **Arena del Altar de Sintonía** | Monolito central que otorga +2 AC y resistencia al elemento del día a la criatura que permanezca en su peana de 5 ft. | Disputar la peana central con maniobras físicas para despojar al enemigo del buff defensivo. |
+
+---
+

@@ -23,6 +23,10 @@ Abre el archivo [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/O
   * Configura el estado de cada pasadizo en las 4 direcciones (Norte, Sur, Este, Oeste): *Puerta Abierta, Glifos 3-Gemas, Hielo, Muro Bomba, Agua, Viento, Vides, Espejo, Rejilla Atajo o Muro Macizo*.
 * **Exportación / Importación**: Copia el resumen formateado para Obsidian/Discord o guarda/carga el mapa en archivo JSON.
 
+### 🎲 Flujo de Mesa Física del DM (Fog of War Manual):
+* **Dibujo Progresivo**: El DM proyecta o dibuja en la mesa las celdas y conexiones a las que los jugadores pueden desplazarse según se abre la topología.
+* **Contenido Oculto**: Los jugadores ven la cuadrícula de salas a las que pueden ir, pero **NO se les revela el nombre, tipo, puzle o contenido** de la celda hasta que abren la puerta y entran.
+
 ---
 
 ## 2. Tablas Manuales con Dados (Zero-Tech DM Tables)
