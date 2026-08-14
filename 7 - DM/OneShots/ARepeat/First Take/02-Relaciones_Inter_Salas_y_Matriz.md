@@ -17,10 +17,12 @@
      todas las salas, palancas, interruptores y puzles SE RESETEAN FÍSICAMENTE
      a su estado inicial cerrado o bloqueado.
 
-2. SOLUCIONES DETERMINISTAS Y DEDUCCIÓN DEL JUGADOR:
+2. SOLUCIONES DETERMINISTAS Y CONOCIMIENTO JUGADOR / PERSONAJE:
    - Las combinaciones de engranajes, secuencias de botones, claves y patrones de espejos PERMANECEN EXACTAMENTE IGUALES entre incursiones.
-   - **Prioridad del Conocimiento del Jugador**: Si los jugadores deducen la clave de las pistas del escenario (ej. deducen `3-1-5`), la prueban y funciona, la anotan en su libreta física y queda resuelta para siempre.
-   - **Resolución por Tirada de Dados (Resultado Bajo)**: Si prefieren resolver la sala tirando dados y obtienen un resultado bajo/medio, la sala se abre pero narrativamente: *"Tras probar combinaciones a ciegas, dais con la que abre la puerta pero no sabéis cuáles eran los números exactos"*, impidiendo inscribirla con precisión en la libreta para el futuro.
+   - **Deducción Directa por el Jugador (Player Skill)**: Si los jugadores deducen la clave mediante pistas del entorno (ej. `3-1-5`), la prueban y funciona, la anotan en su libreta física y queda resuelta para siempre sin tiradas.
+   - **Resolución por Tirada de Habilidad (Character Skill)**:
+     * **Éxito (>= DC)**: El personaje comprende la lógica del puzle, abre la puerta Y dicta la solución al grupo para inscribirla en la libreta física.
+     * **Fail Forward / Éxito con Coste (Fallo por 1-3 pts sobre DC)**: La puerta se abre, pero narrativamente ocurre un forzado que CONSUME 1 CARGA ARCANA (o activa una trampa menor). Avanzan en la run actual, pero **no pueden anotarla con precisión en la libreta** para saltársela gratis en runs futuras.
    - **Travesía Instantánea (Theatre of the Mind)**: Desplazarse por salas ya recorridas y despejadas dentro de la MISMA incursión es **100% instantáneo** mediante teatro de la mente (sin tiradas ni combates de relleno).
 
 3. REVELACIÓN DEL MAPA EN MESA (DIBUJO DEL DM):

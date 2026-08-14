@@ -4536,32 +4536,32 @@
       "norm_label": "2. persistencia total de subdungeons y regla 7/10 de excelencia"
     },
     {
-      "label": "3. Recompensas de Incursi\u00f3n y Bot\u00edn Repetido",
+      "label": "3. Recompensas de Incursi\u00f3n (Downtime Loot)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md",
-      "source_location": "L84",
+      "source_location": "L75",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_3_recompensas_de_incursi\u00f3n_y_bot\u00edn_repetido",
+      "id": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_3_recompensas_de_incursi\u00f3n_downtime_loot",
       "community": 88,
       "community_name": ".resolve",
-      "norm_label": "3. recompensas de incursion y botin repetido"
+      "norm_label": "3. recompensas de incursion (downtime loot)"
     },
     {
-      "label": "4. El Gran Meta-Puzle: Knowledge Gating vs Item Gate Final (Zelda + Outer Wilds)",
+      "label": "4. El Gran Meta-Puzle y Bloqueos Cognitivos (Outer Wilds + Zelda)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md",
-      "source_location": "L93",
+      "source_location": "L83",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_4_el_gran_meta_puzle_knowledge_gating_vs_item_gate_final_zelda_outer_wilds",
+      "id": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_4_el_gran_meta_puzle_y_bloqueos_cognitivos_outer_wilds_zelda",
       "community": 88,
       "community_name": ".resolve",
-      "norm_label": "4. el gran meta-puzle: knowledge gating vs item gate final (zelda + outer wilds)"
+      "norm_label": "4. el gran meta-puzle y bloqueos cognitivos (outer wilds + zelda)"
     },
     {
       "label": "5. Regla de Filtrado Elemental de la Incursi\u00f3n Daily",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md",
-      "source_location": "L117",
+      "source_location": "L108",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_5_regla_de_filtrado_elemental_de_la_incursi\u00f3n_daily",
       "community": 88,
@@ -4638,7 +4638,7 @@
       "label": "2. Regla de Generaci\u00f3n de la Sala Secreta de Isaac (\ud83d\udddd\ufe0f)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L36",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_2_regla_de_generaci\u00f3n_de_la_sala_secreta_de_isaac",
       "community": 198,
@@ -4649,7 +4649,7 @@
       "label": "3. Cat\u00e1logo de Puertas Mec\u00e1nicas No Elementales",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L60",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_3_cat\u00e1logo_de_puertas_mec\u00e1nicas_no_elementales",
       "community": 198,
@@ -4660,7 +4660,7 @@
       "label": "5. Cat\u00e1logo de Cerrojos con Pruebas de Habilidad Inusuales (Unusual Skill Checks)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L106",
+      "source_location": "L104",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_5_cat\u00e1logo_de_cerrojos_con_pruebas_de_habilidad_inusuales_unusual_skill_checks",
       "community": 198,
@@ -4671,7 +4671,7 @@
       "label": "6. Muros S\u00f3lidos y Bloqueos Adyacentes",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L166",
+      "source_location": "L164",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_6_muros_s\u00f3lidos_y_bloqueos_adyacentes",
       "community": 198,
@@ -4976,26 +4976,15 @@
       "norm_label": "a. proporcion diaria y posicionamiento independiente"
     },
     {
-      "label": "B. Distribuci\u00f3n de Dificultad (CR 3 - 7, Cap M\u00e1ximo CR 7)",
+      "label": "B. Distribuci\u00f3n Normal de Dificultad (CR 3 - 12, Media 7)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/04-Encuentros_y_Guardianes.md",
       "source_location": "L140",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_b_distribuci\u00f3n_de_dificultad_cr_3_7_cap_m\u00e1ximo_cr_7",
+      "id": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_b_distribuci\u00f3n_normal_de_dificultad_cr_3_12_media_7",
       "community": 45,
       "community_name": "addLineAuthorInfoSettings",
-      "norm_label": "b. distribucion de dificultad (cr 3 - 7, cap maximo cr 7)"
-    },
-    {
-      "label": "C. Cat\u00e1logo de Tipos de Arenas de Combate y Gimmicks Ambientales (1d6)",
-      "file_type": "document",
-      "source_file": "7 - DM/OneShots/ARepeat/First Take/04-Encuentros_y_Guardianes.md",
-      "source_location": "L151",
-      "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_c_cat\u00e1logo_de_tipos_de_arenas_de_combate_y_gimmicks_ambientales_1d6",
-      "community": 45,
-      "community_name": "addLineAuthorInfoSettings",
-      "norm_label": "c. catalogo de tipos de arenas de combate y gimmicks ambientales (1d6)"
+      "norm_label": "b. distribucion normal de dificultad (cr 3 - 12, media 7)"
     },
     {
       "label": "05-Ficha_Control_DM_y_Tablero_Rumores.md",
@@ -5152,21 +5141,10 @@
       "norm_label": "caracteristicas de la web app:"
     },
     {
-      "label": "\ud83c\udfb2 Flujo de Mesa F\u00edsica del DM (Fog of War Manual):",
-      "file_type": "document",
-      "source_file": "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_flujo_de_mesa_f\u00edsica_del_dm_fog_of_war_manual",
-      "community": 320,
-      "community_name": "Generador de Conexiones y Topolog\u00eda de Mapas (Web App 7x7)",
-      "norm_label": "\ud83c\udfb2 flujo de mesa fisica del dm (fog of war manual):"
-    },
-    {
       "label": "2. Tablas Manuales con Dados (Zero-Tech DM Tables)",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md",
-      "source_location": "L32",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_2_tablas_manuales_con_dados_zero_tech_dm_tables",
       "community": 320,
@@ -5174,15 +5152,15 @@
       "norm_label": "2. tablas manuales con dados (zero-tech dm tables)"
     },
     {
-      "label": "Tirada 1d8 de Subdungeon Abierta Hoy (Filtrado de Elementos Completados)",
+      "label": "Tirada 1d8 de Subdungeon Abierta Hoy",
       "file_type": "document",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md",
-      "source_location": "L34",
+      "source_location": "L30",
       "_origin": "ast",
-      "id": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_tirada_1d8_de_subdungeon_abierta_hoy_filtrado_de_elementos_completados",
+      "id": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_tirada_1d8_de_subdungeon_abierta_hoy",
       "community": 320,
       "community_name": "Generador de Conexiones y Topolog\u00eda de Mapas (Web App 7x7)",
-      "norm_label": "tirada 1d8 de subdungeon abierta hoy (filtrado de elementos completados)"
+      "norm_label": "tirada 1d8 de subdungeon abierta hoy"
     },
     {
       "label": "07-Guia_Narrativa_y_Lore_del_Laberinto.md",
@@ -21361,29 +21339,29 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md",
-      "source_location": "L84",
+      "source_location": "L75",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_el_laberinto_de_minos_sistemas_core_y_subdungeons_mec\u00e1nico_agn\u00f3stico",
-      "target": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_3_recompensas_de_incursi\u00f3n_y_bot\u00edn_repetido",
+      "target": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_3_recompensas_de_incursi\u00f3n_downtime_loot",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md",
-      "source_location": "L93",
+      "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_el_laberinto_de_minos_sistemas_core_y_subdungeons_mec\u00e1nico_agn\u00f3stico",
-      "target": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_4_el_gran_meta_puzle_knowledge_gating_vs_item_gate_final_zelda_outer_wilds",
+      "target": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_4_el_gran_meta_puzle_y_bloqueos_cognitivos_outer_wilds_zelda",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/00-Indice_y_Sistemas_Core.md",
-      "source_location": "L117",
+      "source_location": "L108",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_00_indice_y_sistemas_core_el_laberinto_de_minos_sistemas_core_y_subdungeons_mec\u00e1nico_agn\u00f3stico",
@@ -21460,7 +21438,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L36",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_relaciones_inter_salas_redes_causales_y_persistencia_de_puertas",
@@ -21471,7 +21449,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L60",
+      "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_relaciones_inter_salas_redes_causales_y_persistencia_de_puertas",
@@ -21482,7 +21460,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L106",
+      "source_location": "L104",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_relaciones_inter_salas_redes_causales_y_persistencia_de_puertas",
@@ -21493,7 +21471,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/02-Relaciones_Inter_Salas_y_Matriz.md",
-      "source_location": "L166",
+      "source_location": "L164",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_02_relaciones_inter_salas_y_matriz_relaciones_inter_salas_redes_causales_y_persistencia_de_puertas",
@@ -21783,18 +21761,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_4_distribuci\u00f3n_diaria_de_salas_de_combate_nuevo_tipo_de_sala_dedicada_20_50",
-      "target": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_b_distribuci\u00f3n_de_dificultad_cr_3_7_cap_m\u00e1ximo_cr_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "7 - DM/OneShots/ARepeat/First Take/04-Encuentros_y_Guardianes.md",
-      "source_location": "L151",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_4_distribuci\u00f3n_diaria_de_salas_de_combate_nuevo_tipo_de_sala_dedicada_20_50",
-      "target": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_c_cat\u00e1logo_de_tipos_de_arenas_de_combate_y_gimmicks_ambientales_1d6",
+      "target": "7_dm_oneshots_arepeat_first_take_04_encuentros_y_guardianes_b_distribuci\u00f3n_normal_de_dificultad_cr_3_12_media_7",
       "confidence_score": 1.0
     },
     {
@@ -21922,7 +21889,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md",
-      "source_location": "L32",
+      "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_generador_de_conexiones_y_topolog\u00eda_de_mapas_web_app_7x7",
@@ -21944,22 +21911,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_1_aplicaci\u00f3n_web_interactiva_7x7_generador_minos_7x7_html",
-      "target": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_flujo_de_mesa_f\u00edsica_del_dm_fog_of_war_manual",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "7 - DM/OneShots/ARepeat/First Take/06-Generador_de_Conexiones_y_Mapas.md",
-      "source_location": "L34",
+      "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
       "source": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_2_tablas_manuales_con_dados_zero_tech_dm_tables",
-      "target": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_tirada_1d8_de_subdungeon_abierta_hoy_filtrado_de_elementos_completados",
+      "target": "7_dm_oneshots_arepeat_first_take_06_generador_de_conexiones_y_mapas_tirada_1d8_de_subdungeon_abierta_hoy",
       "confidence_score": 1.0
     },
     {
@@ -33448,5 +33404,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fec77acf381011599b501399b09e1da5030aef5a"
+  "built_at_commit": "10bfe11cabe1af5e3b85933b95b6bafb22220920"
 }

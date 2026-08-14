@@ -55,15 +55,22 @@ Cada Sanctum / Subdungeon cuenta con una guía **verbatim completa sala por sala
 ======================================================================
          👑 PERSISTENCIA TOTAL Y BONUS DE EXCELENCIA 7/10 👑
 ======================================================================
-1. RESETEO FÍSICO Y PRIORIDAD DEL CONOCIMIENTO DEL JUGADOR:
+1. RESETEO FÍSICO Y CONOCIMIENTO DEL JUGADOR / PERSONAJE:
    - El estado físico de las salas (palancas, bloques, puertas) SE RESETEA FÍSICAMENTE al iniciar cada nueva incursión.
    - Las soluciones, códigos y frecuencias NO SE RANDOMIZAN; permanecen fijas e inmutables.
-   - **Prioridad Absoluta al Conocimiento del Jugador**: Si los jugadores deducen la clave o código mediante pistas del entorno (ej. descubren que la combinación es `3-1-5` o la frecuencia `Fa Sostenido / 432 Hz`), la prueban y funciona, la anotan en su cuaderno físico y queda desbloqueada para siempre.
-   - **Resolución por Tirada de Dados (Check Bajo)**: Si los jugadores deciden no deducir la clave y prueban resolver la sala mediante una tirada de habilidad con un resultado bajo/medio, la sala se abre pero narrativamente ocurre un fallo de precisión: *"Tras probar combinaciones a ciegas durante unos minutos, dais con una secuencia que abre la puerta, pero no sabéis exactamente qué números eran los correctos"*. En este caso avanzan en la run actual, pero **no pueden anotarla con precisión en la libreta** para saltársela gratis en runs futuras.
-   - **Travesía e Incursión en la Misma Run (Theatre of the Mind)**: Atravesar salas ya despejadas durante la MISMA incursión es **instantáneo** mediante teatro de la mente (el DM simplemente narra el tránsito directo sin tiradas ni encuentros).
+   - **Deducción Directa por el Jugador (Player Skill)**: Si los jugadores deducen la clave o código mediante pistas del entorno (ej. descubren que la combinación es `3-1-5` o la frecuencia `Fa Sostenido / 432 Hz`), la prueban y funciona, la anotan en su cuaderno físico y queda desbloqueada para siempre.
+   - **Resolución por Tirada de Habilidad (Character Skill)**:
+     * **Éxito (>= DC)**: El personaje comprende la lógica del puzle, abre la puerta Y dicta la solución exacta al grupo para inscribirla en el Diario de la Mina / Cuaderno Físico.
+     * **Fail Forward / Éxito con Coste (Fallo por 1-3 pts sobre DC)**: La puerta se abre, pero narrativamente ocurre una imprecisión o forzado que CONSUME 1 PUNTO DE CARGA ARCANA (o activa una trampa menor). En este caso avanzan en la run actual, pero **no pueden anotarla con precisión en la libreta** para saltársela gratis en runs futuras.
+   - **Travesía e Incursión en la Misma Run (Theatre of the Mind & Atajos)**: Atravesar salas ya despejadas durante la MISMA incursión es **instantáneo** mediante teatro de la mente (el DM simplemente narra el tránsito directo sin tiradas ni encuentros).
 
-2. BONUS DE EXCELENCIA 7/10 (CARGAS ARCANAS SOLO SE GASTAN EN FALLO):
-   - Las Cargas Arcanas (10 pts) SOLO SE GASTAN EN CASO DE FALLO (pruebas falladas, trampas, etc.).
+2. EXCLUSIÓN PERMANENTE DE SUBDUNGEONS COMPLETADAS (NO SE REPITEN):
+   - Una vez que una Subdungeon Elemental ha sido completada y su Guardián derrotado (obteniendo su Fragmento de Tablilla):
+     * **Eliminación del Pool Daily**: Dicho elemento SE ELIMINA PERMANENTEMENTE de la tirada 1d8 / pool de sintonías diarias.
+     * **Nunca se repite**: Las Subdungeons superadas no vuelven a generarse en incursiones futuras, canalizando el progreso hacia los elementos restantes (de 6 a 5, 4, 3, 2, 1) hasta desbloquear la apertura del Sanctum 12.
+
+3. BONUS DE EXCELENCIA 7/10 (CARGAS ARCANAS SOLO SE GASTAN EN FALLO):
+   - Las Cargas Arcanas (10 pts) SOLO SE GASTAN EN CASO DE FALLO (pruebas falladas, trampas, o Fail Forward por tirada imprecisa).
    - Si el grupo completa la Subdungeon conservando SIETE O MÁS (>= 7/10)
      Puntos de Carga Arcana al finalizar (máximo 3 fallos cometidos),
      obtiene el BONUS DE EXCELENCIA (Reliquia de Minos + Recompensa Extra).
@@ -110,8 +117,8 @@ Para abrir la **Gran Puerta Hexagonal del Sanctum (Sala 12)** y desafiar a *El J
 ## 5. Regla de Filtrado Elemental de la Incursión Daily
 
 > [!IMPORTANT]
-> **EXCLUSIVIDAD ELEMENTAL DEL DÍA**:
-> - En cada incursión diaria, el laberinto se sintoniza con **UNA ÚNICA Subdungeon Elemental** (Fuego, Agua, Aire, Tierra, Vida o Luz).
+> **EXCLUSIVIDAD ELEMENTAL DEL DÍA Y PROGRESO IRREVERSIBLE**:
+> - En cada incursión diaria, el laberinto se sintoniza con **UNA ÚNICA Subdungeon Elemental NO SUPERADA AÚN** (Fuego, Agua, Aire, Tierra, Vida o Luz).
 > - El pool de salas elementales de esa run **SOLO contiene salas del Set Elemental correspondiente a la Subdungeon activa**.
-> - Por ejemplo: Si la Subdungeon del día es **FIRE (Fuego)**, el laberinto generará salas del *Set 0 (Genéricas/Neutrales)* y **únicamente del Set 1 (Fuego)**. Las salas del Set de Agua, Aire, Tierra, Vida o Luz se excluyen automáticamente para preservar la identidad temática del día.
+> - **Regla de No-Repetición**: Una vez superado el Guardián y obtenida la Tablilla de un elemento, ese elemento queda **completado permanentemente y se tacha del pool daily**. Las siguientes incursiones se elegirán exclusivamente entre los elementos que el grupo todavía no haya completado.
 

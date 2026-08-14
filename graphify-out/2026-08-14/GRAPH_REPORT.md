@@ -1,16 +1,16 @@
-# Graph Report - Shivath  (2026-08-14)
+# Graph Report - Shivath  (2026-08-11)
 
 ## Corpus Check
-- 303 files · ~550,762 words
+- 303 files · ~549,830 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1605 nodes · 1432 edges · 245 communities (222 shown, 23 thin omitted)
+- 1603 nodes · 1430 edges · 245 communities (222 shown, 23 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fec77acf`
+- Built from commit: `10bfe11c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -235,7 +235,7 @@ Nodes (25): Autumn, Eldritch Moons of Shivath: The Celestial Calendar, First Mon
 
 ### Community 45 - "addLineAuthorInfoSettings"
 Cohesion: 0.11
-Nodes (18): 1. Guardianes de Área y Objetos Elementales de Subdungeon, 2. BOSS FINAL: El Juicio de Minos (Equilibrio de Nivel Fijo), 3. Mecánica Detallada de los Orbes Elementales (Xenoblade 2 System), 4. Distribución Diaria de Salas de Combate (Nuevo Tipo de Sala Dedicada, 20-50%), A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica), A. Generación de Orbes (Orb Stacking), A. Proporción Diaria y Posicionamiento Independiente, B. Distribución de Dificultad (CR 3 - 7, Cap Máximo CR 7) (+10 more)
+Nodes (17): 1. Guardianes de Área y Objetos Elementales de Subdungeon, 2. BOSS FINAL: El Juicio de Minos (Equilibrio de Nivel Fijo), 3. Mecánica Detallada de los Orbes Elementales (Xenoblade 2 System), 4. Distribución Diaria de Salas de Combate (Nuevo Tipo de Sala Dedicada, 20-50%), A. El Señor del Crisol (Guardián de FIRE - La Caldera Volcánica), A. Generación de Orbes (Orb Stacking), A. Proporción Diaria y Posicionamiento Independiente, B. Distribución Normal de Dificultad (CR 3 - 12, Media 7) (+9 more)
 
 ### Community 46 - "m0"
 Cohesion: 0.17
@@ -335,7 +335,7 @@ Nodes (14): Buffs, Clashing, Combat, Combat Traits (Sistema Marcial de Arcadum),
 
 ### Community 88 - ".resolve"
 Cohesion: 0.22
-Nodes (8): 1. Bucle de Juego y Estructura de Subdungeons, 2. Persistencia Total de Subdungeons y Regla 7/10 de Excelencia, 3. Recompensas de Incursión y Botín Repetido, 4. El Gran Meta-Puzle: Knowledge Gating vs Item Gate Final (Zelda + Outer Wilds), 5. Regla de Filtrado Elemental de la Incursión Daily, El Laberinto de Minos: Sistemas Core y Subdungeons (Mecánico Agnóstico), 🏰 Guías Verbatim de Mazmorras Zelda (`Subdungeons/`), Objetos Elementales Temporales de Subdungeon (Dungeon Items)
+Nodes (8): 1. Bucle de Juego y Estructura de Subdungeons, 2. Persistencia Total de Subdungeons y Regla 7/10 de Excelencia, 3. Recompensas de Incursión (Downtime Loot), 4. El Gran Meta-Puzle y Bloqueos Cognitivos (Outer Wilds + Zelda), 5. Regla de Filtrado Elemental de la Incursión Daily, El Laberinto de Minos: Sistemas Core y Subdungeons (Mecánico Agnóstico), 🏰 Guías Verbatim de Mazmorras Zelda (`Subdungeons/`), Objetos Elementales Temporales de Subdungeon (Dungeon Items)
 
 ### Community 91 - "m0"
 Cohesion: 0.40
@@ -678,8 +678,8 @@ Cohesion: 0.29
 Nodes (6): 1. El Origen del Laberinto: El Estabilizador de Daedalus, 2. La Ruptura del Sistema y la Mecánica del Bucle Roguelike, 3. Las 6 Tragedias de las Subdungeons (Lore & Curiosity Board), 5. Integración con Treftiel: El Diario de la Mina, 6. Guía de Interpretación para el DM, Guía Narrativa y Lore del Laberinto de Minos (ARepeat)
 
 ### Community 320 - "Generador de Conexiones y Topología de Mapas (Web App 7x7)"
-Cohesion: 0.29
-Nodes (6): 1. Aplicación Web Interactiva 7x7 (`generador_minos_7x7.html`), 2. Tablas Manuales con Dados (Zero-Tech DM Tables), Características de la Web App:, 🎲 Flujo de Mesa Física del DM (Fog of War Manual):, Generador de Conexiones y Topología de Mapas (Web App 7x7), Tirada 1d8 de Subdungeon Abierta Hoy (Filtrado de Elementos Completados)
+Cohesion: 0.33
+Nodes (5): 1. Aplicación Web Interactiva 7x7 (`generador_minos_7x7.html`), 2. Tablas Manuales con Dados (Zero-Tech DM Tables), Características de la Web App:, Generador de Conexiones y Topología de Mapas (Web App 7x7), Tirada 1d8 de Subdungeon Abierta Hoy
 
 ### Community 322 - "06. 🍄 Invernadero de Esporas Infeccioso"
 Cohesion: 0.20
@@ -754,19 +754,19 @@ Cohesion: 0.22
 Nodes (8): 08. 🚰 Esclusa de Salida (Portón Final), Acciones, ⚙️ Elementos Interactivos y Dinámica Ambiental, 🗣️ Narración DM en Voz Alta, 🔍 Pistas de Inspección y Puntos de Interés, Puntos de Interés Visuales, 🎯 Resolución del Puzle y Guía del DM, Tríada de Información de Minos
 
 ## Knowledge Gaps
-- **913 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+908 more)
+- **911 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+906 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Escena: El Resort "Arenas Plateadas"` connect `contains` to `push`?**
+- **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `Mecánicas de Investigación: La Playa y el Rastro` connect `stringifyProps` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _913 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _911 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `join` be split into smaller, more focused modules?**

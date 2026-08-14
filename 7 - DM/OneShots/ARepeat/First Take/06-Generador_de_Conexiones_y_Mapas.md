@@ -31,7 +31,9 @@ Abre el archivo [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/O
 
 ## 2. Tablas Manuales con Dados (Zero-Tech DM Tables)
 
-### Tirada 1d8 de Subdungeon Abierta Hoy
+### Tirada 1d8 de Subdungeon Abierta Hoy (Filtrado de Elementos Completados)
+*Nota: Si se obtiene una Subdungeon que el grupo **ya ha completado en una incursión anterior**, se vuelve a tirar el dado (o se avanza al siguiente elemento no completado). Una vez completados los 6 elementos, la tirada conduce directamente al **Sanctum 12 (Boss Final)**.*
+
 | 1d8 | Subdungeon Accesible | Guardián de Área |
 | :---: | :--- | :--- |
 | **1** | **FIRE (La Caldera Volcánica)** | El Señor del Crisol |
