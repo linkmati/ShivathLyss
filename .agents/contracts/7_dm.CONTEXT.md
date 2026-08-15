@@ -1,20 +1,17 @@
-# Shelf Contract: 7 - DM (Dungeon Master Hub & Creation Pipeline)
+# Shelf Contract: 7 - DM (Dungeon Master Master Hub)
 
-DM Workshop and Adventure Production Pipeline.
+Master routing hub for all DM preparation, encounter mechanics, modular dungeons, and behind-the-screen secrets.
 
-## Structure
-- `OneShots/`: DM Mission Creation Pipeline & stand-alone adventure prep.
-- `Combat/`: Boss designs (ref: `boss-ability-design` skill), tactical battle maps, monster abilities, initiative trackers.
-- `Lore Building/`: Behind-the-screen world secrets, twist developments, unrevealed factions.
+## Sub-Shelf Routes
 
-## Mission Creation Pipeline (for OneShots & Sessions)
-When generating new missions/adventures for DM use:
-1. **Stage 1: Hook & Theme**: Core conflict, patron/quest giver, stakes. (Inputs: `1 - Mundo/Organizaciones`, `3 - Personajes/NPC`).
-2. **Stage 2: Lore Integration**: Location details, factions involved, secrets/clues. (Inputs: `1 - Mundo`, `2 - Historia`).
-3. **Stage 3: Encounters & Mechanics**: Traps, puzzles, boss mechanics, environmental hazards. (Inputs: `7 - DM/Combat`, `5 - Otros`).
-4. **Stage 4: DM Deliverable**: Final formatted adventure with boxed text, monster blocks, loot, and resolution paths.
+| Sub-Area | Focus | Contract Path |
+|---|---|---|
+| `Combat/` | Boss Design, Limbus Status, Daños Deluxe, Martial Rules, Traits | `.agents/contracts/7_dm_combat.CONTEXT.md` |
+| `OneShots/` | Modular Dungeons, Puzzles, Roguelike/Zelda Matrices, Stand-alone Quests | `.agents/contracts/7_dm_oneshots.CONTEXT.md` |
+| `Lore Building/` | DM Secrets, Villain Clocks, Unrevealed Factions & Sandboxes | `.agents/contracts/7_dm_lore.CONTEXT.md` |
 
-## Context Boundary Rules
-- **Load When**: Prepping DM sessions, designing bosses, building one-shots or encounters.
-- **Do NOT Load**: Inactive player journals or unneeded folders.
-- **Human Gate**: DM reviews and edits intermediate notes before finalizing encounter/adventure output.
+## General DM Invariants
+1. **Never leak DM files into player-facing notes**: DM lore in `7 - DM/Lore Building` stays segregated from `1 - Mundo`.
+2. **Standard Action Syntax**: Boss actions must follow `[Action Name] ([Trigger/Cost], [Restrictions/Recharge]). [Mechanical Effect]`.
+3. **Modular Room Shape**: Dungeon rooms must declare exits, hazards, interactable elements, and loot.
+4. **Human Gate**: Intermediate designs (boss phases, puzzle solutions) must be editable before finalizing session prep.
