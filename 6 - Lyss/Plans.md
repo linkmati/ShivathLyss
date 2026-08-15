@@ -1,7 +1,9 @@
 # Main
 - Ir al edge con un astral proyection al edge
 - Probar a leer la mente a [[Ate]]
+- [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
+- Conectarme al pool of shared knowledge de los Githyanki with Solipsis
 
 En el casino cuando YO suba a nivel 6 Bladesinger Extra Attack
 - Maybe I can do it the Solipsis way
@@ -37,3 +39,10 @@ LVL 6 - Manifest mind - activate it at start of day - takes BA to move
 	- Conjure Constructs* - MA 3d6 force / 1d6+5 temp hp, immortal
 - Laeral's Silver Lance - Force dmg
 - Bestow Curse* - ***touch*** Action, more flexible, works on hit instead attack, only necrotic dmg
+
+
+# Other Character
+Omega support  - spirits bard - Githyanki - Psionics are useful + Versatile proficiency
+- Origin Feat - Musician (Streamer) - Inspiration for all
+- Lvl 4 Feat - Inspiring Leader - TempHP
+Max Charisma

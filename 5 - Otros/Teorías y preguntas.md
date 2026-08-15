@@ -1,4 +1,37 @@
-## Como conectan Shivath y Owners
+# Anagramas
+- Las mazdas son anagramas de los sephirah
+	- [[Dho]] - Hod - Splendor
+	- [[Haruveg]] - Geburah - judgement through strength
+	- [[Zatchen]] - Netzach - Eternity
+	- [[Nabhi]] - Binah - Understanding
+	- [[Dosye]] - Yesod - Foundation
+	- [[Khal-tum]] - Malkuth - Kingdom
+	- [[Kamoh]] - Hokma - Wisdom
+	- [[Treftiel]] - no es el nombre real - Tiferet - Beauty
+	- [[Edhesk]] - no es el nombre real - Chesed 
+	- ?? - Keter - Crown
+	- ?? - Da'at - El corazón de shivath - Unificación - Owners??
+- Están colocadas según el Kabbalah o al menos parecido
+
+### **Tiferet**
+
+**It connects directly to Keter (the Divine Will) and Da'at (Knowledge). It receives transcendent, superconscious light and translates it into an emotional frequency the lower worlds can handle.**
+- Maybe relates to high city
+
+**Compassion is not just "more kindness." Pure kindness (****_Chesed_****) ignores the recipient's capacity, while strict justice (****_Gevurah_****) ignores their fragility.** **_Tiferet_** **measures how much light a vessel can actually hold, delivering maximum kindness through structured boundaries.**
+- Maybe geburah was the war
+- Edhesk (no cuadra tampoco) maybe vienen de ahi los artificers
+	- La unica diferencia es una singular c/k
+
+  
+
+Pasado a human anatomy, tiferet es el corazon
+Beauty is truth, as treftiel is not true to its name its not accomplish its name
+It shines on and affects all other sephirah
+
+-iel meaning god is, porque se creen dioses
+
+# Como conectan Shivath y Owners
 - Bion god of Warforged related to War and Song shi
 - Los dados de Morghal
 - El libro de los Floomphs
