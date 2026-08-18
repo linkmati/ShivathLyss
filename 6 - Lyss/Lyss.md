@@ -28,3 +28,12 @@ Favor de la casa Beryllium
 Favor de Beatrice (mujer de Dante)
 
 Debo favor decente a [[Anathema - Jose]] - medio pagado 
+
+## Past
+de alguna forma modificaron mi mente, no se sabe porque exactamente
+cuando tienes muchos prosteticos, eran antes personas con tantos prosteticos que su mente se ha resetado
+podria ser al menos mi 3er vida, esto es comun en warforged aparentemente
+artificers de alguna de las escuelas del apex 
+mente tan fragmentada se necesita tirar de algo mas 
+estudie magia en esa vida, gente estudiaba con o me estudiaba
+Era algo de investigación

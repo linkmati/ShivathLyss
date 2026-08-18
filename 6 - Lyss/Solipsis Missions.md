@@ -1,43 +1,21 @@
-El archivo ha cerrado antes que el rio
-Buscar en Kaelor un tipo medio afluente
-Apuntar lo que hacer sin verme escribir
-- Debi haber protegido a alguno de sus hijos
-- Era de glass hand se vuelve morado se convierte intellect devourer
-- Lo maté out of grace
+Con Ary, en la misión que se apuntó, se apuntó con otras personas.
+Misión de 4 personas, es lo que había en la documentación
+Pericles documentó esto, una persona ha desaparecido
+Quienes fueron a donde fue el pago.
 
 
-Un tocho dentro de Solipsis
-En una celda de contencion en Vitra del Apex Fabricatum
-Conseguir sus memorias no liberarle tiene info importante
+Painted Mask
+Alchemist Trail
+Alchemist Trial
+The Lost Book of Nicholas Furioso
+The Lost Scientist
+Echoes of the Forgotten
+- Aldrean - Tabaxi de Dho - Se volvió de vuelta Dho - Algún tipo de noble
+- Celestia - Otro paladin, pedante, podía camuflarse
+- Warforged de santi tmb
+- Roxanne - Tampoco
 
+---
 
 Warforged
-- Dentro de Solipsis hay clerigo de Bion
-
-The High City
-- Ciudad virtual dividida en 4, 
-	- Argentum Prime 
-	- Stellar
-- Se acceded mediante pods a la matrix
-- Sitio mas seguro de Treftiel
-- La gente MUY rica pasa su vida ahi
-- Teorias de gente - la gente piensa que esa tech es mas antigua que los druidas de treftiel
-	- "Segun el Apex lo diseñaron ellos"
-	- No se sabe como funciona del todo
-
-Shivath es el centro/corazon del universo parece que late 
-El angramanio no es unico a shivath pero tiene mas concentracion e importancia
-El angramanio hace ese latido
-
-Planeta que es una ballena
-
-El mundo piensa que estas en cuerpo en lo de solipsis, puedes intercambiar objetos
-
-Enfermedad de un planeta - Vampiros/Zombies Psionicos comen mentes
-Conocimiento es
-
-Dalin - Gith de Solipsis
-
-Escala tecnologica del 0 al 14
-La mayor parte de planetas Shivath medio 7, Treftiel 8
-En shivath habia tecnologia mas alta 10+
+- Dentro de Solipsis hay Clerigo de Bion

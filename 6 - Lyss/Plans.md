@@ -1,13 +1,23 @@
 # Main
-- Ir al edge con un astral proyection al edge
-- Probar a leer la mente a [[Ate]]
+- Ir al edge con un Astral Proyection al edge
+	- Pedir ayuda xd 
+	- Cuantos mas mejor
+		- Gaios -Preguntar
+		- Anatema
+		- Ary
+		- Nicolas
+- Probar a leer la mente a [[Babel]]
 - [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
-- Conectarme al pool of shared knowledge de los Githyanki with Solipsis
+- Buscar cuantas veces he pasado por el reset en la escuela de artificers 
 
-En el casino cuando YO suba a nivel 6 Bladesinger Extra Attack
-- Maybe I can do it the Solipsis way
+# Long Term
+- Conectarme al pool of shared knowledge [[Consciencia colectiva]]
+- Puedo viajar con Plane Shift, el bicho de mi cabeza es de ese plano
+	- Me lo están casteando
+	- maybe one way a otro lugar si pido permiso
 
+---
 ## Otros Spells Utiles
 - Spellfire Flare
 - Shield - comprar 
@@ -40,9 +50,11 @@ LVL 6 - Manifest mind - activate it at start of day - takes BA to move
 - Laeral's Silver Lance - Force dmg
 - Bestow Curse* - ***touch*** Action, more flexible, works on hit instead attack, only necrotic dmg
 
-
-# Other Character
+En el casino cuando YO suba a nivel 6 Bladesinger Extra Attack
+- Maybe I can do it the Solipsis way
+# Other Character (Happy)
 Omega support  - spirits bard - Githyanki - Psionics are useful + Versatile proficiency
 - Origin Feat - Musician (Streamer) - Inspiration for all
 - Lvl 4 Feat - Inspiring Leader - TempHP
 Max Charisma
+

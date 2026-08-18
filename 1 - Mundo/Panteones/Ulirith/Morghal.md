@@ -1,5 +1,25 @@
 #Deity 
-[[Ulirith]] 
+[[Ulirith]]
+
+## Klourgh
+Angel of Madness
+Virtud de Morghal
+Pueden medio defy lo que les manda morghal
+La locura hay varias formas de conseguirla
+- Demasiado conocimiento
+- Vivencias - Insanidad
+
+4 facciones de Morghal
+El casino
+- Los apostadores - La loaded hand - Madness y Luck
+- Los guardias - Los unwithering - Luck y life
+- Los foresworn - Oathbreaker, life y madness 
+	- Todo lazo es una cadena y la deuda con el mundo es una prisión
+	- Liberarse de [[Nu Varak]]
+	- Aquellos que al romper la Oath se pierden a si mismos
+- The undying - Life, death, luck - Buscar immortalidad a traves de la suerte, pasos a seguir
+	- Alargar su vida a traves de alquimia u otros medios
+	- Siguen la receta aunque no la entiendan a traves de la receta de Morghal
 
 
 -------------------------------------------------------------------------------

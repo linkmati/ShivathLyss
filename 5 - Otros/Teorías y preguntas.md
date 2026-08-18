@@ -1,7 +1,7 @@
 # Anagramas
 - Las mazdas son anagramas de los sephirah
 	- [[Dho]] - Hod - Splendor
-	- [[Haruveg]] - Geburah - judgement through strength
+	- [[Harubeg]] - Geburah - judgement through strength
 	- [[Zatchen]] - Netzach - Eternity
 	- [[Nabhi]] - Binah - Understanding
 	- [[Dosye]] - Yesod - Foundation
