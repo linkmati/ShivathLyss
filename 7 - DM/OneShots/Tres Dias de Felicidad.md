@@ -2,7 +2,7 @@
 type: dm_oneshot
 title: "Tres Días de Felicidad"
 level_range: "Agnóstico"
-location: "Distrito de las Fundiciones y Asilos de Shivath"
+location: "Distrito Bajo / Suburbios Industriales de Shivath"
 estimated_duration: "3-4 horas"
 status: "Ready"
 tags:
@@ -11,168 +11,170 @@ tags:
   - adventure
   - emotivo
   - investigacion
-  - stc
+  - three-days-of-happiness
 ---
 
 # Tres Días de Felicidad
 
-> *"El médico dijo dos años. Hice la cuenta con los dedos manchados de hollín: Pip tendría cuatro, Gobi tres, y la pequeña Lulú apenas dos. Ninguno llega a los ocho. Ninguno sería adulto. En este distrito, los cachorros huérfanos sin fianza no llegan al invierno. Vendí mis años creyendo que cinco mil monedas de oro les comprarían un futuro... pero me dijeron que mi vida no valía nada. Me quedé con tres días. Tres días para enseñarles que fueron amados."*
+> *"El espejo del Tasador me mostró mi futuro en dos años: una madre arrastrándose entre calderas, tosiendo sangre, incapaz de comprar pan, muriendo en un callejón oscuro mientras mis bebés lloraban a mi lado. Por eso el Tasador dijo que mi vida entera no valía más de treinta monedas de plata. No había felicidad en lo que me quedaba... solo dolor. Así que vendí mis años y me quedé con tres días. Tres días para cambiar la única historia que mis hijos recordarán de mí."*
 
 ---
 
-## 1. Premisa y Filosofía de Diseño
+## 1. Premisa y Filosofía de la Aventura
 
-* **Inspiración Principal**: *Three Days of Happiness* (*Jumyou o Kaitotte Moratta* / *El precio de una vida*).
-* **Tono**:
-  * **Primario (80%)**: Emotivo, melancólico, profundamente tierno y catártico.
-  * **Secundario (20%)**: Investigación urbana, desenmascaramiento del abuso corporativo y justicia familiar.
+* **Inspiración Fundamental**: *Three Days of Happiness* (*Jumyou o Kaitotte Moratta* / *El precio de una vida*).
+* **Mecánica del Tasador de Existencia**:
+  * Existe una institución/gremio ancestral (**El Banco de Ánima / El Registro de Vida**) que compra el tiempo restante de las personas.
+  * **Cómo se calcula el valor de una vida**: El tasador utiliza un artefacto de proyección temporal que mide tres factores objetivos:
+    1. *La felicidad personal que experimentarás en tus años restantes.*
+    2. *La felicidad y el impacto positivo que generarás en las personas que te rodean.*
+    3. *Tus logros, realizaciones y legado social.*
+  * Si tu futuro está lleno de éxito, amor y bienestar, tus años valen una fortuna (cientos de miles de monedas).
+  * Si tu futuro proyectado es de soledad, agonía física, fracaso y sufrimiento que amarga a quienes te rodean, tu vida se tasa al **mínimo legal de subsistencia: 10 monedas por año (unas míseras piezas de plata)**.
 * **Biología Goblin en Shivath**:
   * **Mayoría de edad goblin**: **8 años**.
-  * Antes de los 8 años, un goblin es biológicamente dependiente y legalmente un "menor sin capacidad laboral". Sin tutor registrado o fianza en un asilo gremial, son requisados como mano de obra forzada o abandonados.
-* **Economía del STC (Secondary Time Credit)**:
-  * **Cotización estándar**: **1 año de vida sana = ~2.000 GP**.
-  * **El Asilo Tutelar**: Un fondo fiduciario de 6 años para garantizar techo, comida y aprendizaje para tres menores cuesta entre **4.000 y 5.000 GP**.
+  * Los huérfanos menores de 8 años sin fianza ni tutor registrado son legalmente considerados "desamparados" y absorbidos como mano de obra forzada en las fundiciones.
 * **Regla de Oro para el DM**:
-  * **Nivel Agnóstico**: Sin tiradas de salvación imposibles ni combate letal obligatorio.
-  * **Información sin Puertas (Fail Forward)**: Las tiradas de habilidad **nunca bloquean la historia**. Un fallo narrativo otorga la información esencial con una complicación emocional o coste de tiempo; un éxito otorga detalles adicionales, simpatía de los testigos o ventajas tácticas.
+  * **Agnóstico y Centrado en la Historia**: Sin CDs fijas. Los checks otorgan información extra o momentos emotivos; **nunca bloquean la progresión**.
 
 ---
 
-## 2. El Trasfondo de Krena y la Justificación de sus Actos
+## 2. El Trasfondo de Krena y la Manipulación de Anatema
 
-### El Dilema Maternal
-1. **La Condición Médica**: Krena trabajó en las fundiciones pesadas. Para mantener su empleo tras un accidente, compró prótesis mecánicas de segunda mano a **Maestro Varos**. Las piezas estaban hechas de latón reciclado con impurezas de plomo y sellos rúnicos inestables, acelerando la corrosión por **Anatema**. El veredicto del sanador fue implacable: **2 a 3 años de vida restante**.
-2. **La Aritmética de una Madre**:
-   * **Pip**: 2 años (le faltan **6 años** para ser adulto a los 8).
-   * **Gobi**: 1 año (le faltan **7 años** para ser adulto).
-   * **Lulú**: 4 meses (le faltan casi **8 años** para ser adulta).
-   * Si Krena vivía sus 2-3 años naturales, moriría cuando sus hijos tuvieran 4, 3 y 2 años. Los tres quedarían condenados a las fundiciones clandestinas.
-3. **El Plan y la Traición del STC**:
-   * Krena calculó: *2.5 años × 2.000 GP = 5.000 GP*. Con ese dinero pagaría la fianza fiduciaria completa del Asilo de Santa Lidia para los tres niños hasta que Pip cumpliera 8 años.
-   * Acudió al mostrador del **STC**. El corredor, compinchado con Varos, la inspeccionó: declaró que sus órganos estaban infectados por Anatema y clasificados como *"Grado E (Residuo Tóxico No Transferible)"*.
-   * Le pagaron una limosna insultante: **30 piezas de plata**.
-   * Krena quedó atrapada en el contrato de extracción: la máquina del STC programó su parada vital, dejándole únicamente **3 días de lucidez** antes del colapso terminal, sin el dinero para salvar a sus hijos.
+### 1. El Engaño de Anatema
+* **Anatema**: Una figura carismática y sin escrúpulos de los barrios bajos (prestamista / intermediario de talleres clandestinos).
+* Anatema se acercó a Krena cuando ella apenas lograba alimentar a sus crías. Le prometió que con unas **prótesis mecánicas de última generación** aumentaría su rendimiento físico en la fundición, ganaría el triple de sueldo y aseguraría un hogar próspero para sus hijos.
+* Las prótesis eran chatarra defectuosa: latón corroído, soldaduras de plomo y runas mal grabadas que envenenaron su sistema nervioso. Cuando Krena cayó enferma, los sanadores fueron categóricos: **le quedaban 2 a 3 años de vida en dolor progresivo**.
+
+### 2. La Aritmética Maternal
+* Krena miró a sus tres hijos:
+  * **Pip (2 años)**: Le faltan **6 años** para ser adulto (8 años).
+  * **Gobi (1 año)**: Le faltan **7 años** para ser adulto.
+  * **Lulú (4 meses)**: Le faltan casi **8 años** para ser adulta.
+* Si Krena vivía sus 2-3 años naturales, moriría cuando sus hijos tuvieran 4, 3 y 2 años. Los tres quedarían completamente desamparados y condenados a morir en el barro.
+* Krena necesitaba reunir urgentemente el dinero para un **Fondo de Tutela Fiduciaria** en el Asilo de Sanadores, el cual garantiza techo, comida y educación para los tres niños hasta que Pip cumpla 8 años y pueda cuidar legalmente de sus hermanos.
+
+### 3. La Humillación del Tasador
+* Krena acudió al Banco de Ánima para vender sus 2.5 años restantes, convencida de que su vida como madre trabajadora tendría algún valor.
+* El artefacto del Tasador proyectó su futuro: una mujer postrada, arruinada, transmitiendo angustia constante a sus hijos y muriendo en la miseria, dejando a tres huérfanos profundamente traumatizados que terminarían en el crimen o la muerte temprana.
+* **El Veredicto**: Su futuro proyectado generaba *cero felicidad neta y sufrimiento compuesto*. La tasaron a **30 piezas de plata**.
+* Desesperada y sin otra opción, Krena firmó la venta: conservó únicamente **tres días** para despedirse de sus pequeños y buscar una última esperanza.
 
 ---
 
 ## 3. Dramatis Personae
 
 ### Krena (Madre Goblin, 18 años)
-* **Rasgos**: Piel verde pálida, cicatrices de fatiga, mirada dulce y protectora. Sus brazos mecánicos tiemblan levemente y desprenden olor a estaño caliente.
-* **Personalidad**: Resignada ante su propia muerte, pero con una fiereza inquebrantable por la felicidad y el futuro de sus tres pequeños. No guarda rencor a los dioses ni al mundo; solo desea que sus hijos no lloren.
+* **Rasgos**: Mirada serena, piel verdosa pálida, cicatrices de cansancio. Sus brazos mecánicos tiemblan levemente con un chirrido apagado.
+* **Corazón**: No siente odio por el mundo. Toda su mente, su alma y sus escasas fuerzas están volcadas en darles a sus hijos los mejores tres días de sus vidas.
 
 ### Los Tres Niños
-* **Pip (2 años)**: El mayor. En términos goblins, camina con soltura y balbucea frases completas (*"Mamá descansa", "Pip cuida a Gobi"*). Imita a su madre limpiando el suelo y trayéndole paños húmedos cuando tose. Siente la angustia en el aire aunque no comprende la muerte.
-* **Gobi (1 año)**: Gatea y da pasos torpes. Fascinado por el sonido rítmico de los engranajes del brazo de Krena. Ríe cada vez que Krena le hace cosquillas con sus dedos de latón frío.
-* **Lulú (4 meses)**: Una bebé envuelta en mantas remendadas que solo se calma al sentir el calor del pecho de su madre.
+* **Pip (2 años)**: El mayor. Camina con destreza goblin, habla en frases cortas y ayuda a su madre barriendo el suelo o meciendo la cuna. Siente que su madre está débil y la abraza constantemente.
+* **Gobi (1 año)**: Gatea y da sus primeros pasos. Se ríe cuando las prótesis de Krena hacen cosquillas.
+* **Lulú (4 meses)**: Una bebé envuelta en mantas limpias que duerme plácidamente en el pecho de Krena.
 
 ### Mina la Forjadora (La Patrona / Quest Giver)
-* **Rol**: Maestra herrera enana/humana de los suburbios. Fue la mentora de Krena en su juventud.
-* **Motivación**: Vio a Krena salir del puesto del STC con la **Runa de Desahucio Temporal** en la muñeca (un tatuaje ceniciento que se consume como un reloj de arena de 72 horas). Sabe que el contrato vital es irreversible, pero no permitirá que Krena muera en la desesperación.
-* **El Encargo**: Contrata a los PJ para ser los custodios de los últimos tres días de Krena: investigar la estafa de Varos, asegurar legalmente el futuro de los niños y garantizar que Krena viva tres días de absoluta paz.
+* **Rol**: Maestra artesana de buen corazón que conoce a Krena desde niña.
+* **Motivación**: Descubrió la marca del *Contrato de Extracción* en la muñeca de Krena (un reloj de arena que consume 72 horas).
+* **El Encargo a los PJ**: Mina no puede romper el contrato arcano del Banco de Ánima, pero contrata a los PJ para ser los protectores de los últimos tres días de Krena: desenmascarar a **Anatema**, asegurar la custodia legal de los tres niños y permitir que Krena viva tres días de auténtica paz.
 
-### Maestro Varos (El Artífice Especulador)
-* **Rol**: Artífice sin escrúpulos. Vende prótesis deliberadamente tóxicas a obreros para forzar ventas de pánico de STC a precio de desecho, quedándose con las comisiones de arbitraje.
+### Anatema (El Antagonista Manipulador)
+* **Rol**: Un embaucador de los bajos fondos que se enriquece colocando contratos trampa y prótesis defectuosas a familias vulnerables para cobrar comisiones de los desguaces.
 
-### El Observador del STC (Virela / El Registrador)
-* **Rol**: Funcionario silencioso del Banco de Tiempo que sigue a Krena a distancia prudencial para certificar que el "sujeto liquidado" no altere el cronograma ni cometa actos vandálicos contra el activo adquirido.
+### El Observador del Banco de Ánima (Virela)
+* **Rol**: Funcionario silencioso asignado para acompañar a Krena en sus últimas 72 horas y registrar el cierre del contrato. Como *Miyagi* en la novela original, empieza frío y distante, pero la ternura de Krena desarma su cinismo.
 
 ---
 
 ## 4. Estructura de la Aventura: El Reloj de 72 Horas
 
 ```
-[DÍA 1: La Cuenta Atrás] ──────> [DÍA 2: La Deuda de Varos] ─────> [DÍA 3: Tres Días de Felicidad]
-         │                                   │                                    │
-   Encuentro con Mina                  Infiltración / Juicio                El Parque de las Lunas
-   Cena en la chabola                  Recuperación del Fideicomiso         La Terminal del STC
-   La confidencia de Krena             Descubrimiento del Arbitraje         La Revalorización Incalculable
+[DÍA 1: El Peso del Destino] ───> [DÍA 2: Enfrentar a Anatema] ───> [DÍA 3: Tres Días de Felicidad]
+          │                                   │                                    │
+    La Casa de Krena                    Confrontación moral                  El Mirador de los Sauces
+    La Verdad de la Tasación            Firma de Tutela con Mina             La Segunda Proyección
+    Cena íntima con los niños           Cierre de Deudas Pasadas             El Valor Incalculable
 ```
 
 ---
 
-### DÍA 1 (Horas 72 a 48): El Hogar de Latón
+### DÍA 1 (Horas 72 a 48): El Hogar de Latón y la Realidad
 
-#### 1.1 El Ruego en la Herrería
-* Mina cita a los PJ en su taller. Muestra la copia del contrato leonino del STC que Krena dejó olvidada.
-* **Mina a los PJ**: *"No vengo a pediros que venzáis a la muerte. El STC es implacable y su magia de contrato no se rompe con espadas. Os pago para que esta madre no muera creyendo que sus hijos quedarán desamparados, y para que durante setenta y dos horas nadie se atreva a borrarle la sonrisa."*
+#### 1.1 El Encuentro con Mina
+* Mina cita a los PJ en su fragua. Explica la situación de Krena, los 3 niños huérfanos inminentes y la cuenta atrás de 72 horas.
+* **Objetivo de los PJ**: Acompañar y proteger a Krena durante sus tres días sin romper la alegría de los niños.
 
-#### 1.2 La Chabola de Krena
-* Los PJ llegan a una vivienda precaria pero limpia en el Callejón del Hollín.
-* **Escena Cotidiana**: Krena prepara un puré dulce para Pip y Gobi mientras amamanta a Lulú. Pip intenta ayudar cargando una cuchara de madera que le queda enorme.
-* **Interacción**:
-  * Pip mira a los PJ con curiosidad. Si los PJ son amables o le ayudan con los hermanitos, Pip les susurra: *"Mamá tiene las manos muy calientes hoy. ¿Le trajisteis medicina?"*
-  * *(Check de Medicina / Perspicacia / Percepción: Éxito = notan que el calor no es fiebre biológica, sino sobrecarga del núcleo de latón de Varos; Fallo = Krena disimula el temblor apoyándose en la mesa y sonríe a los aventureros).*
-* **La Confesión Nocturna**:
-  * Con los niños dormidos juntos en un jergón de paja, Krena se sienta con los PJ y muestra la marca en su muñeca: le quedan **48 horas**.
-  * Les explica la cuenta de los 8 años de adultez de Pip y su impotencia al recibir solo 30 monedas de plata por sus 2.5 años de vida. Les entrega el comprobante del taller de Varos: *"Varos me aseguró que estas piezas durarían veinte años. Cuando fui a reclamar, me dijo que el STC era mi única salida."*
-
----
-
-### DÍA 2 (Horas 48 a 24): La Verdad Oculta y la Tutela
-
-#### 2.1 El Taller de Varos
-* Los PJ y Krena acuden al taller de ortopedia y prótesis en el Distrito de Vapor.
-* **Investigación / Registro**:
-  * Los PJ buscan los registros contables y médicos de Krena.
-  * *(Check de Investigación / Juego Sucio / Intimidación: Éxito = encuentran la póliza oculta donde Varos certificó que Krena tenía 'tejido de alta compatibilidad bio-rúnica' y cobró un subsidio de 4.000 GP del seguro que jamás le entregó; Fallo = un aprendiz asustado confiesa el escondite de los libros para evitar problemas con los aventureros).*
-* **Confrontación con Varos**:
-  * Varos intenta escudarse en la legalidad del contrato firmado.
-  * Los PJ y Krena lo arrinconan moral y legalmente. Krena no busca derramar sangre: exige la transferencia inmediata de los 4.000 GP retenidos al **Fideicomiso de Santa Lidia** a nombre de Pip, Gobi y Lulú, con Mina como tutora legal.
-  * Varos, acorralado ante la evidencia del fraude contable ante el gremio, firma los documentos de cesión patrimonial.
-
-#### 2.2 La Noche de la Alianza
-* Los documentos de custodia quedan depositados ante el Notario del Asilo. Los niños tienen comida, techo y educación garantizada hasta los 8 años.
-* Krena respira por primera vez en meses sin la losa del pánico. Sabe que su tiempo físico termina mañana, pero sus hijos ya no serán esclavos del distrito.
+#### 1.2 La Chabola en el Callejón del Hollín
+* Los PJ llegan al hogar de Krena. La casa es humilde pero huele a caldo de verduras y jabón limpio.
+* **Escena Familiar**: Krena juega con Pip y Gobi mientras mece a Lulú. Los niños se ríen. Krena disimula los calambres de sus brazos mecánicos con caricias y sonrisas.
+* **Interacción con los Niños**:
+  * Pip se acerca a los PJ con un cuenco de sopa y dice: *"Para los amigos de mamá. Mamá hoy no tosió porque vinisteis."*
+  * *(Check de Perspicacia / Medicina / Empatía: Éxito = notan el esfuerzo titánico que hace Krena para que sus hijos solo vean alegría; Fallo = Krena agradece la visita con una mirada de infinita gratitud).*
+* **La Confesión de la Noche**:
+  * Cuando los tres niños duermen juntos en el jergón, Krena muestra a los PJ la runa de su muñeca: le quedan **48 horas**.
+  * Krena les relata cómo **Anatema** la engañó con las prótesis y cómo el Tasador le mostró que su vida futura era un pozo de dolor sin valor:
+    > *"Me dijeron que una goblin marcada y enferma solo causaría desgracias a sus hijos si vivía esos dos años. Por eso me dieron treinta monedas. Pero no me importa mi valor... solo me importa que Pip, Gobi y Lulú no terminen en el foso de carbón."*
 
 ---
 
-### DÍA 3 (Horas 24 a 0): El Precio Incalculable
+### DÍA 2 (Horas 48 a 24): Cerrar el Pasado con Anatema
 
-#### 3.1 Un Día Lejos del Humo
-* Krena gasta sus últimas energías en cumplir su único sueño: llevar a sus tres hijos fuera del distrito industrial, al **Mirador de los Sauces Blancos**, donde el cielo es azul y se ven las lunas.
+#### 2.1 El Rastro de Anatema
+* Los PJ y Krena van tras Anatema en su casa de préstamos y contratos en el Distrito de Vapor.
+* **Investigación / Encuentro**:
+  * Los PJ descubren que Anatema guardaba los recibos de indemnización y las cartas de recomendación que Krena debió recibir por su trabajo original.
+  * *(Check de Intimidación / Investigación / Persuasión: Éxito = consiguen que los guardias de Anatema se aparten avergonzados al ver a Krena y sus prótesis deshechas; Fallo = se produce una discusión acalorada donde los documentos son confiscados a la fuerza).*
+
+#### 2.2 La Confrontación Moral
+* Krena se encuentra cara a cara con Anatema.
+* Anatema intenta justificar sus actos diciendo que "los goblins mueren rápido de todos modos".
+* Krena no le ataca ni le maldice. Con una dignidad aplastante, coloca sus manos de latón sobre la mesa y le dice:
+  > *"Pensaste que por ser pequeña y pobre podías borrarme. Te equivocaste. No me diste un futuro, pero hoy vas a firmar el traspaso de la tutela y mis ahorros a Mina. Mis hijos serán libres aunque tú vivas encadenado a tu avaricia."*
+* Anatema, humillado y acorralado por los PJ y los registros del gremio, firma la cesión de la fianza fiduciaria para el Asilo de Sanadores.
+
+---
+
+### DÍA 3 (Horas 24 a 0): Los Tres Días de Felicidad (Clímax Emocional)
+
+#### 3.1 Un Día Perfecto
+* Krena gasta sus últimas fuerzas llevando a sus tres hijos fuera de la ciudad industrial, al **Mirador de los Sauces Blancos**, donde el cielo es limpio y el viento huele a flores silvestres.
 * **Momentos de Mesa**:
-  * Los PJ ayudan a llevar a los niños: Gobi a hombros de un aventurero, Pip corriendo por la hierba limpia riendo a carcajadas, Lulú durmiendo bajo la sombra de los árboles.
-  * Comen bollos de miel y fruta que Krena compró con sus últimas monedas.
-  * Krena se sienta en la hierba. Sus prótesis ya apenas responden, pero sus ojos brillan con una serenidad absoluta.
+  * Pip corre por la hierba verde persiguiendo mariposas; Gobi se sienta a jugar con flores mientras ríe; Lulú duerme plácidamente en brazos de los aventureros o de Mina.
+  * Krena comparte dulces de miel con sus hijos y les canta una nana goblin tradicional.
+  * Por primera vez en sus vidas, los tres niños no escuchan el zumbido de las calderas ni el llanto del hambre. Solo ven a su madre radiante y hermosa.
 
-#### 3.2 La Terminal del STC y el Giro Emotivo
-* Al atardecer, la runa de la muñeca de Krena parpadea en rojo intenso: quedan **2 horas**. El **Observador del STC (Virela)** sale de entre los árboles para certificar la liquidación final.
-* Para asegurar que el Asilo no cobre gastos adicionales de entierro a los niños, Krena le pide a Virela pasar su tarjeta de contrato por la terminal portátil para liquidar sus **últimas 2 horas** por unas monedas de cobre.
-* **La Anomalía en el Mercado STC**:
-  * Virela inserta la tarjeta. La pantalla rúnica de la terminal emite un destello dorado y comienza a calcular la cotización en tiempo real.
-  * La cifra no marca cero ni calderilla. La pantalla se desborda: **214.000 GP (Valor de Liquidación Extraordinaria)**.
+#### 3.2 La Llegada del Observador y la Segunda Proyección
+* Al atardecer, el reloj de la muñeca de Krena marca **2 horas**. El **Observador (Virela)** sale de entre los árboles con el espejo rúnico de tasación en sus manos.
+* Virela, visiblemente conmovido tras haber observado en secreto los tres días de Krena, pide permiso para realizar una **Reevaluación de Cierre de Contrato** (el protocolo obligatorio del Banco de Ánima antes de la expiración).
+* Krena sonríe con calma: *"No hace falta, señor Observador. Sé que mi vida no valía nada en su máquina."*
+* Virela activa el espejo. La luz no es gris ni opaca como la primera vez: **un torrente de luz dorada ilumina toda la colina**.
 
-#### 3.3 ¿Por Qué Krena es Invaluable? (La Mecánica del STC)
-Virela, con la voz entrecortada y lágrimas tras su máscara de registrador, le explica a Krena y a los PJ por qué el sistema de Oferta y Demanda ha colapsado a su favor:
-1. **La Demanda Intergeneracional (Hijos Goblins)**: En la fórmula del STC, el valor del tiempo de un progenitor incluye el *Rendimiento Proyectado de los Menores Dependientes*. Al asegurar la tutela legal y salvar a 3 niños goblins de morir en las fundiciones, Krena ha desbloqueado **más de 120 años combinados de vidas sanas y productivas** (3 × 40 años) que entrarán al mercado laboral a los 8 años con formación técnica de primer nivel.
-2. **La Rarity de Oferta (El Ánima en Paz)**: El 99.99% de los vendedores del STC mueren envenenados por el odio, el terror o la desesperación, rindiendo tiempo de grado degradado. El tiempo extraído de una madre que entrega sus últimas horas en estado de **felicidad pura, amor desinteresado y paz mental completa** tiene resistencia energética cero: es un catalizador grado *Apex* que las academias arcanas cotizan en subasta abierta sin límite de precio.
+#### 3.3 Por Qué el Futuro de Krena es Invaluable (El Giro de la Novela)
+El artefacto del Tasador proyecta la nueva línea temporal generada por los **tres días de felicidad**:
+1. **La Felicidad Generada en Otros**: Krena no murió como una sombra amargada en un callejón. Les regaló a sus hijos el recuerdo imborrable de haber sido amados con devoción infinita.
+2. **El Destino Reescrito de los Niños**:
+   * **Pip** ya no crecerá como un huérfano traumatizado y criminal: crecerá protegido en el asilo, convirtiéndose en un artesano sabio y protector de los débiles.
+   * **Gobi** crecerá como un gran inventor que diseñará prótesis seguras para los obreros de la ciudad.
+   * **Lulú** se convertirá en una sanadora que curará a cientos de enfermos en los suburbios.
+3. **El Veredicto de Virela**:
+   Virela mira el espejo con lágrimas corriendo por su máscara:
+   > *"Señora Krena... la primera vez que vino a nosotros, su futuro proyectado solo contenía dolor. Pero en estos tres días, usted no solo vivió... cambió para siempre el destino de tres almas y de todos los que las rodean. El Banco de Ánima no puede ponerle número a esto. Su vida ha sido reevaluada como **Invaluable**."*
 
-> *"Señora Krena... en todo el registro del Banco de Tiempo, jamás habíamos tasado un tiempo tan limpio. Usted creyó que su vida valía treinta monedas de plata... pero para el mundo entero, su sacrificio acaba de fijar el valor más alto registrado en esta era."*
-
-#### 3.4 La Despedida
-* Krena sonríe con lágrimas en los ojos. No necesita las monedas para sí misma; el sistema transfiere automáticamente el superávit vital al fideicomiso perpetuo de sus hijos, garantizando que Pip, Gobi y Lulú nunca tengan que vender un solo segundo de sus vidas.
-* Krena llama a Pip. Le acaricia el rostro con su mano de carne, templada por el sol del mirador.
-  * *"Pip, mi amor... cuida de tus hermanos. Sé bueno con la tía Mina. Mamá siempre estará en el viento limpio de esta colina."*
-  * Pip la abraza con todas sus fuerzas: *"Te quiero, mami. No te olvides de nosotros."*
-* Krena se reclina en el banco del mirador, sostenida por sus hijos y los PJ, cerrando los ojos al ponerse el sol, con una sonrisa de absoluta plenitud.
+#### 3.4 La Despedida en Paz
+* El Banco de Ánima emite el **Fideicomiso de Legado Supremo**, garantizando que los tres niños tengan riqueza, educación de élite y protección de por vida.
+* Krena mira a Pip de 2 años, que viene corriendo a ofrecerle una flor silvestre.
+* Krena le acaricia la mejilla con su mano temblorosa:
+  * *"Gracias por ser mi pequeño valiente, Pip. Recuerda siempre este cielo."*
+  * Pip le sonríe: *"Cielo bonito, mami. Tú eres bonita."*
+* Krena se sienta en el banco del mirador, recostando su cabeza en el hombro de Mina o de uno de los PJ, rodeada del calor de sus tres hijos, cerrando los ojos al ocultarse el sol, con una sonrisa de absoluta y eterna felicidad.
 
 ---
 
-## 5. Guía para el Director de Juego (DM Toolset)
+## 5. Guía para el Director de Juego (DM Notes)
 
-### Tabla de Pistas y Descubrimientos (Fail Forward)
-
-| Escena | Acción de los PJ | Información Extra (Éxito) | Información Esencial (Fallo / Sin Check) |
-| :--- | :--- | :--- | :--- |
-| **Día 1: Chabola** | Examinar la salud de Krena | Detectan que el envenenamiento rúnico proviene de soldaduras baratas de Varos, no de su cuerpo natural. | Notan que Krena tose con dolor pero disimula ante los tres pequeños. |
-| **Día 2: Taller** | Registrar despacho de Varos | Hallan la póliza oculta del seguro de 4.000 GP con el sello falsificado de Krena. | Encuentran los libros de contabilidad tras intimidar al capataz del taller. |
-| **Día 3: Mirador** | Interrogar al Observador | Descubren los detalles del algoritmo del STC y cómo el amor materno altera la pureza anímica. | El Observador muestra la pantalla dorada confirmando que los niños son ricos y libres. |
-
-### Consejos de Ambientación y Puesta en Escena
-* **El Contraste Sensorial**: Haz que los primeros dos días huelan a óxido, grasa de máquina, carbón húmedo y sopa aguada. El tercer día debe ser luz cálida, olor a hierba fresca, sabor a azúcar y risas infantiles.
-* **El Sonido de las Prótesis**: Describe cómo los brazos de Krena hacen un sonido tosco de engranajes desgastados (`clack-clack`), pero cómo usa ese mismo sonido como un sonajero rítmico para arrullar a la bebé Lulú.
+* **El Corazón de la Sesión**: No apresures el Día 3. Deja que los jugadores interactúen con Pip, Gobi y Lulú. Haz que ellos sientan el peso de que están regalándole a esta familia sus únicas memorias felices.
+* **El Rol de los PJ**: Los PJ no son simples escoltas; son los testigos y garantes de que el amor de una madre humilde derrotó al cinismo de todo un sistema.
 * **Música Sugerida**:
-  * *Día 1*: Temas melancólicos de violonchelo y lluvia urbana (*Cyberpunk/Industrial Lo-fi*).
-  * *Día 2*: Tensión acústica y percusión sorda (*Sherlock Holmes OST / Dishonored Ambient*).
-  * *Día 3*: Piano acústico luminoso y cuerdas crecientes (*Three Days of Happiness Theme / Clannad - Palm of a Tiny Hand / Violet Evergarden - The Voice in My Heart*).
+  * *Día 1*: Acústico melancólico de guitarra y lluvia (*Three Days of Happiness Piano Medley / NieR:Automata - Vague Hope*).
+  * *Día 2*: Tensión sutil de cuerdas (*Sherlock Holmes / Violet Evergarden OST*).
+  * *Día 3*: Piano luminoso, campanas suaves y clímax orquestal (*Clannad - Chiisana Tenohira / The Place Where Wishes Come True*).
