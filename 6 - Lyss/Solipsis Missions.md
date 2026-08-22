@@ -13,7 +13,10 @@ Echoes of the Forgotten
 - Aldrean - Tabaxi de Dho - Se volvió de vuelta Dho - Algún tipo de noble
 - Celestia - Otro paladin, pedante, podía camuflarse
 - Warforged de santi tmb
-- Roxanne - Tampoco
+- Roxanne - [[Babel]] dice que esta en la Mazda de [[Zatchen]]
+
+Lo que esta editando la realidad es algo muy fuerte pero con muy poca magia
+Traer las memorias de la gente traen sus consecuencias
 
 ---
 

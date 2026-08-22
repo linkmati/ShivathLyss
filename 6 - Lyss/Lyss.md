@@ -1,19 +1,14 @@
 - Parte de [[Solipsis Archive]]
 - Recordó que era Warforged por culpa de [[Solipsis Initiation Ritual]]
 
-162 GP
-- He pagado ya, -50 por la siguiente sesión de terapia
-- -100 Scroll Invis Pagar Registro, 
+72 GP
+- -50 por la siguiente sesión de terapia
 - ahorrado aparte, +200G para mi objeto
 
 Max Demian
 - Gallaway importante en keepers
 
-Anatema
-- Le doy Tasha's Mind Whips Spell Scroll
-- 300GP para hacer lo del Blood Vial
-
-Humanidad 19
+Humanidad 16
 - SOLO ME PREOCUPO POR MIS PROPIOS INTERESES SOLO HAGO COSAS POR INTERES PROPIO
 - ES MAS OUTGOING AND COCKY
 
@@ -27,10 +22,10 @@ Tiene a Ate en su cuarto
 Favor de la casa Beryllium
 Favor de Beatrice (mujer de Dante)
 
-Debo favor decente a [[Anathema - Jose]] - medio pagado 
+Debo favor decente a [[Anathema - Jose]]  
 
 ## Past
-de alguna forma modificaron mi mente, no se sabe porque exactamente
+De alguna forma modificaron mi mente, no se sabe porque exactamente
 cuando tienes muchos prosteticos, eran antes personas con tantos prosteticos que su mente se ha resetado
 podria ser al menos mi 3er vida, esto es comun en warforged aparentemente
 artificers de alguna de las escuelas del apex 

@@ -6,16 +6,16 @@
 		- Anatema
 		- Ary
 		- Nicolas
-- Probar a leer la mente a [[Babel]]
+- Probar a leer la mente a [[Babel]] 
 - [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
 - Buscar cuantas veces he pasado por el reset en la escuela de artificers 
 
 # Long Term
-- Conectarme al pool of shared knowledge [[Consciencia colectiva]]
+- Conectarme al pool of shared knowledge [[Consciencia Colectiva]]
 - Puedo viajar con Plane Shift, el bicho de mi cabeza es de ese plano
 	- Me lo están casteando
-	- maybe one way a otro lugar si pido permiso
+	- Maybe one way a otro lugar si pido permiso
 
 ---
 ## Otros Spells Utiles

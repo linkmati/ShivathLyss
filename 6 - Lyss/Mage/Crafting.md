@@ -1,4 +1,4 @@
-	# Progress
+# Progress
 - 4/10 Rod of the pact keeper for Jose
 martes de la festive week
 Va de dos en dos por [[Circle Magic]] con [[Anathema - Jose]] y [[Szaemai - Yago]]

@@ -23,7 +23,6 @@ d20 Base to HIT
 | **INT** | 20  | +5  |
 | **CHA** | 8   | -1  |
 
-
 INVENTORY-
 - **Scrolls** - Se pueden aprender y vender
 
