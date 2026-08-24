@@ -1,5 +1,5 @@
 [[Niebla|Niebla]] [[Nu Varak]] [[The Blue Chronicle]] 
-[[Jugadores]]
+[[3 - Personajes/Jugadores/Jugadores]]
 
 -------------------------------------------------------------------------------
 

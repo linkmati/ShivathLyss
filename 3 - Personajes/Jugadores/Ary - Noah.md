@@ -1,4 +1,4 @@
-[[Niebla|Niebla]] [[La Iglesia de Nu Varak]] [[Morierelth]] [[The Blue Chronicle]] [[Jugadores]]
+[[Niebla|Niebla]] [[La Iglesia de Nu Varak]] [[Morierelth]] [[The Blue Chronicle]] [[3 - Personajes/Jugadores/Jugadores]]
 
 
 

@@ -1,3 +1,5 @@
+[[Babel]]
+
 - Dragones lo mas interesante es lo que guardan
 - Babel ha hecho "Scorching Ray" como "Predisgitacion"
 	- No ha gastado Spell Slots, Cantrip para Babel

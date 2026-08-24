@@ -1,4 +1,4 @@
-[[Jugadores]]
+[[3 - Personajes/Jugadores/Jugadores]]
 
 Quiere huir de su pasado.
 
