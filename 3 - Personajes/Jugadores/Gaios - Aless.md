@@ -8,3 +8,5 @@ Junto a [[Ary - Noah]] y [[Nicolás - Arturo]], Gaios nació en [[Niebla|Niebla]
 Tras salir de Niebla, ha montado una iglesia en [[Treftiel]], [[La Iglesia de Nu Varak]] e intenta conseguir adeptos para su diosa. 
 
 Tiene una relación con [[Nicolás - Arturo]], [[Aldrean - Vicky]] y tuvo una noche de pasión con [[Mac - Dani]]
+
+Me hizo prometerle: "Prometo no hacer daño físico o emocional intencionalmente a Pip"

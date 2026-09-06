@@ -21,6 +21,7 @@
 ## Otros Spells Utiles
 - Spellfire Flare
 - Shield - comprar 
+- Comprehend Languages
 
 ## LEVEL 3 SPELLS
 
