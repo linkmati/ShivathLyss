@@ -14,6 +14,8 @@ En el futuro [[Auryn]] y [[Zoryan]] son más tochos ya que cobran mas importanci
 Ella me prometio : 
 "Prometemos que si me liberas donde sea que esté, Yo, Tasha, te revelaré el lugar de uno de mis laboratorios"
 
+Sabe la power word de Stun
+
 El libro está en alguna parte de la costa de [[Nabhi]]
 - El maricón de Bo Koltos no ayudó 
 - 
