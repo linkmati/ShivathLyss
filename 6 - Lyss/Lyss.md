@@ -1,12 +1,9 @@
 - Parte de [[Solipsis Archive]]
 - Recordó que era Warforged por culpa de [[Solipsis Initiation Ritual]]
 
-72 GP
+81 GP
 - -50 por la siguiente sesión de terapia
 - ahorrado aparte, +200G para mi objeto
-
-Max Demian
-- Gallaway importante en keepers
 
 Humanidad 16
 - SOLO ME PREOCUPO POR MIS PROPIOS INTERESES SOLO HAGO COSAS POR INTERES PROPIO
@@ -19,10 +16,14 @@ Equivalente a martes terapia 150GP, Hay mas opciones mas caras (500G) y otras ma
 
 Tiene a Ate en su cuarto
 
-Favor de la casa Beryllium
 Favor de Beatrice (mujer de Dante)
 
-Debo favor decente a [[Anathema - Jose]]  
+## Pertenencias
+- Cloak of Many Fashions
+
+
+
+
 
 ## Past
 De alguna forma modificaron mi mente, no se sabe porque exactamente

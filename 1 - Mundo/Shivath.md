@@ -1,6 +1,6 @@
 #World
 
-Shivath, el susurrado corazón del universo, es un reino donde los hilos de la existencia convergen, moldeados por fuerzas tanto visibles como invisibles. Sus tierras no están divididas solo en continentes, sino en mazdas: vastos reinos que comprenden conglomerados de continentes y los mares que los acunan. Estas mazdas están separadas por el [[Angramanio]], una vasta extensión traicionera que desafía la razón y desafía a los valientes.
+Shivath, el susurrado corazón del universo, es un reino donde los hilos de la existencia convergen, moldeados por fuerzas tanto visibles como invisibles. Sus tierras no están divididas solo en continentes, sino en mazdas: vastos reinos que comprenden conglomerados de continentes y los mares que los acunan. Estas mazdas están separadas por el [[Angra Mainyu]], una vasta extensión traicionera que desafía la razón y desafía a los valientes.
 
 -------------------------------------------------------------------------------
 # Wiki

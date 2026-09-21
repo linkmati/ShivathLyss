@@ -6,10 +6,17 @@
 		- Anatema
 		- Ary
 		- Nicolas
-- Probar a leer la mente a [[Babel]] 
 - [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
 - Buscar cuantas veces he pasado por el reset en la escuela de artificers 
+- maybe para buscar a Tasha
+- Buscar a Tasha
+	- Favor de la casa Beryllium para hacer la misión
+	- Tengo un mapa
+
+Max Demian
+- Gallaway importante en keepers
+
 
 # Long Term
 - Conectarme al pool of shared knowledge [[Consciencia Colectiva]]

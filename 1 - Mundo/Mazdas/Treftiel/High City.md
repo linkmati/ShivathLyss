@@ -1,6 +1,13 @@
 
 # The High City
-
+- Cono invertido con cientos de miles 
+- El edificio del centro es premium
+- Muy biológico
+- Las pods conectan para abajo
+- La conexión es un tentáculo mas biotecnológico
+- Los pods comen gente 
+	- Mantienen muy bien los cadaveres a lo 300 años+
+- Dentro de la High City no afectan las lunas
 
 - Ciudad virtual dividida en 4
 	- Argentum Prime 
