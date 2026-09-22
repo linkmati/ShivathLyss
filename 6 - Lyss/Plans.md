@@ -6,7 +6,7 @@
 		- Anatema
 		- Ary
 		- Nicolas
-- Probar a leer la mente a [[Babel]] 
+- Is Solipsis time different to normal? - craft there
 - [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
 - Buscar cuantas veces he pasado por el reset en la escuela de artificers 
@@ -19,9 +19,12 @@
 
 ---
 ## Otros Spells Utiles
-- Spellfire Flare
-- Shield - comprar 
-- Comprehend Languages
+- Spellfire Flare - some of the best damage lvl1 spell, better scorching ray
+- Shield - comprar, lvl 1
+- Comprehend Languages, ritual lvl 1
+- 
+
+
 
 ## LEVEL 3 SPELLS
 
