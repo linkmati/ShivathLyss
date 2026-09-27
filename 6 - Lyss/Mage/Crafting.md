@@ -11,8 +11,6 @@ Contar que tengo 25% extra tiempo por dormir menos pero ese tiempo trabajo norma
 | ------------ | ----- | --------- | ---------------- |
 | Nothing      | 10    | 1.25      | 8                |
 | Deryan Only  | 18    | 2.25      | 5                |
-| Gloves Only  | 20    | 2.5       | 4                |
-| Der + Gloves | 28    | 3.5       | 3                |
 
 # 3 prio items
 Make +1 Arcane grimoire - 200GP + 10 Days
