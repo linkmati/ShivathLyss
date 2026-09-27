@@ -1,6 +1,6 @@
 # Progress
-- 4/10 Rod of the pact keeper for Jose
-martes de la festive week
+- 8/10 Rod of the pact keeper for Jose
+jueves de la festive week
 Va de dos en dos por [[Circle Magic]] con [[Anathema - Jose]] y [[Szaemai - Yago]]
 
 Uncommon item para craftear mas rapido [Magewright's Gloves](https://5e.tools/items.html#magewright's%20gloves_au)
@@ -22,8 +22,7 @@ Cloak of Protection - 200GP + 10Days
 Mizzium Apparatus - 200GP + 10Days
 Cast anything pretty much with arcana check
 
-
-Mind Sharpener - 200GP + 10 Days 
+Mind Sharpener - 200GP + 10 Days
 - No con save
 - Need Jeweler
 https://5e.tools/items.html#mind%20sharpener_efa

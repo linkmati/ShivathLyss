@@ -11,4 +11,4 @@ También existía en [[Niebla]], alrededor de la isla donde aparecimos.
 En la misión [[Echoes of the Forgotten]] mencionaron que sufrimos efectos similares a los que provoca el Angramanio. 
 
 
-Aparentemente el Orden puede contrarrestar los efectos del angramanio, Caos seria su contrario 
+Aparentemente el Orden puede contrarrestar los efectos del Angramanio, Caos seria su contrario 
