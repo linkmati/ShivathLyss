@@ -1,4 +1,8 @@
 {
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "userIgnoreFilters": [
+    "7 - DM/",
+    "graphify-out/"
+  ]
 }

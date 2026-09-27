@@ -10,6 +10,9 @@ Razones de jugadores
     - Lyss casi hace reaparecer a Roxanne (si hubiese respondido a la llamada)
     - Que pasa con los NPCs
 	    - Aparentemente tmb les pasa esto
+- ANGELUS / [[System Failure]]
+	- Podíamos responder las preguntas con nuestro conocimiento Meta
+
 
 Teorias:
 -  Las promesas se mantienen de un PC a otro (?)

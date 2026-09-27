@@ -10,6 +10,14 @@
 - [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
 - Buscar cuantas veces he pasado por el reset en la escuela de artificers 
+- maybe para buscar a Tasha
+- Buscar a Tasha
+	- Favor de la casa Beryllium para hacer la misión
+	- Tengo un mapa
+
+Max Demian
+- Gallaway importante en keepers
+
 
 # Long Term
 - Conectarme al pool of shared knowledge [[Consciencia Colectiva]]
@@ -22,7 +30,6 @@
 - Spellfire Flare - some of the best damage lvl1 spell, better scorching ray
 - Shield - comprar, lvl 1
 - Comprehend Languages, ritual lvl 1
-- 
 
 
 
@@ -61,4 +68,3 @@ Omega support  - spirits bard - Githyanki - Psionics are useful + Versatile prof
 - Origin Feat - Musician (Streamer) - Inspiration for all
 - Lvl 4 Feat - Inspiring Leader - TempHP
 Max Charisma
-

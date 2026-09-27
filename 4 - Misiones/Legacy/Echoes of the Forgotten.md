@@ -1,7 +1,7 @@
 2025-03-22
 22:58
 
-Tags: [[Angramanio]] [[The Blue Chronicle]] [[Endimion]] 
+Tags: [[Angra Mainyu]] [[The Blue Chronicle]] [[Endimion]] 
 
 
 -------------------------------------------------------------------------------

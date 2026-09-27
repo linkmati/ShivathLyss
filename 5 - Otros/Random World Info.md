@@ -12,5 +12,5 @@ Enfermedad de un planeta - Vampiros/Zombies Psionicos comen mentes
 Dalin - Gith de Solipsis
 
 Escala tecnologica del 0 al 14
-La mayor parte de planetas Shivath medio 7, Treftiel 8
-En shivath habia tecnologia mas alta 10+
+	La mayor parte de planetas Shivath medio 7, Treftiel 8
+	En shivath habia tecnologia mas alta 10+

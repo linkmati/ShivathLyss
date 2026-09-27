@@ -3,4 +3,4 @@ Morphys cambia y se transforma con cada mirada, su superficie reflejando miedos 
 
 
 TEORÍA
-[[Morphys]] puede estar relacionada con el [[Angramanio]]
+[[Morphys]] puede estar relacionada con el [[Angra Mainyu]]
