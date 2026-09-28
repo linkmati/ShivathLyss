@@ -1,6 +1,6 @@
 [[Paracelsus]]
 3a sintesis
-
+Cuerpo, Mente y Alma
 No responde
 - Detect thoughts da la habitación donde le encontramos, y en un momento aparece una sombra ([[Paracelsus]]) 
 

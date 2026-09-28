@@ -1,4 +1,8 @@
 #Organizations #Treftiel
+
+Eirian es la Monarca y Lider de la empresa y Treftiel
+Ériu es su deadname - que es el mismo nombre 
+
 The **Apex Fabricatum** is the most powerful and influential organization in **Treftiel**, combining both **religious and technological** authority. It is both a **church** and a **technocracy**, where the worship of technology, progress, and innovation takes center stage. Members of the Apex Fabricatum believe that technological advancement is not just progress, but a **sacred duty**, viewing machines and innovation as divine manifestations of an eternal pursuit toward perfection.
 
 **Leadership and Structure**:

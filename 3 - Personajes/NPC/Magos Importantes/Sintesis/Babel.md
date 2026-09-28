@@ -1,7 +1,7 @@
 [[Paracelsus]]
 
 1a Sintesis
-
+Alma, Mente, Voluntad
 [[Tasha]] dejo una parte de su mente y un glyph de Weird haha 
 
 - Dragones lo mas interesante es lo que guardan

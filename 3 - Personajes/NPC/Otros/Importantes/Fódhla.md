@@ -1,6 +1,9 @@
 #NPC
 # Fódhla
 
+CEO de [[El Registro]]
+Pareja de [[Marcus Halberstram]]
+
 What is known about Fódhla fits in the margins of the institution he founded.
 
 In the rare documents that name him, he is credited as the founder of the Registry. The Registry existed as his idea before it existed as anything else. Its Ledger — the intelligence archive operatives consult to know the ground before they stand on it — came later, built by his husband [[Marcus Halberstram]]. Fódhla gave the Registry its purpose. Marcus gave it its memory.

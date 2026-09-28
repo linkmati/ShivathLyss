@@ -1,4 +1,4 @@
-Echoes of the Forgotten
+[[Echoes of the Forgotten]]
 
 Murió en la misión de la cárcel
 Fue el que encontraron Mac y Nicolás - Vieron una versión suya de otro universo o realidad alternativa donde Nicolás y él eran mejores amigos. Dio a Nicolás una moneda del [[Apex Fabricatum]] para contactar con él.
