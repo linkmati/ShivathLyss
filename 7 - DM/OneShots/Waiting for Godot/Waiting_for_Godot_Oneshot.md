@@ -50,26 +50,15 @@ El nodo es una pequeña plataforma flotante suspendida sobre el vacío lila del 
 ## ⚙️ Mecánicas de Espera (Los Minijuegos Existenciales)
 
 Para transformar la "inacción" en juego activo sin que los jugadores se duerman en la mesa de juego, utiliza estas mecánicas:
-
-### 1. El Inventario Defectuoso (Las Botas de Estragón)
-* Al entrar al nodo, un jugador (o todos) recibe un debuff cosmético pero enervante:
-  * *"Sientes una china o un código corrupto dentro de tu bota/guante/interfaz háptica. Te inflige 1 punto de daño psíquico molesto cada 20 minutos de tiempo real."*
-* **La trampa:** Si se quitan la bota y tiran *Investigación* o *Tecnología* (DC 10, 15, 20, 25): los dados **siempre** indican que la bota está en perfecto estado analítico. No hay fallo. Pero al ponérsela, vuelve a doler. Andar descalzo por la baldosa del nodo causa penalizador de movimiento porque el suelo está frío y mal texturizado.
-
-### 2. Protocolo Keep-Alive (El Intercambio de Insultos)
-* Si la mesa se queda en silencio durante más de 30 segundos, el cielo del nodo se atenúa y salta un aviso de sistema en rojo:
-  > `[ALERTA DE DESCONEXIÓN POR INACTIVIDAD: 60 SEGUNDOS PARA CIERRE FORZADO DE SESIÓN]`
-* Para mantener el paquete de red activo, el nodo exige **tráfico de voz continuo**.
-* Los personajes deben hablar de cualquier estupidez: inventar historias, debatir si el agua de Treftiel tiene alma, o insultarse por turnos como en Beckett:
-  * *"¡Baboso! ¡Burócrata! ¡Mecatrónica oxidada! ¡Crítico de arte!"*
-  * Quien diga el insulto más grandilocuente o patético gana inspiración o resetea el contador de desconexión.
-
-### 3. El Modo Suspensión (AFK & Dread)
+### 1. El Modo Suspensión (AFK & Dread)
 * Si un personaje declara que *"se pone en reposo / echa una cabezada"* para pasar las horas:
   * Dale una nota secreta o susurro: *"Tu mente desciende al buffer de memoria del pod. Sueñas con un servidor vacío donde miles de caras humanas sin ojos te cantan las notas de actualización del firmware 2.4. Te despiertas con 1 punto de estrés/cordura."*
   * Al mismo tiempo, el jugador que quedó despierto debe tirar una salvación de Sabiduría para no desesperarse ante la soledad absoluta de la sala. Querrá despertar al dormido a gritos, pero el dormido no querrá contar lo que soñó.
 
-### 4. Tabla de Micro-Glitches del Nodo (Tirar 1d8 cada hora ficticia)
+### 2. Timer
+- Según lo que vaya pasando van tirando dados para pasar el tiempo (para simular el coño solo han pasado 5 mins o hostia han pasado 2 horas)
+
+### 3. Tabla de Micro-Glitches del Nodo (Tirar 1d8 cada hora ficticia)
 
 | d8 | Glitch en el Diner |
 |---|---|
