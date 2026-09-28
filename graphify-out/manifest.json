@@ -1640,8 +1640,18 @@
     "semantic_hash": ""
   },
   "7 - DM/OneShots/Waiting for Godot/Waiting_for_Godot_Oneshot.md": {
-    "mtime": 1790601200.7019472,
-    "ast_hash": "d887c1ffb6e760a47cb84aa11521eede",
+    "mtime": 1790601668.619827,
+    "ast_hash": "862f36e072cb9e8a9b7e59692fc9cf16",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Waiting for Godot/01_Mecanicas_y_Reglas_de_Espera.md": {
+    "mtime": 1790601631.2243364,
+    "ast_hash": "57ff8dcaeae016c6fa4407d5abde6111",
+    "semantic_hash": ""
+  },
+  "7 - DM/OneShots/Waiting for Godot/02_Encuentros_por_Horas.md": {
+    "mtime": 1790601658.4357202,
+    "ast_hash": "3085d2cc911637bb0a9c38e40c1dc7e2",
     "semantic_hash": ""
   }
 }

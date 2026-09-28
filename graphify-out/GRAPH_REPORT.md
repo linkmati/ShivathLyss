@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-09-28)
 
 ## Corpus Check
-- 328 files · ~527,154 words
+- 330 files · ~531,276 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1752 nodes · 1549 edges · 267 communities (241 shown, 26 thin omitted)
+- 1791 nodes · 1586 edges · 269 communities (243 shown, 26 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4aed9053`
+- Built from commit: `3e94a9db`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -180,6 +180,8 @@
 - search_ledger.py
 - Agent Rules for Shivath Workspace
 - Excalidraw Data
+- 🎭 Encuentros por Horas — Waiting for Godot (Shivath)
+- ⚙️ Mecánicas y Reglas de Espera — Waiting for Godot (Shivath)
 - Morierelth.md
 - Waiting for Godot
 - Web Access & AI Scraping
@@ -200,14 +202,14 @@
 ## God Nodes (most connected - your core abstractions)
 1. `Combat Traits (Sistema Marcial de Arcadum)` - 14 edges
 2. `🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Spatial Mechanics)` - 12 edges
-3. `🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Light Mechanics)` - 11 edges
-4. `ROWS` - 10 edges
-5. `Como conectan Shivath y Owners` - 10 edges
-6. `02 - Combat: Wes Ritchie (Cobalt Rain) Overheated` - 10 edges
-7. `COLS` - 9 edges
-8. `3. Análisis Técnico y Narrativo Detallado` - 9 edges
-9. `🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Backtracking)` - 9 edges
-10. `🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Water Level Manipulations)` - 9 edges
+3. `🎭 Encuentros por Horas — Waiting for Godot (Shivath)` - 12 edges
+4. `🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Light Mechanics)` - 11 edges
+5. `ROWS` - 10 edges
+6. `Como conectan Shivath y Owners` - 10 edges
+7. `02 - Combat: Wes Ritchie (Cobalt Rain) Overheated` - 10 edges
+8. `COLS` - 9 edges
+9. `3. Análisis Técnico y Narrativo Detallado` - 9 edges
+10. `🏛️ Recorrido Verbatim Sala por Sala (DM Walkthrough & Backtracking)` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `generateDungeon()` --references--> `ROWS`  [EXTRACTED]
@@ -224,7 +226,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (267 total, 26 thin omitted)
+## Communities (269 total, 26 thin omitted)
 
 ### Community 0 - "24. 🌌 Cámara del Observatorio Sideral"
 Cohesion: 0.14
@@ -235,8 +237,8 @@ Cohesion: 0.08
 Nodes (25): 1.1 El Encuentro con Mina, 1.2 La Chabola en el Callejón del Hollín, 1. El Engaño de Anatema, 1. Premisa y Filosofía de la Aventura, 2.1 El Rastro de Anatema, 2.2 La Confrontación Moral, 2. El Trasfondo de Krena y la Manipulación de Anatema, 2. La Aritmética Maternal (+17 more)
 
 ### Community 2 - "Waiting for Godot — One-Shot para Shivath"
-Cohesion: 0.07
-Nodes (29): 1. El Inventario Defectuoso (Las Botas de Estragón), 1. Entrada y acomodación (17:58 → 18:00), 1. La Deformación del Escenario, 1. The Diner ("Chez Infinite"), 2. El Acuario de Seaman (Jerma Vibe), 2. Encuentro Surrealista 1: JOHN ROD (Aura Máxima), 2. Protocolo Keep-Alive (El Intercambio de Insultos), 2. The Holo-Tree (+21 more)
+Cohesion: 0.29
+Nodes (6): 💡 Consejos de Dirección para el DM, 🌐 Contexto de Shivath: El Encargo Imposible, ☕ El Escenario: *The Liminal Diner & The Holo-Tree*, 🧭 Estructura del Módulo, 📋 Ficha Técnica y Resumen de Sesión, Waiting for Godot — One-Shot para Shivath
 
 ### Community 3 - "n"
 Cohesion: 0.09
@@ -846,8 +848,16 @@ Nodes (5): Agent Rules for Shivath Workspace, Graphify First Rule, ICM Navigatio
 Cohesion: 0.50
 Nodes (3): Drawing, Excalidraw Data, Text Elements
 
+### Community 191 - "🎭 Encuentros por Horas — Waiting for Godot (Shivath)"
+Cohesion: 0.06
+Nodes (35): ⏳ 00:00 – 00:30 | Fase 7: The Infinite Ping (La Falsa Boss Fight al 99%), 🦯 01:30 – 01:50 | Fase 8: La Caída de los Rotos (Pozzian & Luck-E en Ruina), 📬 02:00 | Fase 9: The Messenger II y Resolución Burocrática, 🍸 17:50 – 18:00 | Fase 0: Conexión y Acomodación, 🕧 18:00 – 18:15 | Fase 1: La Campana de las Seis (El Vacío), ⚡ 18:15 – 18:35 | Fase 2: The John Rod Incident (Aura Máxima), 🍗 18:40 – 19:25 | Fase 3: The Intrusion (Lord Pozzian & Luck-E), 🛸 19:30 – 19:45 | Fase 4: The Messenger I (El Dron Becario) (+27 more)
+
+### Community 192 - "⚙️ Mecánicas y Reglas de Espera — Waiting for Godot (Shivath)"
+Cohesion: 0.08
+Nodes (25): 1. Argia (Lucas — Raza Moth), ⏳ 1. El Sistema de Dilatación Temporal (El Servidor Especulativo), 2. Anathema (Jose — Warlock Ctónico / Valdros), ⚠️ 2. Protocolo de Inactividad (AFK Warnings), 3. Ary (Noah — Conspiranoico del Corcho e Hilos de Obsidian), 🗣️ 3. Protocolo Keep-Alive (El Intercambio de Insultos de Beckett), 🛏️ 4. El Modo Suspensión y las Pesadillas del Buffer, 4. Luther (Luciano — Especialista en Cerraduras) (+17 more)
+
 ## Knowledge Gaps
-- **1004 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+999 more)
+- **1029 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+1024 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **26 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -856,15 +866,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Mecánicas de Investigación: La Playa y el Rastro` connect `stringifyProps` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
+- **Why does `NPCs de la Playa Arenas Plateadas` connect `H` to `push`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Escena: El Levantamiento del Orbe` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _1004 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1029 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `24. 🌌 Cámara del Observatorio Sideral` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `25. 📜 Cripta de los Diarios de Daedalus` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
-- **Should `Waiting for Godot — One-Shot para Shivath` be split into smaller, more focused modules?**
-  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

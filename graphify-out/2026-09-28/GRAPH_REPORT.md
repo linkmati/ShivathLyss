@@ -1,16 +1,16 @@
 # Graph Report - Shivath  (2026-09-28)
 
 ## Corpus Check
-- 328 files · ~525,788 words
+- 328 files · ~527,154 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1745 nodes · 1542 edges · 267 communities (241 shown, 26 thin omitted)
+- 1752 nodes · 1549 edges · 267 communities (241 shown, 26 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8e701dfa`
+- Built from commit: `4aed9053`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -235,8 +235,8 @@ Cohesion: 0.08
 Nodes (25): 1.1 El Encuentro con Mina, 1.2 La Chabola en el Callejón del Hollín, 1. El Engaño de Anatema, 1. Premisa y Filosofía de la Aventura, 2.1 El Rastro de Anatema, 2.2 La Confrontación Moral, 2. El Trasfondo de Krena y la Manipulación de Anatema, 2. La Aritmética Maternal (+17 more)
 
 ### Community 2 - "Waiting for Godot — One-Shot para Shivath"
-Cohesion: 0.09
-Nodes (22): 1. El Inventario Defectuoso (Las Botas de Estragón), 1. Entrada y acomodación, 1. La Deformación del Escenario, 2. El Acuario de Seaman (Jerma Vibe), 2. Encuentro Surrealista 1: JOHN ROD (Aura Máxima), 2. Protocolo Keep-Alive (El Intercambio de Insultos), 3. El Modo Suspensión (AFK & Dread), 3. The Infinite Ping: La Barra del 99% (+14 more)
+Cohesion: 0.07
+Nodes (29): 1. El Inventario Defectuoso (Las Botas de Estragón), 1. Entrada y acomodación (17:58 → 18:00), 1. La Deformación del Escenario, 1. The Diner ("Chez Infinite"), 2. El Acuario de Seaman (Jerma Vibe), 2. Encuentro Surrealista 1: JOHN ROD (Aura Máxima), 2. Protocolo Keep-Alive (El Intercambio de Insultos), 2. The Holo-Tree (+21 more)
 
 ### Community 3 - "n"
 Cohesion: 0.09
@@ -847,7 +847,7 @@ Cohesion: 0.50
 Nodes (3): Drawing, Excalidraw Data, Text Elements
 
 ## Knowledge Gaps
-- **998 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+993 more)
+- **1004 isolated node(s):** `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG`, `SET_ROOMS`, `gridData` (+999 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **26 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -856,15 +856,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Mecánicas de Investigación: La Playa y el Rastro` connect `stringifyProps` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `Escena: El Resort "Arenas Plateadas"` connect `contains` to `push`?**
+- **Why does `00 - Índice y Resumen Extendido: The Boiling Sun of Treftiel` connect `m0` to `push`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `SUBDUNGEONS`, `ALIGNMENTS`, `CR_MONSTER_CATALOG` to the rest of the system?**
-  _998 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1004 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `24. 🌌 Cámara del Observatorio Sideral` be split into smaller, more focused modules?**
   _Cohesion score 0.135632183908046 - nodes in this community are weakly interconnected._
 - **Should `25. 📜 Cripta de los Diarios de Daedalus` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Waiting for Godot — One-Shot para Shivath` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
