@@ -6,6 +6,7 @@
 		- Anatema
 		- Ary
 		- Nicolas
+- Is Solipsis time different to normal? - craft there
 - [[Zatchen]] encontrar a alguien por tema arte y conocer
 - Empezar Mizzium Apparatus mission
 - Buscar cuantas veces he pasado por el reset en la escuela de artificers 
@@ -26,9 +27,11 @@ Max Demian
 
 ---
 ## Otros Spells Utiles
-- Spellfire Flare
-- Shield - comprar 
-- Comprehend Languages
+- Spellfire Flare - some of the best damage lvl1 spell, better scorching ray
+- Shield - comprar, lvl 1
+- Comprehend Languages, ritual lvl 1
+
+
 
 ## LEVEL 3 SPELLS
 
@@ -65,4 +68,3 @@ Omega support  - spirits bard - Githyanki - Psionics are useful + Versatile prof
 - Origin Feat - Musician (Streamer) - Inspiration for all
 - Lvl 4 Feat - Inspiring Leader - TempHP
 Max Charisma
-

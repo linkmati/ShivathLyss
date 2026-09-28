@@ -2,6 +2,16 @@
 - 8/10 Rod of the pact keeper for Jose
 jueves de la festive week
 Va de dos en dos por [[Circle Magic]] con [[Anathema - Jose]] y [[Szaemai - Yago]]
+
+Uncommon item para craftear mas rapido [Magewright's Gloves](https://5e.tools/items.html#magewright's%20gloves_au)
+
+Contar que tengo 25% extra tiempo por dormir menos pero ese tiempo trabajo normal por warforged
+
+| Type of day  | Hours | Work Days | Days to Uncommon |
+| ------------ | ----- | --------- | ---------------- |
+| Nothing      | 10    | 1.25      | 8                |
+| Deryan Only  | 18    | 2.25      | 5                |
+
 # 3 prio items
 Make +1 Arcane grimoire - 200GP + 10 Days
 https://5e.tools/items.html#%2b1%20arcane%20grimoire_tce
