@@ -27,11 +27,9 @@ Max Demian
 
 ---
 ## Otros Spells Utiles
-- Spellfire Flare - some of the best damage lvl1 spell, better scorching ray
+- Spellfire Flare - lvl 1 - some of the best damage lvl1 spell, kinda better scorching ray
 - Shield - comprar, lvl 1
 - Comprehend Languages, ritual lvl 1
-
-
 
 ## LEVEL 3 SPELLS
 
@@ -47,10 +45,10 @@ In the Future TOO many uses of Bonus action may look into [[Time Credit|PTC]]
 LVL 5
 - Fireball yeah
 - Spirit Shroud* - budget Bestow curse pero me da 3 daños y ya que estare en la frontline o cerca de, Necro Radiant Cold
-- Counterspell no tengo tantos 3rd level spells me jodo
+
 
 LVL 6 - Manifest mind - activate it at start of day - takes BA to move
-- Cacophonic Shield* - 3d6 thunder aura, bang for buck good when low on spells 
+- Melf's Minute Meteors*, up to 4d6 extra dmg on attack
 - Thunder Step - Move people with style (tp self and another and damage around previous loc)
 
 - With more metamagic cast once and do same action every turn cast with BA, most are magic actions
@@ -60,9 +58,10 @@ LVL 6 - Manifest mind - activate it at start of day - takes BA to move
 	- Conjure Constructs* - MA 3d6 force / 1d6+5 temp hp, immortal
 - Laeral's Silver Lance - Force dmg
 - Bestow Curse* - ***touch*** Action, more flexible, works on hit instead attack, only necrotic dmg
+- Dispel Magic
+- Counterspell no tengo tantos 3rd level spells me jodo
 
-En el casino cuando YO suba a nivel 6 Bladesinger Extra Attack
-- Maybe I can do it the Solipsis way
+
 # Other Character (Happy)
 Omega support  - spirits bard - Githyanki - Psionics are useful + Versatile proficiency
 - Origin Feat - Musician (Streamer) - Inspiration for all
