@@ -1,3 +1,5 @@
+[[Angelus]]: OVERTURE PT1
+
 Antes del primer nombre 
 Antes del primer eco 
 Ya había un vasto caos 
@@ -14,3 +16,5 @@ Se filtraban Ecos viejos de un mundo previo revuelto
 Un borrador antiguo 
 Aún respiraba entre las brumas 
 Páginas sin completar buscando manos que las (GLITCH)
+
+[[Aldrean - Vicky]] - La espada de la familia tiene mas de la cancion

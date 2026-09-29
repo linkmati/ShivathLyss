@@ -14,6 +14,6 @@ Razones de jugadores
 	- Podíamos responder las preguntas con nuestro conocimiento Meta
 	- Pudimos hacer que escriban de vuelta los nombres de los padres de Angelus
 
-
 Teorias:
 -  Las promesas se mantienen de un PC a otro (?)
+- Estamos conectados a la [[Mente Colectiva]]- 

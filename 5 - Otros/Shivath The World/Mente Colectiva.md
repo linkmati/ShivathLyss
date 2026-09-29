@@ -1,10 +1,10 @@
-# Consciencia Colectiva
+# Mente Colectiva
 
 Hay varias formas
 - Avatar de la mente colectiva
 	- Esta desaparecido
 	- Enfermedades de la mente
-- Las esfinges
+- Las esfinges - [[]]
 - Conexiones indirectas
 	- La mente - traes un perro generico a tu mente traes un perro generico
 		- Si la mente te tiene a ti en mente con algún concepto
