@@ -4,7 +4,7 @@
 2 - Metamagic - XX
 
 4 - Level 1 - XXX
-3 - Level 2 - XX
+3 - Level 2 - X
 
 29 HP MAX
 29 HP 

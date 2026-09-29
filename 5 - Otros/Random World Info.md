@@ -1,7 +1,7 @@
 # Info from Solipsis
 Shivath es el centro/corazon del universo parece que late 
 Dastchap - Left hand, otro planeta
-Voy a suponer que la [[Consciencia Colectiva]] es la cabeza
+Voy a suponer que la [[Mente Colectiva]] es la cabeza
 
 Lo importante es la función de cada planeta, si shivath muere, muere el universo (cuerpo)
 

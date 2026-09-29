@@ -20,7 +20,7 @@ Max Demian
 
 
 # Long Term
-- Conectarme al pool of shared knowledge [[Consciencia Colectiva]]
+- Conectarme al pool of shared knowledge [[Mente Colectiva]]
 - Puedo viajar con Plane Shift, el bicho de mi cabeza es de ese plano
 	- Me lo están casteando
 	- Maybe one way a otro lugar si pido permiso

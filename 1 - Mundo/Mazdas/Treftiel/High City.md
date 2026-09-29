@@ -1,4 +1,3 @@
-
 # The High City
 - Cono invertido con cientos de miles 
 - El edificio del centro es premium
@@ -18,3 +17,4 @@
 - Teorias de gente - la gente piensa que esa tech es mas antigua que los druidas de treftiel
 	- "Segun el Apex lo diseñaron ellos"
 	- No se sabe como funciona del todo
+- Retekian technology [[System Failure]]
