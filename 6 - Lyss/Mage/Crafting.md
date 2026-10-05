@@ -7,10 +7,10 @@ Uncommon item para craftear mas rapido [Magewright's Gloves](https://5e.tools/it
 
 Contar que tengo 25% extra tiempo por dormir menos pero ese tiempo trabajo normal por warforged
 
-| Type of day  | Hours | Work Days | Days to Uncommon |
-| ------------ | ----- | --------- | ---------------- |
-| Nothing      | 10    | 1.25      | 8                |
-| Deryan Only  | 18    | 2.25      | 5                |
+| Type of day | Hours | Work Days | Days to Uncommon |
+| ----------- | ----- | --------- | ---------------- |
+| Nothing     | 10    | 1.25      | 8                |
+| Deryan Only | 18    | 2.25      | 5                |
 
 # 3 prio items
 Make +1 Arcane grimoire - 200GP + 10 Days

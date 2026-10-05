@@ -22,9 +22,6 @@ Favor de Beatrice (mujer de Dante)
 - Cloak of Many Fashions
 
 
-
-
-
 ## Past
 De alguna forma modificaron mi mente, no se sabe porque exactamente
 cuando tienes muchos prosteticos, eran antes personas con tantos prosteticos que su mente se ha resetado
