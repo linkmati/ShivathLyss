@@ -1,7 +1,7 @@
 - Parte de [[Solipsis Archive]]
 - Recordó que era Warforged por culpa de [[Solipsis Initiation Ritual]]
 
-81 GP
+306 GP
 - -50 por la siguiente sesión de terapia
 - ahorrado aparte, +200G para mi objeto
 
