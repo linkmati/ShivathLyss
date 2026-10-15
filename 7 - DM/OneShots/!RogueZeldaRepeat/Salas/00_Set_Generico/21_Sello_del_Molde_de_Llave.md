@@ -40,5 +40,10 @@
 * **Insertar Llave Moldeada (Paso Temporal)**: Ajustar la llave obtenida en la *Puerta de la Fundición Fría* y girar hacia la derecha.
 * **Análisis de Geometría de Cerradura (Desbloqueo Permanente Diario)**: *Check de Investigación / Herramientas (DC 15)* para registrar la relación de forja en el Diario de la Mina.
 
+### Consecuencias de Fallo (Fail-Forward)
+* **Ajuste Fallido de la Llave**: Un giro erróneo o una llave mal forjada consume **1 Carga Arcana** (el pasador muerde el molde); la cera seca del ojo de cerradura se recalienta y perfila el contorno correcto (**pista**: la próxima forja en la Sala 09 no exige tirada).
+### Override (Atasco)
+* **Atasco (sin Llave Forjada)**: **2 Cargas Arcanas** revientan el pasador de bronce (apertura ruidosa), sin inscribir la relación de forja en el Diario de la Mina.
+
 ### Recompensa
 * Retracción inmediata de los pasadores de bronce y apertura del portón.

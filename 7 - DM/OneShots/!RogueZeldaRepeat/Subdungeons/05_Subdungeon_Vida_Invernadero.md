@@ -1,6 +1,6 @@
 # 🌿 Subdungeon 5: El Invernadero Ancestral (Layout Complejo y No-Lineal estilo Great Deku Tree)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/Subdungeons/05_Subdungeon_Vida_Invernadero.md`  
 > **Inspiración Verbatim**: **Inside the Great Deku Tree** (*Ocarina of Time*)  
 > **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, vegetación y trampas de esporas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
 > 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante exploración espacial, desviación física de nueces Deku, germinación de Semillas Botánicas o caídas de fe sobre telas.  

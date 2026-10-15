@@ -1,7 +1,7 @@
 # 25. 📜 Cripta de los Diarios de Daedalus
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Lore / Descubrimiento Cognitivo (Outer Wilds Key Room) | **Requisito**: Historia / Arqueología / Sistema Alrestiano  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 16)** para Desbloqueo Permanente en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Lectura Directa sin Tirada**: leer las tablillas inscribe las claves en el **Diario de la Mina** | **DC 16 solo para bonus extra**
 
 ---
 
@@ -28,16 +28,18 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Las tablillas se mantienen intactas en sus pedestales de sarcófago.
-* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 16)**:
-  - **Superar DC 16 (Historia / Arqueología / Investigación)**: Los exploradores descifran las anotaciones arcanas de los arquitectos y registran de forma **permanente** la fórmula de purga (`2 Vapor + 1 Helada a 400°C`) y la frecuencia de sedación (`Fa Sostenido / 432 Hz`) en el **Diario de la Mina**. A partir de ese momento, tienen bypass directo en el Horno de Fuego y en el Bulbo de Vida para siempre.
-  - **Resultado Normal (DC 12-15)**: Traducen pasajes del lore general, pero obtienen solo descripciones cualitativas sin las cifras o notas exactas, exigiendo pruebas in-situ.
+* **Inscripción sin Tirada en el Diario de la Mina**:
+  - **Lectura Directa (Sin Check)**: Descifrar las anotaciones de los arquitectos inscribe de forma **permanente** la fórmula de purga (`2 Vapor + 1 Helada a 400°C`) y la frecuencia de sedación (`Fa Sostenido / 432 Hz`) en el **Diario de la Mina**. Bypass directo para siempre en el Horno de Fuego y en el Bulbo de Vida.
+  - **Bonus Extra (DC 16 Historia / Arqueología / Investigación)**: Superar el check añade el rumor principal en el **Grafo de Rumores de Treftiel** y contexto del colapso de Treftiel.
+  - **Fail-Forward**: Fallar el check de bonus consume **1 Carga Arcana** (la pasta de cuarzo se cuartea) y revela la **pista** de qué sarcófago corresponde a cada clave (ventaja en el siguiente intento).
+  - **Override (Atasco)**: **2 Cargas Arcanas** fuerzan los sellos de obsidiana y permiten copiar las claves, sin inscribirlas en el Diario.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Descifrado de Obsidiana (Desbloqueo Diario)**: *Check de Historia (DC 16)*, *Arqueología (DC 16)* o *Investigación (DC 16)* para registrar los datos exactos en el Diario de la Mina.
+* **Descifrado de Obsidiana (Inscripción Directa)**: La lectura de las tablillas registra los datos exactos en el Diario de la Mina **sin tirada**; *Historia (DC 16)*, *Arqueología (DC 16)* o *Investigación (DC 16)* solo para el bonus extra (rumor principal y contexto).
 
 ### Recompensa
-* Registro permanente en el **Diario de la Mina** de las claves de purga y sedación para el **Horno Magmático de Fuego** y el **Bulbo de Vida**, más un rumor principal en el **Grafo de Rumores de Treftiel**.
+* Registro permanente en el **Diario de la Mina** de las claves de purga y sedación para el **Horno Magmático de Fuego** y el **Bulbo de Vida**; el rumor principal en el **Grafo de Rumores de Treftiel** queda como bonus extra (DC 16).

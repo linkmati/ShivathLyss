@@ -1,13 +1,13 @@
 # Generador de Conexiones y Topología de Mapas (Web App 7x7)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/06-Generador_de_Conexiones_y_Mapas.md`  
-> **Herramienta Única Recomendada**: [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) (Fichero de 1 clic).
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/06-Generador_de_Conexiones_y_Mapas.md`  
+> **Herramienta Única Recomendada**: [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/!RogueZeldaRepeat/CODE/generador_minos_7x7.html) (Fichero de 1 clic).
 
 ---
 
 ## 1. Aplicación Web Interactiva 7x7 (`generador_minos_7x7.html`)
 
-Abre el archivo [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/generador_minos_7x7.html) con un doble clic en cualquier navegador web.
+Abre el archivo [`generador_minos_7x7.html`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/!RogueZeldaRepeat/CODE/generador_minos_7x7.html) con un doble clic en cualquier navegador web.
 
 ### Características de la Web App:
 * **Matriz Interactiva 7x7**: Visualiza las 49 celdas (A1 a G7) con celdas de tamaño rígido y codificación por colores para Atrios, Subdungeons, Salas Secretas y Huecos Libres.

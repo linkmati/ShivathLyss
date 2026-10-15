@@ -31,6 +31,8 @@
 * **Mecánica de Bloqueo por Conocimiento (Knowledge-Gated)**:
   - **SIN LA CLAVE (Primera Vez)**: Si los aventureros intentan meter la mano, usar sigilo, cortar con espada o usar fuerza sin conocer la nota de sedación, el bulbo arremete ferozmente: **consume 1 Carga Arcana** e inflige **4d6 daño contundente/ácido** apresando al personaje.
   - **CON LA CLAVE (Diario de la Mina)**: Si los aventureros ya visitaron la **Sala 25 (Cripta de Daedalus)** y anotaron la nota **Fa Sostenido (432 Hz)** en su Diario, pueden cantar o tocar la nota (con voz, silbato o instrumento) y adormecer al bulbo **al instante sin tiradas ni riesgo de ataque**.
+  - **Fuerza: Un Único Intento**: Trabar el bulbo con Fuerza/Atletismo solo puede intentarse **una vez**. Si falla, los zarcillos se traban entre sí y la vía de la fuerza queda descartada (no se puede reintentar).
+  - **Misericordia tras 2 Cargas (Fail-Forward)**: Cuando la party acumula **2 Cargas Arcanas** consumidas en este bulbo, al desgarrar la segunda Carga una membrana acústica oculta en el estómago vegetal vibra con un zumbido grave y sostenido: la nota **Fa Sostenido (432 Hz)**. La sala deja de estar bloqueada: la nota puede oírse, imitarse y anotarse aunque no se haya visitado la Sala 25.
 
 ---
 
@@ -38,7 +40,8 @@
 
 ### Acciones y Comprobaciones
 * **Cantar / Tocar la Nota del Diario (Fa Sostenido - 432 Hz)**: El bulbo abre sus pétalos lánguidamente y entra en letargo profundo.
-* **Intento de Trabar con Fuerza / Semilla Botánica**: *Check de Fuerza / Atletismo (DC 15)*. Si falla, activa la consecuencia devoradora.
+* **Intento de Trabar con Fuerza**: *Check de Fuerza / Atletismo (DC 15)*, **una única vez**. Si falla, activa la consecuencia devoradora y los zarcillos quedan trabados (prohibido reintentar por fuerza).
+* **Membrana Tras 2 Cargas**: Con **2 Cargas Arcanas** consumidas en el bulbo, la nota de sedación (Fa Sostenido - 432 Hz) se revela sola (ver *Misericordia tras 2 Cargas*).
 
 ### Consecuencias de Fallo (Cargas Arcanas)
 * **Fallo / Ataque Devorador**: Aproximarse o errar la nota **consume 1 Carga Arcana** e inflige **4d6 daño contundente/ácido**.

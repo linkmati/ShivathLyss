@@ -1,6 +1,6 @@
 # 🌋 Subdungeon 1: La Caldera Volcánica (Layout Complejo y No-Lineal estilo Goron Mines & Fire Temple)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/Subdungeons/01_Subdungeon_Fuego_Caldera.md`  
 > **Inspiración Verbatim**: **Goron Mines** (*Twilight Princess*) + **Fire Temple** (*Ocarina of Time*)  
 > **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, obstáculos y cerraduras admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
 > 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante exploración espacial, puzles físicos, uso de ítems o paciencia.  

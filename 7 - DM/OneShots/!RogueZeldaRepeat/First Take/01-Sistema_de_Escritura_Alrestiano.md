@@ -1,6 +1,6 @@
 # Sistema de Escritura Rúnico-Simbólico de Minos (Estilo Alrestiano)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/01-Sistema_de_Escritura_Alrestiano.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/01-Sistema_de_Escritura_Alrestiano.md`  
 > **Filosofía**: Ideogramas simbólicos puros inspirados en el lenguaje Alrestiano (*Xenoblade*). No requiere sintaxis compleja; combina **Sustancia** + **Vector/Acción** + **Objeto/Receptor**.
 
 ---

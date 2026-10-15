@@ -13,29 +13,35 @@
 ## 🔍 Pistas de Inspección y Puntos de Interés
 
 ### Puntos de Interés Visuales
-1. **Las Tres Cisternas**: Tienen marcas de nivel graduadas esculpidas en el muro.
-2. **Las Válvulas Rotatorias**: Permiten trasvasar el fluido entre depósitos.
+1. **Las Tres Cisternas (Vasos Comunicantes)**: Tienen marcas de nivel graduadas esculpidas en el muro y visores de bronce en las tuberías: el sistema de vasos comunicantes queda **a la vista**, sin tiradas para leerlo.
+2. **Las Válvulas Rotatorias**: Permiten trasvasar el fluido entre depósitos; sus ejes llevan tallado el sentido de giro y los visores muestran a qué nivel queda cada cisterna.
 3. **El Portón Sumergido**: Situado en el fondo del depósito central; solo accesible si el nivel de agua desciende.
 
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Las cisternas servían para purificar el agua del acuífero antes de alimentar las calderas de vapor de Minos.*
 * **Capa 2: Vector Espacial**: *Vaciar el depósito central despeja el paso hacia el portón inferior.*
-* **Capa 3: Regla Mecánica (Flauta del Mar)**: *Graduar las válvulas o tocar la Flauta del Mar altera instantáneamente el nivel de agua en las 3 cisternas.*
+* **Capa 3: Regla Mecánica (Vasos Comunicantes)**: *Los visores de nivel revelan que graduar las tres válvulas en el orden correcto desciende la cisterna central. La Flauta del Mar es un atajo que fuerza el desagüe a cambio de una Carga Arcana.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Válvulas de Bronce**: Exigen un check de Fuerza para girarse manualmente.
-* **Flauta del Mar**: Al tocar la melodía de desbordamiento, drena 5 pies de agua en 1 ronda.
+* **Válvulas de Bronce**: Girarlas es cuestión de secuencia, no de fuerza: los visores y el movimiento del agua dejan leer el resultado de cada giro. **Sin tiradas de Fuerza ni Atletismo.**
+* **Flauta del Mar (Atajo con Coste)**: La melodía de desbordamiento drena el depósito central de golpe, pero la resonancia desajusta el circuito: **consume 1 Carga Arcana**. Nunca es una victoria gratis.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Graduación de Válvulas**: *Check de Atletismo (DC 13)* para rotar las válvulas pesadas, o *Check de Investigación (DC 12)* para deducir la combinación de vasos comunicantes.
-* **Uso de la Flauta del Mar**: Tocar la flauta vacía automáticamente la cisterna central.
+* **Graduación de Válvulas (Vía Principal, sin tirada)**: Leer los visores de nivel y graduar las tres válvulas en orden. Los vasos comunicantes están a la vista, así que **no hay tirada de Atletismo/Fuerza**. Un *Check de Investigación (DC 12)* solo acelera la lectura si el grupo quiere confirmar la combinación.
+* **Uso de la Flauta del Mar (Atajo)**: Tocar la flauta vacía la cisterna central de inmediato, **consumiendo 1 Carga Arcana** (el circuito queda desajustado y las marcas de nivel se imprimen grabadas, revelando la combinación correcta: fail-forward informativo).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Válvula Forzada**: Girar las válvulas fuera de secuencia revienta una junta de bronce: **consume 1 Carga Arcana** y el agua derramada imprime sobre las marcas graduadas el orden correcto de válvulas (fail-forward: la sala nunca se bloquea).
+
+### Override de Emergencia (2 Cargas)
+* **Purga Forzada**: Una descarga arcana sobre el colector inferior vacía el depósito central ignorando la secuencia (**Mecánica de Skip**: cuesta **2 Cargas Arcanas**).
 
 ### Recompensa
 * Despeje completo del portón sumergido y paso libre a la siguiente cámara.

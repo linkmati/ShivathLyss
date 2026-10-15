@@ -36,10 +36,10 @@
 ### Acciones y Comprobaciones
 * **Inspeccionar el Altar**: *Check de Arcanismo (DC 11)* o *Religión (DC 12)* confirma que el altar no es malévolo, sino un mecanismo de intercambio equivalente.
 
-### Recompensa y Tabla de Resultados (Tira 1d6 por Sacrificio)
-* **1-2**: Escupe un *Elixir de Salud* (recupera 2d4+2 HP).
-* **3-4**: Revela el plano completo y el contenido de 2 salas no exploradas en el mapa.
-* **5-6**: Cae sobre el suelo un consumible raro de Minos (Bomba Rúnica o Pergamino de Atajo).
+### Recompensa por Tipo de Ofrenda (El Jugador Elige, Sin Tirada)
+* **Ofrenda de Sangre** (sacrificio de vitalidad): El pilón escupe un *Elixir de Salud* (recupera 2d4+2 HP).
+* **Ofrenda de Carga** (canalizar 1 Carga Arcana): Revela el plano completo y el contenido de 2 salas no exploradas en el mapa.
+* **Ofrenda Mayor** (vitalidad + carga a la vez): Entrega una *Llave de Engranajes* de un solo uso (abre cualquier puerta bloqueada de esta incursión).
 
 ### Límites
 * Cada personaje puede sacrificar vitalidad hasta un máximo de 3 veces por incursión.

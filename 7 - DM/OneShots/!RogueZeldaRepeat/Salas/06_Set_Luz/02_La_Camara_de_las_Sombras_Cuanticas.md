@@ -26,14 +26,18 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Rieles de Linternas**: Mover la manivela ajusta la posición de la pasarela de sombra.
+* **Rieles de Linternas**: Mover la manivela ajusta la posición de la pasarela de sombra (sin tiradas).
+* **Acople Visual**: Cuando dos tramos de sombra encajan, aparece una **costura de borde luminoso** donde se sueldan. La señal es visual y directa: si no hay costura, el tramo no está acoplado. Anotar las posiciones (p. ej. `A=2, B=3`) permite resolverlo al instante.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Ajustar Manivelas de Rieles**: Deslizar la linterna A a la posición 2 y B a la 3 (*Check de Investigación DC 11* o memorización trans-ciclo).
+* **Ajustar Manivelas de Rieles**: Deslizar la linterna A a la posición 2 y B a la 3, mirando el **acople visual** de las sombras hasta que las costuras de borde se suelden (sin tirada). Anotar las posiciones permite repetirlo en 5 segundos en incursiones futuras (memorización trans-ciclo).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Ajuste Erróneo (Fail-Forward)**: Deslizar una linterna a una posición que no acopla **consume 1 Carga Arcana**: la pasarela parpadea y se desvanece un instante, sin dejar cruzar. La pista es visible y no bloquea: la propia sombra parpadeante deja un destello persistente sobre el **riel correcto** al que debe volver la manivela, así la party se recalibra sola (sin tiradas; el acople visual existente no cambia).
 
 ### Recompensa
 * Formación de un puente de sombra sólida transitable de pared a pared.

@@ -20,20 +20,27 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *La Cisterna Maestro es el corazón de distribución de fluidos del sanctum de Minos.*
 * **Capa 2: Vector Espacial**: *Drenar esta cisterna seca las salas anegadas de todo el cuadrante de agua.*
-* **Capa 3: Regla Mecánica (Drenaje Global)**: *Accionar la palanca o usar la Flauta del Mar despeja las salas inundadas permitiendo acceder a los pedestales sumergidos.*
+* **Capa 3: Regla Mecánica (Polea y Contrapeso)**: *La palanca maestra cuelga de una cadena de poleas: soltar el trinquete la baja por su propio peso (sin tirada). La Flauta del Mar drena al instante a cambio de una Carga Arcana.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Palanca Maestra**: Exige un check de Fuerza DC 14 o el uso de la *Flauta del Mar*.
+* **Palanca Maestra (Polea/Cadena)**: El mecanismo de poleas y contrapesos está a la vista bajo la pasarela: soltar el trinquete la baja **sin tirada de Fuerza**. La *Flauta del Mar* es un atajo con coste.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Accionar la Palanca Maestra**: *Check de Fuerza (DC 14)* o tocar la *Flauta del Mar*.
+* **Accionar la Palanca Maestra (Polea/Trinquete, sin tirada)**: Inspeccionar bajo la pasarela revela el trinquete de la cadena; soltarlo baja la palanca por su propio peso. **Sin tiradas de Fuerza.**
+* **Uso de la Flauta del Mar (Atajo con Coste)**: La melodía de drenaje vacía el sistema al instante, **consumiendo 1 Carga Arcana** (el retumbo deja el orden de evacuación impreso en las tuberías).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Retumbo Desincronizado**: Soltar el trinquete con las compuertas de evacuación desalineadas libera un golpe de presión: **consume 1 Carga Arcana** y el retumbo graba sobre las tuberías el orden correcto de evacuación (fail-forward: la sala nunca se bloquea).
+
+### Override de Emergencia (2 Cargas)
+* **Drenaje Forzado**: Una descarga arcana sobre el colector principal drena el sector ignorando el trinquete (**Mecánica de Skip**: cuesta **2 Cargas Arcanas**).
 
 ### Efecto Global
 * Seca todos los pozos y galerías anegadas del Set de Agua en el cuadrante actual.

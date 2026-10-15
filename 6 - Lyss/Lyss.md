@@ -2,8 +2,9 @@
 - Recordó que era Warforged por culpa de [[Solipsis Initiation Ritual]]
 
 306 GP
-- -50 por la siguiente sesión de terapia
-- ahorrado aparte, +200G para mi objeto
+- ahorrado aparte, 
+	- 200G para mi objeto
+	- 50 por la siguiente sesión de terapia
 
 Humanidad 16
 - SOLO ME PREOCUPO POR MIS PROPIOS INTERESES SOLO HAGO COSAS POR INTERES PROPIO

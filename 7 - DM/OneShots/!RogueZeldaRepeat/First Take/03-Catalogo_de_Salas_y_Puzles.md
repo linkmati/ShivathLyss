@@ -1,18 +1,18 @@
 	# Compendio Modular de Sets de Salas y Gimmicks Elementales (Manual del DM)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/03-Catalogo_de_Salas_y_Puzles.md`  
-> **Estructura Organizada por Carpetas**: `7 - DM/OneShots/ARepeat/Salas/`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/03-Catalogo_de_Salas_y_Puzles.md`  
+> **Estructura Organizada por Carpetas**: `7 - DM/OneShots/!RogueZeldaRepeat/Salas/`  
 > **Propósito**: Guía narrativa y mecánica exhaustiva para el DM. Cada sala cuenta con su propia ficha individual en las subcarpetas con descripción sensorial lista para lectura en voz alta, pistas de la Tríada de Información de Minos (*Lore + Vector + Regla Mechanics / Outer Wilds*) y guía de resolución.
 
 ---
 
 ## 📁 Estructura del Compendio por Carpetas
 
-El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Salas/`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/ARepeat/Salas/):
+El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Salas/`](file:///Users/matiasbay/Documents/Obsidian/Shivath/7%20-%20DM/OneShots/!RogueZeldaRepeat/Salas/):
 
 ```
-7 - DM/OneShots/ARepeat/Salas/
-├── 00_Set_Generico/      (20 Salas Neutrales y Mecánicas)
+7 - DM/OneShots/!RogueZeldaRepeat/Salas/
+├── 00_Set_Generico/      (22 Salas Neutrales y Mecánicas)
 ├── 01_Set_Fuego/         (7 Salas de Caldera Volcánica)
 ├── 02_Set_Agua/          (8 Salas de Cisterna Sumergida)
 ├── 03_Set_Aire/          (9 Salas de la Torre de Vientos)
@@ -48,6 +48,8 @@ El laberinto se organiza en 8 conjuntos temáticos ubicados en la carpeta [`Sala
 23. **[[23_Boveda_de_Salida|23. 🚪 Bóveda de Salida]]** (`23_Boveda_de_Salida.md`): Zona segura de descanso corto y transición entre cuadrantes.
 24. **[[24_Camara_del_Observatorio_Sideral|24. 🌌 Cámara del Observatorio Sideral]]** (`24_Camara_del_Observatorio_Sideral.md`): Contiene el Astrolabio de Minos. Revela la secuencia `Sol-Luna-Estrella` (Sala 13) y el ángulo solar `45°N - 135°E` (Sala 04 de Luz).
 25. **[[25_Cripta_de_los_Diarios_de_Daedalus|25. 📜 Cripta de los Diarios de Daedalus]]** (`25_Cripta_de_los_Diarios_de_Daedalus.md`): Contiene las Tablillas de los 6 Arquitectos. Revela la fórmula del Horno de Fuego (`2 Vapor + 1 Helada a 400°C`) y la frecuencia de la flor de Vida (`Fa Sostenido / 432 Hz`).
+
+> Nota: la numeración 00_Set_Generico salta 03, 05 y 06 (retiradas; se conserva numeración para no romper links).
 
 ---
 

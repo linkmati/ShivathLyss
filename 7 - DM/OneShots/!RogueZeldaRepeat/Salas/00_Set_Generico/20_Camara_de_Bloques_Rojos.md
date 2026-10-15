@@ -37,5 +37,10 @@
 ### Acciones y Comprobaciones
 * **Acceso al Cofre**: Alternar el conmutador a AZUL para bajar los bloques y reclamar el botín.
 
+### Consecuencias de Fallo (Fail-Forward)
+* **Trepada Fallida a la Repisa**: Intentar alcanzar el cofre sin bajar los bloques consume **1 Carga Arcana** (caída y golpe contra el mecanismo); el impacto hace parpadear el engranaje hidráulico y revela la **pista** del estado actual del cristal Peg.
+### Override (Atasco)
+* **Atasco (Conmutador inalcanzable)**: **2 Cargas Arcanas** hacen descender los bloques rojos el tiempo suficiente para reclamar el botín, sin desbloqueo permanente en el Diario de la Mina.
+
 ### Recompensa
 * **Cofre Raro de Minos**: Contiene 1 Reliquia de Minos + 1d4 x 10 Monedas de Alrest + 1 Consumible Elemental.

@@ -1,7 +1,7 @@
 # 24. 🌌 Cámara del Observatorio Sideral
 
 > **Set**: `Set 0: Salas Genéricas` | **Tipo**: Lore / Descubrimiento Cognitivo (Outer Wilds Key Room) | **Requisito**: Percepción / Arcanos / Investigación  
-> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Requiere Tirada Alta (DC 16)** para Desbloqueo Permanente en el **Diario de la Mina**
+> **Filosofía**: **Reseteo Físico Completo** entre incursiones | **Lectura Directa sin Tirada**: observar el astrolabio inscribe las claves en el **Diario de la Mina** | **DC 16 solo para bonus extra**
 
 ---
 
@@ -28,16 +28,18 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Reseteo Físico**: Al reiniciar la incursión, la lente del astrolabio se desalinea y la piscina de mercurio vuelve a reposar en sombra.
-* **Desbloqueo Permanente en Diario de la Mina (Tirada Alta DC 16)**:
-  - **Superar DC 16 (Arcanismo / Percepción)**: Los exploradores descifran las matemáticas estelares con precisión y registran de forma **permanente** la secuencia (`Sol-Luna-Estrella`) y el ángulo (`45°N - 135°E`) en el **Diario de la Mina**. A partir de ese momento, tienen bypass directo en la Sala 13 y en la Sala 04 de Luz para siempre.
-  - **Resultado Normal (DC 12-15)**: Entienden que el astrolabio proyecta constelaciones, pero solo obtienen una pista imprecisa (ej: "las tres estrellas del amanecer", "el haz debe mirar hacia el noreste"), exigiendo chequeos o re-intentos en las salas objetivo.
+* **Inscripción sin Tirada en el Diario de la Mina**:
+  - **Lectura Directa (Sin Check)**: La observación a través de la lente inscribe de forma **permanente** la secuencia (`Sol-Luna-Estrella`) y el ángulo (`45°N - 135°E`) en el **Diario de la Mina**. Bypass directo para siempre en la Sala 13 y en la Sala 04 de Luz.
+  - **Bonus Extra (DC 16 Arcanismo / Percepción)**: Superar el check añade el mapa del cuadrante y un rumor estelar en Treftiel.
+  - **Fail-Forward**: Fallar el check de bonus consume **1 Carga Arcana** (la lente se descalibra) y deja una **pista** quemada en el zócalo: "el haz debe mirar hacia el noreste".
+  - **Override (Atasco)**: **2 Cargas Arcanas** alinean la lente por fuerza bruta y desbloquean el avance, sin inscribir nada en el Diario.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Descifrado de Astrolabio (Desbloqueo Diario)**: *Check de Arcanismo (DC 16)* o *Percepción (DC 16)* para alinear la lente de cuarzo e inscribir las claves exactas en el Diario de la Mina.
+* **Descifrado de Astrolabio (Inscripción Directa)**: Alinear la lente de cuarzo e inscribir las claves exactas en el Diario de la Mina **sin tirada**; *Arcanismo (DC 16)* o *Percepción (DC 16)* solo para el bonus extra (mapa y rumor).
 
 ### Recompensa
 * Registro permanente e incondicional en el **Diario de la Mina** de las claves exactas para la **Sala 13** y la **Sala 04 de Luz**.

@@ -1,6 +1,6 @@
 # Ficha de Control del DM, Cuaderno Físico y Tablero de Rumores
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/05-Ficha_Control_DM_y_Tablero_Rumores.md`  
 > **Formato de Seguimiento**: Cuaderno Físico en Mesa (Jugadores) + Grafo de Rumores (*Curiosity Board*).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 

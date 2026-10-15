@@ -2,11 +2,7 @@
 
 Este sistema reemplaza las mecánicas binarias tradicionales de 5e por un sistema acumulativo (basado en el juego Limbus Company). Cada estado alterado tiene dos valores fundamentales: **Potencia (Potency)** y **Conteo (Count)**. 
 
-Se representa siempre como: `[Estado] [Potencia] / [Conteo]`. (Ejemplo: `Burn 5/2`).
-
-## Regla de Acumulación
-Cuando aplicas un estado a alguien que ya lo tiene, **la Potencia se suma** y **el Conteo se actualiza** (normalmente se suma el conteo nuevo o se queda el mayor, según decidas, pero por defecto se suma el conteo para mantener el estado vivo).
-*Ejemplo:* Un enemigo tiene `Burn 3/1`. Le atacas con una habilidad que aplica `Burn 4/2`. El enemigo pasa a tener `Burn 7/2`.
+Se representa siempre como: `[Estado] [Potencia] / [Conteo]`. (Ejemplo: Bleed 5/2`).
 
 ---
 

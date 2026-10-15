@@ -20,7 +20,7 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *El conducto evacuaba el agua del enfriamiento del reactor directamente hacia las cisternas de purificación.*
 * **Capa 2: Vector Espacial**: *Drenar el estanque permite cruzar por el lecho seco.*
-* **Capa 3: Regla Mecánica (Flauta del Mar / Drenaje)**: *Usar la Flauta del Mar drena instantáneamente el canal hirviente en 1 ronda.*
+* **Capa 3: Regla Mecánica (Rejillas Gemelas)**: *El canal se vacía taponando a la vez las dos rejillas de bronce del lecho. La Flauta del Mar solo es un atajo que fuerza el desagüe a cambio de una Carga Arcana.*
 
 ---
 
@@ -33,8 +33,14 @@
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Uso de la Flauta del Mar**: Tocar la melodía de drenaje para vaciar el canal en 1 ronda.
-* **Desatascar Rejilla**: Usar una herramienta o hechizo contundente (*Check de Fuerza DC 13*) a distancia para liberar la rejilla del lecho.
+* **Taponar las Dos Rejillas (Vía Principal, sin tirada)**: La inspección del lecho revela dos rejillas de bronce atascadas; taponar ambas a la vez (una por explorador, o una a distancia con herramienta/hechizo y otra a pie) corta la corriente y vacía el canal por gravedad. **Sin tiradas de Fuerza ni Atletismo.**
+* **Uso de la Flauta del Mar (Atajo con Coste)**: La melodía de drenaje fuerza el desagüe y seca el canal al instante, **consumiendo 1 Carga Arcana** (la presión residual deja el vapor impreso sobre los muros).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Rejilla Única**: Destapar una sola rejilla o taponarlas antes de tiempo libera un golpe de vapor (**2d8 daño de fuego** al más cercano) y **consume 1 Carga Arcana**; el vapor imprime en el muro el orden de taponado correcto (fail-forward: la sala nunca se bloquea).
+
+### Override de Emergencia (2 Cargas)
+* **Purga Forzada**: Una descarga arcana sobre el colector evacúa el canal hirviente sin taponar las rejillas (**Mecánica de Skip**: cuesta **2 Cargas Arcanas**).
 
 ### Recompensa
 * Evacuación total del agua hirviente y paso seguro a pie por el lecho seco.

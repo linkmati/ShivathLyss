@@ -6,7 +6,7 @@
 
 ## 🗣️ Narración DM en Voz Alta
 
-> *"Una gigantesca caldera de bronce forjado alimentada por un canal de magma subterráneo domina el centro de la estancia. Un canal de colada pulido conduce desde la base de la caldera hacia una mesa de piedra refractaria donde yacen moldes para forjar llaves maestras y piezas de repuesto para mecanismos arcanos."*
+> *"Una gigantesca caldera de bronce forjado alimentada por un canal de magma subterráneo domina el centro de la estancia. Un canal de colada pulido conduce desde la base de la caldera hacia una mesa de piedra refractaria donde yacen moldes para forjar llaves de cerradura única y piezas de repuesto para mecanismos arcanos."*
 
 ---
 
@@ -19,8 +19,8 @@
 
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Aquí se moldeaban las llaves principales del sanctum durante la era de prosperidad de Minos.*
-* **Capa 2: Vector Espacial**: *Forjar una llave maestra permite saltarse 2 cerraduras genéricas del cuadrante.*
-* **Capa 3: Regla Mecánica (Licuación e Inyección)**: *Depositar mineral o aleación y aplicar calor extremo produce herramientas y llaves de repuesto.*
+* **Capa 2: Vector Espacial**: *El molde del crisol produce una llave dedicada a una sola cerradura: la cerradura sellada del norte, que lleva el mismo sello del crisol grabado en el borde del molde.*
+* **Capa 3: Regla Mecánica (Licuación e Inyección)**: *Depositar mineral o aleación y aplicar calor extremo produce la pieza que dicta el molde. La silueta del molde es legible a simple vista: se deduce por inspección comparándola con la cerradura, sin tiradas.*
 
 ---
 
@@ -33,7 +33,11 @@
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Fundición de Llave Maestra**: Depositar aleación y accionar el canal (*Check de Herramientas de Artesano DC 12*).
+* **Lectura del Molde (sin tirada)**: Inspeccionar la mesa revela el sello del crisol grabado en el borde del molde; comparar su silueta con la cerradura sellada del norte confirma que moldea **una sola llave** para esa cerradura concreta. No hay tirada ni molde de llave maestra.
+* **Fundición de la Llave del Crisol**: Depositar aleación en el molde y accionar el canal: la pieza sale con el sello del crisol, sin tiradas.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fail-forward**: Fundir con material impuro o derramar la colada **consume 1 Carga Arcana**; el metal derramado se enfría sobre la mesa y su silueta calcada deja al descubierto la forma exacta del molde correcto (pista de inspección; la caldera nunca se inutiliza).
 
 ### Recompensa
-* Obtención de la **Llave Maestra de Minos** (Abre cualquier portón de la Subdungeon actual).
+* Obtención de la **Llave de Latón de Minos (sello del crisol)**: abre **únicamente** la cerradura sellada del norte (1 cerradura concreta, la del sello del crisol). No es maestra ni abre cerraduras genéricas.

@@ -20,7 +20,7 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *La Caldera fundía los minerales volcánicos empleados en las corazas de los guardianes de Minos.*
 * **Capa 2: Vector Espacial**: *Derretir la escoria y encender los 3 braseros abre la compuerta norte hacia la cámara del Guardián de Fuego.*
-* **Capa 3: Regla Mecánica (Guantelete de Llama)**: *Disparar proyectiles de plasma con el Guantelete de Llama o hechizos de fuego directo rompe la escoria congelada y enciende los braseros.*
+* **Capa 3: Regla Mecánica (Cadena de Gas)**: *Las grietas de la escoria exhalan gas inflamable y el color de cada llama revela su temperatura (azul pálido → violácea → blanca); encender con el Guantelete de Llama la grieta más fría propaga el fuego en cadena hacia las demás, sin tiradas de ataque.*
 
 ---
 
@@ -34,7 +34,8 @@
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Encender los 3 Braseros**: Disparar con el *Guantelete de Llama* (o proyectil ígneo) a cada uno de los 3 braseros distantes (Ataque a Distancia AC 11).
+* **Encender los 3 Braseros (Cadena de Gas, sin tiradas)**: Cada brasero exhala gas por una grieta cuyo color y temperatura son deducibles a simple vista: **azul pálido (frío) → violáceo (templado) → blanco (ardiente)**. Encender con el *Guantelete de Llama* (o cualquier llama) la grieta más fría enciende el gas **en cadena** hacia las grietas restantes: basta leer el color, sin tiradas de ataque ni AC.
+* **Fail-forward**: Encender una grieta en el orden equivocado **consume 1 Carga Arcana** y el hollín queda impreso sobre la escoria marcando el orden correcto de encendido (pista anotable).
 
 ### Recompensa
 * La absorción de energía enfría ligeramente el aire de la sala, retrayendo las placas dilatadas del portón térmico norte.

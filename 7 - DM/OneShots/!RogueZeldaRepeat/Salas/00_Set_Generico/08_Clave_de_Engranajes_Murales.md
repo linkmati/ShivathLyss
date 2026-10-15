@@ -37,7 +37,7 @@
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Ganzuado / Análisis Tactil (Paso Temporal)**: *Check de Herramientas de Ladrón (DC 13)* o *Percepción (DC 13)* abre la puerta esta vez.
+* **Forzar la Puerta (Paso Temporal)**: Forzar sin la combinación cuesta 2 Cargas Arcanas (override, sin desbloqueo permanente).
 * **Descifrado de Código (Desbloqueo Permanente Diario)**: *Check de Investigación (DC 15)* o *Historia (DC 15)* deduce la secuencia `3-1-5` y la registra en el Diario de la Mina.
 
 ### Consecuencias de Fallo (Cargas Arcanas)

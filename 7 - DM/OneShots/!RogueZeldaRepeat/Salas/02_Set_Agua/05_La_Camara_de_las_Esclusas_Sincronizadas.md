@@ -20,20 +20,27 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Las esclusas exigían una operación coordinada de dos técnicos para evitar desbordamientos accidentales.*
 * **Capa 2: Vector Espacial**: *Nivelar las compuertas permite atravesar el canal por la pasarela superior.*
-* **Capa 3: Regla Mecánica (Manivela Dual)**: *Dos personajes deben accionar las manivelas simultáneamente para fijar ambas compuertas a media altura.*
+* **Capa 3: Regla Mecánica (Manivela Dual)**: *Dos personajes accionan las manivelas simultáneamente (sin tirada) para fijar ambas compuertas a media altura; si uno falla el tempo, el otro puede cubrir el desfase.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Manivelas Hidráulicas**: Exigen tirar Atletismo en el mismo turno.
+* **Manivelas Hidráulicas**: No exigen tiradas: accionadas por dos personas en el mismo turno, el engranaje cruzado hace el resto. La dificultad es de tempo, no de músculo.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Accionamiento Sincronizado**: Dos exploradores deben superar un *Check de Atletismo (DC 12)* en el mismo turno.
+* **Accionamiento Sincronizado (Vía Principal, sin tirada)**: Dos exploradores accionan sus manivelas en el mismo turno y las compuertas quedan fijadas a media altura. **Sin tiradas de Atletismo ni Fuerza: la sincronía es narrativa, no mecánica.**
+* **Cobertura entre Operadores (1 Carga)**: Si un operador se retrasa o suelta la manivela, el otro puede cubrir el desfase sobre la marcha: **consume 1 Carga Arcana** y ambas compuertas quedan fijadas igualmente (fail-forward: la sala nunca se bloquea).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Desincronización**: Accionar fuera de turno desborda el canal (**1d6 daño contundente** a quien esté en la pasarela) y **consume 1 Carga Arcana**; el agua derramada marca sobre el engranaje el compás exacto que debía seguirse (fail-forward informativo).
+
+### Override de Emergencia (2 Cargas)
+* **Atranque Arcano**: Una descarga sobre el engranaje cruzado fija ambas compuertas sin coordinación (**Mecánica de Skip**: cuesta **2 Cargas Arcanas**).
 
 ### Recompensa
 * Ambas compuertas quedan bloqueadas a media altura, creando un puente estable para cruzar el canal.

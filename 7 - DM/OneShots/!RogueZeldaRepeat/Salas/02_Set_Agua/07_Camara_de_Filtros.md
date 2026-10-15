@@ -18,7 +18,7 @@
 3. **El Drenaje de Salida**: Despejado cuando cesa el flujo de cascada.
 
 ### Tríada de Información de Minos
-* **Capa 1: Lore (Historia of Alrest)**: *La Cámara de Filtros evitaba que los escombros de las minas atascaran las turbinas del reactor.*
+* **Capa 1: Lore (Historia de Alrest)**: *La Cámara de Filtros evitaba que los escombros de las minas atascaran las turbinas del reactor.*
 * **Capa 2: Vector Espacial**: *Acceder a la palanca inferior abre la puerta hacia la compuerta final del Guardián de Agua.*
 * **Capa 3: Regla Mecánica (Secuencia)**: *Exige drenar primero la Cisterna Maestro (Sala 06).*
 
@@ -26,14 +26,20 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Palanca de Salida**: Solo usable cuando el lecho está seco.
+* **Palanca de Salida**: Solo usable cuando el lecho está seco; y con el lecho seco baja por su propio peso (**sin tirada**). La dependencia es hidráulica: exige la Sala 06 drenada.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Accionar Palanca Despejada**: Tirada directa de Fuerza (DC 10).
+* **Accionar Palanca Despejada (sin tirada)**: Con el lecho seco por efecto de la Cisterna Maestro (Sala 06), la palanca baja sola al liberar su pasador. **Se elimina la tirada de Fuerza (DC 10): la única vía es hidráulica (dependencia de la Sala 06).**
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Palanca Sumergida**: Forzar la palanca antes de drenar la Sala 06 **consume 1 Carga Arcana** y el sedimento removido dibuja sobre el lecho la silueta de la palanca y su pasador (fail-forward informativo: confirma la dependencia hidráulica; la sala nunca se bloquea).
+
+### Override de Emergencia (2 Cargas)
+* **Pasador Forzado**: Una descarga arcana sobre el pasador lo libera aunque el estanque siga inundado (**Mecánica de Skip**: cuesta **2 Cargas Arcanas**).
 
 ### Recompensa
 * Desbloqueo del portón final hacia la arena de *La Quimera Hidráulica*.

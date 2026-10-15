@@ -1,6 +1,6 @@
 # Relaciones Inter-Salas, Redes Causales y Persistencia de Puertas
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/02-Relaciones_Inter_Salas_y_Matriz.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/02-Relaciones_Inter_Salas_y_Matriz.md`  
 > **Sistema**: Redes Causales de Área + Persistencia Mixta + Sala Secreta Isaac Pura (Sin Adyacencia a Subdungeon).  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
 

@@ -1,6 +1,6 @@
-# Guía Narrativa y Lore del Laberinto de Minos (ARepeat)
+# Guía Narrativa y Lore del Laberinto de Minos (!RogueZeldaRepeat)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/07-Guia_Narrativa_y_Lore_del_Laberinto.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/07-Guia_Narrativa_y_Lore_del_Laberinto.md`  
 > **Formato**: Guía de Ambientación, Historia Trans-Ciclo y Narrativa del DM  
 > **Ubicación en Shivath**: **Treftiel** (Ciudad Baja, en la frontera con el **Angramanio**)  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.
@@ -9,7 +9,7 @@
 
 ## 1. El Origen del Laberinto: El Estabilizador de Daedalus
 
-Ni idea
+El Estabilizador de Daedalus no es una mazmorra: es una máquina, un reactor arcano levantado bajo la Ciudad Baja de Treftiel para contener la presión telúrica del Angramanio y evitar que su oleada soterrada devore la frontera. Su núcleo se divide en 6 alas elementales —Fire, Water, Air, Earth, Life y Light—, cada una encargada de amortiguar una frecuencia distinta de la reacción. Tras la caída de Alrest, nadie quedó para mantener los conductos arcanos, y el Estabilizador entró en modo de emergencia. Sin técnicos que lo calibren, reordena cada amanecer su matriz de 49 salas (7x7) para disipar el calor acumulado antes de que el sistema colapse. Los exploradores que hoy cruzan su puerta rúnica no saquean ruinas: caminan por el interior de una máquina viva que se defiende de su propia entropía.
 
 ---
 
@@ -54,7 +54,7 @@ Escondidos en los cofres y grabados de cada Subdungeon yacen los diarios de expl
 
 ---
 
-## 5. Integración con Treftiel: El Diario de la Mina
+## 4. Integración con Treftiel: El Diario de la Mina
 
 En la **Ciudad Baja de Treftiel**, el **Gremio de los Mineros** vive de los recursos arcanos que la esclusa del Atrio expulsa tras cada incursión.
 
@@ -66,7 +66,7 @@ En la **Ciudad Baja de Treftiel**, el **Gremio de los Mineros** vive de los recu
 
 ---
 
-## 6. Guía de Interpretación para el DM
+## 5. Guía de Interpretación para el DM
 
 ```
 ======================================================================
@@ -85,6 +85,6 @@ En la **Ciudad Baja de Treftiel**, el **Gremio de los Mineros** vive de los recu
    - Muestra a Minos-01 no como un villano malvado, sino como una máquina 
      exhausta que cumple su deber hasta las últimas consecuencias.
    - La victoria mediante Full Burst reconecta el Estabilizador de Daedalus,
-     otorgando paz a Treftiel y completando el módulo ARepeat.
+     otorgando paz a Treftiel y completando el módulo !RogueZeldaRepeat.
 ======================================================================
 ```

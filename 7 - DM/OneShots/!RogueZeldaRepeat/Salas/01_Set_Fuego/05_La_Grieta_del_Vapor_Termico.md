@@ -36,5 +36,8 @@
 * **Sincronización del Salto**: *Check de Atletismo (DC 12)* o *Acrobacias (DC 13)* para saltar en el instante exacto en que la columna de vapor inicia su empuje.
 * **Uso de la Capa del Vértice**: Desplegar la capa al saltar garantiza el ascenso directo de 40 pies sin tirada.
 
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo de Sincronización (fail-forward)**: Fallar el salto **consume 1 Carga Arcana** y **reubica** al personaje de vuelta en la cornisa de partida (el geiser lo escupe, sin caída al vacío), revelando además **la ventana exacta**: el vapor deja impreso en la pared el intervalo de **10 segundos** y el instante del empuje máximo (pista anotable que garantiza el siguiente intento).
+
 ### Recompensa
 * Aterrizaje seguro en el balcón elevado y acceso al siguiente nivel de la Subdungeon.

@@ -20,20 +20,23 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *El circuito de aros era la pista de entrenamiento de los mensajeros del aire de Minos.*
 * **Capa 2: Vector Espacial**: *Cruzar los 4 aros aterriza en el balcón del Sanctum de la Subdungeon.*
-* **Capa 3: Regla Mecánica (Pasar por Aros)**: *Planeando con la Capa del Vértice e incidiendo por el centro de los aros se mantiene sustentación indefinida.*
+* **Capa 3: Regla Mecánica (Pasar por Aros)**: *La Capa del Vértice sostiene el planeo solo mientras se mantiene la línea de los aros y se compensa el ángulo: cada aro fallado resta sustentación (−10 pies). No es un autopase.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Circuito de Aros**: Cada aro superado otorga +15 pies de desplazamiento horizontal sin perder altura.
+* **Circuito de Aros**: Cada aro superado otorga +15 pies de desplazamiento horizontal sin perder altura; cada aro fallado resta 10 pies de sustentación (aviso visible: la Capa se deshincha).
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Lanzarse al Planeo**: *Check de Acrobacias (DC 12)* manteniendo la línea del circuito con la *Capa del Vértice*.
+* **Lanzarse al Planeo (Acrobacias DC 12)**: Mantener la línea del circuito con la *Capa del Vértice* desplegada y compensada; cada aro fallado resta sustentación. Tres aros fallados o salirse a las corrientes cruzadas precipitan la caída a la repisa.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Caída a la Repisa**: Fallar el check de Acrobacias o descuadrar la Capa tras tres aros fallados **consume 1 Carga Arcana** y deja al planeador sobre la repisa de emergencia (**2d6 daño contundente**, sin muerte). Fail-forward: las corrientes cruzadas quedan dibujadas como estelas de polvo sobre la repisa, mostrando la línea exacta que une los centros de los cuatro aros (pista anotable). La sala nunca se bloquea: desde la repisa puede relanzarse.
 
 ### Recompensa
 * Aterrizaje perfecto en la plataforma opuesta sin sufrir daño de caída.

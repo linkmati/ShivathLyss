@@ -40,3 +40,8 @@
 ### Efecto Global del Cuadrante
 * **Estado AZUL (Inicial)**: Bloques Azules SUBIDOS / Bloques Rojos BAJADOS.
 * **Estado ROJO (Al golpear)**: Bloques Azules BAJADOS / Bloques Rojos SUBIDOS.
+
+### Consecuencias de Fallo (Fail-Forward)
+* **Impacto Fallido (AC 10)**: Fallar el ataque a distancia consume **1 Carga Arcana** (el proyectil revienta un conducto) y libera un soplo de vapor que revela la **pista** del ángulo de impacto correcto (el siguiente intento a distancia no exige tirada).
+### Override (Atasco)
+* **Atasco (sin línea de visión)**: **2 Cargas Arcanas** accionan el conmutador a distancia, sin desbloqueo alguno en el Diario de la Mina.

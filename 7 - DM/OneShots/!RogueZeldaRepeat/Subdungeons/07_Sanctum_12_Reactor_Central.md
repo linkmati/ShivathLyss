@@ -1,6 +1,6 @@
 # 👑 Sanctum 12: El Reactor Central de Minos (Layout Complejo y No-Lineal estilo Ganon's Castle)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/07_Sanctum_12_Reactor_Central.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/Subdungeons/07_Sanctum_12_Reactor_Central.md`  
 > **Inspiración Verbatim**: **Ganon's Castle** (*The Legend of Zelda: Ocarina of Time*) + **Hyrule Castle** (*Tears of the Kingdom*)  
 > **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Las seis alas elementales y el ascenso al reactor admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
 > 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Emplear los Dungeon Items obtenidos en las 6 subdungeons previa (Guantelete, Flauta, Capa, Martillo, Semilla, Mirror Shield).  

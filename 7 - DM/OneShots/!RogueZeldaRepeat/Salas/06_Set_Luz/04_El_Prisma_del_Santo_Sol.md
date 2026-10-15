@@ -21,7 +21,7 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *El Santo Sol ajustaba los reflectores del sanctum siguiendo el ángulo estelar fijado en el astrolabio.*
 * **Capa 2: Vector Espacial**: *Impactar las 3 gemas a la vez retrae el pasador del portón del Santuario.*
-* **Capa 3: Regla de Bloqueo Cognitivo (Pista en Sala 24)**: *El ángulo de alineación cósmica leído en el **Observatorio Sideral (Sala 24)** es **45° Norte - 135° Este**.*
+* **Capa 3: Regla de Bloqueo Cognitivo (Pista en Sala 24)**: *El ángulo de alineación cósmica leído en el **Observatorio Sideral (Sala 24)** es **45° Norte - 135° Este**, anotable en formato brújula (`N 45° | E 135°`).*
 
 ---
 
@@ -31,6 +31,7 @@
 * **Mecánica de Bloqueo por Conocimiento (Knowledge-Gated)**:
   - **SIN LA CLAVE (Primera Vez)**: Girar el pedestal a ciegas o proyectar la luz en un ángulo incorrecto descalibra las gemas: **consume 1 Carga Arcana** y emite una cegadora ráfaga solar (**3d6 daño radiante** + ceguera por 1 ronda).
   - **CON LA CLAVE (Diario de la Mina)**: Si los aventureros ya visitaron la **Sala 24 (Observatorio Sideral)** y anotaron el ángulo (**45° Norte - 135° Este**) en su Diario, pueden fijar el pedestal **al instante sin tiradas ni riesgo de descarga**.
+  - **Misericordia tras 2 Cargas (Fail-Forward)**: Si la party acumula **2 Cargas Arcanas** consumidas en este prisma, la segunda ráfaga recorre las paredes y deja el ángulo calcinado en la piedra del pedestal, en **formato brújula anotable** (`N 45° | E 135°`). El bloqueo cognitivo se levanta sin necesidad de la Sala 24.
 
 ---
 

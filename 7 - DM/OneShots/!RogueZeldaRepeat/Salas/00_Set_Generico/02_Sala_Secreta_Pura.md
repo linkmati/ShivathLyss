@@ -37,6 +37,11 @@
 * **Deducción de Paredes (Geometría)**: Jugadores que noten la disposición en el mapa pueden hacer un *Check de Investigación (DC 13)* o *Percepción (DC 14)* golpeando las paredes para oír el sonido hueco del vaciado.
 * **Apertura**: Detonar una *Bomba Rúnica* o golpear con el *Martillo de Basalto* (si se posee de la Subdungeon de Tierra).
 
+### Consecuencias de Fallo (Fail-Forward)
+* **Deducción Fallida (DC 13/14)**: Fallar el check consume **1 Carga Arcana** (las paredes absorben el golpe y la sala se cierra en falso); a cambio, el eco hueco se intensifica: una fina grieta luminosa marca el muro correcto (**pista**; la siguiente detección no exige tirada).
+### Override (Atasco)
+* **Atasco (sin Bomba Rúnica ni magia telúrica)**: Gastar **2 Cargas Arcanas** abre la brecha por presión bruta, sin desbloqueo permanente en el Diario de la Mina.
+
 ### Recompensa y Botín
 * **Tabla de Botín de Sala Secreta (Tira 1d6)**:
   - **1-2**: 2d6 x 10 Monedas de bronce de Alrest + 1 Elixir de Curación Superior.

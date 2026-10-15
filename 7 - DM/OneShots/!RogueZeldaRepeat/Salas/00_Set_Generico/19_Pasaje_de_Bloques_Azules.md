@@ -37,5 +37,10 @@
 ### Acciones y Comprobaciones
 * **Acceso**: Requiere navegar a la sala del *Interruptor Rúnico Peg* o disparar a distancia al cristal si hay línea de visión indirecta.
 
+### Consecuencias de Fallo (Fail-Forward)
+* **Forzar el Pasaje sin el Conmutador**: Los intentos de escalar o desplazar los bloques por fuerza bruta consumen **1 Carga Arcana** cada uno; a cambio, las marcas de deslizamiento revelan la **pista** de la dirección del Conmutador Peg más cercano.
+### Override (Atasco)
+* **Atasco (Conmutador inalcanzable)**: **2 Cargas Arcanas** retraen parcialmente los bloques durante esta incursión (paso abierto), sin desbloqueo permanente en el Diario de la Mina.
+
 ### Recompensa
 * Descenso de los bloques azules y apertura del paso hacia la siguiente zona.

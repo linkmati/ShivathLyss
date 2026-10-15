@@ -1,6 +1,6 @@
 # 🌊 Subdungeon 2: La Cisterna Sumergida (Layout Complejo y No-Lineal estilo Ancient Cistern)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/Subdungeons/02_Subdungeon_Agua_Cisterna.md`  
 > **Inspiración Verbatim**: **Ancient Cistern** (*Skyward Sword*)  
 > **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, obstáculos y esclusas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
 > 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante exploración espacial, buceo cuidadoso, puzles de válvulas o uso de la Flauta del Mar.  

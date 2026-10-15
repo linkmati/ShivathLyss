@@ -26,14 +26,18 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Marcas del Suelo**: Guían el ángulo exacto para presionar los botones con la sombra.
+* **Marcas del Suelo**: Guían el ángulo exacto para presionar los botones con la sombra (sin tiradas).
+* **Validación por Silueta**: Cuando la sombra proyectada cubre por completo un botón, el contorno encaja y el botón cede con un chasquido: **acople de silueta visible**. Si la silueta no encaja, el botón no reacciona.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Posicionamiento**: Pararse en las marcas del suelo (*Check de Investigación DC 11*) y levantar armas o bastones para presionar los botones con las sombras proyectadas.
+* **Posicionamiento**: Pararse en las marcas del suelo y levantar armas o bastones; cuando la silueta proyectada encaja sobre un botón, este cede (sin tirada: la validación es el **acople de silueta**).
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Silueta Errónea (Fail-Forward)**: Proyectar la sombra desalineada sin cubrir por completo el botón **consume 1 Carga Arcana**: la sombra rebota y se deshace sin accionar nada. La pista es visible y no bloquea: la silueta fallida **quema en la pared el borde correcto** del encaje —el contorno exacto que debe cubrir cada botón—, marcando la postura y las marcas válidas (sin tiradas; la validación por silueta no cambia).
 
 ### Recompensa
 * Las sombras activan los botones del techo y retraen los cerrojos de la puerta.

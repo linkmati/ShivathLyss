@@ -1,6 +1,6 @@
 # 09. 🌀 Torre de Bloques Flotantes
 
-> **Set**: `Set 3: AIR` | **Tipo**: Plataformas Antigravitatorias | **Requisito**: Impulso e Empuje / Equilibrio
+> **Set**: `Set 3: AIR` | **Tipo**: Plataformas Antigravitatorias | **Requisito**: Impulso y Empuje / Equilibrio
 
 ---
 
@@ -20,13 +20,13 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *Las piedras flotantes formaban la escalera ceremonial de los arcanistas de Minos.*
 * **Capa 2: Vector Espacial**: *Saltar de bloque en bloque permite alcanzar el nicho del techo.*
-* **Capa 3: Regla Mecánica (Plataformas Móviles)**: *Empujar un bloque o aplicar viento altera su posición permitiendo alinearlos como puente.*
+* **Capa 3: Regla Mecánica (Plataformas Móviles)**: *Los bloques oscilan en un compás de tres tiempos; el viento de la Capa del Vértice solo desplaza un bloque si impacta cuando este viaja hacia el eje. A contratiempo no mueve nada: es herramienta de timing, no autopase.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Bloques Flotantes**: Se desplazan 5 pies al recibir un disparo de aire o un empuje físico.
+* **Bloques Flotantes**: Se desplazan 5 pies al recibir un disparo de aire o un empuje físico en el tiempo correcto de su vaivén (compás de tres tiempos, anotable desde el borde de la cámara).
 
 ---
 
@@ -34,7 +34,10 @@
 
 ### Acciones y Comprobaciones
 * **Saltar Entre Bloques**: *Check de Acrobacias (DC 12)* o *Atletismo (DC 12)* manteniendo el equilibrio.
-* **Alinear Bloques**: Usar la *Capa del Vértice* para reorientar los bloques oscilantes antes de saltar.
+* **Alinear Bloques (Timing)**: Usar la *Capa del Vértice* para reorientar los bloques oscilantes antes de saltar: el disparo debe soltarse cuando el bloque viaja hacia el eje.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Caída entre Bloques**: Fallar el salto, disparar la Capa a contratiempo o pisar un bloque en el punto más amplio de su vaivén **consume 1 Carga Arcana**: el personaje cae al abismo y aterriza en un bloque de recuperación inferior (**2d6 daño contundente**, sin muerte). Fail-forward: el patrón oscilatorio queda marcado en el polvo del suelo como compás de tres tiempos anotable, revelando cuándo cada bloque se alinea como puente. La sala nunca se bloquea.
 
 ### Recompensa
 * Alcance del cofre del techo y obtención de recompensas eólicas.

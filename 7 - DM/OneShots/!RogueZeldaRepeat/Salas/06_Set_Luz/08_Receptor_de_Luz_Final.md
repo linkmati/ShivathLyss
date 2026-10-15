@@ -26,14 +26,17 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Gema Final**: Se reactiva al recibir luz conducida directa.
+* **Gema Final**: Se reactiva al recibir luz conducida directa. Tarda **2 rondas** en retraer los pasadores, con un zumbido creciente que marca el avance.
+* **Haz Mal Alineado (Recalentamiento)**: Si el haz golpea las molduras en vez del centro de la gema, el bronce **recalienta**: **consume 1 Carga Arcana** y el calor imprime en la moldura el orden correcto de la cadena de espejos (fail-forward informativo).
+* **Mantener el Haz**: Durante las 2 rondas de apertura el haz debe permanecer centrado. Si se desvía, hay **desfase**: **consume 1 Carga Arcana**, la gema se enfría y la apertura se reinicia.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
-### Acciones
-* Alinear la cadena de espejos previa para que el haz solar golpee la gema final.
+### Acciones y Comprobaciones
+* **Alinear la Cadena**: Conducir el haz desde la Galería de Espejos hasta el centro de la gema (sin tirada; ver Sala 01). Un haz desalineado recalienta e imprime el orden correcto.
+* **Sostener la Apertura**: Mantener el haz centrado durante las **2 rondas** que tardan los pasadores. El desfase cuesta **1 Carga Arcana** y reinicia la apertura (fail-forward).
 
 ### Recompensa
 * Retracción definitiva de los pasadores de bronce y apertura de la arena del boss.

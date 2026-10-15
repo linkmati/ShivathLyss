@@ -1,6 +1,6 @@
 # El Laberinto de Minos: Sistemas Core y Subdungeons (Mecánico Agnóstico)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/00-Indice_y_Sistemas_Core.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/00-Indice_y_Sistemas_Core.md`  
 > **Formato**: Misión Secundaria Repetible / Downtime / West Marches  
 > **Inspiración**: *Zelda 2D/3D Mini-Dungeons* + *Outer Wilds* + *Blue Prince* + *Binding of Isaac*  
 > **Palabras de Poder de Shivath**: **Fire**, **Water**, **Air**, **Earth**, **Life**, **Light**.

@@ -1,6 +1,6 @@
 # ☀️ Subdungeon 6: El Santuario Prismático (Mazmorra Zelda estilo Spirit Temple OoT)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/Subdungeons/06_Subdungeon_Luz_Santuario.md`  
 > **Inspiración Verbatim**: **Spirit Temple** (*The Legend of Zelda: Ocarina of Ti> **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, refracciones de luz y esclusas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
 > 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante posicionamiento espacial con el Mirror Shield, simetría de movimiento, refracción en cadena o uso de cobras.  
 > 2. ⚡ **Opción Rápida con Tirada (Skill Check Skip)**: Permite atajar al instante mediante una tirada de habilidad (Destreza, Atletismo, Acrobacias, Juego de Manos, Arcanos, etc.).  

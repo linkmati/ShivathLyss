@@ -26,15 +26,18 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Estatuas Pivotantes**: Se giran con un check de Fuerza DC 10.
+* **Estatuas Pivotantes**: Se giran a mano, sin tirada, con sus peanas marcadas en cuartos (90°).
+* **Haz Desalineado (Recalentamiento)**: Si el haz incide en el lateral de una estatua en vez de en su espejo, el bronce **recalienta**: **consume 1 Carga Arcana** y el calor imprime sobre la peana el glifo de la estatua que corresponde en la cadena (fail-forward: cada error enseña el siguiente paso del orden).
+* **Apertura Sostenida**: La gema receptora tarda **2 rondas** en cargarse y abrir. Durante ambas rondas el haz debe permanecer alineado (el Escudo Prismático puede afirmarse en su soporte). Si el haz se desvía, hay **desfase**: **consume 1 Carga Arcana** y la gema se enfría y reinicia la carga.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Alinear la Cadena**: Girar las estatuas en el orden correcto (Estatuas 1 -> 3 -> 4 -> Receptor).
+* **Alinear la Cadena**: Girar las estatuas en el orden correcto (Estatuas 1 -> 3 -> 4 -> Receptor). Los giros no requieren tiradas; los recalentamientos imprimen el orden correcto si algo falla.
 * **Intervención del Escudo Prismático**: Usar el *Escudo Prismático* para desviar un tramo si una estatua está dañada.
+* **Sostener el Haz**: Mantener la alineación durante las **2 rondas** de carga de la gema. El desfase cuesta **1 Carga Arcana** y reinicia la carga (fail-forward).
 
 ### Recompensa
 * La gema receptor absorbe el haz solar, resplandece en dorado y retrae el pasador del portón.

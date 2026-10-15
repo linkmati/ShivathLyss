@@ -1,6 +1,6 @@
 # 🪨 Subdungeon 4: El Dominio Telúrico (Mazmorra Zelda estilo Snowhead Temple)
 
-> **Ubicación**: `7 - DM/OneShots/ARepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md`  
+> **Ubicación**: `7 - DM/OneShots/!RogueZeldaRepeat/Subdungeons/04_Subdungeon_Tierra_Dominio.md`  
 > **Inspiración Verbatim**: **Snowhead Temple** (*Majora's Mask* - Edición Basa> **Regla de Diseño DM (Sistema de Doble Opción)**: **CERO BLOQUEOS OBLIGATORIOS (No Skill-Check Gates)**. Todos los puzles, escombros y trampas admiten **DOS MÉTODOS DE RESOLUCIÓN**:  
 > 1. 🟢 **Opción Interactiva (Sin Tirada / 100% Seguro)**: Mediante exploración espacial, colocación de vagoneras, puzles Peg o golpes del Martillo de Basalto.  
 > 2. ⚡ **Opción Rápida con Tirada (Skill Check Skip)**: Permite atajar al instante mediante una tirada de habilidad (Fuerza, Atletismo, Acrobacias, Juego de Manos, etc.).  

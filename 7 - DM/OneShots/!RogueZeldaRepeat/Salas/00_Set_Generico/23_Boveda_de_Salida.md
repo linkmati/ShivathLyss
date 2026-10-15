@@ -28,11 +28,17 @@
 
 * **Arco de Transición**: Permite regresar al *Atrio de Entrada* o avanzar al siguiente cuadrante.
 * **Zona de Restablecimiento**: Restaura los dados de golpe consumidos durante el descanso.
+* **Límite Anti-Farm (1 Descanso por Incursión)**: La Bóveda solo concede **un (1) Descanso Corto por incursión**. Los intentos posteriores no restauran dados de golpe ni recursos: la sala queda "agotada" y sirve únicamente como paso seguro.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones
-* Realizar un **Descanso Corto (Short Rest)**.
+* Realizar un **Descanso Corto (Short Rest)** (máximo 1 por incursión).
 * Decidir si continuar hacia el interior o regresar al Atrio para cerrar la incursión.
+
+### Consecuencias de Fallo (Fail-Forward)
+* **Descanso Forzado (Anti-Farm)**: Intentar un segundo descanso consume **1 Carga Arcana** y no restaura HP; a cambio, el Arco de Transición proyecta una **pista** del cuadrante siguiente (posición de llaves o conmutadores).
+### Override (Atasco)
+* **Transición de Emergencia**: **2 Cargas Arcanas** abren el Arco al instante (salto de cuadrante o retorno al Atrio), sin desbloqueo permanente adicional en el Diario de la Mina.

@@ -15,26 +15,29 @@
 ### Puntos de Interés Visuales
 1. **La Reja del Suelo**: Expulsa un flujo constante de viento eólico comprimido.
 2. **El Balcón Superior (50 ft)**: Muestra el pasaje hacia la cámara principal de la Torre.
-3. **Las Muescas de la Pared**: Marcas de planeo dejadas por los antiguos exploradores.
+3. **Las Muescas de la Pared**: Marcas de planeo dejadas por los antiguos exploradores; señalan el punto de salto, el ángulo de despliegue y el compás del vórtice.
 
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *La Torre del Viento permitía la comunicación neumática y el desplazamiento rápido entre niveles.*
 * **Capa 2: Vector Espacial**: *Ascender por el vórtice da acceso directo al corredor superior del cuadrante.*
-* **Capa 3: Regla Mecánica (Planeo por Capa del Vértice)**: *Desplegar la Capa del Vértice o un conjuro de caída de pluma/levitación eleva al aventurero 50 pies en 1 ronda.*
+* **Capa 3: Regla Mecánica (Planeo por Capa del Vértice)**: *La Capa del Vértice no asciende sola: hay que leer las muescas de planeo y desplegarla en el ángulo y el compás exactos del vórtice. Desplegada de plano o a destiempo, el viento la sacude y suelta al portador.*
 
 ---
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Vórtice Ascendente**: Permite ascender 50 pies a quien utilice sustentación.
+* **Vórtice Ascendente**: Permite ascender 50 pies a quien despliegue sustentación en el ángulo y el compás correctos (las muescas marcan ambos).
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Uso de la Capa del Vértice**: Desplegar la capa al saltar sobre la reja eleva automáticamente al aventurero al balcón de 50 pies.
+* **Uso de la Capa del Vértice (Timing + Ángulo)**: Leer las muescas de planeo (*Percepción DC 10*, sin coste) revela el punto de salto y el ángulo de despliegue. Soltar la Capa en ese ángulo justo cuando el vórtice ruge (compás de tres tiempos visible en las muescas) eleva al portador 50 pies. Desplegarla de plano o a destiempo: *Salvación de Destreza DC 12* o caer.
 * **Planeo Convencional**: *Check de Atletismo (DC 13)* o *Acrobacias (DC 13)* improvisando una vela o manta.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Caída al Pozo**: Desplegar la Capa del Vértice a destiempo o de plano, o fallar el planeo convencional **consume 1 Carga Arcana** y precipita al personaje al fondo del pozo (**2d6 daño contundente**; la rejilla amortigua, sin muerte). Fail-forward: el remolino se carga de polvo y dibuja las corrientes del vórtice como vetas suspendidas, revelando el compás exacto de empuje (pista anotable). La sala nunca se bloquea.
 
 ### Recompensa
 * Ascenso completo al balcón superior y acceso a la siguiente estancia.

@@ -26,15 +26,16 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Muros de Magma**: Tocar un muro causa **2d10 daño de fuego**.
+* **Muros de Magma**: Tocar un muro consume **1 Carga Arcana** (el muro rechaza al intruso con una quemadura leve, sin daño grave ni caída).
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Enfriamiento Místico**: Lanzar hechizos de frío o verter agua en las hendiduras (*Check de Arcanismo DC 13*) para bajar la altura de los muros de magma.
-* **Navegación Cuidadosa**: *Check de Acrobacias (DC 14)* para esquivar las salpicaduras de lava mientras se busca la ruta central.
+* **Enfriamiento Místico (atajos opcionales)**: Lanzar hechizos de frío o verter agua en las hendiduras (*Check de Arcanismo DC 13*) baja la altura de los muros y abre atajos.
+* **Ruta por Hendiduras Visibles (sin Acrobacias)**: Las hendiduras retraídas jalonan surcos fríos y secos visibles a simple vista; seguir los surcos uno a uno lleva al nicho central **sin tiradas**.
+* **Fail-forward**: Perder el surco o rozar un muro **consume 1 Carga Arcana** y el hollín de la quemadura queda adherido al tramo de surco correcto (pista visible que completa la ruta; la sala nunca se bloquea).
 
 ### Recompensa
 * Obtención de la *Llave de Latón de Minos* del nicho central y apertura de la puerta norte.

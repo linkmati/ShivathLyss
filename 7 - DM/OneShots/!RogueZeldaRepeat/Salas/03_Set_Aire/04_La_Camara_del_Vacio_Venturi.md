@@ -20,7 +20,7 @@
 ### Tríada de Información de Minos
 * **Capa 1: Lore (Historia de Alrest)**: *El principio Venturi era utilizado para transportar cargamentos entre sectores sin tracción mecánica.*
 * **Capa 2: Vector Espacial**: *El efecto de succión desplaza el cofre directamente al receptor de la entrada.*
-* **Capa 3: Regla Mecánica (Alineación Dual)**: *Abrir simultáneamente ambas compuertas genera un túnel de vacío que libera la traba del cofre.*
+* **Capa 3: Regla Mecánica (Alineación Dual)**: *Abrir simultáneamente ambas compuertas genera un túnel de vacío que libera la traba del cofre. La Capa del Vértice puede sostener una compuerta a distancia, pero solo mientras esté tensada en el ángulo del gozne: no sustituye al timing sincronizado.*
 
 ---
 
@@ -33,7 +33,10 @@
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Accionamiento Sincronizado**: Abrir ambas compuertas al mismo tiempo (coordinación de 2 personajes o mediante uso de la *Capa del Vértice* en una y palanca manual en otra).
+* **Accionamiento Sincronizado (Timing)**: Abrir ambas compuertas en el mismo instante: coordinación de 2 personajes, o *Capa del Vértice* tensada en una compuerta y palanca manual en la otra. La Capa no hace el trabajo sola: si se suelta a mitad del gesto, la compuerta se cierra y desincroniza el par.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Fallo / Desincronización Venturi**: Abrir las compuertas con desfase o soltar la Capa del Vértice a mediados del gesto **consume 1 Carga Arcana**: el túnel de vacío aspira al grupo entero 15 pies hacia el eje central (Salvación de Fuerza DC 13) y el zumbido de succión deja marcado en el bronce el pasador neumático del cofre y su punto exacto de liberación (fail-forward: pista anotable). La sala nunca se bloquea.
 
 ### Recompensa
 * Desenganche neumático del cofre y apertura de la compuerta de salida norte.

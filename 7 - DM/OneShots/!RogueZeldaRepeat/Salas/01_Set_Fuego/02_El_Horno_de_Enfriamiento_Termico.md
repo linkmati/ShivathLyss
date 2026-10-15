@@ -26,7 +26,8 @@
 
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
-* **Válvula de Agua**: Accionarla manualmente (Fuerza DC 13) o mediante la *Flauta del Mar* vierte agua sobre la lava.
+* **Válvula de Agua**: Accionarla manualmente (Fuerza DC 13) o mediante la *Flauta del Mar* vierte agua sobre la lava. Ambos métodos comparten el mismo depósito hidráulico.
+* **Recarga de la Válvula (anti-spam)**: Tras verter su chorro, el depósito recompresa en **5 rondas** (clic metálico audible = señal de recarga). Nadie puede accionarla de nuevo hasta completarla: no hay chorros gratis ni corteza infinita.
 * **Corteza de Basalto**: Permite cruzar a pie; dura 2 rondas antes de quebrarse por el calor inferior.
 
 ---
@@ -39,6 +40,7 @@
 
 ### Consecuencias de Fallo
 * Permanecer sobre el basalto fundido cuando expira el tiempo provoca caida al magma (**3d10 daño de fuego**).
+* **Fail-forward**: La caída desesperada al borde (o forzar la válvula durante la recarga) **consume 1 Carga Arcana**: el agua derramada enfría una franja del río y deja visible el surco seco que marca la línea exacta del puente y el momento del clic de recarga (pista anotable). La sala nunca se bloquea.
 
 ### Recompensa
 * Pasaje seguro sobre la lava hacia el balcón norte.

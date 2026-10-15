@@ -7,7 +7,7 @@ Este documento contiene todas las reglas, subsistemas interactivos y minijuegos 
 
 ---
 
-## ⏳ 1. El Sistema de Dilatación Temporal (El Servidor Especulativo)
+## 1. El Sistema de Dilatación Temporal (El Servidor Especulativo)
 
 En la High City de Treftiel, el tiempo virtual no corre parejo al biológico. Para ahorrar potencia de cálculo en nodos abandonados o de bajo tráfico, el motor de **STELLAR** aplica compresión dinámica de fotogramas (*Throttling de Ciclo*).
 
@@ -32,7 +32,7 @@ Cada vez que los jugadores intentan realizar acciones complejas innecesarias (la
 
 ---
 
-## ⚠️ 2. Protocolo de Inactividad (AFK Warnings)
+## 2. Protocolo de Inactividad (AFK Warnings)
 
 Para evitar que los usuarios ocupen pods de inmersión en la High City sin generar consumo comercial ni actividad cerebral válida, **The Registry** y el motor de **STELLAR** tienen activado un protocolo de expulsión por inactividad implacable.
 
@@ -74,20 +74,7 @@ Si los jugadores guardan silencio en la mesa durante más de **30 segundos** o s
 
 ---
 
-## 🗣️ 3. Protocolo Keep-Alive (El Intercambio de Insultos de Beckett)
-
-Homenaje directo al duelo verbal de Vladimir y Estragón. En momentos de aburrimiento o para mantener activo el canal de voz y evitar el AFK kick, los personajes pueden recurrir al tráfico de voz basura.
-
-* **Regla:** Dos o más jugadores se enfrentan en un combate de insultos elocuentes y solemnes por turnos.
-* **Normas del Duelo:**
-  1. No se pueden usar groserías vulgares modernas; deben ser insultos grandilocuentes, teatrales, medievales o corporativos.
-  2. Ejemplos válidos: *"¡Archivero de cloaca! ¡Apéndice biológico mal compilado! ¡Burócrata sin alma! ¡Crítico de poesía! ¡Hijo de un procesador de 8 bits!"*.
-  3. Cada jugador lanza su improperio con convicción. La mesa o el DM votan el más creativo.
-* **Recompensa:** El ganador obtiene **1 Dado de Inspiración (d6)** aplicable a cualquier tirada en el nodo, y el contador de inactividad de STELLAR se congela durante 30 minutos ficticios.
-
----
-
-## 🛏️ 4. El Modo Suspensión y las Pesadillas del Buffer
+## 4. El Modo Suspensión y las Pesadillas del Buffer
 
 Cuando el tiempo se hace eterno, es natural que algún jugador declare: *"Mi personaje se tumba en el banco y se echa a dormir"*.
 
@@ -96,14 +83,14 @@ Dormir dentro de un pod de la High City no es descansar; es exponer la psique a 
 ### La Experiencia del Durmiente
 El personaje que se duerme queda en estado de trance catatónico. Pásale una nota privada o susurro tirando en la **Tabla de Pesadillas del Buffer (1d6)**:
 
-| d6 | Pesadilla en el Buffer | Efecto al Despertar |
-|:---:|---|---|
-| **1** | **El Coro de Maniquíes:** Te encuentras en un pasillo blanco infinito donde miles de cuerpos sintéticos sin rostro cantan las cláusulas de rescisión de tu contrato con la voz de tu madre. | Te despiertas gritando. Sufres desventaja en tiradas de Iniciativa durante el resto del one-shot. |
-| **2** | **La Habitación Invertida:** Sueñas que estás sentado en Chez Infinite, pero el techo es el suelo. Tus compañeros están clavados al techo boca abajo mirándote en silencio con ojos de píxeles estáticos. | Despiertas con un escalofrío de congelación: 1d4 de daño de frío en tu avatar. |
-| **3** | **La Papelera de Reciclaje:** Eres un documento de texto de 0 KB que está a punto de ser arrastrado a la papelera. Una voz celestial dice: *"Espacio insuficiente en disco"*. | Te despiertas convencido de que has olvidado tu propio apellido durante 10 minutos reales. |
-| **4** | **El Juicio de los Números:** Tres figuras vestidas de jueces de The Registry te piden que calcules mentalmente el coste de tu propia alma en calderilla de cobre. El número nunca cuadra. | Pierdes 1 punto de Inspiración si lo tenías. Si no, pierdes 2 puntos de vida máxima temporal. |
-| **5** | **El Espejo Vacío:** Te miras en el cristal del diner y ves a tu personaje vivo en el mundo real, dentro del pod de Treftiel, ahogándose lentamente en gelatina de soporte vital. | Te despiertas jadeando por aire, con taquicardia háptica: -1 a salvaciones de Constitución. |
-| **6** | **El Mensaje Oculto:** Sueñas con una figura dorada en el horizonte que te susurra: *"El secreto de Godot es que..."*, pero justo en ese momento un camión de la basura digital pasa tocando el claxon y no escuchas el final. | Despiertas con una extraña lucidez absurda: ganas ventaja en tu próxima tirada de Investigación. |
+|  d6   | Pesadilla en el Buffer                                                                                                                                                                                                         | Efecto al Despertar                                                                               |
+| :---: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| **1** | **El Coro de Maniquíes:** Te encuentras en un pasillo blanco infinito donde miles de cuerpos sintéticos sin rostro cantan las cláusulas de rescisión de tu contrato con la voz de tu madre.                                    | Te despiertas gritando. Sufres desventaja en tiradas de Iniciativa durante el resto del one-shot. |
+| **2** | **La Habitación Invertida:** Sueñas que estás sentado en Chez Infinite, pero el techo es el suelo. Tus compañeros están clavados al techo boca abajo mirándote en silencio con ojos de píxeles estáticos.                      | Despiertas con un escalofrío de congelación: 1d4 de daño de frío en tu avatar.                    |
+| **3** | **La Papelera de Reciclaje:** Eres un documento de texto de 0 KB que está a punto de ser arrastrado a la papelera. Una voz celestial dice: *"Espacio insuficiente en disco"*.                                                  | Te despiertas convencido de que has olvidado tu propio apellido durante 10 minutos reales.        |
+| **4** | **El Juicio de los Números:** Tres figuras vestidas de jueces de The Registry te piden que calcules mentalmente el coste de tu propia alma en calderilla de cobre. El número nunca cuadra.                                     | Pierdes 1 punto de Inspiración si lo tenías. Si no, pierdes 2 puntos de vida máxima temporal.     |
+| **5** | **El Espejo Vacío:** Te miras en el cristal del diner y ves a tu personaje vivo en el mundo real, dentro del pod de Treftiel, ahogándose lentamente en gelatina de soporte vital.                                              | Te despiertas jadeando por aire, con taquicardia háptica: -1 a salvaciones de Constitución.       |
+| **6** | **El Mensaje Oculto:** Sueñas con una figura dorada en el horizonte que te susurra: *"El secreto de Godot es que..."*, pero justo en ese momento un camión de la basura digital pasa tocando el claxon y no escuchas el final. | Despiertas con una extraña lucidez absurda: ganas ventaja en tu próxima tirada de Investigación.  |
 
 ### La Desesperación del Vigía
 Mientras uno duerme, el jugador que permanece despierto experimenta el terror de la quietud absoluta.
@@ -112,20 +99,6 @@ Mientras uno duerme, el jugador que permanece despierto experimenta el terror de
 * **El Dilema:** Si sacude al dormido para despertarlo, el dormido se despierta confuso y ambos deben compartir el relato del sueño; escuchar la pesadilla obliga al vigía a tirar Sabiduría DC 10 o ganar **1 punto de Tensión/Estrés**.
 
 ---
-
-## 👢 5. El Inventario Defectuoso (Las Botas de Estragón)
-
-Homenaje a la primera escena de la obra, donde Estragón lucha agónicamente por quitarse la bota.
-
-* **El Disparador:** Al comenzar la sesión, designa a un jugador (preferiblemente quien lleve calzado pesado, armadura o implantes de piernas):
-  > *"Sientes una molestia aguda y punzante en tu bota izquierda (o interfaz del pie). Como si tuvieras una chincheta de código, un clavo oxidado o un cálculo biliar digital alojado dentro del calcetín."*
-* **Mecánica:**
-  * Cada 20 minutos de tiempo real, el personaje sufre **1 punto de daño psíquico/molestia** si no intenta quitársela.
-  * **La Lucha por la Bota:** Quitarse la bota requiere una prueba de **Fuerza (Atletismo) o Destreza (Acrobacias) DC 12**. Si falla, tira de ella con furia, resbala del banco y se da un golpe cómico contra la mesa (1d4 de daño contundente).
-  * **La Inspección:** Una vez fuera, el personaje la sacude, mira dentro, mete la mano, o tira *Investigación / Tecnología (incluso con un 25+)*.
-  * **El Veredicto del DM:** *"Miras dentro con minuciosidad microscópica. Pasas la mano. No hay nada. Ni una piedra, ni una costura rota, ni un bug de geometría. La bota es perfecta."*
-  * **El Castigo Descalzo:** Si decide dejar la bota fuera y caminar descalzo por el diner, el suelo metálico está a temperaturas bajo cero y cubierto de estática poligonal. Sufre **desventaja en todas las pruebas de Destreza** y velocidad reducida a la mitad.
-  * **La Resignación:** Tarde o temprano, suspirando de asco, tiene que volver a ponérsela... momento en el cual el dolor punzante regresa de inmediato.
 
 ---
 

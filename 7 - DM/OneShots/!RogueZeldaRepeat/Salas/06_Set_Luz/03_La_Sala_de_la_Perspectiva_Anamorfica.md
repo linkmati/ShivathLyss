@@ -27,13 +27,18 @@
 ## ⚙️ Elementos Interactivos y Dinámica Ambiental
 
 * **Pedestal de la Retina**: Reacciona cuando un aventurero se para sobre él e ilumina la sala hacia el muro norte.
+* **Validación por Retina**: La losa tallada funciona como calco: el observador solo debe hacer coincidir su mirada con el dibujo de retina y mirar al muro norte. Cuando las sombras forman el glifo del sello de Minos, el **acople visual es inequívoco** (el glifo se ve completo). Sin tiradas.
 
 ---
 
 ## 🎯 Resolución del Puzle y Guía del DM
 
 ### Acciones y Comprobaciones
-* **Pararse en la Losa de Retina**: *Check de Investigación / Perspicacia (DC 11)* o colocación directa.
+* **Pararse en la Losa de Retina**: Colocarse sobre el grabado de retina y mirar al muro norte. Sin tirada: la validación es el **acople visual** del glifo (cuando las sombras forman el sello, el pasador se retrae).
+* **Anotar la Casilla X**: Anotar la posición exacta `X` de la losa en el cuaderno permite resolver el puzle al instante en incursiones futuras.
+
+### Consecuencias de Fallo (Cargas Arcanas)
+* **Alineación Errónea (Fail-Forward)**: Observar desde un punto que no es la losa de la retina (o iluminar en ángulo equivocado) **consume 1 Carga Arcana**: el glifo se rompe y el pasador no cede. La pista es visible y no bloquea: la losa de la retina proyecta sobre el muro un **fantasma persistente del glifo completo**, señalando el único ángulo desde el que las sombras encajan (sin tiradas; la validación visual del glifo no cambia).
 
 ### Recompensa
 * La alineación de sombras completa el glifo sagrado y retrae el pasador del portón.
