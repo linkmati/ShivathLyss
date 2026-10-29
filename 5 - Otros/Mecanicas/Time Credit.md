@@ -1,5 +1,5 @@
 ***Primary time credit***
-Venta de una hora de tu día 300GP~
+Venta de una hora de tu día 300GP~ (?)
 
 ***Secondary time credit***
 Venta de un año 7000GP~

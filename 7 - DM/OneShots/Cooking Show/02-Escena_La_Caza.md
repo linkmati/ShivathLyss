@@ -5,7 +5,7 @@
 *Jungla bordeando playa. Vapor TL7, cámaras flotantes, arena marcada con luces rojas de H4ppy (telegrafía ataques). Dos rocas grandes por arena para esconderse.*
 
 > ### ⚡ Resumen Rápido para el DM
-> - **Sin contadores.** Nada de Entropía. Cada bicho tiene 1-2 gimmicks fijas estilo raid WoW: telegrafía 1 turno antes (marca suelo / grito H4ppy), luego resuelve. Si los PJs juegan la mecánica, el bicho cae. Si la ignoran, duele.
+> - **Expedición MH 15-25 min + pelea 5-7r.** Cantina (buff) -> 3 zonas con 6 pistas/bicho -> Investigación 2/4/6 da emboscada, trampas y loot. El bicho rota si hacen ruido. Turf war 1 vez si se alargan.
 > - **Core Shivath que sí queda:** Martial Check gratis 1/turno, Clash para interrumpir nova, Severing para romper parte (daño + Prone + loot).
 > - **Seltas = embiste contra muro. Nerscylla = suelta a tu compa + no pises charco. Mantis = sepárense + escóndanse + interrumpan.**
 > - **Merciful en los 3.** A 0 HP: ¡PAUSA DRAMÁTICA! dron a 1 HP (máx 2 por grupo).
@@ -14,29 +14,74 @@
 
 — ¡OIGAN! ¡SIN MATEMÁTICAS! ¡Cada bicho tiene TRUCO! ¡Si brilla rojo, APÁRTENSE! ¡Si atrapa a un compa, PÉGUENLE A LA TELA! ¡Si enlaza a dos, SEPÁRENSE! ¡Si canaliza nova, INTERRUMPAN! ¡Rompan lo brillante para loot! ¡NO SEAN ABURRIDOS!
 
-## 🗺️ Arena (igual para los 3, cambia flavor)
+## 🗺️ Expedición (15-25 min MH, antes de pegar)
+
+No es 1 tirada y pelea. Es expedición: campamento -> 3 zonas -> pistas -> el bicho aparece cansado/herido/informado según lo bien que rastrearon. Los drones de H4ppy hacen de luciérnagas exploradoras (scoutflies): brillan verde sobre pista no recogida, rojo cuando el bicho está cerca.
+
+### Cantina (2 min, en campamento)
+
+Las Abuelas ponen puesto: elige 1 menú para todo el grupo (gratis por show, H4ppy paga ante cámara):
+- **Filete Treftiel:** +5 HP temp por PJ. Para ir a puños.
+- **Sopa escurridiza:** +2 a Supervivencia/Percepción en rastreo. Para investigar.
+- **Pincho eléctrico:** +1 al primer Martial Check y primera Severing. Para romper.
+H4ppy: ¡COMAN! ¡CONTENIDO DE COMIDA! ¡El Chat ama mukbang!
+
+### Las 3 zonas (el bicho rota)
 
 ```
-        [Roca A]
-           *
-[Bicho] * PJs * [Roca B]
-           *
-     [Campamento H4ppy]
+[1-Cueva Térmica: Seltas] — charcos calientes, rocas, restos cocidos
+[2-Pantano Ácido: Nerscylla] — webs, charcos verdes, presas envueltas
+[3-Nido Alto: Mantis] — plumas, espirales, estática, mirador para esconderse
+        \  |  /
+     [0-Campamento H4ppy + Cantina]
 ```
 
-Pon 2 rocas/columnas. Sirven para Seltas (que choque), Mantis (esconderse). Nerscylla las ignora (usa charcos).
+El bicho empieza en su zona. Cada 10 min reales o si hacen mucho ruido (fallan 2 sigilos / tiran Fireball), se mueve a otra zona (H4ppy: ¡SE MUEVE! ¡SÍGANLO!). Si lo encuentran comiendo o durmiendo, emboscada gratis + 1 ronda sorpresa.
 
-## 🔍 Rastrear (5 min)
+### Pistas (el corazón MH, 6 por bicho)
 
-Grupal con ventaja si ayudan.
+Reparte 6 pistas en sus 2-3 zonas (3 a simple vista, 3 escondidas DC +2). Cada pista: 1 PJ tira skill indicada, DC del bicho (Seltas 10, Nerscylla 12, Mantis 14). Éxito = +1 Investigación + describes qué aprenden. Fallo = la marcan igual pero sin bonus (aprenden a medias) + hacen ruido (2 fallos ruidosos = se mueve).
 
-- **Seltas:** DC 10. Surcos rectos, rocas rotas, escamas con sangre.
-- **Nerscylla:** DC 12. Telarañas con moscas, charcos verdes, silencio.
-- **Mantis:** DC 14. Plumas cortadas limpio, estática, marcas espiral en suelo.
+**Seltas (huellas pesadas):**
+1. Surcos rectos (Supervivencia): va en línea recta, no gira bien.
+2. Roca partida (Investigación): choca muros, se aturde.
+3. Escama con sangre (Naturaleza): sangra fácil, cura mágica lo frena.
+4. *Escondida* Moco seco (Percepción): babea antes de embestir (avisa línea).
+5. *Escondida* Nido caliente (Arcana): saco bajo abdomen resiste golpes (rompible).
+6. *Escondida* Caca con metal (Supervivencia): comió mineral, truena al morder.
 
-Éxito: emboscada + 1 Martial ya resuelto (diles la gimmick). Fallo: bicho primero.
+**Nerscylla (escena del crimen):**
+1. Mosca envuelta (Naturaleza): envuelve a lo que se aleja solo.
+2. Charco verde (Investigación/Cocina): veneno que ella se come para buffarse.
+3. Tela tensa (Percepción): redes en pasos estrechos.
+4. *Escondida* Muda vacía (Arcana): cambia de piel, pierde redes viejas (quemables).
+5. *Escondida* Hilo al healer (Perspicacia): marca al más lejano primero.
+6. *Escondida* Presa llorando (Trato Animal): si liberan 1 presa viva, les marca dónde duerme (emboscada).
 
-## ⚔️ Los 3 Bichos
+**Mantis (zona de tormenta):**
+1. Pluma cortada limpio (Investigación): cuchillas, sangrado.
+2. Espiral en suelo (Arcana): danza en círculo, borde = seguro.
+3. Aire que pica (Percepción): enlaza a dos, separarse 20ft.
+4. *Escondida* Gota subiendo (Arcana): vuela cuando está débil.
+5. *Escondida* Nido con huevos (Sigilo): si los tocan sin ruido, baja a defender y pierde 1 turno (furiosa pero predecible).
+6. *Escondida* Pararrayos natural (Naturaleza): rocas altas atraen vínculo (puedes redirigir 1 vínculo a roca con Engañar DC14).
+
+Turf war (1 vez por caza, a elegir DM): si hacen mucho ruido o tardan >15 min, aparece el otro bicho 1 ronda, se pegan entre ellos (20 daño ambos), dejan 2 pistas gratis y se van. H4ppy se vuelve loco: ¡TURF WAR! ¡CLIP! ¡El Chat EXPLOTA!
+
+### Nivel Investigación (recompensa rastrear, sin contadores nuevos)
+
+Cuenta pistas logradas (0-6), aplica al pelear ese bicho:
+- **2+ pistas (Rastreador):** barra HP visible + saben su gimmick principal + emboscada si lo encuentran comiendo/durmiendo.
+- **4+ pistas (Experto):** ventaja en primer Martial + saben debilidad parte (dónde severar) + 1 trampa gratis a elegir: trampa hielo (speed 0 1r), bomba sónica (cancela 1 vuelo/red 1r), carne envenenada (si la come: Poisoned 1r, solo Seltas/Nerscylla).
+- **6/6 (Maestro MH):** +2 al primer Severing + loot extra garantizado (escama dorada = +1 pto cocina o 25 gp) + el bicho empieza con 10% menos HP (llegan cuando dormía y le pegan gratis 1 ronda).
+
+Si llevan 0-1 pistas: el bicho empieza con ventaja (él embosca, actúa primero, H4ppy: ¡TAN MAL RASTREANDO!).
+
+Rivales en rastreo: kobolds recogen 1 pista/5 min (los oyen gritar), abuelas cocinan con lo que hallan (huelen desde lejos, dan 1 pista gratis si les llevan 1 ingrediente).
+
+## ⚔️ Los 3 Bichos (pelea en su zona, con 2 rocas para Seltas/Mantis)
+
+> Al pelear pon 2 rocas/columnas en mapa mental. Seltas las necesita para chocar, Mantis para esconderse de Danza. Nerscylla las ignora (usa charcos).
 
 ### 🟢 FÁCIL 25% - Seltas Lluvia, el Tanque (gimmick: ¡choca el muro!)
 

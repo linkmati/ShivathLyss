@@ -22,7 +22,7 @@ Instead of rolling for damage, each die is treated as the minimum possible value
 #### (3 Memory, Reaction, Intelligence, Wisdom or Charisma saving throw, before the effect takes place): 
 If the spell does damage you take half damage if you fail or no damage if you succeed. If the spell has any additional effects you may take the damage to succeed the saving throw. If the n spell has no damage, you automatically succeed.
 
-## NO NAME 
+## Re-Reaction
 #### (2 Memory, Triggered Action, when a reaction you have access to may be triggered and you don't have a reaction available) 
 You gain the reaction and make the reaction you are able to do
 
